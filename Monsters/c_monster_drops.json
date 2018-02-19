@@ -1,0 +1,523 @@
+[
+  {
+    "id": "wild_bio_weapom_item",
+    "type": "item_group",
+    "//": "items of the wild bio-weapons",
+    "subtype": "collection",
+    "entries": [
+      { "group": "weapon_hat", "damage": [ 1, 4 ] },
+      { "group": "weapon_suit", "damage": [ 1, 4 ] },
+      { "group": "weapon_badge", "damage": [ 0, 0 ] },
+      { "group": "weapom_feet", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "apophis_bio_weapom_item",
+    "type": "item_group",
+    "//": "items of bio-weapon apophis",
+    "subtype": "collection",
+    "entries": [
+      { "group": "weapon_hat", "damage": [ 1, 4 ] },
+      { "group": "weapon_suit", "damage": [ 1, 4 ] },
+      { "group": "weapon_badge_apophis", "damage": [ 0, 0 ] },
+      { "group": "weapom_feet", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "weapon_badge",
+    "type": "item_group",
+    "items": [ [ "badge_bio_weapon", 50 ] ]
+  },
+  {
+    "id": "weapon_badge_apophis",
+    "type": "item_group",
+    "items": [ [ "badge_bio_weapon_apophis", 100 ] ]
+  },
+  {
+    "id": "weapon_suit",
+    "type": "item_group",
+    "items": [ [ "subsuit_xl", 50 ] ]
+  },
+  {
+    "id": "weapom_feet",
+    "type": "item_group",
+    "items": [ [ "footrags", 50 ] ]
+  },
+  {
+    "id": "weapon_hat",
+    "type": "item_group",
+    "items": [ [ "hat_noise_cancelling", 50 ] ]
+  },
+  {
+    "id": "wild_bio_infantry",
+    "type": "item_group",
+    "//": "items of the super soldier",
+    "subtype": "collection",
+    "entries": [
+      { "group": "gloves_liner_d", "damage": [ 1, 4 ] },
+      { "group": "long_undertop_d", "damage": [ 1, 4 ] },
+      { "group": "long_underpants_d", "damage": [ 1, 4 ] },
+      { "group": "socks_d", "damage": [ 1, 4 ] },
+      { "group": "balclava_d", "damage": [ 1, 4 ] },
+      { "group": "helmet_army_d", "damage": [ 1, 4 ] },
+      { "group": "army_top_d", "damage": [ 1, 4 ] },
+      { "group": "gloves_tactical_d", "damage": [ 1, 4 ] },
+      { "group": "pants_army_d", "damage": [ 1, 4 ] },
+      { "group": "boots_combat_d", "damage": [ 1, 4 ] },
+      { "group": "jacket_army_d", "damage": [ 1, 4 ] },
+      { "group": "shoulder_strap_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d2", "damage": [ 1, 4 ] },
+      { "group": "arc_laser_rifle_d", "damage": [ 0, 1 ] },
+      { "group": "militarymap_d", "damage": [ 1, 4 ] },
+      { "group": "id_military_d", "damage": [ 1, 4 ] },
+      { "group": "boxer_shorts_d", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "gloves_liner_d",
+    "type": "item_group",
+    "items": [ [ "gloves_liner", 50 ] ]
+  },
+  {
+    "id": "long_undertop_d",
+    "type": "item_group",
+    "items": [ [ "long_undertop", 50 ] ]
+  },
+  {
+    "id": "long_underpants_d",
+    "type": "item_group",
+    "items": [ [ "long_underpants", 50 ] ]
+  },
+  {
+    "id": "socks_d",
+    "type": "item_group",
+    "items": [ [ "socks", 50 ] ]
+  },
+  {
+    "id": "balclava_d",
+    "type": "item_group",
+    "items": [ [ "balclava", 50 ] ]
+  },
+  {
+    "id": "helmet_army_d",
+    "type": "item_group",
+    "items": [ [ "helmet_army", 50 ] ]
+  },
+  {
+    "id": "army_top_d",
+    "type": "item_group",
+    "items": [ [ "army_top", 50 ] ]
+  },
+  {
+    "id": "gloves_tactical_d",
+    "type": "item_group",
+    "items": [ [ "gloves_tactical", 50 ] ]
+  },
+  {
+    "id": "pants_army_d",
+    "type": "item_group",
+    "items": [ [ "pants_army", 50 ] ]
+  },
+  {
+    "id": "boots_combat_d",
+    "type": "item_group",
+    "items": [ [ "boots_combat", 50 ] ]
+  },
+  {
+    "id": "jacket_army_d",
+    "type": "item_group",
+    "items": [ [ "jacket_army", 50 ] ]
+  },
+  {
+    "id": "shoulder_strap_d",
+    "type": "item_group",
+    "items": [ [ "shoulder_strap", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d2",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "arc_laser_rifle_d",
+    "type": "item_group",
+    "items": [ [ "arc_laser_rifle", 50 ] ]
+  },
+  {
+    "id": "militarymap_d",
+    "type": "item_group",
+    "items": [ [ "militarymap", 50 ] ]
+  },
+  {
+    "id": "id_military_d",
+    "type": "item_group",
+    "items": [ [ "id_military", 50 ] ]
+  },
+  {
+    "id": "boxer_shorts_d",
+    "type": "item_group",
+    "items": [ [ "boxer_shorts", 50 ] ]
+  },
+  {
+    "id": "wild_bio_scout",
+    "type": "item_group",
+    "//": "items of the super scout",
+    "subtype": "collection",
+    "entries": [
+      { "group": "gloves_liner_d", "damage": [ 1, 4 ] },
+      { "group": "long_undertop_d", "damage": [ 1, 4 ] },
+      { "group": "long_underpants_d", "damage": [ 1, 4 ] },
+      { "group": "socks_d", "damage": [ 1, 4 ] },
+      { "group": "balclava_d", "damage": [ 1, 4 ] },
+      { "group": "helmet_army_d", "damage": [ 1, 4 ] },
+      { "group": "army_top_d", "damage": [ 1, 4 ] },
+      { "group": "gloves_tactical_d", "damage": [ 1, 4 ] },
+      { "group": "pants_army_d", "damage": [ 1, 4 ] },
+      { "group": "boots_combat_d", "damage": [ 1, 4 ] },
+      { "group": "jacket_army_d", "damage": [ 1, 4 ] },
+      { "group": "shoulder_strap_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d2", "damage": [ 1, 4 ] },
+      { "group": "laser_sniper_d", "damage": [ 0, 1 ] },
+      { "group": "e_tool_d", "damage": [ 1, 4 ] },
+      { "group": "mre_beef_box_d", "damage": [ 1, 4 ] },
+      { "group": "militarymap_d", "damage": [ 1, 4 ] },
+      { "group": "id_military_d", "damage": [ 1, 4 ] },
+      { "group": "boxer_shorts_d", "damage": [ 1, 4 ] },
+      { "group": "large_tent_kit_d", "damage": [ 1, 4 ] },
+      { "group": "rollmat_d", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "gloves_liner_d",
+    "type": "item_group",
+    "items": [ [ "gloves_liner", 50 ] ]
+  },
+  {
+    "id": "long_undertop_d",
+    "type": "item_group",
+    "items": [ [ "long_undertop", 50 ] ]
+  },
+  {
+    "id": "long_underpants_d",
+    "type": "item_group",
+    "items": [ [ "long_underpants", 50 ] ]
+  },
+  {
+    "id": "socks_d",
+    "type": "item_group",
+    "items": [ [ "socks", 50 ] ]
+  },
+  {
+    "id": "balclava_d",
+    "type": "item_group",
+    "items": [ [ "balclava", 50 ] ]
+  },
+  {
+    "id": "helmet_army_d",
+    "type": "item_group",
+    "items": [ [ "helmet_army", 50 ] ]
+  },
+  {
+    "id": "army_top_d",
+    "type": "item_group",
+    "items": [ [ "army_top", 50 ] ]
+  },
+  {
+    "id": "gloves_tactical_d",
+    "type": "item_group",
+    "items": [ [ "gloves_tactical", 50 ] ]
+  },
+  {
+    "id": "pants_army_d",
+    "type": "item_group",
+    "items": [ [ "pants_army", 50 ] ]
+  },
+  {
+    "id": "boots_combat_d",
+    "type": "item_group",
+    "items": [ [ "boots_combat", 50 ] ]
+  },
+  {
+    "id": "jacket_army_d",
+    "type": "item_group",
+    "items": [ [ "jacket_army", 50 ] ]
+  },
+  {
+    "id": "shoulder_strap_d",
+    "type": "item_group",
+    "items": [ [ "shoulder_strap", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d2",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "laser_sniper_d",
+    "type": "item_group",
+    "items": [ [ "laser_sniper", 50 ] ]
+  },
+  {
+    "id": "militarymap_d",
+    "type": "item_group",
+    "items": [ [ "militarymap", 50 ] ]
+  },
+  {
+    "id": "e_tool_d",
+    "type": "item_group",
+    "items": [ [ "e_tool", 50 ] ]
+  },
+  {
+    "id": "mre_beef_box_d",
+    "type": "item_group",
+    "items": [ [ "mre_beef_box", 50 ] ]
+  },
+  {
+    "id": "id_military_d",
+    "type": "item_group",
+    "items": [ [ "id_military", 50 ] ]
+  },
+  {
+    "id": "boxer_shorts_d",
+    "type": "item_group",
+    "items": [ [ "boxer_shorts", 50 ] ]
+  },
+  {
+    "id": "large_tent_kit_d",
+    "type": "item_group",
+    "items": [ [ "large_tent_kit", 50 ] ]
+  },
+  {
+    "id": "rollmat_d",
+    "type": "item_group",
+    "items": [ [ "rollmat", 50 ] ]
+  },
+  {
+    "id": "wild_bio_knight",
+    "type": "item_group",
+    "//": "items of the super jauggernaut",
+    "subtype": "collection",
+    "entries": [
+      { "group": "gloves_liner_d", "damage": [ 1, 4 ] },
+      { "group": "long_undertop_d", "damage": [ 1, 4 ] },
+      { "group": "long_underpants_d", "damage": [ 1, 4 ] },
+      { "group": "socks_d", "damage": [ 1, 4 ] },
+      { "group": "lmil_armor_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d2", "damage": [ 1, 4 ] },
+      { "group": "militarymap_d", "damage": [ 1, 4 ] },
+      { "group": "id_military_d", "damage": [ 1, 4 ] },
+      { "group": "boxer_shorts_d", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "gloves_liner_d",
+    "type": "item_group",
+    "items": [ [ "gloves_liner", 50 ] ]
+  },
+  {
+    "id": "long_undertop_d",
+    "type": "item_group",
+    "items": [ [ "long_undertop", 50 ] ]
+  },
+  {
+    "id": "long_underpants_d",
+    "type": "item_group",
+    "items": [ [ "long_underpants", 50 ] ]
+  },
+  {
+    "id": "socks_d",
+    "type": "item_group",
+    "items": [ [ "socks", 50 ] ]
+  },
+  {
+    "id": "lmil_armor_d",
+    "type": "item_group",
+    "items": [ [ "lmil_armor", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d2",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "militarymap_d",
+    "type": "item_group",
+    "items": [ [ "militarymap", 50 ] ]
+  },
+  {
+    "id": "e_tool_d",
+    "type": "item_group",
+    "items": [ [ "e_tool", 50 ] ]
+  },
+  {
+    "id": "mre_beef_box_d",
+    "type": "item_group",
+    "items": [ [ "mre_beef_box", 50 ] ]
+  },
+  {
+    "id": "id_military_d",
+    "type": "item_group",
+    "items": [ [ "id_military", 50 ] ]
+  },
+  {
+    "id": "boxer_shorts_d",
+    "type": "item_group",
+    "items": [ [ "boxer_shorts", 50 ] ]
+  },
+  {
+    "id": "large_tent_kit_d",
+    "type": "item_group",
+    "items": [ [ "large_tent_kit", 50 ] ]
+  },
+  {
+    "id": "rollmat_d",
+    "type": "item_group",
+    "items": [ [ "rollmat", 50 ] ]
+  },
+  {
+    "id": "wild_bio_tool",
+    "type": "item_group",
+    "//": "items of the super tool",
+    "subtype": "collection",
+    "entries": [
+      { "group": "gloves_liner_d", "damage": [ 1, 4 ] },
+      { "group": "long_undertop_d", "damage": [ 1, 4 ] },
+      { "group": "long_underpants_d", "damage": [ 1, 4 ] },
+      { "group": "socks_d", "damage": [ 1, 4 ] },
+      { "group": "balclava_d", "damage": [ 1, 4 ] },
+      { "group": "helmet_army_d", "damage": [ 1, 4 ] },
+      { "group": "army_top_d", "damage": [ 1, 4 ] },
+      { "group": "gloves_tactical_d", "damage": [ 1, 4 ] },
+      { "group": "pants_army_d", "damage": [ 1, 4 ] },
+      { "group": "boots_combat_d", "damage": [ 1, 4 ] },
+      { "group": "jacket_army_d", "damage": [ 1, 4 ] },
+      { "group": "shoulder_strap_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d", "damage": [ 1, 4 ] },
+      { "group": "dump_pouch_d2", "damage": [ 1, 4 ] },
+      { "group": "v29_d", "damage": [ 0, 1 ] },
+      { "group": "chemistry_set_d", "damage": [ 1, 4 ] },
+      { "group": "battery_ups_d", "damage": [ 1, 4 ] },
+      { "group": "militarymap_d", "damage": [ 1, 4 ] },
+      { "group": "id_military_d", "damage": [ 1, 4 ] },
+      { "group": "boxer_shorts_d", "damage": [ 1, 4 ] }
+    ]
+  },
+  {
+    "id": "gloves_liner_d",
+    "type": "item_group",
+    "items": [ [ "gloves_liner", 50 ] ]
+  },
+  {
+    "id": "long_undertop_d",
+    "type": "item_group",
+    "items": [ [ "long_undertop", 50 ] ]
+  },
+  {
+    "id": "long_underpants_d",
+    "type": "item_group",
+    "items": [ [ "long_underpants", 50 ] ]
+  },
+  {
+    "id": "socks_d",
+    "type": "item_group",
+    "items": [ [ "socks", 50 ] ]
+  },
+  {
+    "id": "balclava_d",
+    "type": "item_group",
+    "items": [ [ "balclava", 50 ] ]
+  },
+  {
+    "id": "helmet_army_d",
+    "type": "item_group",
+    "items": [ [ "helmet_army", 50 ] ]
+  },
+  {
+    "id": "army_top_d",
+    "type": "item_group",
+    "items": [ [ "army_top", 50 ] ]
+  },
+  {
+    "id": "gloves_tactical_d",
+    "type": "item_group",
+    "items": [ [ "gloves_tactical", 50 ] ]
+  },
+  {
+    "id": "pants_army_d",
+    "type": "item_group",
+    "items": [ [ "pants_army", 50 ] ]
+  },
+  {
+    "id": "boots_combat_d",
+    "type": "item_group",
+    "items": [ [ "boots_combat", 50 ] ]
+  },
+  {
+    "id": "jacket_army_d",
+    "type": "item_group",
+    "items": [ [ "jacket_army", 50 ] ]
+  },
+  {
+    "id": "shoulder_strap_d",
+    "type": "item_group",
+    "items": [ [ "shoulder_strap", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "dump_pouch_d2",
+    "type": "item_group",
+    "items": [ [ "dump_pouch", 50 ] ]
+  },
+  {
+    "id": "v29_d",
+    "type": "item_group",
+    "items": [ [ "v29", 50 ] ]
+  },
+  {
+    "id": "militarymap_d",
+    "type": "item_group",
+    "items": [ [ "militarymap", 50 ] ]
+  },
+  {
+    "id": "chemistry_set_d",
+    "type": "item_group",
+    "items": [ [ "chemistry_set", 50 ] ]
+  },
+  {
+    "id": "battery_ups_d",
+    "type": "item_group",
+    "items": [ [ "battery_ups", 50 ] ]
+  },
+  {
+    "id": "id_military_d",
+    "type": "item_group",
+    "items": [ [ "id_military", 50 ] ]
+  },
+  {
+    "id": "boxer_shorts_d",
+    "type": "item_group",
+    "items": [ [ "boxer_shorts", 50 ] ]
+  }
+]

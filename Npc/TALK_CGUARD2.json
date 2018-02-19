@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TALK_CGUARD2",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Hello there, hotshot, try not to break anything, ok?",
+      "no": "Welcome.  Try not to cause any trouble and things will be just fine."
+    },
+    "responses": [
+      {
+        "text": "Noted.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

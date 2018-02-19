@@ -1,0 +1,91 @@
+[
+  {
+    "id": "skirt_leather",
+    "copy-from": "skirt_leather",
+    "type": "ARMOR",
+    "name": "leather skirt",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "long_glove_white",
+    "copy-from": "long_glove_white",
+    "type": "ARMOR",
+    "name": "pair of extra long white gloves",
+    "name_plural": "pairs of extra long white gloves",
+    "color": "white",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "knee_high_boots",
+    "copy-from": "knee_high_boots",
+    "type": "ARMOR",
+    "name": "pair of knee-high boots",
+    "name_plural": "pairs of knee-high boots",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "thigh_high_boots",
+    "copy-from": "thigh_high_boots",
+    "type": "ARMOR",
+    "name": "pair of thigh-high boots",
+    "name_plural": "pairs of thigh-high boots",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "bikini_bottom",
+    "copy-from": "bikini_bottom",
+    "type": "ARMOR",
+    "name": "bikini bottom",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "bikini_top",
+    "copy-from": "bikini_top",
+    "type": "ARMOR",
+    "name": "bikini top",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "bikini_top_fur",
+    "copy-from": "bikini_top_fur",
+    "type": "ARMOR",
+    "name": "fur bikini top",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "bikini_top_leather",
+    "copy-from": "bikini_top_leather",
+    "type": "ARMOR",
+    "name": "leather bikini top",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "wetsuit_spring",
+    "copy-from": "wetsuit_spring",
+    "type": "ARMOR",
+    "name": "spring suit",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "bondage_suit",
+    "copy-from": "bondage_suit",
+    "type": "ARMOR",
+    "name": "bondage suit",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "cowboy_hat",
+    "copy-from": "cowboy_hat",
+    "type": "ARMOR",
+    "name": "cowboy hat",
+    "extend": { "flags": [ "FANCY" ] }
+  },
+  {
+    "id": "nanoskirt",
+    "copy-from": "nanoskirt",
+    "type": "ARMOR",
+    "name": "nanoskirt",
+    "extend": { "flags": [ "SUPER_FANCY" ] },
+    "delete": { "flags": [ "FANCY" ] }
+  }
+]

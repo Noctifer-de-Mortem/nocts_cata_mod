@@ -1,0 +1,133 @@
+[
+  {
+    "type": "scenario",
+    "name": "Bunker Evacuee",
+    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter. It's summer now and you somehow survived, now things get a little bit easier.",
+    "flags": [ "SUR_START", "SUM_START" ],
+    "ident": "bunker",
+    "points": 2,
+    "start_name": "LMOE Shelter",
+    "allowed_locs": [ "lmoe" ],
+    "professions": [ "senior", "hacker", "lawyer", "labtech", "bionic_spy", "soldier", "national_guard", "specops", "bio_soldier", "bio_sniper" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Into the Wild",
+    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you are headed. It's autumn now... winter is coming... they lurk by the trees... time to rebuild...",
+    "flags": [ "SUR_START", "AUT_START" ],
+    "ident": "bugout",
+    "points": -2,
+    "start_name": "Forest",
+    "allowed_locs": [ "forest", "surv_camp_l" ],
+    "professions": [ "naturalist", "winter_survivor", "winter_scavenger" ],
+    "traits": [ "MARTIAL_ARTS_SURV" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Bio-Weapon Lab",
+    "description": "You woke up, where are you?  Who are you?  What are you?!  That doesn't matter right now... you have a bad feeling...",
+    "flags": [ "SUR_START", "SUM_START" ],
+    "ident": "bio_weapon_lab",
+    "points": 2,
+    "start_name": "Bio-Weapon Lab",
+    "allowed_locs": [ "Bio_Weapon_Lab_l" ],
+    "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d" ],
+    "forbidden_traits": [ "EASYSLEEPER", "NONADDICTIVE", "ANIMALEMPATH", "CANNIBAL", "DEFT", "DISRESISTANT", "DRUNKEN", "HUNGER", "FASTHEALER", "FASTREADER", "FLEET", "GOODHEARING", "GOODMEMORY", "GOURMAND", "ADRENALINE", "INCONSPICUOUS", "GOODCARDIO", "WAKEFUL", "INFRESIST", "LIGHTEATER", "LIGHTSTEP", "MARTIAL_ARTS", "MASOCHIST", "MARTIAL_ARTS5", "NIGHTVISION", "OPTIMISTIC", "OUTDOORSMAN", "PACKMULE", "PAINRESIST", "PARKOUR", "POISRESIST", "PRETTY", "PSYCHOPATH", "QUICK", "ROBUST", "EAGLEEYED", "SELFAWARE", "MARTIAL_ARTS2", "MARTIAL_ARTS3", "LIAR", "SPIRITUAL", "STRONGBACK", "STRONGSTOMACH", "STYLISH", "TOLERANCE", "TERRIFYING", "THICKSKIN", "TOUGH", "TOUGH_FEET", "MARTIAL_ARTS4", "WEAKSCENT", "ADDICTIVE", "ALBINO", "ANIMALDISCORD", "ASTHMA", "BADKNEES", "BADBACK", "BADTEMPER", "CHEMIMBALANCE", "CLUMSY", "DISORGANIZED", "HYPEROPIC", "FLIMSY", "FORGETFUL", "FLIMSY3", "FLIMSY2", "GLASSJAW", "ANTIFRUIT", "MEATARIAN", "THIRST", "HOARDER", "ILLITERATE", "INSOMNIA", "JITTERY", "VEGETARIAN", "LACTOSE", "ANTIJUNK", "BADCARDIO", "LIGHTWEIGHT", "MOODSWINGS", "MYOPIC", "PACIFIST", "BADHEARING", "SAVANT", "SCHIZOPHRENIC", "SLEEPY", "SLOWHEALER", "SLOWREADER", "SLOWRUNNER", "SMELLY", "THINSKIN", "TRIGGERHAPPY", "TRUTHTELLER", "UGLY", "WEAKSTOMACH", "WOOLALLERGY", "ANTIWHEAT", "HEAVYSLEEPER", "FASTLEARNER", "SLOWLEARNER" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Mycus B.W.M.D",
+    "description": "After mycus assimilation was successful, our local system was instructed to claim more territory for the mycus. Hostile organisms are near, proceed with caution.",
+    "flags": [ "SUR_START", "AUT_START" ],
+    "ident": "mycus_bwmd",
+    "points": 2,
+    "start_name": "Fungal Territory",
+    "allowed_locs": [ "forest", "field" ],
+    "professions": [ "mycus_weapon" ],
+    "forbidden_traits": [ "EASYSLEEPER", "NONADDICTIVE", "ANIMALEMPATH", "CANNIBAL", "DEFT", "DISRESISTANT", "DRUNKEN", "HUNGER", "FASTHEALER", "FASTREADER", "FLEET", "GOODHEARING", "GOODMEMORY", "GOURMAND", "ADRENALINE", "INCONSPICUOUS", "GOODCARDIO", "WAKEFUL", "INFRESIST", "LIGHTEATER", "LIGHTSTEP", "MARTIAL_ARTS", "MASOCHIST", "MARTIAL_ARTS5", "NIGHTVISION", "OPTIMISTIC", "OUTDOORSMAN", "PACKMULE", "PAINRESIST", "PARKOUR", "POISRESIST", "PRETTY", "PSYCHOPATH", "QUICK", "ROBUST", "EAGLEEYED", "SELFAWARE", "MARTIAL_ARTS2", "MARTIAL_ARTS3", "LIAR", "SPIRITUAL", "STRONGBACK", "STRONGSTOMACH", "STYLISH", "TOLERANCE", "TERRIFYING", "THICKSKIN", "TOUGH", "TOUGH_FEET", "MARTIAL_ARTS4", "WEAKSCENT", "ADDICTIVE", "ALBINO", "ANIMALDISCORD", "ASTHMA", "BADKNEES", "BADBACK", "BADTEMPER", "CHEMIMBALANCE", "CLUMSY", "DISORGANIZED", "HYPEROPIC", "FLIMSY", "FORGETFUL", "FLIMSY3", "FLIMSY2", "GLASSJAW", "ANTIFRUIT", "MEATARIAN", "THIRST", "HOARDER", "ILLITERATE", "INSOMNIA", "JITTERY", "VEGETARIAN", "LACTOSE", "ANTIJUNK", "BADCARDIO", "LIGHTWEIGHT", "MOODSWINGS", "MYOPIC", "PACIFIST", "BADHEARING", "SAVANT", "SCHIZOPHRENIC", "SLEEPY", "SLOWHEALER", "SLOWREADER", "SLOWRUNNER", "SMELLY", "THINSKIN", "TRIGGERHAPPY", "TRUTHTELLER", "UGLY", "WEAKSTOMACH", "WOOLALLERGY", "ANTIWHEAT", "HEAVYSLEEPER", "FASTLEARNER", "SLOWLEARNER" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Prepper Household",
+    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, it's time to put your plan into action.",
+    "ident": "prep_house",
+    "points": 2,
+    "start_name": "Boarded Up House",
+    "allowed_locs": [ "boarded_house" ],
+    "professions": [ "unemployed", "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ]
+  },
+  {
+    "copy-from": "mutant",
+    "type": "scenario",
+    "extend": { "professions": [ "faulty_bionic", "cykotic" ] },
+    "ident": "mutant"
+  },
+  {
+    "copy-from": "bad_day",
+    "type": "scenario",
+    "extend": { "professions": [ "faulty_bionic", "cykotic" ] },
+    "ident": "bad_day"
+  },
+  {
+    "copy-from": "missed",
+    "type": "scenario",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
+    "ident": "missed"
+  },
+  {
+    "copy-from": "missed",
+    "type": "scenario",
+    "ident": "missed",
+    "traits": [ "MARTIAL_ARTS_SURV" ]
+  },
+  {
+    "copy-from": "fire",
+    "type": "scenario",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
+    "ident": "fire"
+  },
+  {
+    "copy-from": "infected",
+    "type": "scenario",
+    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
+    "ident": "infected"
+  },
+  {
+    "copy-from": "ambushed",
+    "type": "scenario",
+    "ident": "ambushed",
+    "traits": [ "MARTIAL_ARTS_SURV" ]
+  },
+  {
+    "copy-from": "wilderness",
+    "type": "scenario",
+    "extend": {
+      "allowed_locs": [ "surv_camp_l" ],
+      "professions": [ "pri-sur" ]
+    },
+    "ident": "wilderness"
+  },
+  {
+    "type": "scenario",
+    "name": "Super Soldier's Helicopter Crash",
+    "description": "A Super Soldier transport helicopter was downed in the middle of the chaos, you awaken to the aftermath.",
+    "flags": [ "HELI_CRASH" ],
+    "ident": "ss_heli_crash",
+    "points": -2,
+    "start_name": "Crash site",
+    "allowed_locs": [ "field" ],
+    "map_special": "mx_helicopter",
+    "professions": [ "bio_weapon_hunter", "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Slave Fighter's Freedom",
+    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
+    "flags": [ "CHALLENGE" ],
+    "ident": "house_fight_scenario",
+    "points": -2,
+    "start_name": "Sketchy Cabin",
+    "allowed_locs": [ "house_fight_s" ],
+    "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
+  }
+]

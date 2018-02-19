@@ -1,0 +1,90 @@
+[
+  {
+    "id": "MISSION_PROOF_APOPHIS_DEAD",
+    "type": "mission_definition",
+    "name": "Kill Bio Weapoon Apophis",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 10,
+    "value": 100000,
+    "item": "badge_bio_weapon_apophis",
+    "count": 1,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "If you see this, it's a bug!",
+      "offer": "Only one thing comes to mind.  You seem like a capable person, so you might have a chance.  There is a map in the locker.  It has the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
+      "accepted": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.",
+      "rejected": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
+      "advice": "Got some decent armor and weapons, this fight won't be easy. Assemble a team to make it easier. Ask Lambda and Sigma if they want to join you, if you want.  A single person can't take it on...",
+      "inquire": "Is... it dead?",
+      "success": "Is that...you did it!  You have no idea what you have done for us!  You are truly a legend among men in this dark times.  You are always welcomed here!",
+      "success_lie": "Oh, no proof huh?...I hope you are being truthful...",
+      "failure": "At least you are alive...I should have never told you to do something like that...I am sorry..."
+    }
+  },
+  {
+    "id": "MISSION_FIND_COMMAND_CENTER",
+    "type": "mission_definition",
+    "name": "Reach Command Center",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 2,
+    "value": 80000,
+    "start": "join",
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "destination": "makeshift_command_center",
+    "dialogue": {
+      "describe": "If you see this, it's a bug!",
+      "offer": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it...",
+      "accepted": "Thank you.  I'll follow along and maybe we'll get some answers.",
+      "rejected": "Oh.  I'd rather try to find the place with some help, so if you're willing to later on maybe...",
+      "advice": "I was going to search this old lab for intel that might help.  I think I saw some paperwork that marked some likely locations, guess I'll let you examine it instead.",
+      "inquire": "Any closer to the others yet?",
+      "success": "Excellent.  I'll go ahead and stick around for now.  Looks like they have a decent little setup going on here.  Maybe asking around will get us pointed in the right direction.",
+      "success_lie": "Thanks for trying...  I guess.",
+      "failure": "It's all for nothing, isn't it?"
+    }
+  },
+  {
+    "id": "MISSION_TAKE_SIGMA",
+    "type": "mission_definition",
+    "name": "Help Sigma find Apophis",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 3,
+    "value": 50000,
+    "start": "join",
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "destination": "Unknown_Bunker",
+    "dialogue": {
+      "describe": "If you see this, it's a bug!",
+      "offer": "I am tired of being stuck here without being anything to do! I want to take down the great beast that plagues us once and for all. But I am not able to even find where it lives...you think you could take me to it's lair?",
+      "accepted": "Hell yeah!  I'll follow along for now and see if I an take it on.",
+      "rejected": "Oh well...nothing has changed then but I can't blame you...",
+      "advice": "Ask Router I know he knows something but he won't let us in on it...",
+      "inquire": "Found where the beast lays?",
+      "success": "Oh. Well, this place was more fortified than I expected...I think I will stay with you for a while longer since you seem to know what you are doing. Maybe we could take in on together one day?",
+      "success_lie": "...Are you done waisting my time?",
+      "failure": "Guess we are back to square one..."
+    }
+  },
+  {
+    "id": "MISSION_TAKE_LAMBDA",
+    "type": "mission_definition",
+    "name": "Help Lambda find Apophis",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 3,
+    "value": 50000,
+    "start": "join",
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "destination": "Unknown_Bunker",
+    "dialogue": {
+      "describe": "If you see this, it's a bug!",
+      "offer": "Sigma and I were talking and we decided searching for the great beast known as apophis would be the best thing we could do. We were built for combat and we can't hide here forever. However...We have no idea where apophis lives...could you lend us a hand on searching since you have been out there?",
+      "accepted": "Excellent! I will follow your lead as our navigator.",
+      "rejected": "That's fine. I understand the dangers so I don't fault you for declining...",
+      "advice": "I think speaking with Router would be the best place to start. He know the history of this whole project.",
+      "inquire": "Found where the Apophis is?",
+      "success": "This place seems a bit too much for me to handle on the outside alone...thank you anyways. I will continue to follow you, if you don't mind, since you do seem to know your way around.",
+      "success_lie": "You really don't know here it is do you?",
+      "failure": "It was worth the shot..."
+    }
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "TALK_MSCI",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "You've got the badge, huh?  I am listening.",
+      "no": "Hey there!  Welcome to the Command Center."
+    },
+    "responses": [
+      {
+        "text": "What is this place?",
+        "topic": "TALK_MSCI_CC_EXPLAIN"
+      },
+      {
+        "text": "Who are you?",
+        "topic": "TALK_MSCI_I_AM"
+      },
+      {
+        "text": "What are you doing here?",
+        "topic": "TALK_MSCI_ASK_DOING"
+      },
+      {
+        "text": "Anything I can help with?",
+        "topic": "TALK_MISSION_OFFER"
+      },
+      {
+        "text": "Can I stay here?",
+        "topic": "TALK_MSCI_ASK_STAY"
+      },
+      {
+        "text": "Farewell.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_CC_EXPLAIN",
+    "type": "talk_topic",
+    "dynamic_line": "This a refuge for the former scientists of the Bio-Weapon project.  We settled here in the woods and tried to make a living.  We allow people to stay here, as long as they contribute something.  We even managed to find a couple of stray Bio-Weapons!",
+    "responses": [
+      {
+        "text": "Seems like you got it good here.",
+        "topic": "TALK_MSCI"
+      },
+      {
+        "text": "Who are these Bio-Weapons here?",
+        "topic": "TALK_MSCI_BIO_WHO"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_BIO_WHO",
+    "type": "talk_topic",
+    "dynamic_line": "That would be Sigma and Lambda.  They are very confused.  They awoke with their memory gone and they knew they were 'different'.  I found them and they helped to scavenge and build this place.  They were built for combat;  I can tell they're bored out of their minds...",
+    "responses": [
+      {
+        "text": "I'll keep on eye out for them.",
+        "topic": "TALK_MSCI"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_I_AM",
+    "type": "talk_topic",
+    "dynamic_line": "I am the leader of this place.  I go by Router.  Before the cataclysm I used to be the second lead scientist in the Bio-Weapon Project.  I designed Sigma and Lambda and saw them being stored away.  I now dedicate myself to upgrading this place, basic survival and finding more info on the project I worked on.",
+    "responses": [
+      {
+        "text": "Seems like you've got a lot on your plate.",
+        "topic": "TALK_MSCI"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_ASK_DOING",
+    "type": "talk_topic",
+    "dynamic_line": "Well, the main reason we are hiding here is Apophis...  It is a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Currently we don't have anything that could stand a decent chance against it, so we're trying to create our own Bio-Weapon to counter Apophis. Sigma and Lambda have expressed interest in going after it, but they won't be able to take it out on their own.",
+    "responses": [
+      {
+        "text": "Oh, good luck, I suppose.",
+        "topic": "TALK_MSCI"
+      },
+      {
+        "text": "What exactly is Apophis and is it really that dangerous?",
+        "topic": "TALK_MSCI_APOPHIS"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_APOPHIS",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "You have that badge, you should know how powerful those things are.  Apophis could take them all at once.  Have you seen a Zombie Hulk?  They wouldn't even scratch it.  Worse still, there are some rejects from Bio-Weapon program that have sided with him. This is why we are hiding here.",
+      "no": "Ha!  You really have no idea, do you?  Have you ever fought a Bio-Weapon?  How about those failed versions?  Tough, right?  They have nothing on Apophis.  It's incredibly durable thanks to its armor and its heavy weaponry is a step above other Bio-Weapons.  Apophis is far more dangerous than any ordinary enemy."
+    },
+    "responses": [
+      {
+        "text": "...",
+        "topic": "TALK_MSCI"
+      }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_ASK_DO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Well.  Only one thing comes to mind.  You were a part of the program, too, so you might have a chance.  There is a map in the locker.  It has the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  Take Lambda and Sigma with you, if you want.  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
+      "no": "Help?  Well... there is one thing.  If you feel up for it, grab the map from the locker;  it marks the lab where Apophis resides.  If you think you can kill the damn thing, anything left inside is yours.  Take Lambda and Sigma with you, if you want.  I don't really expect you to take the offer, but since you've asked..."
+    },
+    "responses": [
+      {
+        "text": "I'll take care of this.",
+        "trial": { "type": "NONE" },
+        "success": {
+          "opinion": {
+            "trust": 1,
+            "fear": 2,
+            "value": 3,
+            "anger": 0
+          },
+          "topic": "TALK_MSCI_THANKS"
+        }
+      },
+      {
+        "text": "It seems like too much for me...",
+        "trial": { "type": "NONE" },
+        "success": {
+          "opinion": {
+            "trust": 0,
+            "fear": -2,
+            "value": -2,
+            "anger": 0
+          },
+          "topic": "TALK_MSCI_NOTHANKS"
+        }
+      }
+    ],
+    "//": "This Talk topic is no lobger used"
+  },
+  {
+    "id": "TALK_MSCI_THANKS",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.",
+      "no": "I appreciate the sentiment but I didn't mean it.  I don't expect you to just give up your life like this.  Thanks anyway, though.  That being said, the map is still there if you want it."
+    },
+    "responses": [
+      {
+        "text": "Now for the map...",
+        "topic": "TALK_MSCI"
+      }
+    ],
+    "//": "This Talk topic is no lobger used"
+  },
+  {
+    "id": "TALK_MSCI_NOTHANKS",
+    "type": "talk_topic",
+    "dynamic_line": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
+    "responses": [
+      {
+        "text": "Sorry.",
+        "topic": "TALK_MSCI"
+      }
+    ],
+    "//": "This Talk topic is no lobger used"
+  },
+  {
+    "id": "TALK_MSCI_ASK_STAY",
+    "type": "talk_topic",
+    "dynamic_line": "Sure, just clean up after yourself and try to not piss anyone off.  Help is appreciated, if you have the time.",
+    "responses": [
+      {
+        "text": "Thanks.",
+        "topic": "TALK_MSCI"
+      }
+    ]
+  }
+]

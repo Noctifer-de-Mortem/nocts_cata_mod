@@ -1,0 +1,99 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_1",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "I really hope that badge belongs to you...",
+      "no": "Hey visitor, anything exciting out there?"
+    },
+    "responses": [
+      {
+        "text": "You are a Bio-Weapon?",
+        "topic": "TALK_BIO_1_U_BIO"
+      },
+      {
+        "text": "Kinda boring here huh?",
+        "topic": "TALK_BIO_1_BORING"
+      },
+      {
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
+      },
+      {
+        "text": "Well, bye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_1_U_BIO",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Yeah.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
+      "no": "That's right.  You seem to know your stuff, guess one doesn't simply find this place by accident.  Router told me what I am.  I am stuck here until further notice."
+    },
+    "responses": [
+      {
+        "text": "Well, damn.",
+        "topic": "TALK_BIO_1"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_1_BORING",
+    "dynamic_line": "Tell me about it.  I am a weapon, made to kill and destroy. I am stuck here, hiding from something I can't kill or destroy.  Wish there was something I could do...",
+    "responses": [
+      {
+        "text": "Must be tough...",
+        "topic": "TALK_BIO_1"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "//": "This Talk topic is no lobger used",
+    "id": "TALK_BIO_1_JOIN",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "I am listening...",
+      "no": "An offer, huh?  Well, might as well hear it."
+    },
+    "responses": [
+      {
+        "text": "Why don't you join me?  There are plenty of things out there to be killed.  You wouldn't have to hide anymore.  And we could go after Apophis...",
+        "topic": "TALK_BIO_1_JOIN2"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "//": "This Talk topic is no lobger used",
+    "id": "TALK_BIO_1_JOIN2",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Heh, guess that badge of yours isn't just for show.  You really think we can take Apophis...?  I really want to leave this place.  Alright, you've got yourself a deal!",
+      "no": "So you know about Apophis, then?  Hm... well, if I go with you, I get to have some fun again.  Sure, I'll tag along..."
+    },
+    "responses": [
+      {
+        "text": "Things are going to be different from now on.",
+        "trial": {
+          "type": "NONE"
+        },
+        "success": {
+          "topic": "TALK_DONE",
+          "effect": "follow"
+        },
+        "opinion": {
+          "trust": 8,
+          "fear": 0,
+          "value": 8,
+          "anger": -2
+        }
+      }
+    ]
+  }
+]

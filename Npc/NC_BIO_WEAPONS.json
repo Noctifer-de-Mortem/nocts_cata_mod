@@ -1,0 +1,85 @@
+[
+  {
+    "id": "NC_BIO_WEAPON_worn",
+    "type": "item_group",
+    "//": "Generic tactical kit, unisex, some concessions to claw mutations.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "kevlar" },
+      { "item": "arm_warmers" },
+      { "item": "leg_warmers" },
+      { "item": "pants_army" },
+      { "item": "knee_pads" },
+      { "item": "jacket_army" },
+      { "item": "elbow_pads" },
+      { "item": "tac_helmet" },
+      { "item": "gloves_wraps" },
+      { "item": "gloves_fingerless" },
+      { "item": "socks" },
+      { "item": "boots_combat" },
+      { "item": "backpack" },
+      { "item": "badge_bio_weapon" }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_carry",
+    "type": "item_group",
+    "//": "Pairs the guns and ammo.",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "NC_BIO_WEAPON_carry_scar_l", "prob": 40 },
+      { "group": "NC_BIO_WEAPON_carry_fal", "prob": 20 },
+      { "group": "NC_BIO_WEAPON_carry_scar_h", "prob": 20 },
+      { "group": "NC_BIO_WEAPON_carry_8mm", "prob": 20 }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_carry_scar_l",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      { "item": "scar_l" },
+      { "item": "stanag30", "count": [ 2, 3 ] }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_carry_fal",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      { "item": "fn_fal" },
+      { "item": "falmag", "count": [ 2, 3 ] }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_carry_scar_h",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      { "item": "scar_h" },
+      { "item": "scarhmag", "count": [ 2, 3 ] }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_carry_8mm",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      {
+        "distribution": [
+          { "item": "rm51_assault_rifle", "prob": 50 },
+          { "item": "rm88_battle_rifle", "prob": 50 }
+        ]
+      },
+      { "item": "8x40_50_mag", "count": [ 2, 3 ] }
+    ]
+  }
+]

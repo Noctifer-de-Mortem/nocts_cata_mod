@@ -1,0 +1,1226 @@
+[
+  {
+    "type": "profession",
+    "ident": "failed_weapon",
+    "name": "Failed Bio-Weapon",
+    "description": "From the moment you opened your eyes you knew you were a failure, a reject.  Destined to be something great but many a mistake took that away from you.  You awoke in a world of monsters, now you join them, brethren...",
+    "points": 2,
+    "traits": [
+      "PSYCHOPATH",
+      "HUNGER",
+      "CLUMSY",
+      "UNSTABLE",
+      "ANIMALDISCORD",
+      "CANNIBAL",
+      "DEFORMED",
+      "FASTHEALER2",
+      "BIO_WEAPON_FAILED"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      }
+    ],
+    "CBMs": [
+      "bio_dis_shock",
+      "bio_dis_acid",
+      "bio_drain",
+      "bio_noise",
+      "bio_power_weakness",
+      "bio_itchy",
+      "bio_nostril",
+      "bio_thumbs",
+      "bio_spasm",
+      "bio_shakes",
+      "bio_leaky",
+      "bio_sleepy",
+      "bio_deformity",
+      "bio_voice",
+      "bio_pokedeye",
+      "bio_ankles",
+      "bio_trip",
+      "bio_stiff",
+      "bio_razors",
+      "bio_storage",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_hydraulics",
+      "bio_metabolics",
+      "bio_chain_lightning",
+      "bio_carbon",
+      "bio_nanobots",
+      "bio_painkiller",
+      "bio_torsionratchet",
+      "bio_cqb",
+      "bio_shock",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_armor_eyes"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags",
+        "hat_noise_cancelling"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "mycus_weapon",
+    "name": "Fungus Failed Bio-Weapon",
+    "description": "Assimilation process is complete, incorporation and modification of biology and bionics into our system was successful. Protection of our new domain and brethren is our current objective. Inability to remove previous DNA marker is but a minor setback.",
+    "points": 4,
+    "traits": [
+      "PSYCHOPATH",
+      "HUNGER",
+      "CLUMSY",
+      "ANIMALDISCORD",
+      "CANNIBAL",
+      "DEFORMED",
+      "FASTHEALER2",
+      "THRESH_MYCUS",
+      "M_SKIN2",
+      "M_BLOOM",
+      "M_IMMUNE",
+      "M_DEFENDER",
+      "BIO_WEAPON_FAILED"
+    ],
+    "CBMs": [
+      "bio_drain",
+      "bio_itchy",
+      "bio_nostril",
+      "bio_thumbs",
+      "bio_leaky",
+      "bio_sleepy",
+      "bio_trip",
+      "bio_stiff",
+      "bio_razors",
+      "bio_storage",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_hydraulics",
+      "bio_metabolics",
+      "bio_chain_lightning",
+      "bio_carbon",
+      "bio_nanobots",
+      "bio_painkiller",
+      "bio_torsionratchet",
+      "bio_cqb",
+      "bio_shock",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_armor_eyes"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit",
+        "mycus_fruit"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_weapon_a",
+    "name": "Bio-Weapon Alpha",
+    "description": "'The Predator'.  You were the first, the Alpha.  Created to sow chaos behind enemy lines, driven by hunger.  You awoke into the unknown with an appetite - good thing the world is full of prey to devour!",
+    "points": 8,
+    "traits": [
+      "SMELLY",
+      "QUICK",
+      "PAINREC1",
+      "STRONGSTOMACH",
+      "GOODCARDIO",
+      "PAINRESIST",
+      "ANIMALEMPATH",
+      "TERRIFYING",
+      "PADDED_FEET",
+      "CANNIBAL",
+      "NIGHTVISION",
+      "PSYCHOPATH",
+      "CLUMSY",
+      "THRESH_CHIMERA",
+      "EATDEAD",
+      "SHOUT3",
+      "EATHEALTH",
+      "PRED4",
+      "BIO_WEAPON_ALPHA"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "unarmed"
+      }
+    ],
+    "CBMs": [
+      "bio_dex_enhancer",
+      "bio_eye_enhancer",
+      "bio_str_enhancer",
+      "bio_adrenaline",
+      "bio_carbon",
+      "bio_claws",
+      "bio_cqb",
+      "bio_digestion",
+      "bio_water_extractor",
+      "bio_ears",
+      "bio_furnace",
+      "bio_heat_absorb",
+      "bio_hydraulics",
+      "bio_metabolics",
+      "bio_nanobots",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_recycler",
+      "bio_uncanny_dodge"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_weapon_d",
+    "name": "Bio-Weapon Delta",
+    "description": "'The Infiltrator', created to infiltrate, scout, spy and assassinate.  Capable of taking down enemies from afar, exploring enemy territory and integrating into the local populace.  You awoke to chaos, and you plan to eliminate whoever caused it.",
+    "points": 8,
+    "traits": [
+      "PSYCHOPATH",
+      "NIGHTVISION",
+      "LIGHTSTEP",
+      "WAKEFUL",
+      "WEAKSCENT",
+      "EAGLEEYED",
+      "TRIGGERHAPPY",
+      "BADCARDIO",
+      "OUTDOORSMAN",
+      "LIAR",
+      "BEAUTIFUL3",
+      "BIO_WEAPON_DELTA"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "archery"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 2,
+        "name": "barter"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      }
+    ],
+    "CBMs": [
+      "bio_dex_enhancer",
+      "bio_int_enhancer",
+      "bio_eye_enhancer",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_torsionratchet",
+      "bio_targeting",
+      "bio_digestion",
+      "bio_carbon",
+      "bio_ups",
+      "bio_watch",
+      "bio_recycler",
+      "bio_face_mask",
+      "bio_ears",
+      "bio_cloak",
+      "bio_alarm",
+      "bio_lockpick",
+      "bio_fingerhack",
+      "bio_evap",
+      "bio_lighter",
+      "bio_tools",
+      "bio_climate",
+      "bio_meteorologist"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_weapon_b",
+    "name": "Bio-Weapon Beta",
+    "description": "'The Immortal', designed to be a one-man army.  Your body is a lethal weapon, finely tuned arms and defenses ready to destroy anything standing in your way.  You awoke to a horde of enemies, so now you take them all on.",
+    "points": 8,
+    "traits": [
+      "PSYCHOPATH",
+      "NIGHTVISION",
+      "PAINREC1",
+      "RADIOGENIC",
+      "INFRESIST",
+      "FASTHEALER",
+      "SELFAWARE",
+      "DISRESISTANT",
+      "TOUGH3",
+      "POISRESIST",
+      "BADKNEES",
+      "CLUMSY",
+      "TRIGGERHAPPY",
+      "BADCARDIO",
+      "SLOWRUNNER",
+      "PONDEROUS1",
+      "STRONGSTOMACH",
+      "BIO_WEAPON_BETA"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "cutting"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "gun"
+      }
+    ],
+    "CBMs": [
+      "bio_str_enhancer",
+      "bio_dex_enhancer",
+      "bio_adrenaline",
+      "bio_armor_arms",
+      "bio_armor_eyes",
+      "bio_armor_head",
+      "bio_armor_legs",
+      "bio_armor_torso",
+      "bio_sword",
+      "bio_laser_armgun",
+      "bio_flamethrower",
+      "bio_hydraulics",
+      "bio_nanobots",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_armor_interface_mkII",
+      "bio_heat_absorb",
+      "bio_shock",
+      "bio_sunglasses",
+      "bio_blood_filter",
+      "bio_faraday",
+      "bio_leukocyte",
+      "bio_painkiller",
+      "bio_purifier",
+      "bio_radscrubber",
+      "bio_solar",
+      "bio_batteries",
+      "bio_torsionratchet",
+      "bio_ears",
+      "bio_targeting"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_weapon_g",
+    "name": "Bio-Weapon Gamma",
+    "description": "'The Mechanic', created to sabotage, destroy, assimilate or repair bio-technology.  You are a walking, adaptive repair machine.  You awoke to the sounds of machines fighting abominations.  You could help them, or destroy them, if they get in your way.",
+    "points": 8,
+    "traits": [
+      "PROF_MED",
+      "PSYCHOPATH",
+      "INT_UP_2",
+      "GOODMEMORY",
+      "FASTLEARNER",
+      "FASTREADER",
+      "BIO_WEAPON_GAMMA"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 3,
+        "name": "mechanics"
+      },
+      {
+        "level": 2,
+        "name": "fabrication"
+      }
+    ],
+    "CBMs": [
+      "bio_int_enhancer",
+      "bio_carbon",
+      "bio_chain_lightning",
+      "bio_emp",
+      "bio_magnet",
+      "bio_nanobots",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_railgun",
+      "bio_remote",
+      "bio_resonator",
+      "bio_shock",
+      "bio_torsionratchet",
+      "bio_cable",
+      "bio_tools",
+      "bio_razors",
+      "bio_hydraulics",
+      "bio_ups",
+      "bio_sunglasses"
+    ],
+    "items": {
+      "both": [
+        "badge_bio_weapon",
+        "subsuit_xl",
+        "footrags"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_weapon_hunter",
+    "name": "Bio-Weapon Hunter",
+    "description": "The culmination of the Super Soldier project. You have been created to not only single handedly take on any mission, but to track down and take down what started it all, the Bio-Weapons. Will you follow through?",
+    "points": 15,
+    "CBMs": [
+      "bio_armor_eyes",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_carbon",
+      "bio_eye_optic",
+      "bio_sunglasses",
+      "bio_ups",
+      "bio_watch",
+      "bio_metabolics",
+      "bio_cqb",
+      "bio_claws",
+      "bio_shock",
+      "bio_flamethrower",
+      "bio_lockpick",
+      "bio_fingerhack",
+      "bio_nanobots",
+      "bio_flashlight",
+      "bio_night_vision",
+      "bio_tools",
+      "bio_hydraulics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "unarmed"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      }
+    ],
+    "items": {
+      "both": [
+        "undershirt",
+        "arm_warmers",
+        "leg_warmers",
+        "pants_army",
+        "jacket_army",
+        "balclava",
+        "beret",
+        "gloves_liner",
+        "gloves_tactical",
+        "socks",
+        "boots_combat",
+        "badge_bio_weapon",
+        "canteen",
+        "shoulder_strap",
+        "arc_laser_rifle",
+        "mre_veggy_box",
+        "biomap",
+        "militarymap"
+      ],
+      "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_infantry",
+    "name": "Super Soldier",
+    "description": "The infantry of the Super Soldier project. You are one of many augmented soldiers to be deployed into a battle field to ensure victory. With range and melee, and regenerative capabilities, you engage enemies en masse.",
+    "points": 10,
+    "CBMs": [
+      "bio_targeting",
+      "bio_ups",
+      "bio_purifier",
+      "bio_carbon",
+      "bio_cqb",
+      "bio_blade",
+      "bio_shock",
+      "bio_flamethrower",
+      "bio_night_vision",
+      "bio_geiger",
+      "bio_adrenaline",
+      "bio_nanobots",
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "unarmed"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": [
+        "undershirt",
+        "arm_warmers",
+        "leg_warmers",
+        "pants_army",
+        "jacket_army",
+        "balclava",
+        "beret",
+        "gloves_liner",
+        "gloves_tactical",
+        "socks",
+        "boots_combat",
+        "shoulder_strap",
+        "arc_laser_rifle",
+        "militarymap",
+        "id_military"
+      ],
+      "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_scout",
+    "name": "Super Scout",
+    "description": "The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.",
+    "points": 10,
+    "CBMs": [
+      "bio_eye_optic",
+      "bio_targeting",
+      "bio_ups",
+      "bio_climate",
+      "bio_tools",
+      "bio_evap",
+      "bio_lighter",
+      "bio_fingerhack",
+      "bio_lockpick",
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "stabbing"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "fabrication"
+      },
+      {
+        "level": 2,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "tailor"
+      },
+      {
+        "level": 1,
+        "name": "swimming"
+      }
+    ],
+    "items": {
+      "both": [
+        "pants_army",
+        "army_top",
+        "jacket_army",
+        "gloves_tactical",
+        "rucksack",
+        "balclava",
+        "hat_boonie",
+        "socks",
+        "boots_combat",
+        "sheath",
+        "knife_combat",
+        "canteen",
+        "binoculars",
+        "mil_mess_kit",
+        "shoulder_strap",
+        "rifle_scope",
+        "laser_sniper",
+        "e_tool",
+        "mre_beef_box",
+        "militarymap",
+        "id_military",
+        "tent_kit",
+        "rollmat"
+      ],
+      "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_knight",
+    "name": "Super Juggernaut",
+    "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, melee, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
+    "points": 10,
+    "CBMs": [
+      "bio_armor_eyes",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_carbon",
+      "bio_str_enhancer",
+      "bio_targeting",
+      "bio_purifier",
+      "bio_sword",
+      "bio_shock",
+      "bio_laser_armgun",
+      "bio_flamethrower",
+      "bio_night_vision",
+      "bio_geiger",
+      "bio_hydraulics",
+      "bio_adrenaline",
+      "bio_nanobots",
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "cutting"
+      }
+    ],
+    "items": {
+      "both": [
+        "undershirt",
+        "arm_warmers",
+        "leg_warmers",
+        "pants_army",
+        "jacket_army",
+        "balclava",
+        "beret",
+        "gloves_liner",
+        "gloves_tactical",
+        "socks",
+        "boots_combat",
+        "militarymap",
+        "id_military"
+      ],
+      "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "bio_tool",
+    "name": "Super B.A.M.R.U",
+    "description": "Biological and mechanical repair unit, the repairs man of the Super Soldier project. You are one of many augmented military repairmen to be used as a repair module. With repair and general electronic capabilities, you can maybe repair the world.",
+    "points": 10,
+    "CBMs": [
+      "bio_int_enhancer",
+      "bio_ups",
+      "bio_sunglasses",
+      "bio_blindfold",
+      "bio_watch",
+      "bio_memory",
+      "bio_tools",
+      "bio_flashlight",
+      "bio_nanobots",
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "electronics"
+      },
+      {
+        "level": 3,
+        "name": "mechanics"
+      },
+      {
+        "level": 3,
+        "name": "cooking"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "fabrication"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 1,
+        "name": "gun"
+      }
+    ],
+    "items": {
+      "both": [
+        "undershirt",
+        "arm_warmers",
+        "leg_warmers",
+        "pants_army",
+        "jacket_army",
+        "balclava",
+        "beret",
+        "gloves_liner",
+        "gloves_tactical",
+        "socks",
+        "boots_combat",
+        "holster",
+        "v29",
+        "militarymap",
+        "id_military"
+      ],
+      "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "sf_blade",
+    "name": "Slave Fighter (Blade)",
+    "description": "You were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
+    "points": 6,
+    "CBMs": [
+      "bio_sword",
+      "bio_shock",
+      "bio_adrenaline",
+      "bio_carbon",
+      "bio_dex_enhancer",
+      "bio_heat_absorb",
+      "bio_speed",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "cutting"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": [
+        "socks",
+        "hat_cotton",
+        "gloves_fingerless",
+        "tshirt",
+        "jeans",
+        "boots"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "sf_claw",
+    "name": "Slave Fighter (Claws)",
+    "description": "You were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
+    "points": 6,
+    "CBMs": [
+      "bio_claws",
+      "bio_cqb",
+      "bio_adrenaline",
+      "bio_carbon",
+      "bio_dex_enhancer",
+      "bio_heat_absorb",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "unarmed"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 1,
+        "name": "stabbing"
+      },
+      {
+        "level": 1,
+        "name": "bashing"
+      }
+    ],
+    "items": {
+      "both": [
+        "socks",
+        "hat_cotton",
+        "gloves_fingerless",
+        "tshirt",
+        "jeans",
+        "boots"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "sf_shock",
+    "name": "Slave Fighter (Shocker)",
+    "description": "You were augmented with electrical generators and protection from them. You hit multiple foes with electricity, frying them until their nervous system gives up.",
+    "points": 6,
+    "CBMs": [
+      "bio_chain_lightning",
+      "bio_targeting",
+      "bio_shock",
+      "bio_faraday",
+      "bio_eye_enhancer",
+      "bio_carbon",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "gun"
+      },
+      {
+        "level": 2,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      }
+    ],
+    "items": {
+      "both": [
+        "socks",
+        "hat_cotton",
+        "gloves_fingerless",
+        "tshirt",
+        "jeans",
+        "boots"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "sf_weapon",
+    "name": "Slave Fighter (Weapon Master)",
+    "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
+    "points": 6,
+    "traits": [
+      "MARTIAL_ARTS_SURV"
+    ],
+    "CBMs": [
+      "bio_razors",
+      "bio_magnet",
+      "bio_railgun",
+      "bio_shock",
+      "bio_flamethrower",
+      "bio_targeting",
+      "bio_eye_enhancer",
+      "bio_dex_enhancer",
+      "bio_str_enhancer",
+      "bio_speed",
+      "bio_carbon",
+      "bio_heat_absorb",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "unarmed"
+      },
+      {
+        "level": 2,
+        "name": "stabbing"
+      },
+      {
+        "level": 2,
+        "name": "cutting"
+      },
+      {
+        "level": 2,
+        "name": "bashing"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "gun"
+      },
+      {
+        "level": 2,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "shotgun"
+      },
+      {
+        "level": 2,
+        "name": "smg"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "launcher"
+      },
+      {
+        "level": 2,
+        "name": "archery"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": [
+        "socks",
+        "hat_cotton",
+        "gloves_fingerless",
+        "tshirt",
+        "jeans",
+        "boots"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  }
+]

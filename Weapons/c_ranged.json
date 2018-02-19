@@ -1,0 +1,2090 @@
+[
+  {
+    "id": "unbio_laser_gun",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "magenta",
+    "name": "bio laser pistol",
+    "description": "Finger Laser CBM turned into a pistol.  Very accurate, but not particularly damaging.",
+    "price": 85000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "skill": "pistol",
+    "flags": [
+      "NO_AMMO",
+      "NEVER_JAMS"
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "ups_charges": 20,
+    "weight": 6,
+    "volume": 12,
+    "to_hit": 0,
+    "ranged_damage": 10,
+    "range": 30,
+    "dispersion": 10,
+    "sight_dispersion": 150,
+    "aim_speed": 0,
+    "recoil": 0,
+    "durability": 10,
+    "reload": 500
+  },
+  {
+    "id": "unbio_chain_lightning",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "magenta",
+    "name": "chain lightning rifle",
+    "description": "Rifle built with parts salvaged from Chain Lightning CBM.  Fires bolts of electricity that jump between nearby enemies.",
+    "price": 420000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "skill": "rifle",
+    "flags": [
+      "NO_AMMO",
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ],
+    "ammo_effects": [
+      "LIGHTNING",
+      "BOUNCE"
+    ],
+    "ups_charges": 40,
+    "weight": 2840,
+    "volume": 14,
+    "to_hit": 0,
+    "ranged_damage": 16,
+    "range": 10,
+    "dispersion": 10,
+    "sight_dispersion": 150,
+    "aim_speed": 0,
+    "recoil": 0,
+    "durability": 10,
+    "reload": 500
+  },
+  {
+    "id": "laser_sniper",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": "MX-84 laser sniper",
+    "description": "A single shot laser rifle designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Powered by UPS, it fires a single powerful laser beam at the target. Its manufacturer is unknown.",
+    "price": 1600000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ],
+    "ups_charges": 100,
+    "skill": "rifle",
+    "weight": 2950,
+    "volume": 12,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 75,
+    "pierce": 20,
+    "range": 40,
+    "dispersion": 0,
+    "sight_dispersion": 60,
+    "aim_speed": 10,
+    "recoil": 10,
+    "durability": 10,
+    "reload": 100,
+    "built_in_mods": [
+      "rifle_scope",
+      "rail_laser_sight",
+      "bipod"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "mechanism",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "bolt_rifle_elec",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "dark_gray",
+    "name": "BR-96 bolt rifle",
+    "description": "An electronic rifle that fires crossbow bolts accelerated to high speeds.  Powered by UPS.  Intended to be used in wilderness operations, allowing the user to reuse or manufacture ammunition. Its manufacturer is unknown.",
+    "price": 1520000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "flags": [
+      "ALWAYS_TWOHAND",
+      "RELOAD_ONE",
+      "MODE_BURST",
+      "NEVER_JAMS"
+    ],
+    "ups_charges": 2,
+    "skill": "rifle",
+    "ammo": "bolt",
+    "weight": 3280,
+    "volume": 14,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 25,
+    "range": 20,
+    "dispersion": 50,
+    "sight_dispersion": 60,
+    "aim_speed": 4,
+    "recoil": 30,
+    "durability": 8,
+    "burst": 3,
+    "clip_size": 12,
+    "reload": 100,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "flesh_rifle",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "dark_red",
+    "name": "Biological Rifle",
+    "description": "A rifle made out of fleshy material enclosed by metal.  It fires... something - something quite damaging and flammable.  It seems to absorb radiation and electricity.  Occasionally it twitches or lets out disturbing noises that sound suspiciously like moans.  Hopefully it's not sentient...",
+    "price": 580000,
+    "material": [
+      "flesh",
+      "steel"
+    ],
+    "ammo_effects": [
+      "BOUNCE",
+      "NEVER_JAMS",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "NEVER_JAMS",
+      "NO_UNLOAD",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "weight": 1872,
+    "volume": 8,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": 40,
+    "pierce": 20,
+    "range": 35,
+    "dispersion": 30,
+    "sight_dispersion": 50,
+    "aim_speed": 5,
+    "recoil": 20,
+    "durability": 8,
+    "burst": 5,
+    "reload": 0,
+    "valid_mod_locations": [
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "use_action": "ARTIFACT",
+    "artifact_data": {
+      "effects_carried": [
+        "AEP_ATTENTION",
+        "AEP_PBLUE",
+        "AEP_RESIST_ELECTRICITY"
+      ],
+      "effects_wielded": [
+        "AEP_EVIL",
+        "AEP_DEX_UP",
+        "AEP_PER_UP",
+        "AEP_MUTAGENIC"
+      ]
+    }
+  },
+  {
+    "id": "arc_laser_rifle",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": "ARC-314 laser carbine",
+    "description": "An experimental laser carbine based on the A7. Compact, powerful and low UPS consumption make it an improvement over its predecessor, even if it rattles a bit when fired. Features a fixed holographic sight that swivels aside and behind it more rail for another sight. Its manufacturer is unknown.",
+    "price": 1800000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "MODE_BURST",
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ],
+    "ups_charges": 20,
+    "skill": "rifle",
+    "weight": 2950,
+    "volume": 8,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 20,
+    "pierce": 10,
+    "range": 25,
+    "dispersion": 0,
+    "//": "Laser means no dispersion.",
+    "sight_dispersion": 50,
+    "aim_speed": 4,
+    "recoil": 0,
+    "durability": 8,
+    "burst": 10,
+    "reload": 0,
+    "built_in_mods": [
+      "holo_sight",
+      "rail_laser_sight",
+      "pistol_grip"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        2
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "laser_lmg",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": "KRX-108 laser LMG",
+    "description": "An experimental laser LMG created for power. It is heavy, large and bulky but is very accurate and powerful per shot and cost effective. Has a built in auto tageting system for use as a vehicle turret. Its manufacturer is unknown.",
+    "price": 1800000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "MODE_BURST",
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ],
+    "ups_charges": 50,
+    "skill": "rifle",
+    "weight": 5620,
+    "volume": 15,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 40,
+    "pierce": 15,
+    "range": 20,
+    "dispersion": 10,
+    "//": "Fire rate over accuracy but it still is a laser gun.",
+    "sight_dispersion": 50,
+    "aim_speed": 8,
+    "recoil": 5,
+    "durability": 8,
+    "burst": 20,
+    "reload": 0,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        2
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "sur_pnu_lmg",
+    "type": "GUN",
+    "color": "dark_gray",
+    "symbol": "(",
+    "name": "Survivor's Pneumatic LMG",
+    "description": "A LMG version of the Pneumatic Assault Rifle. Has a way bigger magazine but does not allow to unload ammo. Has a higher burst of fire but increased recoil and less accurate. Made with modularity in mind. The addition of a foot crank as the firing mechanism increases noise slightly but makes it so it will never jam! A survivors best friend.",
+    "price": 226000,
+    "material": [
+      "wood",
+      "steel"
+    ],
+    "weight": 11536,
+    "volume": 17,
+    "bashing": 10,
+    "to_hit": -1,
+    "flags": [
+      "NO_UNLOAD",
+      "NEVER_JAMS",
+      "ALWAY_TWOHAND",
+      "MODE_BURST",
+      "STR_RELOAD",
+      "RELOAD_ONE"
+    ],
+    "ammo": "pebble",
+    "skill": "rifle",
+    "ranged_damage": 25,
+    "pierce": 25,
+    "range": 25,
+    "dispersion": 80,
+    "sight_dispersion": 200,
+    "aim_speed": 8,
+    "recoil": 50,
+    "durability": 10,
+    "burst": 10,
+    "clip_size": 100,
+    "reload": 750,
+    "loudness": 10,
+    "built_in_mods": [
+      "lmg_handle"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "carry handle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "ups_rifle",
+    "type": "GUN",
+    "color": "yellow",
+    "symbol": "(",
+    "name": "Survivor's UPS Rifle",
+    "description": "A rifle that converts UPS energy into pure laser firepower. Uses 20 UPS charges per shot. Advanced electronics prevent jams and make it double as a turret. Futuristic survivor technology.",
+    "price": 358000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "weight": 4145,
+    "volume": 14,
+    "bashing": 12,
+    "to_hit": -1,
+    "ammo_effects": [
+      "LASER",
+      "SHOT",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "NO_UNLOAD",
+      "MODE_BURST",
+      "ALWAY_TWOHAND"
+    ],
+    "ups_charges": 50,
+    "skill": "rifle",
+    "ranged_damage": 20,
+    "pierce": 10,
+    "range": 25,
+    "dispersion": 30,
+    "sight_dispersion": 80,
+    "aim_speed": 8,
+    "recoil": 5,
+    "durability": 8,
+    "burst": 10,
+    "reload": 0,
+    "loudness": 2,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "ups_rifle_crank",
+    "type": "GUN",
+    "color": "yellow",
+    "symbol": "(",
+    "name": "Survivor's Crank Rifle",
+    "description": "Somehow, after many days of research...you created it. A simple conversion now that you think about it...Replace the motor of your UPS Rifle with a foot crank and bam... infinite ammo... lower performance, lower turret ability and jams are but small setbacks...",
+    "price": 749000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "weight": 4964,
+    "volume": 17,
+    "bashing": 8,
+    "to_hit": -1,
+    "ammo_effects": [
+      "LASER",
+      "SHOT",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_AMMO",
+      "NO_UNLOAD",
+      "MODE_BURST",
+      "ALWAY_TWOHAND"
+    ],
+    "skill": "rifle",
+    "ranged_damage": 18,
+    "pierce": 8,
+    "range": 20,
+    "dispersion": 50,
+    "sight_dispersion": 100,
+    "aim_speed": 10,
+    "recoil": 15,
+    "durability": 8,
+    "burst": 10,
+    "reload": 0,
+    "loudness": 5,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_battery_pistol",
+    "type": "GUN",
+    "color": "light_red",
+    "symbol": "{",
+    "name": "Survivor's Battery Pistol",
+    "description": "A simple electronic pistol. Draws power from batteries and shoots it. Although weak, it shocks the target.",
+    "price": 42400,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "weight": 2940,
+    "volume": 4,
+    "bashing": 3,
+    "to_hit": -1,
+    "ammo_effects": [
+      "LIGHTNING"
+    ],
+    "flags": [
+      "MODE_BURST"
+    ],
+    "ammo": "battery",
+    "skill": "pistol",
+    "ranged_damage": 2,
+    "range": 10,
+    "dispersion": 15,
+    "sight_dispersion": 50,
+    "aim_speed": 4,
+    "recoil": 10,
+    "durability": 8,
+    "burst": 10,
+    "clip_size": 50,
+    "reload": 300,
+    "loudness": 2,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_battery_rifle",
+    "type": "GUN",
+    "color": "light_red",
+    "symbol": "{",
+    "name": "Survivor's Battery Rifle",
+    "description": "An electronic rifle. Draws power from batteries and shoots it. Its complexity may cause jams. Still weak but has higher damage than its pistol variant, it still shocks the target.",
+    "price": 87100,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "weight": 5360,
+    "volume": 12,
+    "bashing": 8,
+    "to_hit": -1,
+    "ammo_effects": [
+      "LIGHTNING"
+    ],
+    "flags": [
+      "MODE_BURST",
+      "ALWAY_TWOHAND",
+      "NEVER_JAMS"
+    ],
+    "ammo": "battery",
+    "skill": "rifle",
+    "ranged_damage": 6,
+    "pierce": 2,
+    "range": 15,
+    "dispersion": 35,
+    "sight_dispersion": 75,
+    "aim_speed": 8,
+    "recoil": 30,
+    "durability": 8,
+    "burst": 15,
+    "clip_size": 300,
+    "reload": 600,
+    "loudness": 3,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_223",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .223 Assault Rifle",
+    "name_plural": "Survivor's .223 Assault Rifles",
+    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality over pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .223 cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "223",
+    "weight": 3028,
+    "volume": 8,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 60,
+    "sight_dispersion": 60,
+    "aim_speed": 6,
+    "recoil": 30,
+    "durability": 8,
+    "burst": 5,
+    "reload": 100,
+    "loudness": 50,
+    "magazines": [
+      [
+        "223",
+        [
+          "surv_223_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_22",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .22 SMG",
+    "name_plural": "Survivor's .22 SMGs",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality over pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .22 cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "MODE_BURST"
+    ],
+    "skill": "smg",
+    "ammo": "22",
+    "weight": 2074,
+    "volume": 6,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 200,
+    "sight_dispersion": 90,
+    "aim_speed": 4,
+    "recoil": 45,
+    "durability": 6,
+    "burst": 8,
+    "reload": 100,
+    "loudness": 60,
+    "magazines": [
+      [
+        "22",
+        [
+          "surv_22_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_9mm",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's 9mm SMG",
+    "name_plural": "Survivor's 9mm SMGs",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality over pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the 9mm cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "MODE_BURST"
+    ],
+    "skill": "smg",
+    "ammo": "9mm",
+    "weight": 3158,
+    "volume": 6,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 200,
+    "sight_dispersion": 90,
+    "aim_speed": 4,
+    "recoil": 45,
+    "durability": 6,
+    "burst": 8,
+    "reload": 100,
+    "loudness": 60,
+    "magazines": [
+      [
+        "9mm",
+        [
+          "surv_9mm_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_45",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .45 SMG",
+    "name_plural": "Survivor's .45 SMGs",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality over pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .45 cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "MODE_BURST"
+    ],
+    "skill": "smg",
+    "ammo": "45",
+    "weight": 3160,
+    "volume": 6,
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 200,
+    "sight_dispersion": 90,
+    "aim_speed": 4,
+    "recoil": 45,
+    "durability": 6,
+    "burst": 8,
+    "reload": 100,
+    "loudness": 60,
+    "magazines": [
+      [
+        "45",
+        [
+          "surv_45_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_308",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .308 Assault Rifle",
+    "name_plural": "Survivor's .308 Assault Rifles",
+    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality over pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .308 cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "308",
+    "weight": 3238,
+    "volume": 8,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 60,
+    "sight_dispersion": 60,
+    "aim_speed": 6,
+    "recoil": 30,
+    "durability": 8,
+    "burst": 5,
+    "reload": 100,
+    "loudness": 50,
+    "magazines": [
+      [
+        "308",
+        [
+          "surv_308_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_762",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's 7.62x39 Assault Rifle",
+    "name_plural": "Survivor's 7.62x39 Assault Rifles",
+    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality over pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x39 cartridge.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "762",
+    "weight": 3169,
+    "volume": 8,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 5,
+    "range": 5,
+    "dispersion": 60,
+    "sight_dispersion": 60,
+    "aim_speed": 6,
+    "recoil": 30,
+    "durability": 8,
+    "burst": 5,
+    "reload": 100,
+    "loudness": 50,
+    "magazines": [
+      [
+        "762",
+        [
+          "surv_762_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_full_12",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's Full auto shotgun",
+    "name_plural": "Survivor's Full auto shotguns",
+    "description": "A (mostly) homemade full auto shotgun built from a full auto receiver.  While still lower quality over pre-cataclysm shotguns, it's superior to many other homemade weapons.  Takes the 12 gauge cartridge via its magazine.",
+    "price": 120000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "shotgun",
+    "ammo": "shot",
+    "weight": 3592,
+    "volume": 10,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 0,
+    "range": 5,
+    "dispersion": 60,
+    "sight_dispersion": 60,
+    "aim_speed": 8,
+    "recoil": 30,
+    "durability": 6,
+    "burst": 5,
+    "reload": 100,
+    "loudness": 160,
+    "magazines": [
+      [
+        "shot",
+        [
+          "surv_12_mag"
+        ]
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_lmg_308",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .308 LMG",
+    "name_plural": "Survivor's .308 LMGs",
+    "description": "A (mostly) homemade LMG built from a full auto receiver.  While still lower quality over pre-cataclysm LMGs, it's superior to many other homemade weapons.  Takes the .308 cartridge via its magazine.",
+    "price": 150000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "308",
+    "weight": 8238,
+    "volume": 10,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 10,
+    "range": 10,
+    "dispersion": 80,
+    "sight_dispersion": 80,
+    "aim_speed": 8,
+    "recoil": 60,
+    "durability": 8,
+    "burst": 10,
+    "reload": 100,
+    "loudness": 80,
+    "magazines": [
+      [
+        "308",
+        [
+          "surv_belt_308"
+        ]
+      ]
+    ],
+    "built_in_mods": [
+      "lmg_handle"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "carry handle",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_lmg_762",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's 7.62x39 LMG",
+    "name_plural": "Survivor's 7.62x39 LMGs",
+    "description": "A (mostly) homemade LMG built from a full auto receiver.  While still lower quality over pre-cataclysm LMGs, it's superior to many other homemade weapons.  Takes the 7.62x39 cartridge via its magazine.",
+    "price": 150000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "762",
+    "weight": 8169,
+    "volume": 10,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 10,
+    "range": 10,
+    "dispersion": 80,
+    "sight_dispersion": 80,
+    "aim_speed": 8,
+    "recoil": 60,
+    "durability": 8,
+    "burst": 10,
+    "reload": 100,
+    "loudness": 80,
+    "magazines": [
+      [
+        "762",
+        [
+          "surv_belt_762"
+        ]
+      ]
+    ],
+    "built_in_mods": [
+      "lmg_handle"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "carry handle",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_lmg_223",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's .223 LMG",
+    "name_plural": "Survivor's .223 LMGs",
+    "description": "A (mostly) homemade LMG built from a full auto receiver.  While still lower quality over pre-cataclysm LMGs, it's superior to many other homemade weapons.  Takes the .223 cartridge via its magazine.",
+    "price": 150000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "ALWAY_TWOHAND",
+      "MODE_BURST"
+    ],
+    "skill": "rifle",
+    "ammo": "223",
+    "weight": 8028,
+    "volume": 10,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 10,
+    "range": 10,
+    "dispersion": 80,
+    "sight_dispersion": 80,
+    "aim_speed": 8,
+    "recoil": 60,
+    "durability": 8,
+    "burst": 10,
+    "reload": 100,
+    "loudness": 80,
+    "magazines": [
+      [
+        "223",
+        [
+          "surv_belt_223"
+        ]
+      ]
+    ],
+    "built_in_mods": [
+      "lmg_handle"
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "conversion",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "carry handle",
+        1
+      ],
+      [
+        "magazine",
+        2
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "survbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "light_brown",
+    "name": "Survivor's Fighting Bow",
+    "description": "A powerful bow that requires a strong archer to use.  This bow has been designed carefully for accuracy, power and ease of use.  The tips of the bow have makeshift blades to make this bow an efficient melee weapon when things get close and personal.  Because of the blades, this bow cannot be worn and the only valid mods are sights.",
+    "price": 88000,
+    "material": [
+      "wood",
+      "steel"
+    ],
+    "flags": [
+      "ALWAYS_TWOHAND",
+      "STR_DRAW",
+      "RELOAD_AND_SHOOT",
+      "PRIMITIVE_RANGED_WEAPON",
+      "SLICE",
+      "REACH_ATTACK"
+    ],
+    "techniques": [
+      "RAPID",
+      "IMPALE",
+      "WBLOCK_2",
+      "PRECISE"
+    ],
+    "skill": "archery",
+    "min_strength": 8,
+    "ammo": "arrow",
+    "weight": 2835,
+    "volume": 8,
+    "bashing": 18,
+    "cutting": 18,
+    "to_hit": 0,
+    "ranged_damage": 25,
+    "pierce": 2,
+    "range": 25,
+    "dispersion": 95,
+    "sight_dispersion": 100,
+    "aim_speed": 2,
+    "recoil": 2,
+    "durability": 8,
+    "clip_size": 1,
+    "reload": 100,
+    "valid_mod_locations": [
+      [
+        "sights",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "surv_sniper",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": "Survivor's Flintlock Sniper",
+    "description": "The homemade rifle of a true marksman.  A long barrelled rifle that shots paper cartridges.  Using a straight pull open bolt receiver system makes reloading fairly quick.  It uses a lighter's sparker to shoot its ammunition.  Very accurate and damaging but with high recoil, it is meant to shoot targets from afar in rapid succession.",
+    "price": 52000,
+    "material": [
+      "iron",
+      "wood"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "RELOAD_ONE"
+    ],
+    "skill": "rifle",
+    "ammo": "flintlock",
+    "weight": 2184,
+    "volume": 10,
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": 25,
+    "pierce": 2,
+    "dispersion": 50,
+    "sight_dispersion": 60,
+    "aim_speed": 8,
+    "recoil": 100,
+    "durability": 8,
+    "range": 30,
+    "clip_size": 1,
+    "reload": 250,
+    "loudness": 50,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "rep_crossbow",
+    "override": true,
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": "repeating crossbow",
+    "description": "A custom-made crossbow with a clever mechanism that loads and fires bolts in a single motion, it has a wooden magazine that holds 10 bolts.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
+    "price": 324000,
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "PRIMITIVE_RANGED_WEAPON",
+      "TRADER_AVOID"
+    ],
+    "skill": "archery",
+    "burst": 5,
+    "ammo": "bolt",
+    "weight": 3628,
+    "volume": 10,
+    "bashing": 13,
+    "to_hit": -1,
+    "range": 8,
+    "dispersion": 500,
+    "recoil": 30,
+    "durability": 6,
+    "clip_size": 10,
+    "reload": 50,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "coilgun",
+    "override": true,
+    "copy-from": "gun_base",
+    "type": "GUN",
+    "name": "coilgun",
+    "//": "Hard to make, plentiful and cheap ammo, and silent - people will want this thing.",
+    "description": "A homemade gun, using electromagnets to accelerate a ferromagnetic projectile to high velocity.  Powered by UPS.",
+    "weight": 3341,
+    "volume": 11,
+    "price": 75000,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": "steel",
+    "ammo": "nail",
+    "skill": "rifle",
+    "burst": 10,
+    "range": 12,
+    "ranged_damage": 4,
+    "pierce": 20,
+    "dispersion": 180,
+    "durability": 5,
+    "ups_charges": 5,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "magazines": [
+      [
+        "nail",
+        [
+          "nailmag"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "laser_rifle",
+    "override": true,
+    "type": "GUN",
+    "name": "A7 laser rifle",
+    "description": "A state of the art laser rifle developed by the R&D outfit \"Aerial Labs\".  Initial performance rivaled Rivtech's finest, with rumors flying about corporate skullduggery.  Though the cataclysm put that on the ash heap of history, this weapon can still do the same to your foes.",
+    "weight": 2950,
+    "volume": 12,
+    "price": 1600000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "yellow",
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": 22,
+    "pierce": 10,
+    "dispersion": 0,
+    "durability": 8,
+    "burst": 5,
+    "ups_charges": 25,
+    "reload": 0,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ]
+  },
+  {
+    "id": "v29_cheap",
+    "override": true,
+    "type": "GUN",
+    "name": "LACP laser pistol",
+    "description": "The LACP laser pistol was based on the V29 laser pistol designed in the mid-21st century.  While little more than duct tape and electronics, it runs on a standard UPS.",
+    "weight": 540,
+    "volume": 8,
+    "price": 500000,
+    "to_hit": -2,
+    "bashing": 5,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "pistol",
+    "range": 15,
+    "ranged_damage": 10,
+    "pierce": 5,
+    "dispersion": 50,
+    "durability": 4,
+    "ups_charges": 15,
+    "reload": 50,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_UNLOAD"
+    ]
+  },
+  {
+    "id": "v29",
+    "override": true,
+    "type": "GUN",
+    "name": "V29 laser pistol",
+    "description": "The V29 laser pistol was designed in the mid-21st century and was one of the first firearms to use fusion as its ammunition.  It is larger than most traditional handguns, but displays no recoil whatsoever.",
+    "weight": 680,
+    "volume": 4,
+    "price": 720000,
+    "to_hit": -2,
+    "bashing": 5,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "pistol",
+    "range": 20,
+    "ranged_damage": 10,
+    "pierce": 5,
+    "dispersion": 50,
+    "durability": 8,
+    "ups_charges": 10,
+    "reload": 25,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ]
+  }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "type" : "npc_class",
+        "id" : "NC_BIO_WEAPON",
+        "name" : "Bio-Weapon",
+        "job_description" : "I am here to find answers...",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 2, 4 ] },
+        "bonus_dex" : { "rng" : [ 2, 4 ] },
+        "bonus_int" : { "rng" : [ 0, 2 ] },
+        "bonus_per" : { "rng" : [ 0, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 3 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 2, 4 ] } }
+        ],
+        "comment": "Weapon is in carry group to ensure ammo is matched up with it.",
+        "worn_override": "NC_BIO_WEAPON_worn",
+        "carry_override": "NC_BIO_WEAPON_carry",
+        "weapon_override": "EMPTY_GROUP",
+        "comment": "Not quite the bio-weapon mutations, because these are generic ones.",
+        "traits": [
+            [ "BIO_WEAPON_GENERIC", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "GOODHEARING", 100 ],
+            [ "QUICK", 80 ],
+            [ "DEFT", 80 ],
+            [ "NIGHTVISION", 100 ],
+            [ "CLAWS", 50 ],
+            [ "REGEN", 80 ],
+            [ "STR_UP", 45 ],
+            [ "PER_UP", 45],
+            [ "INT_UP", 45 ],
+            [ "DEX_UP", 45 ],
+            [ "STR_UP_2", 10 ],
+            [ "PER_UP_2", 10 ],
+            [ "INT_UP_2", 10 ],
+            [ "DEX_UP_2", 10 ],
+            [ "HUNGER", 100 ]
+        ]
+  },
+    {
+        "type" : "npc_class",
+        "id" : "NC_PREPPER",
+        "name" : "Prepper",
+        "job_description" : "Just surviving, as usual.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ -1, 1 ] },
+        "bonus_int" : { "rng" : [ -1, 1 ] },
+        "bonus_dex" : { "rng" : [ -1, 2 ] },
+        "bonus_per" : { "rng" : [ -1, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "sum" : [
+                        { "dice" : [ 3, 2 ] },
+                        { "constant" : -3 }
+                    ]
+                }
+            },
+            { "skill": "survival", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "pistol", "bonus" : { "rng" : [ 2, 5 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 0, 3 ] } },
+            { "skill": "archery", "bonus" : { "rng" : [ 0, 3 ] } }
+        ],
+        "comment": "Weapon is empty group to workaround difficulty pairing weapons and ammo via overrides.",
+        "worn_override": "NC_PREPPER_worn",
+        "carry_override": "NC_PREPPER_carry",
+        "weapon_override": "EMPTY_GROUP",
+        "traits": [
+            [ "SUPER_SOLDIER_MARKER", 10 ],
+            [ "EASYSLEEPER", 10 ],
+            [ "NONADDICTIVE", 10 ],
+            [ "ANIMALEMPATH", 10 ],
+            [ "CANNIBAL", 10 ],
+            [ "DEFT", 10 ],
+            [ "DISRESISTANT", 10 ],
+            [ "DRUNKEN", 10 ],
+            [ "HUNGER", 10 ],
+            [ "FASTHEALER", 10 ],
+            [ "FASTREADER", 10 ],
+            [ "FLEET", 10 ],
+            [ "GOODHEARING", 10 ],
+            [ "GOODMEMORY", 10 ],
+            [ "GOURMAND", 10 ],
+            [ "ADRENALINE", 10 ],
+            [ "INCONSPICUOUS", 10 ],
+            [ "GOODCARDIO", 10 ],
+            [ "WAKEFUL", 10 ],
+            [ "INFRESIST", 10 ],
+            [ "LIGHTEATER", 10 ],
+            [ "LIGHTSTEP", 10 ],
+            [ "MARTIAL_ARTS", 10 ],
+            [ "MASOCHIST", 10 ],
+            [ "MARTIAL_ARTS5", 10 ],
+            [ "NIGHTVISION", 10 ],
+            [ "OPTIMISTIC", 10 ],
+            [ "OUTDOORSMAN", 10 ],
+            [ "PACKMULE", 10 ],
+            [ "PAINRESIST", 10 ],
+            [ "PARKOUR", 10 ],
+            [ "POISRESIST", 10 ],
+            [ "PRETTY", 10 ],
+            [ "PSYCHOPATH", 10 ],
+            [ "QUICK", 10 ],
+            [ "ROBUST", 10 ],
+            [ "EAGLEEYED", 10 ],
+            [ "SELFAWARE", 10 ],
+            [ "MARTIAL_ARTS2", 10 ],
+            [ "MARTIAL_ARTS3", 10 ],
+            [ "LIAR", 10 ],
+            [ "SPIRITUAL", 10 ],
+            [ "STRONGBACK", 10 ],
+            [ "STRONGSTOMACH", 10 ],
+            [ "STYLISH", 10 ],
+            [ "TOLERANCE", 10 ],
+            [ "TERRIFYING", 10 ],
+            [ "THICKSKIN", 10 ],
+            [ "TOUGH", 10 ],
+            [ "TOUGH_FEET", 10 ],
+            [ "MARTIAL_ARTS4", 10 ],
+            [ "WEAKSCENT", 10 ],
+            [ "ADDICTIVE", 10 ],
+            [ "ANIMALDISCORD", 10 ],
+            [ "ASTHMA", 10 ],
+            [ "BADKNEES", 10 ],
+            [ "BADBACK", 10 ],
+            [ "BADTEMPER", 10 ],
+            [ "CHEMIMBALANCE", 10 ],
+            [ "CLUMSY", 10 ],
+            [ "DISORGANIZED", 10 ],
+            [ "HYPEROPIC", 10 ],
+            [ "FLIMSY", 10 ],
+            [ "FORGETFUL", 10 ],
+            [ "FLIMSY3", 10 ],
+            [ "FLIMSY2", 10 ],
+            [ "GLASSJAW", 10 ],
+            [ "ANTIFRUIT", 10 ],
+            [ "MEATARIAN", 10 ],
+            [ "THIRST", 10 ],
+            [ "HOARDER", 10 ],
+            [ "ILLITERATE", 10 ],
+            [ "INSOMNIA", 10 ],
+            [ "JITTERY", 10 ],
+            [ "VEGETARIAN", 10 ],
+            [ "LACTOSE", 10 ],
+            [ "ANTIJUNK", 10 ],
+            [ "BADCARDIO", 10 ],
+            [ "LIGHTWEIGHT", 10 ],
+            [ "MOODSWINGS", 10 ],
+            [ "MYOPIC", 10 ],
+            [ "PACIFIST", 10 ],
+            [ "BADHEARING", 10 ],
+            [ "SAVANT", 10 ],
+            [ "SCHIZOPHRENIC", 10 ],
+            [ "SLEEPY", 10 ],
+            [ "SLOWHEALER", 10 ],
+            [ "SLOWREADER", 10 ],
+            [ "SLOWRUNNER", 10 ],
+            [ "SMELLY", 10 ],
+            [ "THINSKIN", 10 ],
+            [ "TRIGGERHAPPY", 10 ],
+            [ "TRUTHTELLER", 10 ],
+            [ "UGLY", 10 ],
+            [ "WEAKSTOMACH", 10 ],
+            [ "WOOLALLERGY", 10 ],
+            [ "ANTIWHEAT", 10 ],
+            [ "HEAVYSLEEPER", 10 ],
+            [ "FASTLEARNER", 10 ],
+            [ "SLOWLEARNER", 10 ]
+        ]
+    
+    },
+    {
+        "type" : "npc_class",
+        "id" : "NC_SUPER_SOLDIER",
+        "name" : "Super Soldier",
+        "job_description" : "I am guarding this place in exchange for food and shelter.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 1, 2 ] },
+        "bonus_dex" : { "rng" : [ 1, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 2 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "rifle", "bonus" : { "rng" : [ 3, 5 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 1, 2 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 1, 2 ] } }
+        ],
+        "worn_override": "NC_SUPER_SOLDIER_worn",
+        "carry_override": "NC_SUPER_SOLDIER_carry",
+        "weapon_override": "NC_SUPER_SOLDIER_weapon",
+        "comment": "Some traits to mimic a few of the profession bionics.",
+        "traits": [
+            [ "SUPER_SOLDIER_MARKER", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "NIGHTVISION", 100 ],
+            [ "ADRENALINE", 100 ],
+            [ "REGEN", 100 ]
+        ]
+    },
+    {
+        "type" : "npc_class",
+        "id" : "NC_BIO_HUNTER_F",
+        "name" : "Bio-Weapon Hunter",
+        "job_description" : "I am here to fix this mess.",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 1, 3 ] },
+        "bonus_dex" : { "rng" : [ 1, 3 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 3 ] },
+                                { "constant": -2 }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "smg", "bonus" : { "rng" : [ 3, 6 ] } },
+            { "skill": "gun", "bonus" : { "rng" : [ 2, 5 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 1, 3 ] } }
+        ],
+        "worn_override": "NC_BIO_HUNTER_F_worn",
+        "carry_override": "NC_BIO_HUNTER_F_carry",
+        "weapon_override": "NC_BIO_HUNTER_F_weapon",
+        "comment": "Some traits to mimic a few of the profession bionics.",
+        "traits": [
+            [ "SUPER_SOLDIER_MARKER", 100 ],
+            [ "THICKSKIN", 100 ],
+            [ "NIGHTVISION", 100 ],
+            [ "CLAWS", 100 ],
+            [ "REGEN", 100 ]
+        ]
+  },
+    {
+        "type" : "npc_class",
+        "id" : "NC_SLAVE_FIGHTER_BLUE",
+        "name" : "Slave Fighter (Blue Team)",
+        "job_description" : "I am free...",
+        "common" : false,
+        "bonus_str" : { "rng" : [ -1, 0 ] },
+        "bonus_dex" : { "rng" : [ 0, 2 ] },
+        "bonus_per" : { "rng" : [ 0, 2 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 2 ] },
+                                { "rng" : [ -1, -2 ] }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "dodge", "bonus" : { "rng" : [ 2, 4 ] } },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 4 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 4, 6 ] } },
+            { "skill": "stabbing", "bonus" : { "rng" : [ 0, 2 ] } }
+        ],
+        "worn_override": "NC_GLADIATOR_LIGHT_worn",
+        "carry_override": "EMPTY_GROUP",
+        "weapon_override": "NC_GLADIATOR_LIGHT_weapon",
+        "comment": "Reduced odds of being heavily mutated relative to Red Team.",
+        "traits": [
+            [ "ELFAEYES", 10 ],
+            [ "FANGS", 10 ],
+            [ "PLANTSKIN", 5 ],
+            [ "NAILS", 25 ],
+            [ "PADDED_FEET", 15 ],
+            [ "FELINE_EARS", 10 ],
+            [ "TAIL_LONG", 10 ],
+            [ "WHISKERS", 10 ],
+            [ "BEAK", 5 ],
+            [ "ARM_FEATHERS", 10 ],
+            [ "LIGHT_BONES", 15 ]
+        ]
+    },{
+        "type" : "npc_class",
+        "id" : "NC_SLAVE_FIGHTER_RED",
+        "name" : "Slave Fighter (Red Team)",
+        "job_description" : "Rip and tear!",
+        "common" : false,
+        "bonus_str" : { "rng" : [ 1, 3 ] },
+        "bonus_dex" : { "rng" : [ 0, 2 ] },
+        "bonus_per" : { "rng" : [ -1, 0 ] },
+        "bonus_int" : { "rng" : [ -2, 0 ] },
+        "skills" : [
+            {
+                "skill" : "ALL", "level" : {
+                    "mul" : [
+                        { "one_in" : 3 },
+                        {
+                            "sum" : [
+                                { "dice" : [ 2, 2 ] },
+                                { "rng" : [ -1, -2 ] }
+                            ]
+                        }
+                    ]
+                }
+            },
+            { "skill": "melee", "bonus" : { "rng" : [ 1, 4 ] } },
+            { "skill": "unarmed", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "bashing", "bonus" : { "rng" : [ 1, 3 ] } },
+            { "skill": "cutting", "bonus" : { "rng" : [ 2, 5 ] } }
+        ],
+        "worn_override": "NC_GLADIATOR_HEAVY_worn",
+        "carry_override": "EMPTY_GROUP",
+        "weapon_override": "NC_GLADIATOR_HEAVY_weapon",
+        "traits": [
+            [ "URSINE_EYE", 50 ],
+            [ "FANGS", 50 ],
+            [ "CHITIN", 50 ],
+            [ "NAILS", 75 ],
+            [ "RAP_TALONS", 75 ],
+            [ "WEB_WALKER", 25 ],
+            [ "SLIT_NOSTRILS", 25 ],
+            [ "WHISKERS", 25 ],
+            [ "TROGLO", 50 ],
+            [ "RADIOACTIVE1", 50 ],
+            [ "SLIMY", 25 ],
+            [ "CARNIVORE", 50 ],
+            [ "PONDEROUS1", 50 ],
+            [ "GROWL", 50 ]
+        ]
+    }
+]

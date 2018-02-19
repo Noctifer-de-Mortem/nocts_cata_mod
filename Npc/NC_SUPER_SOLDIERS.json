@@ -1,0 +1,100 @@
+[
+  {
+    "id": "NC_SUPER_SOLDIER_worn",
+    "type": "item_group",
+    "//": "Generic super soldier kit, unisex.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "undershirt" },
+      { "item": "arm_warmers" },
+      { "item": "leg_warmers" },
+      { "item": "pants_army" },
+      { "item": "jacket_army" },
+      { "item": "balclava" },
+      { "item": "beret" },
+      { "item": "gloves_liner" },
+      { "item": "gloves_tactical" },
+      { "item": "socks" },
+      { "item": "boots_combat" }
+    ]
+  },
+  {
+    "id": "NC_SUPER_SOLDIER_carry",
+    "type": "item_group",
+    "//": "Super soldier items. Holy shit NPCs are too dumb to use UPS.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "militarymap" },
+      { "item": "id_military" },
+      { "item": "stanag30" },
+      { "item": "stanag30" },
+      { "item": "stanag30" }
+    ]
+  },
+  {
+    "id": "NC_SUPER_SOLDIER_weapon",
+    "type": "item_group",
+    "//": "Generic super soldier weapon.  No UPS usage means conventional weapon instead of laser.",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      {
+        "distribution": [
+          { "item": "acr", "prob": 20 },
+          { "item": "h&k416a5", "prob": 25 },
+          { "item": "m27iar", "prob": 10 },
+          { "item": "m4a1", "prob": 15 },
+          { "item": "scar_l", "prob": 30 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NC_BIO_HUNTER_F_worn",
+    "type": "item_group",
+    "//": "Evelynn Rose's kit, mimics player version except for some concessions to using claw mutation instead of CBM.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bra" },
+      { "item": "panties" },
+      { "item": "undershirt" },
+      { "item": "arm_warmers" },
+      { "item": "leg_warmers" },
+      { "item": "pants_army" },
+      { "item": "jacket_army" },
+      { "item": "balclava" },
+      { "item": "beret" },
+      { "item": "gloves_fingerless" },
+      { "item": "socks" },
+      { "item": "boots_combat" },
+      { "item": "badge_bio_weapon" },
+      { "item": "canteen" }
+    ]
+  },
+  {
+    "id": "NC_BIO_HUNTER_F_carry",
+    "type": "item_group",
+    "//": "Evelynn Rose's items. See above for why a P90 instead of a UPS-powered weapon.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mre_veggy_box" },
+      { "item": "biomap" },
+      { "item": "militarymap" },
+      { "item": "fnp90mag" },
+      { "item": "fnp90mag" },
+      { "item": "fnp90mag" }
+    ]
+  },
+  {
+    "id": "NC_BIO_HUNTER_F_weapon",
+    "type": "item_group",
+    "//": "Evelynn Rose's weapon, don't think you can define weapon overrides any other way.  No UPS means conventional firearm instead.",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [ { "item": "fn_p90" } ]
+  }
+]

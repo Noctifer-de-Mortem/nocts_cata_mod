@@ -1,0 +1,191 @@
+[
+  {
+    "id": "TALK_BHUNTER",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "That thing you are wearing... a Bio-Weapon Badge...",
+      "no": "Hey you, are you also after the Bio-Weapons?"
+    },
+    "responses": [
+      {
+        "text": "Yeah, I am one of them.",
+        "topic": "TALK_BHUNTER_IAM_BIO"
+      },
+      {
+        "text": "Bio-Weapon?",
+        "trial": { "type": "NONE" },
+        "success": {
+          "opinion": {
+            "trust": 0,
+            "fear": -1,
+            "value": -1,
+            "anger": 0
+          },
+          "topic": "TALK_BHUNTER_ASK_BIO"
+        }
+      },
+      {
+        "text": "What are you doing here?",
+        "topic": "TALK_BHUNTER_ASK_DOING"
+      },
+      {
+        "text": "What should we do?",
+        "topic": "TALK_BHUNTER_ASK_DO"
+      },
+      {
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
+      },
+      {
+        "text": "Well, bye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_IAM_BIO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Well I'll be damned!  How do I know you didn't just find that somewhere?  Oh well, it doesn't really matter. The fact that you have it means you at least met one. Well, if you need anything, I can help you out.",
+      "no": "Suuuure, right.  You don't even have the badge.  Try and be careful who you lie to next time."
+    },
+    "responses": [
+      {
+        "text": "I'll keep that in mind...",
+        "topic": "TALK_BHUNTER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_ASK_BIO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "You're kidding, right?  You really don't know?  Is that badge actually yours...? Maybe that mindwipe rumor was true after all...",
+      "no": "So you don't know about them, huh?  Maybe I'm wasting my time... but you did find this place, so you probably know what you're doing."
+    },
+    "responses": [
+      {
+        "text": "Could you explain it to me?",
+        "trial": { "type": "NONE" },
+        "success": {
+          "opinion": {
+            "trust": 1,
+            "fear": 0,
+            "value": 1,
+            "anger": 0
+          },
+          "topic": "TALK_BHUNTER_EXPLAIN_BIO"
+        }
+      },
+      {
+        "text": "Whatever it is, I really don't care.",
+        "trial": { "type": "NONE" },
+        "success": {
+          "opinion": {
+            "trust": 0,
+            "fear": 0,
+            "value": -1,
+            "anger": -2
+          },
+          "topic": "TALK_BHUNTER_NOCARE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_EXPLAIN_BIO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "I guess memory wipe makes sense.  Alright, I will explain.  Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  You are one them.  A Bio-Weapon.  This is the lab where you were created.",
+      "no": "Well, alright, let me give you the basics. Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  This lab is one of several places in which the actual modifications were performed."
+    },
+    "responses": [
+      {
+        "text": "I'll be damned...",
+        "topic": "TALK_BHUNTER"
+      },
+      {
+        "text": "How did you learn all this?",
+        "topic": "TALK_BHUNTER_ASK_LEARN"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_ASK_LEARN",
+    "type": "talk_topic",
+    "dynamic_line": "I used to be a computer hacker before the world went to hell.  After it did, when I wasn't looking for food and gear or fighting for my life, I was following leads to this place.  The military weren't all that good at keeping their secrets.",
+    "responses": [
+      {
+        "text": "I see.",
+        "topic": "TALK_BHUNTER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_NOCARE",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Figures.  You're either a fake or just don't care about what you are.  Still, you must be pretty capable to make it here.",
+      "no": "Well, then what are you doing here?  Did you stumble into this place by accident?  You still seem to handle yourself pretty well."
+    },
+    "responses": [
+      {
+        "text": "I guess you are right.",
+        "topic": "TALK_BHUNTER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_ASK_DOING",
+    "type": "talk_topic",
+    "dynamic_line": "I came here to see if I could find anything on the Bio-Weapons. How about yourself?",
+    "responses": [
+      {
+        "text": "I have no idea.",
+        "topic": "TALK_BHUNTER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_ASK_DO",
+    "type": "talk_topic",
+    "dynamic_line": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it...",
+    "responses": [
+      {
+        "text": "I'll think about it.",
+        "topic": "TALK_BHUNTER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_ASK_QUEST",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Sure!  Not just anybody gets to wear that badge.  Fake or not, you're a good fighter from what I've seen.  It'll be easier with somebody to watch my back.  Also, there is something that I want to ask later if you have time.",
+      "no": "Well, I'm running low on supplies and the fact that you made it here proves you can handle yourself.  Also, there is something that I want to ask later if you have time."
+    },
+    "responses": [
+      {
+        "text": "Let's go, then.",
+        "trial": { "type": "NONE" },
+        "success": {
+          "effect": "follow",
+          "opinion": {
+            "trust": 8,
+            "fear": 0,
+            "value": 8,
+            "anger": -2
+          },
+          "topic": "TALK_DONE"
+        }
+      }
+    ],
+    "//": "This Talk topic is no longer used"
+  }
+]

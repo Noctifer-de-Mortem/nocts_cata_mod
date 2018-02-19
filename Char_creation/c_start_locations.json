@@ -1,0 +1,51 @@
+[
+  {
+    "type": "start_location",
+    "ident": "Survivor_Holdout_l",
+    "//": "starts in Survivor Holdout. Not in use currently.",
+    "name": "Survivor Holdout",
+    "target": "Survivor_Holdout"
+  },
+  {
+    "type": "start_location",
+    "ident": "surv_camp_l",
+    "name": "Survivor Camp Site",
+    "target": "surv_camp"
+  },
+  {
+    "type": "start_location",
+    "ident": "Bio_Weapon_Lab_l",
+    "name": "Bio Weapon Lab",
+    "target": "Bio_Weapon_Lab"
+  },
+  {
+    "type": "start_location",
+    "ident": "bunker_s",
+    "name": "Military Bunker",
+    "target": "bunker"
+  },
+  {
+    "type": "start_location",
+    "ident": "prison_b_entrance_s",
+    "name": "Prison",
+    "target": "prison_b_entrance"
+  },
+  {
+    "type": "start_location",
+    "ident": "s_electronics_s",
+    "name": "Electronics Store",
+    "target": "s_electronics"
+  },
+  {
+    "type": "start_location",
+    "ident": "s_clothes_s",
+    "name": "Clothing Store",
+    "target": "s_clothes"
+  },
+  {
+    "type": "start_location",
+    "ident": "house_fight_s",
+    "name": "Sketchy Cabin",
+    "target": "house_fight"
+  }
+]

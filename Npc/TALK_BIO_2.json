@@ -1,0 +1,97 @@
+[
+  {
+    "id": "TALK_BIO_2",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "...Do you also need a place to stay?",
+      "no": "Hello, everything alright?"
+    },
+    "responses": [
+      {
+        "text": "You are a Bio-Weapon?",
+        "topic": "TALK_BIO_2_U_BIO"
+      },
+      {
+        "text": "How are you holding up?",
+        "topic": "TALK_BIO_2_HOLDUP"
+      },
+      {
+        "text": "Anything I can do for you?",
+        "topic": "TALK_MISSION_OFFER"
+      },
+      {
+        "text": "Bye.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_U_BIO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Yeah.  I woke up in a cloning vat under gunfire with no idea of who I was.  Router took me in, but I don't really feel like I belong here...",
+      "no": "Yeah, you know about the project?  I am a walking weapon, trained to use both ranged and melee weapons."
+    },
+    "responses": [
+      {
+        "text": "I see.",
+        "topic": "TALK_BIO_2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_HOLDUP",
+    "type": "talk_topic",
+    "dynamic_line": "Things are fine, considering the circumstances.  I'm safe, at least.  I still can't shake this feeling that I belong out there.  I'm just not sure if I can handle myself... combat isn't everything, you know?",
+    "responses": [
+      {
+        "text": "Tell me about it.",
+        "topic": "TALK_BIO_2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_JOIN",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "I... are you sure?  I can help with combat, but I might just be a burden overall... besides, we can't make it until we deal with the reason we're stuck here in the first place.",
+      "no": "I'd like to, but I'm not sure I could survive out there.  I know how to fight, but what about water and food?  And we wouldn't be safe, not until..."
+    },
+    "responses": [
+      {
+        "text": "Listen.  I can help you out, I survived out there this far, so I know what I'm doing. Just lend me a hand against the undead and I'll take care of the rest.  And as for Apophis, we'll take it down, eventually.  Besides, wouldn't it be better than staying here, doing nothing?",
+        "topic": "TALK_BIO_2_JOIN2"
+      }
+    ],
+    "//": "This Talk topic is no lobger used"
+  },
+  {
+    "id": "TALK_BIO_2_JOIN2",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "...You know what?  I am tired of being stuck here.  You're right, together we can survive out there and Apophis is going down!",
+      "no": "...You're right, I can't just hide here forever.  I'm coming with you.  You obviously know what you're talking about, so I can rely on your help.  Let's hope we kill that thing one day!"
+    },
+    "responses": [
+      {
+        "text": "That's the spirit!",
+        "trial": { "type": "NONE" },
+        "success": {
+          "effect": "follow",
+          "opinion": {
+            "trust": 8,
+            "fear": 0,
+            "value": 8,
+            "anger": -2
+          },
+          "topic": "TALK_DONE"
+        }
+      }
+    ],
+    "//": "This Talk topic is no longer used"
+  }
+]

@@ -1,0 +1,181 @@
+,{
+    "result": "gasoline",
+    "type" : "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_FUEL",
+    "skill_used": "cooking",
+    "difficulty": 1,
+	"result_mult": 4,
+	"autolearn": true,
+    "time": 60,
+     "tools":[[ [ "goo_jerrycan", 24 ]]],
+	 "components":[[["water", 1]]]
+  },{
+    "result": "battery",
+    "type" : "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_FUEL",
+    "skill_used": "cooking",
+    "difficulty": 1,
+	"result_mult": 4,
+	"autolearn": true,
+    "time": 60,
+     "tools":[[ [ "solar_recharger", 100 ]]]
+  },
+  {
+    "id": "goo_jerrycan",
+    "type": "TOOL_ARMOR",
+    "covers": [
+      "TORSO"
+    ],
+    "warmth": 5,
+    "encumbrance": 30,
+    "flags": [
+      "OVERSIZE",
+      "BELTED"
+    ],
+    "coverage": 40,
+    "material_thickness": 2,
+    "symbol": ")",
+    "color": "light_red",
+    "name": "Goo jerrycan",
+    "category": "other",
+    "description": "A former plastic jerrycan taken over by the gasoline goo. Now it fills the jerry can with gasoline when exposed to the sun. Unload to enjoy!",
+    "price": 1250,
+    "weight": 1854,
+    "volume": 40,
+    "to_hit": -2,
+    "material": "plastic",
+    "max_charges": 10000,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "gasoline",
+    "revert_to": "null",
+    "artifact_data": {
+      "charge_type": "ARTC_SOLAR"
+    }
+  },
+  {
+    "id": "solar_recharger",
+    "type": "TOOL",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "Solar Battery Recharger",
+    "description": "A makeshift solar battery recharger made from a modified rechargeable battery mod. Input batteries, put in the sun, batteries charge, take them out, simple.",
+    "price": 200,
+    "material": "steel",
+    "weight": 283,
+    "volume": 5,
+    "to_hit": 0,
+    "max_charges": 100,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "battery",
+    "revert_to": "null",
+    "artifact_data": {
+      "charge_type": "ARTC_SOLAR"
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "goo_jerrycan",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 0,
+    "time": 2000,
+    "reversible": false,
+    "autolearn": true,
+    "book_learn": [
+      [
+        "recipe_surv",
+        0
+      ]
+    ],
+    "components": [
+      [
+        [
+          "jerrycan",
+          1
+        ]
+      ],
+      [
+        [
+          "gas_slime_scrap",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "solar_recharger",
+    "category": "CC_ELECTRONIC",
+    "skill_used": "electronics",
+    "skills_required": [
+      "fabrication",
+      3
+    ],
+    "difficulty": 4,
+    "time": 15000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [
+      [
+        "manual_electronics",
+        2
+      ],
+      [
+        "mag_electronics",
+        2
+      ],
+      [
+        "manual_electronics",
+        2
+      ],
+      [
+        "recipe_surv",
+        1
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "soldering_iron",
+          25
+        ],
+        [
+          "toolset",
+          25
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "sheet_metal",
+          1
+        ]
+      ],
+      [
+        [
+          "solar_cell",
+          4
+        ]
+      ],
+      [
+        [
+          "solder_wire",
+          2
+        ]
+      ],
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  }
+  

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "bio_laser_minigun",
+    "type": "GUN",
+    "name": "Laser Gatling Arm",
+    "description": "Your left arm is currently transformed into a ups powered laser gatling gun. Fire it as if it was any other gun.",
+    "volume": 12,
+    "price": 0,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "rifle",
+    "range": 30,
+    "ranged_damage": 20,
+    "pierce": 15,
+    "dispersion": 10,
+    "sight_dispersion": 150,
+    "aim_speed": 0,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "auto",
+        20
+      ]
+    ],
+    "reload": 500,
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "TRADER_AVOID"
+    ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_laser_armgun",
+    "name": "Laser Gatling Arm",
+    "occupied_bodyparts": [
+      [
+        "ARM_L",
+        20
+      ],
+      [
+        "HAND_L",
+        5
+      ]
+    ],
+    "act_cost": 100,
+    "fake_item": "bio_laser_minigun",
+    "description": "Your left arm has been replaced by a rapid fire laser gatling gun!  You may use your energy banks to fire a barrage of lasers.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "flags": [ "BIONIC_GUN" ]
+  },
+  {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_laser_armgun",
+    "symbol": ":",
+    "color": "yellow",
+    "name": "Laser Gatling Arm CBM",
+    "description": "Your left arm has been replaced by a rapid fire laser gatling gun!  You may use your energy banks to fire a barrage of lasers.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "price": 220000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "weight": 2041,
+    "volume": 10,
+    "bashing": 8,
+    "difficulty": 3
+  },
+  {
+    "type": "GENERIC",
+    "id": "bio_sword_weapon",
+    "name": "monomolecular sword",
+    "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.",
+    "weight": 100,
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [
+      "superalloy"
+    ],
+    "techniques": [
+      "RAPID",
+      "WBLOCK_2"
+    ],
+    "volume": 9,
+    "cutting": 48,
+    "flags": [
+      "NON_STUCK",
+      "NO_UNWIELD",
+      "UNBREAKABLE_MELEE",
+      "TRADER_AVOID"
+    ],
+    "qualities": [
+      [
+        "CUT",
+        1
+      ],
+      [
+        "BUTCHER",
+        22
+      ]
+    ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_sword",
+    "name": "Monomolecular Sword",
+    "occupied_bodyparts": [
+      [
+        "ARM_R",
+        5
+      ],
+      [
+        "HAND_R",
+        2
+      ]
+    ],
+    "act_cost": 200,
+    "fake_item": "bio_sword_weapon",
+    "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_sword",
+    "symbol": ":",
+    "color": "yellow",
+    "name": "Monomolecular Sword CBM",
+    "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
+    "price": 8000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "weight": 2041,
+    "volume": 10,
+    "bashing": 8,
+    "difficulty": 8
+  },
+  {
+    "id": "bio_flamethrower_gun",
+    "type": "GUN",
+    "name": "Dual-Hand Flamethrower",
+    "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
+    "volume": 12,
+    "price": 0,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "red",
+    "skill": "rifle",
+    "range": 5,
+    "ranged_damage": 5,
+    "pierce": 0,
+    "dispersion": 300,
+    "sight_dispersion": 150,
+    "aim_speed": 8,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "auto",
+        5
+      ]
+    ],
+    "reload": 500,
+    "ammo_effects": [
+      "FLAME",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "TRADER_AVOID"
+    ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_flamethrower",
+    "name": "Dual-Hand Flamethrower",
+    "occupied_bodyparts": [
+      [
+        "HAND_R",
+        2
+      ],
+      [
+        "HAND_L",
+        2
+      ]
+    ],
+    "act_cost": 100,
+    "fake_item": "bio_flamethrower_gun",
+    "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
+    "flags": [ "BIONIC_GUN" ]
+  },
+  {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_flamethrower",
+    "symbol": ":",
+    "color": "yellow",
+    "name": "Dual-Hand Flamethrower CBM",
+    "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
+    "price": 220000,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "weight": 2041,
+    "volume": 10,
+    "bashing": 8,
+    "difficulty": 4
+  }
+]

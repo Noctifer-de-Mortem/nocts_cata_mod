@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "item spawn" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        " ": "t_null"
+      },
+      "furniture": {
+        " ": "f_null"
+      },
+      "add": [
+        { "item": "22_cb", "x": 1, "y": 14, "repeat": 2 },
+        { "item": "22_cb", "x": 3, "y": 14, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 14, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 4, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 15, "repeat": 1 },
+        { "item": "22_cb", "x": 2, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 3, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 16, "repeat": 1 },
+        { "item": "22_cb", "x": 2, "y": 17, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 17, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 18, "repeat": 1 },
+        { "item": "22_cb", "x": 5, "y": 18, "repeat": 1 },
+        { "item": "22_cb", "x": 1, "y": 19, "repeat": 1 },
+        { "item": "22_cb", "x": 3, "y": 19, "repeat": 1 }
+      ]
+    }
+  }
+]

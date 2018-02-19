@@ -1,0 +1,69 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "new_fungal_territory" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        ",,,,,,.,,,,.,,,,,,,.,,,,",
+        ",,,.j,,,.j,,,.,..,,,,j,,",
+        ",,,,,,,..,,,,f,,,f.,,,,.",
+        ",,,,,f,,,f,,,,..,,,,f,,,",
+        ",,,,f,,.,,,,..,h,,..,,,,",
+        ",,,..,,,,,,f,,,,..,f,,..",
+        ",,,,f,,,,,g.,,,,.,,,,,,,",
+        ",,,..,f,,,,,,..f,,,,,,,.",
+        ",,,j,,,..,,,,.,,,,,h,,..",
+        ",,,..,,,,,,f,,,g,,,,,,,.",
+        "..,,,,,f,,.,,,,.,,,,f,,.",
+        ",,,,,,,,,,,,,,,,f,.,,,,.",
+        ",,,f,,,,j,,h,,,,,,,f,,,.",
+        ",,,..,,,,,,,,..f,,,,,,,.",
+        ",,,,.g,,,,..,,,,f.,,,,..",
+        ",,,.,,,,,,,f,,,,,,,.g,,,",
+        ",,,,,,,f.,,,,.,,f,.,,,,.",
+        ",,,h.,,,,.,j,,..,h,,,,,,",
+        ",,,..,,g,,,,,,,,,..,,f,.",
+        "..,f,,..,,,,,,f,,,,.,,,,",
+        ",,,..,..,,,f.,..,j,,g,,.",
+        ",,,,,f.,,f,.,,h,,,,,,,,.",
+        ",,,..,,,,,,,,,,,,,,,f,,.",
+        ",,,.,f,,.j,,,,j,,,,,,,,,"
+      ],
+      "terrain": {
+        " ": "t_null",
+        ",": "t_grass",
+        ".": "t_dirt",
+		"f": "t_fungus_wall",
+        "g": "t_fungus",
+        "h": "t_tree_fungal_young",
+        "j": "t_shrub_fungal"
+      },
+      "furniture": {
+        " ": "f_null",
+        ",": "f_null",
+        ".": "f_null",
+		"f": "f_null",
+        "g": "f_null",
+        "h": "f_null",
+        "j": "f_null"
+      },
+      "place_loot": [
+        { "group": "dead_slave_fighters", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] }
+      ],
+      "place_monster": [
+        { "monster": "mon_zombie_fungus", "x": 3, "y": 6 },
+        { "monster": "mon_zombie_fungus", "x": 6, "y": 20 },
+		{ "monster": "mon_zombie_fungus", "x": 4, "y": 8 },
+        { "monster": "mon_fungaloid_queen", "x": 10, "y": 15 },
+        { "monster": "mon_fungus_failed_weapon", "x": 2, "y": 22 },
+        { "monster": "mon_fungus_failed_weapon", "x": 7, "y": 13 },
+        { "monster": "mon_fungaloid_dormant", "x": 9, "y": 12 },
+        { "monster": "mon_fungaloid_dormant", "x": 13, "y": 2 },
+        { "monster": "mon_fungaloid_dormant", "x": 17, "y": 17 },
+        { "monster": "mon_fungaloid_dormant", "x": 19, "y": 14 }
+      ]
+    }
+  }
+]

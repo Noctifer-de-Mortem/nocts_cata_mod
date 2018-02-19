@@ -1,0 +1,550 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "ups_rifle_t",
+    "name": "mounted UPS rifle",
+    "symbol": "t",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 25,
+    "item": "ups_rifle",
+    "difficulty": 6,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "FOLDABLE"
+    ],
+    "//": "Haven't figured out the breaks_into...",
+    "breaks_into": [
+      {
+        "item": "ups_rifle",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "sur_pnu_lmg_t",
+    "name": "mounted Pneumatic LMG",
+    "symbol": "t",
+    "color": "dark_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "sur_pnu_lmg",
+    "difficulty": 4,
+    "size": 40,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "//": "CARGO for the ammo. MANUAL means you got stand in the same tile as it to use it.",
+    "breaks_into": [
+      {
+        "item": "sur_pnu_lmg",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "surv_station",
+    "//": "Actual item",
+    "name": "Survivor's Station",
+    "description": "A makeshift vehicle mountable station that comprises of many utilities all compressesd into a single unit. Has very little cargo space due to all the components it is made out of.",
+    "weight": 123134,
+    "to_hit": -2,
+    "color": "light_red",
+    "symbol": "&",
+    "material": [
+      "steel"
+    ],
+    "volume": 120,
+    "category": "veh_parts",
+    "price": 80000
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_station_t",
+    "//": "All utilities in one!",
+    "name": "Survivor's Station Unit",
+    "symbol": "&",
+    "color": "light_red",
+    "broken_symbol": "x",
+    "broken_color": "light_red",
+    "damage_modifier": 80,
+    "durability": 100,
+    "epower": -150,
+    "size": 50,
+    "item": "surv_station",
+    "difficulty": 6,
+    "location": "center",
+    "tools": [
+      "hotplate",
+      "pot",
+      "welder",
+      "soldering_iron",
+      "vac_sealer",
+      "dehydrator",
+      "press",
+      "chemistry_set",
+      "forge"
+    ],
+    "flags": [
+      "OBSTACLE",
+      "KITCHEN",
+      "CHEMLAB",
+      "CRAFTRIG",
+      "FORGE",
+      "WELDRIG",
+      "COVERED",
+      "RECHARGE",
+      "FRIDGE",
+      "WATER_PURIFIER",
+      "FAUCET",
+	  "ENABLED_DRAINS_EPOWER",
+      "CARGO"
+    ],
+    "breaks_into": [
+      {
+        "item": "steel_lump",
+        "count": [
+          30,
+          40
+        ]
+      },
+      {
+        "item": "steel_chunk",
+        "count": [
+          30,
+          40
+        ]
+      },
+      {
+        "item": "scrap",
+        "count": [
+          30,
+          40
+        ]
+      },
+      {
+        "item": "circuit",
+        "count": [
+          30,
+          40
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "count": [
+          30,
+          40
+        ]
+      },
+      {
+        "item": "amplifier",
+        "count": [
+          30,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "engine_electric_small",
+    "copy-from": "engine_electric_small",
+    "override": true,
+    "flags": [
+      "FOLDABLE",
+	  "ENGINE"
+    ],
+    "folded_volume": 2
+  },
+  {
+    "type": "vehicle_part",
+    "id": "tank_little",
+    "copy-from": "tank_little",
+    "override": true,
+    "flags": [
+      "FOLDABLE"
+    ],
+    "folded_volume": 2
+  },
+  {
+    "type": "vehicle_part",
+    "id": "funnel",
+    "copy-from": "funnel",
+    "override": true,
+    "flags": [
+      "FOLDABLE"
+    ],
+    "folded_volume": 2
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_223_t",
+    "name": "mounted Survivor's .223 Assault Rifle",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_full_223",
+    "difficulty": 4,
+    "size": 40,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_full_223",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_308_t",
+    "name": "mounted Survivor's .308 Assault Rifle",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_full_308",
+    "difficulty": 4,
+    "size": 40,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_full_308",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_762_t",
+    "name": "mounted Survivor's 7.62x39 Assault Rifle",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_full_762",
+    "difficulty": 4,
+    "size": 40,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_full_762",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_12_t",
+    "name": "mounted Survivor's Full auto shotgun",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_full_12",
+    "difficulty": 4,
+    "size": 40,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_full_12",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_lmg_308_t",
+    "name": "mounted Survivor's 308 LMG",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_lmg_308",
+    "difficulty": 4,
+    "size": 80,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_lmg_308",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_lmg_223_t",
+    "name": "mounted Survivor's 223 LMG",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_lmg_223",
+    "difficulty": 4,
+    "size": 80,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_lmg_223",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_lmg_762_t",
+    "name": "mounted Survivor's 762 LMG",
+    "symbol": "t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "damage_modifier": 80,
+    "durability": 400,
+    "range": 12,
+    "item": "surv_lmg_762",
+    "difficulty": 4,
+    "size": 80,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "CARGO",
+      "MANUAL",
+      "FOLDABLE"
+    ],
+    "breaks_into": [
+      {
+        "item": "surv_lmg_762",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "laser_lmg_t",
+    "name": "mounted KRX-108 laser LMG",
+    "symbol": "t",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "damage_modifier": 50,
+    "durability": 400,
+    "range": 30,
+    "item": "laser_lmg",
+    "difficulty": 6,
+    "location": "on_roof",
+    "folded_volume": 8,
+    "flags": [
+      "TURRET",
+      "FOLDABLE"
+    ],
+    "//": "Haven't figured out the breaks_into...",
+    "breaks_into": [
+      {
+        "item": "laser_lmg",
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "id": "generator_electric_small",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "small electric generator",
+    "item": "motor_small",
+    "difficulty": 1,
+    "durability": 120,
+    "power": -4,
+    "epower": 1000,
+    "//": "1 kW ~ 2HP drain @ 68% effficiency",
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 1, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 3, 6 ] }
+    ],
+    "extend": { "flags": [ "TOOL_SCREWDRIVER", "FOLDABLE" ] }
+  },
+  {
+    "id": "generator_electric",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "electric generator",
+    "item": "motor",
+    "difficulty": 2,
+    "durability": 200,
+    "power": -17,
+    "epower": 5000,
+    "//": "5 kW ~ 8.5HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_large",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "large electric generator",
+    "item": "motor_large",
+    "difficulty": 3,
+    "durability": 400,
+    "power": -136,
+    "epower": 40000,
+    "//": "40 kW ~ 68HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "id": "generator_electric_enhanced",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "enhanced electric generator",
+    "item": "motor_enhanced",
+    "difficulty": 4,
+    "durability": 200,
+    "power": -204,
+    "epower": 60000,
+    "//": "60 kW ~ 102HP drain @ 80% effficiency",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "extend": { "flags": [ "TOOL_WRENCH" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "fridge",
+    "name": "fridge",
+    "description": "A decently sized fridge for keeping food cool. Lacks power converter to work with DC.",
+    "weight": 69000,
+    "color": "light_blue",
+    "symbol": "]",
+    "material": "steel",
+    "volume": 2400,
+    "category" : "veh_parts",
+    "price": 60000,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+  },
+  {
+    "id": "dc_fridge",
+    "copy-from": "fridge",
+    "type": "GENERIC",
+    "name": "DC fridge",
+    "category" : "veh_parts",
+    "description": "A decently sized fridge for keeping food cool. Fitted with power converter to work with DC."
+  },
+  {
+    "id": "dc_fridge",
+    "//": "Based roughly on Samsung RR35H6145WW size wise. Electricity usage balanced gameplay wise.",
+    "copy-from": "minifridge",
+    "type": "vehicle_part",
+    "name": "DC fridge",
+    "item": "dc_fridge",
+    "epower" : -300,
+    "size" : 1400,
+    "breaks_into": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+  }
+]

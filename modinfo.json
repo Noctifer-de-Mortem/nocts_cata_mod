@@ -1,0 +1,11 @@
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "Cata++",
+    "name": "Cataclysm++",
+    "author": "Noctifer",
+    "description": "The unofficial expansion mod for Cataclysm: Dark Days Ahead.",
+    "category": "misc_additions",
+    "path": "",
+    "dependencies": [ "dda" ]
+  }

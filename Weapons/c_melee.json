@@ -1,0 +1,194 @@
+[
+  {
+    "type": "TOOL",
+    "id": "unbio_bladed_weapon",
+    "name": "monomolecular knife",
+    "description": "A foot-long knife made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.",
+    "weight": 250,
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [
+      "superalloy",
+      "steel"
+    ],
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "volume": 4,
+    "bashing": 8,
+    "cutting": 36,
+    "flags": [
+      "NON_STUCK",
+      "STAB",
+      "UNBREAKABLE_MELEE", 
+      "SHEATH_KNIFE"
+    ],
+    "price": 420000,
+    "qualities": [
+      [
+        "CUT",
+        1
+      ],
+      [
+        "BUTCHER",
+        22
+      ]
+    ],
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+      "dispersion_modifier": 8,
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE" ] ] ],
+      "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ]
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "unbio_sword_weapon",
+    "name": "monomolecular sword",
+    "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals. A welded metal handle and handguard allow you to hold it without slicing your hand open.",
+    "weight": 250,
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [
+      "superalloy",
+      "steel"
+    ],
+    "techniques": [
+      "RAPID",
+      "WBLOCK_2"
+    ],
+    "volume": 10,
+    "bashing": 8,
+    "cutting": 48,
+    "flags": [
+      "NON_STUCK",
+      "STAB",
+      "UNBREAKABLE_MELEE", 
+      "SHEATH_SWORD"
+    ],
+    "price": 420000,
+    "qualities": [
+      [
+        "CUT",
+        1
+      ],
+      [
+        "BUTCHER",
+        22
+      ]
+    ],
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle" ],
+      "dispersion_modifier": 10,
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE" ] ] ],
+      "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ]
+    }
+  },
+  {
+    "type": "TOOL",
+    "id": "unbio_claws_weapon",
+    "name": "bionic claw knuckles",
+    "name_plural": "bionic claw knuckles",
+    "description": "Short and sharp claws made from a high-tech metal welded to metal knuckles. Lightweight and fast, wielding them feels as if you were bare-handed.",
+    "weight": 2,
+    "to_hit": 4,
+    "color": "light_gray",
+    "symbol": "{",
+    "material": [
+      "superalloy",
+      "steel"
+    ],
+    "volume": 2,
+    "bashing": 10,
+    "cutting": 16,
+    "flags": [
+      "STAB",
+      "UNARMED_WEAPON",
+      "UNBREAKABLE_MELEE"
+    ],
+    "price": 420000,
+    "qualities": [
+      [
+        "BUTCHER",
+        12
+      ]
+    ]
+  },
+  {
+    "type": "TOOL",
+    "id": "flesh_blade",
+    "name": "biological sword",
+    "description": "A foot-long sword made from metal enclosed flesh and bone.  Its blade consists of razor sharp saw-like protrusions.  Its bone handle fits well in hand due to shape of its handguard.  Holding it makes you feel powerful... the sensation grows stronger with time.",
+    "weight": 680,
+    "to_hit": 4,
+    "max_charges": 3,
+    "initial_charges": 0,
+    "charges_per_use": 1,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "revert_to": "null",
+    "color": "dark_red",
+    "symbol": "/",
+    "material": [
+      "flesh",
+      "steel"
+    ],
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "volume": 4,
+    "bashing": 8,
+    "cutting": 40,
+    "flags": [
+      "STAB",
+      "NON_STUCK",
+      "UNBREAKABLE_MELEE",
+      "DURABLE_MELEE",
+      "PRECISE",
+      "RAPID"
+    ],
+    "price": 580000,
+    "qualities": [
+      [
+        "CUT",
+        2
+      ],
+      [
+        "BUTCHER",
+        20
+      ]
+    ],
+    "use_action": "ARTIFACT",
+    "artifact_data": {
+      "charge_type": "ARTC_TIME",
+      "effects_carried": [
+        "AEP_ATTENTION"
+      ],
+      "effects_wielded": [
+        "AEP_STR_UP",
+        "AEP_DEX_UP",
+        "AEP_SPEED_UP",
+        "AEP_ALL_DOWN",
+        "AEP_SICK",
+        "AEP_EVIL",
+        "AEP_SAP_LIFE",
+        "AEP_MUTAGENIC"
+      ],
+      "effects_activated": [
+        "AEA_BLOOD",
+        "AEA_FATIGUE",
+        "AEA_HURTALL",
+        "AEA_PAIN",
+        "AEA_PARALYZE",
+        "AEA_ATTENTION",
+        "AEA_HEAL",
+        "AEA_ENTRANCE",
+        "AEA_PULSE"
+      ]
+    }
+  }
+]

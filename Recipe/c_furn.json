@@ -1,0 +1,49 @@
+[
+  {
+    "//" : "Pseudo furniture to deconstruct into the actual fridge item",
+    "type" : "furniture",
+    "id" : "f_fridge_unplugged",
+    "name": "unplugged refrigerator",
+    "symbol": "{",
+    "color": "ltcyan",
+    "move_cost_mod": -1,
+    "required_str": 10,
+    "flags": ["CONTAINER", "PLACE_ITEM", "BLOCKSDOOR"],
+    "deconstruct": {
+        "items": [
+            { "item": "fridge", "count": 1 }
+        ]
+    },
+    "max_volume": 7000,
+    "bash": {
+        "str_min": 18, "str_max": 50,
+        "sound": "metal screeching!",
+        "sound_fail": "clang!",
+        "items": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+    }
+  },
+  {
+    "type" : "construction",
+    "description" : "Unplug Refrigerator",
+    "category" : "FURN",
+    "required_skills" : [ [ "fabrication", 0 ] ],
+    "time" : 1,
+    "pre_terrain" : "f_fridge",
+    "post_terrain" : "f_fridge_unplugged"
+  },
+  {
+    "type" : "construction",
+    "description" : "Plug Refrigerator",
+    "category" : "FURN",
+    "required_skills" : [ [ "fabrication", 0 ] ],
+    "time" : 1,
+    "pre_terrain" : "f_fridge_unplugged",
+    "post_terrain" : "f_fridge"
+  }
+]

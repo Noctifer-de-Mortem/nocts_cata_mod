@@ -1,0 +1,20 @@
+[
+  {
+    "id": "manual_surv",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": "Survivor Combatives",
+    "name_plural": "Survivor Combatives",
+    "description": "A journal with a tutorial on various unorthodox combat mechanics.",
+    "book_data": {
+      "max_level": 5,
+      "intelligence": 8,
+      "time": 10,
+      "fun": 0,
+      "skill": "melee",
+      "required_level": 3,
+      "chapters": 3,
+      "use_action": "MA_MANUAL"
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "type": "GUNMOD",
+    "id": "aux_flamer_diesel",
+    "name": "aux diesel flamethrower",
+    "location": "underbarrel",
+    "weight": 1820,
+    "color": "light_red",
+    "to_hit": -1,
+    "dispersion_modifier": 30,
+    "price": 85000,
+    "description": "A variant of the aux flamethrower intended for diesel.",
+    "symbol": ":",
+    "material": [
+      "steel"
+    ],
+    "volume": 4,
+    "mod_targets": [
+      "rifle",
+      "shotgun",
+      "smg",
+      "crossbow"
+    ],
+    "bashing": 2,
+    "flags": [
+      "FIRE_100"
+    ],
+    "gun_data": {
+      "skill": "launcher",
+      "ammo": "diesel",
+      "clip_size": 400,
+      "dispersion": 300,
+      "aim_speed": 0,
+      "//": "Fix when normal aux fixed",
+      "sight_dispersion": 0,
+      "recoil": 0,
+      "durability": 8,
+      "reload": 100
+    },
+    "skill_required": 2,
+    "skill": "shotgun"
+  },
+  {
+    "type": "GUNMOD",
+    "id": "22aux",
+    "name": "aux .22 pistol",
+    "//": "Wanted to add a way to allow stand alone fire but never figured it out...",
+    "location": "underbarrel",
+    "weight": 1020,
+    "color": "dark_gray",
+    "to_hit": -1,
+    "dispersion_modifier": 10,
+    "price": 12000,
+    "description": "An underbarrel .22 pistol. Has a 30 round magazine.",
+    "symbol": ":",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "volume": 2,
+    "mod_targets": [
+      "rifle",
+      "crossbow",
+      "smg"
+    ],
+    "bashing": 2,
+    "gun_data": {
+      "skill": "pistol",
+      "ammo": "22",
+      "clip_size": 30,
+      "dispersion": 80,
+      "aim_speed": 2,
+      "sight_dispersion": 0,
+      "recoil": 100,
+      "durability": 8,
+      "reload": 100
+    },
+    "skill_required": 2,
+    "skill": "pistol"
+  },
+  {
+    "type": "GUNMOD",
+    "id": "9mmaux",
+    "name": "aux 9mm pistol",
+    "location": "underbarrel",
+    "weight": 1020,
+    "color": "dark_gray",
+    "to_hit": -1,
+    "dispersion_modifier": 10,
+    "price": 12000,
+    "description": "An underbarrel 9mm pistol. Has a 18 round magazine.",
+    "symbol": ":",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "volume": 2,
+    "mod_targets": [
+      "rifle",
+      "crossbow",
+      "smg"
+    ],
+    "bashing": 2,
+    "gun_data": {
+      "skill": "pistol",
+      "ammo": "9mm",
+      "clip_size": 18,
+      "dispersion": 80,
+      "aim_speed": 2,
+      "sight_dispersion": 0,
+      "recoil": 100,
+      "durability": 8,
+      "reload": 100
+    },
+    "skill_required": 2,
+    "skill": "pistol"
+  },
+  {
+    "type": "GUNMOD",
+    "id": "45aux",
+    "name": "aux .45 pistol",
+    "location": "underbarrel",
+    "weight": 1020,
+    "color": "dark_gray",
+    "to_hit": -1,
+    "dispersion_modifier": 10,
+    "price": 12000,
+    "description": "An underbarrel .45 pistol. Has a 12 round magazine.",
+    "symbol": ":",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "volume": 2,
+    "mod_targets": [
+      "rifle",
+      "crossbow",
+      "smg"
+    ],
+    "bashing": 2,
+    "gun_data": {
+      "skill": "pistol",
+      "ammo": "45",
+      "clip_size": 12,
+      "dispersion": 80,
+      "aim_speed": 2,
+      "sight_dispersion": 0,
+      "recoil": 100,
+      "durability": 8,
+      "reload": 100
+    },
+    "skill_required": 2,
+    "skill": "pistol"
+  },
+  {
+    "type": "GUNMOD",
+    "id": "surv_laser_sight",
+    "name": "Survivor's Laser sight",
+    "location": "sights",
+    "sight_dispersion": 50,
+    "aim_speed": 8,
+    "description": "A sight made for maximum target acquisition. It is composed of a small makeshift red dot sight that emits a laser beam at what it targets. The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.",
+    "weight": 150,
+    "to_hit": -1,
+    "color": "dark_gray",
+    "symbol": ":",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "mod_targets": [
+      "smg",
+      "rifle",
+      "pistol",
+      "shotgun",
+      "crossbow",
+      "bow",
+      "launcher"
+    ],
+    "volume": 1,
+    "price": 85000,
+    "skill_required": 3,
+    "flags": [ "DISABLE_SIGHTS" ]
+  },
+  {
+    "type": "GUNMOD",
+    "id": "lmg_handle",
+    "name": "LMG carry handle",
+    "//": "Unique to my LMGs!",
+    "location": "carry handle",
+    "dispersion_modifier": 20,
+    "sight_dispersion": 60,
+    "aim_speed": 7,
+    "recoil_modifier": 20,
+    "description": "A handle on the side of a LMG to help in hip fire. Reduces target acquisition time and sight dispersion but increases recoil and dispersion.",
+    "weight": 120,
+    "to_hit": -1,
+    "color": "dark_gray",
+    "symbol": ":",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "mod_targets": [
+      "rifle"
+    ],
+    "volume": 0,
+    "price": 0
+  }
+]
