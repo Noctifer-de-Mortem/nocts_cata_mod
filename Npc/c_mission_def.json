@@ -8,7 +8,7 @@
     "value": 100000,
     "item": "badge_bio_weapon_apophis",
     "count": 1,
-    "origins": [ "ORIGIN_SECONDARY" ],
+    "origins": [ "ORIGIN_OPENER_NPC" ],
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "Only one thing comes to mind.  You seem like a capable person, so you might have a chance.  There is a map in the locker.  It has the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
@@ -29,7 +29,7 @@
     "difficulty": 2,
     "value": 80000,
     "start": "join",
-    "origins": [ "ORIGIN_SECONDARY" ],
+    "origins": [ "ORIGIN_OPENER_NPC" ],
     "destination": "makeshift_command_center",
     "dialogue": {
       "describe": "If you see this, it's a bug!",
@@ -51,7 +51,7 @@
     "difficulty": 3,
     "value": 50000,
     "start": "join",
-    "origins": [ "ORIGIN_SECONDARY" ],
+    "origins": [ "ORIGIN_OPENER_NPC" ],
     "destination": "Unknown_Bunker",
     "dialogue": {
       "describe": "If you see this, it's a bug!",
@@ -73,7 +73,7 @@
     "difficulty": 3,
     "value": 50000,
     "start": "join",
-    "origins": [ "ORIGIN_SECONDARY" ],
+    "origins": [ "ORIGIN_OPENER_NPC" ],
     "destination": "Unknown_Bunker",
     "dialogue": {
       "describe": "If you see this, it's a bug!",

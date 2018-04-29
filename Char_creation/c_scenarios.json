@@ -28,7 +28,7 @@
     "description": "You woke up, where are you?  Who are you?  What are you?!  That doesn't matter right now... you have a bad feeling...",
     "flags": [ "SUR_START", "SUM_START" ],
     "ident": "bio_weapon_lab",
-    "points": 2,
+    "points": 8,
     "start_name": "Bio-Weapon Lab",
     "allowed_locs": [ "Bio_Weapon_Lab_l" ],
     "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d" ],
