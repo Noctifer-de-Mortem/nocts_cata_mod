@@ -195,15 +195,15 @@
     ],
     "skills": [
       {
-        "level": 2,
+        "level": 5,
         "name": "dodge"
       },
       {
-        "level": 4,
+        "level": 5,
         "name": "melee"
       },
       {
-        "level": 3,
+        "level": 5,
         "name": "unarmed"
       }
     ],
@@ -270,7 +270,15 @@
     ],
     "skills": [
       {
-        "level": 4,
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 5,
+        "name": "gun"
+      },
+	  {
+        "level": 3,
         "name": "survival"
       },
       {
@@ -282,19 +290,11 @@
         "name": "computer"
       },
       {
-        "level": 4,
-        "name": "rifle"
-      },
-      {
-        "level": 5,
-        "name": "gun"
-      },
-      {
-        "level": 2,
+        "level": 3,
         "name": "barter"
       },
       {
-        "level": 4,
+        "level": 3,
         "name": "speech"
       }
     ],
@@ -315,15 +315,11 @@
       "bio_recycler",
       "bio_face_mask",
       "bio_ears",
-      "bio_cloak",
-      "bio_alarm",
       "bio_lockpick",
       "bio_fingerhack",
       "bio_evap",
       "bio_lighter",
-      "bio_tools",
-      "bio_climate",
-      "bio_meteorologist"
+      "bio_climate"
     ],
     "items": {
       "both": [
@@ -371,15 +367,15 @@
     ],
     "skills": [
       {
-        "level": 2,
+        "level": 5,
         "name": "dodge"
       },
       {
-        "level": 4,
+        "level": 5,
         "name": "melee"
       },
       {
-        "level": 3,
+        "level": 5,
         "name": "cutting"
       },
       {
@@ -387,7 +383,7 @@
         "name": "rifle"
       },
       {
-        "level": 4,
+        "level": 3,
         "name": "gun"
       }
     ],
@@ -402,7 +398,6 @@
       "bio_armor_torso",
       "bio_sword",
       "bio_laser_armgun",
-      "bio_flamethrower",
       "bio_hydraulics",
       "bio_nanobots",
       "bio_power_storage_mkII",
@@ -410,7 +405,6 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_armor_interface_mkII",
-      "bio_heat_absorb",
       "bio_shock",
       "bio_sunglasses",
       "bio_blood_filter",
@@ -459,19 +453,19 @@
     ],
     "skills": [
       {
-        "level": 2,
+        "level": 5,
         "name": "firstaid"
       },
       {
-        "level": 4,
+        "level": 5,
         "name": "electronics"
       },
       {
-        "level": 3,
+        "level": 5,
         "name": "mechanics"
       },
       {
-        "level": 2,
+        "level": 5,
         "name": "fabrication"
       }
     ],
@@ -537,10 +531,8 @@
       "bio_cqb",
       "bio_claws",
       "bio_shock",
-      "bio_flamethrower",
-      "bio_lockpick",
-      "bio_fingerhack",
       "bio_nanobots",
+      "bio_painkiller",
       "bio_flashlight",
       "bio_night_vision",
       "bio_tools",
@@ -578,34 +570,37 @@
       }
     ],
     "items": {
-      "both": [
-        "undershirt",
-        "arm_warmers",
-        "leg_warmers",
-        "pants_army",
-        "jacket_army",
-        "balclava",
-        "beret",
-        "gloves_liner",
-        "gloves_tactical",
-        "socks",
-        "boots_combat",
-        "badge_bio_weapon",
-        "canteen",
-        "shoulder_strap",
-        "arc_laser_rifle",
-        "mre_veggy_box",
-        "biomap",
-        "militarymap"
-      ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
+            "both": {
+                "items": [
+                    "undershirt",
+                    "arm_warmers",
+                    "leg_warmers",
+                    "pants_army",
+                    "jacket_army",
+                    "balclava",
+                    "beret",
+                    "gloves_liner",
+                    "gloves_tactical",
+                    "socks",
+                    "boots_combat",
+                    "badge_bio_weapon",
+                    "canteen",
+                    "mre_veggy_box",
+                    "biomap",
+                    "militarymap"
+                ],
+                "entries": [
+                    { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        },
     "flags": [
       "SCEN_ONLY"
     ]
@@ -624,11 +619,10 @@
       "bio_cqb",
       "bio_blade",
       "bio_shock",
-      "bio_flamethrower",
       "bio_night_vision",
-      "bio_geiger",
       "bio_adrenaline",
       "bio_nanobots",
+      "bio_painkiller",
       "bio_torsionratchet",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
@@ -659,31 +653,34 @@
       }
     ],
     "items": {
-      "both": [
-        "undershirt",
-        "arm_warmers",
-        "leg_warmers",
-        "pants_army",
-        "jacket_army",
-        "balclava",
-        "beret",
-        "gloves_liner",
-        "gloves_tactical",
-        "socks",
-        "boots_combat",
-        "shoulder_strap",
-        "arc_laser_rifle",
-        "militarymap",
-        "id_military"
-      ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
+            "both": {
+                "items": [
+                    "undershirt",
+                    "arm_warmers",
+                    "leg_warmers",
+                    "pants_army",
+                    "jacket_army",
+                    "balclava",
+                    "beret",
+                    "gloves_liner",
+                    "gloves_tactical",
+                    "socks",
+                    "boots_combat",
+                    "militarymap",
+                    "id_military"
+                ],
+                "entries": [
+                    { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        },
     "flags": [
       "SCEN_ONLY"
     ]
@@ -693,17 +690,17 @@
     "ident": "bio_scout",
     "name": "Super Scout",
     "description": "The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations. With your weapons, regenerative and survival capabilities, you can eliminate key targets after living for weeks in enemy territory.",
-    "points": 10,
+    "points": 12,
     "CBMs": [
       "bio_eye_optic",
+      "bio_carbon",
       "bio_targeting",
       "bio_ups",
       "bio_climate",
-      "bio_tools",
       "bio_evap",
       "bio_lighter",
-      "bio_fingerhack",
-      "bio_lockpick",
+      "bio_nanobots",
+      "bio_painkiller",
       "bio_torsionratchet",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
@@ -717,76 +714,73 @@
         "name": "gun"
       },
       {
-        "level": 4,
+        "level": 3,
         "name": "rifle"
       },
       {
-        "level": 2,
-        "name": "computer"
-      },
-      {
-        "level": 2,
+        "level": 3,
         "name": "melee"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "stabbing"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "survival"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "fabrication"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "cooking"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "tailor"
       },
       {
-        "level": 1,
+        "level": 3,
         "name": "swimming"
       }
     ],
     "items": {
-      "both": [
-        "pants_army",
-        "army_top",
-        "jacket_army",
-        "gloves_tactical",
-        "rucksack",
-        "balclava",
-        "hat_boonie",
-        "socks",
-        "boots_combat",
-        "sheath",
-        "knife_combat",
-        "canteen",
-        "binoculars",
-        "mil_mess_kit",
-        "shoulder_strap",
-        "rifle_scope",
-        "laser_sniper",
-        "e_tool",
-        "mre_beef_box",
-        "militarymap",
-        "id_military",
-        "tent_kit",
-        "rollmat"
-      ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
+            "both": {
+                "items": [
+                    "pants_army",
+                    "army_top",
+                    "jacket_army",
+                    "gloves_tactical",
+                    "rucksack",
+                    "balclava",
+                    "hat_boonie",
+                    "socks",
+                    "boots_combat",
+                    "canteen",
+                    "binoculars",
+                    "mil_mess_kit",
+                    "e_tool",
+                    "mre_beef_box",
+                    "militarymap",
+                    "id_military",
+                    "tent_kit",
+                    "rollmat"
+                ],
+                "entries": [
+                    { "item": "laser_sniper", "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+					{ "item": "knife_combat", "container-item": "sheath" }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        },
     "flags": [
       "SCEN_ONLY"
     ]
@@ -796,7 +790,7 @@
     "ident": "bio_knight",
     "name": "Super Juggernaut",
     "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, melee, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
-    "points": 10,
+    "points": 12,
     "CBMs": [
       "bio_armor_eyes",
       "bio_armor_head",
@@ -810,12 +804,12 @@
       "bio_sword",
       "bio_shock",
       "bio_laser_armgun",
-      "bio_flamethrower",
       "bio_night_vision",
       "bio_geiger",
       "bio_hydraulics",
       "bio_adrenaline",
       "bio_nanobots",
+      "bio_painkiller",
       "bio_torsionratchet",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
@@ -874,9 +868,10 @@
     "ident": "bio_tool",
     "name": "Super B.A.M.R.U",
     "description": "Biological and mechanical repair unit, the repairs man of the Super Soldier project. You are one of many augmented military repairmen to be used as a repair module. With repair and general electronic capabilities, you can maybe repair the world.",
-    "points": 10,
+    "points": 12,
     "CBMs": [
       "bio_int_enhancer",
+      "bio_carbon",
       "bio_ups",
       "bio_sunglasses",
       "bio_blindfold",
@@ -885,6 +880,7 @@
       "bio_tools",
       "bio_flashlight",
       "bio_nanobots",
+      "bio_painkiller",
       "bio_torsionratchet",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
@@ -906,48 +902,51 @@
         "name": "cooking"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "firstaid"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "fabrication"
       },
       {
-        "level": 2,
+        "level": 3,
         "name": "pistol"
       },
       {
-        "level": 1,
+        "level": 3,
         "name": "gun"
       }
     ],
     "items": {
-      "both": [
-        "undershirt",
-        "arm_warmers",
-        "leg_warmers",
-        "pants_army",
-        "jacket_army",
-        "balclava",
-        "beret",
-        "gloves_liner",
-        "gloves_tactical",
-        "socks",
-        "boots_combat",
-        "holster",
-        "v29",
-        "militarymap",
-        "id_military"
-      ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
+            "both": {
+                "items": [
+                    "undershirt",
+                    "arm_warmers",
+                    "leg_warmers",
+                    "pants_army",
+                    "jacket_army",
+                    "balclava",
+                    "beret",
+                    "gloves_liner",
+                    "gloves_tactical",
+                    "socks",
+                    "boots_combat",
+                    "militarymap",
+                    "id_military"
+                ],
+                "entries": [
+                    { "item": "v29", "container-item": "holster" }
+                ]
+            },
+            "male": [
+                "boxer_shorts"
+            ],
+            "female": [
+                "sports_bra",
+                "boxer_shorts"
+            ]
+        },
     "flags": [
       "SCEN_ONLY"
     ]
@@ -1036,11 +1035,11 @@
         "name": "dodge"
       },
       {
-        "level": 1,
+        "level": 2,
         "name": "stabbing"
       },
       {
-        "level": 1,
+        "level": 2,
         "name": "bashing"
       }
     ],
