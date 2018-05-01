@@ -11,7 +11,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ] ],
       [ [ "mold_metal", -1 ] ],
@@ -59,7 +59,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "toolset", 50 ], [ "fire", -1 ] ] ],
     "components": [
       [ [ "can_food_unsealed", 1 ], [ "can_drink_unsealed", 1 ] ],
@@ -92,7 +92,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -114,7 +114,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -136,7 +136,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -158,7 +158,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -180,7 +180,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -202,7 +202,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [
       [ [ "fire", -1 ] ],
       [ [ "can_food_unsealed", -1 ], [ "can_drink_unsealed", -1 ] ]
@@ -220,7 +220,7 @@
     "reversible": true,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "solar_flashlight", 1 ] ],
       [ [ "rag", 2 ], [ "leather", 2 ], [ "string_6", 6 ], [ "string_36", 1 ], [ "duct_tape", 10 ], [ "medical_tape", 20 ] ]
@@ -271,7 +271,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 7 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "char_smoker", 3 ], [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ] ],
     "components": [
       [ [ "gasoline", 1 ] ],
@@ -291,7 +291,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2, "amount": 1 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "tools": [
       [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ],
       [ [ "mold_metal", -1 ] ]
@@ -316,11 +316,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -347,11 +347,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -378,11 +378,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -409,11 +409,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -440,11 +440,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -471,11 +471,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -502,11 +502,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -533,11 +533,11 @@
     "autolearn": false,
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 }
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
     ],
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
@@ -599,9 +599,9 @@
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "filament", 400 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 2, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
       { "id": "SEW", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
@@ -630,9 +630,9 @@
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "filament", 400 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 2, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
       { "id": "SEW", "level": 1 }
     ],
     "tools": [ [ [ "welder", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
@@ -659,9 +659,9 @@
     "reversible": false,
     "autolearn": true,
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -682,9 +682,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -705,9 +705,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -728,9 +728,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -751,9 +751,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -774,9 +774,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -797,9 +797,9 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
     "components": [
@@ -884,12 +884,12 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "oxy_torch", 30 ], [ "welder", 150 ], [ "welder_crude", 225 ], [ "toolset", 225 ] ]
     ],
     "components": [
@@ -914,14 +914,12 @@
     "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1},
+      { "id": "GLARE", "level": 2 }
     ],
-    "tools": [
-      [ [ "goggles_welding", -1 ] ],
-      [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ]
-    ],
+    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "UPS_off", 1 ], [ "battery_motorbike", 1 ], [ "small_storage_battery", 1 ] ],
       [ [ "amplifier", 4 ] ],
@@ -944,14 +942,12 @@
     "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 8 ], [ "textbook_electronics", 8 ], [ "manual_electronics", 8 ], [ "recipe_surv", 7 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1},
+      { "id": "SCREW", "level": 1},
+      { "id": "SCREW_FINE", "level": 1},
+      { "id": "GLARE", "level": 2 }
     ],
-    "tools": [
-      [ [ "goggles_welding", -1 ] ],
-      [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ]
-    ],
+    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "ups_rifle", 1 ] ],
       [ [ "foot_crank", 1 ] ],
@@ -973,13 +969,11 @@
     "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ], [ "manual_electronics", 3 ], [ "recipe_surv", 2 ] ],
     "qualities": [
-      { "id": "SCREW", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1},
+      { "id": "GLARE", "level": 2 }
     ],
-    "tools": [
-      [ [ "goggles_welding", -1 ] ],
-      [ [ "soldering_iron", 30 ], [ "toolset", 5 ] ]
-    ],
+    "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 5 ] ] ],
     "components": [
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 4 ] ],
@@ -1002,13 +996,11 @@
     "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ], [ "manual_electronics", 4 ], [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SCREW", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 }
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "GLARE", "level": 2 }
     ],
-    "tools": [
-      [ [ "goggles_welding", -1 ] ],
-      [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ]
-    ],
+    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 6 ] ],
@@ -1031,8 +1023,8 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 2 ] ],
     "qualities": [
-      { "id": "HAMMER", "level": 1, "amount": 1 },
-      { "id": "SCREW", "level": 1, "amount": 1 }
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW", "level": 1 }
     ],
     "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
     "components": [
@@ -1070,13 +1062,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1},
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1100,13 +1092,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1130,13 +1122,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1160,13 +1152,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1190,13 +1182,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1220,13 +1212,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1250,13 +1242,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1280,13 +1272,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1310,13 +1302,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1340,13 +1332,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1371,8 +1363,8 @@
     "autolearn": true,
     "book_learn": [ [ "book_icef", 4 ], [ "recipe_surv", 4 ] ],
     "qualities": [
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "SCREW", "level": 1, "amount": 1 }
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW", "level": 1 }
     ],
     "components": [
       [ [ "duct_tape", 50 ] ],
@@ -1394,7 +1386,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 5 ] ],
-    "qualities": [ { "id": "CUT", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "stick", 4 ], [ "2x4", 3 ] ],
       [ [ "blade", 2 ], [ "spike", 2 ] ],
@@ -1414,13 +1406,13 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 4 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1, "amount": 1 },
-      { "id": "SCREW_FINE", "level": 1, "amount": 1 },
-      { "id": "WRENCH_FINE", "level": 1, "amount": 1 },
-      { "id": "HAMMER", "level": 3, "amount": 1 }
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ]
     ],
@@ -1443,7 +1435,7 @@
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -1485,7 +1477,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
       [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ],
       [ [ "oxy_torch", 25 ], [ "welder", 85 ], [ "welder_crude", 180 ], [ "toolset", 180 ] ]
@@ -1508,7 +1500,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
       [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ],
       [ [ "oxy_torch", 25 ], [ "welder", 85 ], [ "welder_crude", 180 ], [ "toolset", 180 ] ]
@@ -1531,7 +1523,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
     "components": [
       [ [ "bio_laser", 1 ] ],
@@ -1553,7 +1545,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ] ],
     "components": [
       [ [ "bio_chain_lightning", 1 ] ],
@@ -1611,12 +1603,12 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "qualities": [
-      { "id": "HAMMER", "level": 2, "amount": 1 },
-      { "id": "SAW_M", "level": 1, "amount": 1 },
-      { "id": "WRENCH", "level": 1, "amount": 1 }
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "GLARE", "level": 2 }
     ],
     "tools": [
-      [ [ "goggles_welding", -1 ] ],
       [ [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ]
     ],
     "components": [
@@ -1751,7 +1743,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 5 ] ],
-    "qualities": [ { "id": "SCREW_FINE", "level": 1, "amount": 1 } ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [
       [ [ "soldering_iron", 20 ], [ "toolset", 20 ], [ "small_repairkit", 20 ], [ "large_repairkit", 10 ] ],
       [ [ "oxy_torch", 25 ], [ "welder", 85 ], [ "welder_crude", 180 ], [ "toolset", 180 ] ]
