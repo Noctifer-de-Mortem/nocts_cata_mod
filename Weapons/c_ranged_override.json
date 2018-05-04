@@ -85,7 +85,7 @@
   },
   {
     "id": "v29_cheap",
-    "copy-from": "v29",
+    "copy-from": "v29_cheap",
     "type": "GUN",
     "name": "homemade laser pistol",
     "range": 15,
