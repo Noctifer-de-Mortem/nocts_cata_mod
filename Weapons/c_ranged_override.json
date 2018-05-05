@@ -1,0 +1,181 @@
+[
+  {
+    "id": "rep_crossbow",
+    "copy-from": "rep_crossbow",
+    "type": "GUN",
+    "name": "repeating crossbow",
+    "skill": "archery",
+    "burst": 5
+  },
+  {
+    "id": "coilgun",
+    "copy-from": "coilgun",
+    "type": "GUN",
+    "name": "coilgun",
+    "burst": 10,
+    "ups_charges": 5,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "laser_rifle",
+    "copy-from": "laser_rifle",
+    "type": "GUN",
+    "name": "A7 laser rifle",
+    "pierce": 10,
+    "dispersion": 0,
+    "ups_charges": 25,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "emitter",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "lens",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ]
+  },
+  {
+    "id": "v29_cheap",
+    "copy-from": "v29_cheap",
+    "type": "GUN",
+    "name": "homemade laser pistol",
+    "range": 15,
+    "ranged_damage": 10,
+    "pierce": 5,
+    "dispersion": 50,
+    "ups_charges": 15,
+    "reload": 50,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NO_UNLOAD"
+    ]
+  },
+  {
+    "id": "v29",
+    "copy-from": "v29",
+    "type": "GUN",
+    "name": "V29 laser pistol",
+    "range": 20,
+    "pierce": 5,
+    "dispersion": 50,
+    "ups_charges": 10,
+    "reload": 25,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "emitter",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "lens",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "ammo_effects": [
+      "LASER",
+      "INCENDIARY"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NO_UNLOAD"
+    ]
+  }
+]
