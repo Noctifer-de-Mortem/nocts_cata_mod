@@ -13,7 +13,6 @@
     "type": "GUN",
     "name": "coilgun",
     "burst": 10,
-    "pierce": 20,
     "ups_charges": 5,
     "valid_mod_locations": [
       [
@@ -39,6 +38,8 @@
     "copy-from": "laser_rifle",
     "type": "GUN",
     "name": "A7 laser rifle",
+    "pierce": 10,
+    "dispersion": 0,
     "ups_charges": 25,
     "valid_mod_locations": [
       [
