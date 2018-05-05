@@ -131,7 +131,6 @@
     "type": "GUN",
     "name": "V29 laser pistol",
     "range": 20,
-    "ranged_damage": 10,
     "pierce": 5,
     "dispersion": 50,
     "ups_charges": 10,
