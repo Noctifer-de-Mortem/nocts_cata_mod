@@ -478,7 +478,8 @@
             { "item": "hose", "count": 1 },
             { "item": "cu_pipe", "count": [2, 5] },
             { "item": "scrap_copper", "count": [1, 2] }
-        ]
+        ],
+    "use_action": { "type": "deploy_furn", "furn_type": "f_fridge" }
   },
   {
     "id": "dc_fridge",
