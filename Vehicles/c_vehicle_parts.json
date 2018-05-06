@@ -461,7 +461,7 @@
     "examine_action": "deployed_furniture"
   },
   {
-    "type": "GENERIC",
+    "type": "TOOL",
     "id": "fridge",
     "name": "fridge",
     "description": "A decently sized fridge for keeping food cool. Lacks power converter to work with DC.",
