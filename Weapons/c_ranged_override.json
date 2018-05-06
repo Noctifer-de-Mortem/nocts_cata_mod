@@ -14,24 +14,7 @@
     "name": "coilgun",
     "burst": 10,
     "ups_charges": 5,
-    "valid_mod_locations": [
-      [
-        "accessories",
-        4
-      ],
-      [
-        "grip",
-        1
-      ],
-      [
-        "sights",
-        1
-      ],
-      [
-        "stock",
-        1
-      ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "laser_rifle",
@@ -42,47 +25,17 @@
     "dispersion": 0,
     "ups_charges": 25,
     "valid_mod_locations": [
-      [
-        "accessories",
-        4
-      ],
-      [
-        "emitter",
-        1
-      ],
-      [
-        "grip",
-        1
-      ],
-      [
-        "lens",
-        1
-      ],
-      [
-        "rail",
-        1
-      ],
-      [
-        "sights",
-        1
-      ],
-      [
-        "stock",
-        1
-      ],
-      [
-        "underbarrel",
-        1
-      ]
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [
-      "LASER",
-      "INCENDIARY"
-    ],
-    "flags": [
-      "NEVER_JAMS",
-      "NO_UNLOAD"
-    ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
   },
   {
     "id": "v29_cheap",
@@ -95,35 +48,9 @@
     "dispersion": 50,
     "ups_charges": 15,
     "reload": 50,
-    "valid_mod_locations": [
-      [
-        "accessories",
-        2
-      ],
-      [
-        "grip",
-        1
-      ],
-      [
-        "rail",
-        1
-      ],
-      [
-        "sights",
-        1
-      ],
-      [
-        "stock",
-        1
-      ]
-    ],
-    "ammo_effects": [
-      "LASER",
-      "INCENDIARY"
-    ],
-    "flags": [
-      "NO_UNLOAD"
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NO_UNLOAD" ]
   },
   {
     "id": "v29",
@@ -136,46 +63,16 @@
     "ups_charges": 10,
     "reload": 25,
     "valid_mod_locations": [
-      [
-        "accessories",
-        2
-      ],
-      [
-        "emitter",
-        1
-      ],
-      [
-        "grip",
-        1
-      ],
-      [
-        "lens",
-        1
-      ],
-      [
-        "rail",
-        1
-      ],
-      [
-        "sights",
-        1
-      ],
-      [
-        "stock",
-        1
-      ],
-      [
-        "underbarrel",
-        1
-      ]
+      [ "accessories", 2 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "lens", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [
-      "LASER",
-      "INCENDIARY"
-    ],
-    "flags": [
-      "NEVER_JAMS",
-      "NO_UNLOAD"
-    ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
   }
 ]
