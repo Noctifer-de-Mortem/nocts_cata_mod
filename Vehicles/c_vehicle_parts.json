@@ -427,6 +427,40 @@
     "extend": { "flags": [ "TOOL_WRENCH" ] }
   },
   {
+    "type" : "furniture",
+    "id" : "f_fridge",
+    "name": "refrigerator",
+    "symbol": "{",
+    "description": "Freeze your food with the amazing science of electricity!  Oh wait, none is flowing.",
+    "color": "light_cyan",
+    "move_cost_mod": -1,
+    "required_str": 10,
+    "flags": ["CONTAINER", "PLACE_ITEM", "BLOCKSDOOR"],
+    "deconstruct": {
+        "items": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [2, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] }
+        ]
+    },
+    "max_volume": 7000,
+    "bash": {
+        "str_min": 18, "str_max": 50,
+        "sound": "metal screeching!",
+        "sound_fail": "clang!",
+        "items": [
+            { "item": "scrap", "count": [2, 8] },
+            { "item": "steel_chunk", "count": [0, 3] },
+            { "item": "hose", "count": 1 },
+            { "item": "cu_pipe", "count": [2, 5] },
+            { "item": "scrap_copper", "count": [1, 2] }
+        ]
+    },
+    "deployed_item": "fridge",
+    "examine_action": "deployed_furniture"
+  },
+  {
     "type": "GENERIC",
     "id": "fridge",
     "name": "fridge",
