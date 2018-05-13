@@ -59,7 +59,7 @@
   {
     "copy-from": "mutant",
     "type": "scenario",
-    "extend": { "professions": [ "faulty_bionic", "cykotic" ] },
+    "extend": { "professions": [ "faulty_bionic" ] },
     "ident": "mutant"
   },
   {
