@@ -1693,8 +1693,7 @@
       "STR_DRAW",
       "RELOAD_AND_SHOOT",
       "PRIMITIVE_RANGED_WEAPON",
-      "SLICE",
-      "REACH_ATTACK"
+      "SLICE"
     ],
     "techniques": [
       "RAPID",
