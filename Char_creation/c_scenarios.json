@@ -54,7 +54,7 @@
     "points": 2,
     "start_name": "Boarded Up House",
     "allowed_locs": [ "boarded_house" ],
-    "professions": [ "unemployed", "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ]
+    "professions": [ "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ]
   },
   {
     "copy-from": "mutant",
@@ -129,5 +129,28 @@
     "start_name": "Sketchy Cabin",
     "allowed_locs": [ "house_fight_s" ],
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
+  },
+  {
+    "type": "scenario",
+    "ident": "last_crime",
+    "name": "The Last Jig",
+    "points": -6,
+    "description": "You were on your way to another routine job, it might of been a target to kill, an item to steal or intel to gather.  Whatever it was doesn't matter anymore; you fought your way here from the horde and when you arrive, the place is sorrounded, not by cops as you expected, but by the dead.",
+    "allowed_locs": [
+      "house","bank"
+    ],
+    "professions": [
+      "convict",
+	    "scoundrel",
+	    "gangster",
+      "bionic_thief",
+      "razorgirl",
+      "bionic_hitman"
+    ],
+    "start_name": "Intended Crime Scene",
+    "flags": [
+      "SUR_START",
+	    "INFECTED"
+    ]
   }
 ]
