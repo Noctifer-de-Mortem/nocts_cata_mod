@@ -141,8 +141,9 @@
     ],
     "professions": [
       "convict",
-	    "scoundrel",
-	    "gangster",
+      "scoundrel",
+      "gangster",
+      "burglar",
       "bionic_thief",
       "razorgirl",
       "bionic_hitman"
