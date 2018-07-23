@@ -487,7 +487,8 @@
       [ "flesh_blade", 2 ],
       [ "flesh_rifle", 2 ],
       [ "blood_m", 2 ],
-      [ "blood_p", 2 ]
+      [ "blood_p", 2 ],
+	  ["anesthesia", 2]
     ]
   },
   {
@@ -726,6 +727,12 @@
         ]
       },
       { "item": "corpse" }
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "ambulance_equipment",
+    "items":[
+	  ["anesthesia", 5]
     ]
   }
 ]

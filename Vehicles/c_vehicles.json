@@ -291,7 +291,7 @@
       { "x": -8, "y": 1, "chance": 99, "items": [ "jerrycan_big" ] },
       { "x": -8, "y": 1, "chance": 99, "items": [ "hose" ] },
       { "x": -8, "y": 1, "chance": 99, "items": [ "goggles_welding" ] },
-      { "x": -8, "y": 2, "chance": 75, "item_groups": [ "stash_food" ] },
+      { "x": -8, "y": 2, "chance": 75, "item_groups": [ "stash_food" ], "repeat": [ 1, 5 ] },
       { "x": -7, "y": 0, "chance": 99, "items": [ "gown" ] },
       { "x": -7, "y": 0, "chance": 99, "items": [ "ear_plugs" ] },
       { "x": -7, "y": 0, "chance": 99, "items": [ "blindfold" ] },

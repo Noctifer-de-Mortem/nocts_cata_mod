@@ -132,18 +132,19 @@
         { "x": 1, "y": 22 }
       ],
       "place_items": [
-        { "item": "stash_food", "x": 8, "y": 1, "chance": 99 },
-        { "item": "textbooks", "x": 17, "y": 14, "chance": 85 },
-        { "item": "textbooks", "x": 17, "y": 8, "chance": 85 },
-        { "item": "farming_seeds", "x": 7, "y": [ 19, 20 ], "chance": 85 },
-        { "item": "farming_seeds", "x": 7, "y": [ 15, 16 ], "chance": 85 },
-        { "item": "allclothes", "x": 22, "y": 13, "chance": 85 },
-        { "item": "allclothes", "x": 22, "y": 11, "chance": 85 },
-        { "item": "allclothes", "x": 22, "y": 9, "chance": 85 },
-        { "item": "tools_common", "x": 20, "y": 8, "chance": 85 },
-        { "item": "science", "x": 22, "y": [ 18, 20 ], "chance": 85 },
-        { "item": "survivor_weapons", "x": 20, "y": 14, "chance": 99 },
-        { "item": "farming_tools", "x": 13, "y": [ 20, 22 ], "chance": 85 }
+        { "item": "stash_food", "x": 8, "y": 1, "chance": 99, "repeat": [ 15, 20 ] },
+        { "item": "textbooks", "x": 17, "y": 14, "chance": 85, "repeat": [ 5, 10 ] },
+        { "item": "textbooks", "x": 17, "y": 8, "chance": 85, "repeat": [ 5, 10 ] },
+        { "item": "farming_seeds", "x": 7, "y": [ 19, 20 ], "chance": 85, "repeat": [ 20, 30 ] },
+        { "item": "farming_seeds", "x": 7, "y": [ 15, 16 ], "chance": 85, "repeat": [ 20, 30 ] },
+        { "item": "allclothes", "x": 22, "y": 13, "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "allclothes", "x": 22, "y": 11, "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "allclothes", "x": 22, "y": 9, "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "tools_common", "x": 20, "y": 8, "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "science", "x": 22, "y": [ 18, 20 ], "chance": 85, "repeat": [ 15, 20 ] },
+		{ "item": "surgery", "x": 22, "y": [ 18, 20 ], "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "survivor_weapons", "x": 20, "y": 14, "chance": 99, "repeat": [ 15, 20 ] },
+        { "item": "farming_tools", "x": 13, "y": [ 20, 22 ], "chance": 85, "repeat": [ 15, 20 ] }
       ],
       "add": [
         { "item": "ulmap", "x": 22, "y": 20, "repeat": 1 },
