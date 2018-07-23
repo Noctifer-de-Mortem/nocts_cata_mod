@@ -110,7 +110,7 @@
       ],
       "add": [
         { "item": "mccmap", "x": 12, "y": 12, "repeat": 1 },
-		{ "item": "laser_rifle", "x": 12, "y": 11, "repeat": 1 },
+        { "item": "laser_rifle", "x": 12, "y": 11, "repeat": 1 },
         { "item": "goggles_welding", "x": 4, "y": 20, "repeat": 1 }
       ],
       "place_npcs": [

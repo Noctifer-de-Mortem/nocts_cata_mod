@@ -142,7 +142,7 @@
         { "item": "allclothes", "x": 22, "y": 9, "chance": 85, "repeat": [ 15, 20 ] },
         { "item": "tools_common", "x": 20, "y": 8, "chance": 85, "repeat": [ 15, 20 ] },
         { "item": "science", "x": 22, "y": [ 18, 20 ], "chance": 85, "repeat": [ 15, 20 ] },
-		{ "item": "surgery", "x": 22, "y": [ 18, 20 ], "chance": 85, "repeat": [ 15, 20 ] },
+        { "item": "surgery", "x": 22, "y": [ 18, 20 ], "chance": 85, "repeat": [ 15, 20 ] },
         { "item": "survivor_weapons", "x": 20, "y": 14, "chance": 99, "repeat": [ 15, 20 ] },
         { "item": "farming_tools", "x": 13, "y": [ 20, 22 ], "chance": 85, "repeat": [ 15, 20 ] }
       ],

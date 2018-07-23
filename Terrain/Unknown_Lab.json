@@ -71,8 +71,8 @@
         "w": "t_metal_floor",
         "{": "t_metal_floor",
         "|": "t_wall_metal",
-		"i": "t_metal_floor",
-		"j": "t_metal_floor"
+        "i": "t_metal_floor",
+        "j": "t_metal_floor"
       },
       "furniture": {
         " ": "f_null",
@@ -110,8 +110,8 @@
         "w": "f_woodstove",
         "{": "f_locker",
         "|": "f_null",
-		"i": "f_autodoc",
-		"j": "f_autodoc_couch"
+        "i": "f_autodoc",
+        "j": "f_autodoc_couch"
       },
       "place_toilets": [
         { "x": 1, "y": 12 },
