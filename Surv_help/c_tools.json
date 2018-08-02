@@ -1120,8 +1120,9 @@
     "turns_per_charge": 5,
     "ammo": "NULL",
     "revert_to": "null",
-    "use_action" : "MUT_IV",
-    "flags" : "MUTAGEN_STRONG",
+    "use_action" : {
+      "type" : "mutagen_iv"
+    },
     "artifact_data": {
       "charge_type": "ARTC_HP"
     }
@@ -1149,7 +1150,6 @@
     "ammo": "NULL",
     "revert_to": "null",
     "use_action" : "PURIFY_IV",
-    "flags" : "MUTAGEN_STRONG",
     "artifact_data": {
       "charge_type": "ARTC_HP"
     }
