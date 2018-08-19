@@ -2,32 +2,17 @@
   {
     "id": "camping",
     "type": "item_group",
-    "items": [
-      [ "surcan", 10 ],
-      [ "hammer_multitool", 10 ],
-      [ "parawatch", 10 ],
-      [ "parabracelets", 10 ]
-    ]
+    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "sports",
     "type": "item_group",
-    "items": [
-      [ "surcan", 10 ],
-      [ "hammer_multitool", 10 ],
-      [ "parawatch", 10 ],
-      [ "parabracelets", 10 ]
-    ]
+    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "allsporting",
     "type": "item_group",
-    "items": [
-      [ "surcan", 10 ],
-      [ "hammer_multitool", 10 ],
-      [ "parawatch", 10 ],
-      [ "parabracelets", 10 ]
-    ]
+    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "gunxtras",
@@ -444,32 +429,17 @@
   {
     "id": "mil_rifles",
     "type": "item_group",
-    "items": [
-      [ "arc_laser_rifle", 2 ],
-      [ "laser_sniper", 2 ],
-      [ "bolt_rifle_elec", 2 ],
-      [ "laser_lmg", 2 ]
-    ]
+    "items": [ [ "arc_laser_rifle", 2 ], [ "laser_sniper", 2 ], [ "bolt_rifle_elec", 2 ], [ "laser_lmg", 2 ] ]
   },
   {
     "id": "helicopter",
     "type": "item_group",
-    "items": [
-      [ "arc_laser_rifle", 2 ],
-      [ "laser_sniper", 2 ],
-      [ "bolt_rifle_elec", 2 ],
-      [ "laser_lmg", 2 ]
-    ]
+    "items": [ [ "arc_laser_rifle", 2 ], [ "laser_sniper", 2 ], [ "bolt_rifle_elec", 2 ], [ "laser_lmg", 2 ] ]
   },
   {
     "id": "army_rifles",
     "type": "item_group",
-    "items": [
-      [ "arc_laser_rifle", 2 ],
-      [ "laser_sniper", 2 ],
-      [ "bolt_rifle_elec", 2 ],
-      [ "laser_lmg", 2 ]
-    ]
+    "items": [ [ "arc_laser_rifle", 2 ], [ "laser_sniper", 2 ], [ "bolt_rifle_elec", 2 ], [ "laser_lmg", 2 ] ]
   },
   {
     "id": "science",
@@ -488,7 +458,7 @@
       [ "flesh_rifle", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
-      ["anesthesia", 2]
+      [ "anesthesia", 2 ]
     ]
   },
   {
@@ -607,13 +577,7 @@
   {
     "id": "traveler",
     "type": "item_group",
-    "items": [
-      [ "biomap", 1 ],
-      [ "dress_skirt", 75 ],
-      [ "microskirt", 10 ],
-      [ "fancy_bra", 30 ],
-      [ "thong", 30 ]
-    ]
+    "items": [ [ "biomap", 1 ], [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
   },
   {
     "id": "shelter",
@@ -628,29 +592,17 @@
   {
     "id": "bionics",
     "type": "item_group",
-    "items": [
-      [ "bio_laser_armgun", 10 ],
-      [ "bio_sword", 5 ],
-      [ "bio_flamethrower", 5 ]
-    ]
+    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ] ]
   },
   {
     "id": "bionics_mil",
     "type": "item_group",
-    "items": [
-      [ "bio_laser_armgun", 10 ],
-      [ "bio_sword", 2 ],
-      [ "bio_flamethrower", 5 ]
-    ]
+    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ] ]
   },
   {
     "id": "bionics_op",
     "type": "item_group",
-    "items": [
-      [ "bio_laser_armgun", 5 ],
-      [ "bio_sword", 5 ],
-      [ "bio_flamethrower", 5 ]
-    ]
+    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ] ]
   },
   {
     "id": "mil_surplus",
@@ -675,45 +627,27 @@
   {
     "id": "female_underwear_top",
     "type": "item_group",
-    "items": [
-      [ "bra", 90 ],
-      [ "fancy_bra", 90 ]
-    ]
+    "items": [ [ "bra", 90 ], [ "fancy_bra", 90 ] ]
   },
   {
     "id": "female_underwear_bottom",
     "type": "item_group",
-    "items": [
-      [ "panties", 70 ],
-      [ "boy_shorts", 50 ],
-      [ "thong", 70 ]
-    ]
+    "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "thong", 70 ] ]
   },
   {
     "id": "allclothes",
     "type": "item_group",
-    "items": [
-      [ "dress_skirt", 75 ],
-      [ "microskirt", 10 ],
-      [ "fancy_bra", 30 ],
-      [ "thong", 30 ]
-    ]
+    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "thong", 30 ] ]
   },
   {
     "id": "pawn",
     "type": "item_group",
-    "items": [
-      [ "dress_skirt", 75 ],
-      [ "microskirt", 10 ]
-    ]
+    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ] ]
   },
   {
     "id": "pants",
     "type": "item_group",
-    "items": [
-      [ "dress_skirt", 75 ],
-      [ "microskirt", 10 ]
-    ]
+    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ] ]
   },
   {
     "id": "dead_slave_fighters",
@@ -721,18 +655,46 @@
     "subtype": "collection",
     "entries": [
       {
-        "distribution": [
-          { "group": "NC_GLADIATOR_LIGHT_worn", "prob": 50 },
-          { "group": "NC_GLADIATOR_HEAVY_worn", "prob": 50 }
-        ]
+        "distribution": [ { "group": "NC_GLADIATOR_LIGHT_worn", "prob": 50 }, { "group": "NC_GLADIATOR_HEAVY_worn", "prob": 50 } ]
       },
       { "item": "corpse" }
     ]
-  },{
-    "type" : "item_group",
-    "id" : "ambulance_equipment",
-    "items":[
-      ["anesthesia", 5]
+  },
+  {
+    "type": "item_group",
+    "id": "ambulance_equipment",
+    "items": [ [ "anesthesia", 5 ] ]
+  },
+  {
+    "id": "sketchy_cabin_weapons",
+    "type": "item_group",
+    "magazine": 100,
+    "ammo": 100,
+    "subtype": "distribution",
+    "items": [
+      { "group": "survivor_knife", "prob": 10 },
+      { "group": "survivor_melee", "prob": 40 },
+      { "group": "guns_improvised", "prob": 60 }
     ]
+  },
+  {
+    "id": "guns_pistol_improvised",
+    "type": "item_group",
+    "items": [ [ "unbio_laser_gun", 1 ], [ "surv_battery_pistol", 1 ] ]
+  },
+  {
+    "id": "guns_smg_improvised",
+    "type": "item_group",
+    "items": [ [ "surv_full_22", 1 ], [ "surv_full_9mm", 1 ], [ "surv_full_45", 1 ] ]
+  },
+  {
+    "id": "guns_rifle_improvised",
+    "type": "item_group",
+    "items": [ [ "unbio_chain_lightning", 1 ], [ "surv_battery_rifle", 1 ], [ "surv_full_223", 1 ], [ "surv_full_308", 1 ], [ "surv_full_762", 1 ] ]
+  },
+  {
+    "id": "guns_shotgun_improvised",
+    "type": "item_group",
+    "items": [ [ "surv_full_12", 1 ] ]
   }
 ]
