@@ -49,24 +49,7 @@
         "x": "t_chaingate_l",
         "|": "t_wall_metal"
       },
-      "furniture": {
-        " ": "f_null",
-        "#": "f_null",
-        "+": "f_null",
-        "-": "f_null",
-        ".": "f_null",
-        "1": "f_null",
-        "6": "f_null",
-        "7": "f_null",
-        ">": "f_null",
-        "C": "f_null",
-        "_": "f_null",
-        "c": "f_chair",
-        "f": "f_null",
-        "m": "f_null",
-        "x": "f_null",
-        "|": "f_null"
-      },
+      "furniture": { "c": "f_chair" },
       "place_monster": [
         { "monster": "mon_turret_bmg", "x": 5, "y": 4 },
         { "monster": "mon_turret_bmg", "x": 18, "y": 4 },

@@ -60,31 +60,17 @@
         "|": "t_wall_metal"
       },
       "furniture": {
-        "#": "f_null",
-        "$": "f_null",
-        "+": "f_null",
-        ".": "f_null",
-        "7": "f_null",
-        ";": "f_null",
         "=": "f_smoking_rack",
         "B": "f_bed",
-        "C": "f_null",
         "F": "f_forge",
         "O": "f_standing_tank",
         "U": "f_kiln_empty",
         "^": "f_still",
-        "_": "f_null",
         "a": "f_anvil",
         "b": "f_fireplace",
-        "c": "f_null",
         "e": "f_toilet",
         "f": "f_fridge",
-        "o": "f_null",
-        "r": "f_null",
-        "s": "f_null",
-        "w": "f_null",
-        "{": "f_locker",
-        "|": "f_null"
+        "{": "f_locker"
       },
       "place_toilets": [
         { "x": 21, "y": 15 }
@@ -103,11 +89,11 @@
         { "item": "weapons", "x": 9, "y": 10, "chance": 75 },
         { "item": "gear_survival", "x": 9, "y": 9, "chance": 75, "repeat": [ 10, 15 ] },
         { "item": "tools_common", "x": 14, "y": 9, "chance": 75, "repeat": [ 10, 15 ] },
-        { "item": "cannedfood", "x": 14, "y": 12, "chance": 100, "repeat": [ 20, 25 ] },
-        { "item": "raw_materials", "x": 14, "y": 10, "chance": 75, "repeat": [ 20, 25 ] }
+        { "item": "cannedfood", "x": 14, "y": 12, "chance": 90, "repeat": [ 20, 25 ] },
+        { "item": "raw_materials", "x": 14, "y": 10, "chance": 75, "repeat": [ 15, 20 ] }
       ],
       "add": [
-        { "item": "recipe_surv", "x": 14, "y": 12, "repeat": 1 },
+        { "item": "recipe_surv", "x": 14, "y": 12 },
         { "item": "wire_barbed", "x": 5, "y": 0, "repeat": 2 },
         { "item": "wire_barbed", "x": 0, "y": 1, "repeat": 2 },
         { "item": "wire_barbed", "x": 23, "y": 2, "repeat": 2 },
@@ -121,7 +107,7 @@
         { "item": "wire_barbed", "x": 6, "y": 23, "repeat": 2 },
         { "item": "wire_barbed", "x": 13, "y": 23, "repeat": 2 },
         { "item": "wire_barbed", "x": 21, "y": 23, "repeat": 2 },
-        { "item": "semap", "x": 14, "y": 12, "repeat": 1 }
+        { "item": "semap", "x": 14, "y": 12 }
       ],
       "place_npcs": [
         { "class": "bff", "x": 11, "y": 13 }

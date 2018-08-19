@@ -34,12 +34,12 @@
     "auto_total": true,
     "monsters": [
       { "monster": "mon_failed_weapon", "freq": 1, "cost_multiplier": 50 },
-      { "monster": "mon_zombie_failed_weapon", "freq": 5, "cost_multiplier": 30 },
-      { "monster": "mon_fungus_failed_weapon", "freq": 5, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_bio_infantry", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_knight", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_scout", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_tool", "freq": 5, "cost_multiplier": 15 }
+      { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 30 },
+      { "monster": "mon_fungus_failed_weapon", "freq": 1, "cost_multiplier": 30 },
+      { "monster": "mon_zombie_bio_infantry", "freq": 3, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_knight", "freq": 2, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_scout", "freq": 2, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_tool", "freq": 3, "cost_multiplier": 15 }
     ]
   },
   {
@@ -49,12 +49,12 @@
     "auto_total": true,
     "monsters": [
       { "monster": "mon_failed_weapon", "freq": 1, "cost_multiplier": 50 },
-      { "monster": "mon_zombie_failed_weapon", "freq": 5, "cost_multiplier": 30 },
-      { "monster": "mon_fungus_failed_weapon", "freq": 5, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_bio_infantry", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_knight", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_scout", "freq": 5, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_tool", "freq": 5, "cost_multiplier": 15 }
+      { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 30 },
+      { "monster": "mon_fungus_failed_weapon", "freq": 1, "cost_multiplier": 30 },
+      { "monster": "mon_zombie_bio_infantry", "freq": 3, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_knight", "freq": 2, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_scout", "freq": 2, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_tool", "freq": 3, "cost_multiplier": 15 }
     ]
   },
   {
