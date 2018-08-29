@@ -12,18 +12,6 @@
   },
   {
     "type": "scenario",
-    "name": "Into the Wild",
-    "description": "You tried to make it in the cities, you truly did. Things only got worse and you had to leave. You have skills to live in the woods, so that's where you are headed. It's autumn now... winter is coming... they lurk by the trees... time to rebuild...",
-    "flags": [ "SUR_START", "AUT_START" ],
-    "ident": "bugout",
-    "points": -2,
-    "start_name": "Forest",
-    "allowed_locs": [ "forest", "surv_camp_l" ],
-    "professions": [ "naturalist", "winter_survivor", "winter_scavenger" ],
-    "traits": [ "MARTIAL_ARTS_SURV" ]
-  },
-  {
-    "type": "scenario",
     "name": "Bio-Weapon Lab",
     "description": "You woke up, where are you?  Who are you?  What are you?!  That doesn't matter right now... you have a bad feeling...",
     "flags": [ "SUR_START", "SUM_START" ],
@@ -57,6 +45,17 @@
     "professions": [ "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ]
   },
   {
+    "type": "scenario",
+    "name": "Slave Fighter's Freedom",
+    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
+    "flags": [ "CHALLENGE" ],
+    "ident": "house_fight_scenario",
+    "points": -2,
+    "start_name": "Sketchy Cabin",
+    "allowed_locs": [ "house_fight_s" ],
+    "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
+  },
+  {
     "copy-from": "mutant",
     "type": "scenario",
     "extend": { "professions": [ "faulty_bionic" ] },
@@ -78,6 +77,12 @@
     "copy-from": "missed",
     "type": "scenario",
     "ident": "missed",
+    "traits": [ "MARTIAL_ARTS_SURV" ]
+  },
+  {
+    "copy-from": "summer_advanced_start",
+    "type": "scenario",
+    "ident": "summer_advanced_start",
     "traits": [ "MARTIAL_ARTS_SURV" ]
   },
   {
@@ -108,26 +113,12 @@
     "ident": "wilderness"
   },
   {
+    "copy-from": "heli_crash",
     "type": "scenario",
-    "name": "Super Soldier's Helicopter Crash",
-    "description": "A Super Soldier transport helicopter was downed in the middle of the chaos, you awaken to the aftermath.",
-    "flags": [ "HELI_CRASH" ],
-    "ident": "ss_heli_crash",
-    "points": -2,
-    "start_name": "Crash site",
-    "allowed_locs": [ "field" ],
-    "map_special": "mx_helicopter",
-    "professions": [ "bio_weapon_hunter", "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
-  },
-  {
-    "type": "scenario",
-    "name": "Slave Fighter's Freedom",
-    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
-    "flags": [ "CHALLENGE" ],
-    "ident": "house_fight_scenario",
-    "points": -2,
-    "start_name": "Sketchy Cabin",
-    "allowed_locs": [ "house_fight_s" ],
-    "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
+    "extend": {
+      "map_special": "mx_helicopter",
+      "professions": [ "bio_weapon_hunter", "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
+    },
+    "ident": "heli_crash"
   }
 ]
