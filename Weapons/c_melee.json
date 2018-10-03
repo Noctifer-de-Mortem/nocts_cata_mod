@@ -126,11 +126,7 @@
     "weight": 680,
     "to_hit": 4,
     "max_charges": 3,
-    "initial_charges": 0,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "color": "dark_red",
     "symbol": "/",
     "material": [
