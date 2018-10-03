@@ -35,11 +35,6 @@
         " ": "t_null",
         ",": "t_grass",
         ".": "t_dirt"
-      },
-      "furniture": {
-        " ": "f_null",
-        ",": "f_null",
-        ".": "f_null"
       }
     }
   }

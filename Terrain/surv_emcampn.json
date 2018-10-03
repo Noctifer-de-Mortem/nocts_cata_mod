@@ -62,12 +62,6 @@
         "|": "t_wall_log"
       },
       "furniture": {
-        "#": "f_null",
-        "$": "f_null",
-        "&": "f_null",
-        "+": "f_null",
-        "-": "f_null",
-        ".": "f_null",
         "=": "f_smoking_rack",
         "A": "f_anvil",
         "B": "f_bench",
@@ -75,7 +69,6 @@
         "U": "f_kiln_empty",
         "W": "f_woodstove",
         "^": "f_forge_rock",
-        "_": "f_null",
         "a": "f_bookcase",
         "b": "f_bed",
         "c": "f_chair",
@@ -83,12 +76,8 @@
         "e": "f_toilet",
         "f": "f_fridge",
         "g": "f_glass_fridge",
-        "o": "f_null",
         "t": "f_table",
-        "u": "f_null",
-        "w": "f_null",
-        "{": "f_locker",
-        "|": "f_null"
+        "{": "f_locker"
       },
       "place_toilets": [
         { "x": 15, "y": 21 },
@@ -123,7 +112,7 @@
         { "item": "raw_materials", "x": 16, "y": 11, "chance": 75, "repeat": [ 30, 35 ] }
       ],
       "add": [
-        { "item": "recipe_surv", "x": 5, "y": 11, "repeat": 1 }
+        { "item": "recipe_surv", "x": 5, "y": 11 }
       ],
       "place_npcs": [
         { "class": "thug", "x": 4, "y": 4 },

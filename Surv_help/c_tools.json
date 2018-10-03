@@ -12,13 +12,7 @@
     "material": "steel",
     "weight": 530,
     "volume": 3,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_223",
@@ -33,13 +27,7 @@
     "material": "steel",
     "weight": 600,
     "volume": 3,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_308",
@@ -54,13 +42,7 @@
     "material": "steel",
     "weight": 620,
     "volume": 4,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_9mm",
@@ -75,13 +57,7 @@
     "material": "steel",
     "weight": 530,
     "volume": 3,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_45",
@@ -96,13 +72,7 @@
     "material": "steel",
     "weight": 530,
     "volume": 3,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_12",
@@ -117,13 +87,7 @@
     "material": "steel",
     "weight": 650,
     "volume": 5,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "fr_762",
@@ -138,13 +102,7 @@
     "material": "steel",
     "weight": 620,
     "volume": 4,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "surcan",
@@ -162,12 +120,7 @@
     "weight": 103,
     "volume": 2,
     "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "elc_bld",
@@ -192,11 +145,8 @@
     "cutting": 12,
     "to_hit": -1,
     "max_charges": 500,
-    "initial_charges": 0,
     "charges_per_use": 100,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "category": "weapons",
     "use_action": "TAZER"
   },
@@ -222,11 +172,8 @@
     "cutting": 24,
     "to_hit": -1,
     "max_charges": 1000,
-    "initial_charges": 0,
     "charges_per_use": 200,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "category": "weapons",
     "use_action": "TAZER"
   },
@@ -254,9 +201,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -294,7 +239,6 @@
     "to_hit": 2,
     "max_charges": 100,
     "initial_charges": 100,
-    "charges_per_use": 0,
     "turns_per_charge": 15,
     "ammo": "battery",
     "revert_to": "solar_flashlight",
@@ -324,11 +268,8 @@
     "bashing": 1,
     "to_hit": -2,
     "max_charges": 10,
-    "initial_charges": 0,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
     "ammo": "charcoal",
-    "revert_to": "null",
     "qualities": [
       [
         "COOK",
@@ -365,8 +306,6 @@
     "bashing": 1,
     "to_hit": -2,
     "max_charges": 10,
-    "initial_charges": 0,
-    "charges_per_use": 0,
     "turns_per_charge": 100,
     "ammo": "charcoal",
     "flags": "LIGHT_10",
@@ -401,13 +340,7 @@
     "weight": 4,
     "volume": 15,
     "to_hit": 1,
-    "bashing": 3,
-    "turns_per_charge": 0,
-    "charges_per_use": 0,
-    "initial_charges": 0,
-    "max_charges": 0,
-    "revert_to": "null",
-    "ammo": "NULL"
+    "bashing": 3
   },
   {
     "id": "molded_hammer",
@@ -423,13 +356,6 @@
     "weight": 1230,
     "volume": 3,
     "bashing": 12,
-    "to_hit": 0,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "use_action": "HAMMER",
     "qualities": [
       [
@@ -459,12 +385,6 @@
     "bashing": 3,
     "cutting": 8,
     "to_hit": -1,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "qualities": [
       [
         "CUT",
@@ -528,13 +448,6 @@
     "volume": 16,
     "bashing": 16,
     "cutting": 3,
-    "to_hit": 0,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "qualities": [
       [
         "DIG",
@@ -561,13 +474,6 @@
     "flags": [
       "CHOP"
     ],
-    "to_hit": 0,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "qualities": [
       [
         "AXE",
@@ -591,13 +497,9 @@
     ],
     "weight": 14,
     "volume": 2,
-    "to_hit": 0,
     "max_charges": 100,
-    "initial_charges": 0,
     "charges_per_use": 5,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "use_action": {
       "type": "firestarter"
     },
@@ -629,9 +531,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -640,9 +540,6 @@
       "need_charges": 1,
       "need_charges_msg": "The flashlight's batteries are dead."
     },
-    "warmth": 0,
-    "encumbrance": 0,
-    "coverage": 0,
     "material_thickness": 2,
     "artifact_data": {
       "charge_type": "ARTC_SOLAR"
@@ -673,7 +570,6 @@
     "to_hit": 2,
     "max_charges": 100,
     "initial_charges": 100,
-    "charges_per_use": 0,
     "turns_per_charge": 15,
     "ammo": "battery",
     "revert_to": "wear_solar_flashlight",
@@ -682,9 +578,6 @@
       "msg": "You turn the flashlight off.",
       "target": "wear_solar_flashlight"
     },
-    "warmth": 0,
-    "encumbrance": 0,
-    "coverage": 0,
     "material_thickness": 2,
     "artifact_data": {
       "charge_type": "ARTC_SOLAR"
@@ -697,20 +590,16 @@
     "color": "white",
     "name": "fishing string",
     "description": "A long string with a hook attached to the end. Useful as a crude fishing tool. Requires bait as lure and sinker.",
-    "price": 0,
     "material": "cotton",
     "weight": 170,
     "volume": 1,
     "max_charges": 1,
-    "initial_charges": 0,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
     "ammo": "fish_bait",
     "flags": [
       "FISH_POOR"
     ],
     "use_action": "FISH_ROD",
-    "revert_to": "null",
     "to_hit": -1
   },
   {
@@ -722,7 +611,6 @@
     "name": "solar torch",
     "name_plural": "solar torches",
     "description": "A mysterious torch that uses the power of the sun (and blob goo) to light itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. You need a lighter to turn it on. Once lit, it can't be turned off until all fuel is used.",
-    "price": 0,
     "material": "wood",
     "weight": 956,
     "volume": 4,
@@ -734,9 +622,7 @@
     "max_charges": 25,
     "initial_charges": 25,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
     "ammo": "gasoline",
-    "revert_to": "null",
     "use_action": {
       "type": "transform",
       "target": "solar_torch_lit",
@@ -758,7 +644,6 @@
     "name": "solar torch (lit)",
     "name_plural": "solar torches (lit)",
     "description": "A mysterious torch that uses the power of the sun (and blob goo) to ligt itself. Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it 'rechargeable' in a sense. It is burning, producing plenty of light, now to wait for it to run out of fuel.",
-    "price": 0,
     "material": "wood",
     "flags": [
       "FIRE",
@@ -773,7 +658,6 @@
     "to_hit": 1,
     "max_charges": 75,
     "initial_charges": 75,
-    "charges_per_use": 0,
     "turns_per_charge": 20,
     "ammo": "gasoline",
     "revert_to": "solar_torch",
@@ -792,21 +676,12 @@
     "weight": 276,
     "color": "light_red",
     "addiction_type": "none",
-    "spoils_in": 0,
     "use_action": "POISON",
-    "stim": 0,
-    "container": "null",
-    "to_hit": 0,
     "comestible_type": "FOOD",
     "symbol": "%",
-    "quench": 0,
-    "healthy": 0,
-    "addiction_potential": 0,
     "nutrition": 20,
     "description": "A piece of glob that has begun to create gasoline when exposed to the sun. The gasoline it creates is too mixed up with the glob to be extracted but is still flammable.",
-    "price": 0,
     "material": "hydrocarbons",
-    "tool": "null",
     "volume": 1,
     "phase": "solid",
     "charges": 1,
@@ -828,12 +703,6 @@
     "bashing": 1,
     "cutting": 1,
     "to_hit": -2,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "qualities": [
       [
         "SAW_W",
@@ -857,7 +726,6 @@
     "color": "blue",
     "name": "Directions to My Bugout Location",
     "description": "This is the location of the Bugout location my friend and I ordered to be made, I should really memorize this...",
-    "price": 0,
     "material": "paper",
     "weight": 30,
     "volume": 1,
@@ -880,17 +748,10 @@
     "name": "full auto receiver case",
     "name_plural": "full auto receiver cases",
     "description": "A case for a full auto receiver, with a full auto mechanism and a specific caliber casing, you can make a full auto receiver.",
-    "price": 0,
     "material": "steel",
     "weight": 320,
     "volume": 3,
-    "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "to_hit": -1
   },
   {
     "id": "survbowstored",
@@ -908,12 +769,7 @@
     "weight": 760,
     "volume": 2,
     "to_hit": -1,
-    "ammo": "NULL",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "revert_to": "null"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "semap",
@@ -923,7 +779,6 @@
     "color": "blue",
     "name": "Encampment Project Reminder",
     "description": "A note describing a group of people creating prepper settlements. You try to remember if there are any of them nearby. Maybe the back of the note has coordinates to their settlements.",
-    "price": 0,
     "material": "paper",
     "weight": 30,
     "volume": 1,
@@ -962,12 +817,6 @@
     "bashing": 8,
     "cutting": 4,
     "to_hit": -4,
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "qualities": [
       [
         "CUT",
@@ -1017,7 +866,6 @@
     "volume": 2,
     "price": 50000,
     "time": 10,
-    "fun": 0,
     "skill": "fabrication",
     "max_level": 8,
     "required_level": 2,
@@ -1045,9 +893,7 @@
     "max_charges": 100,
     "initial_charges": 100,
     "charges_per_use": 100,
-    "turns_per_charge": 0,
     "ammo": "battery",
-    "revert_to": "null",
     "use_action": "ARTIFACT",
     "artifact_data": {
       "charge_type": "ARTC_SOLAR",
@@ -1085,9 +931,6 @@
     "max_charges": 1,
     "initial_charges": 1,
     "charges_per_use": 1,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "use_action": "ARTIFACT",
     "artifact_data": {
       "charge_type": "ARTC_TIME",
@@ -1118,8 +961,6 @@
     "initial_charges": 5,
     "charges_per_use": 5,
     "turns_per_charge": 5,
-    "ammo": "NULL",
-    "revert_to": "null",
     "use_action" : {
       "type" : "mutagen_iv"
     },
@@ -1146,9 +987,6 @@
     "max_charges": 5,
     "initial_charges": 5,
     "charges_per_use": 5,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "use_action" : "PURIFY_IV",
     "artifact_data": {
       "charge_type": "ARTC_HP"
@@ -1228,12 +1066,6 @@
     "name": "stealth cloak (folded)",
     "weight": 1556,
     "color": "light_gray",
-    "max_charges": 0,
-    "initial_charges": 0,
-    "charges_per_use": 0,
-    "turns_per_charge": 0,
-    "ammo": "NULL",
-    "revert_to": "null",
     "symbol": "[",
     "description": "An experimental cloak that uses a highly sophisticated network of cameras and LEDs to render the user fully invisible. It is powered by built-in torsion ratchets. It is currently folded.",
     "price": 8400000,
@@ -1254,7 +1086,7 @@
     "symbol": ")",
     "color": "brown",
     "name": "mil-surp weapons pack",
-    "name_plural": "mil-urp weapons packs",
+    "name_plural": "mil-surp weapons packs",
     "category": "other",
     "description": "A box sold in military surplus store targeted to the civilian market. Offers a military surplus rifle, shoulder strap, ammo, basic maintenance kit with batteries, and pocket guide book. This contains the Mosin Nagant 1891/30 rifle.",
     "price": 463500,
@@ -1264,7 +1096,8 @@
     "material": [
       "wood",
       "steel"
-    ]
+    ],
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "mil_surp_pack_2",
@@ -1282,7 +1115,8 @@
     "material": [
       "wood",
       "steel"
-    ]
+    ],
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "mil_surp_pack_3",
@@ -1300,7 +1134,8 @@
     "material": [
       "wood",
       "steel"
-    ]
+    ],
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "parawatch",
@@ -1322,7 +1157,7 @@
       "HAND_EITHER"
     ],
     "coverage": 5,
-    "use_action": "WEATHER_TOOL",
+    "use_action": ["WEATHER_TOOL","DISASSEMBLE"],
     "flags": [
       "WATCH",
       "ALARMCLOCK",
@@ -1355,6 +1190,7 @@
       "BELTED",
       "FRAGILE",
       "ALLOWS_NATURAL_ATTACKS"
-    ]
+    ],
+    "use_action": "DISASSEMBLE"
   }
 ]

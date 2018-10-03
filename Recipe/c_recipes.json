@@ -46,7 +46,8 @@
       [ [ "ear_plugs", 1 ] ],
       [ [ "paper", 1 ] ],
       [ [ "can_food_unsealed", 2 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "can_forge",
@@ -1638,7 +1639,8 @@
       [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "mil_surp_pack_2",
@@ -1657,7 +1659,8 @@
       [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "mil_surp_pack_3",
@@ -1676,19 +1679,25 @@
       [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "parawatch",
-    "type": "uncraft",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 500,
+    "autolearn": true,
+    "reversible": true,
     "components": [
       [ [ "parabracelets", 1 ] ],
       [ [ "wristwatch", 1 ] ],
       [ [ "thermometer", 1 ] ]
-    ]
+    ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "parabracelets",
@@ -1696,7 +1705,8 @@
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 500,
-    "components": [ [ [ "string_36", 2 ] ] ]
+    "components": [ [ [ "string_36", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "goggles_welding",

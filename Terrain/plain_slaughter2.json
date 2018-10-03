@@ -36,11 +36,6 @@
         ",": "t_grass",
         ".": "t_dirt"
       },
-      "furniture": {
-        " ": "f_null",
-        ",": "f_null",
-        ".": "f_null"
-      },
       "place_loot": [
         { "group": "dead_slave_fighters", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] }
       ],
