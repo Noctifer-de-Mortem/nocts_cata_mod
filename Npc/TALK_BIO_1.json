@@ -36,7 +36,27 @@
     },
     "responses": [
       {
+        "text": "I'm in the same boat, it seems.",
+        "topic": "TALK_BIO_1_IAM_BIO",
+        "condition": { "u_has_any_trait": [ "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED", "SUPER_SOLDIER_MARKER" ] }
+      },
+      {
         "text": "Well, damn.",
+        "topic": "TALK_BIO_1"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_1_IAM_BIO",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Looks about right.  Can be hard to tell for sure if that's your badge or not, but they contracted the work out to all sorts of weirdos, and they made all sorts of crazy shit. They could slap the Bio-Weapon label on a zombie swinging around a sword and it still wouldn't be the strangest thing out there.",
+      "no": "I'm not sure whether to believe you or not, without the badge and all.  But whatever, no telling whether you lost yours or maybe you decided on not advertising it for everyone to see.  Given those bastards cranked out everything from super soldiers to a giant cat Bio-Weapon to fucking Apophis, nothing would suprise me at this point."
+    },
+    "responses": [
+      {
+        "text": "...",
         "topic": "TALK_BIO_1"
       }
     ]
@@ -49,50 +69,6 @@
       {
         "text": "Must be tough...",
         "topic": "TALK_BIO_1"
-      }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "//": "This Talk topic is no lobger used",
-    "id": "TALK_BIO_1_JOIN",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "I am listening...",
-      "no": "An offer, huh?  Well, might as well hear it."
-    },
-    "responses": [
-      {
-        "text": "Why don't you join me?  There are plenty of things out there to be killed.  You wouldn't have to hide anymore.  And we could go after Apophis...",
-        "topic": "TALK_BIO_1_JOIN2"
-      }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "//": "This Talk topic is no lobger used",
-    "id": "TALK_BIO_1_JOIN2",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "Heh, guess that badge of yours isn't just for show.  You really think we can take Apophis...?  I really want to leave this place.  Alright, you've got yourself a deal!",
-      "no": "So you know about Apophis, then?  Hm... well, if I go with you, I get to have some fun again.  Sure, I'll tag along..."
-    },
-    "responses": [
-      {
-        "text": "Things are going to be different from now on.",
-        "trial": {
-          "type": "NONE"
-        },
-        "success": {
-          "topic": "TALK_DONE",
-          "effect": "follow"
-        },
-        "opinion": {
-          "trust": 8,
-          "fear": 0,
-          "value": 8,
-          "anger": -2
-        }
       }
     ]
   }

@@ -36,7 +36,63 @@
     },
     "responses": [
       {
+        "text": "Same here.",
+        "topic": "TALK_BIO_2_IAM_BIO",
+        "condition": { "u_has_any_trait": [ "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA" ] }
+      },
+      {
         "text": "I see.",
+        "topic": "TALK_BIO_2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_IAM_BIO",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Huh.  Surprised there are any more of us out there.  First Series even, I bet.  My pal and I were part of Series Seven.  Far as I know, most of the ones between yours and mine have probably been wiped out or joined Apophis.",
+      "no": "I find it hard to believe that.  Without one of these badges, how am I supposed to tell you aren't just some well-kitted-out scavenger?"
+    },
+    "responses": [
+      {
+        "text": "What do you know about the other Bio-Weapons?",
+        "condition": { "u_is_wearing": "badge_bio_weapon" },
+        "topic": "TALK_BIO_2_INFO"
+      },
+      {
+        "text": "Project Mesektet, First Series.  Sound familiar?",
+        "topic": "TALK_BIO_2_CONFIRM_BIO",
+        "condition": { "not": { "u_is_wearing": "badge_bio_weapon" } }
+      },
+      {
+        "text": "Nevermind then.",
+        "topic": "TALK_BIO_2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_CONFIRM_BIO",
+    "type": "talk_topic",
+    "dynamic_line": "Huh.  Guess you are one of them after all..  Seventh Series here, along with my friend over there.  No idea if any from Series 2 to 6 are left.",
+    "responses": [
+      {
+        "text": "Know anything about the others?",
+        "topic": "TALK_BIO_2_INFO"
+      },
+      {
+        "text": "Right.",
+        "topic": "TALK_BIO_2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BIO_2_INFO",
+    "type": "talk_topic",
+    "dynamic_line": "Not much.  They made us in batches, a different bunch of eggheads contracted out for each Series.  Your bunch was the most well-known, pioneered the concepts that influenced all the others.  All the others varied in quality considerably.  Ours was the seventh batch, last bunch of full-on Bio-Weapons made.  Think there were another five afterward, Super Soldiers, Bio-Weapon Hunters, etc.  Then the last one was Apophis.  Figures, lucky number thirteen...",
+    "responses": [
+      {
+        "text": "...",
         "topic": "TALK_BIO_2"
       }
     ]
@@ -51,47 +107,5 @@
         "topic": "TALK_BIO_2"
       }
     ]
-  },
-  {
-    "id": "TALK_BIO_2_JOIN",
-    "type": "talk_topic",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "I... are you sure?  I can help with combat, but I might just be a burden overall... besides, we can't make it until we deal with the reason we're stuck here in the first place.",
-      "no": "I'd like to, but I'm not sure I could survive out there.  I know how to fight, but what about water and food?  And we wouldn't be safe, not until..."
-    },
-    "responses": [
-      {
-        "text": "Listen.  I can help you out, I survived out there this far, so I know what I'm doing. Just lend me a hand against the undead and I'll take care of the rest.  And as for Apophis, we'll take it down, eventually.  Besides, wouldn't it be better than staying here, doing nothing?",
-        "topic": "TALK_BIO_2_JOIN2"
-      }
-    ],
-    "//": "This Talk topic is no lobger used"
-  },
-  {
-    "id": "TALK_BIO_2_JOIN2",
-    "type": "talk_topic",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "...You know what?  I am tired of being stuck here.  You're right, together we can survive out there and Apophis is going down!",
-      "no": "...You're right, I can't just hide here forever.  I'm coming with you.  You obviously know what you're talking about, so I can rely on your help.  Let's hope we kill that thing one day!"
-    },
-    "responses": [
-      {
-        "text": "That's the spirit!",
-        "trial": { "type": "NONE" },
-        "success": {
-          "effect": "follow",
-          "opinion": {
-            "trust": 8,
-            "fear": 0,
-            "value": 8,
-            "anger": -2
-          },
-          "topic": "TALK_DONE"
-        }
-      }
-    ],
-    "//": "This Talk topic is no longer used"
   }
 ]
