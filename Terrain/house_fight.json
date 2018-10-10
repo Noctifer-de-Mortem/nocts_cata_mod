@@ -65,9 +65,7 @@
         "r": "f_rack",
         "{": "f_locker"
       },
-      "place_toilets": [
-        { "x": 22, "y": 12 }
-      ],
+      "place_toilets": [ { "x": 22, "y": 12 } ],
       "place_items": [
         { "item": "bed", "x": 22, "y": [ 3, 4 ], "chance": 80, "repeat": [ 2, 4 ] },
         { "item": "bed", "x": 1, "y": [ 3, 4 ], "chance": 80, "repeat": [ 2, 4 ] },

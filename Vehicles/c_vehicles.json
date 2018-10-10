@@ -296,18 +296,19 @@
       { "x": -7, "y": 0, "chance": 99, "items": [ "ear_plugs" ] },
       { "x": -7, "y": 0, "chance": 99, "items": [ "blindfold" ] },
       { "x": -7, "y": 1, "chance": 50, "items": [ "survivormap" ] },
-      { "x": -7, "y": 2, "chance": 50, "items": [ "surv_lmg_223", "surv_belt_223", "reloaded_223", "reloaded_223", "reloaded_223" ] }
+      {
+        "x": -7,
+        "y": 2,
+        "chance": 50,
+        "items": [ "surv_lmg_223", "surv_belt_223", "reloaded_223", "reloaded_223", "reloaded_223" ]
+      }
     ]
   },
   {
     "id": "surv_tractor",
     "type": "vehicle",
     "name": "Survivor Tractor",
-    "blueprint": [
-      [ "O---O" ],
-      [ "8|=x|" ],
-      [ "O-+-O" ]
-    ],
+    "blueprint": [ [ "O---O" ], [ "8|=x|" ], [ "O-+-O" ] ],
     "parts": [
       { "x": 0, "y": 1, "part": "hdframe_vertical" },
       { "x": 0, "y": 1, "part": "door_opaque" },
@@ -361,6 +362,6 @@
       { "x": -2, "y": -1, "part": "cargo_space" },
       { "x": -2, "y": -1, "part": "wheel_wide_steerable" }
     ],
-    "items": []
+    "items": [  ]
   }
 ]

@@ -25,20 +25,29 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 12,
-    "special_attacks": [
-      [ "SHOCKSTORM", 10 ],
-      [ "PARROT", 50 ],
-      {
-        "type": "bite",
-        "cooldown": 5
-      }
-    ],
+    "special_attacks": [ [ "SHOCKSTORM", 10 ], [ "PARROT", 50 ], { "type": "bite", "cooldown": 5 } ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "STUMBLES", "POISON", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "POISON",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
   },
   {
     "id": "mon_failed_weapon",
@@ -66,18 +75,26 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 14,
-    "special_attacks": [
-      [ "SHOCKSTORM", 15 ],
-      [ "PARROT", 80 ]
-    ],
+    "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "PARROT", 80 ] ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
-    "upgrades": {
-      "half_life": 15,
-      "into": "mon_zombie_failed_weapon"
-    },
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_POWER", "CBM_OP", "BONES" ]
+    "upgrades": { "half_life": 15, "into": "mon_zombie_failed_weapon" },
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "HUMAN",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_POWER",
+      "CBM_OP",
+      "BONES"
+    ]
   },
   {
     "id": "hulk_weapon",
@@ -136,7 +153,28 @@
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "apophis_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL", "EXPLODE" ],
-    "flags": [ "SEES", "REGENERATES_50", "HEARS", "GOODHEARING", "SMELLS", "WARM", "HUMAN", "ATTACKMON", "PUSH_MON", "ELECTRIC", "GRABS", "BASHES", "GROUP_BASH", "CBM_OP", "CBM_SUBS", "CBM_SUBS", "CBM_POWER", "CBM_POWER", "BONES", "DESTROYS" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_50",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "WARM",
+      "HUMAN",
+      "ATTACKMON",
+      "PUSH_MON",
+      "ELECTRIC",
+      "GRABS",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_OP",
+      "CBM_SUBS",
+      "CBM_SUBS",
+      "CBM_POWER",
+      "CBM_POWER",
+      "BONES",
+      "DESTROYS"
+    ]
   },
   {
     "id": "mon_fungus_failed_weapon",
@@ -168,10 +206,7 @@
       [ "SHOCKSTORM", 10 ],
       [ "PARROT", 50 ],
       [ "FUNGUS", 200 ],
-      {
-        "type": "bite",
-        "cooldown": 5
-      },
+      { "type": "bite", "cooldown": 5 },
       [ "FUNGUS_HAZE", 25 ],
       [ "FUNGUS_INJECT", 40 ],
       [ "FUNGUS_BRISTLE", 40 ]
@@ -182,7 +217,22 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "FUNGUS", "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "GROUP_BASH", "CBM_OP", "CBM_POWER", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_50",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "ELECTRIC",
+      "ATTACKMON",
+      "BASHES",
+      "GROUP_BASH",
+      "CBM_OP",
+      "CBM_POWER",
+      "REVIVES",
+      "BONES",
+      "PUSH_MON"
+    ]
   },
   {
     "id": "mon_zombie_bio_infantry",
@@ -238,7 +288,19 @@
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_infantry",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
   },
   {
     "id": "mon_zombie_bio_knight",
@@ -278,10 +340,7 @@
         "fake_dex": 3,
         "fake_per": 3,
         "max_ammo": 1000,
-        "ranges": [
-          [ 15, 20, "AUTO" ],
-          [ 21, 25, "DEFAULT" ]
-        ],
+        "ranges": [ [ 15, 20, "AUTO" ], [ 21, 25, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,
@@ -296,7 +355,19 @@
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_knight",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
   },
   {
     "id": "mon_zombie_bio_scout",
@@ -352,7 +423,19 @@
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_scout",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_10", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_OP", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [
+      "SEES",
+      "REGENERATES_10",
+      "HEARS",
+      "SMELLS",
+      "POISON",
+      "BASHES",
+      "CBM_POWER",
+      "CBM_OP",
+      "NO_BREATHE",
+      "REVIVES",
+      "BONES"
+    ]
   },
   {
     "id": "mon_zombie_bio_tool",

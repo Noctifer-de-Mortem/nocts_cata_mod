@@ -16,20 +16,7 @@
       "FASTHEALER2",
       "BIO_WEAPON_FAILED"
     ],
-    "skills": [
-      {
-        "level": 2,
-        "name": "firstaid"
-      },
-      {
-        "level": 2,
-        "name": "electronics"
-      },
-      {
-        "level": 2,
-        "name": "mechanics"
-      }
-    ],
+    "skills": [ { "level": 2, "name": "firstaid" }, { "level": 2, "name": "electronics" }, { "level": 2, "name": "mechanics" } ],
     "CBMs": [
       "bio_dis_shock",
       "bio_dis_acid",
@@ -71,23 +58,11 @@
       "bio_armor_eyes"
     ],
     "items": {
-      "both": [
-        "badge_bio_weapon",
-        "subsuit_xl",
-        "footrags",
-        "hat_noise_cancelling"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "hat_noise_cancelling" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -154,17 +129,10 @@
         "mycus_fruit",
         "mycus_fruit"
       ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -193,20 +161,7 @@
       "PRED4",
       "BIO_WEAPON_ALPHA"
     ],
-    "skills": [
-      {
-        "level": 5,
-        "name": "dodge"
-      },
-      {
-        "level": 5,
-        "name": "melee"
-      },
-      {
-        "level": 5,
-        "name": "unarmed"
-      }
-    ],
+    "skills": [ { "level": 5, "name": "dodge" }, { "level": 5, "name": "melee" }, { "level": 5, "name": "unarmed" } ],
     "CBMs": [
       "bio_dex_enhancer",
       "bio_eye_enhancer",
@@ -230,23 +185,8 @@
       "bio_recycler",
       "bio_uncanny_dodge"
     ],
-    "items": {
-      "both": [
-        "badge_bio_weapon",
-        "subsuit_xl",
-        "footrags"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -269,34 +209,13 @@
       "BIO_WEAPON_DELTA"
     ],
     "skills": [
-      {
-        "level": 5,
-        "name": "rifle"
-      },
-      {
-        "level": 5,
-        "name": "gun"
-      },
-	  {
-        "level": 3,
-        "name": "survival"
-      },
-      {
-        "level": 3,
-        "name": "archery"
-      },
-      {
-        "level": 3,
-        "name": "computer"
-      },
-      {
-        "level": 3,
-        "name": "barter"
-      },
-      {
-        "level": 3,
-        "name": "speech"
-      }
+      { "level": 5, "name": "rifle" },
+      { "level": 5, "name": "gun" },
+      { "level": 3, "name": "survival" },
+      { "level": 3, "name": "archery" },
+      { "level": 3, "name": "computer" },
+      { "level": 3, "name": "barter" },
+      { "level": 3, "name": "speech" }
     ],
     "CBMs": [
       "bio_dex_enhancer",
@@ -321,23 +240,8 @@
       "bio_lighter",
       "bio_climate"
     ],
-    "items": {
-      "both": [
-        "badge_bio_weapon",
-        "subsuit_xl",
-        "footrags"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -366,26 +270,11 @@
       "BIO_WEAPON_BETA"
     ],
     "skills": [
-      {
-        "level": 5,
-        "name": "dodge"
-      },
-      {
-        "level": 5,
-        "name": "melee"
-      },
-      {
-        "level": 5,
-        "name": "cutting"
-      },
-      {
-        "level": 3,
-        "name": "rifle"
-      },
-      {
-        "level": 3,
-        "name": "gun"
-      }
+      { "level": 5, "name": "dodge" },
+      { "level": 5, "name": "melee" },
+      { "level": 5, "name": "cutting" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "gun" }
     ],
     "CBMs": [
       "bio_str_enhancer",
@@ -418,23 +307,8 @@
       "bio_ears",
       "bio_targeting"
     ],
-    "items": {
-      "both": [
-        "badge_bio_weapon",
-        "subsuit_xl",
-        "footrags"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -442,32 +316,12 @@
     "name": "Bio-Weapon Gamma",
     "description": "'The Mechanic', created to sabotage, destroy, assimilate or repair bio-technology.  You are a walking, adaptive repair machine.  You awoke to the sounds of machines fighting abominations.  You could help them, or destroy them, if they get in your way.",
     "points": 8,
-    "traits": [
-      "PROF_MED",
-      "PSYCHOPATH",
-      "INT_UP_2",
-      "GOODMEMORY",
-      "FASTLEARNER",
-      "FASTREADER",
-      "BIO_WEAPON_GAMMA"
-    ],
+    "traits": [ "PROF_MED", "PSYCHOPATH", "INT_UP_2", "GOODMEMORY", "FASTLEARNER", "FASTREADER", "BIO_WEAPON_GAMMA" ],
     "skills": [
-      {
-        "level": 5,
-        "name": "firstaid"
-      },
-      {
-        "level": 5,
-        "name": "electronics"
-      },
-      {
-        "level": 5,
-        "name": "mechanics"
-      },
-      {
-        "level": 5,
-        "name": "fabrication"
-      }
+      { "level": 5, "name": "firstaid" },
+      { "level": 5, "name": "electronics" },
+      { "level": 5, "name": "mechanics" },
+      { "level": 5, "name": "fabrication" }
     ],
     "CBMs": [
       "bio_int_enhancer",
@@ -492,23 +346,8 @@
       "bio_ups",
       "bio_sunglasses"
     ],
-    "items": {
-      "both": [
-        "badge_bio_weapon",
-        "subsuit_xl",
-        "footrags"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
-    },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -518,12 +357,12 @@
     "points": 15,
     "CBMs": [
       "bio_carbon",
-	  "bio_eye_enhancer",
-	  "bio_str_enhancer",
-	  "bio_int_enhancer",
-	  "bio_dex_enhancer",
+      "bio_eye_enhancer",
+      "bio_str_enhancer",
+      "bio_int_enhancer",
+      "bio_dex_enhancer",
       "bio_eye_optic",
-	  "bio_ears",
+      "bio_ears",
       "bio_sunglasses",
       "bio_ups",
       "bio_torsionratchet",
@@ -539,70 +378,41 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "traits": [
-      "SUPER_SOLDIER_MARKER"
-    ],
+    "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      {
-        "level": 3,
-        "name": "computer"
-      },
-      {
-        "level": 3,
-        "name": "melee"
-      },
-      {
-        "level": 3,
-        "name": "unarmed"
-      },
-      {
-        "level": 3,
-        "name": "dodge"
-      },
-      {
-        "level": 3,
-        "name": "gun"
-      },
-      {
-        "level": 3,
-        "name": "rifle"
-      }
+      { "level": 3, "name": "computer" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "unarmed" },
+      { "level": 3, "name": "dodge" },
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" }
     ],
     "items": {
-            "both": {
-                "items": [
-                    "undershirt",
-                    "arm_warmers",
-                    "leg_warmers",
-                    "pants_army",
-                    "jacket_army",
-                    "balclava",
-                    "beret",
-                    "gloves_liner",
-                    "gloves_tactical",
-                    "socks",
-                    "boots_combat",
-                    "badge_bio_weapon",
-                    "canteen",
-                    "mre_veggy_box",
-                    "biomap",
-                    "militarymap"
-                ],
-                "entries": [
-                    { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+      "both": {
+        "items": [
+          "undershirt",
+          "arm_warmers",
+          "leg_warmers",
+          "pants_army",
+          "jacket_army",
+          "balclava",
+          "beret",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "badge_bio_weapon",
+          "canteen",
+          "mre_veggy_box",
+          "biomap",
+          "militarymap"
+        ],
+        "entries": [ { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -611,12 +421,12 @@
     "description": "The infantry of the Super Soldier project. You are one of many augmented soldiers to be deployed into a battle field to ensure victory. With range and melee, and regenerative capabilities, you engage enemies en masse.",
     "points": 10,
     "CBMs": [
-	  "bio_eye_enhancer",
-	  "bio_str_enhancer",
-	  "bio_int_enhancer",
-	  "bio_dex_enhancer",
-	  "bio_sunglasses",
-	  "bio_ears",
+      "bio_eye_enhancer",
+      "bio_str_enhancer",
+      "bio_int_enhancer",
+      "bio_dex_enhancer",
+      "bio_sunglasses",
+      "bio_ears",
       "bio_targeting",
       "bio_ups",
       "bio_purifier",
@@ -632,63 +442,37 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "traits": [
-      "SUPER_SOLDIER_MARKER"
-    ],
+    "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      {
-        "level": 3,
-        "name": "gun"
-      },
-      {
-        "level": 3,
-        "name": "rifle"
-      },
-      {
-        "level": 3,
-        "name": "melee"
-      },
-      {
-        "level": 3,
-        "name": "unarmed"
-      },
-      {
-        "level": 3,
-        "name": "dodge"
-      }
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "unarmed" },
+      { "level": 3, "name": "dodge" }
     ],
     "items": {
-            "both": {
-                "items": [
-                    "undershirt",
-                    "arm_warmers",
-                    "leg_warmers",
-                    "pants_army",
-                    "jacket_army",
-                    "balclava",
-                    "beret",
-                    "gloves_liner",
-                    "gloves_tactical",
-                    "socks",
-                    "boots_combat",
-                    "militarymap",
-                    "id_military"
-                ],
-                "entries": [
-                    { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+      "both": {
+        "items": [
+          "undershirt",
+          "arm_warmers",
+          "leg_warmers",
+          "pants_army",
+          "jacket_army",
+          "balclava",
+          "beret",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "militarymap",
+          "id_military"
+        ],
+        "entries": [ { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -698,10 +482,10 @@
     "points": 12,
     "CBMs": [
       "bio_eye_optic",
-	  "bio_eye_enhancer",
+      "bio_eye_enhancer",
       "bio_carbon",
-	  "bio_sunglasses",
-	  "bio_ears",
+      "bio_sunglasses",
+      "bio_ears",
       "bio_targeting",
       "bio_ups",
       "bio_climate",
@@ -713,85 +497,49 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "traits": [
-      "SUPER_SOLDIER_MARKER"
-    ],
+    "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      {
-        "level": 5,
-        "name": "gun"
-      },
-      {
-        "level": 3,
-        "name": "rifle"
-      },
-      {
-        "level": 3,
-        "name": "melee"
-      },
-      {
-        "level": 3,
-        "name": "stabbing"
-      },
-      {
-        "level": 3,
-        "name": "survival"
-      },
-      {
-        "level": 3,
-        "name": "fabrication"
-      },
-      {
-        "level": 3,
-        "name": "cooking"
-      },
-      {
-        "level": 3,
-        "name": "tailor"
-      },
-      {
-        "level": 3,
-        "name": "swimming"
-      }
+      { "level": 5, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "survival" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "cooking" },
+      { "level": 3, "name": "tailor" },
+      { "level": 3, "name": "swimming" }
     ],
     "items": {
-            "both": {
-                "items": [
-                    "pants_army",
-                    "army_top",
-                    "jacket_army",
-                    "gloves_tactical",
-                    "rucksack",
-                    "balclava",
-                    "hat_boonie",
-                    "socks",
-                    "boots_combat",
-                    "canteen",
-                    "binoculars",
-                    "mil_mess_kit",
-                    "e_tool",
-                    "mre_beef_box",
-                    "militarymap",
-                    "id_military",
-                    "tent_kit",
-                    "rollmat"
-                ],
-                "entries": [
-                    { "item": "laser_sniper", "contents-item": [ "shoulder_strap", "rifle_scope" ] },
-					{ "item": "knife_combat", "container-item": "sheath" }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+      "both": {
+        "items": [
+          "pants_army",
+          "army_top",
+          "jacket_army",
+          "gloves_tactical",
+          "rucksack",
+          "balclava",
+          "hat_boonie",
+          "socks",
+          "boots_combat",
+          "canteen",
+          "binoculars",
+          "mil_mess_kit",
+          "e_tool",
+          "mre_beef_box",
+          "militarymap",
+          "id_military",
+          "tent_kit",
+          "rollmat"
+        ],
+        "entries": [
+          { "item": "laser_sniper", "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -806,8 +554,8 @@
       "bio_armor_arms",
       "bio_armor_legs",
       "bio_carbon",
-	  "bio_sunglasses",
-	  "bio_ears",
+      "bio_sunglasses",
+      "bio_ears",
       "bio_str_enhancer",
       "bio_targeting",
       "bio_purifier",
@@ -822,26 +570,12 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "traits": [
-      "SUPER_SOLDIER_MARKER"
-    ],
+    "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      {
-        "level": 3,
-        "name": "gun"
-      },
-      {
-        "level": 3,
-        "name": "rifle"
-      },
-      {
-        "level": 3,
-        "name": "melee"
-      },
-      {
-        "level": 3,
-        "name": "cutting"
-      }
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "cutting" }
     ],
     "items": {
       "both": [
@@ -859,17 +593,10 @@
         "militarymap",
         "id_military"
       ],
-      "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -882,7 +609,7 @@
       "bio_carbon",
       "bio_ups",
       "bio_sunglasses",
-	  "bio_ears",
+      "bio_ears",
       "bio_watch",
       "bio_memory",
       "bio_tools",
@@ -893,71 +620,39 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "traits": [
-      "SUPER_SOLDIER_MARKER"
-    ],
+    "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      {
-        "level": 3,
-        "name": "electronics"
-      },
-      {
-        "level": 3,
-        "name": "mechanics"
-      },
-      {
-        "level": 3,
-        "name": "cooking"
-      },
-      {
-        "level": 3,
-        "name": "firstaid"
-      },
-      {
-        "level": 3,
-        "name": "fabrication"
-      },
-      {
-        "level": 3,
-        "name": "pistol"
-      },
-      {
-        "level": 3,
-        "name": "gun"
-      }
+      { "level": 3, "name": "electronics" },
+      { "level": 3, "name": "mechanics" },
+      { "level": 3, "name": "cooking" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "gun" }
     ],
     "items": {
-            "both": {
-                "items": [
-                    "undershirt",
-                    "arm_warmers",
-                    "leg_warmers",
-                    "pants_army",
-                    "jacket_army",
-                    "balclava",
-                    "beret",
-                    "gloves_liner",
-                    "gloves_tactical",
-                    "socks",
-                    "boots_combat",
-                    "militarymap",
-                    "id_military"
-                ],
-                "entries": [
-                    { "item": "v29", "container-item": "holster" }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+      "both": {
+        "items": [
+          "undershirt",
+          "arm_warmers",
+          "leg_warmers",
+          "pants_army",
+          "jacket_army",
+          "balclava",
+          "beret",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "militarymap",
+          "id_military"
+        ],
+        "entries": [ { "item": "v29", "container-item": "holster" } ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -977,40 +672,13 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "skills": [
-      {
-        "level": 2,
-        "name": "melee"
-      },
-      {
-        "level": 2,
-        "name": "cutting"
-      },
-      {
-        "level": 2,
-        "name": "dodge"
-      }
-    ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [
-        "socks",
-        "hat_cotton",
-        "gloves_fingerless",
-        "tshirt",
-        "jeans",
-        "boots"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -1030,47 +698,18 @@
       "bio_power_storage_mkII"
     ],
     "skills": [
-      {
-        "level": 2,
-        "name": "melee"
-      },
-      {
-        "level": 2,
-        "name": "unarmed"
-      },
-      {
-        "level": 2,
-        "name": "dodge"
-      },
-      {
-        "level": 2,
-        "name": "stabbing"
-      },
-      {
-        "level": 2,
-        "name": "bashing"
-      }
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "unarmed" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "both": [
-        "socks",
-        "hat_cotton",
-        "gloves_fingerless",
-        "tshirt",
-        "jeans",
-        "boots"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -1089,40 +728,13 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "skills": [
-      {
-        "level": 2,
-        "name": "gun"
-      },
-      {
-        "level": 2,
-        "name": "rifle"
-      },
-      {
-        "level": 2,
-        "name": "dodge"
-      }
-    ],
+    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [
-        "socks",
-        "hat_cotton",
-        "gloves_fingerless",
-        "tshirt",
-        "jeans",
-        "boots"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -1130,9 +742,7 @@
     "name": "Slave Fighter (Weapon Master)",
     "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
     "points": 6,
-    "traits": [
-      "MARTIAL_ARTS_SURV"
-    ],
+    "traits": [ "MARTIAL_ARTS_SURV" ],
     "CBMs": [
       "bio_razors",
       "bio_magnet",
@@ -1151,82 +761,26 @@
       "bio_power_storage_mkII"
     ],
     "skills": [
-      {
-        "level": 2,
-        "name": "melee"
-      },
-      {
-        "level": 2,
-        "name": "unarmed"
-      },
-      {
-        "level": 2,
-        "name": "stabbing"
-      },
-      {
-        "level": 2,
-        "name": "cutting"
-      },
-      {
-        "level": 2,
-        "name": "bashing"
-      },
-      {
-        "level": 2,
-        "name": "dodge"
-      },
-      {
-        "level": 2,
-        "name": "gun"
-      },
-      {
-        "level": 2,
-        "name": "rifle"
-      },
-      {
-        "level": 2,
-        "name": "shotgun"
-      },
-      {
-        "level": 2,
-        "name": "smg"
-      },
-      {
-        "level": 2,
-        "name": "pistol"
-      },
-      {
-        "level": 2,
-        "name": "launcher"
-      },
-      {
-        "level": 2,
-        "name": "archery"
-      },
-      {
-        "level": 2,
-        "name": "throw"
-      }
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "unarmed" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "cutting" },
+      { "level": 2, "name": "bashing" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "shotgun" },
+      { "level": 2, "name": "smg" },
+      { "level": 2, "name": "pistol" },
+      { "level": 2, "name": "launcher" },
+      { "level": 2, "name": "archery" },
+      { "level": 2, "name": "throw" }
     ],
     "items": {
-      "both": [
-        "socks",
-        "hat_cotton",
-        "gloves_fingerless",
-        "tshirt",
-        "jeans",
-        "boots"
-      ],
-      "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ]
+      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     },
-    "flags": [
-      "SCEN_ONLY"
-    ]
+    "flags": [ "SCEN_ONLY" ]
   }
 ]

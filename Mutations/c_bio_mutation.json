@@ -75,9 +75,7 @@
     "name": "Survivor Combatives",
     "points": 3,
     "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. You start with the Survivor Combatives style",
-    "initial_ma_styles": [
-      "style_surv"
-    ],
+    "initial_ma_styles": [ "style_surv" ],
     "valid": false
   }
 ]

@@ -21,11 +21,7 @@
         ]
       },
       {
-        "distribution": [
-          { "item": "socks", "prob": 45 },
-          { "item": "socks_wool", "prob": 45 },
-          { "item": "footrags", "prob": 10 }
-        ]
+        "distribution": [ { "item": "socks", "prob": 45 }, { "item": "socks_wool", "prob": 45 }, { "item": "footrags", "prob": 10 } ]
       },
       { "item": "gloves_liner", "prob": 50 },
       {
@@ -50,11 +46,7 @@
       { "item": "helmet_nomad" },
       { "group": "NC_SCAVENGER_gloves" },
       {
-        "distribution": [
-          { "item": "boots", "prob": 40 },
-          { "item": "boots_hiking", "prob": 30 },
-          { "item": "boots_steel", "prob": 30 }
-        ]
+        "distribution": [ { "item": "boots", "prob": 40 }, { "item": "boots_hiking", "prob": 30 }, { "item": "boots_steel", "prob": 30 } ]
       }
     ]
   },
@@ -67,11 +59,7 @@
       { "item": "helmet_scavenger" },
       { "group": "NC_SCAVENGER_gloves" },
       {
-        "distribution": [
-          { "item": "boots", "prob": 40 },
-          { "item": "boots_hiking", "prob": 30 },
-          { "item": "boots_steel", "prob": 30 }
-        ]
+        "distribution": [ { "item": "boots", "prob": 40 }, { "item": "boots_hiking", "prob": 30 }, { "item": "boots_steel", "prob": 30 } ]
       }
     ]
   },
@@ -167,10 +155,7 @@
     "type": "item_group",
     "subtype": "collection",
     "ammo": 100,
-    "entries": [
-      { "item": "surv_battery_rifle" },
-      { "item": "battery", "count": [ 1, 2 ] }
-    ]
+    "entries": [ { "item": "surv_battery_rifle" }, { "item": "battery", "count": [ 1, 2 ] } ]
   },
   {
     "id": "NC_PREPPER_carry_223",
@@ -178,10 +163,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [
-      { "item": "surv_full_223" },
-      { "item": "surv_223_mag", "count": [ 2, 3 ] }
-    ]
+    "entries": [ { "item": "surv_full_223" }, { "item": "surv_223_mag", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_PREPPER_carry_9mm",
@@ -189,10 +171,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [
-      { "item": "surv_full_9mm" },
-      { "item": "surv_9mm_mag", "count": [ 2, 3 ] }
-    ]
+    "entries": [ { "item": "surv_full_9mm" }, { "item": "surv_9mm_mag", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_PREPPER_carry_bow",
@@ -200,11 +179,7 @@
     "subtype": "collection",
     "entries": [
       {
-        "distribution": [
-          { "item": "longbow", "prob": 40 },
-          { "item": "compbow", "prob": 40 },
-          { "item": "survbow", "prob": 30 }
-        ]
+        "distribution": [ { "item": "longbow", "prob": 40 }, { "item": "compbow", "prob": 40 }, { "item": "survbow", "prob": 30 } ]
       },
       {
         "distribution": [

@@ -7,11 +7,6 @@
       "yes": "Hello there, hotshot, try not to break anything, ok?",
       "no": "Welcome.  Try not to cause any trouble and things will be just fine."
     },
-    "responses": [
-      {
-        "text": "Noted.",
-        "topic": "TALK_DONE"
-      }
-    ]
+    "responses": [ { "text": "Noted.", "topic": "TALK_DONE" } ]
   }
 ]

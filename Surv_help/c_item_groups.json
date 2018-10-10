@@ -690,7 +690,13 @@
   {
     "id": "guns_rifle_improvised",
     "type": "item_group",
-    "items": [ [ "unbio_chain_lightning", 1 ], [ "surv_battery_rifle", 1 ], [ "surv_full_223", 1 ], [ "surv_full_308", 1 ], [ "surv_full_762", 1 ] ]
+    "items": [
+      [ "unbio_chain_lightning", 1 ],
+      [ "surv_battery_rifle", 1 ],
+      [ "surv_full_223", 1 ],
+      [ "surv_full_308", 1 ],
+      [ "surv_full_762", 1 ]
+    ]
   },
   {
     "id": "guns_shotgun_improvised",

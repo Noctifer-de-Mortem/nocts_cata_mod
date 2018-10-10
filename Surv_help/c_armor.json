@@ -18,12 +18,7 @@
     "storage": 50,
     "warmth": 20,
     "material_thickness": 2,
-    "use_action": {
-      "type": "bandolier",
-      "capacity": 60,
-      "ammo": [ "arrow", "bolt" ],
-      "draw_cost": 3
-    },
+    "use_action": { "type": "bandolier", "capacity": 60, "ammo": [ "arrow", "bolt" ], "draw_cost": 3 },
     "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "QUIVER_60" ]
   },
   {
@@ -60,7 +55,21 @@
       "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ],
       "//": "Allows all blades to be sheathed."
     },
-    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "RAINPROOF", "RAD_PROOF", "ELECTRIC_IMMUNE", "GAS_PROOF", "STURDY", "ALLOWS_NATURAL_ATTACKS", "SUN_GLASSES", "WATCH", "ALARMCLOCK", "SUPER_FANCY" ]
+    "flags": [
+      "VARSIZE",
+      "OVERSIZE",
+      "WATERPROOF",
+      "RAINPROOF",
+      "RAD_PROOF",
+      "ELECTRIC_IMMUNE",
+      "GAS_PROOF",
+      "STURDY",
+      "ALLOWS_NATURAL_ATTACKS",
+      "SUN_GLASSES",
+      "WATCH",
+      "ALARMCLOCK",
+      "SUPER_FANCY"
+    ]
   },
   {
     "id": "surv_armor_suit",
@@ -95,7 +104,21 @@
       "multi": 2,
       "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
     },
-    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "RAINPROOF", "RAD_PROOF", "ELECTRIC_IMMUNE", "GAS_PROOF", "STURDY", "ALLOWS_NATURAL_ATTACKS", "SUN_GLASSES", "WATCH", "ALARMCLOCK", "SUPER_FANCY" ]
+    "flags": [
+      "VARSIZE",
+      "OVERSIZE",
+      "WATERPROOF",
+      "RAINPROOF",
+      "RAD_PROOF",
+      "ELECTRIC_IMMUNE",
+      "GAS_PROOF",
+      "STURDY",
+      "ALLOWS_NATURAL_ATTACKS",
+      "SUN_GLASSES",
+      "WATCH",
+      "ALARMCLOCK",
+      "SUPER_FANCY"
+    ]
   },
   {
     "id": "badge_bio_weapon",
@@ -141,11 +164,7 @@
     "material_thickness": 1,
     "environmental_protection": 4,
     "artifact_data": { "effects_worn": [ "AEP_INVISIBLE", "AEP_STR_DOWN", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] },
-    "use_action": {
-      "target": "stealth_cloak_f",
-      "msg": "You fold your cloak.",
-      "type": "transform"
-    },
+    "use_action": { "target": "stealth_cloak_f", "msg": "You fold your cloak.", "type": "transform" },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
   },
   {

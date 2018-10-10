@@ -1,7 +1,7 @@
 	So you want to contribute to the game? Good to hear! Here is the general guideline.
 
 Suggestions:
-	If you want to add a suggestion, you can post it as an issue in Github (https://github.com/Noctifer-de-Mortem/Survivor-Mod) or in the forum (http://smf.cataclysmdda.com/index.php?topic=11248.0).
+	If you want to add a suggestion, you can post it as an issue in Github (https://github.com/Noctifer-de-Mortem/nocts_cata_mod) or in the forum (http://smf.cataclysmdda.com/index.php?topic=11248.0).
 
 	Suggestions can be anything that can be able to be done by messing with the JSON file and that does not go against the devs general wishes. If you don't know if your suggestion meets that criteria, ask anyway and we will let you know.
 
