@@ -3,12 +3,12 @@
     "id": "TALK_BFF",
     "type": "talk_topic",
     "dynamic_line": {
-      "u_male": "Holy shit man, you are still alive?! I am glad, I thought I was going to have to deal with all this alone. We got this place far away and are safe for now. Its now you and me like old times!",
-      "u_female": "Holy shit girl, you are still alive?! I am glad, I thought I was going to have to deal with all this alone. We got this place far away and are safe for now. Its now you and me like old times!"
+      "u_male": "Holy shit man, you are still alive?! I'm glad, I thought I was going to have to deal with all this alone. We got this place far away and are safe for now. It's now you and me, just like old times!",
+      "u_female": "Holy shit girl, you are still alive?! I'm glad, I thought I was going to have to deal with all this alone. We got this place far away and are safe for now. It's now you and me, just like old times!"
     },
     "responses": [
       {
-        "text": "Glad to see you too buddy, let us go now!",
+        "text": "Glad to see you too buddy, let's go now!",
         "trial": { "type": "NONE" },
         "success": {
           "effect": "follow",
