@@ -54,7 +54,7 @@
   {
     "id": "NC_BIO_HUNTER_F_worn",
     "type": "item_group",
-    "//": "Evelynn Rose's kit, mimics player version except for some concessions to using claw mutation instead of CBM.",
+    "//": "Evelynn Rose's kit, mimics player version except for some concessions to using claw mutation instead of CBM, and a MOLLE pack to ensure she can carry items as quest fodder, instead of handing you her P90.",
     "subtype": "collection",
     "entries": [
       { "item": "bra" },
@@ -85,7 +85,10 @@
       { "item": "militarymap" },
       { "item": "fnp90mag" },
       { "item": "fnp90mag" },
-      { "item": "fnp90mag" }
+      { "item": "fnp90mag" },
+      { "group": "everyday_gear" },
+      { "group": "drugs_soldier", "prob": 50 },
+      { "group": "supplies_electronics", "prob": 50, "count": [ 1, 3 ] }
     ]
   },
   {

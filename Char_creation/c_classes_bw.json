@@ -154,11 +154,10 @@
       "NIGHTVISION",
       "PSYCHOPATH",
       "CLUMSY",
-      "THRESH_CHIMERA",
       "EATDEAD",
       "SHOUT3",
       "EATHEALTH",
-      "PRED4",
+      "PRED2",
       "BIO_WEAPON_ALPHA"
     ],
     "skills": [ { "level": 5, "name": "dodge" }, { "level": 5, "name": "melee" }, { "level": 5, "name": "unarmed" } ],
@@ -316,7 +315,7 @@
     "name": "Bio-Weapon Gamma",
     "description": "'The Mechanic', created to sabotage, destroy, assimilate or repair bio-technology.  You are a walking, adaptive repair machine.  You awoke to the sounds of machines fighting abominations.  You could help them, or destroy them, if they get in your way.",
     "points": 8,
-    "traits": [ "PROF_MED", "PSYCHOPATH", "INT_UP_2", "GOODMEMORY", "FASTLEARNER", "FASTREADER", "BIO_WEAPON_GAMMA" ],
+    "traits": [ "PROF_MED", "PSYCHOPATH", "LOVES_BOOKS", "GOODMEMORY", "FASTLEARNER", "FASTREADER", "BIO_WEAPON_GAMMA" ],
     "skills": [
       { "level": 5, "name": "firstaid" },
       { "level": 5, "name": "electronics" },
