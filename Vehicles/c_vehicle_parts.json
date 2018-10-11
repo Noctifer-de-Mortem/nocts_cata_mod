@@ -12,12 +12,7 @@
     "difficulty": 6,
     "folded_volume": 8,
     "//": "Haven't figured out the breaks_into...",
-    "breaks_into": [
-      {
-        "item": "ups_rifle",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] }
   },
   {
@@ -34,12 +29,7 @@
     "size": 40,
     "folded_volume": 8,
     "//": "CARGO for the ammo. MANUAL means you got stand in the same tile as it to use it.",
-    "breaks_into": [
-      {
-        "item": "sur_pnu_lmg",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -52,9 +42,7 @@
     "to_hit": -2,
     "color": "light_red",
     "symbol": "&",
-    "material": [
-      "steel"
-    ],
+    "material": [ "steel" ],
     "volume": 120,
     "category": "veh_parts",
     "price": 80000
@@ -75,17 +63,7 @@
     "item": "surv_station",
     "difficulty": 6,
     "location": "center",
-    "tools": [
-      "hotplate",
-      "pot",
-      "welder",
-      "soldering_iron",
-      "vac_sealer",
-      "dehydrator",
-      "press",
-      "chemistry_set",
-      "forge"
-    ],
+    "tools": [ "hotplate", "pot", "welder", "soldering_iron", "vac_sealer", "dehydrator", "press", "chemistry_set", "forge" ],
     "flags": [
       "OBSTACLE",
       "KITCHEN",
@@ -98,52 +76,16 @@
       "FRIDGE",
       "WATER_PURIFIER",
       "FAUCET",
-	  "ENABLED_DRAINS_EPOWER",
+      "ENABLED_DRAINS_EPOWER",
       "CARGO"
     ],
     "breaks_into": [
-      {
-        "item": "steel_lump",
-        "count": [
-          30,
-          40
-        ]
-      },
-      {
-        "item": "steel_chunk",
-        "count": [
-          30,
-          40
-        ]
-      },
-      {
-        "item": "scrap",
-        "count": [
-          30,
-          40
-        ]
-      },
-      {
-        "item": "circuit",
-        "count": [
-          30,
-          40
-        ]
-      },
-      {
-        "item": "e_scrap",
-        "count": [
-          30,
-          40
-        ]
-      },
-      {
-        "item": "amplifier",
-        "count": [
-          30,
-          40
-        ]
-      }
+      { "item": "steel_lump", "count": [ 30, 40 ] },
+      { "item": "steel_chunk", "count": [ 30, 40 ] },
+      { "item": "scrap", "count": [ 30, 40 ] },
+      { "item": "circuit", "count": [ 30, 40 ] },
+      { "item": "e_scrap", "count": [ 30, 40 ] },
+      { "item": "amplifier", "count": [ 30, 40 ] }
     ]
   },
   {
@@ -151,10 +93,7 @@
     "id": "engine_electric_small",
     "copy-from": "engine_electric_small",
     "override": true,
-    "flags": [
-      "FOLDABLE",
-	  "ENGINE"
-    ],
+    "flags": [ "FOLDABLE", "ENGINE" ],
     "folded_volume": 2
   },
   {
@@ -162,9 +101,7 @@
     "id": "tank_little",
     "copy-from": "tank_little",
     "override": true,
-    "flags": [
-      "FOLDABLE"
-    ],
+    "flags": [ "FOLDABLE" ],
     "folded_volume": 2
   },
   {
@@ -172,9 +109,7 @@
     "id": "funnel",
     "copy-from": "funnel",
     "override": true,
-    "flags": [
-      "FOLDABLE"
-    ],
+    "flags": [ "FOLDABLE" ],
     "folded_volume": 2
   },
   {
@@ -190,12 +125,7 @@
     "difficulty": 4,
     "size": 40,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_full_223",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -211,12 +141,7 @@
     "difficulty": 4,
     "size": 40,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_full_308",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -232,12 +157,7 @@
     "difficulty": 4,
     "size": 40,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_full_762",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -252,12 +172,8 @@
     "item": "surv_full_12",
     "difficulty": 4,
     "size": 40,
-    "folded_volume": 8,    "breaks_into": [
-      {
-        "item": "surv_full_12",
-        "prob": 50
-      }
-    ],
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -273,12 +189,7 @@
     "difficulty": 4,
     "size": 80,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_lmg_308",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -294,12 +205,7 @@
     "difficulty": 4,
     "size": 80,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_lmg_223",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -315,12 +221,7 @@
     "difficulty": 4,
     "size": 80,
     "folded_volume": 8,
-    "breaks_into": [
-      {
-        "item": "surv_lmg_762",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
     "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
   },
   {
@@ -337,12 +238,7 @@
     "difficulty": 6,
     "folded_volume": 8,
     "//": "Haven't figured out the breaks_into...",
-    "breaks_into": [
-      {
-        "item": "laser_lmg",
-        "prob": 50
-      }
-    ],
+    "breaks_into": [ { "item": "laser_lmg", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] }
   },
   {
@@ -427,35 +323,36 @@
     "extend": { "flags": [ "TOOL_WRENCH" ] }
   },
   {
-    "type" : "furniture",
-    "id" : "f_fridge",
+    "type": "furniture",
+    "id": "f_fridge",
     "name": "refrigerator",
     "symbol": "{",
     "description": "Freeze your food with the amazing science of electricity!  Oh wait, none is flowing.",
     "color": "light_cyan",
     "move_cost_mod": -1,
     "required_str": 10,
-    "flags": ["CONTAINER", "PLACE_ITEM", "BLOCKSDOOR"],
+    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR" ],
     "deconstruct": {
-        "items": [
-            { "item": "scrap", "count": [2, 8] },
-            { "item": "steel_chunk", "count": [2, 3] },
-            { "item": "hose", "count": 1 },
-            { "item": "cu_pipe", "count": [2, 5] }
-        ]
+      "items": [
+        { "item": "scrap", "count": [ 2, 8 ] },
+        { "item": "steel_chunk", "count": [ 2, 3 ] },
+        { "item": "hose", "count": 1 },
+        { "item": "cu_pipe", "count": [ 2, 5 ] }
+      ]
     },
     "max_volume": 7000,
     "bash": {
-        "str_min": 18, "str_max": 50,
-        "sound": "metal screeching!",
-        "sound_fail": "clang!",
-        "items": [
-            { "item": "scrap", "count": [2, 8] },
-            { "item": "steel_chunk", "count": [0, 3] },
-            { "item": "hose", "count": 1 },
-            { "item": "cu_pipe", "count": [2, 5] },
-            { "item": "scrap_copper", "count": [1, 2] }
-        ]
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 8 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "hose", "count": 1 },
+        { "item": "cu_pipe", "count": [ 2, 5 ] },
+        { "item": "scrap_copper", "count": [ 1, 2 ] }
+      ]
     },
     "deployed_item": "fridge",
     "examine_action": "deployed_furniture"
@@ -470,15 +367,15 @@
     "symbol": "]",
     "material": "steel",
     "volume": 2400,
-    "category" : "veh_parts",
+    "category": "veh_parts",
     "price": 60000,
     "breaks_into": [
-            { "item": "scrap", "count": [2, 8] },
-            { "item": "steel_chunk", "count": [0, 3] },
-            { "item": "hose", "count": 1 },
-            { "item": "cu_pipe", "count": [2, 5] },
-            { "item": "scrap_copper", "count": [1, 2] }
-        ],
+      { "item": "scrap", "count": [ 2, 8 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "hose", "count": 1 },
+      { "item": "cu_pipe", "count": [ 2, 5 ] },
+      { "item": "scrap_copper", "count": [ 1, 2 ] }
+    ],
     "use_action": { "type": "deploy_furn", "furn_type": "f_fridge" }
   },
   {
@@ -486,7 +383,7 @@
     "copy-from": "fridge",
     "type": "GENERIC",
     "name": "DC fridge",
-    "category" : "veh_parts",
+    "category": "veh_parts",
     "description": "A decently sized fridge for keeping food cool. Fitted with power converter to work with DC."
   },
   {
@@ -496,14 +393,14 @@
     "type": "vehicle_part",
     "name": "DC fridge",
     "item": "dc_fridge",
-    "epower" : -300,
-    "size" : 1400,
+    "epower": -300,
+    "size": 1400,
     "breaks_into": [
-            { "item": "scrap", "count": [2, 8] },
-            { "item": "steel_chunk", "count": [0, 3] },
-            { "item": "hose", "count": 1 },
-            { "item": "cu_pipe", "count": [2, 5] },
-            { "item": "scrap_copper", "count": [1, 2] }
-        ]
+      { "item": "scrap", "count": [ 2, 8 ] },
+      { "item": "steel_chunk", "count": [ 0, 3 ] },
+      { "item": "hose", "count": 1 },
+      { "item": "cu_pipe", "count": [ 2, 5 ] },
+      { "item": "scrap_copper", "count": [ 1, 2 ] }
+    ]
   }
 ]

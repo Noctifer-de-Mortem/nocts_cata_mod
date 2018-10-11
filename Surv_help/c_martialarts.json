@@ -70,23 +70,7 @@
         "description": "Current Weapon has stunned the foe, next attack deals more damage as well!",
         "min_melee": 3,
         "melee_allowed": true,
-        "mult_bonuses": [
-          [
-            "damage",
-            "bash",
-            1.5
-          ],
-          [
-            "damage",
-            "cut",
-            1.5
-          ],
-          [
-            "damage",
-            "stab",
-            1.5
-          ]
-        ],
+        "mult_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "cut", 1.5 ], [ "damage", "stab", 1.5 ] ],
         "max_stacks": 1,
         "stun_dur": 1,
         "buff_duration": 1
@@ -227,17 +211,17 @@
     ]
   },
   {
-        "type" : "martial_art",
-        "id" : "style_biojutsu",
-        "copy-from" : "style_biojutsu",
-        "name" : "Bionic Combatives",
-        "weapons" : [
-            "unbio_bladed_weapon",
-	    "unbio_sword_weapon",
-            "unbio_claws_weapon",
-            "bio_sword_weapon",
-            "bio_claws_weapon",
-            "bio_blade_weapon"
-        ]
-    }
+    "type": "martial_art",
+    "id": "style_biojutsu",
+    "copy-from": "style_biojutsu",
+    "name": "Bionic Combatives",
+    "weapons": [
+      "unbio_bladed_weapon",
+      "unbio_sword_weapon",
+      "unbio_claws_weapon",
+      "bio_sword_weapon",
+      "bio_claws_weapon",
+      "bio_blade_weapon"
+    ]
+  }
 ]

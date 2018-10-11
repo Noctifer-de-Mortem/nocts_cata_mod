@@ -11,20 +11,11 @@
     "price": 85000,
     "description": "A variant of the aux flamethrower intended for diesel.",
     "symbol": ":",
-    "material": [
-      "steel"
-    ],
+    "material": [ "steel" ],
     "volume": 4,
-    "mod_targets": [
-      "rifle",
-      "shotgun",
-      "smg",
-      "crossbow"
-    ],
+    "mod_targets": [ "rifle", "shotgun", "smg", "crossbow" ],
     "bashing": 2,
-    "flags": [
-      "FIRE_100"
-    ],
+    "flags": [ "FIRE_100" ],
     "gun_data": {
       "skill": "launcher",
       "ammo": "diesel",
@@ -53,16 +44,9 @@
     "price": 12000,
     "description": "An underbarrel .22 pistol. Has a 30 round magazine.",
     "symbol": ":",
-    "material": [
-      "steel",
-      "plastic"
-    ],
+    "material": [ "steel", "plastic" ],
     "volume": 2,
-    "mod_targets": [
-      "rifle",
-      "crossbow",
-      "smg"
-    ],
+    "mod_targets": [ "rifle", "crossbow", "smg" ],
     "bashing": 2,
     "gun_data": {
       "skill": "pistol",
@@ -90,16 +74,9 @@
     "price": 12000,
     "description": "An underbarrel 9mm pistol. Has a 18 round magazine.",
     "symbol": ":",
-    "material": [
-      "steel",
-      "plastic"
-    ],
+    "material": [ "steel", "plastic" ],
     "volume": 2,
-    "mod_targets": [
-      "rifle",
-      "crossbow",
-      "smg"
-    ],
+    "mod_targets": [ "rifle", "crossbow", "smg" ],
     "bashing": 2,
     "gun_data": {
       "skill": "pistol",
@@ -127,16 +104,9 @@
     "price": 12000,
     "description": "An underbarrel .45 pistol. Has a 12 round magazine.",
     "symbol": ":",
-    "material": [
-      "steel",
-      "plastic"
-    ],
+    "material": [ "steel", "plastic" ],
     "volume": 2,
-    "mod_targets": [
-      "rifle",
-      "crossbow",
-      "smg"
-    ],
+    "mod_targets": [ "rifle", "crossbow", "smg" ],
     "bashing": 2,
     "gun_data": {
       "skill": "pistol",
@@ -164,19 +134,8 @@
     "to_hit": -1,
     "color": "dark_gray",
     "symbol": ":",
-    "material": [
-      "plastic",
-      "steel"
-    ],
-    "mod_targets": [
-      "smg",
-      "rifle",
-      "pistol",
-      "shotgun",
-      "crossbow",
-      "bow",
-      "launcher"
-    ],
+    "material": [ "plastic", "steel" ],
+    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "crossbow", "bow", "launcher" ],
     "volume": 1,
     "price": 85000,
     "skill_required": 3,
@@ -197,13 +156,8 @@
     "to_hit": -1,
     "color": "dark_gray",
     "symbol": ":",
-    "material": [
-      "plastic",
-      "steel"
-    ],
-    "mod_targets": [
-      "rifle"
-    ],
+    "material": [ "plastic", "steel" ],
+    "mod_targets": [ "rifle" ],
     "volume": 0,
     "price": 0
   }

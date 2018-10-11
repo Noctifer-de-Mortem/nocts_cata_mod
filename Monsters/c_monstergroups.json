@@ -62,26 +62,20 @@
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [
-      { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 }
-    ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 } ]
   },
   {
     "name": "GROUP_FUNGI_TOWER",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [
-      { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 }
-    ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 } ]
   },
   {
     "name": "GROUP_FUNGI_FLOWERS",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [
-      { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 }
-    ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20 } ]
   }
 ]

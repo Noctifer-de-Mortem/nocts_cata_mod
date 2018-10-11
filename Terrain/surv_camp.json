@@ -66,9 +66,7 @@
         { "item": "forest", "x": 14, "y": 1, "chance": 75 },
         { "item": "forest", "x": 1, "y": 10, "chance": 75 }
       ],
-      "place_npcs": [
-        { "class": "survn_special", "x": 4, "y": 4 }
-      ]
+      "place_npcs": [ { "class": "survn_special", "x": 4, "y": 4 } ]
     }
   }
 ]

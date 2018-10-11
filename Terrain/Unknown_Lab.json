@@ -98,10 +98,7 @@
         "i": "f_autodoc",
         "j": "f_autodoc_couch"
       },
-      "place_toilets": [
-        { "x": 1, "y": 12 },
-        { "x": 22, "y": 12 }
-      ],
+      "place_toilets": [ { "x": 1, "y": 12 }, { "x": 22, "y": 12 } ],
       "place_loot": [
         { "group": "chem_lab", "x": 4, "y": 22, "chance": 90, "repeat": [ 15, 20 ] },
         { "group": "trash", "x": 14, "y": 13, "chance": 50, "repeat": [ 2, 5 ] },

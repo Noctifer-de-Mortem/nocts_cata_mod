@@ -2,10 +2,7 @@
   {
     "id": "dirtlot",
     "type": "vehicle_group",
-    "vehicles": [
-      [ "surv_tractor", 5 ],
-      [ "surv_rv", 5 ]
-    ],
+    "vehicles": [ [ "surv_tractor", 5 ], [ "surv_rv", 5 ] ],
     "//": "Low since there are not many vehicles to pick from."
   },
   {

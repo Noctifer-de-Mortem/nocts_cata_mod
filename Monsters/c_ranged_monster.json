@@ -39,7 +39,7 @@
     "type": "GUN",
     "name": "zombie super soldier pistol",
     "description": "Version of the V29 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
-    "//": "Also heavuily nerfed.",
+    "//": "Also heavily nerfed.",
     "dispersion": 2500,
     "sight_dispersion": 500,
     "range": 10

@@ -8,33 +8,14 @@
     "to_hit": 3,
     "color": "dark_gray",
     "symbol": "{",
-    "material": [
-      "superalloy",
-      "steel"
-    ],
-    "techniques": [
-      "WBLOCK_1"
-    ],
+    "material": [ "superalloy", "steel" ],
+    "techniques": [ "WBLOCK_1" ],
     "volume": 4,
     "bashing": 8,
     "cutting": 36,
-    "flags": [
-      "NON_STUCK",
-      "STAB",
-      "UNBREAKABLE_MELEE", 
-      "SHEATH_KNIFE"
-    ],
+    "flags": [ "NON_STUCK", "STAB", "UNBREAKABLE_MELEE", "SHEATH_KNIFE" ],
     "price": 420000,
-    "qualities": [
-      [
-        "CUT",
-        1
-      ],
-      [
-        "BUTCHER",
-        22
-      ]
-    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 22 ] ],
     "gunmod_data": {
       "location": "underbarrel",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
@@ -52,34 +33,14 @@
     "to_hit": 3,
     "color": "dark_gray",
     "symbol": "{",
-    "material": [
-      "superalloy",
-      "steel"
-    ],
-    "techniques": [
-      "RAPID",
-      "WBLOCK_2"
-    ],
+    "material": [ "superalloy", "steel" ],
+    "techniques": [ "RAPID", "WBLOCK_2" ],
     "volume": 10,
     "bashing": 8,
     "cutting": 48,
-    "flags": [
-      "NON_STUCK",
-      "STAB",
-      "UNBREAKABLE_MELEE", 
-      "SHEATH_SWORD"
-    ],
+    "flags": [ "NON_STUCK", "STAB", "UNBREAKABLE_MELEE", "SHEATH_SWORD" ],
     "price": 420000,
-    "qualities": [
-      [
-        "CUT",
-        1
-      ],
-      [
-        "BUTCHER",
-        22
-      ]
-    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 22 ] ],
     "gunmod_data": {
       "location": "underbarrel",
       "mod_targets": [ "shotgun", "rifle" ],
@@ -98,25 +59,13 @@
     "to_hit": 4,
     "color": "light_gray",
     "symbol": "{",
-    "material": [
-      "superalloy",
-      "steel"
-    ],
+    "material": [ "superalloy", "steel" ],
     "volume": 2,
     "bashing": 10,
     "cutting": 16,
-    "flags": [
-      "STAB",
-      "UNARMED_WEAPON",
-      "UNBREAKABLE_MELEE"
-    ],
+    "flags": [ "STAB", "UNARMED_WEAPON", "UNBREAKABLE_MELEE" ],
     "price": 420000,
-    "qualities": [
-      [
-        "BUTCHER",
-        12
-      ]
-    ]
+    "qualities": [ [ "BUTCHER", 12 ] ]
   },
   {
     "type": "TOOL",
@@ -129,51 +78,19 @@
     "charges_per_use": 1,
     "color": "dark_red",
     "symbol": "/",
-    "material": [
-      "flesh",
-      "steel"
-    ],
-    "techniques": [
-      "WBLOCK_1"
-    ],
+    "material": [ "flesh", "steel" ],
+    "techniques": [ "WBLOCK_1" ],
     "volume": 4,
     "bashing": 8,
     "cutting": 40,
-    "flags": [
-      "STAB",
-      "NON_STUCK",
-      "UNBREAKABLE_MELEE",
-      "DURABLE_MELEE",
-      "PRECISE",
-      "RAPID"
-    ],
+    "flags": [ "STAB", "NON_STUCK", "UNBREAKABLE_MELEE", "DURABLE_MELEE", "PRECISE", "RAPID" ],
     "price": 580000,
-    "qualities": [
-      [
-        "CUT",
-        2
-      ],
-      [
-        "BUTCHER",
-        20
-      ]
-    ],
+    "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 20 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "charge_type": "ARTC_TIME",
-      "effects_carried": [
-        "AEP_ATTENTION"
-      ],
-      "effects_wielded": [
-        "AEP_STR_UP",
-        "AEP_DEX_UP",
-        "AEP_SPEED_UP",
-        "AEP_ALL_DOWN",
-        "AEP_SICK",
-        "AEP_EVIL",
-        "AEP_SAP_LIFE",
-        "AEP_MUTAGENIC"
-      ],
+      "effects_carried": [ "AEP_ATTENTION" ],
+      "effects_wielded": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_SPEED_UP", "AEP_ALL_DOWN", "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ],
       "effects_activated": [
         "AEA_BLOOD",
         "AEA_FATIGUE",

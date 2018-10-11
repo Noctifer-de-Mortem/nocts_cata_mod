@@ -39,10 +39,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [
-      { "item": "scar_l" },
-      { "item": "stanag30", "count": [ 2, 3 ] }
-    ]
+    "entries": [ { "item": "scar_l" }, { "item": "stanag30", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry_fal",
@@ -50,10 +47,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [
-      { "item": "fn_fal" },
-      { "item": "falmag", "count": [ 2, 3 ] }
-    ]
+    "entries": [ { "item": "fn_fal" }, { "item": "falmag", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry_scar_h",
@@ -61,10 +55,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [
-      { "item": "scar_h" },
-      { "item": "scarhmag", "count": [ 2, 3 ] }
-    ]
+    "entries": [ { "item": "scar_h" }, { "item": "scarhmag", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry_8mm",
@@ -73,12 +64,7 @@
     "magazine": 100,
     "ammo": 100,
     "entries": [
-      {
-        "distribution": [
-          { "item": "rm51_assault_rifle", "prob": 50 },
-          { "item": "rm88_battle_rifle", "prob": 50 }
-        ]
-      },
+      { "distribution": [ { "item": "rm51_assault_rifle", "prob": 50 }, { "item": "rm88_battle_rifle", "prob": 50 } ] },
       { "item": "8x40_50_mag", "count": [ 2, 3 ] }
     ]
   }

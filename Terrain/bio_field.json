@@ -57,9 +57,7 @@
         { "monster": "mon_zombie_soldier", "x": 6, "y": 20 },
         { "monster": "mon_zombie_soldier", "x": 13, "y": 22 }
       ],
-      "place_vehicles": [
-        { "vehicle": "humvee", "x": 9, "y": 10, "chance": 99, "fuel": 85, "status": -1, "rotation": 90 }
-      ]
+      "place_vehicles": [ { "vehicle": "humvee", "x": 9, "y": 10, "chance": 99, "fuel": 85, "status": -1, "rotation": 90 } ]
     }
   }
 ]

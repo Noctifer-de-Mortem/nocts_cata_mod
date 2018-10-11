@@ -8,30 +8,12 @@
       "no": "Hey there!  Welcome to the Command Center."
     },
     "responses": [
-      {
-        "text": "What is this place?",
-        "topic": "TALK_MSCI_CC_EXPLAIN"
-      },
-      {
-        "text": "Who are you?",
-        "topic": "TALK_MSCI_I_AM"
-      },
-      {
-        "text": "What are you doing here?",
-        "topic": "TALK_MSCI_ASK_DOING"
-      },
-      {
-        "text": "Anything I can help with?",
-        "topic": "TALK_MISSION_OFFER"
-      },
-      {
-        "text": "Can I stay here?",
-        "topic": "TALK_MSCI_ASK_STAY"
-      },
-      {
-        "text": "Farewell.",
-        "topic": "TALK_DONE"
-      }
+      { "text": "What is this place?", "topic": "TALK_MSCI_CC_EXPLAIN" },
+      { "text": "Who are you?", "topic": "TALK_MSCI_I_AM" },
+      { "text": "What are you doing here?", "topic": "TALK_MSCI_ASK_DOING" },
+      { "text": "Anything I can help with?", "topic": "TALK_MISSION_OFFER" },
+      { "text": "Can I stay here?", "topic": "TALK_MSCI_ASK_STAY" },
+      { "text": "Farewell.", "topic": "TALK_DONE" }
     ]
   },
   {
@@ -39,51 +21,29 @@
     "type": "talk_topic",
     "dynamic_line": "This a refuge for the former scientists of the Bio-Weapon project.  We settled here in the woods and tried to make a living.  We allow people to stay here, as long as they contribute something.  We even managed to find a couple of stray Bio-Weapons!",
     "responses": [
-      {
-        "text": "Seems like you got it good here.",
-        "topic": "TALK_MSCI"
-      },
-      {
-        "text": "Who are these Bio-Weapons here?",
-        "topic": "TALK_MSCI_BIO_WHO"
-      }
+      { "text": "Seems like you got it good here.", "topic": "TALK_MSCI" },
+      { "text": "Who are these Bio-Weapons here?", "topic": "TALK_MSCI_BIO_WHO" }
     ]
   },
   {
     "id": "TALK_MSCI_BIO_WHO",
     "type": "talk_topic",
     "dynamic_line": "That would be Sigma and Lambda.  They are very confused.  They awoke with their memory gone and only knew they were 'different'.  I found them and they helped to scavenge and build this place.  They were built for combat;  I can tell they're bored out of their minds...",
-    "responses": [
-      {
-        "text": "I'll keep on eye out for them.",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "I'll keep on eye out for them.", "topic": "TALK_MSCI" } ]
   },
   {
     "id": "TALK_MSCI_I_AM",
     "type": "talk_topic",
     "dynamic_line": "I am the leader of this place.  I go by Router.  Before the cataclysm I used to be the second lead scientist in the Bio-Weapon Project.  I designed Sigma and Lambda and saw them being stored away.  I now dedicate myself to upgrading this place, basic survival and finding more info on the project I worked on.",
-    "responses": [
-      {
-        "text": "Seems like you've got a lot on your plate.",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "Seems like you've got a lot on your plate.", "topic": "TALK_MSCI" } ]
   },
   {
     "id": "TALK_MSCI_ASK_DOING",
     "type": "talk_topic",
     "dynamic_line": "Well, the main reason we are hiding here is Apophis...  It is a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Currently we don't have anything that could stand a decent chance against it, so we're trying to create our own Bio-Weapon to counter Apophis. Sigma and Lambda have expressed interest in going after it, but they won't be able to take it out on their own.",
     "responses": [
-      {
-        "text": "Oh, good luck, I suppose.",
-        "topic": "TALK_MSCI"
-      },
-      {
-        "text": "What exactly is Apophis and is it really that dangerous?",
-        "topic": "TALK_MSCI_APOPHIS"
-      }
+      { "text": "Oh, good luck, I suppose.", "topic": "TALK_MSCI" },
+      { "text": "What exactly is Apophis and is it really that dangerous?", "topic": "TALK_MSCI_APOPHIS" }
     ]
   },
   {
@@ -110,10 +70,7 @@
         "topic": "TALK_MSCI_APOPHIS_SOLDIER",
         "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }
       },
-      {
-        "text": "...",
-        "topic": "TALK_MSCI"
-      }
+      { "text": "...", "topic": "TALK_MSCI" }
     ]
   },
   {
@@ -124,12 +81,7 @@
       "yes": "That you may be, but while you've been stuck in stasis, the other research teams had been poring over every last scrap of data they could get out of your production.  Even if it was two steps forward, one step back, Apophis is the culmination of all that research.  I know you might be eager to fight, but we need to prepare ourselves.",
       "no": "Hmm, maybe I was wrong about judging you based on your lack of a badge.  If you are who you claim to be, then know this.  Apophis is the culmination of all the research that came from your creation.  I know you might be eager to fight, but we need to be ready."
     },
-    "responses": [
-      {
-        "text": "...",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "...", "topic": "TALK_MSCI" } ]
   },
   {
     "id": "TALK_MSCI_APOPHIS_FAILED",
@@ -139,12 +91,7 @@
       "yes": "I know you're eager to prove yourself, but that doesn't require throwing your life away.  That thing is tailor-made to kill Bio-Weapons and anyone else that gets in his way.  You don't have to prove yourself just because others have joined him.  I know I can trust you.",
       "no": "Huh.  Maybe that's why you're not wearing the badge.  I think I can trust you.  I wish the others had been given the same chance you have now, and that Apophis hadn't gotten to them first.  But if you take him on unprepared, you'll just be throwing your life away needlessly."
     },
-    "responses": [
-      {
-        "text": "...",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "...", "topic": "TALK_MSCI" } ]
   },
   {
     "id": "TALK_MSCI_APOPHIS_SOLDIER",
@@ -154,22 +101,12 @@
       "yes": "And that thing was created to kill you, the orginal Bio-Weapons, and anything else that gets in the way.  That's why it got the designation Apophis, pretty much opened ourselves up for that when we went with Project Mesektet for the codename.",
       "no": "If you're really one of the super soldiers, then you should know hiding your badge won't prevent Apophis from figuring you out.  That thing was designed to hunt Bio-Weapons and Super Soldiers alike."
     },
-    "responses": [
-      {
-        "text": "...",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "...", "topic": "TALK_MSCI" } ]
   },
   {
     "id": "TALK_MSCI_ASK_STAY",
     "type": "talk_topic",
     "dynamic_line": "Sure, just clean up after yourself and try to not piss anyone off.  Help is appreciated, if you have the time.",
-    "responses": [
-      {
-        "text": "Thanks.",
-        "topic": "TALK_MSCI"
-      }
-    ]
+    "responses": [ { "text": "Thanks.", "topic": "TALK_MSCI" } ]
   }
 ]

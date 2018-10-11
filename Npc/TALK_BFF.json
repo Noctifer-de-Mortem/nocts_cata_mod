@@ -10,16 +10,7 @@
       {
         "text": "Glad to see you too buddy, let's go now!",
         "trial": { "type": "NONE" },
-        "success": {
-          "effect": "follow",
-          "opinion": {
-            "trust": 8,
-            "fear": 0,
-            "value": 8,
-            "anger": -2
-          },
-          "topic": "TALK_DONE"
-        }
+        "success": { "effect": "follow", "opinion": { "trust": 8, "fear": 0, "value": 8, "anger": -2 }, "topic": "TALK_DONE" }
       }
     ]
   }
