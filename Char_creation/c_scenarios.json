@@ -1,28 +1,6 @@
 [
   {
     "type": "scenario",
-    "name": "Bunker Evacuee",
-    "description": "You had connections, or intel somehow..., and because of it, you found this LMOE Shelter. It's summer now and you somehow survived, now things get a little bit easier.",
-    "flags": [ "SUR_START", "SUM_START" ],
-    "ident": "bunker",
-    "points": 2,
-    "start_name": "LMOE Shelter",
-    "allowed_locs": [ "lmoe" ],
-    "professions": [
-      "senior",
-      "hacker",
-      "lawyer",
-      "labtech",
-      "bionic_spy",
-      "soldier",
-      "national_guard",
-      "specops",
-      "bio_soldier",
-      "bio_sniper"
-    ]
-  },
-  {
-    "type": "scenario",
     "name": "Bio-Weapon Lab",
     "description": "You woke up, where are you?  Who are you?  What are you?!  That doesn't matter right now... you have a bad feeling...",
     "flags": [ "SUR_START", "SUM_START" ],
