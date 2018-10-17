@@ -368,9 +368,9 @@
       "bio_flashlight",
       "bio_night_vision",
       "bio_tools",
-	  "bio_recycler",
-	  "bio_torsionratchet",
-	  "bio_metabolics",
+      "bio_recycler",
+      "bio_torsionratchet",
+      "bio_metabolics",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
@@ -427,7 +427,7 @@
       "bio_night_vision",
       "bio_adrenaline",
       "bio_torsionratchet",
-	  "bio_metabolics",
+      "bio_metabolics",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
@@ -472,15 +472,15 @@
     "CBMs": [
       "bio_eye_enhancer",
       "bio_targeting",
-	  "bio_tools",
+      "bio_tools",
       "bio_flashlight",
       "bio_lighter",
       "bio_evap",
       "bio_climate"
       "bio_furnace",
-	  "bio_recycler",
-	  "bio_torsionratchet",
-	  "bio_metabolics",
+      "bio_recycler",
+      "bio_torsionratchet",
+      "bio_metabolics",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
@@ -552,7 +552,7 @@
       "bio_nanobots",
       "bio_painkiller",
       "bio_torsionratchet",
-	  "bio_metabolics",
+      "bio_metabolics",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
