@@ -17,7 +17,7 @@
     "sight_dispersion": 150,
     "aim_speed": 0,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "auto", 20 ] ],
+    "modes": [ [ "DEFAULT", "auto", 5 ] ],
     "reload": 500,
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
@@ -26,10 +26,11 @@
     "type": "bionic",
     "id": "bio_laser_armgun",
     "name": "Laser Gatling Arm",
+    "//": "To be re-added if this ever gets accessible in JSON: However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
     "occupied_bodyparts": [ [ "ARM_L", 20 ], [ "HAND_L", 5 ] ],
-    "act_cost": 100,
+    "act_cost": 50,
     "fake_item": "bio_laser_minigun",
-    "description": "Your left arm has been replaced by a rapid fire laser gatling gun!  You may use your energy banks to fire a barrage of lasers.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
     "flags": [ "BIONIC_GUN" ]
   },
   {
@@ -37,7 +38,7 @@
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
     "name": "Laser Gatling Arm CBM",
-    "description": "Your left arm has been replaced by a rapid fire laser gatling gun!  You may use your energy banks to fire a barrage of lasers.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
     "price": 220000,
     "difficulty": 3
   },

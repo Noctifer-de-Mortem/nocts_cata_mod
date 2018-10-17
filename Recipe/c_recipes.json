@@ -1555,6 +1555,8 @@
   {
     "result": "badge_bio_weapon",
     "type": "uncraft",
-    "copy-from": "badge_cybercop"
+    "time": 500,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 20 ] ] ]
   }
 ]
