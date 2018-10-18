@@ -247,24 +247,6 @@
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
   },
   {
-    "copy-from": "mutant",
-    "type": "scenario",
-    "extend": { "professions": [ "faulty_bionic" ] },
-    "ident": "mutant"
-  },
-  {
-    "copy-from": "bad_day",
-    "type": "scenario",
-    "extend": { "professions": [ "faulty_bionic", "cykotic" ] },
-    "ident": "bad_day"
-  },
-  {
-    "copy-from": "missed",
-    "type": "scenario",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
-    "ident": "missed"
-  },
-  {
     "copy-from": "missed",
     "type": "scenario",
     "ident": "missed",
@@ -277,18 +259,6 @@
     "traits": [ "MARTIAL_ARTS_SURV" ]
   },
   {
-    "copy-from": "fire",
-    "type": "scenario",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
-    "ident": "fire"
-  },
-  {
-    "copy-from": "infected",
-    "type": "scenario",
-    "extend": { "allowed_locs": [ "s_electronics_s", "s_clothes_s" ] },
-    "ident": "infected"
-  },
-  {
     "copy-from": "ambushed",
     "type": "scenario",
     "ident": "ambushed",
@@ -297,7 +267,7 @@
   {
     "copy-from": "wilderness",
     "type": "scenario",
-    "extend": { "allowed_locs": [ "surv_camp_l" ], "professions": [ "pri-sur" ] },
+    "extend": { "allowed_locs": [ "surv_camp_l" ] },
     "ident": "wilderness"
   },
   {

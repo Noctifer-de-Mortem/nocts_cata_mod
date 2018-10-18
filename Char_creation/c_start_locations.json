@@ -32,18 +32,6 @@
   },
   {
     "type": "start_location",
-    "ident": "s_electronics_s",
-    "name": "Electronics Store",
-    "target": "s_electronics"
-  },
-  {
-    "type": "start_location",
-    "ident": "s_clothes_s",
-    "name": "Clothing Store",
-    "target": "s_clothes"
-  },
-  {
-    "type": "start_location",
     "ident": "house_fight_s",
     "name": "Sketchy Cabin",
     "target": "house_fight"
