@@ -287,7 +287,7 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_infantry",
-    "death_function": [ "NORMAL" ],
+    "death_function": [ "NORMAL", "SPLATTER" ],
     "flags": [
       "SEES",
       "REGENERATES_10",
@@ -298,7 +298,6 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "REVIVES",
       "BONES"
     ]
   },
@@ -354,7 +353,7 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_knight",
-    "death_function": [ "NORMAL" ],
+    "death_function": [ "NORMAL", "SPLATTER" ],
     "flags": [
       "SEES",
       "REGENERATES_10",
@@ -365,7 +364,6 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "REVIVES",
       "BONES"
     ]
   },
@@ -422,7 +420,7 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_scout",
-    "death_function": [ "NORMAL" ],
+    "death_function": [ "NORMAL", "SPLATTER" ],
     "flags": [
       "SEES",
       "REGENERATES_10",
@@ -433,7 +431,6 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "REVIVES",
       "BONES"
     ]
   },
@@ -489,7 +486,7 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_tool",
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "REVIVES", "BONES" ]
+    "death_function": [ "NORMAL", "SPLATTER" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "BONES" ]
   }
 ]

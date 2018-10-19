@@ -19,7 +19,7 @@
     "class": "NC_PREPPER",
     "attitude": 0,
     "mission": 7,
-    "chat": "TALK_SHELTER",
+    "chat": "TALK_STRANGER_NEUTRAL",
     "faction": "preppers"
   },
   {
@@ -28,9 +28,9 @@
     "comment": "Use as a random NPC encounter",
     "name_suffix": "Prepper",
     "class": "NC_PREPPER",
-    "attitude": 0,
-    "mission": 0,
-    "chat": "TALK_SHELTER",
+    "attitude": 1,
+    "mission": 7,
+    "chat": "TALK_STRANGER_NEUTRAL",
     "faction": "preppers"
   },
   {
@@ -121,7 +121,7 @@
     "gender": "male",
     "class": "NC_SLAVE_FIGHTER_RED",
     "attitude": 10,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_DONE",
     "faction": "slave_fighter"
   },
@@ -133,7 +133,7 @@
     "gender": "male",
     "class": "NC_SLAVE_FIGHTER_BLUE",
     "attitude": 3,
-    "mission": 0,
+    "mission": 7,
     "chat": "TALK_DONE",
     "faction": "slave_fighter_allied"
   }
