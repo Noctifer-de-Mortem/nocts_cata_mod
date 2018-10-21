@@ -87,7 +87,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_hammer", 1 ] ] ]
   },
   {
@@ -103,7 +103,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_axe", 1 ] ] ]
   },
   {
@@ -119,7 +119,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_knife", 1 ] ] ]
   },
   {
@@ -135,7 +135,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_shovel", 1 ] ] ]
   },
   {
@@ -151,7 +151,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "rock_pot", 1 ] ] ]
   },
   {
@@ -257,7 +257,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forge", 75 ], [ "char_forge", 50 ], [ "forgerig", 75 ] ], [ [ "mold_metal", -1 ] ] ],
+    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
     "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "saw", 1 ] ], [ [ "hacksaw", 1 ] ] ]
   },
   {
