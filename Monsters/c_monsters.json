@@ -46,7 +46,8 @@
       "CBM_OP",
       "NO_BREATHE",
       "REVIVES",
-      "BONES"
+      "BONES",
+      "FILTHY"
     ]
   },
   {
@@ -230,7 +231,8 @@
       "CBM_OP",
       "CBM_POWER",
       "BONES",
-      "PUSH_MON"
+      "PUSH_MON",
+      "FILTHY"
     ]
   },
   {
@@ -297,7 +299,8 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "BONES"
+      "BONES",
+      "FILTHY"
     ]
   },
   {
@@ -363,7 +366,8 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "BONES"
+      "BONES",
+      "FILTHY"
     ]
   },
   {
@@ -430,7 +434,8 @@
       "CBM_POWER",
       "CBM_OP",
       "NO_BREATHE",
-      "BONES"
+      "BONES",
+      "FILTHY"
     ]
   },
   {
@@ -486,6 +491,6 @@
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "death_drops": "wild_bio_tool",
     "death_function": [ "NORMAL", "SPLATTER" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "BONES", "FILTHY" ]
   }
 ]
