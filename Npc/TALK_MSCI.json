@@ -11,7 +11,7 @@
       { "text": "What is this place?", "topic": "TALK_MSCI_CC_EXPLAIN" },
       { "text": "Who are you?", "topic": "TALK_MSCI_I_AM" },
       { "text": "What are you doing here?", "topic": "TALK_MSCI_ASK_DOING" },
-      { "text": "Anything I can help with?", "topic": "TALK_MISSION_OFFER" },
+      { "text": "Anything I can help with?", "topic": "TALK_MISSION_LIST" },
       { "text": "Can I stay here?", "topic": "TALK_MSCI_ASK_STAY" },
       { "text": "Farewell.", "topic": "TALK_DONE" }
     ]
