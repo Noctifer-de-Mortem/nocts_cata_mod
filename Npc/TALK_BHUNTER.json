@@ -26,7 +26,7 @@
       { "text": "What's going on out here?", "topic": "TALK_BHUNTER_ASK_SITUATION" },
       { "text": "What are you doing here?", "topic": "TALK_BHUNTER_ASK_DOING" },
       { "text": "What should we do?", "topic": "TALK_BHUNTER_ASK_DO" },
-      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_OFFER" },
+      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_LIST" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
@@ -221,17 +221,17 @@
     "responses": [
       {
         "text": "I don't have any orders, and don't remember much from before I woke up.  Had anything in mind?",
-        "topic": "TALK_MISSION_OFFER",
+        "topic": "TALK_MISSION_LIST",
         "condition": { "u_has_any_trait": [ "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA" ] }
       },
       {
         "text": "Sounds like a good start, don't have any other standing orders to follow.  What have you got for me?",
-        "topic": "TALK_MISSION_OFFER",
+        "topic": "TALK_MISSION_LIST",
         "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }
       },
       {
         "text": "I don't know what to do with myself.  What do you need done?",
-        "topic": "TALK_MISSION_OFFER",
+        "topic": "TALK_MISSION_LIST",
         "condition": { "u_has_any_trait": [ "BIO_WEAPON_FAILED" ] }
       },
       { "text": "I have no idea.", "topic": "TALK_BHUNTER" }

@@ -10,7 +10,7 @@
     "responses": [
       { "text": "You are a Bio-Weapon?", "topic": "TALK_BIO_1_U_BIO" },
       { "text": "Kinda boring here huh?", "topic": "TALK_BIO_1_BORING" },
-      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_OFFER" },
+      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_LIST" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },

@@ -1,22 +1,22 @@
 [
   {
     "type": "talk_topic",
-    "id": "TALK_BIO_1",
+    "id": "TALK_BIO_2",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "I really hope that badge belongs to you...",
       "no": "Hey visitor, anything exciting out there?"
     },
     "responses": [
-      { "text": "You are a Bio-Weapon?", "topic": "TALK_BIO_1_U_BIO" },
-      { "text": "Kinda boring here huh?", "topic": "TALK_BIO_1_BORING" },
-      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_OFFER" },
+      { "text": "You are a Bio-Weapon?", "topic": "TALK_BIO_2_U_BIO" },
+      { "text": "Kinda boring here huh?", "topic": "TALK_BIO_2_BORING" },
+      { "text": "Anything I can do for you?", "topic": "TALK_MISSION_LIST" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_BIO_1_U_BIO",
+    "id": "TALK_BIO_2_U_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Yeah.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
@@ -25,7 +25,7 @@
     "responses": [
       {
         "text": "I'm in the same boat, it seems.",
-        "topic": "TALK_BIO_1_IAM_BIO",
+        "topic": "TALK_BIO_2_IAM_BIO",
         "condition": {
           "u_has_any_trait": [
             "BIO_WEAPON_ALPHA",
@@ -37,23 +37,23 @@
           ]
         }
       },
-      { "text": "Well, damn.", "topic": "TALK_BIO_1" }
+      { "text": "Well, damn.", "topic": "TALK_BIO_2" }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_BIO_1_IAM_BIO",
+    "id": "TALK_BIO_2_IAM_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
       "yes": "Looks about right.  Can be hard to tell for sure if that's your badge or not, but they contracted the work out to all sorts of weirdos, and they made all sorts of crazy shit. They could slap the Bio-Weapon label on a zombie swinging around a sword and it still wouldn't be the strangest thing out there.",
       "no": "I'm not sure whether to believe you or not, without the badge and all.  But whatever, no telling whether you lost yours or maybe you decided on not advertising it for everyone to see.  Given those bastards cranked out everything from super soldiers to a giant cat Bio-Weapon to fucking Apophis, nothing would suprise me at this point."
     },
-    "responses": [ { "text": "...", "topic": "TALK_BIO_1" } ]
+    "responses": [ { "text": "...", "topic": "TALK_BIO_2" } ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_BIO_1_BORING",
+    "id": "TALK_BIO_2_BORING",
     "dynamic_line": "Tell me about it.  I am a weapon, made to kill and destroy. I am stuck here, hiding from something I can't kill or destroy.  Wish there was something I could do...",
-    "responses": [ { "text": "Must be tough...", "topic": "TALK_BIO_1" } ]
+    "responses": [ { "text": "Must be tough...", "topic": "TALK_BIO_2" } ]
   }
 ]
