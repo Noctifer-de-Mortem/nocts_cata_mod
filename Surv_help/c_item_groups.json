@@ -443,8 +443,9 @@
       [ "stealth_cloak_f", 1 ],
       [ "boots_stealth", 2 ],
       [ "goggles_nv_clairvoyance", 2 ],
-      [ "flesh_blade", 2 ],
-      [ "flesh_rifle", 2 ],
+      [ "flesh_knife", 2 ],
+      [ "flesh_pistol", 2 ],
+      [ "evil_invitation", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
       [ "anesthesia", 2 ]
@@ -463,8 +464,6 @@
       [ "stealth_cloak_f", 2 ],
       [ "boots_stealth", 2 ],
       [ "goggles_nv_clairvoyance", 2 ],
-      [ "flesh_blade", 1 ],
-      [ "flesh_rifle", 1 ],
       [ "blood_m", 1 ],
       [ "blood_p", 1 ]
     ]

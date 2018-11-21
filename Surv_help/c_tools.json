@@ -899,5 +899,20 @@
     "coverage": 5,
     "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
     "use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "flesh_weapon_kit",
+    "type": "GENERIC",
+    "symbol": ")",
+    "color": "red",
+    "name": "Biological Weapon Conversion Kit",
+    "name_plural": "Biological Weapon Conversion Kits",
+    "category": "other",
+    "description": "A suspicious box containing many parts, tools and... flesh?  A manual is inside the box detailing the instructions on how to use the contenxt of the box.  It says to use the introductary information packet for more information... whatever that is...",
+    "price": 503500,
+    "weight": 10958,
+    "volume": 12,
+    "to_hit": -2,
+    "material": [ "plastic", "steel" ]
   }
 ]

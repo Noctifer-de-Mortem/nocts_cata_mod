@@ -4,7 +4,7 @@
     "copy-from": "rep_crossbow",
     "type": "GUN",
     "name": "repeating crossbow",
-    "skill": "archery",
+    "skill": "rifle",
     "burst": 5
   },
   {
@@ -21,7 +21,7 @@
     "copy-from": "laser_rifle",
     "type": "GUN",
     "name": "A7 laser rifle",
-    "pierce": 10,
+    "pierce": 5,
     "dispersion": 0,
     "ups_charges": 25,
     "valid_mod_locations": [
@@ -44,7 +44,7 @@
     "name": "homemade laser pistol",
     "range": 15,
     "ranged_damage": 10,
-    "pierce": 5,
+    "pierce": 2,
     "dispersion": 50,
     "ups_charges": 15,
     "reload": 50,
@@ -58,7 +58,7 @@
     "type": "GUN",
     "name": "V29 laser pistol",
     "range": 20,
-    "pierce": 5,
+    "pierce": 2,
     "dispersion": 50,
     "ups_charges": 10,
     "reload": 25,
