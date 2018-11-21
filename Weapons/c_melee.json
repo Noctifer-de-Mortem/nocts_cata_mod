@@ -76,7 +76,7 @@
     "to_hit": 3,
     "color": "dark_red",
     "symbol": "/",
-	"looks_like": "flesh_blade",
+    "looks_like": "flesh_blade",
     "material": [ "flesh", "superalloy" ],
     "techniques": [ "WBLOCK_1" ],
     "volume": 2,
@@ -137,7 +137,7 @@
     "charges_per_use": 1,
     "revert_to": "flesh_blade",
     "revert_msg": "The blade lossens up and frees your grip.",
-	"weight": 680,
+    "weight": 680,
     "to_hit": 1,
     "color": "dark_red",
     "symbol": "/",
@@ -156,8 +156,8 @@
       "effects_activated": [
         "AEA_BLOOD",
         "AEA_ATTENTION",
-		"AEA_PAIN",
-		"AEA_HEAL"
+        "AEA_PAIN",
+        "AEA_HEAL"
       ]
     }
   }

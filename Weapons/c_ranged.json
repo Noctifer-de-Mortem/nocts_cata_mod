@@ -144,7 +144,7 @@
     "pierce": 2,
     "range": 10,
     "dispersion": 250,
-	"sight_dispersion": 8,
+    "sight_dispersion": 8,
     "aim_speed": 2,
     "recoil": 25,
     "durability": 8,
@@ -152,12 +152,12 @@
       [ "DEFAULT", "semi", 1 ],
       [ "BURST", "burst", 3 ]
     ],
-	"ups_charges": 1,
+    "ups_charges": 1,
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
-	  "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
+      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
       "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
     }
   },
@@ -182,7 +182,7 @@
     "pierce": 5,
     "range": 15,
     "dispersion": 150,
-	"sight_dispersion": 20,
+    "sight_dispersion": 20,
     "aim_speed": 1,
     "recoil": 20,
     "durability": 8,
@@ -190,12 +190,12 @@
       [ "DEFAULT", "burst", 3 ],
       [ "AUTO", "auto", 20 ]
     ],
-	"ups_charges": 2,
+    "ups_charges": 2,
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
-	  "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
+      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
       "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
     }
   },
@@ -220,21 +220,21 @@
     "range": 40,
     "barrel_length": 2,
     "dispersion": 50,
-	"sight_dispersion": 5,
+    "sight_dispersion": 5,
     "aim_speed": 5,
     "recoil": 200,
     "durability": 8,
     "modes": [
       [ "DEFAULT", "semi auto", 1 ],
-	  [ "BURST", "burst", 3 ],
+      [ "BURST", "burst", 3 ],
       [ "AUTO", "auto", 10 ]
     ],
-	"ups_charges": 20,
+    "ups_charges": 20,
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
-	  "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
+      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
       "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
     }
   },
@@ -242,7 +242,7 @@
     "id": "flesh_lmg",
     "type": "GUN",
     "symbol": "(",
-	"looks_like": "flesh_rifle",
+    "looks_like": "flesh_rifle",
     "color": "dark_red",
     "name": "Biological Machinegun",
     "description": "A machinegun made out of fleshy material enclosed by metal.  It fires... something - something alive that seems to burn and stun the target at high firerates.  Weilding it gives you a sudden focus of things around you, it feels nice...you could get used to the feeling...  Occasionally it twitches or lets out disturbing noises that sound suspiciously like moans.  Seems it has a slot for a UPS of all things...  Hopefully it's not sentient...",
@@ -259,21 +259,21 @@
     "pierce": 5,
     "range": 30,
     "dispersion": 150,
-	"sight_dispersion": 20,
+    "sight_dispersion": 20,
     "aim_speed": 20,
     "recoil": 100,
     "durability": 8,
     "modes": [
       [ "DEFAULT", "low auto", 10 ],
-	  [ "BURST", "medium auto", 25 ],
+      [ "BURST", "medium auto", 25 ],
       [ "AUTO", "high auto", 50 ]
     ],
-	"ups_charges": 5,
+    "ups_charges": 5,
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
-	  "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
+      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
       "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
     }
   },
@@ -298,20 +298,20 @@
     "range": 5,
     "barrel_length": 2,
     "dispersion": 300,
-	"sight_dispersion": 5,
+    "sight_dispersion": 5,
     "aim_speed": 2,
     "recoil": 300,
     "durability": 8,
     "modes": [
       [ "DEFAULT", "one shot", 1 ],
-	  [ "BURST", "double barrel", 2 ]
+      [ "BURST", "double barrel", 2 ]
     ],
-	"ups_charges": 10,
+    "ups_charges": 10,
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
-	  "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
+      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
       "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
     }
   },
@@ -402,8 +402,8 @@
     "durability": 10,
     "modes": [
       [ "DEFAULT", "semi", 1 ],
-	  [ "BURST", "burst", 5 ],
-	  [ "auto", "auto", 25 ]
+      [ "BURST", "burst", 5 ],
+      [ "auto", "auto", 25 ]
     ],
     "clip_size": 100,
     "reload": 1000,

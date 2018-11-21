@@ -119,7 +119,7 @@
         { "group": "bionics_sci", "x": 6, "y": 22, "chance": 90, "repeat": [ 5, 15 ] },
         { "item": "flesh_knife", "x": 21, "y": 17 },
         { "item": "flesh_pistol", "x": 22, "y": 17 },
-		{ "item": "evil_invitation", "x": 21, "y": 17 },
+        { "item": "evil_invitation", "x": 21, "y": 17 },
         { "item": "flesh_weapon_kit", "x": 22, "y": 17 },
         { "item": "blood_m", "x": 22, "y": 18 },
         { "item": "blood_p", "x": 22, "y": 18 },

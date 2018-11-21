@@ -32,7 +32,7 @@
         "unarmed_allowed": true,
         "melee_allowed": true,
         "min_melee": 5,
-		"min_unarmed": 5,
+        "min_unarmed": 5,
         "quiet": true,
         "description": "User has learned how to deal all attacks quietly"
       },
