@@ -222,7 +222,7 @@
     "dispersion": 50,
 	"sight_dispersion": 5,
     "aim_speed": 5,
-    "recoil": 150,
+    "recoil": 200,
     "durability": 8,
     "modes": [
       [ "DEFAULT", "semi auto", 1 ],
@@ -261,7 +261,7 @@
     "dispersion": 150,
 	"sight_dispersion": 20,
     "aim_speed": 20,
-    "recoil": 200,
+    "recoil": 100,
     "durability": 8,
     "modes": [
       [ "DEFAULT", "low auto", 10 ],
