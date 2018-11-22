@@ -71,7 +71,7 @@
     "type": "TOOL",
     "id": "flesh_knife",
     "name": "Biological Blade",
-    "description": "A foot-long knife made from metal enclosed with flesh and bone.  Its blade consists of razor sharp saw-like protrusions.  Its bone handle fits well in the hand due to shape of its handguard.  Holding it makes you feel powerful...  the sensation grows stronger with time.",
+    "description": "A foot-long knife made from metal enclosed flesh and bone.  Its blade consists of razor sharp saw-like protrusions.  Its bone handle fits well in hand due to shape of its handguard.  Holding it makes you feel powerful...  the sensation grows stronger with time.",
     "weight": 220,
     "to_hit": 3,
     "color": "dark_red",
@@ -95,7 +95,7 @@
     "type": "TOOL",
     "id": "flesh_blade",
     "name": "Biological Sword",
-    "description": "After a number of upgrades you turned your knife into a yard long, proper sword.  The call of madness still lingers as you hold it but...  something else does as well...  You feel that if you 'feed' it, its true power will be unleashed...",
+    "description": "After a number of upgrades you turned your knife into a yard long, proper sword...  The call of madness still lingers as yoou hold it but...  something else does as well...  Flesh covers your hand as a protective hilt as you hold it...  You feel that if you 'feed' you could either call upon its insanity or destructive power...",
     "weight": 680,
     "to_hit": 2,
     "max_charges": 10,
@@ -112,7 +112,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
     "use_action": [ "ARTIFACT", {
         "target": "flesh_blade_on",
-        "msg": "You feel decay and entrophy take its course as both your hand and the blade stiffen.",
+        "msg": "You feel decay and entroy take it's course as both your hand and the blade stiffen.",
         "target_charges": 10,
         "active": true,
         "need_charges": 10,
@@ -123,18 +123,25 @@
     "artifact_data": {
       "charge_type": "ARTC_HP",
       "effects_carried": [ "AEP_ATTENTION" ],
-      "effects_wielded": [ "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ]
+      "effects_wielded": [ "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ],
+      "effects_activated": [
+        "AEA_BLOOD",
+        "AEA_ATTENTION",
+        "AEA_PAIN",
+        "AEA_ADRENALINE",
+		"AEA_FUN",
+		"AEA_MUTATE"
+      ]
     }
   },
   {
     "type": "TOOL",
     "id": "flesh_blade_on",
     "name": "Biological Sword (Rigomortis)",
-    "description": "You've activated the power of the blade.  Metal and flesh have trapped your hand and you can't seem to turn it off...  not that you really want to...  not really...",
+    "description": "You've activated the power of the blade.  Metal and flesh wrapped around your hand trapping and you can't seem to turn it off...  not that you really want to...  not really... you command the madness...",
     "initial_charges": 10,
     "max_charges": 10,
     "turns_per_charge": 2,
-    "charges_per_use": 1,
     "revert_to": "flesh_blade",
     "revert_msg": "The blade lossens up and frees your grip.",
     "weight": 680,
@@ -146,19 +153,13 @@
     "volume": 6,
     "bashing": 2,
     "cutting": 100,
-    "flags": [ "NON_STUCK", "UNBREAKABLE_MELEE", "PRECISE", "BRUTAL", "UNARMED_WEAPON", "NO_UNWIELD", "VORPAL" ],
+    "flags": [ "NON_STUCK", "UNBREAKABLE_MELEE", "PRECISE", "BRUTAL", "UNARMED_WEAPON", "NO_UNWIELD" ],
     "price": 580000,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
     "use_action": [ "ARTIFACT" ],
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION" ],
-      "effects_wielded": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_SPEED_UP", "AEP_ALL_DOWN", "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ],
-      "effects_activated": [
-        "AEA_BLOOD",
-        "AEA_ATTENTION",
-        "AEA_PAIN",
-        "AEA_HEAL"
-      ]
+      "effects_wielded": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_SPEED_UP", "AEP_ALL_DOWN", "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC", "AEP_SCHIZO" ]
     }
   }
 ]
