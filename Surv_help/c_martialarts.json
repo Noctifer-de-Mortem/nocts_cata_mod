@@ -31,8 +31,8 @@
         "name": "Quiet Combat",
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "min_unarmed": 4,
-        "min_melee": 4,
+        "min_melee": 5,
+        "min_unarmed": 5,
         "quiet": true,
         "description": "User has learned how to deal all attacks quietly"
       },
@@ -40,7 +40,7 @@
         "id": "style_surv_recovery",
         "name": "Unarmed Roll",
         "unarmed_allowed": true,
-        "min_unarmed": 2,
+        "min_unarmed": 3,
         "throw_immune": true,
         "description": "If thrown or knocked down the user rolls slightly, and gets up before an attack can be dealt."
       }
@@ -59,7 +59,7 @@
         "id": "style_surv_hand_dodge",
         "name": "Slight push",
         "description": "A slight and quick push after an attack allows the user to dodge a counter attack.",
-        "min_unarmed": 2,
+        "min_unarmed": 3,
         "unarmed_allowed": true,
         "bonus_dodges": 1,
         "buff_duration": 1
@@ -68,7 +68,7 @@
         "id": "style_surv_weapon_counter",
         "name": "Weapon Counter",
         "description": "Current Weapon has stunned the foe, next attack deals more damage as well!",
-        "min_melee": 3,
+        "min_melee": 5,
         "melee_allowed": true,
         "mult_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "cut", 1.5 ], [ "damage", "stab", 1.5 ] ],
         "max_stacks": 1,
@@ -79,7 +79,6 @@
     "techniques": [
       "WBLOCK_1",
       "WBLOCK_2",
-      "WBLOCK_2",
       "DEF_DISARM",
       "GRAB",
       "SPIN",
@@ -87,8 +86,6 @@
       "IMPALE",
       "BRUTAL",
       "RAPID",
-      "VORPAL",
-      "WRAP",
       "SWEEP",
       "PRECISE"
     ],

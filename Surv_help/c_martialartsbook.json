@@ -8,8 +8,8 @@
     "description": "A journal with a tutorial on various unorthodox combat mechanics.",
     "book_data": {
       "max_level": 5,
-      "intelligence": 8,
-      "time": 10,
+      "intelligence": 10,
+      "time": 30,
       "fun": 0,
       "skill": "melee",
       "required_level": 3,
