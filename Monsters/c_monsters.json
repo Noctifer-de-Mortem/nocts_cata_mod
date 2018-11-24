@@ -75,6 +75,7 @@
     "armor_cut": 4,
     "vision_day": 40,
     "vision_night": 3,
+    "path_settings": { "max_dist": 50 },
     "luminance": 14,
     "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "PARROT", 80 ] ],
     "special_when_hit": [ "ZAPBACK", 75 ],
@@ -94,7 +95,8 @@
       "GROUP_BASH",
       "CBM_POWER",
       "CBM_OP",
-      "BONES"
+      "BONES",
+      "PATH_AVOID_DANGER_2"
     ]
   },
   {
@@ -124,6 +126,7 @@
     "armor_fire": 20,
     "vision_day": 40,
     "vision_night": 30,
+    "path_settings": { "max_dist": 50 },
     "luminance": 30,
     "starting_ammo": { "generic_no_ammo": 1000 },
     "special_attacks": [
@@ -174,7 +177,8 @@
       "CBM_POWER",
       "CBM_POWER",
       "BONES",
-      "DESTROYS"
+      "DESTROYS",
+      "PATH_AVOID_DANGER_2"
     ]
   },
   {
@@ -249,17 +253,18 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "red_cyan",
-    "aggression": 100,
+    "aggression": 0,
     "morale": 100,
-    "melee_skill": 3,
+    "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides": 2,
+    "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 3,
-    "armor_bash": 2,
-    "armor_cut": 2,
+    "armor_bash": 10,
+    "armor_cut": 18,
     "vision_day": 40,
     "vision_night": 3,
+    "path_settings": { "max_dist": 10 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
     "special_attacks": [
@@ -274,7 +279,7 @@
         "fake_per": 3,
         "fake_int": 1,
         "max_ammo": 1000,
-        "ranges": [ [ 10, 15, "DEFAULT" ] ],
+        "ranges": [ [ 5, 15, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,
@@ -283,15 +288,15 @@
         "targeting_volume": 5,
         "description": "The super soldier fires its ARC rifle!",
         "no_ammo_sound": "beep-beep-beep!"
-      }
+      }, [ "GRAB", 5 ] , [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry",
     "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
-      "REGENERATES_10",
       "HEARS",
       "SMELLS",
       "POISON",
@@ -300,7 +305,8 @@
       "CBM_OP",
       "NO_BREATHE",
       "BONES",
-      "FILTHY"
+      "FILTHY",
+      "PATH_AVOID_DANGER_1"
     ]
   },
   {
@@ -317,15 +323,16 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "red_cyan",
-    "aggression": 100,
+    "aggression": 0,
     "morale": 100,
-    "melee_skill": 3,
-    "melee_dice": 2,
-    "melee_dice_sides": 2,
+    "melee_skill": 7,
+    "melee_dice": 3,
+    "melee_dice_sides": 6,
+    "melee_damage": [ { "damage_type": "electric", "amount": 4 } ],
     "melee_cut": 2,
     "dodge": 3,
-    "armor_bash": 2,
-    "armor_cut": 2,
+    "armor_bash": 12,
+    "armor_cut": 25,
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 2,
@@ -341,7 +348,7 @@
         "fake_dex": 3,
         "fake_per": 3,
         "max_ammo": 1000,
-        "ranges": [ [ 15, 20, "AUTO" ], [ 21, 25, "DEFAULT" ] ],
+        "ranges": [ [ 10, 25, "AUTO" ], [ 10, 25, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,
@@ -350,15 +357,15 @@
         "targeting_volume": 20,
         "description": "The super soldier fires its lmg!",
         "no_ammo_sound": "beep-beep-beep!"
-      }
+      }, [ "GRAB", 5 ] , [ "SMASH", 30 ], [ "BIO_OP_TAKEDOWN", 20 ], [ "GRAB_DRAG", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_drops": "wild_bio_knight",
     "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
-      "REGENERATES_10",
+      "REGENERATES_50",
       "HEARS",
       "SMELLS",
       "POISON",
@@ -367,14 +374,15 @@
       "CBM_OP",
       "NO_BREATHE",
       "BONES",
-      "FILTHY"
+      "FILTHY",
+	  "REGEN_MORALE"
     ]
   },
   {
     "id": "mon_zombie_bio_scout",
     "type": "MONSTER",
     "name": "zombie super scout",
-    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
+    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them. For some reson it seems to just be watching you...  As if waiting for you to make a move...",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
     "diff": 25,
@@ -384,17 +392,18 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "red_cyan",
-    "aggression": 100,
+    "aggression": 0,
     "morale": 100,
-    "melee_skill": 3,
+    "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides": 2,
+    "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 3,
-    "armor_bash": 2,
-    "armor_cut": 2,
+    "armor_bash": 10,
+    "armor_cut": 18,
     "vision_day": 40,
     "vision_night": 3,
+    "path_settings": { "max_dist": 20 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
     "special_attacks": [
@@ -418,15 +427,15 @@
         "targeting_volume": 5,
         "description": "The super scout fires its rifle!",
         "no_ammo_sound": "beep-beep-beep!"
-      }
+      }, [ "GRAB", 5 ] ,[ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT" ],
+    "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_scout",
     "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
-      "REGENERATES_10",
       "HEARS",
       "SMELLS",
       "POISON",
@@ -435,7 +444,8 @@
       "CBM_OP",
       "NO_BREATHE",
       "BONES",
-      "FILTHY"
+      "FILTHY",
+      "PATH_AVOID_DANGER_1"
     ]
   },
   {
@@ -452,17 +462,18 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "red_cyan",
-    "aggression": 100,
+    "aggression": 0,
     "morale": 100,
     "melee_skill": 3,
     "melee_dice": 2,
-    "melee_dice_sides": 2,
+    "melee_dice_sides": 4,
     "melee_cut": 2,
     "dodge": 3,
-    "armor_bash": 2,
-    "armor_cut": 2,
+    "armor_bash": 10,
+    "armor_cut": 15,
     "vision_day": 40,
-    "vision_night": 3,
+    "vision_night": 40,
+    "path_settings": { "max_dist": 30 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
     "special_attacks": [
@@ -476,7 +487,7 @@
         "fake_dex": 4,
         "fake_per": 5,
         "max_ammo": 1000,
-        "ranges": [ [ 6, 10, "DEFAULT" ] ],
+        "ranges": [ [ 1, 10, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,
@@ -485,12 +496,13 @@
         "targeting_volume": 5,
         "description": "The super scout fires its pistol!",
         "no_ammo_sound": "beep-beep-beep!"
-      }
+      }, [ "GRAB", 5 ] ,[ "SMASH", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "BONES", "FILTHY" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "REGENERATES_10", "BONES", "FILTHY", "PATH_AVOID_DANGER_2" ]
   }
 ]
