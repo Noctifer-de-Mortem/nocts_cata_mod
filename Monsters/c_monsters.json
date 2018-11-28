@@ -263,7 +263,7 @@
     "armor_bash": 10,
     "armor_cut": 18,
     "vision_day": 40,
-    "vision_night": 3,
+    "vision_night": 15,
     "path_settings": { "max_dist": 10 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
@@ -375,7 +375,7 @@
       "NO_BREATHE",
       "BONES",
       "FILTHY",
-	  "REGEN_MORALE"
+      "REGEN_MORALE"
     ]
   },
   {
@@ -402,7 +402,7 @@
     "armor_bash": 10,
     "armor_cut": 18,
     "vision_day": 40,
-    "vision_night": 3,
+    "vision_night": 40,
     "path_settings": { "max_dist": 20 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
@@ -472,7 +472,7 @@
     "armor_bash": 10,
     "armor_cut": 15,
     "vision_day": 40,
-    "vision_night": 40,
+    "vision_night": 15,
     "path_settings": { "max_dist": 30 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },

@@ -333,7 +333,7 @@
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": 20,
-    "pierce": 10,
+    "pierce": 2,
     "range": 25,
     "dispersion": 0,
     "//": "Laser means no dispersion.",
@@ -341,7 +341,11 @@
     "aim_speed": 4,
     "recoil": 0,
     "durability": 8,
-    "burst": 10,
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "BURST", "burst", 3 ],
+      [ "AUTO", "auto", 10 ]
+    ],
     "reload": 0,
     "built_in_mods": [ "holo_sight", "rail_laser_sight", "pistol_grip" ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 2 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
@@ -364,7 +368,7 @@
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": 40,
-    "pierce": 15,
+    "pierce": 10,
     "range": 20,
     "dispersion": 10,
     "//": "Fire rate over accuracy but it still is a laser gun.",
@@ -372,7 +376,11 @@
     "aim_speed": 8,
     "recoil": 5,
     "durability": 8,
-    "burst": 20,
+    "modes": [
+      [ "DEFAULT", "low auto", 10 ],
+      [ "BURST", "medium auto", 25 ],
+      [ "AUTO", "high auto", 50 ]
+    ],
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 2 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },

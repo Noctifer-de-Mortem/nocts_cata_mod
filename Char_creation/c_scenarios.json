@@ -275,7 +275,7 @@
     "type": "scenario",
     "extend": {
       "map_special": "mx_helicopter",
-      "professions": [ "bio_weapon_hunter", "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
+      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
     },
     "ident": "heli_crash"
   }
