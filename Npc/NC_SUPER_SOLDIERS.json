@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": "NC_BIO_HUNTER_F_worn",
+    "id": "NC_BIO_HUNTER_E_worn",
     "type": "item_group",
     "//": "Evelynn Rose's kit, mimics player version except for some concessions to using claw mutation instead of CBM, and a MOLLE pack to ensure she can carry items as quest fodder, instead of handing you her P90.",
     "subtype": "collection",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "id": "NC_BIO_HUNTER_F_carry",
+    "id": "NC_BIO_HUNTER_E_carry",
     "type": "item_group",
     "//": "Evelynn Rose's items. See above for why a P90 instead of a UPS-powered weapon.",
     "subtype": "collection",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "id": "NC_BIO_HUNTER_F_weapon",
+    "id": "NC_BIO_HUNTER_E_weapon",
     "type": "item_group",
     "//": "Evelynn Rose's weapon, don't think you can define weapon overrides any other way.  No UPS means conventional firearm instead.",
     "subtype": "collection",
