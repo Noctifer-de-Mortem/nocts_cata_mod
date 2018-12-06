@@ -598,9 +598,9 @@
   },
   {
     "type" : "item_group",
-    "id" : "bionics_aphopis",
+    "id" : "bionics_apophis",
     "subtype": "distribution",
-    "//" : "Bionics for Bio-Weapon Apohpis.  Roughly mocked up from what bionics might fit his in-game properties.",
+    "//" : "Bionics for Bio-Weapon Apophis.  Roughly mocked up from what bionics might fit his in-game properties.",
     "items":[
       [ "bio_advreactor", 1 ],
       [ "bio_armor_arms", 8 ],
