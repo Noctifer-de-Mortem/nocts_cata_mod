@@ -25,6 +25,7 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 12,
+    "harvest": "CBM_FAILED_BIO_ZOMBIE",
     "special_attacks": [ [ "SHOCKSTORM", 10 ], [ "PARROT", 50 ], { "type": "bite", "cooldown": 5 } ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
@@ -42,11 +43,8 @@
       "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
-      "CBM_POWER",
-      "CBM_OP",
       "NO_BREATHE",
       "REVIVES",
-      "BONES",
       "FILTHY"
     ]
   },
@@ -77,6 +75,7 @@
     "vision_night": 3,
     "path_settings": { "max_dist": 50 },
     "luminance": 14,
+    "harvest": "CBM_FAILED_BIO",
     "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "PARROT", 80 ] ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "wild_bio_weapom_item",
@@ -93,9 +92,6 @@
       "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
-      "CBM_POWER",
-      "CBM_OP",
-      "BONES",
       "PATH_AVOID_DANGER_2"
     ]
   },
@@ -129,6 +125,7 @@
     "path_settings": { "max_dist": 50 },
     "luminance": 30,
     "starting_ammo": { "generic_no_ammo": 1000 },
+    "harvest": "CBM_APOPHIS",
     "special_attacks": [
       [ "SHOCKSTORM", 15 ],
       [ "TAZER", 15 ],
@@ -171,12 +168,6 @@
       "GRABS",
       "BASHES",
       "GROUP_BASH",
-      "CBM_OP",
-      "CBM_SUBS",
-      "CBM_SUBS",
-      "CBM_POWER",
-      "CBM_POWER",
-      "BONES",
       "DESTROYS",
       "PATH_AVOID_DANGER_2"
     ]
@@ -207,6 +198,7 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 5,
+    "harvest": "CBM_FAILED_BIO",
     "special_attacks": [
       [ "SHOCKSTORM", 10 ],
       [ "PARROT", 50 ],
@@ -232,9 +224,6 @@
       "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
-      "CBM_OP",
-      "CBM_POWER",
-      "BONES",
       "PUSH_MON",
       "FILTHY"
     ]
@@ -267,6 +256,7 @@
     "path_settings": { "max_dist": 10 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
+    "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -301,10 +291,7 @@
       "SMELLS",
       "POISON",
       "BASHES",
-      "CBM_POWER",
-      "CBM_OP",
       "NO_BREATHE",
-      "BONES",
       "FILTHY",
       "PATH_AVOID_DANGER_1"
     ]
@@ -337,6 +324,7 @@
     "vision_night": 3,
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
+    "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -370,8 +358,6 @@
       "SMELLS",
       "POISON",
       "BASHES",
-      "CBM_POWER",
-      "CBM_OP",
       "NO_BREATHE",
       "BONES",
       "FILTHY",
@@ -406,6 +392,7 @@
     "path_settings": { "max_dist": 20 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
+    "harvest": "CBM_SOLDAT_SNIPER_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -440,10 +427,7 @@
       "SMELLS",
       "POISON",
       "BASHES",
-      "CBM_POWER",
-      "CBM_OP",
       "NO_BREATHE",
-      "BONES",
       "FILTHY",
       "PATH_AVOID_DANGER_1"
     ]
@@ -476,6 +460,7 @@
     "path_settings": { "max_dist": 30 },
     "luminance": 2,
     "starting_ammo": { "generic_no_ammo": 100 },
+    "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -503,6 +488,6 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "CBM_POWER", "CBM_TECH", "NO_BREATHE", "REGENERATES_10", "BONES", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
   }
 ]
