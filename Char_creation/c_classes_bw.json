@@ -236,7 +236,6 @@
       "bio_climate",
       "bio_furnace",
       "bio_recycler",
-      "bio_furnace",
       "bio_carbon",
       "bio_watch",
       "bio_face_mask",
@@ -426,7 +425,6 @@
       "bio_climate",
       "bio_furnace",
       "bio_recycler",
-      "bio_furnace",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
