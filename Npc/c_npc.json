@@ -72,8 +72,7 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_BIO_1",
-    "faction": "bio_weapons",
-    "mission_offered": "MISSION_TAKE_SIGMA"
+    "faction": "bio_weapons"
   },
   {
     "type": "npc",
@@ -86,8 +85,7 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_BIO_2",
-    "faction": "bio_weapons",
-    "mission_offered": "MISSION_TAKE_LAMBDA"
+    "faction": "bio_weapons"
   },
   {
     "type": "npc",

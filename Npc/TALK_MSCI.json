@@ -8,12 +8,30 @@
       "no": "Hey there!  Welcome to the Command Center."
     },
     "responses": [
+      {
+        "text": "So now what are you going to do?",
+        "condition": { "not": { "or": [ { "has_assigned_mission": true }, { "has_available_mission": true } ] } },
+        "topic": "TALK_MSCI_NOWWHAT"
+      },
       { "text": "What is this place?", "topic": "TALK_MSCI_CC_EXPLAIN" },
       { "text": "Who are you?", "topic": "TALK_MSCI_I_AM" },
       { "text": "What are you doing here?", "topic": "TALK_MSCI_ASK_DOING" },
       { "text": "Anything I can help with?", "topic": "TALK_MISSION_LIST" },
       { "text": "Can I stay here?", "topic": "TALK_MSCI_ASK_STAY" },
       { "text": "Farewell.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_MSCI_NOWWHAT",
+    "type": "talk_topic",
+    "//": "The player has most likely completed the quest if this line becomes available.  Or terminally screwed up the quest on a different character, which isn't much better than vanilla's poor quest handling.",
+    "dynamic_line": "Survival, and eventually research.  We'll manage given time.  Keep an eye on Sigma and Lambda while you'e at it... talk to them maybe?  I've been busy working on repairs almost constantly, and they're both likely to go stir-crazy if they have nothing to do but sit around all day.  Might help them figure out for themselves what to do.",
+    "responses": [
+      {
+        "text": "We'll see what I can do.",
+        "topic": "TALK_MSCI",
+        "effect": { "u_add_effect": "router_suggestion", "duration": "PERMANENT" }
+      }
     ]
   },
   {

@@ -20,7 +20,7 @@
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "Only one thing comes to mind.  You seem like a capable person, so you might have a chance.  We have pieced together the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
-      "accepted": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.",
+      "accepted": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.  I'd suggest talking to Sigma and Lambda too, before you leave.",
       "rejected": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
       "advice": "Got some decent armor and weapons, this fight won't be easy. Assemble a team to make it easier. Ask Lambda and Sigma if they want to join you, if you want.  A single person can't take it on...",
       "inquire": "Is... it dead?",
@@ -62,6 +62,7 @@
   {
     "id": "MISSION_TAKE_SIGMA",
     "type": "mission_definition",
+    "//": "Dummied out due to recruitment now working via having Router's mission.",
     "name": "Help Sigma find Apophis",
     "goal": "MGOAL_GO_TO_TYPE",
     "difficulty": 3,
@@ -84,6 +85,7 @@
   {
     "id": "MISSION_TAKE_LAMBDA",
     "type": "mission_definition",
+    "//": "Dummied out due to recruitment now working via having Router's mission.",
     "name": "Help Lambda find Apophis",
     "goal": "MGOAL_GO_TO_TYPE",
     "difficulty": 3,
