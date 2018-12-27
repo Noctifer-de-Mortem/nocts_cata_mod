@@ -77,5 +77,15 @@
     "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. You start with the Survivor Combatives style",
     "initial_ma_styles": [ "style_surv" ],
     "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "BGSS_BHunter",
+    "name": "Survivor",
+    "//": "Used by Evelynn Rose.",
+    "points": 0,
+    "description": "This NPC could tell you about how they survived the cataclysm.",
+    "valid": false,
+    "purifiable": false
   }
 ]

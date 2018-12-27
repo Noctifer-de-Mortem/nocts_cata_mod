@@ -79,14 +79,15 @@
     },
     "responses": [
       {
-        "text": "I can prove it.  Project Mesektet, First Series, external designation RD-Z-01.",
+        "text": "I can prove it.  If I can recall... Project Mesektet, First Series, external designation RD-Z-01.",
         "topic": "TALK_BHUNTER_CONFIRM_BIO",
         "condition": { "u_has_any_trait": [ "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA" ] }
       },
       {
         "text": "You don't recognize this aug configuration, Hunter?",
         "topic": "TALK_BHUNTER_CONFIRM_OUST",
-        "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }
+        "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] },
+        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
       },
       {
         "text": "Look at me again, and tell me I'm lying.",
@@ -175,19 +176,48 @@
   {
     "id": "TALK_BHUNTER_ASK_LEARN",
     "type": "talk_topic",
-    "dynamic_line": "I used to be a computer hacker before the world went to hell.  After it did, when I wasn't looking for food and gear or fighting for my life, I was following leads to this place.  The military weren't all that good at keeping their secrets.",
+    "dynamic_line": {
+      "u_has_effect": "evy_ousted",
+      "yes": "I was under orders to investigate this place and find any survivors.  Between that and having been a computer hacker during my college days, it wasn't too hard to follow the trail.  The hard part was scavenging supplues and staying alive.",
+      "no": "I used to be a computer hacker before the world went to hell.  After it did, when I wasn't looking for food and gear or fighting for my life, I was following leads to this place.  The military weren't all that good at keeping their secrets."
+    },
     "responses": [
       {
         "text": "You seem rather well-equiped for a mere hacker.",
-        "condition": { "u_has_intelligence": 11 },
+        "condition": {
+          "and": [
+            { "or": [ { "u_has_intelligence": 10 }, { "u_has_perception": 10 } ] },
+            { "not": { "or": [ { "u_has_effect": "evy_ousted" }, { "u_has_effect": "evy_asked_info_recently" } ] } }
+          ]
+        },
         "trial": { "type": "PERSUADE", "difficulty": 3 },
-        "success": { "topic": "TALK_BHUNTER_ADMIT", "opinion": { "trust": 1 } },
-        "failure": { "topic": "TALK_BHUNTER_DENY", "opinion": { "trust": -1, "anger": 1 } }
+        "success": {
+          "topic": "TALK_BHUNTER_ADMIT",
+          "opinion": { "trust": 1 },
+          "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+        },
+        "failure": {
+          "topic": "TALK_BHUNTER_DENY",
+          "opinion": { "trust": -1, "anger": 1 },
+          "effect": { "u_add_effect": "evy_asked_info_recently", "duration": 1800 }
+        }
+      },
+      {
+        "text": "You seem rather well-equiped for a mere hacker.",
+        "condition": {
+          "and": [
+            { "or": [ { "u_has_intelligence": 11 }, { "u_has_perception": 11 } ] },
+            { "not": { "u_has_effect": "evy_ousted" } },
+            { "u_has_effect": "evy_asked_info_recently" }
+          ]
+        },
+        "topic": "TALK_BHUNTER_NOPE"
       },
       {
         "text": "Right. Research Directive Z-12 ring a bell to you, Hunter?",
         "topic": "TALK_BHUNTER_CONFIRM_OUST",
-        "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }
+        "condition": { "and": [ { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }, { "not": { "u_has_effect": "evy_ousted" } } ] },
+        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
       },
       { "text": "I see.", "topic": "TALK_BHUNTER" }
     ]
@@ -201,7 +231,13 @@
   {
     "id": "TALK_BHUNTER_DENY",
     "type": "talk_topic",
-    "dynamic_line": "Scavenged the kit along the way.  I wouldn't still be alive if I wasn't both resourceful and lucky.",
+    "dynamic_line": "Scavenged the kit along the way.  I wouldn't still be alive if I wasn't both resourceful and lucky.  I'd rather not talk about what I've had to go through to survive, at least not right now.  Okay?",
+    "responses": [ { "text": "Okay...", "topic": "TALK_BHUNTER" } ]
+  },
+  {
+    "id": "TALK_BHUNTER_NOPE",
+    "type": "talk_topic",
+    "dynamic_line": "You already asked me about it not that long ago.  I'd really prefer not to discuss it.",
     "responses": [ { "text": "...", "topic": "TALK_BHUNTER" } ]
   },
   {
