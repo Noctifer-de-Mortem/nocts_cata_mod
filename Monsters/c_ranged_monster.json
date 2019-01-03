@@ -1,47 +1,60 @@
 [
   {
+    "id": "neo_laser_pistol_monster",
+    "copy-from": "neo_laser_pistol",
+    "type": "GUN",
+    "name": "zombie super soldier pistol",
+    "description": "Version of the NEO-33 for use by monsters.  This is a bug if you find one of these!",
+    "dispersion": 2500,
+    "sight_dispersion": 500,
+  },
+  {
+    "id": "akro_laser_smg_monster",
+    "copy-from": "akro_laser_smg",
+    "type": "GUN",
+    "name": "zombie super soldier smg",
+    "description": "Version of the AKRO-388 for use by monsters.  This is a bug if you find one of these!",
+    "dispersion": 2000,
+    "sight_dispersion": 500,
+  },
+  {
     "id": "arc_laser_rifle_monster",
     "copy-from": "arc_laser_rifle",
     "type": "GUN",
-    "name": "zombie super soldier carbine",
-    "description": "Version of the ARC-314 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
-    "//": "Sweet Armok I had to nerf this to hell and back to get a sane hit rate.",
+    "name": "zombie super soldier rifle",
+    "description": "Version of the ARC-314 for use by monsters.  This is a bug if you find one of these!",
     "dispersion": 2000,
     "sight_dispersion": 500,
-    "range": 15
+    "burst": 3
   },
   {
-    "id": "laser_lmg_monster",
-    "copy-from": "laser_lmg",
+    "id": "krx_laser_lmg_monster",
+    "copy-from": "krx_laser_lmg",
     "type": "GUN",
     "name": "zombie super soldier LMG",
     "description": "Version of the KRX-108 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
     "//": "Again, very heavy nerfing to ensure the player has even a chance of not getting hit.",
     "dispersion": 2500,
     "sight_dispersion": 500,
-    "range": 25,
-    "burst": 3
+    "burst": 5
   },
   {
     "id": "laser_sniper_monster",
-    "copy-from": "laser_sniper",
+    "copy-from": "mx_laser_sniper",
     "type": "GUN",
     "name": "zombie super soldier sniper",
     "description": "Version of the MX-84 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
     "//": "Less severe nerfing, the entire point of laser sniper is that it has a high chance of hitting.",
     "dispersion": 1000,
     "sight_dispersion": 250,
-    "range": 30
   },
   {
-    "id": "v29_monster",
-    "copy-from": "v29",
+    "id": "xarm_laser_shotgun_monster",
+    "copy-from": "xarm_laser_shotgun",
     "type": "GUN",
-    "name": "zombie super soldier pistol",
-    "description": "Version of the V29 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
-    "//": "Also heavily nerfed.",
-    "dispersion": 2500,
-    "sight_dispersion": 500,
-    "range": 10
+    "name": "zombie super soldier shotgun",
+    "description": "Version of the XARM-37 for use by monsters.  This is a bug if you find one of these!",
+    "dispersion": 1000,
+    "sight_dispersion": 250,
   }
 ]
