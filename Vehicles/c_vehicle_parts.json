@@ -126,7 +126,7 @@
     "size": 40,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -142,7 +142,7 @@
     "size": 40,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -158,7 +158,7 @@
     "size": 40,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -174,7 +174,7 @@
     "size": 40,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -190,7 +190,7 @@
     "size": 80,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -206,7 +206,7 @@
     "size": 80,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -222,7 +222,7 @@
     "size": 80,
     "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "CARGO", "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -232,14 +232,11 @@
     "color": "yellow",
     "broken_symbol": "#",
     "broken_color": "yellow",
-    "damage_modifier": 50,
     "range": 30,
-    "item": "laser_lmg",
+    "item": "krx_laser_lmg",
     "difficulty": 6,
-    "folded_volume": 8,
     "//": "Haven't figured out the breaks_into...",
-    "breaks_into": [ { "item": "laser_lmg", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] }
+    "breaks_into": [ { "item": "laser_lmg", "prob": 50 } ]
   },
   {
     "id": "generator_electric_small",

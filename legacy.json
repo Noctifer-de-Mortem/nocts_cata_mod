@@ -16,5 +16,29 @@
 	"copy-from": "br_bolt_rifle_elec",
     "type": "GUN",
     "name": "BR-96 bolt rifle"
+  },
+  {
+    "id": "mon_zombie_bio_infantry",
+	"copy-from": "mon_zombie_bio_infantry_rifle",
+    "type": "MONSTER",
+    "name": "zombie super soldier"
+  },
+  {
+    "id": "mon_zombie_bio_knight",
+	"copy-from": "mon_zombie_bio_knight_lmg",
+    "type": "MONSTER",
+    "name": "zombie super jauggernaut"
+  },
+  {
+    "id": "mon_zombie_bio_scout",
+	"copy-from": "mon_zombie_bio_scout_sniper",
+    "type": "MONSTER",
+    "name": "zombie super scout"
+  },
+  {
+    "id": "mon_zombie_bio_tool",
+	"copy-from": "mon_zombie_bio_tool_pistol",
+    "type": "MONSTER",
+    "name": "zombie super B.A.M.R.U"
   }
 ]

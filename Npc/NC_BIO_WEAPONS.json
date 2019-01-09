@@ -67,5 +67,55 @@
       { "distribution": [ { "item": "rm51_assault_rifle", "prob": 50 }, { "item": "rm88_battle_rifle", "prob": 50 } ] },
       { "item": "8x40_50_mag", "count": [ 2, 3 ] }
     ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_S_weapon",
+    "type": "item_group",
+    "//": "Bio-Weapon Sigma's weapon, don't think you can define weapon overrides any other way.",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [ { "item": "krx_laser_lmg_plut" } ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_L_weapon",
+    "type": "item_group",
+    "//": "Bio-Weapon Lambda's weapon, don't think you can define weapon overrides any other way",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [ { "item": "zarm_laser_shotgun_plut" } ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_T_carry",
+    "type": "item_group",
+    "//": "Ammo and goodies.",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "NC_BIO_WEAPON_T_carry_plut", "prob": 100 },
+	  { "group": "NC_BIO_WEAPON_T_carry_goodies", "prob": 100 }
+    ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_T_carry_plut",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [ { "item": "plut_cell", "count": [ 5, 5 ] } ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_T_carry_goodies",
+    "type": "item_group",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "mre_veggy_box" },
+      { "item": "biomap" },
+      { "item": "militarymap" },
+      { "group": "everyday_gear" },
+      { "group": "drugs_soldier", "prob": 50 },
+      { "group": "supplies_electronics", "prob": 50, "count": [ 1, 3 ] }
+    ]
   }
 ]

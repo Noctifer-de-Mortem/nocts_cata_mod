@@ -83,9 +83,10 @@
       { "item": "mre_veggy_box" },
       { "item": "biomap" },
       { "item": "militarymap" },
-      { "item": "fnp90mag" },
-      { "item": "fnp90mag" },
-      { "item": "fnp90mag" },
+      { "item": "plut_cell" },
+      { "item": "plut_cell" },
+      { "item": "plut_cell" },
+      { "item": "plut_cell" },
       { "group": "everyday_gear" },
       { "group": "drugs_soldier", "prob": 50 },
       { "group": "supplies_electronics", "prob": 50, "count": [ 1, 3 ] }
@@ -98,6 +99,6 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [ { "item": "fn_p90" } ]
+    "entries": [ { "item": "arc_laser_rifle_plut" } ]
   }
 ]
