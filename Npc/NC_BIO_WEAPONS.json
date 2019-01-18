@@ -84,7 +84,7 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [ { "item": "zarm_laser_shotgun_plut" } ]
+    "entries": [ { "item": "xarm_laser_shotgun_plut" } ]
   },
   {
     "id": "NC_BIO_WEAPON_T_carry",
