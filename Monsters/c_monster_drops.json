@@ -49,10 +49,11 @@
     "items": [ [ "hat_noise_cancelling", 50 ] ]
   },
   {
-    "id": "wild_bio_infantry",
+    "id": "wild_bio_infantry_rifle",
     "type": "item_group",
     "//": "items of the super soldier",
     "subtype": "collection",
+    "ammo": 100,
     "entries": [
       { "item": "gloves_liner", "damage": [ 1, 4 ] },
       { "item": "long_undertop", "damage": [ 1, 4 ] },
@@ -66,15 +67,42 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "arc_laser_rifle", "damage": [ 0, 3 ] },
+      { "item": "arc_laser_rifle_plut", "damage": [ 0, 3 ] },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
-      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "omnitech_ups_core", "chance": 10 }
     ]
   },
   {
-    "id": "wild_bio_scout",
+    "id": "wild_bio_infantry_shotgun",
+    "type": "item_group",
+    "//": "items of the super soldier",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "gloves_liner", "damage": [ 1, 4 ] },
+      { "item": "long_undertop", "damage": [ 1, 4 ] },
+      { "item": "long_underpants", "damage": [ 1, 4 ] },
+      { "item": "socks", "damage": [ 1, 4 ] },
+      { "item": "balclava", "damage": [ 1, 4 ] },
+      { "item": "helmet_army", "damage": [ 1, 4 ] },
+      { "item": "army_top", "damage": [ 1, 4 ] },
+      { "item": "gloves_tactical", "damage": [ 1, 4 ] },
+      { "item": "pants_army", "damage": [ 1, 4 ] },
+      { "item": "boots_combat", "damage": [ 1, 4 ] },
+      { "item": "jacket_army", "damage": [ 1, 4 ] },
+      { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
+      { "item": "xarm_laser_shotgun_plut", "damage": [ 0, 3 ] },
+      { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "omnitech_ups_core", "chance": 10 }
+    ]
+  },
+  {
+    "id": "wild_bio_scout_sniper",
     "type": "item_group",
     "//": "items of the super scout",
+    "ammo": 100,
     "subtype": "collection",
     "entries": [
       { "item": "gloves_liner", "damage": [ 1, 4 ] },
@@ -89,20 +117,23 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "laser_sniper", "damage": [ 0, 3 ] },
+      { "item": "mx_laser_sniper_plut", "damage": [ 0, 3 ] },
+	  { "item": "br_bolt_rifle_elec", "damage": [ 0, 3 ], "chance": 25 },
       { "item": "e_tool", "damage": [ 0, 3 ], "chance": 50 },
       { "item": "mre_beef_box", "damage": [ 0, 3 ], "chance": 75 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "large_tent_kit", "damage": [ 0, 3 ], "chance": 25 },
-      { "item": "rollmat", "damage": [ 0, 3 ], "chance": 50 }
+      { "item": "rollmat", "damage": [ 0, 3 ], "chance": 50 },
+      { "item": "omnitech_ups_core", "chance": 10 }
     ]
   },
   {
-    "id": "wild_bio_knight",
+    "id": "wild_bio_knight_lmg",
     "type": "item_group",
     "//": "items of the super juggernaut",
     "subtype": "collection",
+    "ammo": 100,
     "entries": [
       { "item": "gloves_liner", "damage": [ 1, 4 ] },
       { "item": "long_undertop", "damage": [ 1, 4 ] },
@@ -110,16 +141,36 @@
       { "item": "socks", "damage": [ 1, 4 ] },
       { "item": "lmil_armor", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "laser_lmg", "damage": [ 0, 3 ] },
+      { "item": "krx_laser_lmg_plut", "damage": [ 0, 3 ] },
+      { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "omnitech_ups_core", "chance": 10 }
+    ]
+  },
+  {
+    "id": "wild_bio_knight_launcher",
+    "type": "item_group",
+    "//": "items of the super juggernaut",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "gloves_liner", "damage": [ 1, 4 ] },
+      { "item": "long_undertop", "damage": [ 1, 4 ] },
+      { "item": "long_underpants", "damage": [ 1, 4 ] },
+      { "item": "socks", "damage": [ 1, 4 ] },
+      { "item": "lmil_armor", "damage": [ 1, 4 ] },
+      { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
+      { "item": "mk_ionic_cannon", "damage": [ 0, 3 ] },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
   },
   {
-    "id": "wild_bio_tool",
+    "id": "wild_bio_tool_pistol",
     "type": "item_group",
     "//": "items of the super tool",
     "subtype": "collection",
+    "ammo": 100,
     "entries": [
       { "item": "gloves_liner", "damage": [ 1, 4 ] },
       { "item": "long_undertop", "damage": [ 1, 4 ] },
@@ -133,11 +184,39 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "v29", "damage": [ 0, 3 ] },
+      { "item": "neo_laser_pistol_plut", "damage": [ 0, 3 ] },
       { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
       { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
-      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "omnitech_ups_core", "chance": 10 }
+    ]
+  },
+  {
+    "id": "wild_bio_tool_smg",
+    "type": "item_group",
+    "//": "items of the super tool",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "gloves_liner", "damage": [ 1, 4 ] },
+      { "item": "long_undertop", "damage": [ 1, 4 ] },
+      { "item": "long_underpants", "damage": [ 1, 4 ] },
+      { "item": "socks", "damage": [ 1, 4 ] },
+      { "item": "balclava", "damage": [ 1, 4 ] },
+      { "item": "helmet_army", "damage": [ 1, 4 ] },
+      { "item": "army_top", "damage": [ 1, 4 ] },
+      { "item": "gloves_tactical", "damage": [ 1, 4 ] },
+      { "item": "pants_army", "damage": [ 1, 4 ] },
+      { "item": "boots_combat", "damage": [ 1, 4 ] },
+      { "item": "jacket_army", "damage": [ 1, 4 ] },
+      { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
+      { "item": "akro_laser_smg_plut", "damage": [ 0, 3 ] },
+      { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
+      { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
+      { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      { "item": "omnitech_ups_core", "chance": 10 }
     ]
   }
 ]
