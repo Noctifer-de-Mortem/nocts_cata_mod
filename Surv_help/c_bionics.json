@@ -2,8 +2,8 @@
   {
     "id": "bio_laser_minigun",
     "type": "GUN",
-    "name": "Laser Gatling Arm",
-    "description": "Your left arm is currently transformed into a ups powered laser gatling gun. Fire it as if it was any other gun.",
+    "name": "laser gatling arm",
+    "description": "Your left arm is currently transformed into a ups powered laser gatling gun.  Fire it as if it was any other gun.",
     "volume": 12,
     "price": 0,
     "material": [ "steel", "plastic" ],
@@ -80,7 +80,7 @@
   {
     "id": "bio_flamethrower_gun",
     "type": "GUN",
-    "name": "Dual-Hand Flamethrower",
+    "name": "dual-hand flamethrower",
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
     "volume": 12,
     "price": 0,
