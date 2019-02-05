@@ -649,16 +649,15 @@
     "weight": 1700,
     "volume": 2,
     "price": 50000,
-    "time": 10,
     "skill": "fabrication",
     "max_level": 8,
-    "required_level": 2,
+    "required_level": 5,
     "intelligence": 10,
     "color": "light_green",
     "symbol": "!",
     "material": [ "paper" ],
     "to_hit": -2,
-    "time": 20,
+    "time": 40,
     "fun": -1
   },
   {

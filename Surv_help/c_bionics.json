@@ -55,8 +55,8 @@
     "techniques": [ "RAPID", "WBLOCK_2" ],
     "volume": 9,
     "cutting": 48,
-    "flags": [ "NON_STUCK", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 22 ] ]
+    "flags": [ "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 20 ] ]
   },
   {
     "type": "bionic",

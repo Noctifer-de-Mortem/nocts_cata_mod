@@ -64,6 +64,7 @@
       "STURDY",
       "ALLOWS_NATURAL_ATTACKS",
       "WATCH",
+      "NONCONDUCTIVE",
       "ALARMCLOCK"
     ]
   },
@@ -94,7 +95,7 @@
       "type": "holster",
       "holster_prompt": "Sheath knife/sword",
       "holster_msg": "You sheath your %s",
-      "max_volume": 2,
+      "min_volume": 2,
       "max_volume": 10,
       "draw_cost": 80,
       "multi": 2,
@@ -110,6 +111,7 @@
       "STURDY",
       "ALLOWS_NATURAL_ATTACKS",
       "WATCH",
+      "NONCONDUCTIVE",
       "ALARMCLOCK"
     ]
   },
