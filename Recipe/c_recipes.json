@@ -482,8 +482,7 @@
     "skills_required": [ "fabrication", 7 ],
     "time": 500000,
     "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "filament", 400 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -491,25 +490,13 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "SEW", "level": 1 }
     ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
+    "tools": [ [ [ "welder", 25 ], [ "welder_crude", 50 ], [ "soldering_iron", 50 ], [ "toolset", 50 ] ] ],
     "components": [
       [ [ "leather", 50 ], [ "tanned_hide", 10 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
       [ [ "kevlar_plate", 48 ] ],
       [ [ "duct_tape", 500 ] ],
-      [ [ "wire", 15 ] ],
-      [
-        [ "mask_survivor", 1 ],
-        [ "mask_lsurvivor", 1 ],
-        [ "mask_hsurvivor", 1 ],
-        [ "mask_survivorxl", 1 ],
-        [ "mask_gas", 1 ],
-        [ "mask_gas_xl", 1 ],
-        [ "mask_wsurvivor", 1 ],
-        [ "mask_wsurvivorxl", 1 ],
-        [ "mask_wsurvivorxl", 1 ]
-      ],
-      [ [ "sunglasses", 1 ], [ "goggles_welding", 1 ], [ "survivor_goggles", 1 ] ],
+      [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
   },
@@ -519,12 +506,11 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
-    "difficulty": 8,
+    "difficulty": 9,
     "skills_required": [ "fabrication", 8 ],
     "time": 500000,
     "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 8 ] ],
     "using": [ [ "filament", 400 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -532,25 +518,13 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "SEW", "level": 1 }
     ],
-    "tools": [ [ [ "welder", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "tools": [ [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
     "components": [
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
       [ [ "kevlar_plate", 48 ] ],
       [ [ "steel_chunk", 7 ], [ "scrap", 21 ], [ "sheet_metal", 4 ] ],
       [ [ "duct_tape", 500 ] ],
-      [ [ "wire", 15 ] ],
-      [
-        [ "mask_survivor", 1 ],
-        [ "mask_lsurvivor", 1 ],
-        [ "mask_hsurvivor", 1 ],
-        [ "mask_survivorxl", 1 ],
-        [ "mask_gas", 1 ],
-        [ "mask_gas_xl", 1 ],
-        [ "mask_wsurvivor", 1 ],
-        [ "mask_wsurvivorxl", 1 ],
-        [ "mask_wsurvivorxl", 1 ]
-      ],
-      [ [ "sunglasses", 1 ], [ "goggles_welding", 1 ], [ "survivor_goggles", 1 ] ],
+      [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
   },
@@ -558,148 +532,212 @@
     "result": "surv_223_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_762_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_308_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_12_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 4 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_9mm_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_45_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_22_mag",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
+    "subcategory": "CSC_AMMO_MAGAZINES",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
     "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_iron", 20 ], [ "toolset", 20 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "spring", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
     "result": "surv_belt_223",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
-    "difficulty": 0,
-    "time": 5000,
-    "reversible": true,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 0 ] ],
-    "components": [ [ [ "wire", 2 ] ], [ [ "223", 80 ], [ "reloaded_223", 80 ] ] ]
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": 30000,
+    "book_learn": [ [ "recipe_surv", 4 ] ],
+    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [
+      [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
+      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "223_casing", -1 ] ]
+    ],
+    "components": [ [ [ "wire", 2 ] ] ]
   },
   {
     "result": "surv_belt_308",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
-    "difficulty": 0,
-    "time": 5000,
-    "reversible": true,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 0 ] ],
-    "components": [ [ [ "wire", 2 ] ], [ [ "308", 80 ], [ "reloaded_308", 80 ] ] ]
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": 30000,
+    "book_learn": [ [ "recipe_surv", 4 ] ],
+    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [
+      [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
+      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "308_casing", -1 ] ]
+    ],
+    "components": [ [ [ "wire", 2 ] ] ]
   },
   {
     "result": "surv_belt_762",
     "type": "recipe",
     "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_BULLETS",
-    "difficulty": 0,
-    "time": 5000,
-    "reversible": true,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 0 ] ],
-    "components": [ [ [ "wire", 2 ] ], [ [ "762_m43", 80 ], [ "reloaded_762_m43", 80 ] ] ]
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": 30000,
+    "book_learn": [ [ "recipe_surv", 4 ] ],
+    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [
+      [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
+      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "762_casing", -1 ] ]
+    ],
+    "components": [ [ [ "wire", 2 ] ] ]
   },
   {
     "result": "bag_plastic",
@@ -724,18 +762,16 @@
     "skill_used": "mechanics",
     "difficulty": 8,
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
-    "time": 90000,
-    "reversible": false,
+    "time": 190000,
     "decomp_learn": 2,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 6 ] ],
+    "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "WRENCH_FINE", "level": 1 }
     ],
-    "tools": [ [ [ "oxy_torch", 30 ], [ "welder", 150 ], [ "welder_crude", 225 ], [ "toolset", 225 ] ] ],
     "components": [
       [ [ "pipe", 4 ] ],
       [ [ "2x4", 2 ], [ "stick", 2 ] ],
@@ -760,15 +796,17 @@
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "WRENCH_FINE", "level": 1 }
     ],
-    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
+    "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
       [ [ "UPS_off", 1 ], [ "battery_motorbike", 1 ], [ "small_storage_battery", 1 ] ],
       [ [ "amplifier", 4 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "cable", 100 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "lens", 2 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ]
     ]
   },
@@ -778,7 +816,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
-    "difficulty": 8,
+    "difficulty": 9,
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 5 ], [ "mechanics", 4 ] ],
     "time": 55000,
     "reversible": false,
@@ -791,11 +829,13 @@
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "GLARE", "level": 2 }
     ],
-    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
+    "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
       [ [ "ups_rifle", 1 ] ],
       [ [ "foot_crank", 1 ] ],
       [ [ "alternator_car", 1 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "e_scrap", 5 ] ],
       [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ]
     ]
   },
@@ -895,21 +935,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "steel_chunk", 4 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_22",
@@ -917,21 +965,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 4,
+    "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_22", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_9mm",
@@ -939,21 +995,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 4,
+    "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_9mm", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_45",
@@ -961,21 +1025,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 4,
+    "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_45", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_308",
@@ -983,21 +1055,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "steel_chunk", 4 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_762",
@@ -1005,21 +1085,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "steel_chunk", 4 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_full_12",
@@ -1027,21 +1115,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": 40000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ] ],
+    "using": [ [ "steel_tiny", 5 ], [ "welding_standard", 25 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_12", 1 ] ], [ [ "steel_chunk", 5 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_lmg_308",
@@ -1049,21 +1145,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": 55000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 7 ] ],
+    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "steel_chunk", 6 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_lmg_762",
@@ -1071,21 +1175,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": 55000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 7 ] ],
+    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "steel_chunk", 6 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "surv_lmg_223",
@@ -1093,21 +1205,29 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 8,
     "skills_required": [ [ "gun", 5 ] ],
     "time": 55000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "recipe_surv", 7 ] ],
+    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
       { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "DRILL", "level": 1 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "steel_chunk", 6 ] ], [ [ "2x4", 1 ] ] ]
+    "tools": [
+      [ [ "anvil", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
+    ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "fr_308", 1 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
   },
   {
     "result": "aux_flamer_diesel",
@@ -1151,26 +1271,35 @@
     ]
   },
   {
+    "type" : "recipe",
     "result": "surv_sniper",
-    "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "difficulty": 5,
-    "skills_required": [ [ "gun", 5 ] ],
-    "time": 55000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 4 ] ],
+    "skills_required": [ "rifle", 5 ],
+    "difficulty": 9,
+    "time": 240000,
+    "book_learn": [[ "recipe_surv", 6 ], [ "manual_rifle", 6 ] , [ "mag_rifle", 7 ] ],
     "qualities": [
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "HAMMER", "level": 3 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "ANVIL", "level": 3 },
+      { "id": "CUT","level":1 },
+      { "id": "HAMMER_FINE","level":1 },
+      { "id": "SAW_M_FINE","level":1 },
+      { "id": "SCREW_FINE","level":1 },
+      { "id": "CHISEL", "level": 3 }
     ],
-    "tools": [ [ [ "anvil", -1 ] ], [ [ "oxy_torch", 60 ], [ "welder", 300 ], [ "welder_crude", 450 ], [ "toolset", 450 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 2 ] ], [ [ "lighter", 1 ] ], [ [ "steel_chunk", 6 ] ], [ [ "2x4", 1 ] ] ]
+    "using": [ [ "forging_standard", 4 ], [ "steel_standard", 3 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ]
+    ],
+    "components": [
+      [ [ "2x4", 2 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "pilot_light", 1 ] ]
+    ]
   },
   {
     "result": "surv_laser_sight",
@@ -1329,23 +1458,19 @@
     "time": 60000,
     "reversible": false,
     "decomp_learn": 3,
-    "autolearn": true,
     "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
       { "id": "SAW_M", "level": 1 },
-      { "id": "WRENCH", "level": 1 },
-      { "id": "GLARE", "level": 2 }
+      { "id": "WRENCH", "level": 1 }
     ],
-    "tools": [ [ [ "welder", 100 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ] ],
     "components": [
       [ [ "kitchen_unit", 1 ] ],
       [ [ "forgerig", 1 ] ],
       [ [ "weldrig", 1 ] ],
       [ [ "craftrig", 1 ] ],
-      [ [ "chemlab", 1 ] ],
-      [ [ "recharge_station", 1 ] ],
-      [ [ "minifridge", 1 ] ]
+      [ [ "chemlab", 1 ] ]
     ]
   },
   {
@@ -1570,8 +1695,21 @@
     "time": 12500,
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ], [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ], [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ], [ [ "power_supply", 2] ], [ [ "battery_ups", 1] ], [ [ "e_scrap", 5 ] ], [ [ "flesh_weapon_kit", 1] ], [ [ "flesh_pistol", 1] ] ]
+    "tools": [
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "surface_heat", 50, "LIST" ] ]
+    ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
+      [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "battery_ups", 1 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "flesh_weapon_kit", 1 ] ],
+      [ [ "flesh_pistol", 1 ] ]
+    ]
   },
   {
     "result": "flesh_rifle",
@@ -1584,8 +1722,21 @@
     "time": 12500,
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ], [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ], [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ], [ [ "power_supply", 2] ], [ [ "battery_ups", 1] ], [ [ "e_scrap", 5 ] ], [ [ "flesh_weapon_kit", 1] ], [ [ "flesh_pistol", 1] ] ]
+    "tools": [
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "surface_heat", 50, "LIST" ] ]
+    ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
+      [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "battery_ups", 1 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "flesh_weapon_kit", 1 ] ],
+      [ [ "flesh_pistol", 1 ] ]
+    ]
   },
   {
     "result": "flesh_lmg",
@@ -1598,8 +1749,21 @@
     "time": 12500,
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ], [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ], [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ], [ [ "power_supply", 2] ], [ [ "battery_ups", 1] ], [ [ "e_scrap", 5 ] ], [ [ "flesh_weapon_kit", 1] ], [ [ "flesh_pistol", 1] ] ]
+    "tools": [
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "surface_heat", 50, "LIST" ] ]
+    ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
+      [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "battery_ups", 1 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "flesh_weapon_kit", 1 ] ],
+      [ [ "flesh_pistol", 1 ] ]
+    ]
   },
   {
     "result": "flesh_shotgun",
@@ -1612,8 +1776,21 @@
     "time": 12500,
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ], [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ], [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ], [ [ "power_supply", 2] ], [ [ "battery_ups", 1] ], [ [ "e_scrap", 5 ] ], [ [ "flesh_weapon_kit", 1] ], [ [ "flesh_pistol", 1] ] ]
+    "tools": [
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "surface_heat", 50, "LIST" ] ]
+    ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
+      [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "battery_ups", 1 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "flesh_weapon_kit", 1 ] ],
+      [ [ "flesh_pistol", 1 ] ]
+    ]
   },
   {
     "result": "flesh_blade",
@@ -1627,7 +1804,14 @@
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ], [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ], [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ], [ [ "flesh_weapon_kit", 1] ], [ [ "flesh_knife", 1] ] ]
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
+      [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
+      [ [ "flesh_weapon_kit", 1 ] ],
+      [ [ "flesh_knife", 1 ] ]
+    ]
   },
   {
     "result": "neo_laser_pistol_plut",
@@ -1642,10 +1826,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "neo_33_manual", 2 ] ],
-    "components": [
-      [ [ "neo_laser_pistol", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "neo_laser_pistol", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "neo_laser_pistol",
@@ -1660,10 +1841,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "neo_33_manual", 2 ] ],
-    "components": [
-      [ [ "neo_laser_pistol_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "neo_laser_pistol_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   },
   {
     "result": "akro_laser_smg_plut",
@@ -1678,10 +1856,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "akro_388_manual", 2 ] ],
-    "components": [
-      [ [ "akro_laser_smg", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "akro_laser_smg", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "akro_laser_smg",
@@ -1696,10 +1871,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "akro_388_manual", 2 ] ],
-    "components": [
-      [ [ "akro_laser_smg_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "akro_laser_smg_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   },
   {
     "result": "arc_laser_rifle_plut",
@@ -1714,10 +1886,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "arc_314_manual", 2 ] ],
-    "components": [
-      [ [ "arc_laser_rifle", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "arc_laser_rifle", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "arc_laser_rifle",
@@ -1732,10 +1901,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "arc_314_manual", 2 ] ],
-    "components": [
-      [ [ "arc_laser_rifle_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "arc_laser_rifle_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   },
   {
     "result": "krx_laser_lmg_plut",
@@ -1750,10 +1916,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "krx_108_manual", 2 ] ],
-    "components": [
-      [ [ "krx_laser_lmg", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "krx_laser_lmg", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "krx_laser_lmg",
@@ -1768,10 +1931,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "krx_108_manual", 2 ] ],
-    "components": [
-      [ [ "krx_laser_lmg_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "krx_laser_lmg_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   },
   {
     "result": "mx_laser_sniper_plut",
@@ -1786,10 +1946,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "mx_84_manual", 2 ] ],
-    "components": [
-      [ [ "mx_laser_sniper", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "mx_laser_sniper", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "mx_laser_sniper",
@@ -1804,10 +1961,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "mx_84_manual", 2 ] ],
-    "components": [
-      [ [ "mx_laser_sniper_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "mx_laser_sniper_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   },
   {
     "result": "xarm_laser_shotgun_plut",
@@ -1822,10 +1976,7 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "xarm_37_manual", 2 ] ],
-    "components": [
-      [ [ "xarm_laser_shotgun", 1 ] ],
-      [ [ "omnitech_plut_core", 1 ] ]
-    ]
+    "components": [ [ [ "xarm_laser_shotgun", 1 ] ], [ [ "omnitech_plut_core", 1 ] ] ]
   },
   {
     "result": "xarm_laser_shotgun",
@@ -1840,9 +1991,6 @@
     "reversible": false,
     "autolearn": false,
     "book_learn": [ [ "xarm_37_manual", 2 ] ],
-    "components": [
-      [ [ "xarm_laser_shotgun_plut", 1 ] ],
-      [ [ "omnitech_ups_core", 1 ] ]
-    ]
+    "components": [ [ [ "xarm_laser_shotgun_plut", 1 ] ], [ [ "omnitech_ups_core", 1 ] ] ]
   }
 ]
