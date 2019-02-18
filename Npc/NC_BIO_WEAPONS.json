@@ -91,10 +91,7 @@
     "type": "item_group",
     "//": "Ammo and goodies.",
     "subtype": "distribution",
-    "entries": [
-      { "group": "NC_BIO_WEAPON_T_carry_plut", "prob": 100 },
-	  { "group": "NC_BIO_WEAPON_T_carry_goodies", "prob": 100 }
-    ]
+    "entries": [ { "group": "NC_BIO_WEAPON_T_carry_plut", "prob": 100 }, { "group": "NC_BIO_WEAPON_T_carry_goodies", "prob": 100 } ]
   },
   {
     "id": "NC_BIO_WEAPON_T_carry_plut",

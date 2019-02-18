@@ -63,16 +63,7 @@
     "difficulty": 6,
     "location": "center",
     "tools": [ "hotplate", "pot", "welder", "soldering_iron", "vac_sealer", "dehydrator", "press", "chemistry_set", "forge" ],
-    "flags": [
-      "OBSTACLE",
-      "KITCHEN",
-      "CHEMLAB",
-      "CRAFTRIG",
-      "FORGE",
-      "WELDRIG",
-      "WATER_PURIFIER",
-      "FAUCET"
-    ],
+    "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 30, 40 ] },
       { "item": "steel_chunk", "count": [ 30, 40 ] },

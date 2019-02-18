@@ -273,10 +273,7 @@
   {
     "copy-from": "heli_crash",
     "type": "scenario",
-    "extend": {
-      "map_special": "mx_helicopter",
-      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
-    },
+    "extend": { "map_special": "mx_helicopter", "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] },
     "ident": "heli_crash"
   }
 ]

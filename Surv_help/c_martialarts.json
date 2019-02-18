@@ -76,19 +76,7 @@
         "buff_duration": 1
       }
     ],
-    "techniques": [
-      "WBLOCK_1",
-      "WBLOCK_2",
-      "DEF_DISARM",
-      "GRAB",
-      "SPIN",
-      "WIDE",
-      "IMPALE",
-      "BRUTAL",
-      "RAPID",
-      "SWEEP",
-      "PRECISE"
-    ],
+    "techniques": [ "WBLOCK_1", "WBLOCK_2", "DEF_DISARM", "GRAB", "SPIN", "WIDE", "IMPALE", "BRUTAL", "RAPID", "SWEEP", "PRECISE" ],
     "weapons": [
       "sword_wood",
       "sword_nail",

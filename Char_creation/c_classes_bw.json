@@ -563,14 +563,7 @@
       { "level": 5, "name": "unarmed" }
     ],
     "items": {
-     "both": {
-       "items": [
-        "hmil_armor"
-      ],
-        "entries": [
-          { "item": "laser_lmg", "contents-item": [ "shoulder_strap" ] }
-        ]
-      },
+      "both": { "items": [ "hmil_armor" ], "entries": [ { "item": "laser_lmg", "contents-item": [ "shoulder_strap" ] } ] },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },

@@ -118,7 +118,7 @@
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
       { "item": "mx_laser_sniper_plut", "damage": [ 0, 3 ] },
-	  { "item": "br_bolt_rifle_elec", "damage": [ 0, 3 ], "chance": 25 },
+      { "item": "br_bolt_rifle_elec", "damage": [ 0, 3 ], "chance": 25 },
       { "item": "e_tool", "damage": [ 0, 3 ], "chance": 50 },
       { "item": "mre_beef_box", "damage": [ 0, 3 ], "chance": 75 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },

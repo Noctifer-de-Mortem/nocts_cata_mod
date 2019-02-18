@@ -20,12 +20,7 @@
       {
         "text": "I can tell you're one of us, Hunter.  I was expecting an officer, not a college student.",
         "topic": "BGSS_BHUNTER_STORYOUST",
-        "condition": {
-          "and": [
-            { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] },
-            { "not": { "u_has_effect": "evy_ousted" } }
-          ]
-        },
+        "condition": { "and": [ { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }, { "not": { "u_has_effect": "evy_ousted" } } ] },
         "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
       },
       {

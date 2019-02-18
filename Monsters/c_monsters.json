@@ -231,7 +231,7 @@
   {
     "id": "mon_zombie_bio_infantry_rifle",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_infantry",
+    "looks_like": "mon_zombie_bio_infantry",
     "name": "zombie super soldier",
     "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
     "default_faction": "zombie",
@@ -279,28 +279,21 @@
         "targeting_volume": 5,
         "description": "The super soldier fires its ARC rifle!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] , [ "SMASH", 20 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_rifle",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "BASHES",
-      "NO_BREATHE",
-      "FILTHY",
-      "PATH_AVOID_DANGER_1"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_infantry",
+    "looks_like": "mon_zombie_bio_infantry",
     "name": "zombie super soldier",
     "description": "A zombie of a former member of the military. This one wields a particular shotgun and bionics and appears to know how to use them.",
     "default_faction": "zombie",
@@ -348,28 +341,21 @@
         "targeting_volume": 5,
         "description": "The super soldier fires its XARM scattergun!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] , [ "SMASH", 20 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_shotgun",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "BASHES",
-      "NO_BREATHE",
-      "FILTHY",
-      "PATH_AVOID_DANGER_1"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_knight",
+    "looks_like": "mon_zombie_bio_knight",
     "name": "zombie super jauggernaut",
     "description": "A zombie of a former member of the military. This one wields a particular LMG, bionics and armor and appears to know how to use them.",
     "default_faction": "zombie",
@@ -416,29 +402,22 @@
         "targeting_volume": 20,
         "description": "The super soldier fires its lmg!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] , [ "SMASH", 30 ], [ "BIO_OP_TAKEDOWN", 20 ], [ "GRAB_DRAG", 10 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 30 ],
+      [ "BIO_OP_TAKEDOWN", 20 ],
+      [ "GRAB_DRAG", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_drops": "wild_bio_knight_lmg",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "REGENERATES_50",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "BASHES",
-      "NO_BREATHE",
-      "BONES",
-      "FILTHY",
-      "REGEN_MORALE"
-    ]
+    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_knight_lauhcher",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_knight",
+    "looks_like": "mon_zombie_bio_knight",
     "name": "zombie super jauggernaut",
     "description": "A zombie of a former member of the military. This one wields a particular launcher, bionics and armor and appears to know how to use them.",
     "default_faction": "zombie",
@@ -485,29 +464,22 @@
         "targeting_volume": 20,
         "description": "The super soldier fires its launcher!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] , [ "SMASH", 30 ], [ "BIO_OP_TAKEDOWN", 20 ], [ "GRAB_DRAG", 10 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 30 ],
+      [ "BIO_OP_TAKEDOWN", 20 ],
+      [ "GRAB_DRAG", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_drops": "wild_bio_knight_launcher",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "REGENERATES_50",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "BASHES",
-      "NO_BREATHE",
-      "BONES",
-      "FILTHY",
-      "REGEN_MORALE"
-    ]
+    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_scout_sniper",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_scout",
+    "looks_like": "mon_zombie_bio_scout",
     "name": "zombie super scout",
     "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them. For some reson it seems to just be watching you...  As if waiting for you to make a move...",
     "default_faction": "zombie",
@@ -555,28 +527,21 @@
         "targeting_volume": 5,
         "description": "The super scout fires its rifle!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] ,[ "SMASH", 20 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_scout_sniper",
     "death_function": [ "NORMAL" ],
-    "flags": [
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "BASHES",
-      "NO_BREATHE",
-      "FILTHY",
-      "PATH_AVOID_DANGER_1"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_tool",
+    "looks_like": "mon_zombie_bio_tool",
     "name": "zombie super B.A.M.R.U",
     "description": "A zombie of a former member of the military. This one wields a particular pistol and bionics and appears to know how to use them.",
     "default_faction": "zombie",
@@ -623,7 +588,9 @@
         "targeting_volume": 5,
         "description": "The super scout fires its pistol!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] ,[ "SMASH", 10 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
@@ -635,7 +602,7 @@
   {
     "id": "mon_zombie_bio_tool_smg",
     "type": "MONSTER",
-	"looks_like": "mon_zombie_bio_tool",
+    "looks_like": "mon_zombie_bio_tool",
     "name": "zombie super B.A.M.R.U",
     "description": "A zombie of a former member of the military. This one wields a particular smg and bionics and appears to know how to use them.",
     "default_faction": "zombie",
@@ -682,7 +649,9 @@
         "targeting_volume": 5,
         "description": "The super scout fires its smg!",
         "no_ammo_sound": "beep-beep-beep!"
-      }, [ "GRAB", 5 ] ,[ "SMASH", 10 ]
+      },
+      [ "GRAB", 5 ],
+      [ "SMASH", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
