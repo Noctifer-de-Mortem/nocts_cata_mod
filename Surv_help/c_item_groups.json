@@ -190,15 +190,15 @@
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ],
-	  [ "omnitech_plut_core", 2 ],
+      [ "omnitech_plut_core", 2 ],
       [ "omnitech_ups_core", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
@@ -270,7 +270,7 @@
       [ "22aux", 1 ],
       [ "9mmaux", 1 ],
       [ "45aux", 1 ],
-	  [ "omnitech_plut_core", 2 ],
+      [ "omnitech_plut_core", 2 ],
       [ "omnitech_ups_core", 2 ]
     ]
   },
@@ -304,9 +304,7 @@
     "id": "mansion_bookcase",
     "type": "item_group",
     "subtype": "collection",
-    "groups": [
-      [ "encylopedias_rare", 5 ]
-    ]
+    "groups": [ [ "encylopedias_rare", 5 ] ]
   },
   {
     "id": "encylopedias_common",
@@ -377,11 +375,7 @@
   {
     "id": "homebooks",
     "type": "item_group",
-    "items": [
-      [ "recipe_surv", 1 ],
-      [ "manual_surv", 1 ],
-      { "group": "encylopedias_common", "prob": 1 }
-    ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "manuals",
@@ -389,11 +383,11 @@
     "items": [
       [ "recipe_surv", 1 ],
       [ "manual_surv", 1 ],
-	  [ "neo_33_manual", 2 ],
+      [ "neo_33_manual", 2 ],
       [ "akro_388_manual", 2 ],
-	  [ "arc_314_manual", 2 ],
+      [ "arc_314_manual", 2 ],
       [ "krx_108_manual", 2 ],
-	  [ "mx_84_manual", 2 ],
+      [ "mx_84_manual", 2 ],
       [ "xarm_37_manual", 2 ],
       { "group": "encylopedias_common", "prob": 1 }
     ]
@@ -401,98 +395,84 @@
   {
     "id": "mansion_books",
     "type": "item_group",
-    "items": [
-      [ "recipe_surv", 2 ],
-      [ "manual_surv", 2 ],
-      { "group": "encylopedias_common", "prob": 5 }
-    ]
+    "items": [ [ "recipe_surv", 2 ], [ "manual_surv", 2 ], { "group": "encylopedias_common", "prob": 5 } ]
   },
   {
     "id": "shelter",
     "type": "item_group",
-    "items": [
-      [ "recipe_surv", 1 ],
-      [ "manual_surv", 1 ],
-      { "group": "encylopedias_common", "prob": 1 },
-      [ "biomap", 1 ]
-    ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 }, [ "biomap", 1 ] ]
   },
   {
     "id": "textbooks",
     "type": "item_group",
-    "items": [
-      [ "recipe_surv", 2 ],
-      [ "manual_surv", 2 ],
-      { "group": "encylopedias_common", "prob": 1 }
-    ]
+    "items": [ [ "recipe_surv", 2 ], [ "manual_surv", 2 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "gear_survival",
     "type": "item_group",
-    "items": [
-      { "group": "encylopedias_common", "prob": 10 },
-      { "group": "encylopedias_rare", "prob": 5 },
-      [ "biomap", 1 ]
-    ]
+    "items": [ { "group": "encylopedias_common", "prob": 10 }, { "group": "encylopedias_rare", "prob": 5 }, [ "biomap", 1 ] ]
   },
   {
     "id": "mil_rifles",
     "type": "item_group",
-    "items": [ [ "neo_laser_pistol", 2 ],
+    "items": [
+      [ "neo_laser_pistol", 2 ],
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ]
-	]
+    ]
   },
   {
     "id": "helicopter",
     "type": "item_group",
-    "items": [ [ "neo_laser_pistol", 2 ],
+    "items": [
+      [ "neo_laser_pistol", 2 ],
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ],
-	  [ "omnitech_plut_core", 2 ],
+      [ "omnitech_plut_core", 2 ],
       [ "omnitech_ups_core", 2 ]
-	]
+    ]
   },
   {
     "id": "army_rifles",
     "type": "item_group",
-    "items": [ [ "neo_laser_pistol", 2 ],
+    "items": [
+      [ "neo_laser_pistol", 2 ],
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ]
-	]
+    ]
   },
   {
     "id": "science",
@@ -502,17 +482,17 @@
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ],
-	  [ "omnitech_plut_core", 2 ],
+      [ "omnitech_plut_core", 2 ],
       [ "omnitech_ups_core", 2 ],
       [ "megamap", 2 ],
       [ "stim", 5 ],
@@ -535,17 +515,17 @@
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
       [ "krx_laser_lmg", 2 ],
-	  [ "mx_laser_sniper", 2 ],
+      [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-	  [ "neo_laser_pistol_plut", 2 ],
+      [ "neo_laser_pistol_plut", 2 ],
       [ "akro_laser_smg_plut", 2 ],
       [ "arc_laser_rifle_plut", 2 ],
       [ "krx_laser_lmg_plut", 2 ],
-	  [ "mx_laser_sniper_plut", 2 ],
+      [ "mx_laser_sniper_plut", 2 ],
       [ "xarm_laser_shotgun_plut", 2 ],
-	  [ "omnitech_plut_core", 2 ],
+      [ "omnitech_plut_core", 2 ],
       [ "omnitech_ups_core", 2 ],
       [ "megamap", 2 ],
       [ "stim", 2 ],
@@ -661,11 +641,11 @@
     "items": [ [ "surv_full_12", 1 ] ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_failed_bio",
+    "type": "item_group",
+    "id": "bionics_failed_bio",
     "subtype": "distribution",
-    "//" : "Intact bionics from failed bio-weapons, excluding broken bionics.  Weight is inverse of install difficulty, capped at 10.  Any CBMs of diffuclty 11+ will use a weight of 1.",
-    "items":[
+    "//": "Intact bionics from failed bio-weapons, excluding broken bionics.  Weight is inverse of install difficulty, capped at 10.  Any CBMs of diffuclty 11+ will use a weight of 1.",
+    "items": [
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
       [ "bio_armor_head", 6 ],
@@ -685,11 +665,11 @@
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_apophis",
+    "type": "item_group",
+    "id": "bionics_apophis",
     "subtype": "distribution",
-    "//" : "Bionics for Bio-Weapon Apophis.  Roughly mocked up from what bionics might fit his in-game properties.",
-    "items":[
+    "//": "Bionics for Bio-Weapon Apophis.  Roughly mocked up from what bionics might fit his in-game properties.",
+    "items": [
       [ "bio_advreactor", 1 ],
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
@@ -716,11 +696,11 @@
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_soldat_zombie",
+    "type": "item_group",
+    "id": "bionics_soldat_zombie",
     "subtype": "distribution",
-    "//" : "Bionics for zombie super soldiers.  First instance of CBMs with weight of 1 due to higher-than-10 difficulty.",
-    "items":[
+    "//": "Bionics for zombie super soldiers.  First instance of CBMs with weight of 1 due to higher-than-10 difficulty.",
+    "items": [
       [ "bio_adrenaline", 5 ],
       [ "bio_blade", 3 ],
       [ "bio_carbon", 7 ],
@@ -733,11 +713,11 @@
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_soldat_knight_zombie",
+    "type": "item_group",
+    "id": "bionics_soldat_knight_zombie",
     "subtype": "distribution",
-    "//" : "Bionics for zombie super juggernauts.",
-    "items":[
+    "//": "Bionics for zombie super juggernauts.",
+    "items": [
       [ "bio_advreactor", 1 ],
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
@@ -757,11 +737,11 @@
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_soldat_sniper_zombie",
+    "type": "item_group",
+    "id": "bionics_soldat_sniper_zombie",
     "subtype": "distribution",
-    "//" : "Bionics for zombie super scouts.",
-    "items":[
+    "//": "Bionics for zombie super scouts.",
+    "items": [
       [ "bio_climate", 8 ],
       [ "bio_evap", 7 ],
       [ "bio_eye_enhancer", 1 ],
@@ -776,11 +756,11 @@
     ]
   },
   {
-    "type" : "item_group",
-    "id" : "bionics_soldat_tool_zombie",
+    "type": "item_group",
+    "id": "bionics_soldat_tool_zombie",
     "subtype": "distribution",
-    "//" : "Bionics for zombie super B.A.M.R.U.",
-    "items":[
+    "//": "Bionics for zombie super B.A.M.R.U.",
+    "items": [
       [ "bio_carbon", 7 ],
       [ "bio_ears", 5 ],
       [ "bio_flashlight", 9 ],

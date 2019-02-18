@@ -8,9 +8,9 @@
       { "monster": "mon_failed_weapon", "freq": 15, "cost_multiplier": 20 },
       { "monster": "mon_zombie_failed_weapon", "freq": 20, "cost_multiplier": 20 },
       { "monster": "mon_zombie_bio_infantry_rifle", "freq": 20, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 20, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_knight_lmg", "freq": 20, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 50, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 50, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_scout_sniper", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_pistol", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_smg", "freq": 20, "cost_multiplier": 15 }
@@ -25,9 +25,9 @@
       { "monster": "mon_failed_weapon", "freq": 20, "cost_multiplier": 20 },
       { "monster": "mon_zombie_failed_weapon", "freq": 25, "cost_multiplier": 20 },
       { "monster": "mon_zombie_bio_infantry_rifle", "freq": 20, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 20, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_knight_lmg", "freq": 20, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 50, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 50, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_scout_sniper", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_pistol", "freq": 20, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_smg", "freq": 20, "cost_multiplier": 15 }
@@ -43,7 +43,7 @@
       { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 30 },
       { "monster": "mon_fungus_failed_weapon", "freq": 1, "cost_multiplier": 30 },
       { "monster": "mon_zombie_bio_infantry_rifle", "freq": 3, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 3, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 3, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_knight_lmg", "freq": 2, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_scout_sniper", "freq": 2, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_pistol", "freq": 3, "cost_multiplier": 15 },
@@ -60,7 +60,7 @@
       { "monster": "mon_zombie_failed_weapon", "freq": 2, "cost_multiplier": 30 },
       { "monster": "mon_fungus_failed_weapon", "freq": 1, "cost_multiplier": 30 },
       { "monster": "mon_zombie_bio_infantry_rifle", "freq": 3, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 3, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 3, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_knight_lmg", "freq": 2, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_scout_sniper", "freq": 2, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_pistol", "freq": 3, "cost_multiplier": 15 },
@@ -68,15 +68,15 @@
     ]
   },
   {
-    "name" : "GROUP_MAYBE_MIL",
-    "type":"monstergroup",
+    "name": "GROUP_MAYBE_MIL",
+    "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters" : [
+    "monsters": [
       { "monster": "mon_zombie_bio_infantry_rifle", "freq": 10, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 10, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "freq": 10, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_knight_lmg", "freq": 10, "cost_multiplier": 15 },
-	  { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 5, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_knight_lauhcher", "freq": 5, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_scout_sniper", "freq": 10, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_pistol", "freq": 10, "cost_multiplier": 15 },
       { "monster": "mon_zombie_bio_tool_smg", "freq": 10, "cost_multiplier": 15 }

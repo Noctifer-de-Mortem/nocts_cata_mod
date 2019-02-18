@@ -50,13 +50,13 @@
   },
   {
     "id": "neo_laser_pistol_plut",
-	"copy-from": "neo_laser_pistol",
+    "copy-from": "neo_laser_pistol",
     "type": "GUN",
     "name": "NEO-33 laser pistol",
     "description": "A, relatively, small laser pistol. Looks like a hightech rectangle with another as a grip; still it feels comfortable on the hand. Says manufacturer is 'Omnitech Labs'. A few uses of it shows that it was built with energy efficency in mind over damage, range and accessories. This one has been modified to use plutonium cells as fuel.",
     "flags": [ "NEVER_JAMS", "NO_UNLOAD" ],
     "ups_charges": 0,
-	"ammo": "plutonium",
+    "ammo": "plutonium",
     "clip_size": 10,
     "ranged_damage": 20,
     "pierce": 5,
@@ -64,7 +64,7 @@
   },
   {
     "id": "akro_laser_smg_plut",
-	"copy-from": "akro_laser_smg",
+    "copy-from": "akro_laser_smg",
     "type": "GUN",
     "name": "AKRO-388 laser SMG",
     "description": "Based on the design of tge NEO-33, the AKRO-388 is built for energy efficency but also high rate of fire. It consumes double the energy per shot of it's pistol counterpart but has an insane fire rate. It's outline if more of a traditonal modern gun but with none of the bells and whistles save for a metal rod to serve as a foward grip. Manufacturer listed as 'Omnitech Labs'. This one has been modified to use plutonium cells as fuel.",
@@ -78,7 +78,7 @@
   },
   {
     "id": "arc_laser_rifle_plut",
-	"copy-from": "arc_laser_rifle",
+    "copy-from": "arc_laser_rifle",
     "type": "GUN",
     "name": "ARC-314 laser rifle",
     "description": "An experimental laser rifle based on the A7 and AKRO-388. Offers the modular benefits of a combat rifle with the efficency of a laser weapon in a, once again relative, compact package. Manual of arms and over all operational design is that of a traditional combat rifle so transition to using it is not too hard. Manufacturer listed as 'Omnitech Labs'. This one has been modified to use plutonium cells as fuel.",
@@ -92,7 +92,7 @@
   },
   {
     "id": "krx_laser_lmg_plut",
-	"copy-from": "krx_laser_lmg",
+    "copy-from": "krx_laser_lmg",
     "type": "GUN",
     "name": "KRX-108 laser LMG",
     "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower. With little reguard to modularity or energy efficenc, this behemout can deal a very devastating blow to large groups of enemies, if you can afforf it's energy demands. This one has been modified to use plutonium cells as fuel.",
@@ -106,7 +106,7 @@
   },
   {
     "id": "mx_laser_sniper_plut",
-	"copy-from": "mx_laser_sniper",
+    "copy-from": "mx_laser_sniper",
     "type": "GUN",
     "name": "MX-84 laserbeam sniper",
     "description": "Omnitech Labs' single shot laserbeam rifle designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Requires an insane amount of energy to fires a single powerful laser beam at the target with emp capabilities at equaly devastating distances. This one has been modified to use plutonium cells as fuel.",
@@ -120,7 +120,7 @@
   },
   {
     "id": "xarm_laser_shotgun_plut",
-	"copy-from": "xarm_laser_shotgun",
+    "copy-from": "xarm_laser_shotgun",
     "type": "GUN",
     "name": "XARM-37 Pulse Scatter Gun",
     "description": "Omnitech Labs' solution to short electronic pests. At it's core this is a modified double-barraled ARC rifle. At the cost of range and fire power EMP capabilities were added. It is fired in short pulses that act like buckshot; still decent against general threats but shines against the electronic. This one has been modified to use plutonium cells as fuel.",

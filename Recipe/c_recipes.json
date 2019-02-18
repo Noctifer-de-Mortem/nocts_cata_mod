@@ -767,11 +767,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 6 ] ],
     "using": [ [ "welding_standard", 20 ] ],
-    "qualities": [
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
       [ [ "pipe", 4 ] ],
       [ [ "2x4", 2 ], [ "stick", 2 ] ],
@@ -793,11 +789,7 @@
     "decomp_learn": 2,
     "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
-    "qualities": [
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "SCREW", "level": 1 },
-      { "id": "WRENCH_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
       [ [ "UPS_off", 1 ], [ "battery_motorbike", 1 ], [ "small_storage_battery", 1 ] ],
@@ -947,17 +939,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_22",
@@ -977,17 +960,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_9mm",
@@ -1007,17 +981,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_45",
@@ -1037,17 +1002,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_308",
@@ -1067,17 +1023,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_762",
@@ -1097,17 +1044,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_12",
@@ -1127,17 +1065,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_308",
@@ -1157,17 +1086,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_762",
@@ -1187,17 +1107,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_223",
@@ -1217,17 +1128,8 @@
       { "id": "HAMMER", "level": 3 },
       { "id": "DRILL", "level": 1 }
     ],
-    "tools": [
-      [ [ "anvil", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ]
-    ],
-    "components": [
-      [ [ "pipe", 2 ] ],
-      [ [ "fr_308", 1 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "2x4", 1 ] ]
-    ]
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "aux_flamer_diesel",
@@ -1271,7 +1173,7 @@
     ]
   },
   {
-    "type" : "recipe",
+    "type": "recipe",
     "result": "surv_sniper",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
@@ -1279,27 +1181,18 @@
     "skills_required": [ "rifle", 5 ],
     "difficulty": 9,
     "time": 240000,
-    "book_learn": [[ "recipe_surv", 6 ], [ "manual_rifle", 6 ] , [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "qualities": [
       { "id": "ANVIL", "level": 3 },
-      { "id": "CUT","level":1 },
-      { "id": "HAMMER_FINE","level":1 },
-      { "id": "SAW_M_FINE","level":1 },
-      { "id": "SCREW_FINE","level":1 },
+      { "id": "CUT", "level": 1 },
+      { "id": "HAMMER_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
       { "id": "CHISEL", "level": 3 }
     ],
     "using": [ [ "forging_standard", 4 ], [ "steel_standard", 3 ] ],
-    "tools": [
-      [ [ "tongs", -1 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ]
-    ],
-    "components": [
-      [ [ "2x4", 2 ] ],
-      [ [ "pipe", 2 ] ],
-      [ [ "spring", 2 ] ],
-      [ [ "pilot_light", 1 ] ]
-    ]
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ] ],
+    "components": [ [ [ "2x4", 2 ] ], [ [ "pipe", 2 ] ], [ [ "spring", 2 ] ], [ [ "pilot_light", 1 ] ] ]
   },
   {
     "result": "surv_laser_sight",
@@ -1460,18 +1353,8 @@
     "decomp_learn": 3,
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "welding_standard", 10 ] ],
-    "qualities": [
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 },
-      { "id": "WRENCH", "level": 1 }
-    ],
-    "components": [
-      [ [ "kitchen_unit", 1 ] ],
-      [ [ "forgerig", 1 ] ],
-      [ [ "weldrig", 1 ] ],
-      [ [ "craftrig", 1 ] ],
-      [ [ "chemlab", 1 ] ]
-    ]
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [ [ [ "kitchen_unit", 1 ] ], [ [ "forgerig", 1 ] ], [ [ "weldrig", 1 ] ], [ [ "craftrig", 1 ] ], [ [ "chemlab", 1 ] ] ]
   },
   {
     "result": "mil_surp_pack_1",
