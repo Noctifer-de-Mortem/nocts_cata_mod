@@ -221,7 +221,7 @@
     "item": "krx_laser_lmg",
     "difficulty": 6,
     "//": "Haven't figured out the breaks_into...",
-    "breaks_into": [ { "item": "laser_lmg", "prob": 50 } ]
+    "breaks_into": [ { "item": "krx_laser_lmg", "prob": 50 } ]
   },
   {
     "id": "generator_electric_small",
@@ -303,86 +303,5 @@
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
     "extend": { "flags": [ "TOOL_WRENCH" ] }
-  },
-  {
-    "type": "furniture",
-    "id": "f_fridge",
-    "name": "refrigerator",
-    "symbol": "{",
-    "description": "Freeze your food with the amazing science of electricity!  Oh wait, none is flowing.",
-    "color": "light_cyan",
-    "move_cost_mod": -1,
-    "required_str": 10,
-    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR" ],
-    "deconstruct": {
-      "items": [
-        { "item": "scrap", "count": [ 2, 8 ] },
-        { "item": "steel_chunk", "count": [ 2, 3 ] },
-        { "item": "hose", "count": 1 },
-        { "item": "cu_pipe", "count": [ 2, 5 ] }
-      ]
-    },
-    "max_volume": 7000,
-    "bash": {
-      "str_min": 18,
-      "str_max": 50,
-      "sound": "metal screeching!",
-      "sound_fail": "clang!",
-      "items": [
-        { "item": "scrap", "count": [ 2, 8 ] },
-        { "item": "steel_chunk", "count": [ 0, 3 ] },
-        { "item": "hose", "count": 1 },
-        { "item": "cu_pipe", "count": [ 2, 5 ] },
-        { "item": "scrap_copper", "count": [ 1, 2 ] }
-      ]
-    },
-    "deployed_item": "fridge",
-    "examine_action": "deployed_furniture"
-  },
-  {
-    "type": "TOOL",
-    "id": "fridge",
-    "name": "fridge",
-    "description": "A decently sized fridge for keeping food cool.  Lacks power converter to work with DC.",
-    "weight": 69000,
-    "color": "light_blue",
-    "symbol": "]",
-    "material": "steel",
-    "volume": 2400,
-    "category": "veh_parts",
-    "price": 60000,
-    "breaks_into": [
-      { "item": "scrap", "count": [ 2, 8 ] },
-      { "item": "steel_chunk", "count": [ 0, 3 ] },
-      { "item": "hose", "count": 1 },
-      { "item": "cu_pipe", "count": [ 2, 5 ] },
-      { "item": "scrap_copper", "count": [ 1, 2 ] }
-    ],
-    "use_action": { "type": "deploy_furn", "furn_type": "f_fridge" }
-  },
-  {
-    "id": "dc_fridge",
-    "copy-from": "fridge",
-    "type": "GENERIC",
-    "name": "DC fridge",
-    "category": "veh_parts",
-    "description": "A decently sized fridge for keeping food cool.  Fitted with power converter to work with DC."
-  },
-  {
-    "id": "dc_fridge",
-    "//": "Based roughly on Samsung RR35H6145WW size wise.  Electricity usage balanced gameplay wise.",
-    "copy-from": "minifridge",
-    "type": "vehicle_part",
-    "name": "DC fridge",
-    "item": "dc_fridge",
-    "epower": -300,
-    "size": 1400,
-    "breaks_into": [
-      { "item": "scrap", "count": [ 2, 8 ] },
-      { "item": "steel_chunk", "count": [ 0, 3 ] },
-      { "item": "hose", "count": 1 },
-      { "item": "cu_pipe", "count": [ 2, 5 ] },
-      { "item": "scrap_copper", "count": [ 1, 2 ] }
-    ]
   }
 ]

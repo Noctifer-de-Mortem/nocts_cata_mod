@@ -22,91 +22,25 @@
     ]
   },
   {
-    "id": "NC_BIO_WEAPON_carry",
-    "type": "item_group",
-    "//": "Pairs the guns and ammo.",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "NC_BIO_WEAPON_carry_scar_l", "prob": 40 },
-      { "group": "NC_BIO_WEAPON_carry_fal", "prob": 20 },
-      { "group": "NC_BIO_WEAPON_carry_scar_h", "prob": 20 },
-      { "group": "NC_BIO_WEAPON_carry_8mm", "prob": 20 }
-    ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_carry_scar_l",
-    "type": "item_group",
-    "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "scar_l" }, { "item": "stanag30", "count": [ 2, 3 ] } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_carry_fal",
-    "type": "item_group",
-    "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "fn_fal" }, { "item": "falmag", "count": [ 2, 3 ] } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_carry_scar_h",
-    "type": "item_group",
-    "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "scar_h" }, { "item": "scarhmag", "count": [ 2, 3 ] } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_carry_8mm",
-    "type": "item_group",
-    "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [
-      { "distribution": [ { "item": "rm51_assault_rifle", "prob": 50 }, { "item": "rm88_battle_rifle", "prob": 50 } ] },
-      { "item": "8x40_50_mag", "count": [ 2, 3 ] }
-    ]
-  },
-  {
     "id": "NC_BIO_WEAPON_S_weapon",
     "type": "item_group",
     "//": "Bio-Weapon Sigma's weapon, don't think you can define weapon overrides any other way.",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "krx_laser_lmg_plut" } ]
+    "entries": [ { "item": "krx_laser_lmg" } ]
   },
   {
     "id": "NC_BIO_WEAPON_L_weapon",
     "type": "item_group",
     "//": "Bio-Weapon Lambda's weapon, don't think you can define weapon overrides any other way",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "xarm_laser_shotgun_plut" } ]
+    "entries": [ { "item": "xarm_laser_shotgun" } ]
   },
   {
-    "id": "NC_BIO_WEAPON_T_carry",
-    "type": "item_group",
-    "//": "Ammo and goodies.",
-    "subtype": "distribution",
-    "entries": [ { "group": "NC_BIO_WEAPON_T_carry_plut", "prob": 100 }, { "group": "NC_BIO_WEAPON_T_carry_goodies", "prob": 100 } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_T_carry_plut",
+    "id": "NC_BIO_WEAPON_carry",
     "type": "item_group",
     "subtype": "collection",
-    "magazine": 100,
-    "ammo": 100,
-    "entries": [ { "item": "plut_cell", "count": [ 5, 5 ] } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_T_carry_goodies",
-    "type": "item_group",
-    "subtype": "collection",
-    "ammo": 100,
     "entries": [
+      { "item": "adv_UPS_off", "charges": [ 1250, 2500 ] },
       { "item": "mre_veggy_box" },
       { "item": "biomap" },
       { "item": "militarymap" },
