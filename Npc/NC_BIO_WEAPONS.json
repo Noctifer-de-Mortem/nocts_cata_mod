@@ -2,7 +2,7 @@
   {
     "id": "NC_BIO_WEAPON_worn",
     "type": "item_group",
-    "//": "Generic tactical kit, unisex, some concessions to claw mutations.",
+    "//": "Generic tactical kit, unisex.",
     "subtype": "collection",
     "entries": [
       { "item": "kevlar" },
@@ -14,7 +14,7 @@
       { "item": "elbow_pads" },
       { "item": "tac_helmet" },
       { "item": "gloves_wraps" },
-      { "item": "gloves_fingerless" },
+      { "item": "gloves_tactical" },
       { "item": "socks" },
       { "item": "boots_combat" },
       { "item": "backpack" },
@@ -26,14 +26,7 @@
     "type": "item_group",
     "//": "Bio-Weapon Sigma's weapon, don't think you can define weapon overrides any other way.",
     "subtype": "collection",
-    "entries": [ { "item": "krx_laser_lmg" } ]
-  },
-  {
-    "id": "NC_BIO_WEAPON_L_weapon",
-    "type": "item_group",
-    "//": "Bio-Weapon Lambda's weapon, don't think you can define weapon overrides any other way",
-    "subtype": "collection",
-    "entries": [ { "item": "xarm_laser_shotgun" } ]
+    "entries": [ { "item": "arc_laser_rifle", "contents-item": [ "shoulder_strap", "knife_combat" ] } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry",

@@ -6,8 +6,6 @@
     "subtype": "collection",
     "entries": [
       { "item": "undershirt" },
-      { "item": "arm_warmers" },
-      { "item": "leg_warmers" },
       { "item": "pants_army" },
       { "item": "jacket_army" },
       { "item": "balclava" },
@@ -37,10 +35,11 @@
     "entries": [
       {
         "distribution": [
-          { "item": "arc_laser_rifle", "prob": 25 },
-          { "item": "neo_laser_pistol", "prob": 20 },
-          { "item": "krx_laser_lmg", "prob": 15 },
-          { "item": "mx_laser_sniper", "prob": 10 }
+          { "item": "arc_laser_rifle", "prob": 25, "contents-item": [ "shoulder_strap", "knife_combat" ] },
+          { "item": "neo_laser_pistol", "prob": 20, "contents-item": [ "pistol_bayonet" ] },
+          { "item": "akro_laser_smg", "prob": 15, "contents-item": [ "shoulder_strap", "knife_combat" ] },
+          { "item": "xarm_laser_shotgun", "prob": 10, "contents-item": [ "shoulder_strap", "knife_combat" ] },
+          { "item": "mx_laser_sniper", "prob": 5, "contents-item": [ "shoulder_strap", "knife_combat" ] }
         ]
       }
     ]
@@ -48,17 +47,14 @@
   {
     "id": "NC_BIO_HUNTER_E_worn",
     "type": "item_group",
-    "//": "Evelynn Rose's kit, mimics dummied-out player version except for some concessions to using claw mutation instead of CBM, and a MOLLE pack to ensure she can carry items as quest fodder, instead of handing you her weapon.",
+    "//": "Evelynn Rose's kit, mimics dummied-out player version somewhat.  Main change is a MOLLE pack to ensure she can carry items as quest fodder, instead of handing you her weapon.",
     "subtype": "collection",
     "entries": [
       { "item": "bra" },
       { "item": "panties" },
-      { "item": "undershirt" },
-      { "item": "arm_warmers" },
-      { "item": "leg_warmers" },
       { "item": "pants_army" },
       { "item": "jacket_army" },
-      { "item": "balclava" },
+      { "item": "molle_pack" },
       { "item": "beret" },
       { "item": "gloves_fingerless" },
       { "item": "socks" },
@@ -86,6 +82,6 @@
     "type": "item_group",
     "//": "Evelynn Rose's weapon, don't think you can define weapon overrides any other way.",
     "subtype": "collection",
-    "entries": [ { "item": "arc_laser_rifle" } ]
+    "entries": [ { "item": "akro_laser_smg", "contents-item": [ "shoulder_strap", "knife_combat" ] } ]
   }
 ]
