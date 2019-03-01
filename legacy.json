@@ -1,21 +1,93 @@
 [
   {
-    "id": "laser_lmg",
-    "copy-from": "krx_laser_lmg",
-    "type": "GUN",
-    "name": "KRX-108 laser LMG"
-  },
-  {
     "id": "laser_sniper",
-    "copy-from": "mx_laser_sniper",
-    "type": "GUN",
-    "name": "MX-84 laserbeam sniper"
+    "type": "MIGRATION",
+    "replace": "mx_laser_sniper"
   },
   {
     "id": "bolt_rifle_elec",
-    "copy-from": "br_bolt_rifle_elec",
-    "type": "GUN",
-    "name": "BR-96 bolt rifle"
+    "type": "MIGRATION",
+    "replace": "br_bolt_rifle_elec"
+  },
+  {
+    "id": "neo_33_manual",
+    "type": "MIGRATION",
+    "replace": "mag_pistol"
+  },
+  {
+    "id": "akro_388_manual",
+    "type": "MIGRATION",
+    "replace": "mag_smg"
+  },
+  {
+    "id": "arc_314_manual",
+    "type": "MIGRATION",
+    "replace": "mag_rifle"
+  },
+  {
+    "id": "krx_108_manual",
+    "type": "MIGRATION",
+    "replace": "mag_rifle"
+  },
+  {
+    "id": "mx_84_manual",
+    "type": "MIGRATION",
+    "replace": "mag_rifle"
+  },
+  {
+    "id": "xarm_37_manual",
+    "type": "MIGRATION",
+    "replace": "mag_shotgun"
+  },
+  {
+    "id": "neo_laser_pistol_plut",
+    "type": "MIGRATION",
+    "replace": "neo_laser_pistol"
+  },
+  {
+    "id": "akro_laser_smg_plut",
+    "type": "MIGRATION",
+    "replace": "akro_laser_smg"
+  },
+  {
+    "id": "arc_laser_rifle_plut",
+    "type": "MIGRATION",
+    "replace": "arc_laser_rifle"
+  },
+  {
+    "id": "krx_laser_lmg_plut",
+    "type": "MIGRATION",
+    "replace": "krx_laser_lmg"
+  },
+  {
+    "id": "mx_laser_sniper_plut",
+    "type": "MIGRATION",
+    "replace": "mx_laser_sniper"
+  },
+  {
+    "id": "xarm_laser_shotgun_plut",
+    "type": "MIGRATION",
+    "replace": "xarm_laser_shotgun"
+  },
+  {
+    "id": "omnitech_plut_core",
+    "type": "MIGRATION",
+    "replace": "adv_UPS_off"
+  },
+  {
+    "id": "omnitech_ups_core",
+    "type": "MIGRATION",
+    "replace": "UPS_off"
+  },
+  {
+    "id": "fridge",
+    "type": "MIGRATION",
+    "replace": "minifridge"
+  },
+  {
+    "id": "dc_fridge",
+    "type": "MIGRATION",
+    "replace": "minifridge"
   },
   {
     "id": "mon_zombie_bio_infantry",

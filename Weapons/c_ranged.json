@@ -913,13 +913,13 @@
     "recoil": 0,
     "durability": 10,
     "reload": 0,
-    "built_in_mods": [ "laser_sight" ],
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "built_in_mods": [ "rail_laser_sight" ],
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
   },
   {
     "id": "akro_laser_smg",
     "type": "GUN",
-    "looks_like": "mp5",
+    "looks_like": "needlegun",
     "symbol": "(",
     "color": "dark_gray",
     "name": "AKRO-388 laser SMG",
@@ -941,16 +941,17 @@
     "//": "Laser means no dispersion.",
     "recoil": 0,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "burst", 3 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 25 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
     "reload": 0,
-    "default_mods": [ "holo_sight", "pistol_grip" ],
+    "default_mods": [ "rail_laser_sight", "holo_sight", "pistol_grip" ],
     "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "grip", 1 ],
+      [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ],
+      [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ]
@@ -960,6 +961,7 @@
     "type": "GUN",
     "symbol": "(",
     "color": "dark_gray",
+    "looks_like": "laser_rifle",
     "name": "ARC-314 laser rifle",
     "description": "An experimental laser rifle based on the A7 and AKRO-388.  Offers the modular benefits of a combat rifle with the efficiency of a laser weapon, in a relatively compact package.  Overall it mimics the handling and operation of common rifles currently in service, for ease-of-use.  The manufacturer is listed as Omnitech Labs.",
     "price": 1800000,
@@ -981,14 +983,14 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "reload": 0,
-    "default_mods": [ "holo_sight", "rail_laser_sight", "pistol_grip", "grip" ],
+    "default_mods": [ "holo_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ],
+      [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ]
@@ -1000,7 +1002,7 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "KRX-108 laser LMG",
-    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While neither modular nor energy-efficient, this behemoth can deal a devastating blow to large groups of enemies, if you can afford its energy demands.  If attached to a vehicle mount, it can also make full use of its otherwise-limited automated targeting.",
+    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While not very energy-efficient, this behemoth can deal a devastating blow to large groups of enemies, if you can afford its energy demands.  If attached to a vehicle mount, it can also make full use of its otherwise-limited automated targeting.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
@@ -1018,7 +1020,7 @@
     "//": "Fire rate over accuracy but it still is a laser gun.",
     "recoil": 5,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 25 ], [ "AUTO", "high auto", 50 ] ],
+    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
     "reload": 0,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
   },
@@ -1047,7 +1049,7 @@
     "recoil": 10,
     "durability": 10,
     "reload": 100,
-    "default_mods": [ "rail_laser_sight", "bipod" ],
+    "default_mods": [ "bipod" ],
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -1055,7 +1057,7 @@
       [ "rail", 1 ],
       [ "sights", 2 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ],
+      [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ]
@@ -1063,7 +1065,7 @@
   {
     "id": "xarm_laser_shotgun",
     "type": "GUN",
-    "looks_like": "shotgun_d",
+    "looks_like": "rm20",
     "symbol": "(",
     "color": "dark_gray",
     "name": "XARM-37 Pulse Scatter Gun",
@@ -1085,9 +1087,10 @@
     "//": "Shotgun is a shotgun.",
     "recoil": 0,
     "durability": 8,
+    "default_mods": [ "rail_laser_sight", "pistol_grip" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "sights", 1 ], [ "rail", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
   },
   {
     "id": "br_bolt_rifle_elec",
@@ -1128,7 +1131,7 @@
   {
     "id": "mk_ionic_cannon",
     "type": "GUN",
-    "looks_like": "LAW",
+    "looks_like": "laser_cannon",
     "symbol": "(",
     "color": "dark_gray",
     "name": "MK-2 Ionic Cannon",

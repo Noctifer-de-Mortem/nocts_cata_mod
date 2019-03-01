@@ -160,35 +160,5 @@
     "mod_targets": [ "rifle" ],
     "volume": 0,
     "price": 0
-  },
-  {
-    "type": "GENERIC",
-    "id": "omnitech_plut_core",
-    "category": "spare_parts",
-    "symbol": ";",
-    "color": "red",
-    "name": "Omnitech plutonium conversion core",
-    "description": "A small orb shaped device.  It is used to convert omnitech laser weaponry to use plutonium cells as fuel for increaded efficiency.",
-    "price": 10000,
-    "material": "superalloy",
-    "weight": 140,
-    "volume": 2,
-    "bashing": 2,
-    "to_hit": -2
-  },
-  {
-    "type": "GENERIC",
-    "id": "omnitech_ups_core",
-    "category": "spare_parts",
-    "symbol": ";",
-    "color": "red",
-    "name": "Omnitech ups conversion core",
-    "description": "A small orb shaped device.  It is used to convert omnitech laser weaponry to use ups power as fuel for ease of use.",
-    "price": 10000,
-    "material": "superalloy",
-    "weight": 140,
-    "volume": 2,
-    "bashing": 2,
-    "to_hit": -2
   }
 ]
