@@ -2,12 +2,12 @@
   {
     "id": "laser_sniper",
     "type": "MIGRATION",
-    "replace": "mx_laser_sniper"
+    "replace": "laser_rifle"
   },
   {
     "id": "bolt_rifle_elec",
     "type": "MIGRATION",
-    "replace": "br_bolt_rifle_elec"
+    "replace": "emp_gun"
   },
   {
     "id": "neo_33_manual",
@@ -42,32 +42,32 @@
   {
     "id": "neo_laser_pistol_plut",
     "type": "MIGRATION",
-    "replace": "neo_laser_pistol"
+    "replace": "v29"
   },
   {
     "id": "akro_laser_smg_plut",
     "type": "MIGRATION",
-    "replace": "akro_laser_smg"
+    "replace": "laser_rifle"
   },
   {
     "id": "arc_laser_rifle_plut",
     "type": "MIGRATION",
-    "replace": "arc_laser_rifle"
+    "replace": "laser_rifle"
   },
   {
     "id": "krx_laser_lmg_plut",
     "type": "MIGRATION",
-    "replace": "krx_laser_lmg"
+    "replace": "laser_rifle"
   },
   {
     "id": "mx_laser_sniper_plut",
     "type": "MIGRATION",
-    "replace": "mx_laser_sniper"
+    "replace": "laser_rifle"
   },
   {
     "id": "xarm_laser_shotgun_plut",
     "type": "MIGRATION",
-    "replace": "xarm_laser_shotgun"
+    "replace": "laser_rifle"
   },
   {
     "id": "omnitech_plut_core",
