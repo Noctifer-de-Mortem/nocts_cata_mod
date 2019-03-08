@@ -681,7 +681,8 @@
       [ "bio_purifier", 7 ],
       [ "bio_radscrubber", 7 ],
       [ "bio_sunglasses", 7 ],
-      [ "bio_targeting", 5 ]
+      [ "bio_targeting", 5 ],
+      [ "bio_ups", 8 ]
     ]
   },
   {
@@ -700,7 +701,8 @@
       [ "bio_night_vision", 1 ],
       [ "bio_recycler", 5 ],
       [ "bio_targeting", 5 ],
-      [ "bio_tools", 5 ]
+      [ "bio_tools", 5 ],
+      [ "bio_ups", 8 ]
     ]
   },
   {

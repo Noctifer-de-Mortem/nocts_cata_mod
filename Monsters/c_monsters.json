@@ -387,7 +387,7 @@
         "type": "gun",
         "cooldown": 5,
         "move_cost": 350,
-        "gun_type": "laser_lmg_monster",
+        "gun_type": "krx_laser_lmg_monster",
         "ammo_type": "generic_no_ammo",
         "fake_str": 4,
         "fake_dex": 3,

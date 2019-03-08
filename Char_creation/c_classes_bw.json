@@ -414,6 +414,7 @@
     "points": 12,
     "CBMs": [
       "bio_eye_enhancer",
+      "bio_ups",
       "bio_eye_optic",
       "bio_night_vision",
       "bio_targeting",
@@ -535,6 +536,7 @@
     "points": 15,
     "CBMs": [
       "bio_armor_eyes",
+      "bio_ups",
       "bio_armor_head",
       "bio_armor_torso",
       "bio_armor_arms",
