@@ -235,6 +235,7 @@
       "bio_evap",
       "bio_climate",
       "bio_furnace",
+      "bio_ethanol",
       "bio_recycler",
       "bio_carbon",
       "bio_watch",
@@ -311,6 +312,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_armor_interface_mkII",
+      "bio_torsionratchet",
       "bio_advreactor",
       "bio_plut_filter"
     ],
@@ -346,7 +348,7 @@
       "bio_remote",
       "bio_resonator",
       "bio_shock",
-      "bio_torsionratchet",
+      "bio_batteries",
       "bio_cable",
       "bio_tools",
       "bio_razors",
@@ -489,7 +491,7 @@
       "bio_memory",
       "bio_tools",
       "bio_flashlight",
-      "bio_torsionratchet",
+      "bio_batteries",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
