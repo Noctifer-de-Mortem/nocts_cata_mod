@@ -36,14 +36,14 @@
         "#": "t_metal_floor",
         "&": "t_metal_floor",
         "+": "t_rdoor_c",
-        ",": "t_dirt",
+        ",": "t_grass",
         "-": "t_metal_floor",
         ".": "t_metal_floor",
         "/": "t_door_metal_locked",
         "4": "t_plut_generator",
         "6": "t_metal_floor",
         "<": "t_door_metal_c",
-        "=": "t_metal_floor",
+        "=": "t_dirt",
         ">": "t_wall",
         "A": "t_metal_floor",
         "B": "t_metal_floor",
@@ -104,7 +104,10 @@
         "w": "f_wreckage",
         "{": "f_dresser"
       },
-      "mapping": { "w": { "item": [ { "item": "scrap", "count": [ 1, 3 ] } ] } },
+      "mapping": [
+        { "w": { "item": [ { "item": "scrap", "count": [ 1, 3 ] } ] } },
+        { "%": { "item": [ { "item": "scrap", "count": [ 1, 3 ] } ] } }
+      ],
       "place_traps": [ { "trap": "tr_dissector", "x": 15, "y": 21 } ],
       "place_toilets": [ { "x": 1, "y": 22 } ],
       "place_items": [
