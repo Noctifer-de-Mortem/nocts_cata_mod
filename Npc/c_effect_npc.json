@@ -11,6 +11,11 @@
   },
   {
     "type": "effect_type",
+    "id": "router_mission",
+    "//": "Used to specifiy that a specific player has accepted the mission to slay Apophis.  Intended to be permanant."
+  },
+  {
+    "type": "effect_type",
     "id": "router_suggestion",
     "//": "Used to specifiy that a specific player has received Router's suggestion to give the bio-weapons something to do.  Intended to be permanant."
   },

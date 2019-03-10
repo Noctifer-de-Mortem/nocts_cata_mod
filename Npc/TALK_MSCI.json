@@ -10,7 +10,7 @@
     "responses": [
       {
         "text": "So now what are you going to do?",
-        "condition": { "not": { "or": [ { "has_assigned_mission": true }, { "has_available_mission": true } ] } },
+        "condition": { "and": [ { "not": { "u_has_mission": "MISSION_PROOF_APOPHIS_DEAD" } }, { "u_has_effect": "router_mission" } ] },
         "topic": "TALK_MSCI_NOWWHAT"
       },
       { "text": "What is this place?", "topic": "TALK_MSCI_CC_EXPLAIN" },
