@@ -422,13 +422,13 @@
       "bio_night_vision",
       "bio_furnace",
       "bio_recycler",
-	  "bio_targeting",
+      "bio_targeting",
       "bio_climate",
       "bio_evap",
       "bio_lighter",
       "bio_ups",
       "bio_power_storage_mkII",
-      "bio_power_storage_mkII",,
+    "bio_power_storage_mkII"
       
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
