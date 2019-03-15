@@ -1,14 +1,12 @@
 [
   {
-    "id": "Survivor_Holdout",
+    "id": "Survivor_Holdout_1",
     "type": "overmap_terrain",
     "name": "Survivor Holdout",
     "sym": 72,
     "color": "i_red",
     "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "extras": "build"
   },
   {
     "id": "surv_camp",
