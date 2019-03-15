@@ -373,7 +373,9 @@
       "bio_shock",
       "bio_night_vision",
       "bio_adrenaline",
-      "bio_torsionratchet",
+      "bio_metabolics",
+      "bio_nanobots",
+      "bio_painkiller",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
@@ -416,19 +418,18 @@
     "points": 12,
     "CBMs": [
       "bio_eye_enhancer",
-      "bio_ups",
       "bio_eye_optic",
       "bio_night_vision",
-      "bio_targeting",
-      "bio_tools",
-      "bio_flashlight",
-      "bio_lighter",
-      "bio_evap",
-      "bio_climate",
       "bio_furnace",
       "bio_recycler",
+      "bio_targeting",
+      "bio_climate",
+      "bio_evap",
+      "bio_lighter",
+      "bio_ups",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
+      
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
@@ -535,15 +536,15 @@
     "ident": "bio_knight",
     "name": "Super Juggernaut",
     "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
-    "points": 15,
+    "points": 12,
     "CBMs": [
       "bio_armor_eyes",
-      "bio_ups",
       "bio_armor_head",
       "bio_armor_torso",
       "bio_armor_arms",
       "bio_armor_legs",
       "bio_carbon",
+      "bio_sword",
       "bio_sunglasses",
       "bio_ears",
       "bio_targeting",
@@ -554,16 +555,17 @@
       "bio_plut_filter",
       "bio_radscrubber",
       "bio_power_armor_interface_mkII",
+      "bio_ups",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      { "level": 5, "name": "gun" },
-      { "level": 5, "name": "rifle" },
-      { "level": 5, "name": "melee" },
-      { "level": 5, "name": "bashing" },
-      { "level": 5, "name": "unarmed" }
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "cutting" },
+      { "level": 3, "name": "dodge" }
     ],
     "items": {
       "both": { "items": [ "hmil_armor" ], "entries": [ { "item": "krx_laser_lmg", "contents-item": [ "shoulder_strap" ] } ] },
