@@ -67,15 +67,30 @@
     "flags": [ "NO_ROTATE" ]
   },
   {
-    "id": "Bio_Weapon_Lab",
+    "id": "Bio_Weapon_Lab_1",
+    "type": "overmap_terrain",
+    "name": "parking lot",
+    "sym": 79,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "allow_road": true,
+    "extras": "field"
+  },
+  {
+    "id": "Bio_Weapon_Lab_2",
     "type": "overmap_terrain",
     "name": "Bio-Weapon Lab",
     "sym": 76,
     "color": "light_blue",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "see_cost": 5
+  },
+  {
+    "id": "Bio_Weapon_Lab_b",
+    "type": "overmap_terrain",
+    "name": "Bio-Weapon Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5
   },
   {
     "id": "Unknown_Lab",
@@ -100,25 +115,30 @@
     "flags": [ "NO_ROTATE" ]
   },
   {
-    "id": "makeshift_command_center",
-    "type": "overmap_terrain",
-    "name": "Makeshift Command Center",
-    "sym": 67,
-    "color": "blue",
-    "see_cost": 5,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "bio_field",
+    "id": "makeshift_command_center_1",
     "type": "overmap_terrain",
     "name": "parking lot",
     "sym": 79,
     "color": "dark_gray",
     "see_cost": 2,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "allow_road": true,
+    "extras": "field"
+  },
+  {
+    "id": "makeshift_command_center_2",
+    "type": "overmap_terrain",
+    "name": "Makeshift Command Center",
+    "sym": 67,
+    "color": "blue",
+    "see_cost": 5
+  },
+  {
+    "id": "makeshift_command_center_b",
+    "type": "overmap_terrain",
+    "name": "Makeshift Command Center",
+    "sym": 67,
+    "color": "blue",
+    "see_cost": 5
   },
   {
     "id": "b_field",
@@ -130,29 +150,6 @@
     "mondensity": 0,
     "allow_road": true,
     "extras": "field",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "b2_field",
-    "type": "overmap_terrain",
-    "name": "parking lot",
-    "sym": 79,
-    "color": "dark_gray",
-    "see_cost": 2,
-    "mondensity": 0,
-    "allow_road": true,
-    "extras": "field",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "biow_field",
-    "type": "overmap_terrain",
-    "name": "field",
-    "sym": 46,
-    "color": "brown",
-    "see_cost": 2,
-    "mondensity": 0,
-    "extras": "build",
     "flags": [ "NO_ROTATE" ]
   },
   {

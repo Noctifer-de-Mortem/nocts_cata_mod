@@ -16,7 +16,7 @@
     "type": "start_location",
     "ident": "Bio_Weapon_Lab_l",
     "name": "Bio Weapon Lab",
-    "target": "Bio_Weapon_Lab"
+    "target": "Bio_Weapon_Lab_b"
   },
   {
     "type": "start_location",
