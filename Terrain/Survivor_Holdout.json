@@ -48,7 +48,7 @@
         "a": "t_dirt",
         "b": "t_dirt",
         "c": "t_fence_post",
-        "e": "t_floor_primative",
+        "e": "t_floor_primitive",
         "f": "t_dirt",
         "o": "t_palisade_pulley",
         "r": "t_door_c_peep",
@@ -118,7 +118,7 @@
       ],
       "place_vehicles": [
         { "vehicle": "surv_tractor", "x": 19, "y": 10, "chance": 99, "fuel": 10, "status": -1, "rotation": 270 },
-        { "vehicle": "surv_rv", "x": 10, "y": 6, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
+        { "vehicle": "surv_rv", "x": 10, "y": 8, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
       ]
     }
   }
