@@ -75,30 +75,6 @@
   },
   {
     "type": "vehicle_part",
-    "id": "engine_electric_small",
-    "copy-from": "engine_electric_small",
-    "override": true,
-    "flags": [ "FOLDABLE", "ENGINE" ],
-    "folded_volume": 2
-  },
-  {
-    "type": "vehicle_part",
-    "id": "tank_little",
-    "copy-from": "tank_little",
-    "override": true,
-    "flags": [ "FOLDABLE" ],
-    "folded_volume": 2
-  },
-  {
-    "type": "vehicle_part",
-    "id": "funnel",
-    "copy-from": "funnel",
-    "override": true,
-    "flags": [ "FOLDABLE" ],
-    "folded_volume": 2
-  },
-  {
-    "type": "vehicle_part",
     "id": "surv_full_223_t",
     "copy-from": "turret",
     "name": "mounted survivor's .223 assault rifle",
