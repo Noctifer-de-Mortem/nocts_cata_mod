@@ -587,10 +587,10 @@
     "description": "A collapsed fighting bow for easy storage.  Activate to arm the bow.",
     "price": 88000,
     "material": [ "wood", "steel" ],
-    "weight": 760,
-    "volume": 2,
+    "weight": 1144,
+    "volume": 4,
     "to_hit": -1,
-    "use_action": "DISASSEMBLE"
+    "use_action": { "type": "transform", "msg": "You unfold your bow, locking the arms into place.", "target": "survbow" }
   },
   {
     "id": "semap",
