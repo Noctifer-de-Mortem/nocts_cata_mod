@@ -559,7 +559,7 @@
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
-      "terrain": [ "Survivor_Holdout" ],
+      "terrain": [ "Survivor_Holdout_1" ],
       "message": "Throughly poring over the map, you memorize the location."
     }
   },
@@ -780,7 +780,7 @@
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
-      "terrain": [ "makeshift_command_center", "b2_field" ],
+      "terrain": [ "makeshift_command_center_1", "makeshift_command_center_2" ],
       "message": "Looking down at the note, you memorize the location shown."
     }
   },
@@ -800,7 +800,7 @@
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
-      "terrain": [ "Bio_Weapon_Lab", "bio_field" ],
+      "terrain": [ "Bio_Weapon_Lab_1", "Bio_Weapon_Lab_2" ],
       "message": "The directions on the map catch your interest.  You wonder if going there is a good idea."
     }
   },

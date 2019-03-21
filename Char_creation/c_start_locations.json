@@ -4,7 +4,7 @@
     "ident": "Survivor_Holdout_l",
     "//": "starts in Survivor Holdout. Not in use currently.",
     "name": "Survivor Holdout",
-    "target": "Survivor_Holdout"
+    "target": "Survivor_Holdout_1"
   },
   {
     "type": "start_location",
@@ -16,7 +16,7 @@
     "type": "start_location",
     "ident": "Bio_Weapon_Lab_l",
     "name": "Bio Weapon Lab",
-    "target": "Bio_Weapon_Lab"
+    "target": "Bio_Weapon_Lab_b"
   },
   {
     "type": "start_location",

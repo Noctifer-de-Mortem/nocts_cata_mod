@@ -80,7 +80,6 @@
     "special_when_hit": [ "ZAPBACK", 75 ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
-    "upgrades": { "half_life": 15, "into": "mon_zombie_failed_weapon" },
     "flags": [
       "SEES",
       "REGENERATES_10",
