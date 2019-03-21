@@ -91,26 +91,40 @@
     "see_cost": 5
   },
   {
-    "id": "Unknown_Lab",
+    "id": "Unknown_Lab_1",
     "type": "overmap_terrain",
-    "name": "Unknown Lab",
+    "name": "parking lot",
+    "sym": 79,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "allow_road": true,
+    "extras": "field"
+  },
+  {
+    "id": "Unknown_Lab_2",
+    "type": "overmap_terrain",
+    "name": "parking lot",
+    "sym": 79,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "extras": "field"
+  },
+  {
+    "id": "Unknown_Lab_3",
+    "type": "overmap_terrain",
+    "name": "dormitories",
     "sym": 76,
     "color": "light_blue",
     "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "extras": "build"
   },
   {
-    "id": "Unknown_Bunker",
+    "id": "Unknown_Lab_4",
     "type": "overmap_terrain",
     "name": "Unknown Bunker",
     "sym": 66,
     "color": "light_blue",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "see_cost": 5
   },
   {
     "id": "makeshift_command_center_1",
