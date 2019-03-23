@@ -127,6 +127,38 @@
     "see_cost": 5
   },
   {
+    "id": "Unknown_Lab_b1",
+    "type": "overmap_terrain",
+    "name": "Unknown Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "Unknown_Lab_b2",
+    "type": "overmap_terrain",
+    "name": "Unknown Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "Unknown_Lab_b3",
+    "type": "overmap_terrain",
+    "name": "Unknown Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
+    "id": "Unknown_Lab_b4",
+    "type": "overmap_terrain",
+    "name": "Unknown Lab",
+    "sym": 76,
+    "color": "light_blue",
+    "see_cost": 5
+  },
+  {
     "id": "makeshift_command_center_1",
     "type": "overmap_terrain",
     "name": "parking lot",
