@@ -51,8 +51,8 @@
       "furniture": { "c": "f_chair", "d": "f_desk" },
       "place_loot": [
         { "item": "note_apophis", "x": 17, "y": 5 },
-        { "item": "glass_shard", "x": 18, "y": 5, "repeat": [ 5, 10 ] },
-        { "item": "wire", "x": 18, "y": 5, "chance": 20 },
+        { "item": "glass_shard", "x": 18, "y": 7, "repeat": [ 5, 10 ] },
+        { "item": "wire", "x": 18, "y": 7, "chance": 20 },
         { "group": "map_extra_science", "x": 18, "y": 6, "chance": 75 }
       ],
       "place_fields": [

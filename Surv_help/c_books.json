@@ -1074,6 +1074,7 @@
   {
     "type": "GENERIC",
     "id": "note_apophis",
+    "looks_like": "survnote",
     "category": "books",
     "symbol": ",",
     "color": "white",
