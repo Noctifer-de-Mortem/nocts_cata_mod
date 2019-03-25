@@ -419,7 +419,8 @@
     "loudness": 50,
     "magazines": [ [ "223", [ "surv_223_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -462,7 +463,8 @@
     "loudness": 60,
     "magazines": [ [ "22", [ "surv_22_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
+      [ "accessories", 2 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
       [ "magazine", 2 ],
@@ -501,7 +503,8 @@
     "loudness": 60,
     "magazines": [ [ "9mm", [ "surv_9mm_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
+      [ "accessories", 2 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
       [ "magazine", 2 ],
@@ -540,7 +543,8 @@
     "loudness": 60,
     "magazines": [ [ "45", [ "surv_45_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
+      [ "accessories", 2 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
       [ "magazine", 2 ],
@@ -579,7 +583,8 @@
     "loudness": 50,
     "magazines": [ [ "308", [ "surv_308_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -622,7 +627,8 @@
     "loudness": 50,
     "magazines": [ [ "762", [ "surv_762_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -665,7 +671,8 @@
     "loudness": 160,
     "magazines": [ [ "shot", [ "surv_12_mag" ] ] ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -709,7 +716,8 @@
     "magazines": [ [ "308", [ "surv_belt_308" ] ] ],
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -754,7 +762,8 @@
     "magazines": [ [ "762", [ "surv_belt_762" ] ] ],
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
+      [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -799,7 +808,7 @@
     "magazines": [ [ "223", [ "surv_belt_223" ] ] ],
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
-      [ "accessories", 4 ],
+      [ "accessories", 3 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
