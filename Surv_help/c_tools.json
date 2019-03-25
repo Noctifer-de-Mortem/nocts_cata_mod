@@ -760,7 +760,7 @@
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
-      "terrain": [ "Unknown_Bunker" ],
+      "terrain": [ "Unknown_Lab_1", "Unknown_Lab_2", "Unknown_Lab_3", "Unknown_Lab_4" ],
       "message": "You read the map.  You gulp and realize what must be done..."
     }
   },

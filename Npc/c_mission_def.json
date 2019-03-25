@@ -9,7 +9,7 @@
     "item": "badge_bio_weapon_apophis",
     "start": {
       "effect": { "u_add_effect": "router_mission", "duration": "PERMANENT" },
-      "assign_mission_target": { "om_terrain": "Unknown_Bunker", "om_special": "Unknown_Lab_s", "reveal_radius": 3, "search_range": 180, "z": 0 }
+      "assign_mission_target": { "om_terrain": "Unknown_Lab_4", "om_special": "Unknown_Lab_s", "reveal_radius": 3, "search_range": 180, "z": 0 }
     },
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],

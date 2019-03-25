@@ -3,7 +3,7 @@
     "id": "mon_zombie_failed_weapon",
     "type": "MONSTER",
     "name": "zombie failed Bio-Weapon",
-    "description": "A zombie bionic mutant. One of the more 'enhanced' zombies. Dangerous on its own but even more so in groups.",
+    "description": "A zombie bionic mutant.  One of the more enhanced zombies.  Dangerous on its own but even more so in groups.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
     "diff": 25,
@@ -40,7 +40,6 @@
       "STUMBLES",
       "POISON",
       "ELECTRIC",
-      "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
       "NO_BREATHE",
@@ -52,7 +51,7 @@
     "id": "mon_failed_weapon",
     "type": "MONSTER",
     "name": "failed Bio-Weapon",
-    "description": "A walking bionic mutant. Deformed from its 'enhancements', and jealous of your existence, it hunts and kills whatever it finds.",
+    "description": "A walking bionic mutant.  Deformed from its \"enhancements\", and jealous of your existence, it hunts and kills whatever it finds.",
     "default_faction": "fbio-weapon",
     "species": [ "FBIO-WEAPON" ],
     "diff": 25,
@@ -88,7 +87,6 @@
       "WARM",
       "HUMAN",
       "ELECTRIC",
-      "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
       "PATH_AVOID_DANGER_2"
@@ -98,7 +96,7 @@
     "id": "hulk_weapon",
     "type": "MONSTER",
     "name": "Bio-Weapon Apophis",
-    "description": "The ultimate bionic mutant.  Only god knows why it exists.  With incredible power, armor and bionics on its side, victory won't come easy.",
+    "description": "The ultimate bionic mutant.  Only God knows why it exists.  With incredible power, armor and bionics on its side, victory won't come easy.",
     "default_faction": "fbio-weapon",
     "species": [ "BIO-WEAPON" ],
     "diff": 75,
@@ -161,7 +159,6 @@
       "SMELLS",
       "WARM",
       "HUMAN",
-      "ATTACKMON",
       "PUSH_MON",
       "ELECTRIC",
       "GRABS",
@@ -232,8 +229,8 @@
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_infantry",
     "name": "zombie super soldier",
-    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them.",
-    "default_faction": "zombie",
+    "description": "A zombie of a former member of the military.  This one wields a particular rifle and bionics and appears to know how to use them.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -287,15 +284,15 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_rifle",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_infantry",
     "name": "zombie super soldier",
-    "description": "A zombie of a former member of the military. This one wields a particular shotgun and bionics and appears to know how to use them.",
-    "default_faction": "zombie",
+    "description": "A zombie of a former member of the military.  This one wields a particular shotgun and bionics and appears to know how to use them.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -349,15 +346,15 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_shotgun",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_knight",
-    "name": "zombie super jauggernaut",
-    "description": "A zombie of a former member of the military. This one wields a particular LMG, bionics and armor and appears to know how to use them.",
-    "default_faction": "zombie",
+    "name": "zombie super juggernaut",
+    "description": "A zombie of a former member of the military.  This one wields a particular LMG, bionics, and armor, and appears to know how to use them.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -399,7 +396,7 @@
         "targeting_cost": 200,
         "targeting_sound": "swoosh...click!",
         "targeting_volume": 20,
-        "description": "The super soldier fires its lmg!",
+        "description": "The super soldier fires its LMG!",
         "no_ammo_sound": "beep-beep-beep!"
       },
       [ "GRAB", 5 ],
@@ -411,15 +408,15 @@
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_drops": "wild_bio_knight_lmg",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
+    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_knight_lauhcher",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_knight",
-    "name": "zombie super jauggernaut",
-    "description": "A zombie of a former member of the military. This one wields a particular launcher, bionics and armor and appears to know how to use them.",
-    "default_faction": "zombie",
+    "name": "zombie super juggernaut",
+    "description": "A zombie of a former member of the military.  This one wields a particular launcher, bionics, and armor,  and appears to know how to use them.  Run.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -473,15 +470,15 @@
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "death_drops": "wild_bio_knight_launcher",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
+    "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_scout_sniper",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_scout",
     "name": "zombie super scout",
-    "description": "A zombie of a former member of the military. This one wields a particular rifle and bionics and appears to know how to use them. For some reson it seems to just be watching you...  As if waiting for you to make a move...",
-    "default_faction": "zombie",
+    "description": "A zombie of a former member of the military.  This one wields a particular rifle and bionics and appears to know how to use them.  For some reson it seems to just be watching you, as if waiting for you to make a move...",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -535,15 +532,15 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_scout_sniper",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
     "name": "zombie super B.A.M.R.U",
-    "description": "A zombie of a former member of the military. This one wields a particular pistol and bionics and appears to know how to use them.",
-    "default_faction": "zombie",
+    "description": "A zombie of a former member of the military.  This one wields a particular pistol and bionics and appears to know how to use them.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -596,15 +593,15 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_pistol",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON",  "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_zombie_bio_tool_smg",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
     "name": "zombie super B.A.M.R.U",
-    "description": "A zombie of a former member of the military. This one wields a particular smg and bionics and appears to know how to use them.",
-    "default_faction": "zombie",
+    "description": "A zombie of a former member of the military.  This one wields a particular smg and bionics and appears to know how to use them.",
+    "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
     "diff": 25,
     "size": "MEDIUM",
@@ -657,6 +654,6 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_smg",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "BASHES", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
   }
 ]

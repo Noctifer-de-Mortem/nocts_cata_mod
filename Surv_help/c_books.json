@@ -1070,5 +1070,22 @@
     "intelligence": 12,
     "time": 45,
     "fun": -1
+  },
+  {
+    "type": "GENERIC",
+    "id": "note_apophis",
+    "looks_like": "survnote",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": "printed note",
+    "name_plural": "printed notes",
+    "snippet_category": "note_apophis",
+    "description": "A scrap of paper.  Something's been printed on it.",
+    "price": 0,
+    "material": "paper",
+    "flags": "TRADER_AVOID",
+    "weight": 3,
+    "volume": 0
   }
 ]
