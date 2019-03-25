@@ -40,7 +40,6 @@
       "STUMBLES",
       "POISON",
       "ELECTRIC",
-      "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
       "NO_BREATHE",
@@ -88,7 +87,6 @@
       "WARM",
       "HUMAN",
       "ELECTRIC",
-      "ATTACKMON",
       "BASHES",
       "GROUP_BASH",
       "PATH_AVOID_DANGER_2"
@@ -161,7 +159,6 @@
       "SMELLS",
       "WARM",
       "HUMAN",
-      "ATTACKMON",
       "PUSH_MON",
       "ELECTRIC",
       "GRABS",

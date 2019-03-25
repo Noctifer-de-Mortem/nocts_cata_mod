@@ -13,7 +13,7 @@
         "f   #   ........|II|    ",
         "f#    7 ........Id_+.   ",
         "f  7    ........I6c|. 7 ",
-        "f7# #   ........|II|.#  ",
+        "f7# #   ........|Iw|.#  ",
         "f  7#   ................",
         "f#     #................",
         "f7# #   ................",
@@ -45,17 +45,20 @@
         "c": "t_floor",
         "d": "t_floor",
         "f": "t_chainfence_v",
+        "w": "t_floor",
         "x": "t_chaingate_l"
       },
       "furniture": { "c": "f_chair", "d": "f_desk" },
-      "place_items": [
-        { "item": "map_extra_science", "x": 18, "y": 6, "chance": 75 }
+      "place_loot": [
+        { "item": "note_apophis", "x": 17, "y": 5 },
+        { "item": "glass_shard", "x": 18, "y": 5, "repeat": [ 5, 10 ] },
+        { "item": "wire", "x": 18, "y": 5, "chance": 20 },
+        { "group": "map_extra_science", "x": 18, "y": 6, "chance": 75 }
       ],
       "place_fields": [
         { "field": "fd_blood", "x": 18, "y": 6 },
-        { "field": "fd_blood", "x": 17, "y": 6 },
-        { "field": "fd_blood", "x": 17, "y": 7 },
-        { "field": "fd_blood", "x": 18, "y": 7 }
+        { "field": "fd_blood", "x": 18, "y": 5 },
+        { "field": "fd_blood", "x": 18, "y": 4 }
       ],
       "place_monster": [
         { "monster": "mon_turret_bmg", "x": 1, "y": 1 },
@@ -110,8 +113,8 @@
         "e": "t_pavement_y",
         "f": "t_chainfence_v"
       },
-      "place_items": [
-        { "item": "map_extra_science", "x": 14, "y": 8, "chance": 75 }
+      "place_loot": [
+        { "group": "map_extra_science", "x": 14, "y": 8, "chance": 75 }
       ],
       "place_fields": [
         { "field": "fd_blood", "x": 14, "y": 8 },
@@ -208,15 +211,15 @@
         "d": { "items": { "item": "dresser", "chance": 90 } }
       },
       "toilets": { "t": {  } },
-      "place_items": [
-        { "item": "fridge", "x": 18, "y": 9, "chance": 80, "repeat": 5 },
-        { "item": "homebooks", "x": [ 13, 15 ], "y": 18, "chance": 75, "repeat": 6 },
-        { "item": "oven", "x": 18, "y": 7, "chance": 75, "repeat": 3 },
-        { "item": "map_extra_science", "x": 11, "y": 17, "chance": 75 },
-        { "item": "map_extra_science", "x": 16, "y": 7, "chance": 75 },
-        { "item": "map_extra_science", "x": 6, "y": 12, "chance": 75 },
-        { "item": "map_extra_science", "x": 7, "y": 5, "chance": 75 },
-        { "item": "map_extra_science", "x": 20, "y": 10, "chance": 75 }
+      "place_loot": [
+        { "group": "fridge", "x": 18, "y": 9, "chance": 80, "repeat": 5 },
+        { "group": "homebooks", "x": [ 13, 15 ], "y": 18, "chance": 75, "repeat": 6 },
+        { "group": "oven", "x": 18, "y": 7, "chance": 75, "repeat": 3 },
+        { "group": "map_extra_science", "x": 11, "y": 17, "chance": 75 },
+        { "group": "map_extra_science", "x": 16, "y": 7, "chance": 75 },
+        { "group": "map_extra_science", "x": 6, "y": 12, "chance": 75 },
+        { "group": "map_extra_science", "x": 7, "y": 5, "chance": 75 },
+        { "group": "map_extra_science", "x": 20, "y": 10, "chance": 75 }
       ],
       "place_fields": [
         { "field": "fd_blood", "x": 11, "y": 17 },
@@ -261,8 +264,8 @@
         "   7                #  f",
         "7       ########    # 7f",
         "   #   ##||||||##      f",
-        "     # #||6666||# 7   #f",
-        "........Cmccccm|#    7 f",
+        "     # #||m12m||# 7   #f",
+        "........Cmmccmm|#    7 f",
         "........+mmmmm>|#   # 7f",
         "........+mmmmm>|#      f",
         "........|mccccm|#    7#f",
@@ -284,6 +287,8 @@
         "-": "t_chainfence_h",
         ".": "t_dirt",
         "6": "t_console_broken",
+        "1": "t_radio_controls",
+        "2": "t_radio_tower",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
         ">": "t_stairs_down",
         "C": "t_card_reader_broken",
@@ -294,8 +299,8 @@
         "|": "t_wall_metal"
       },
       "furniture": { "c": "f_chair" },
-      "place_items": [
-        { "item": "map_extra_science", "x": 10, "y": 13, "chance": 75 }
+      "place_loot": [
+        { "group": "map_extra_science", "x": 10, "y": 13, "chance": 75 }
       ],
       "place_fields": [
         { "field": "fd_blood", "x": 10, "y": 13 },
@@ -383,9 +388,28 @@
       "place_loot": [
         { "item": "UPS_off", "x": 13, "y": 12, "chance": 90 },
         { "item": "br_bolt_rifle_elec", "x": 13, "y": 12 },
+        { "item": "large_repairkit", "x": 21, "y": 12 },
+        { "item": "flesh_weapon_kit", "x": 21, "y": 13 },
         { "group": "electronics", "x": [ 14, 15 ], "y": 12, "chance": 50, "repeat": 10 },
-        { "group": "tools_mechanic", "x": 20, "y": [ 14, 15 ], "chance": 50, "repeat": 5 },
-        { "group": "tools_mechanic", "x": 20, "y": [ 14, 15 ], "chance": 50, "repeat": 5 },
+        { "group": "tools_mechanic", "x": 19, "y": [ 14, 15 ], "chance": 50, "repeat": 5 },
+        { "group": "ammo_milspec", "x": [ 21, 22 ], "y": 9, "chance": 50, "repeat": 6 },
+        { "group": "mags_milspec", "x": 23, "y": 9, "chance": 25, "repeat": 3 },
+        { "group": "map_extra_science", "x": 8, "y": 22, "chance": 75 }
+      ],
+      "place_fields": [
+        { "field": "fd_blood", "x": 8, "y": 22 },
+        { "field": "fd_blood", "x": 8, "y": 21 },
+        { "field": "fd_blood", "x": 8, "y": 20 },
+        { "field": "fd_blood", "x": 14, "y": 23 },
+        { "field": "fd_blood", "x": 15, "y": 23 },
+        { "field": "fd_blood", "x": 16, "y": 23 }
+      ],
+      "place_monster": [
+        { "monster": "mon_failed_weapon", "x": 16, "y": 13 },
+        { "monster": "mon_failed_weapon", "x": 23, "y": 16 },
+        { "monster": "mon_failed_weapon", "x": 6, "y": 15 },
+        { "monster": "mon_failed_weapon", "x": 12, "y": 21 },
+        { "monster": "mon_failed_weapon", "x": 22, "y": 23 }
       ]
     }
   },
@@ -400,11 +424,11 @@
         "                        ",
         "  ||||||||||||||||||||| ",
         "  ||||||||||||||||||||| ",
-        " |||_..ji.._.....+..}|| ",
-        " ||6...CC........+. }|| ",
-        " ||6c.......||++||..}|| ",
-        " ||6........||..R|..}|| ",
-        " |||WWWWWWWW||..||r.}|| ",
+        " |||_..ji.._.....+..{|| ",
+        " ||6...CC........+..{|| ",
+        " ||6c.......||++||..{|| ",
+        " ||6........||..R|..{|| ",
+        " |||WWWWWWWW||..||r.{|| ",
         "||||WWWWWWWW||++||||||| ",
         "{{|.............|       ",
         "..|.............|       ",
@@ -419,7 +443,7 @@
         "..|..d...d...|++||||    ",
         "..+..c6..6c..+..|       ",
         "..+..........+..|       ",
-        "..|..........||||       ",
+        "..|....__....||||       ",
         "||||||||||||||          "
       ],
       "terrain": {
@@ -455,7 +479,51 @@
         "r": "f_rack"
       },
       "place_loot": [
-
+        { "item": "flesh_pistol", "x": 1, "y": 12 },
+        { "item": "evil_invitation", "x": 1, "y": 13 },
+        { "item": "blood_m", "x": 14, "y": 15 },
+        { "item": "blood_p", "x": 15, "y": 15 },
+        { "item": "stealth_cloak_f", "x": 18, "y": 7 },
+        { "item": "megamap", "x": 18, "y": 7 },
+        { "group": "guns_milspec", "x": [ 0, 1 ], "y": 9, "chance": 50, "repeat": 3 },
+        { "group": "chem_lab", "x": 18, "y": [ 12, 14 ], "chance": 75, "repeat": 9 },
+        { "group": "mut_lab", "x": 18, "y": [ 15, 18 ], "chance": 50, "repeat": 12 },
+        { "group": "bionics_mil", "x": 20, "y": [ 3, 7 ], "chance": 75, "repeat": 5 },
+        { "group": "bionics_sci", "x": 20, "y": [ 3, 7 ], "chance": 75, "repeat": 5 },
+        { "item": "anesthesia", "x": [ 7, 8 ], "y": 4, "chance": 75, "repeat": 2 },
+        { "group": "map_extra_military", "x": 8, "y": 11, "chance": 95 },
+        { "group": "map_extra_military", "x": 12, "y": 9, "chance": 95 },
+        { "group": "map_extra_military", "x": 4, "y": 12, "chance": 95 },
+        { "group": "map_extra_military", "x": 7, "y": 17, "chance": 95 },
+        { "group": "map_extra_military", "x": 12, "y": 22, "chance": 95 }
+      ],
+      "place_fields": [
+        { "field": "fd_blood", "x": 8, "y": 11 },
+        { "field": "fd_blood", "x": 8, "y": 12 },
+        { "field": "fd_blood", "x": 8, "y": 13 },
+        { "field": "fd_blood", "x": 12, "y": 9 },
+        { "field": "fd_blood", "x": 13, "y": 10 },
+        { "field": "fd_blood", "x": 13, "y": 11 },
+        { "field": "fd_blood", "x": 4, "y": 12 },
+        { "field": "fd_blood", "x": 3, "y": 13 },
+        { "field": "fd_blood", "x": 3, "y": 14 },
+        { "field": "fd_blood", "x": 7, "y": 17 },
+        { "field": "fd_blood", "x": 7, "y": 18 },
+        { "field": "fd_blood", "x": 7, "y": 19 },
+        { "field": "fd_blood", "x": 12, "y": 22 },
+        { "field": "fd_blood", "x": 11, "y": 23 },
+        { "field": "fd_blood", "x": 12, "y": 23 },
+        { "field": "fd_blood", "x": 13, "y": 23 }
+      ],
+      "place_vehicles": [
+        { "vehicle": "chem_cart", "x": 16, "y": 12, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 }
+      ],
+      "place_monster": [
+        { "monster": "mon_failed_weapon", "x": 1, "y": 22 },
+        { "monster": "mon_failed_weapon", "x": 15, "y": 21 },
+        { "monster": "mon_failed_weapon", "x": 4, "y": 18 },
+        { "monster": "mon_failed_weapon", "x": 13, "y": 22 },
+        { "monster": "hulk_weapon", "x": 4, "y": 3 }
       ]
     }
   },
@@ -533,7 +601,35 @@
       },
       "toilets": { "t": {  } },
       "place_loot": [
-
+        { "item": "flesh_knife", "x": 15, "y": [ 3, 4 ] },
+        { "item": "jumpsuit_xl", "x": [ 18, 19 ], "y": 7, "chance": 50, "repeat": 6 },
+        { "group": "surgery", "x": [ 13, 16 ], "y": 7, "chance": 50, "repeat": 8 },
+        { "group": "oven", "x": 17, "y": 7, "chance": 50, "repeat": 3 },
+        { "group": "tools_home", "x": [ 21, 22 ], "y": 3, "chance": 75, "repeat": 5 },
+        { "group": "cleaning", "x": [ 21, 22 ], "y": 9, "chance": 75, "repeat": 5 },
+        { "group": "trash", "x": 6, "y": 13, "chance": 25, "repeat": 3 },
+        { "group": "trash", "x": 6, "y": 18, "chance": 25, "repeat": 3 },
+        { "group": "vending_food_items", "x": 21, "y": 20, "chance": 50, "repeat": 10 },
+        { "group": "vending_drink_items", "x": 21, "y": 21, "chance": 50, "repeat": 10 },
+        { "group": "map_extra_science", "x": 15, "y": 0, "chance": 75 },
+        { "group": "map_extra_science", "x": 5, "y": 6, "chance": 75 },
+        { "group": "map_extra_science", "x": 19, "y": 11, "chance": 75 }
+      ],
+      "place_fields": [
+        { "field": "fd_blood", "x": 15, "y": 0 },
+        { "field": "fd_blood", "x": 5, "y": 6 },
+        { "field": "fd_blood", "x": 4, "y": 5 },
+        { "field": "fd_blood", "x": 3, "y": 5 },
+        { "field": "fd_blood", "x": 19, "y": 11 },
+        { "field": "fd_blood", "x": 18, "y": 11 },
+        { "field": "fd_blood", "x": 17, "y": 11 }
+      ],
+      "place_monster": [
+        { "monster": "mon_failed_weapon", "x": 4, "y": 5 },
+        { "monster": "mon_failed_weapon", "x": 3, "y": 17 },
+        { "monster": "mon_failed_weapon", "x": 9, "y": 10 },
+        { "monster": "mon_failed_weapon", "x": 15, "y": 12 },
+        { "monster": "mon_failed_weapon", "x": 13, "y": 19 }
       ]
     }
   },
@@ -548,7 +644,7 @@
         "                        ",
         "                        ",
         "|||||||||||             ",
-        "D...{{{{{{|             ",
+        "D...rr{{{{|             ",
         "E.........||            ",
         "6c...212..P|            ",
         "......_...P|            ",
@@ -559,7 +655,7 @@
         "..........+...<|        ",
         "..........+...<|        ",
         "IIIIIIII|||....|        ",
-        ".........||IIII||       ",
+        ".........||IwII||       ",
         ".........|.dd6.{|       ",
         "cccccc...+..c..{|       ",
         "eeeeeec..R.....{|       ",
@@ -594,7 +690,9 @@
         "d": "t_metal_floor",
         "e": "t_metal_floor",
         "o": "t_metal_floor",
-        "s": "t_metal_floor"
+        "r": "t_metal_floor",
+        "s": "t_metal_floor",
+        "w": "t_floor"
       },
       "furniture": {
         "{": "f_locker",
@@ -605,10 +703,37 @@
         "d": "f_desk",
         "e": "f_table",
         "o": "f_oven",
+        "r": "f_rack",
         "s": "f_sink"
       },
       "place_loot": [
-
+        { "item": "note_apophis", "x": 11, "y": 15 },
+        { "item": "glass_shard", "x": 12, "y": 14, "repeat": [ 5, 10 ] },
+        { "item": "wire", "x": 12, "y": 21, "chance": 20 },
+        { "item": "microwave", "x": 3, "y": 21, "chance": 90 },
+        { "item": "plasma", "x": 4, "y": 3, "chance": 50, "repeat": 2 },
+        { "item": "charcoal", "x": 5, "y": 3, "chance": 50, "repeat": 2 },
+        { "group": "power_tools", "x": [ 6, 7 ], "y": 3, "chance": 75, "repeat": 4 },
+        { "group": "science", "x": [ 8, 9 ], "y": 3, "chance": 50, "repeat": 8 },
+        { "group": "oven", "x": 6, "y": 21, "chance": 50, "repeat": 3 },
+        { "group": "trash", "x": 1, "y": 21, "chance": 50, "repeat": 4 },
+        { "group": "fridge", "x": [ 7, 8 ], "y": 21, "chance": 50, "repeat": 8 },
+        { "group": "cop_armory", "x": 15, "y": [ 15, 17 ], "chance": 50, "repeat": 6 },
+        { "group": "map_extra_science", "x": 12, "y": 16, "chance": 75 }
+      ],
+      "place_fields": [
+        { "field": "fd_blood", "x": 12, "y": 16 },
+        { "field": "fd_blood", "x": 12, "y": 17 },
+        { "field": "fd_blood", "x": 12, "y": 18 }
+      ],
+      "place_vehicles": [
+        { "vehicle": "welding_cart", "x": 9, "y": 9, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 }
+      ],
+      "place_monster": [
+        { "monster": "mon_failed_weapon", "x": 3, "y": 6 },
+        { "monster": "mon_failed_weapon", "x": 6, "y": 11 },
+        { "monster": "mon_failed_weapon", "x": 1, "y": 15 },
+        { "monster": "mon_failed_weapon", "x": 7, "y": 20 }
       ]
     }
   }
