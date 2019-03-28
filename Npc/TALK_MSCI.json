@@ -30,7 +30,7 @@
       {
         "text": "We'll see what I can do.",
         "topic": "TALK_MSCI",
-        "effect": { "u_add_effect": "router_suggestion", "duration": "PERMANENT" }
+        "effect": [ { "u_add_effect": "router_suggestion", "duration": "PERMANENT" }, { "npc_add_effect": "router_suggestion", "duration": "PERMANENT" } ]
       }
     ]
   },
@@ -58,23 +58,17 @@
   {
     "id": "TALK_MSCI_ASK_DOING",
     "type": "talk_topic",
-    "//": "Makes sure that the player most likely completed the mission to hunt Apophis before the dialogue changes.  Only time this breaks down is if a separate PC shows up while the mission is busy being pursued (or failed) by a preceding character.",
+    "//": "Infinitely more idiotproof than the last way I had it rigged, but still has its flawed.",
     "dynamic_line": {
-      "npc_has_mission": true,
-      "many": "This line should not appear.  If you encounter this, pester Noct as this is a bug!",
-      "one": "Well, the main reason we are hiding here is Apophis...  It is a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Currently we don't have anything that could stand a decent chance against it, so we're trying to create our own Bio-Weapon to counter Apophis. Sigma and Lambda have expressed interest in going after it, but they won't be able to take it out on their own.",
-      "none": {
-        "u_has_mission": true,
-        "many": "This line should not appear.  If you encounter this, pester Noct as this is a bug!",
-        "one": "Well, the main reason we are hiding here is Apophis...  It is a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Currently we don't have anything that could stand a decent chance against it, so we're trying to create our own Bio-Weapon to counter Apophis. Sigma and Lambda have expressed interest in going after it, but they won't be able to take it out on their own.",
-        "none": "Well, the main reason we were hiding here was Apophis...  It was a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Now we can try to get things fixed up eventually, and work on research that might benefit others out there."
-      }
+      "npc_has_effect": "router_suggest",
+      "yes": "Well, the main reason we were hiding here was Apophis...  It was a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Now we can try to get things fixed up eventually, and work on research that might benefit others out there.",
+      "no": "Well, the main reason we are hiding here is Apophis...  It is a Bio-Weapon specifically designed to eliminate every other Bio-Weapon and Bio-Weapon scientist.  Currently we don't have anything that could stand a decent chance against it, so we're trying to create our own Bio-Weapon to counter Apophis. Sigma and Lambda have expressed interest in going after it, but they won't be able to take it out on their own."
     },
     "responses": [
       { "text": "Oh, good luck, I suppose.", "topic": "TALK_MSCI" },
       {
         "text": "What exactly is Apophis and is it really that dangerous?",
-        "condition": { "or": [ { "has_assigned_mission": true }, { "has_available_mission": true } ] },
+        "condition": { "not": { "npc_has_effect": "router_suggestion" } },
         "topic": "TALK_MSCI_APOPHIS"
       }
     ]
