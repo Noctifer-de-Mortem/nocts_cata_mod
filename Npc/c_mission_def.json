@@ -33,7 +33,7 @@
     "difficulty": 2,
     "value": 80000,
     "origins": [ "ORIGIN_SECONDARY" ],
-    "destination": "makeshift_command_center",
+    "destination": "makeshift_command_center_b",
     "start": {
       "effect": "follow",
       "assign_mission_target": {
