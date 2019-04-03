@@ -6,14 +6,27 @@
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
-    "difficulty": 2,
-    "time": 45000,
-    "reversible": false,
+    "difficulty": 3,
+    "time": 10000,
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
+    "book_learn": [ [ "recipe_surv", 2 ] ],
+    "//": "Doesn't use c_metal_molding_standard because metal and charcoal usage is non-standard.",
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ] ], [ [ "mold_metal", -1 ] ], [ [ "bearing", -1 ], [ "bb", -1 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ] ]
+    "tools": [
+      [ [ "can_forge", -1 ] ],
+      [
+        [ "material_sand", -1 ],
+        [ "clay_lump", -1 ]
+      ],
+      [
+        [ "bearing", -1 ],
+        [ "marble", -1 ]
+      ]
+    ],
+    "components": [
+      [ [ "scrap", 1 ] ],
+      [ [ "charcoal", 30 ], [ "charcoal", 30 ] ]
+    ]
   },
   {
     "result": "surcan",
@@ -53,26 +66,31 @@
     "skill_used": "fabrication",
     "difficulty": 2,
     "time": 45000,
-    "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "toolset", 50 ], [ "fire", -1 ] ] ],
-    "components": [ [ [ "can_food_unsealed", 1 ], [ "can_drink_unsealed", 1 ] ], [ [ "pebble", 2 ] ] ]
-  },
-  {
-    "result": "mold_metal",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "time": 20000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ] ],
-    "components": [ [ [ "bowl_plastic", 4 ] ] ]
+    "using": [ [ "surface_heat", 50 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "components":
+    [
+      [
+        [ "metal_tank_little", 1 ],
+        [ "sheet_metal_small", 4 ],
+        [ "can_food_unsealed", 6 ],
+        [ "can_drink_unsealed", 6 ],
+        [ "scrap", 12 ]
+      ],
+      [
+        [ "clay_lump", 2 ],
+        [ "pebble", 20 ],
+        [ "material_limestone", 100 ],
+        [ "material_sand", 100 ]
+      ],
+      [
+        [ "cu_pipe", 1 ],
+        [ "pipe", 1 ],
+        [ "clay_lump", 1 ]
+      ]
+    ]
   },
   {
     "result": "molded_hammer",
@@ -80,15 +98,13 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "difficulty": 2,
+    "difficulty": 4,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
-    "reversible": false,
+    "time": 20000,
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_hammer", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "using": [ [ "c_metal_molding_standard", 2 ] ],
+    "tools": [ [ [ "primitive_hammer", -1 ], [ "makeshift_hammer", -1 ] ] ]
   },
   {
     "result": "molded_axe",
@@ -96,15 +112,13 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "difficulty": 2,
+    "difficulty": 6,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
-    "reversible": false,
+    "time": 100000,
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_axe", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "c_metal_molding_standard", 10 ] ],
+    "tools": [ [ [ "primitive_axe", -1 ], [ "copper_ax", -1 ] ] ]
   },
   {
     "result": "molded_knife",
@@ -112,15 +126,13 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "difficulty": 2,
+    "difficulty": 4,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
-    "reversible": false,
+    "time": 10000,
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_knife", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ] ],
+    "tools": [ [ [ "primitive_knife", -1 ], [ "makeshift_knife", -1 ], [ "copper_knife", -1 ] ] ]
   },
   {
     "result": "molded_shovel",
@@ -128,15 +140,13 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "difficulty": 2,
+    "difficulty": 4,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
-    "reversible": false,
+    "time": 140000,
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "primitive_shovel", 1 ] ] ]
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "using": [ [ "c_metal_molding_standard", 14 ] ],
+    "tools": [ [ [ "primitive_shovel", -1 ] ] ]
   },
   {
     "result": "molded_pot",
@@ -146,13 +156,12 @@
     "skill_used": "fabrication",
     "difficulty": 2,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
+    "time": 20000,
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "rock_pot", 1 ] ] ]
+    "using": [ [ "c_metal_molding_standard", 2 ] ],
+    "tools": [ [ [ "rock_pot", -1 ] ] ]
   },
   {
     "result": "charcoal",
@@ -242,22 +251,6 @@
       [ [ "slime_scrap", 1 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ], [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
-  },
-  {
-    "result": "molded_saw",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ [ "survival", 1 ] ],
-    "time": 45000,
-    "reversible": false,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge_on", -1 ], [ "forging_standard", 4, "LIST" ] ], [ [ "mold_metal", -1 ] ] ],
-    "components": [ [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "saw", 1 ] ], [ [ "hacksaw", 1 ] ] ]
   },
   {
     "result": "auto_case",

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "c_metal_molding_standard",
+    "type": "requirement",
+    "//": "Tools and componants for casting molded items, per 1 volume of item.",
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "tools": [
+      [ [ "can_forge", -1 ] ],
+      [
+        [ "material_sand", -1 ],
+        [ "clay_lump", -1 ],
+        [ "press", -1 ]
+      ]
+    ],
+    "components": [
+      [ [ "steel_standard", 1, "LIST" ] ],
+      [ [ "charcoal", 40 ], [ "charcoal", 40 ] ]
+    ]
+  }
+]
