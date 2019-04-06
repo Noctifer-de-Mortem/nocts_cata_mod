@@ -1,6 +1,30 @@
 [
   {
     "type": "snippet",
+    "category": "years_old_news",
+    "text": [ "JOINT RESEARCH PROJECT TO INCREASE JOBS: A recent announcement confirmed rumors of a joint research project between several commercial and military research firms, with the stated goal of collaborating to advance several cutting-edge fields.  Though details are still sparse at this time, the project is expected to open thousands of employment opportunities in various fields and departments." ]
+  },
+  {
+    "type": "snippet",
+    "category": "one_year_old_news",
+    "text": [
+      "BLOOD SPORT STING: Police and Federal officials have uncovered the latest lead on a series of underground \"gladiator games\" involving kidnapped victims forcibly augmented and pitted against each other.  The latest sting has led to the rescue of several victims, but no suspects have been identified or arrested thus far."
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "note",
+    "text": [
+      "\"I'm in awe of the size of that one shambler I saw.  Absolute UNIT\"",
+      "\"Saw a whole fuckton of the big ones the other day.  The live ones, followin' an even bigger fucker covered in armor.  Just walked through a horde like nothing.\"",
+      "\"they look like the dead but they SHOOT LIKE MEN\"",
+      "\"The great wheel turns, I got lasers for days!  Or until my arms fall off.\"",
+      "\"Had a nice little place out innawoods until my dumb shit friends had the nerve to die on me.  Place turned into a mess in a hurry.\"",
+      "\"MANKIND IS OBSOLETE\""
+    ]
+  },
+  {
+    "type": "snippet",
     "category": "note_apophis",
     "text": [
       "\"The director has confirmed positive ID on local research sites also connected to Project Mesektet, with further contacts linking them to commercial and military research directives across the tri-county area.\"",
