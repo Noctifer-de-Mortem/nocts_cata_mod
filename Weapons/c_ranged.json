@@ -79,7 +79,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
     "ups_charges": 1,
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
@@ -114,7 +114,7 @@
     "modes": [ [ "DEFAULT", "burst", 3 ], [ "AUTO", "auto", 20 ] ],
     "ups_charges": 2,
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
@@ -149,7 +149,7 @@
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "ups_charges": 20,
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
@@ -184,7 +184,7 @@
     "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 25 ], [ "AUTO", "high auto", 50 ] ],
     "ups_charges": 5,
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
@@ -219,7 +219,7 @@
     "modes": [ [ "DEFAULT", "one shot", 1 ], [ "BURST", "double barrel", 2 ] ],
     "ups_charges": 10,
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "use_action": "ARTIFACT",
     "artifact_data": {
       "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
@@ -257,6 +257,7 @@
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "carry handle", 1 ],
       [ "barrel", 1 ],
@@ -294,7 +295,7 @@
     "durability": 7,
     "burst": 5,
     "loudness": 12,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },
   {
     "id": "ups_rifle_crank",
@@ -323,7 +324,7 @@
     "reload": 0,
     "loudness": 16,
     "artifact_data": { "effects_wielded": [ "AEP_DEX_DOWN" ] },
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },
   {
     "id": "surv_battery_pistol",
@@ -352,7 +353,7 @@
     "clip_size": 100,
     "reload": 300,
     "loudness": 12,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "surv_battery_rifle",
@@ -383,6 +384,7 @@
     "loudness": 14,
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "barrel", 1 ],
       [ "rail", 1 ],
@@ -420,6 +422,7 @@
     "magazines": [ [ "223", [ "surv_223_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -464,6 +467,7 @@
     "magazines": [ [ "22", [ "surv_22_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
@@ -504,6 +508,7 @@
     "magazines": [ [ "9mm", [ "surv_9mm_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
@@ -544,6 +549,7 @@
     "magazines": [ [ "45", [ "surv_45_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "grip", 1 ],
@@ -584,6 +590,7 @@
     "magazines": [ [ "308", [ "surv_308_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -628,6 +635,7 @@
     "magazines": [ [ "762", [ "surv_762_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -672,6 +680,7 @@
     "magazines": [ [ "shot", [ "surv_12_mag" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -717,6 +726,7 @@
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -763,6 +773,7 @@
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
@@ -809,6 +820,7 @@
     "built_in_mods": [ "lmg_handle" ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
+      [ "sling", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -883,6 +895,7 @@
     "loudness": 50,
     "valid_mod_locations": [
       [ "accessories", 4 ],
+      [ "sling", 1 ],
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -922,7 +935,7 @@
     "durability": 10,
     "reload": 0,
     "built_in_mods": [ "rail_laser_sight" ],
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "sights", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
   },
   {
     "id": "akro_laser_smg",
@@ -955,6 +968,7 @@
     "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
@@ -994,6 +1008,7 @@
     "default_mods": [ "holo_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
@@ -1030,7 +1045,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
   },
   {
     "id": "mx_laser_sniper",
@@ -1061,6 +1076,7 @@
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 2 ],
@@ -1100,6 +1116,7 @@
     "reload": 0,
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "sights", 1 ],
       [ "rail", 1 ],
@@ -1137,6 +1154,7 @@
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "sling", 1 ],
       [ "grip", 1 ],
       [ "mechanism", 2 ],
       [ "rail", 1 ],
@@ -1171,6 +1189,6 @@
     "durability": 10,
     "clip_size": 1,
     "reload": 1000,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "stock", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   }
 ]
