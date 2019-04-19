@@ -492,7 +492,7 @@
         { "item": "gear_survival", "x": 9, "y": 9, "chance": 75, "repeat": [ 10, 15 ] },
         { "item": "tools_common", "x": 14, "y": 9, "chance": 75, "repeat": [ 10, 15 ] },
         { "item": "cannedfood", "x": 14, "y": 12, "chance": 90, "repeat": [ 20, 25 ] },
-        { "item": "raw_materials", "x": 14, "y": 10, "chance": 75, "repeat": [ 15, 20 ] }
+        { "item": "hardware_bulk", "x": 14, "y": 10, "chance": 75, "repeat": [ 15, 20 ] }
       ],
       "add": [
         { "item": "recipe_surv", "x": 14, "y": 12 },
