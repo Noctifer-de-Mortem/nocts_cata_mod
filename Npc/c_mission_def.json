@@ -64,9 +64,12 @@
     "goal": "MGOAL_GO_TO_TYPE",
     "difficulty": 3,
     "value": 50000,
-    "start": "join",
+    "start": {
+      "effect": "follow",
+      "assign_mission_target": { "om_terrain": "Unknown_Lab_4", "om_special": "Unknown_Lab_s", "reveal_radius": 3, "search_range": 180, "z": 0 }
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
-    "destination": "Unknown_Bunker",
+    "destination": "Unknown_Lab_4",
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "I am tired of being stuck here without being anything to do! I want to take down the great beast that plagues us once and for all. But I am not able to even find where it lives...you think you could take me to it's lair?",
@@ -87,9 +90,12 @@
     "goal": "MGOAL_GO_TO_TYPE",
     "difficulty": 3,
     "value": 50000,
-    "start": "join",
+    "start": {
+      "effect": "follow",
+      "assign_mission_target": { "om_terrain": "Unknown_Lab_4", "om_special": "Unknown_Lab_s", "reveal_radius": 3, "search_range": 180, "z": 0 }
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
-    "destination": "Unknown_Bunker",
+    "destination": "Unknown_Lab_4",
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "Sigma and I were talking and we decided searching for the great beast known as apophis would be the best thing we could do. We were built for combat and we can't hide here forever. However...We have no idea where apophis lives...could you lend us a hand on searching since you have been out there?",
