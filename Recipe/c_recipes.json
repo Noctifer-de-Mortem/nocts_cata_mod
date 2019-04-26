@@ -12,21 +12,8 @@
     "book_learn": [ [ "recipe_surv", 2 ] ],
     "//": "Doesn't use c_metal_molding_standard because metal and charcoal usage is non-standard.",
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [
-      [ [ "can_forge", -1 ] ],
-      [
-        [ "material_sand", -1 ],
-        [ "clay_lump", -1 ]
-      ],
-      [
-        [ "bearing", -1 ],
-        [ "marble", -1 ]
-      ]
-    ],
-    "components": [
-      [ [ "scrap", 1 ] ],
-      [ [ "charcoal", 30 ], [ "charcoal", 30 ] ]
-    ]
+    "tools": [ [ [ "can_forge", -1 ] ], [ [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "bearing", -1 ], [ "marble", -1 ] ] ],
+    "components": [ [ [ "scrap", 1 ] ], [ [ "charcoal", 30 ], [ "charcoal", 30 ] ] ]
   },
   {
     "result": "surcan",
@@ -70,8 +57,7 @@
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "using": [ [ "surface_heat", 50 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
-    "components":
-    [
+    "components": [
       [
         [ "metal_tank_little", 1 ],
         [ "sheet_metal_small", 4 ],
@@ -79,17 +65,8 @@
         [ "can_drink_unsealed", 6 ],
         [ "scrap", 12 ]
       ],
-      [
-        [ "clay_lump", 2 ],
-        [ "pebble", 20 ],
-        [ "material_limestone", 100 ],
-        [ "material_sand", 100 ]
-      ],
-      [
-        [ "cu_pipe", 1 ],
-        [ "pipe", 1 ],
-        [ "clay_lump", 1 ]
-      ]
+      [ [ "clay_lump", 2 ], [ "pebble", 20 ], [ "material_limestone", 100 ], [ "material_sand", 100 ] ],
+      [ [ "cu_pipe", 1 ], [ "pipe", 1 ], [ "clay_lump", 1 ] ]
     ]
   },
   {
@@ -772,7 +749,7 @@
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
-      [ [ "UPS_off", 1 ], [ "battery_motorbike", 1 ], [ "small_storage_battery", 1 ] ],
+      [ [ "UPS_off", 1 ], [ "battery_motorbike", 1 ], [ "medium_battery_cell", 1 ], [ "small_storage_battery", 1 ] ],
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 1 ] ],
       [ [ "cable", 100 ] ],
@@ -1196,7 +1173,7 @@
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
       [ [ "lens", 4 ] ],
-      [ [ "battery", 100 ], [ "plut_cell", 1 ] ],
+      [ [ "plut_cell", 1 ] ],
       [ [ "scrap", 2 ], [ "plastic_chunk", 2 ] ],
       [ [ "cable", 10 ] ]
     ]
@@ -1310,7 +1287,7 @@
     "autolearn": false,
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
     "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
-    "components": [ [ [ "flashlight", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "flashlight", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
     "result": "solar_crude_firestarter",
@@ -1323,7 +1300,7 @@
     "autolearn": false,
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
     "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
-    "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
     "result": "surv_station",
@@ -1355,7 +1332,6 @@
       [ [ "mosin91_30", 1 ] ],
       [ [ "762_54R", 20 ] ],
       [ [ "small_repairkit", 1 ] ],
-      [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
     ],
@@ -1375,7 +1351,6 @@
       [ [ "sks", 1 ] ],
       [ [ "762_m43", 20 ] ],
       [ [ "small_repairkit", 1 ] ],
-      [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
     ],
@@ -1395,7 +1370,6 @@
       [ [ "m1903", 1 ] ],
       [ [ "3006", 20 ] ],
       [ [ "small_repairkit", 1 ] ],
-      [ [ "battery", 300 ] ],
       [ [ "pocket_firearms", 1 ] ],
       [ [ "shoulder_strap", 1 ] ]
     ],

@@ -154,8 +154,9 @@
     "id": "NC_PREPPER_carry_batt",
     "type": "item_group",
     "subtype": "collection",
+    "magazine": 100,
     "ammo": 100,
-    "entries": [ { "item": "surv_battery_rifle" }, { "item": "battery", "count": [ 1, 2 ] } ]
+    "entries": [ { "item": "surv_battery_rifle" }, { "item": "medium_battery_cell", "count": [ 2, 3 ] } ]
   },
   {
     "id": "NC_PREPPER_carry_223",

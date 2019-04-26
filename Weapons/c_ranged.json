@@ -295,7 +295,15 @@
     "durability": 7,
     "burst": 5,
     "loudness": 12,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "ups_rifle_crank",
@@ -324,7 +332,15 @@
     "reload": 0,
     "loudness": 16,
     "artifact_data": { "effects_wielded": [ "AEP_DEX_DOWN" ] },
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "surv_battery_pistol",
@@ -332,7 +348,7 @@
     "color": "light_red",
     "symbol": "{",
     "name": "survivor's battery pistol",
-    "description": "A simple electronic pistol, using household batteries to power a low-yield electrolaser.  Not very powerful, but can shock targets.",
+    "description": "A simple electronic pistol, using batteries from common household electronics to power a low-yield electrolaser.  Not very powerful, but can shock targets.",
     "price": 42400,
     "material": [ "steel", "wood" ],
     "weight": 2940,
@@ -342,6 +358,7 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_50" ],
     "ammo": "battery",
+    "magazines": [ [ "battery", [ "light_battery_cell", "light_plus_battery_cell", "light_minus_battery_cell" ] ] ],
     "skill": "pistol",
     "ranged_damage": 4,
     "range": 10,
@@ -350,7 +367,6 @@
     "aim_speed": 4,
     "recoil": 10,
     "durability": 5,
-    "clip_size": 100,
     "reload": 300,
     "loudness": 12,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "barrel", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
@@ -361,7 +377,7 @@
     "color": "light_red",
     "symbol": "{",
     "name": "survivor's battery rifle",
-    "description": "A simple electronic rifle, using household batteries to power a low-yield electrolaser.  A bit more potent than its pistol variant, but still quite an inefficient use of power.",
+    "description": "A simple electronic rifle, using batteries from common power tools to power a low-yield electrolaser.  A bit more potent than its pistol variant, but still quite an inefficient use of power.",
     "price": 87100,
     "material": [ "steel", "wood" ],
     "weight": 5360,
@@ -371,6 +387,7 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_100", "ALWAY_TWOHAND" ],
     "ammo": "battery",
+    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell" ] ] ],
     "skill": "rifle",
     "ranged_damage": 8,
     "range": 15,
@@ -379,7 +396,6 @@
     "aim_speed": 8,
     "recoil": 30,
     "durability": 5,
-    "clip_size": 300,
     "reload": 600,
     "loudness": 14,
     "valid_mod_locations": [
@@ -935,7 +951,15 @@
     "durability": 10,
     "reload": 0,
     "built_in_mods": [ "rail_laser_sight" ],
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "sights", 1 ], [ "rail", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "sights", 1 ],
+      [ "rail", 1 ],
+      [ "underbarrel", 1 ],
+      [ "emitter", 1 ],
+      [ "lens", 1 ]
+    ]
   },
   {
     "id": "akro_laser_smg",
@@ -1045,7 +1069,15 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
     "reload": 0,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ], [ "emitter", 1 ], [ "lens", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ],
+      [ "emitter", 1 ],
+      [ "lens", 1 ]
+    ]
   },
   {
     "id": "mx_laser_sniper",
