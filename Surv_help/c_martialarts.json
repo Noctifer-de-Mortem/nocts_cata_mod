@@ -3,7 +3,8 @@
     "type": "martial_art",
     "id": "style_surv",
     "name": "Survivor Combatives",
-    "description": "You learned how to handle yourself in the cataclysm. You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. Not flashy but it keeps you alive.",
+    "description": "You learned how to handle yourself in the cataclysm.  You have become good at using improvised and hand made weaponry, and to a lesser extent your fists.  Not flashy but it keeps you alive.",
+    "initiate": [ "You steady yourself, prepared for the fights ahead.", "%s prepares for the fights ahead." ],
     "arm_block": 99,
     "leg_block": 99,
     "arm_block_with_bio_armor_arms": true,
@@ -34,7 +35,7 @@
         "min_melee": 5,
         "min_unarmed": 5,
         "quiet": true,
-        "description": "User has learned how to deal all attacks quietly"
+        "description": "User has learned how to deal all attacks quietly."
       },
       {
         "id": "style_surv_recovery",
