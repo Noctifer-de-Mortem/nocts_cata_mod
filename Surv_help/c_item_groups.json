@@ -608,7 +608,6 @@
       [ "bio_painkiller", 7 ],
       [ "bio_razors", 7 ],
       [ "bio_shock", 6 ],
-      [ "bio_storage", 4 ],
       [ "bio_torsionratchet", 7 ]
     ]
   },
@@ -696,7 +695,7 @@
       [ "bio_eye_enhancer", 1 ],
       [ "bio_eye_optic", 6 ],
       [ "bio_flashlight", 9 ],
-      [ "bio_furnace", 7 ],
+      [ "bio_metabolics", 7 ],
       [ "bio_lighter", 7 ],
       [ "bio_night_vision", 1 ],
       [ "bio_recycler", 5 ],
