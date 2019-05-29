@@ -418,7 +418,7 @@
       "bio_eye_enhancer",
       "bio_eye_optic",
       "bio_night_vision",
-      "bio_furnace",
+      "bio_metabolics",
       "bio_recycler",
       "bio_targeting",
       "bio_climate",
@@ -427,7 +427,6 @@
       "bio_ups",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
-      
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
