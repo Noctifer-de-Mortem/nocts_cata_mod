@@ -186,7 +186,13 @@
         "]": "t_thconc_floor",
         "<": "t_stairs_up",
         "~": "t_sewage",
+        "$": "t_recycler",
+        "&": "t_floor",
 
+        "B": "t_floor",
+        "C": "t_floor",
+        "S": "t_floor",
+        "T": "t_floor",
         "X": "t_door_metal_pickable",
 
         "u": "t_thconc_floor_olight",
@@ -211,6 +217,10 @@
         "w": "t_window_enhanced"
       },
       "furniture": {
+        "&": "f_arc_furnace",
+
+        "S": "f_slab",
+
         "]": "f_bookcase",
         "B": "f_bed",
         "C": "f_counter",
