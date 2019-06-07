@@ -28,10 +28,10 @@
         "7___.._..._.._t_........",
         "__...._..._...._........",
         "_....._..1___7__.1......",
-        "_.. ..t_................",
-        "... ..._................"
+        "_.._..t_................",
+        "..._..._................"
       ],
-      "terrain": { " ": "t_null", ".": "t_dirt", "1": "t_tree_young", "7": "t_tree", "_": "t_grass", "t": "t_tree_dead" },
+      "terrain": { ".": "t_dirt", "1": "t_tree_young", "7": "t_tree", "_": "t_grass", "t": "t_tree_dead" },
       "furniture": { " ": "f_null", ".": "f_null", "1": "f_null", "7": "f_null", "_": "f_null", "t": "f_null" },
       "place_loot": [ { "group": "dead_slave_fighters", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] } ],
       "place_npcs": [ { "class": "slave_fight", "x": 11, "y": 13 } ]
