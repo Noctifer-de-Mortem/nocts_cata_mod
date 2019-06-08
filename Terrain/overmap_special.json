@@ -115,11 +115,16 @@
   {
     "type": "overmap_special",
     "id": "house_fight_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "house_fight" } ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "sketchy_cabin_1_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "sketchy_cabin_2_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "sketchy_cabin_b1_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "sketchy_cabin_b2_north" }
+    ],
     "locations": [ "forest" ],
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 15 ],
+    "occurrences": [ 0, 3 ],
     "flags": [ "CLASSIC" ]
   },
   {

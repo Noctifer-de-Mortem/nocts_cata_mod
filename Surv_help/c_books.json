@@ -1082,10 +1082,22 @@
     "name_plural": "printed notes",
     "snippet_category": "note_apophis",
     "description": "A scrap of paper.  Something's been printed on it.",
-    "price": 0,
     "material": "paper",
     "flags": "TRADER_AVOID",
-    "weight": 3,
-    "volume": 0
+    "weight": 3
+  },
+  {
+    "type": "GENERIC",
+    "id": "note_sketchy_cabin",
+    "looks_like": "survnote",
+    "category": "books",
+    "symbol": ",",
+    "color": "white",
+    "name": "folded note",
+    "snippet_category": "note_sketchy_cabin",
+    "description": "A scrap of paper, hastily folded up.  Something's been scribbled on it.",
+    "material": "paper",
+    "flags": "TRADER_AVOID",
+    "weight": 3
   }
 ]

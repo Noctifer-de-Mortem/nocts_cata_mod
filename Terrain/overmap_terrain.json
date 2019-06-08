@@ -213,7 +213,7 @@
   },
   {
     "type": "overmap_terrain",
-    "abstract": "sketchy_cabin_b1",
+    "id": "sketchy_cabin_b1",
     "name": "underground arena",
     "sym": "O",
     "color": "dark_gray",
@@ -221,7 +221,7 @@
   },
   {
     "type": "overmap_terrain",
-    "abstract": "sketchy_cabin_b2",
+    "id": "sketchy_cabin_b2",
     "name": "underground arena",
     "sym": "O",
     "color": "dark_gray",

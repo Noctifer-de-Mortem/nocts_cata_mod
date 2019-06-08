@@ -11,12 +11,45 @@
     "combat_ability": 90,
     "food_supply": 100000,
     "wealth": 10000000,
-    "good": 1,
-    "strength": 1,
-    "sneak": 0,
-    "crime": -1,
-    "cult": -1,
-    "description": "Members of the Command Center seeking refuge from...something. They have intel and some connections to the Old Guard."
+    "relations": {
+      "commandeers": {
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "super_soldiers": {
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "bio_weapons": {
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "watch your back": true,
+        "guard your stuff": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "your_followers": {
+        "watch your back": true,
+        "guard your stuff": true,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true }
+    },
+    "description": "Members of the Command Center seeking refuge from ...something.  They have intel and some connections to the Old Guard."
   },
   {
     "type": "faction",
@@ -30,12 +63,37 @@
     "combat_ability": 120,
     "food_supply": 40000,
     "wealth": 1000,
-    "good": 1,
-    "strength": 1,
-    "sneak": 0,
-    "crime": -1,
-    "cult": -1,
-    "description": "Ragtag branch of the military that survived the initial cataclysm. Allied to the command center, they seek leadership in this new world."
+    "relations": {
+      "super_soldiers": {
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "commandeers": {
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "watch your back": true,
+        "guard your stuff": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
+      "your_followers": {
+        "watch your back": true,
+        "guard your stuff": true,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true }
+    },
+    "description": "Ragtag branch of the military that survived the initial cataclysm.  Allied to the command center, they seek leadership in this new world."
   },
   {
     "type": "faction",
@@ -49,11 +107,7 @@
     "combat_ability": 100,
     "food_supply": 500000,
     "wealth": 10000000,
-    "good": 1,
-    "strength": 1,
-    "sneak": 0,
-    "crime": -1,
-    "cult": -1,
+
     "description": "Survivors who had prepared for the cataclysm before the idea of it was on the radar. They possess the means to rebuild."
   },
   {
@@ -68,11 +122,6 @@
     "combat_ability": 200,
     "food_supply": 40000,
     "wealth": 1000,
-    "good": 1,
-    "strength": 1,
-    "sneak": 0,
-    "crime": -1,
-    "cult": -1,
     "description": "Creations of an unknown project with links to the cataclysm. Allied to the command center since they are their creation."
   },
   {
