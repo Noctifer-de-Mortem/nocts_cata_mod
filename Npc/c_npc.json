@@ -130,7 +130,7 @@
     "class": "NC_SLAVE_FIGHTER_BLUE",
     "attitude": 0,
     "mission": 8,
-    "chat": "TALK_SHELTER",
+    "chat": "TALK_GLADIATOR",
     "faction": "slave_fighter_allied"
   }
 ]

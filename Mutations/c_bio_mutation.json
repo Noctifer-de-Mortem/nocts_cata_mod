@@ -87,5 +87,15 @@
     "description": "This NPC could tell you about how they survived the cataclysm.",
     "valid": false,
     "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_GLADIATOR",
+    "name": "Gladiator",
+    "points": 1,
+    "description": "You were kidnapped and forced into an underground blood sport, augmented and forced to fight others like you for the amusement of wealthy clients.  You may not be the only one lucky enough to have survived that without being broken.",
+    "valid": false,
+    "purifiable": false,
+    "profession": true
   }
 ]

@@ -589,6 +589,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
+    "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
@@ -614,6 +615,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
+    "traits": [ "PROF_GLADIATOR" ],
     "skills": [
       { "level": 2, "name": "melee" },
       { "level": 2, "name": "unarmed" },
@@ -645,6 +647,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
+    "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
@@ -659,7 +662,7 @@
     "name": "Slave Fighter (Weapon Master)",
     "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
     "points": 6,
-    "traits": [ "MARTIAL_ARTS_SURV" ],
+    "traits": [ "MARTIAL_ARTS_SURV", "PROF_GLADIATOR" ],
     "CBMs": [
       "bio_razors",
       "bio_magnet",
