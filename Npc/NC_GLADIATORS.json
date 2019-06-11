@@ -5,8 +5,9 @@
     "//": "Equipment for the Blue Team.",
     "subtype": "collection",
     "entries": [
-      { "distribution": [ { "group": "male_underwear_bottom", "prob": 50 }, { "group": "loincloth", "prob": 50 } ] },
-      { "distribution": [ { "item": "socks", "prob": 25 }, { "item": "footrags", "prob": 25 } ] },
+      { "distribution": [ { "item": "boxer_shorts", "prob": 50 }, { "item": "loincloth", "prob": 50 } ] },
+      { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "footrags", "prob": 50 } ] },
+      { "distribution": [ { "item": "tank_top", "prob": 50 }, { "item": "chestwrap", "prob": 50 } ] },
       { "group": "NC_GLADIATOR_LIGHT_torso", "prob": 50 },
       { "group": "NC_GLADIATOR_LIGHT_arms" },
       { "group": "NC_GLADIATOR_LIGHT_hands", "prob": 75 },
@@ -21,13 +22,13 @@
     "//": "Equipment for the Red Team.",
     "subtype": "collection",
     "entries": [
-      { "distribution": [ { "group": "male_underwear_bottom", "prob": 50 }, { "group": "loincloth", "prob": 50 } ] },
-      { "distribution": [ { "item": "socks", "prob": 25 }, { "item": "footrags", "prob": 25 } ] },
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "chestwrap" },
       { "group": "NC_GLADIATOR_HEAVY_head" },
       { "group": "NC_GLADIATOR_HEAVY_torso", "prob": 50 },
       { "group": "NC_GLADIATOR_HEAVY_arms" },
       { "group": "NC_GLADIATOR_HEAVY_hands", "prob": 75 },
-      { "group": "clothing_outdoor_pants" },
       { "group": "NC_GLADIATOR_HEAVY_legs" },
       { "group": "NC_GLADIATOR_HEAVY_feet" }
     ]
@@ -36,7 +37,7 @@
     "id": "NC_GLADIATOR_LIGHT_torso",
     "type": "item_group",
     "//": "As with historical gladiators, torso is often left vulnerable.",
-    "items": [ [ "tank_top", 20 ], [ "tshirt", 20 ], [ "trenchcoat", 10 ], [ "tunic_rag", 30 ], [ "vest_leather", 5 ] ]
+    "items": [ [ "tshirt", 35 ], [ "tunic_rag", 30 ], [ "trenchcoat", 25 ], [ "vest_leather", 10 ] ]
   },
   {
     "id": "NC_GLADIATOR_LIGHT_arms",

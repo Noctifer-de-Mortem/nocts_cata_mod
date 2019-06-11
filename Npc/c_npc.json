@@ -116,10 +116,9 @@
     "id": "slave_fight",
     "comment": "Npc in underground fighting.",
     "name_suffix": "Red Team Slave Fighter",
-    "gender": "male",
     "class": "NC_SLAVE_FIGHTER_RED",
-    "attitude": 10,
-    "mission": 7,
+    "attitude": 0,
+    "mission": 8,
     "chat": "TALK_DONE",
     "faction": "slave_fighter"
   },
@@ -128,11 +127,10 @@
     "id": "slave_fight_ally",
     "comment": "Npc in underground fighting, on your side.",
     "name_suffix": "Blue Team Slave Fighter",
-    "gender": "male",
     "class": "NC_SLAVE_FIGHTER_BLUE",
-    "attitude": 3,
-    "mission": 7,
-    "chat": "TALK_DONE",
+    "attitude": 0,
+    "mission": 8,
+    "chat": "TALK_GLADIATOR",
     "faction": "slave_fighter_allied"
   }
 ]

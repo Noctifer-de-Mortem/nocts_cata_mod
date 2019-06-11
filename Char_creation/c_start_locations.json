@@ -33,7 +33,7 @@
   {
     "type": "start_location",
     "ident": "house_fight_s",
-    "name": "Sketchy Cabin",
-    "target": "house_fight"
+    "name": "Underground Arena",
+    "target": "sketchy_cabin_b2"
   }
 ]

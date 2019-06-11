@@ -197,15 +197,38 @@
     "flags": [ "NO_ROTATE" ]
   },
   {
-    "id": "house_fight",
+    "id": "sketchy_cabin_1",
     "type": "overmap_terrain",
     "name": "Sketchy Cabin",
     "sym": "C",
     "color": "i_red",
+    "see_cost": 5
+  },
+  {
+    "id": "sketchy_cabin_2",
+    "type": "overmap_terrain",
+    "name": "abandoned barn",
+    "sym": "B",
+    "color": "brown",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sketchy_cabin_b1",
+    "name": "underground arena",
+    "sym": "O",
+    "color": "dark_gray",
     "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "flags": [ "KNOWN_UP" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sketchy_cabin_b2",
+    "name": "underground arena",
+    "sym": "O",
+    "color": "dark_gray",
+    "see_cost": 5,
+    "flags": [ "KNOWN_UP" ]
   },
   {
     "id": "forest_slaghter",

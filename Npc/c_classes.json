@@ -176,6 +176,7 @@
     "weapon_override": "NC_GLADIATOR_LIGHT_weapon",
     "comment": "Reduced odds of being heavily mutated relative to Red Team.",
     "traits": [
+      [ "PROF_GLADIATOR", 100 ],
       [ "ELFAEYES", 10 ],
       [ "FANGS", 10 ],
       [ "PLANTSKIN", 5 ],
@@ -210,6 +211,7 @@
     "carry_override": "EMPTY_GROUP",
     "weapon_override": "NC_GLADIATOR_HEAVY_weapon",
     "traits": [
+      [ "PROF_GLADIATOR", 100 ],
       [ "URSINE_EYE", 50 ],
       [ "FANGS", 50 ],
       [ "CHITIN", 50 ],

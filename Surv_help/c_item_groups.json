@@ -563,6 +563,37 @@
     ]
   },
   {
+    "id": "sketchy_cabin_guard_weapons",
+    "type": "item_group",
+    "magazine": 100,
+    "ammo": 75,
+    "items": [
+      [ "makarov", 25 ],
+      [ "ak47", 5 ],
+      [ "ak74", 10 ],
+      [ "sks", 10 ],
+      [ "shotgun_d", 50 ]
+    ]
+  },
+  {
+    "id": "sketchy_cabin_gore",
+    "type": "item_group",
+    "items": [
+      { "item": "sinew", "prob": 30, "charges": [ 10, 20 ] },
+      { "item": "bone_human", "prob": 40, "count": [ 4, 9 ] },
+      [ "bag_body_bag", 10 ],
+      [ "burnt_out_bionic", 20 ]
+    ]
+  },
+  {
+    "id": "sketchy_cabin_ashes",
+    "type": "item_group",
+    "items": [
+      { "item": "ash", "prob": 50, "charges": [ 50, 250 ] },
+      { "item": "meal_bone", "prob": 50, "charges": [ 5, 10 ] }
+    ]
+  },
+  {
     "id": "guns_pistol_improvised",
     "type": "item_group",
     "items": [ [ "unbio_laser_gun", 1 ], [ "surv_battery_pistol", 1 ] ]
