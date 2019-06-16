@@ -22,6 +22,7 @@
     "carry_override": "NC_PREPPER_carry",
     "weapon_override": "EMPTY_GROUP",
     "traits": [
+      { "group": "Appearance_demographics" },
       { "group": "BG_survival_story_RURAL" },
       [ "SUPER_SOLDIER_MARKER", 10 ],
       [ "EASYSLEEPER", 10 ],
@@ -148,6 +149,7 @@
     "weapon_override": "NC_SUPER_SOLDIER_weapon",
     "comment": "Some traits to mimic a few of the profession bionics.",
     "traits": [
+      { "group": "Appearance_demographics" },
       [ "SUPER_SOLDIER_MARKER", 100 ],
       [ "THICKSKIN", 100 ],
       [ "NIGHTVISION", 100 ],
@@ -176,6 +178,7 @@
     "weapon_override": "NC_GLADIATOR_LIGHT_weapon",
     "comment": "Reduced odds of being heavily mutated relative to Red Team.",
     "traits": [
+      { "group": "Appearance_demographics" },
       [ "PROF_GLADIATOR", 100 ],
       [ "ELFAEYES", 10 ],
       [ "FANGS", 10 ],
@@ -211,6 +214,7 @@
     "carry_override": "EMPTY_GROUP",
     "weapon_override": "NC_GLADIATOR_HEAVY_weapon",
     "traits": [
+      { "group": "Appearance_demographics" },
       [ "PROF_GLADIATOR", 100 ],
       [ "URSINE_EYE", 50 ],
       [ "FANGS", 50 ],
@@ -262,8 +266,10 @@
     "worn_override": "NC_BIO_WEAPON_worn",
     "carry_override": "NC_BIO_WEAPON_carry",
     "weapon_override": "NC_BIO_WEAPON_S_weapon",
-    "comment": "Not quite the bio-weapon mutations, because these are generic ones.",
+    "comment": "Not quite the bio-weapon mutations, because these are generic ones.  Add brown eyes if they ever become part of mainline.",
     "traits": [
+      [ "hair_black_crewcut", 100 ],
+      [ "SKIN_TAN", 100 ],
       [ "BIO_WEAPON_GENERIC", 100 ],
       [ "NIGHTVISION", 100 ],
       [ "GOODHEARING", 100 ],
@@ -325,8 +331,10 @@
     "worn_override": "NC_BIO_WEAPON_worn",
     "carry_override": "NC_BIO_WEAPON_carry",
     "weapon_override": "EMPTY_GROUP",
-    "comment": "Not quite the bio-weapon mutations, because these are generic ones.",
+    "comment": "Not quite the bio-weapon mutations, because these are generic ones.  Add red eyes if they ever become part of mainline.",
     "traits": [
+      [ "hair_blond_medium", 100 ],
+      [ "SKIN_LIGHT", 100 ],
       [ "BIO_WEAPON_GENERIC", 100 ],
       [ "NIGHTVISION", 100 ],
       [ "GOODHEARING", 100 ],
@@ -369,6 +377,11 @@
       { "skill": "firstaid", "level": { "rng": [ 4, 4 ] } },
       { "skill": "mechanics", "level": { "rng": [ 3, 3 ] } },
       { "skill": "speech", "level": { "rng": [ 2, 2 ] } }
+    ],
+    "//": "Will need to reimplement beard, figuring out what style it's meant to be, when beards stop being broken.  Also recall trait selection specified blue eyes.",
+    "traits": [
+      [ "hair_white_short", 100 ],
+      [ "SKIN_MEDIUM", 100 ]
     ]
   },
   {
@@ -406,8 +419,10 @@
     "worn_override": "NC_BIO_HUNTER_E_worn",
     "carry_override": "NC_BIO_HUNTER_E_carry",
     "weapon_override": "NC_BIO_HUNTER_E_weapon",
-    "comment": "Supposed to be an all in one augment package.",
+    "comment": "Supposed to be an all in one augment package.  Add green eyes if it becomes available in vanilla.",
     "traits": [
+      [ "hair_red_long", 100 ],
+      [ "SKIN_LIGHT", 100 ],
       [ "BGSS_BHunter", 100 ],
       [ "SUPER_SOLDIER_MARKER", 100 ],
       [ "THICKSKIN", 100 ],
