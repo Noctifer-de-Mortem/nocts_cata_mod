@@ -358,7 +358,18 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_50" ],
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "light_battery_cell", "light_plus_battery_cell", "light_minus_battery_cell" ] ] ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_disposable_cell",
+          "light_minus_disposable_cell"
+        ]
+      ]
+    ],
     "skill": "pistol",
     "ranged_damage": 4,
     "range": 10,
@@ -387,7 +398,7 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_100", "ALWAY_TWOHAND" ],
     "ammo": "battery",
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell" ] ] ],
+    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_disposable_cell" ] ] ],
     "skill": "rifle",
     "ranged_damage": 8,
     "range": 15,
@@ -930,13 +941,13 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "NEO-33 laser pistol",
-    "description": "A relatively small laser pistol. Features a boxy design with just enough concessions to ergonomics to fit well in the hand.  The markings refer to \"Omnitech Labs\" as the manufacturer.  It appears to be geared toward energy efficiency at the expense of damage, range, and modularity.",
+    "description": "A relatively small laser pistol, boxy design having just enough concessions to ergonomics to fit well in the hand.  It draws power from compact atomic batteries, offering energy efficiency and prolonged usage, at the expense of firepower and range.  The markings refer to \"Omnitech Labs\" as the manufacturer.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 5,
+    "flags": [ "NEVER_JAMS", "FIRE_20" ],
     "skill": "pistol",
+    "ammo": "battery",
     "weight": 720,
     "volume": 4,
     "bashing": 4,
@@ -944,12 +955,9 @@
     "ranged_damage": 10,
     "pierce": 2,
     "range": 10,
-    "dispersion": 0,
-    "//": "Laser means no dispersion.",
     "aim_speed": 4,
-    "recoil": 0,
     "durability": 10,
-    "reload": 0,
+    "reload": 150,
     "built_in_mods": [ "rail_laser_sight" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -959,7 +967,8 @@
       [ "underbarrel", 1 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ] ] ]
   },
   {
     "id": "akro_laser_smg",
@@ -968,12 +977,12 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "AKRO-388 laser SMG",
-    "description": "Based on the design of the NEO-33, the AKRO-388 is built balance energy efficiency with rate of fire, offering decent firepower relative to the laser pistol that influenced it.  Its body is scaled up and adapted to better handle like common submachineguns in active service.  Its manufacturer is listed as Omnitech Labs.",
+    "description": "Based on the design of the NEO-33, the AKRO-388 is balances energy efficiency with rate of fire, offering decent firepower.  Its body is scaled up and adapted to better handle like common submachineguns in active service.  Relies on atomic batteries instead of a UPS connection.  Its manufacturer is listed as Omnitech Labs.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "MODE_BURST", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 10,
+    "flags": [ "MODE_BURST", "NEVER_JAMS", "FIRE_20" ],
+    "ammo": "battery",
     "skill": "smg",
     "weight": 2680,
     "volume": 6,
@@ -982,12 +991,9 @@
     "ranged_damage": 20,
     "pierce": 5,
     "range": 20,
-    "dispersion": 0,
-    "//": "Laser means no dispersion.",
-    "recoil": 0,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
-    "reload": 0,
+    "reload": 200,
     "default_mods": [ "rail_laser_sight", "holo_sight", "pistol_grip" ],
     "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
@@ -1000,7 +1006,8 @@
       [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
   },
   {
     "id": "arc_laser_rifle",
@@ -1009,12 +1016,12 @@
     "color": "dark_gray",
     "looks_like": "laser_rifle",
     "name": "ARC-314 laser rifle",
-    "description": "An experimental laser rifle based on the A7 and AKRO-388.  Offers the modular benefits of a combat rifle with the efficiency of a laser weapon, in a relatively compact package.  Overall it mimics the handling and operation of common rifles currently in service, for ease-of-use.  The manufacturer is listed as Omnitech Labs.",
+    "description": "An experimental laser rifle based on the A7 and AKRO-388, adapted to rely on atomic batteries.  Offers the modular benefits of a combat rifle with the efficiency of a laser weapon, in a relatively compact package.  Overall it mimics the handling and operation of common rifles currently in service, for ease-of-use.  The manufacturer is listed as Omnitech Labs.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "MODE_BURST", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 20,
+    "flags": [ "MODE_BURST", "NEVER_JAMS", "FIRE_50" ],
+    "ammo": "battery",
     "skill": "rifle",
     "weight": 3120,
     "volume": 8,
@@ -1023,12 +1030,9 @@
     "ranged_damage": 50,
     "pierce": 10,
     "range": 30,
-    "dispersion": 0,
-    "//": "Laser means no dispersion.",
-    "recoil": 0,
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
-    "reload": 0,
+    "reload": 200,
     "default_mods": [ "holo_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -1040,7 +1044,8 @@
       [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "krx_laser_lmg",
@@ -1049,12 +1054,12 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "KRX-108 laser LMG",
-    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While not very energy-efficient, this behemoth can deal a devastating blow to large groups of enemies, if you can afford its energy demands.  If attached to a vehicle mount, it can also make full use of its otherwise-limited automated targeting.",
+    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While not very energy-efficient, this behemoth can deal a devastating blow to large groups of enemies, but each pulse draws heavily from a proprietary atomic battery connection.  If attached to a vehicle mount, it can also make full use of its otherwise-limited automated targeting.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NO_AMMO", "MODE_BURST", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 50,
+    "flags": [ "ALWAYS_TWOHAND", "MODE_BURST", "NEVER_JAMS", "FIRE_50" ],
+    "ammo": "battery",
     "skill": "rifle",
     "weight": 5620,
     "volume": 12,
@@ -1068,7 +1073,7 @@
     "recoil": 5,
     "durability": 8,
     "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
-    "reload": 0,
+    "reload": 500,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1077,7 +1082,8 @@
       [ "underbarrel", 1 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell" ] ] ]
   },
   {
     "id": "mx_laser_sniper",
@@ -1086,12 +1092,12 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "MX-84 laser sniper",
-    "description": "Omnitech Labs' single shot laser rifle, designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Requires an insane amount of energy to fire a single powerful laser, additionally providing EMP effects.",
+    "description": "Omnitech Labs' single shot laser rifle, designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Requires an insane amount of energy to fire a single powerful laser, additionally providing EMP effects.  Uses a propietary atomic battery capacitor system",
     "price": 1600000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "DRAW_LASER_BEAM", "EMP", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 100,
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "FIRE_100" ],
+    "ammo": "battery",
     "skill": "rifle",
     "weight": 2950,
     "volume": 12,
@@ -1100,10 +1106,9 @@
     "ranged_damage": 150,
     "pierce": 20,
     "range": 60,
-    "dispersion": 0,
     "recoil": 10,
     "durability": 10,
-    "reload": 100,
+    "reload": 300,
     "default_mods": [ "bipod" ],
     "built_in_mods": [ "rifle_scope" ],
     "valid_mod_locations": [
@@ -1116,7 +1121,8 @@
       [ "underbarrel", 2 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "xarm_laser_shotgun",
@@ -1125,12 +1131,12 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": "XARM-37 Pulse Scatter Gun",
-    "description": "This is a modified double-barreled ARC rifle, designed by Omnitech Labs.  Gains an EMP effect at the cost of range and firepower.  It is fired in short pulses that act like buckshot; still decent against conventional threats but best against electronics.",
+    "description": "This is a modified double-barreled ARC rifle, designed by Omnitech Labs.  Gains an EMP effect at the cost of range and firepower, still relies on atonic cells instead of a UPS hookup.  It is fired in short pulses that act like buckshot; still decent against conventional threats but best against electronics.",
     "price": 1800000,
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY", "SHOT", "EMP" ],
-    "flags": [ "NO_AMMO", "MODE_BURST", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 20,
+    "flags": [ "MODE_BURST", "NEVER_JAMS", "FIRE_50" ],
+    "ammo": "battery",
     "skill": "shotgun",
     "weight": 2950,
     "volume": 8,
@@ -1140,12 +1146,10 @@
     "pierce": 5,
     "range": 10,
     "dispersion": 300,
-    "//": "Shotgun is a shotgun.",
-    "recoil": 0,
     "durability": 8,
     "default_mods": [ "rail_laser_sight", "pistol_grip" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
-    "reload": 0,
+    "reload": 250,
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1156,7 +1160,8 @@
       [ "underbarrel", 1 ],
       [ "emitter", 1 ],
       [ "lens", 1 ]
-    ]
+    ],
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "br_bolt_rifle_elec",

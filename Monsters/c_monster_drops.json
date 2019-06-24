@@ -67,7 +67,8 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "arc_laser_rifle", "damage": [ 0, 3 ] },
+      { "item": "arc_laser_rifle", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -91,7 +92,8 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "xarm_laser_shotgun", "damage": [ 0, 3 ] },
+      { "item": "xarm_laser_shotgun", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -115,8 +117,8 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "mx_laser_sniper", "damage": [ 0, 3 ] },
-      { "item": "br_bolt_rifle_elec", "damage": [ 0, 3 ], "chance": 25 },
+      { "item": "mx_laser_sniper", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "chance": 25 },
       { "item": "e_tool", "damage": [ 0, 3 ], "chance": 50 },
       { "item": "mre_beef_box", "damage": [ 0, 3 ], "chance": 75 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
@@ -138,7 +140,8 @@
       { "item": "socks", "damage": [ 1, 4 ] },
       { "item": "lmil_armor", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "krx_laser_lmg", "damage": [ 0, 3 ] },
+      { "item": "krx_laser_lmg", "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
+      { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -180,7 +183,8 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "neo_laser_pistol", "damage": [ 0, 3 ] },
+      { "item": "neo_laser_pistol", "damage": [ 0, 3 ], "charges": [ 0, 250 ] },
+      { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "chance": 25 },
       { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
       { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
@@ -206,7 +210,8 @@
       { "item": "boots_combat", "damage": [ 1, 4 ] },
       { "item": "jacket_army", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
-      { "item": "akro_laser_smg", "damage": [ 0, 3 ] },
+      { "item": "akro_laser_smg", "damage": [ 0, 3 ], "charges": [ 0, 500 ] },
+      { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 500, 1000 ], "chance": 25 },
       { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
       { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
