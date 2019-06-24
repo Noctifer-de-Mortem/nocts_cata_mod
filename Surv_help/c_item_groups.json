@@ -198,7 +198,8 @@
       [ "stim", 5 ],
       [ "stealth_cloak_f", 3 ],
       [ "boots_stealth", 3 ],
-      [ "goggles_nv_clairvoyance", 3 ]
+      [ "goggles_nv_clairvoyance", 3 ],
+      { "group": "ammo_atomic_batteries", "prob": 5 }
     ]
   },
   {
@@ -370,11 +371,7 @@
   {
     "id": "manuals",
     "type": "item_group",
-    "items": [
-      [ "recipe_surv", 1 ],
-      [ "manual_surv", 1 ],
-      { "group": "encylopedias_common", "prob": 1 }
-    ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "mansion_books",
@@ -397,20 +394,6 @@
     "items": [ { "group": "encylopedias_common", "prob": 10 }, { "group": "encylopedias_rare", "prob": 5 }, [ "biomap", 1 ] ]
   },
   {
-    "id": "mil_rifles",
-    "type": "item_group",
-    "items": [
-      [ "neo_laser_pistol", 2 ],
-      [ "akro_laser_smg", 2 ],
-      [ "arc_laser_rifle", 2 ],
-      [ "krx_laser_lmg", 2 ],
-      [ "mx_laser_sniper", 2 ],
-      [ "xarm_laser_shotgun", 2 ],
-      [ "br_bolt_rifle_elec", 2 ],
-      [ "mk_ionic_cannon", 2 ]
-    ]
-  },
-  {
     "id": "helicopter",
     "type": "item_group",
     "items": [
@@ -421,21 +404,8 @@
       [ "mx_laser_sniper", 2 ],
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
-      [ "mk_ionic_cannon", 2 ]
-    ]
-  },
-  {
-    "id": "army_rifles",
-    "type": "item_group",
-    "items": [
-      [ "neo_laser_pistol", 2 ],
-      [ "akro_laser_smg", 2 ],
-      [ "arc_laser_rifle", 2 ],
-      [ "krx_laser_lmg", 2 ],
-      [ "mx_laser_sniper", 2 ],
-      [ "xarm_laser_shotgun", 2 ],
-      [ "br_bolt_rifle_elec", 2 ],
-      [ "mk_ionic_cannon", 2 ]
+      [ "mk_ionic_cannon", 2 ],
+      { "group": "ammo_atomic_batteries_full", "prob": 5 }
     ]
   },
   {
@@ -460,7 +430,8 @@
       [ "evil_invitation", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
-      [ "anesthesia", 2 ]
+      [ "anesthesia", 2 ],
+      { "group": "ammo_atomic_batteries", "prob": 10 }
     ]
   },
   {
@@ -481,7 +452,8 @@
       [ "boots_stealth", 2 ],
       [ "goggles_nv_clairvoyance", 2 ],
       [ "blood_m", 1 ],
-      [ "blood_p", 1 ]
+      [ "blood_p", 1 ],
+      { "group": "ammo_atomic_batteries", "prob": 10 }
     ]
   },
   {
@@ -567,13 +539,7 @@
     "type": "item_group",
     "magazine": 100,
     "ammo": 75,
-    "items": [
-      [ "makarov", 25 ],
-      [ "ak47", 5 ],
-      [ "ak74", 10 ],
-      [ "sks", 10 ],
-      [ "shotgun_d", 50 ]
-    ]
+    "items": [ [ "makarov", 25 ], [ "ak47", 5 ], [ "ak74", 10 ], [ "sks", 10 ], [ "shotgun_d", 50 ] ]
   },
   {
     "id": "sketchy_cabin_gore",
@@ -588,36 +554,50 @@
   {
     "id": "sketchy_cabin_ashes",
     "type": "item_group",
-    "items": [
-      { "item": "ash", "prob": 50, "charges": [ 50, 250 ] },
-      { "item": "meal_bone", "prob": 50, "charges": [ 5, 10 ] }
-    ]
+    "items": [ { "item": "ash", "prob": 50, "charges": [ 50, 250 ] }, { "item": "meal_bone", "prob": 50, "charges": [ 5, 10 ] } ]
   },
   {
     "id": "guns_pistol_improvised",
     "type": "item_group",
-    "items": [ [ "unbio_laser_gun", 1 ], [ "surv_battery_pistol", 1 ] ]
+    "items": [ [ "unbio_laser_gun", 1 ], { "item": "surv_battery_pistol", "prob": 1, "charges-min": 0, "charges-max": 50 } ]
   },
   {
     "id": "guns_smg_improvised",
     "type": "item_group",
-    "items": [ [ "surv_full_22", 1 ], [ "surv_full_9mm", 1 ], [ "surv_full_45", 1 ] ]
+    "items": [
+      { "item": "surv_full_22", "prob": 1, "charges-min": 0, "charges-max": 30 },
+      { "item": "surv_full_9mm", "prob": 1, "charges-min": 0, "charges-max": 30 },
+      { "item": "surv_full_45", "prob": 1, "charges-min": 0, "charges-max": 30 }
+    ]
   },
   {
     "id": "guns_rifle_improvised",
     "type": "item_group",
     "items": [
       [ "unbio_chain_lightning", 1 ],
-      [ "surv_battery_rifle", 1 ],
-      [ "surv_full_223", 1 ],
-      [ "surv_full_308", 1 ],
-      [ "surv_full_762", 1 ]
+      { "item": "surv_battery_rifle", "prob": 1, "charges-min": 0, "charges-max": 100 },
+      { "item": "surv_full_223", "prob": 1, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_308", "prob": 1, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_762", "prob": 1, "charges-min": 0, "charges-max": 20 }
     ]
   },
   {
     "id": "guns_shotgun_improvised",
     "type": "item_group",
-    "items": [ [ "surv_full_12", 1 ] ]
+    "items": [ { "item": "surv_full_12", "prob": 1, "charges-min": 0, "charges-max": 10 } ]
+  },
+  {
+    "id": "guns_energy",
+    "type": "item_group",
+    "items": [
+      [ "mk_ionic_cannon", 1 ],
+      { "item": "neo_laser_pistol", "prob": 1, "charges-min": 0, "charges-max": 500 },
+      { "item": "akro_laser_smg", "prob": 1, "charges-min": 0, "charges-max": 1000 },
+      { "item": "arc_laser_rifle", "prob": 1, "charges-min": 0, "charges-max": 5000 },
+      { "item": "krx_laser_lmg", "prob": 1, "charges-min": 0, "charges-max": 10000 },
+      { "item": "mx_laser_sniper", "prob": 1, "charges-min": 0, "charges-max": 5000 },
+      { "item": "xarm_laser_shotgun", "prob": 1, "charges-min": 0, "charges-max": 5000 }
+    ]
   },
   {
     "type": "item_group",
@@ -751,6 +731,41 @@
       [ "bio_sunglasses", 7 ],
       [ "bio_ups", 8 ],
       [ "bio_watch", 10 ]
+    ]
+  },
+  {
+    "id": "electronics",
+    "type": "item_group",
+    "items": [ { "group": "ammo_atomic_batteries", "prob": 1 } ]
+  },
+  {
+    "id": "vault",
+    "type": "item_group",
+    "items": [ { "group": "ammo_atomic_batteries", "prob": 5 } ]
+  },
+  {
+    "id": "tools_science",
+    "type": "item_group",
+    "items": [ { "group": "ammo_atomic_batteries_full", "prob": 10 } ]
+  },
+  {
+    "id": "ammo_atomic_batteries",
+    "type": "item_group",
+    "items": [
+      { "item": "light_battery_cell", "prob": 4, "charges-min": 0, "charges-max": 1000 },
+      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges-min": 0, "charges-max": 500 },
+      { "item": "medium_battery_cell", "prob": 2, "charges-min": 0, "charges-max": 5000 },
+      { "item": "heavy_battery_cell", "prob": 1, "charges-min": 0, "charges-max": 10000 }
+    ]
+  },
+  {
+    "id": "ammo_atomic_batteries_full",
+    "type": "item_group",
+    "items": [
+      { "item": "light_battery_cell", "prob": 4, "charges-min": 1000, "charges-max": 1000 },
+      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges-min": 500, "charges-max": 500 },
+      { "item": "medium_battery_cell", "prob": 2, "charges-min": 5000, "charges-max": 5000 },
+      { "item": "heavy_battery_cell", "prob": 1, "charges-min": 10000, "charges-max": 10000 }
     ]
   }
 ]
