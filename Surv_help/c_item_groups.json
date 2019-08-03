@@ -198,7 +198,6 @@
       [ "stim", 5 ],
       [ "stealth_cloak_f", 3 ],
       [ "boots_stealth", 3 ],
-      [ "goggles_nv_clairvoyance", 3 ],
       { "group": "ammo_atomic_batteries", "prob": 5 }
     ]
   },
@@ -405,6 +404,7 @@
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
+      [ "cbm_rtg_inductor", 1 ],
       { "group": "ammo_atomic_batteries_full", "prob": 5 }
     ]
   },
@@ -453,6 +453,7 @@
       [ "goggles_nv_clairvoyance", 2 ],
       [ "blood_m", 1 ],
       [ "blood_p", 1 ],
+      [ "cbm_rtg_inductor", 1 ],
       { "group": "ammo_atomic_batteries", "prob": 10 }
     ]
   },
@@ -628,7 +629,6 @@
     "subtype": "distribution",
     "//": "Bionics for Bio-Weapon Apophis.  Roughly mocked up from what bionics might fit his in-game properties.",
     "items": [
-      [ "bio_advreactor", 1 ],
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
       [ "bio_armor_head", 6 ],
@@ -644,7 +644,6 @@
       [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
-      [ "bio_plut_filter", 5 ],
       [ "bio_radscrubber", 7 ],
       [ "bio_shock", 6 ],
       [ "bio_sword", 3 ],
@@ -676,7 +675,6 @@
     "subtype": "distribution",
     "//": "Bionics for zombie super juggernauts.",
     "items": [
-      [ "bio_advreactor", 1 ],
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
       [ "bio_armor_head", 6 ],
@@ -686,7 +684,6 @@
       [ "bio_ears", 5 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
-      [ "bio_plut_filter", 5 ],
       [ "bio_power_armor_interface_mkII", 3 ],
       [ "bio_purifier", 7 ],
       [ "bio_radscrubber", 7 ],

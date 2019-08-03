@@ -142,6 +142,7 @@
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
       { "item": "krx_laser_lmg", "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
       { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "chance": 25 },
+      { "item": "cbm_rtg_inductor", "damage": [ 0, 3 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -160,6 +161,7 @@
       { "item": "lmil_armor", "damage": [ 1, 4 ] },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "chance": 50 },
       { "item": "mk_ionic_cannon", "damage": [ 0, 3 ] },
+      { "item": "cbm_rtg_inductor", "damage": [ 0, 3 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
