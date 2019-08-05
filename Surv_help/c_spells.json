@@ -1,0 +1,43 @@
+[
+  {
+    "id": "c_cbm_rtg_induction",
+    "type": "SPELL",
+    "name": "CBM Induction",
+    "description": "Charges the user's bionic reserves via induction.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
+    "min_damage": 50,
+    "max_damage": 50,
+    "base_casting_time": 200,
+    "max_level": 10,
+    "effect": "recover_energy",
+    "effect_str": "BIONIC",
+    "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true, "max_level": 10 }, { "id": "c_cbm_rtg_induction_3", "hit_self": true, "max_level": 10 } ]
+  },
+  {
+    "id": "c_cbm_rtg_induction_2",
+    "type": "SPELL",
+    "name": "CBM Induction Heat",
+    "description": "Vented waste heat.",
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "max_level": 10,
+    "field_id": "fd_hot_air3",
+    "min_field_intensity": 2,
+    "max_field_intensity": 2,
+    "field_chance": 1
+  },
+  {
+    "id": "c_cbm_rtg_induction_3",
+    "type": "SPELL",
+    "name": "CBM Induction Rads",
+    "description": "Radiation!",
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "max_level": 10,
+    "field_id": "fd_nuke_gas",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "field_chance": 1
+  }
+]

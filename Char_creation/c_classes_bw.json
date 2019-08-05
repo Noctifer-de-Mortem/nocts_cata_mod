@@ -310,11 +310,9 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_armor_interface_mkII",
-      "bio_torsionratchet",
-      "bio_advreactor",
-      "bio_plut_filter"
+      "bio_torsionratchet"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "cbm_rtg_inductor" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -548,8 +546,6 @@
       "bio_purifier",
       "bio_nanobots",
       "bio_painkiller",
-      "bio_advreactor",
-      "bio_plut_filter",
       "bio_radscrubber",
       "bio_power_armor_interface_mkII",
       "bio_ups",
@@ -565,7 +561,7 @@
       { "level": 3, "name": "dodge" }
     ],
     "items": {
-      "both": { "items": [ "hmil_armor" ], "entries": [ { "item": "krx_laser_lmg", "contents-item": [ "shoulder_strap" ] } ] },
+      "both": { "items": [ "hmil_armor", "cbm_rtg_inductor" ], "entries": [ { "item": "krx_laser_lmg", "contents-item": [ "shoulder_strap" ] } ] },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     },

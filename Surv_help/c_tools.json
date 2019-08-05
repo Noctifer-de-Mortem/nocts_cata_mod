@@ -862,5 +862,28 @@
     "volume": 12,
     "to_hit": -2,
     "material": [ "plastic", "steel" ]
+  },
+  {
+    "id": "cbm_rtg_inductor",
+    "type": "TOOL_ARMOR",
+    "symbol": ";",
+    "color": "light_green",
+    "name": "inductive CBM charger",
+    "description": "A prototype device giving off noticeable heat, housing a compact radioisotope thermoelectric generator.  It does not seem to accept batteries or even provide a UPS hookup, instead housing an inductive charging system designed specifically for CBM power storage.  Being an unfinished design, the only way to dump power into the inductor without electrocuting yourself requires opening up part of the mechanism, exposing you to radiation.",
+    "price": 1200000,
+    "material": [ "plastic", "aluminum" ],
+    "covers": [ "TORSO" ],
+    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE" ],
+    "weight": 2200,
+    "volume": 12,
+    "bashing": 4,
+    "max_charges": 50,
+    "charges_per_use": 1,
+    "use_action": { "type": "cast_spell", "spell_id": "c_cbm_rtg_induction", "no_fail": true, "level": 10 },
+    "coverage": 25,
+    "encumbrance": 5,
+    "warmth": 20,
+    "material_thickness": 2,
+    "artifact_data": { "charge_type": "ARTC_TIME" }
   }
 ]
