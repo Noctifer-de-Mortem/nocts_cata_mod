@@ -731,7 +731,7 @@
         { "item": "mk_ionic_cannon", "x": 2, "y": 17 },
         { "item": "UPS_off", "x": 1, "y": 18 },
         { "item": "megamap", "x": 1, "y": 18 },
-        { "item": "stealth_cloak_f", "x": 1, "y": 18 },
+        { "item": "acs_74_stealth_cloak_off", "x": 1, "y": 18 },
         { "item": "anesthesia", "x": 9, "y": 22, "chance": 50, "repeat": [ 1, 3 ] }
       ],
       "place_monster": [

@@ -1,18 +1,36 @@
 [
   {
-    "id": "manual_surv",
+    "id": "manual_surv_com",
     "copy-from": "book_martial",
     "type": "GENERIC",
-    "name": "Survivor Combatives",
-    "name_plural": "Survivor Combatives",
-    "description": "A journal with a tutorial on various unorthodox combat mechanics.",
+    "name": "Survivor Combatives Manual",
+    "name_plural": "Survivor Combatives Manuals ",
+    "description": "A very lenghty and boring journal with tutorials on various unorthodox combat mechanics.",
     "book_data": {
-      "max_level": 5,
+      "max_level": 10,
+      "intelligence": 10,
+      "time": 50,
+      "fun": -2,
+      "skill": "melee",
+      "required_level": 6,
+      "chapters": 5,
+      "use_action": "MA_MANUAL"
+    }
+  },
+  {
+    "id": "manual_biojutsu",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": "Bionic Combatives Manual",
+    "name_plural": "Bionic Combatives Manuals ",
+    "description": "A very lenghty and boring journal detailing the trial and error to learn the Bionic Combatives fighting style from it's bionic.",
+    "book_data": {
+      "max_level": 6,
       "intelligence": 10,
       "time": 30,
-      "fun": 0,
+      "fun": -2,
       "skill": "melee",
-      "required_level": 3,
+      "required_level": 5,
       "chapters": 3,
       "use_action": "MA_MANUAL"
     }

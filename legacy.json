@@ -119,6 +119,18 @@
     "name": "zombie super B.A.M.R.U"
   },
   {
+    "id": "stealth_cloak_f",
+    "copy-from": "acs_74_stealth_cloak_off",
+    "type": "TOOL_ARMOR",
+    "name": "ACS-74 stealth cloak"
+  },
+  {
+    "id": "stealth_cloak",
+    "copy-from": "acs_74_stealth_cloak_on",
+    "type": "TOOL_ARMOR",
+    "name": "ACS-74 stealth cloak (on)"
+  },
+  {
     "id": "can_forge_on",
     "type": "TOOL",
     "symbol": ";",
