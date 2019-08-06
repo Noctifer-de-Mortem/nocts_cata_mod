@@ -399,12 +399,11 @@
           "socks",
           "boots_combat"
         ],
-        "entries": [ { "item": "arc_laser_rifle", "contents-item": "shoulder_strap" } ]
+        "entries": [ { "item": "arc_laser_rifle_ups", "contents-item": "shoulder_strap" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   },
   {
     "type": "profession",
@@ -462,14 +461,13 @@
           "rollmat"
         ],
         "entries": [
-          { "item": "mx_laser_sniper", "contents-item": [ "shoulder_strap" ] },
+          { "item": "mx_laser_sniper_ups", "contents-item": [ "shoulder_strap" ] },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   },
   {
     "type": "profession",
@@ -519,12 +517,11 @@
           "id_science",
           "chemistry_set"
         ],
-        "entries": [ { "item": "neo_laser_pistol", "container-item": "holster" } ]
+        "entries": [ { "item": "neo_laser_pistol_ups", "container-item": "holster" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   },
   {
     "type": "profession",
@@ -561,11 +558,10 @@
       { "level": 3, "name": "dodge" }
     ],
     "items": {
-      "both": { "items": [ "hmil_armor", "cbm_rtg_inductor" ], "entries": [ { "item": "krx_laser_lmg", "contents-item": [ "shoulder_strap" ] } ] },
+      "both": { "items": [ "hmil_armor", "cbm_rtg_inductor" ], "entries": [ { "item": "krx_laser_lmg_ups", "contents-item": [ "shoulder_strap" ] } ] },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   },
   {
     "type": "profession",
@@ -658,7 +654,7 @@
     "name": "Slave Fighter (Weapon Master)",
     "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
     "points": 6,
-    "traits": [ "MARTIAL_ARTS_SURV", "PROF_GLADIATOR" ],
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "PROF_GLADIATOR" ],
     "CBMs": [
       "bio_razors",
       "bio_magnet",

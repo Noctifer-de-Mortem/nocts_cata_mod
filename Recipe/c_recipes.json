@@ -1617,5 +1617,107 @@
       [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_knife", 1 ] ]
     ]
+  },
+  {
+    "result": "neo_laser_pistol_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "neo_laser_pistol", 1 ] ]
+    ]
+  },
+  {
+    "result": "akro_laser_smg_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "akro_laser_smg", 1 ] ]
+    ]
+  },
+  {
+    "result": "arc_laser_rifle_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "arc_laser_rifle", 1 ] ]
+    ]
+  },
+  {
+    "result": "krx_laser_lmg_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "krx_laser_lmg", 1 ] ]
+    ]
+  },
+  {
+    "result": "mx_laser_sniper_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "mx_laser_sniper", 1 ] ]
+    ]
+  },
+  {
+    "result": "xarm_laser_shotgun_ups",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
+    "time": "12 m",
+    "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
+    "tools": [
+      [ [ "omnitech_weapon_ups_kit", -1 ] ]
+    ],
+    "components": [
+      [ [ "xarm_laser_shotgun", 1 ] ]
+    ]
   }
 ]

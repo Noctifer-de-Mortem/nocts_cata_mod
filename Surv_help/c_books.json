@@ -1072,6 +1072,25 @@
     "fun": -1
   },
   {
+    "id": "omnitech_weapon_ups_manual",
+    "type": "BOOK",
+    "name": "omnitech ups conversion manual",
+    "name_plural": "omnitech ups conversion manual",
+    "description": "This is a booklet detaling the instructions on how to convert an omnitech laser weapon from using atomic batteries to use UPS power. If you can find one of the kits mentioned you could replicated the steps on this booklet.",
+    "weight": 1700,
+    "volume": 2,
+    "price": 50000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_red",
+    "skill": "fabrication",
+    "required_level": 8,
+    "max_level": 10,
+    "intelligence": 12,
+    "time": 45,
+    "fun": -1
+  },
+  {
     "type": "GENERIC",
     "id": "note_apophis",
     "looks_like": "survnote",

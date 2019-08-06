@@ -287,7 +287,8 @@
       [ "surv_sniper", 2 ],
       [ "elc_bld", 2 ],
       [ "recipe_surv", 2 ],
-      [ "manual_surv", 2 ]
+      [ "manual_surv_com", 1 ], 
+	  [ "manual_biojutsu", 1 ]
     ]
   },
   {
@@ -365,27 +366,27 @@
   {
     "id": "homebooks",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "manuals",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "mansion_books",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 2 ], [ "manual_surv", 2 ], { "group": "encylopedias_common", "prob": 5 } ]
+    "items": [ [ "recipe_surv", 2 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 5 } ]
   },
   {
     "id": "shelter",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv", 1 ], { "group": "encylopedias_common", "prob": 1 }, [ "biomap", 1 ] ]
+    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 }, [ "biomap", 1 ] ]
   },
   {
     "id": "textbooks",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 2 ], [ "manual_surv", 2 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [ [ "recipe_surv", 2 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
   },
   {
     "id": "gear_survival",
@@ -427,7 +428,10 @@
       [ "goggles_nv_clairvoyance", 2 ],
       [ "flesh_knife", 2 ],
       [ "flesh_pistol", 2 ],
+	  [ "flesh_weapon_kit", 2 ],
       [ "evil_invitation", 2 ],
+	  [ "omnitech_weapon_ups_kit", 2 ],
+      [ "omnitech_weapon_ups_manual", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
       [ "anesthesia", 2 ],

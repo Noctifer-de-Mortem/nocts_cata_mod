@@ -247,22 +247,28 @@
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
   },
   {
-    "copy-from": "missed",
+    "copy-from": "alone",
     "type": "scenario",
-    "ident": "missed",
-    "traits": [ "MARTIAL_ARTS_SURV" ]
+    "ident": "alone",
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
   },
   {
     "copy-from": "summer_advanced_start",
     "type": "scenario",
     "ident": "summer_advanced_start",
-    "traits": [ "MARTIAL_ARTS_SURV" ]
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
   },
   {
     "copy-from": "ambushed",
     "type": "scenario",
     "ident": "ambushed",
-    "traits": [ "MARTIAL_ARTS_SURV" ]
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
+  },
+  {
+    "copy-from": "cyberpunk",
+    "type": "scenario",
+    "ident": "cyberpunk",
+    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ]
   },
   {
     "copy-from": "wilderness",

@@ -752,19 +752,6 @@
     }
   },
   {
-    "type": "TOOL",
-    "id": "stealth_cloak_f",
-    "name": "stealth cloak (folded)",
-    "weight": 1556,
-    "color": "light_gray",
-    "symbol": "[",
-    "description": "An experimental cloak that uses a highly sophisticated network of cameras and LEDs to render the user fully invisible.  It is powered by built-in torsion ratchets.  It is currently folded.",
-    "price": 8400000,
-    "material": [ "superalloy", "plastic" ],
-    "volume": 4,
-    "use_action": { "type": "transform", "msg": "You unfold your cloak.", "target": "stealth_cloak" }
-  },
-  {
     "id": "mil_surp_pack_1",
     "type": "GENERIC",
     "symbol": ")",
@@ -857,6 +844,21 @@
     "name_plural": "biological weapon conversion kits",
     "category": "other",
     "description": "A suspicious box containing many parts, tools and... flesh?  A manual inside the box, giving minimal information on how to use the contents of the box.  It says to see the introductory information packet for more information, whatever that may be.",
+    "price": 503500,
+    "weight": 10958,
+    "volume": 12,
+    "to_hit": -2,
+    "material": [ "plastic", "steel" ]
+  },
+  {
+    "id": "omnitech_weapon_ups_kit",
+    "type": "GENERIC",
+    "symbol": ")",
+    "color": "blue",
+    "name": "omnitech ups conversion kit",
+    "name_plural": "omnitech ups conversion kits",
+    "category": "other",
+    "description": "A box containing many tools and a few electornic components. It has the Omnitech logo and the name of device. On the back there is a description saying you could use this to convert a battery powered Omnitech weapon to use UPS power if you have the manual for it.",
     "price": 503500,
     "weight": 10958,
     "volume": 12,
