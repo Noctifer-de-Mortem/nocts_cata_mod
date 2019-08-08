@@ -28,7 +28,7 @@
     "harvest": "CBM_FAILED_BIO_ZOMBIE",
     "special_attacks": [ [ "SHOCKSTORM", 10 ], [ "PARROT", 50 ], { "type": "bite", "cooldown": 5 } ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
@@ -134,7 +134,6 @@
         "cooldown": 5,
         "move_cost": 100,
         "gun_type": "bio_blaster_gun",
-        "ammo_type": "generic_no_ammo",
         "fake_skills": [ [ "gun", 10 ], [ "rifle", 8 ] ],
         "fake_str": 8,
         "fake_dex": 10,
@@ -205,7 +204,7 @@
       [ "FUNGUS_BRISTLE", 40 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_weapom_item",
@@ -252,7 +251,7 @@
     "vision_night": 15,
     "path_settings": { "max_dist": 10 },
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 5000 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -260,12 +259,12 @@
         "cooldown": 3,
         "move_cost": 300,
         "gun_type": "arc_laser_rifle_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 4,
         "fake_dex": 5,
         "fake_per": 3,
         "fake_int": 1,
-        "max_ammo": 1000,
+        "max_ammo": 5000,
         "ranges": [ [ 5, 20, "DEFAULT" ], [ 5, 20, "BURST" ], [ 5, 20, "AUTO" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -280,11 +279,11 @@
       [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_rifle",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
@@ -314,7 +313,7 @@
     "vision_night": 15,
     "path_settings": { "max_dist": 10 },
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 5000 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -322,12 +321,12 @@
         "cooldown": 3,
         "move_cost": 300,
         "gun_type": "xarm_laser_shotgun_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 4,
         "fake_dex": 5,
         "fake_per": 3,
         "fake_int": 1,
-        "max_ammo": 1000,
+        "max_ammo": 5000,
         "ranges": [ [ 2, 10, "DEFAULT" ], [ 2, 10, "BURST" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -342,11 +341,11 @@
       [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_shotgun",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
@@ -376,7 +375,7 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 10000 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -384,11 +383,11 @@
         "cooldown": 5,
         "move_cost": 350,
         "gun_type": "krx_laser_lmg_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 4,
         "fake_dex": 3,
         "fake_per": 3,
-        "max_ammo": 1000,
+        "max_ammo": 10000,
         "ranges": [ [ 10, 25, "DEFAULT" ], [ 10, 25, "BURST" ], [ 10, 25, "AUTO" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -405,7 +404,7 @@
       [ "GRAB_DRAG", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
     "death_drops": "wild_bio_knight_lmg",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
@@ -438,23 +437,24 @@
     "vision_day": 40,
     "vision_night": 3,
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 500 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
-        "cooldown": 20,
-        "move_cost": 500,
-        "gun_type": "mk_ionic_cannon",
-        "ammo_type": "plasma",
+        "cooldown": 5,
+        "move_cost": 400,
+        "gun_type": "mk_ionic_cannon_monster",
+        "ammo_type": "battery",
         "fake_str": 4,
         "fake_dex": 3,
         "fake_per": 3,
-        "max_ammo": 1000,
-        "ranges": [ [ 10, 20, "DEFAULT" ] ],
+        "max_ammo": 500,
+        "ranges": [ [ 15, 30, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,
+        "laser_lock": true,
         "targeting_cost": 200,
         "targeting_sound": "swoosh...click!",
         "targeting_volume": 20,
@@ -467,7 +467,7 @@
       [ "GRAB_DRAG", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
     "death_drops": "wild_bio_knight_launcher",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "REGENERATES_50", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BONES", "FILTHY", "REGEN_MORALE" ]
@@ -500,7 +500,7 @@
     "vision_night": 40,
     "path_settings": { "max_dist": 20 },
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 5000 },
     "harvest": "CBM_SOLDAT_SNIPER_ZOMBIE",
     "special_attacks": [
       {
@@ -508,11 +508,11 @@
         "cooldown": 3,
         "move_cost": 400,
         "gun_type": "laser_sniper_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 4,
         "fake_dex": 5,
         "fake_per": 4,
-        "max_ammo": 1000,
+        "max_ammo": 5000,
         "ranges": [ [ 10, 30, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -528,17 +528,17 @@
       [ "SMASH", 20 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_scout_sniper",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
-    "name": "zombie super B.A.M.R.U",
+    "name": "zombie super bio-engineer",
     "description": "A zombie of a former member of the military.  This one wields a particular pistol and bionics and appears to know how to use them.",
     "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
@@ -562,7 +562,7 @@
     "vision_night": 15,
     "path_settings": { "max_dist": 30 },
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 1000 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
@@ -570,7 +570,7 @@
         "cooldown": 1,
         "move_cost": 150,
         "gun_type": "neo_laser_pistol_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 3,
         "fake_dex": 4,
         "fake_per": 5,
@@ -582,24 +582,24 @@
         "targeting_cost": 100,
         "targeting_sound": "argh!",
         "targeting_volume": 5,
-        "description": "The super scout fires its pistol!",
+        "description": "The super soldier fires its pistol!",
         "no_ammo_sound": "beep-beep-beep!"
       },
       [ "GRAB", 5 ],
       [ "SMASH", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_pistol",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON",  "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON",  "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2", "REGEN_MORALE" ]
   },
   {
     "id": "mon_zombie_bio_tool_smg",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
-    "name": "zombie super B.A.M.R.U",
+    "name": "zombie super bio-engineer",
     "description": "A zombie of a former member of the military.  This one wields a particular smg and bionics and appears to know how to use them.",
     "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
@@ -623,7 +623,7 @@
     "vision_night": 15,
     "path_settings": { "max_dist": 30 },
     "luminance": 2,
-    "starting_ammo": { "generic_no_ammo": 100 },
+    "starting_ammo": { "battery": 1000 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
@@ -631,7 +631,7 @@
         "cooldown": 1,
         "move_cost": 150,
         "gun_type": "akro_laser_smg_monster",
-        "ammo_type": "generic_no_ammo",
+        "ammo_type": "battery",
         "fake_str": 3,
         "fake_dex": 4,
         "fake_per": 5,
@@ -643,17 +643,17 @@
         "targeting_cost": 100,
         "targeting_sound": "argh!",
         "targeting_volume": 5,
-        "description": "The super scout fires its smg!",
+        "description": "The super soldier fires its smg!",
         "no_ammo_sound": "beep-beep-beep!"
       },
       [ "GRAB", 5 ],
       [ "SMASH", 10 ]
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
-    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_smg",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "REGENERATES_10", "FILTHY", "PATH_AVOID_DANGER_2", "REGEN_MORALE" ]
   }
 ]
