@@ -67,7 +67,7 @@
     "type": "profession",
     "ident": "mycus_weapon",
     "name": "Fungus Failed Bio-Weapon",
-    "description": "Assimilation process is complete, incorporation and modification of biology and bionics into our system was successful. Protection of our new domain and brethren is our current objective. Inability to remove previous DNA marker is but a minor setback.",
+    "description": "Assimilation process is complete, incorporation and modification of biology and bionics into our system was successful.  Protection of our new domain and brethren is our current objective.  Inability to remove previous DNA marker is but a minor setback.",
     "points": 4,
     "traits": [
       "PSYCHOPATH",
@@ -358,7 +358,7 @@
     "type": "profession",
     "ident": "bio_infantry",
     "name": "Super Soldier",
-    "description": "The infantry of the Super Soldier project. You are one of many augmented soldiers to be deployed into a battle field to ensure victory. With range and melee capabilities, you engage enemies en masse.",
+    "description": "The infantry of the Super Soldier project.  You are one of many augmented soldiers to be deployed into a battle field to ensure victory.  With range and melee capabilities, you engage enemies en masse.",
     "points": 12,
     "CBMs": [
       "bio_targeting",
@@ -409,7 +409,7 @@
     "type": "profession",
     "ident": "bio_scout",
     "name": "Super Scout",
-    "description": "The sniper of the Super Soldier project. You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations. With your weapons and skills, you can eliminate key targets after living for weeks in enemy territory.",
+    "description": "The sniper of the Super Soldier project.  You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations.  With your weapons and skills, you can eliminate key targets after living for weeks in enemy territory.",
     "points": 12,
     "CBMs": [
       "bio_eye_enhancer",
@@ -472,8 +472,8 @@
   {
     "type": "profession",
     "ident": "bio_tool",
-    "name": "Super B.A.M.R.U",
-    "description": "Biological and mechanical repair unit, the repairs man of the Super Soldier project. You are one of many augmented military 'mechanics to be used as a repair module. With repair, medical and general electronic capabilities, you can maybe fix the world.",
+    "name": "Super Bio-engineer",
+    "description": "Biological and mechanical repair unit, the combat engineer of the Super Soldier project.  You are one of many augmented military 'mechanics to be used as a repair module.  With repair, medical and general electronic capabilities, you can maybe fix the world.",
     "points": 12,
     "CBMs": [
       "bio_int_enhancer",
