@@ -11,12 +11,12 @@
       { "x": 1, "y": 3, "parts": [ "hdframe_horizontal", "reinforced_windshield", "storage_battery", "headlight_reinforced", "plating_hard" ] },
       { "x": 1, "y": 4, "parts": [ "hdframe_ne", "reinforced_windshield", "omnicam", "plating_hard" ] },
 
-      { "x": 0, "y": -1, "parts": [ "hdframe_vertical", "wheel_armor_steerable", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
+      { "x": 0, "y": -1, "parts": [ "hdframe_vertical", "wheel_mount_heavy_steerable", "wheel_armor", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
       { "x": 0, "y": 0, "parts": [ "hdframe_vertical_2", "turret_mount", "ups_rifle_t", "hdroof", "seat", "seatbelt_heavyduty", "cam_control", "controls", "dashboard", "vehicle_clock", "vehicle_alarm", "stereo" ] },
       { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "tracker", "inboard_mirror", "horn_big", "trunk_floor", "hdroof" ] },
       { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "tracker", "trunk_floor", "hdroof" ] },
       { "x": 0, "y": 3, "parts": [ "hdframe_vertical_2", "turret_mount", "ups_rifle_t", "hdroof", "seat", "seatbelt_heavyduty" ] },
-      { "x": 0, "y": 4, "parts": [ "hdframe_vertical", "wheel_armor_steerable", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
+      { "x": 0, "y": 4, "parts": [ "hdframe_vertical", "wheel_mount_heavy_steerable", "wheel_armor", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
 
       { "x": -1, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
       { "x": -1, "y": 0, "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "minireactor", "engine_electric_enhanced" ] },
@@ -67,19 +67,19 @@
       { "x": -7, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "veh_table_wood", "atomic_lamp" ] },
       { "x": -7, "y": 4, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
 
-      { "x": -8, "y": -1, "parts": [ "hdframe_vertical", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ] },
+      { "x": -8, "y": -1, "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ] },
       { "x": -8, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "cargo_space" ] },
       { "x": -8, "y": 1, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ] },
       { "x": -8, "y": 2, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ] },
       { "x": -8, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "bed" ] },
-      { "x": -8, "y": 4, "parts": [ "hdframe_vertical", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ] },
+      { "x": -8, "y": 4, "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ] },
 
-      { "x": -9, "y": -1, "parts": [ "hdframe_sw", "wheel_armor", "hdboard_sw", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] },
+      { "x": -9, "y": -1, "parts": [ "hdframe_sw", "wheel_mount_heavy", "wheel_armor", "hdboard_sw", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] },
       { "x": -9, "y": 0, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ] },
       { "x": -9, "y": 1, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ] },
       { "x": -9, "y": 2, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ] },
       { "x": -9, "y": 3, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ] },
-      { "x": -9, "y": 4, "parts": [ "hdframe_se", "wheel_armor", "hdboard_se", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] }
+      { "x": -9, "y": 4, "parts": [ "hdframe_se", "wheel_mount_heavy", "wheel_armor", "hdboard_se", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] }
     ],
     "items": [
       { "x": -9, "y": 0, "chance": 50, "items": [ "folding_bicycle" ] },
@@ -125,14 +125,14 @@
       { "x": 1, "y": -1, "part": "reinforced_windshield" },
       { "x": 2, "y": 1, "part": "hdframe_ne" },
       { "x": 2, "y": 1, "part": "headlight" },
-      { "x": 2, "y": 1, "part": "wheel_wide_steerable" },
+      { "x": 2, "y": 1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
       { "x": 2, "y": 1, "part": "reinforced_windshield" },
       { "x": 2, "y": 0, "part": "hdframe_horizontal" },
       { "x": 2, "y": 0, "part": "reinforced_windshield" },
       { "x": 2, "y": 0, "part": "omnicam" },
       { "x": 2, "y": -1, "part": "hdframe_nw" },
       { "x": 2, "y": -1, "part": "headlight" },
-      { "x": 2, "y": -1, "part": "wheel_wide_steerable" },
+      { "x": 2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
       { "x": 2, "y": -1, "part": "reinforced_windshield" },
       { "x": -1, "y": 1, "part": "hdframe_cross" },
       { "x": -1, "y": 1, "part": "storage_battery_mount" },
@@ -150,14 +150,14 @@
       { "x": -2, "y": 1, "part": "storage_battery_mount" },
       { "x": -2, "y": 1, "part": "storage_battery_removable" },
       { "x": -2, "y": 1, "part": "cargo_space" },
-      { "x": -2, "y": 1, "part": "wheel_wide_steerable" },
+      { "x": -2, "y": 1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
       { "x": -2, "y": 0, "part": "seed_drill_advanced" },
       { "x": -2, "y": -1, "part": "hdframe_sw" },
       { "x": -2, "y": -1, "part": "engine_electric" },
       { "x": -2, "y": -1, "part": "storage_battery_mount" },
       { "x": -2, "y": -1, "part": "storage_battery_removable" },
       { "x": -2, "y": -1, "part": "cargo_space" },
-      { "x": -2, "y": -1, "part": "wheel_wide_steerable" }
+      { "x": -2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] }
     ],
     "items": [  ]
   }
