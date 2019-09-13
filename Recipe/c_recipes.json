@@ -454,7 +454,8 @@
       [ [ "kevlar_plate", 48 ] ],
       [ [ "duct_tape", 500 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "wristwatch", 1 ] ]
+      [ [ "wristwatch", 1 ] ],
+      [ [ "survivor_suit", 1 ] ]
     ]
   },
   {
@@ -482,7 +483,8 @@
       [ [ "steel_chunk", 7 ], [ "scrap", 21 ], [ "sheet_metal", 4 ] ],
       [ [ "duct_tape", 500 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "wristwatch", 1 ] ]
+      [ [ "wristwatch", 1 ] ],
+      [ [ "hsurvivor_suit", 1 ] ]
     ]
   },
   {
