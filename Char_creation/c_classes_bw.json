@@ -312,7 +312,11 @@
       "bio_power_armor_interface_mkII",
       "bio_torsionratchet"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "cbm_rtg_inductor" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": {
+      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "cbm_rtg_inductor" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -382,23 +386,13 @@
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "unarmed" },
       { "level": 3, "name": "cutting" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "bashing" },
       { "level": 3, "name": "dodge" }
     ],
     "items": {
       "both": {
-        "items": [
-          "undershirt",
-          "arm_warmers",
-          "leg_warmers",
-          "pants_army",
-          "jacket_army",
-          "balclava",
-          "tac_helmet",
-          "gloves_liner",
-          "gloves_tactical",
-          "socks",
-          "boots_combat"
-        ],
+        "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor" ],
         "entries": [ { "item": "arc_laser_rifle_ups", "contents-item": "shoulder_strap" } ]
       },
       "male": [ "boxer_shorts" ],
@@ -428,7 +422,7 @@
     "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
       { "level": 5, "name": "gun" },
-      { "level": 3, "name": "rifle" },
+      { "level": 5, "name": "rifle" },
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "stabbing" },
       { "level": 3, "name": "survival" },
@@ -485,35 +479,34 @@
       "bio_memory",
       "bio_tools",
       "bio_flashlight",
+      "bio_emp_armgun",
       "bio_batteries",
+      "bio_nanobots",
+      "bio_painkiller",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
     "skills": [
-      { "level": 3, "name": "electronics" },
-      { "level": 3, "name": "mechanics" },
-      { "level": 3, "name": "cooking" },
-      { "level": 3, "name": "firstaid" },
-      { "level": 3, "name": "fabrication" },
+      { "level": 5, "name": "electronics" },
+      { "level": 5, "name": "mechanics" },
+      { "level": 5, "name": "cooking" },
+      { "level": 5, "name": "firstaid" },
+      { "level": 5, "name": "fabrication" },
       { "level": 3, "name": "pistol" },
       { "level": 3, "name": "gun" }
     ],
     "items": {
       "both": {
         "items": [
+          "helmet_liner",
           "undershirt",
           "arm_warmers",
-          "leg_warmers",
-          "pants_army",
-          "jacket_army",
-          "balclava",
-          "beret",
           "gloves_liner",
-          "gloves_tactical",
+          "leg_warmers",
           "socks",
+          "lmil_armor",
           "molle_pack",
-          "boots_combat",
           "id_science",
           "chemistry_set"
         ],
@@ -553,12 +546,17 @@
     "skills": [
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "rifle" },
-      { "level": 3, "name": "melee" },
-      { "level": 3, "name": "cutting" },
-      { "level": 3, "name": "dodge" }
+      { "level": 5, "name": "melee" },
+      { "level": 5, "name": "cutting" },
+      { "level": 5, "name": "bashing" },
+      { "level": 5, "name": "stabbing" },
+      { "level": 5, "name": "dodge" }
     ],
     "items": {
-      "both": { "items": [ "hmil_armor", "cbm_rtg_inductor" ], "entries": [ { "item": "krx_laser_lmg_ups", "contents-item": [ "shoulder_strap" ] } ] },
+      "both": {
+        "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor", "cbm_rtg_inductor" ],
+        "entries": [ { "item": "krx_laser_lmg_ups", "contents-item": [ "shoulder_strap" ] } ]
+      },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
