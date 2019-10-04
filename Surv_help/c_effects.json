@@ -1,0 +1,8 @@
+[
+  {
+    "type": "effect_type",
+    "id": "rtg_induction_radiation",
+    "max_duration": "2 m",
+    "base_mods": { "rad_min": [ 1 ] }
+  }
+]

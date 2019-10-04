@@ -119,7 +119,7 @@
     "id": "style_biojutsu",
     "copy-from": "style_biojutsu",
     "type": "martial_art",
-    "name": "KBionic Combatives",
+    "name": "Bionic Combatives",
     "extend": { "weapons": [ "unbio_bladed_weapon", "unbio_sword_weapon", "unbio_claws_weapon", "bio_sword_weapon" ] }
   },
   {
