@@ -161,9 +161,9 @@
     "material_thickness": 1,
     "environmental_protection": 4,
     "max_charges": 100,
-    "initial_charges": 5,
     "turns_per_charge": 5,
     "artifact_data": { "charge_type": "ARTC_TIME", "effects_worn": [ "AEP_INVISIBLE", "AEP_STR_DOWN", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] },
+    "revert_to": "solar_flashlight",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn off your cloak.", "target": "acs_74_stealth_cloak_off" },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
   },
@@ -189,7 +189,7 @@
     "max_charges": 100,
     "initial_charges": 5,
     "artifact_data": { "charge_type": "ARTC_TIME", "effects_worn": [ "AEP_STR_DOWN", "AEP_DEX_DOWN", "AEP_SPEED_DOWN" ] },
-    "use_action": { "active": true, "need_charges": 1, "need_charges_msg": "The stored energy has run dry", "menu_text": "Activate Cloaking", "target": "acs_74_stealth_cloak_on", "msg": "You turn on your cloak.", "type": "transform" },
+    "use_action": { "active": true, "need_charges": 1, "need_charges_msg": "The stored energy has run dry.", "menu_text": "Activate Cloaking", "target": "acs_74_stealth_cloak_on", "msg": "You turn on your cloak.", "type": "transform" },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
   },
   {
