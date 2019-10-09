@@ -243,28 +243,13 @@
     "flags": [ "NO_ROTATE" ]
   },
   {
-    "id": "plain_slaughter1",
+    "id": "Plain_Slaughter",
     "type": "overmap_terrain",
     "name": "field",
     "//": "Designed to look like a normal plain tile.",
     "sym": ".",
     "color": "brown",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "plain_slaughter2",
-    "type": "overmap_terrain",
-    "name": "field",
-    "//": "Designed to look like a normal plain tile.",
-    "sym": ".",
-    "color": "brown",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "see_cost": 5
   },
   {
     "id": "new_fungal_territory",
