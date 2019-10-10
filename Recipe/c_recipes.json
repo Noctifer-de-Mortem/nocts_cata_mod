@@ -770,9 +770,6 @@
     "difficulty": 9,
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 5 ], [ "mechanics", 4 ] ],
     "time": "55 m",
-    "reversible": false,
-    "decomp_learn": 2,
-    "autolearn": false,
     "book_learn": [ [ "advanced_electronics", 8 ], [ "textbook_electronics", 8 ], [ "manual_electronics", 8 ], [ "recipe_surv", 7 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
@@ -783,11 +780,35 @@
     "tools": [ [ [ "welder", 30 ], [ "welder_crude", 60 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
       [ [ "ups_rifle", 1 ] ],
-      [ [ "foot_crank", 1 ] ],
-      [ [ "alternator_car", 1 ] ],
+      [ [ "hand_crank_charger", 1 ] ],
+      [ [ "amplifier", 3 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "e_scrap", 2 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "e_scrap", 5 ] ],
       [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ]
+    ]
+  },
+  {
+    "result": "rifle_crank_battery_cell",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "gun", 2 ], [ "fabrication", 4 ], [ "mechanics", 3 ] ],
+    "time": "25 m",
+    "book_learn": [ [ "advanced_electronics", 7 ], [ "textbook_electronics", 7 ], [ "manual_electronics", 7 ], [ "recipe_surv", 6 ] ],
+    "qualities": [
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "GLARE", "level": 2 }
+    ],
+    "tools": [ [ [ "welder", 10 ], [ "welder_crude", 10 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+    "components": [
+      [ [ "light_plus_battery_cell", 2 ], [ "light_battery_cell", 3 ], [ "light_minus_battery_cell", 6 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "e_scrap", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "scrap", 1 ] ]
     ]
   },
   {

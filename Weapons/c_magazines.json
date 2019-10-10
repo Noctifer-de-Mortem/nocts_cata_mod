@@ -176,5 +176,23 @@
     "reload_time": 200,
     "armor_data": { "covers": [ "TORSO" ], "coverage": 5 },
     "flags": [ "BELTED", "OVERSIZE" ]
+  },
+  {
+    "id": "rifle_crank_battery_cell",
+    "type": "MAGAZINE",
+    "category": "spare_parts",
+    "name": "crank rifle capacitor bank",
+    "description": "This is a homemade power cell made from household batteries along with a series of capacitors, designed to translate mechanical force into enough voltage to more efficiently power a survivor's crank rifle.  Bulkier, less reliable, it's a wonder this thing isn't an electrocution hazard.",
+    "weight": "250 g",
+    "volume": "300 ml",
+    "price": 5000,
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "battery",
+    "capacity": 20,
+    "reliability": 5,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE" ]
   }
 ]
