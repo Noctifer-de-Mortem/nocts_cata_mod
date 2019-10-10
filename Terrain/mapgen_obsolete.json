@@ -889,6 +889,108 @@
     }
   },
   {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plain_slaughter1" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        ",,,,,,.,,,,.,,,,,,,.,,,,",
+        ",,,.,,,,.,,,,.,..,,,,,,,",
+        ",,,,,,,..,,,,,,,,..,,,,.",
+        ",,,,,,,,,,,,,,..,,,,,,,,",
+        ",,,,,,,.,,,,..,,,,..,,,,",
+        ",,,..,,,,,,,,,,,..,,,,..",
+        ",,,,,,,,,,..,,,,.,,,,,,,",
+        ",,,..,,,,,,,,..,,,,,,,,.",
+        ",,,,,,,..,,,,.,,,,,,,,..",
+        ",,,..,,,,,,,,,,,,,,,,,,.",
+        "..,,,,,,,,.,,,,.,,,,,,,.",
+        ",,,,,,,,,,,,,,,,,,.,,,,.",
+        ",,,.,,,,,,,,,,,,,,,,,,,.",
+        ",,,..,,,,,,,,..,,,,,,,,.",
+        ",,,,..,,,,..,,,,..,,,,..",
+        ",,,.,,,,,,,,,,,,,,,.,,,,",
+        ",,,,,,,..,,,,.,,,,.,,,,.",
+        ",,,..,,,,.,,,,..,,,,,,,,",
+        ",,,..,,,,,,,,,,,,..,,,,.",
+        "..,,,,..,,,,,,,,,,,.,,,,",
+        ",,,..,..,,,,.,..,,,,,,,.",
+        ",,,,,,.,,,,.,,,,,,,,,,,.",
+        ",,,..,,,,,,,,,,,,,,,,,,.",
+        ",,,.,,,,.,,,,,,,,,,,,,,,"
+      ],
+      "terrain": { " ": "t_null", ",": "t_grass", ".": "t_dirt" },
+      "furniture": { " ": "f_null", ",": "f_null", ".": "f_null" },
+      "place_loot": [
+        { "group": "wild_bio_weapom_item", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] },
+        { "group": "dead_slave_fighters", "x": [ 3, 19 ], "y": [ 12, 8 ], "repeat": [ 2, 5 ] }
+      ],
+      "place_monster": [
+        { "monster": "mon_failed_weapon", "x": 13, "y": 22 },
+        { "monster": "mon_failed_weapon", "x": 4, "y": 8 },
+        { "monster": "mon_failed_weapon", "x": 10, "y": 15 },
+        { "monster": "mon_failed_weapon", "x": 11, "y": 17 },
+        { "monster": "mon_failed_weapon", "x": 19, "y": 13 }
+      ],
+      "place_npcs": [
+        { "class": "slave_fight", "x": 2, "y": 7 },
+        { "class": "slave_fight", "x": 7, "y": 12 },
+        { "class": "slave_fight", "x": 9, "y": 22 },
+        { "class": "slave_fight", "x": 13, "y": 20 },
+        { "class": "slave_fight", "x": 17, "y": 5 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plain_slaughter2" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        ",,,,,,.,,,,.,,,,,,,.,,,,",
+        ",,,.,,,,.,,,,.,..,,,,,,,",
+        ",,,,,,,..,,,,,,,,..,,,,.",
+        ",,,,,,,,,,,,,,..,,,,,,,,",
+        ",,,,,,,.,,,,..,,,,..,,,,",
+        ",,,..,,,,,,,,,,,..,,,,..",
+        ",,,,,,,,,,..,,,,.,,,,,,,",
+        ",,,..,,,,,,,,..,,,,,,,,.",
+        ",,,,,,,..,,,,.,,,,,,,,..",
+        ",,,..,,,,,,,,,,,,,,,,,,.",
+        "..,,,,,,,,.,,,,.,,,,,,,.",
+        ",,,,,,,,,,,,,,,,,,.,,,,.",
+        ",,,.,,,,,,,,,,,,,,,,,,,.",
+        ",,,..,,,,,,,,..,,,,,,,,.",
+        ",,,,..,,,,..,,,,..,,,,..",
+        ",,,.,,,,,,,,,,,,,,,.,,,,",
+        ",,,,,,,..,,,,.,,,,.,,,,.",
+        ",,,..,,,,.,,,,..,,,,,,,,",
+        ",,,..,,,,,,,,,,,,..,,,,.",
+        "..,,,,..,,,,,,,,,,,.,,,,",
+        ",,,..,..,,,,.,..,,,,,,,.",
+        ",,,,,,.,,,,.,,,,,,,,,,,.",
+        ",,,..,,,,,,,,,,,,,,,,,,.",
+        ",,,.,,,,.,,,,,,,,,,,,,,,"
+      ],
+      "terrain": { " ": "t_null", ",": "t_grass", ".": "t_dirt" },
+      "place_loot": [ { "group": "dead_slave_fighters", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] } ],
+      "place_npcs": [
+        { "class": "survn_special", "x": 2, "y": 7 },
+        { "class": "survn_special", "x": 7, "y": 12 },
+        { "class": "survn_special", "x": 9, "y": 22 }
+      ],
+      "place_monster": [
+        { "monster": "mon_zombie_failed_weapon", "x": 3, "y": 6 },
+        { "monster": "mon_zombie_failed_weapon", "x": 6, "y": 20 },
+        { "monster": "mon_zombie_failed_weapon", "x": 4, "y": 8 },
+        { "monster": "mon_zombie_failed_weapon", "x": 10, "y": 15 },
+        { "monster": "mon_zombie_necro", "x": 19, "y": 13 }
+      ]
+    }
+  },
+  {
     "id": "biow_field",
     "type": "overmap_terrain",
     "name": "field",
@@ -982,6 +1084,30 @@
     "name": "Sketchy Cabin",
     "sym": 67,
     "color": "i_red",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "plain_slaughter1",
+    "type": "overmap_terrain",
+    "name": "field",
+    "//": "Designed to look like a normal plain tile.",
+    "sym": ".",
+    "color": "brown",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "plain_slaughter2",
+    "type": "overmap_terrain",
+    "name": "field",
+    "//": "Designed to look like a normal plain tile.",
+    "sym": ".",
+    "color": "brown",
     "see_cost": 5,
     "mondensity": 0,
     "extras": "build",

@@ -8,7 +8,7 @@
     ],
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
-    "city_sizes": [ 0, 16 ],
+    "city_sizes": [ 1, 16 ],
     "occurrences": [ 75, 100 ],
     "flags": [ "CLASSIC", "UNIQUE" ]
   },
@@ -17,9 +17,9 @@
     "id": "surv_camp_s",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "surv_camp" } ],
     "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 10 ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
   },
   {
@@ -132,29 +132,22 @@
     "id": "forest_slaghter_s",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "forest_slaghter" } ],
     "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 20 ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
   },
   {
     "type": "overmap_special",
     "id": "plain_slaughter1_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "plain_slaughter1" } ],
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Plain_Slaughter_north" } ],
+    "connections" : [
+      { "point" : [0,-1,0], "terrain" : "road", "existing" : true }
+    ],
     "locations": [ "wilderness" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 20 ],
-    "flags": [ "CLASSIC" ]
-  },
-  {
-    "type": "overmap_special",
-    "id": "plain_slaughter2_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "plain_slaughter2" } ],
-    "locations": [ "wilderness" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 20 ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
   },
   {
@@ -162,9 +155,9 @@
     "id": "new_fungal_territory_s",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "new_fungal_territory" } ],
     "locations": [ "wilderness" ],
-    "city_distance": [ 5, -1 ],
+    "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 20 ],
+    "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
   }
 ]
