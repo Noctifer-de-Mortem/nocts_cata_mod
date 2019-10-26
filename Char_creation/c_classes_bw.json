@@ -310,10 +310,11 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_armor_interface_mkII",
+      "bio_fuel_cell_gasoline",
       "bio_torsionratchet"
     ],
     "items": {
-      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "cbm_rtg_inductor" ],
+      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
