@@ -26,7 +26,7 @@
     "type": "item_group",
     "//": "Bio-Weapon Sigma's weapon, don't think you can define weapon overrides any other way.",
     "subtype": "collection",
-    "entries": [ { "item": "arc_laser_rifle", "contents-item": [ "shoulder_strap", "knife_combat" ] } ]
+    "entries": [ { "item": "arc_laser_rifle" } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry",
