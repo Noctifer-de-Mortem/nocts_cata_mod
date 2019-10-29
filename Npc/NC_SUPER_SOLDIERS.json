@@ -37,9 +37,9 @@
     "entries": [
       {
         "distribution": [
-          { "item": "arc_laser_rifle", "prob": 50, "contents-item": [ "shoulder_strap", "knife_combat" ] },
-          { "item": "xarm_laser_shotgun", "prob": 30, "contents-item": [ "shoulder_strap", "knife_combat" ] },
-          { "item": "mx_laser_sniper", "prob": 20, "contents-item": [ "shoulder_strap", "knife_combat" ] }
+          { "item": "arc_laser_rifle", "prob": 50 },
+          { "item": "xarm_laser_shotgun", "prob": 30 },
+          { "item": "mx_laser_sniper", "prob": 20 }
         ]
       }
     ]
@@ -86,6 +86,6 @@
     "subtype": "collection",
     "magazine": 100,
     "ammo": 100,
-    "entries": [ { "item": "akro_laser_smg", "contents-item": [ "shoulder_strap", "knife_combat" ] } ]
+    "entries": [ { "item": "akro_laser_smg" } ]
   }
 ]
