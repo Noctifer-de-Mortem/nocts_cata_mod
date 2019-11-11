@@ -24,42 +24,12 @@
   },
   {
     "type": "overmap_special",
-    "id": "surv_emcampz_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "surv_emcampz" } ],
-    "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 10 ],
-    "flags": [ "CLASSIC" ]
-  },
-  {
-    "type": "overmap_special",
-    "id": "surv_emcampb_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "surv_emcampb" } ],
-    "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 10 ],
-    "flags": [ "CLASSIC" ]
-  },
-  {
-    "type": "overmap_special",
-    "id": "surv_emcampn_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "surv_emcampn" } ],
-    "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 0, 10 ],
-    "flags": [ "CLASSIC" ]
-  },
-  {
-    "type": "overmap_special",
-    "id": "surv_emcampnp_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "surv_emcampnp" } ],
-    "locations": [ "forest" ],
-    "city_distance": [ 5, -1 ],
-    "city_sizes": [ 0, 16 ],
-    "occurrences": [ 1, 1 ],
+    "id": "Survivor_Encampment",
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_north" } ],
+    "locations": [ "forest", "swamp" ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
   },
   {

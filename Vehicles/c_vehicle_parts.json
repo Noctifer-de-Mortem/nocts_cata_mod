@@ -7,7 +7,6 @@
     "color": "yellow",
     "broken_symbol": "#",
     "broken_color": "yellow",
-    "range": 25,
     "item": "ups_rifle",
     "difficulty": 6,
     "folded_volume": 8,
@@ -23,14 +22,11 @@
     "color": "dark_gray",
     "broken_symbol": "#",
     "broken_color": "dark_gray",
-    "range": 12,
     "item": "sur_pnu_lmg",
     "difficulty": 4,
-    "size": 40,
     "folded_volume": 8,
-    "//": "CARGO for the ammo. MANUAL means you got stand in the same tile as it to use it.",
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "MANUAL", "FOLDABLE" ] }
   },
   {
     "type": "GENERIC",
@@ -81,13 +77,10 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_full_223",
     "difficulty": 4,
-    "size": 40,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -97,13 +90,10 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_full_308",
     "difficulty": 4,
-    "size": 40,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -113,13 +103,23 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_full_762",
     "difficulty": 4,
-    "size": 40,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_full_762R_t",
+    "name": "mounted survivor's 7.62x54 battle rifle",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_762R",
+    "difficulty": 4,
+    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -129,13 +129,10 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_full_12",
     "difficulty": 4,
-    "size": 40,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -145,45 +142,50 @@
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_lmg_308",
     "difficulty": 4,
-    "size": 80,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_223_t",
-    "name": "mounted survivor's 223 LMG",
+    "name": "mounted survivor's .223 LMG",
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_lmg_223",
     "difficulty": 4,
-    "size": 80,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_762_t",
-    "name": "mounted survivor's 762 GPMG",
+    "name": "mounted survivor's 7.62x39 LMG",
     "color": "brown",
     "broken_symbol": "#",
     "broken_color": "brown",
-    "range": 12,
     "item": "surv_lmg_762",
     "difficulty": 4,
-    "size": 80,
-    "folded_volume": 8,
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
-    "extend": { "flags": [ "CARGO", "MANUAL" ] }
+    "extend": { "flags": [ "MANUAL" ] }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_lmg_762R_t",
+    "name": "mounted survivor's 7.62x54 GPMG",
+    "looks_like": "surv_lmg_308_t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_762R",
+    "difficulty": 4,
+    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ],
+    "extend": { "flags": [ "MANUAL" ] }
   },
   {
     "type": "vehicle_part",
@@ -193,7 +195,6 @@
     "color": "yellow",
     "broken_symbol": "#",
     "broken_color": "yellow",
-    "range": 30,
     "item": "krx_laser_lmg",
     "difficulty": 6,
     "//": "Haven't figured out the breaks_into...",
