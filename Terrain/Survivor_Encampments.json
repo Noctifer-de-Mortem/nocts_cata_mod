@@ -266,7 +266,7 @@
         { "vehicle": "surv_cart", "x": 17, "y": 20, "chance": 30, "fuel": 60, "status": -1 }
       ],
       "place_monster": [
-        { "monster": "mon_skitterbot", "x": [ 10, 13 ], "y": [ 2, 10 ], "repeat": [ 6, 12 ] },
+        { "monster": "mon_skitterbot", "x": [ 10, 13 ], "y": [ 3, 10 ], "repeat": [ 6, 12 ] },
         { "monster": "mon_manhack", "x": [ 3, 8 ], "y": [ 5, 8 ], "repeat": [ 2, 4 ] },
         { "monster": "mon_secubot", "x": 17, "y": 12 },
         { "monster": "mon_broken_cyborg", "x": 6, "y": 15 },
