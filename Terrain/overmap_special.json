@@ -27,7 +27,7 @@
     "id": "Survivor_Encampment",
     "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_north" } ],
     "locations": [ "forest", "swamp" ],
-    "city_distance": [ 10, -1 ],
+    "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 0, 5 ],
     "flags": [ "CLASSIC" ]
