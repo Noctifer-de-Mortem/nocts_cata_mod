@@ -160,5 +160,27 @@
       { "x": -2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] }
     ],
     "items": [  ]
+  },
+  {
+    "id": "surv_tachanka",
+    "type": "vehicle",
+    "name": "Survivor Gun Cart",
+    "blueprint": [
+      [ "O O-" ],
+      [ "#=# " ],
+      [ "O O-" ]
+    ],
+    "parts": [
+      { "x": -2, "y": -1, "parts": [ "frame_wood_light_vertical", "wheel_wood_b", "wooden_aisle_horizontal" ] },
+      { "x": -2, "y": 0, "parts": [ "frame_wood_light_vertical", "seat_wood", "turret_mount", { "ammo_types": [ "reloaded_762_54R" ], "part": "surv_lmg_762R_t", "ammo": 60, "ammo_qty": [ 5, 75 ] } ] },
+      { "x": -2, "y": 1, "parts": [ "frame_wood_light_vertical", "wheel_wood_b", "wooden_aisle_horizontal" ] },
+      { "x": -1, "y": 0, "parts": [ "frame_wood_light_vertical", "wood box" ] },
+      { "x": 0, "y": 0, "parts": [ "frame_wood_light_vertical", "seat_wood", "controls" ] },
+      { "x": 0, "y": -1, "parts": [ "frame_wood_light_vertical", "wheel_wood_b", "wooden_aisle_horizontal" ] },
+      { "x": 0, "y": 1, "parts": [ "frame_wood_light_vertical", "wheel_wood_b", "wooden_aisle_horizontal" ] },
+      { "x": 1, "y": 1, "part": "yoke_harness" },
+      { "x": 1, "y": -1, "part": "yoke_harness" }
+    ],
+    "items": [ { "x": -1, "y": 0, "chance": 100, "item_groups": [ "tachanka_loot" ] } ]
   }
 ]

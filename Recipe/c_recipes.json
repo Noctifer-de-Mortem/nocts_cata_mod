@@ -414,6 +414,29 @@
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ], [ [ "autofire", 1 ] ], [ [ "762_casing", 1 ] ] ]
   },
   {
+    "result": "fr_762R",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
+    "time": "55 m",
+    "reversible": false,
+    "decomp_learn": 5,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "HAMMER", "level": 1 }
+    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ], [ [ "autofire", 1 ] ], [ [ "762R_casing", 1 ] ] ]
+  },
+  {
     "result": "survbowpack",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -511,6 +534,28 @@
   },
   {
     "result": "surv_762_mag",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": "20 m",
+    "book_learn": [ [ "recipe_surv", 3 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 }
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
+      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
+    ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
+  },
+  {
+    "result": "surv_762R_mag",
     "type": "recipe",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_MAGAZINES",
@@ -695,6 +740,25 @@
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
       [ [ "swage", -1 ] ],
       [ [ "762_casing", -1 ] ]
+    ],
+    "components": [ [ [ "wire", 2 ] ] ]
+  },
+  {
+    "result": "surv_belt_762R",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_MAGAZINES",
+    "difficulty": 5,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": "30 m",
+    "book_learn": [ [ "recipe_surv", 4 ] ],
+    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "tools": [
+      [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
+      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "762R_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
   },

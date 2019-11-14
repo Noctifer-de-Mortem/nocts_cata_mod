@@ -768,5 +768,14 @@
       { "item": "medium_battery_cell", "prob": 2, "charges-min": 5000, "charges-max": 5000 },
       { "item": "heavy_battery_cell", "prob": 1, "charges-min": 10000, "charges-max": 10000 }
     ]
+  },
+  {
+    "id": "tachanka_loot",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "surv_belt_762R", "prob": 60, "ammo-item": "reloaded_762_54R", "charges": [ 5, 75 ] },
+      { "item": "reloaded_762_54R", "prob": 30, "charges": [ 10, 20 ] }
+    ]
   }
 ]

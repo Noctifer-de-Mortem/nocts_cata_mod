@@ -2,7 +2,7 @@
   {
     "id": "dirtlot",
     "type": "vehicle_group",
-    "vehicles": [ [ "surv_tractor", 5 ], [ "surv_rv", 5 ] ],
+    "vehicles": [ [ "surv_tractor", 5 ], [ "surv_rv", 5 ], [ "surv_tachanka", 5 ] ],
     "//": "Low since there are not many vehicles to pick from."
   },
   {
@@ -19,5 +19,10 @@
     "id": "highway",
     "type": "vehicle_group",
     "vehicles": [ [ "surv_rv", 5 ] ]
+  },
+  {
+    "id": "highway",
+    "type": "vehicle_group",
+    "vehicles": [ [ "surv_tachanka", 5 ] ]
   }
 ]
