@@ -108,7 +108,8 @@
       },
       "place_loot": [
         { "item": "bucket", "x": 18, "y": [ 9, 10 ], "chance": 90 },
-        { "item": "bone_human", "x": [ 8, 16 ], "y": [ 2, 12 ], "repeat": [ 10, 20 ] }
+        { "item": "bone_human", "x": [ 8, 16 ], "y": [ 2, 12 ], "repeat": [ 10, 20 ] },
+        { "item": "recipe_surv", "x": 11, "y": 16 }
       ],
       "place_vehicles": [ { "vehicle": "surv_tachanka", "x": 12, "y": 9, "chance": 90, "status": -1, "rotation": 270 } ],
       "place_monster": [
@@ -260,7 +261,8 @@
         { "group": "tools_gunsmith", "x": 20, "y": [ 12, 13 ], "chance": 90, "repeat": 2 },
         { "group": "ammo_atomic_batteries", "x": 20, "y": [ 12, 13 ], "chance": 50, "repeat": 2 },
         { "group": "tools_robotics", "x": 20, "y": [ 18, 20 ], "chance": 90, "repeat": 2 },
-        { "group": "supplies_electronics", "x": 20, "y": [ 18, 20 ], "chance": 75, "repeat": 3 }
+        { "group": "supplies_electronics", "x": 20, "y": [ 18, 20 ], "chance": 75, "repeat": 3 },
+        { "item": "recipe_surv", "x": 5, "y": 11 }
       ],
       "place_vehicles": [
         { "vehicle": "bicycle_electric", "x": 11, "y": 6, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
@@ -285,9 +287,7 @@
     "//": "Variant three, hostile NPCs.  Slightly closer to the traditional encampment layout.",
     "weight": 1000,
     "object": {
-      "faction_owner": [
-        { "id": "hells_raiders", "x": [ 2, 22 ], "y": [ 3, 22 ] }
-      ],
+      "faction_owner": [ { "id": "hells_raiders", "x": [ 2, 22 ], "y": [ 3, 22 ] } ],
       "rows": [
         ".........&..............",
         "#########X====X#########",
@@ -306,8 +306,8 @@
         "#.wD____|.,,,,.|}}}_a|.#",
         "#.|BB___+.,,,,.+____f|.#",
         "#.wD____|.,,,,.|}}}_k|.#",
-        "#.|BB_BB|.,,,,.||w|w||.#",
-        "#.||w|w||.,,,,.........#",
+        "#.|BB_BB|{,,,,.||w|w||.#",
+        "#.||w|w||{,,,,.........#",
         "#.........,,,,.|+|+|+|.#",
         "#.mmmmmmm.,,,,.|T|T|T|.#",
         "#.mmmmmmm.,,,,.|||||||.#",
@@ -323,6 +323,7 @@
         "_": "t_junk_floor",
         "=": "t_door_metal_locked",
         "&": "t_gates_control_concrete_lab",
+        "{": "t_dirt",
         "}": "t_junk_floor",
         "^": "t_dirt",
         "-": "t_dirt",
@@ -344,6 +345,7 @@
         "w": "t_window_boarded_noglass"
       },
       "furniture": {
+        "{": "f_rack",
         "}": "f_locker",
         "-": "f_earthbag_half",
         "^": "f_smoking_rack",
@@ -360,11 +362,10 @@
         "t": "f_table",
         "v": "f_woodstove"
       },
-      "place_zones": [
-        { "type": "NPC_INVESTIGATE_ONLY", "faction": "hells_raiders", "x": [ 1, 22 ], "y": [ 2, 22 ] }
-      ],
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "hells_raiders", "x": [ 1, 22 ], "y": [ 2, 22 ] } ],
       "place_toilets": [ { "x": 16, "y": 20 }, { "x": 18, "y": 20 }, { "x": 20, "y": 20 } ],
       "mapping": {
+        "{": { "items": [ { "item": "tools_earthworking", "chance": 90 }, { "item": "farming_seeds", "chance": 60 } ] },
         "B": { "items": { "item": "bed", "chance": 75 } },
         "C": {
           "items": [
@@ -391,7 +392,8 @@
         { "group": "gunxtras", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
         { "group": "tools_blacksmith", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
         { "group": "supplies_metal", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
-        { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 }
+        { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
+        { "item": "recipe_surv", "x": 5, "y": 10 }
       ],
       "place_vehicles": [
         { "vehicle": "motorcycle", "x": 10, "y": 18, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
@@ -500,11 +502,7 @@
       "mapping": {
         "~": { "item": [ { "item": "ash", "chance": 30, "amount": [ 25, 50 ] }, { "item": "bone_human", "chance": 10 } ] },
         "B": { "items": { "item": "bed", "chance": 75 } },
-        "C": {
-          "items": [
-            { "item": "oven", "chance": 50 }
-          ]
-        },
+        "C": { "items": [ { "item": "oven", "chance": 50 } ] },
         "D": {
           "items": [
             { "item": "dresser", "chance": 90 },
@@ -525,11 +523,10 @@
         { "group": "supplies_metal", "x": [ 16, 18 ], "y": 12, "chance": 75, "repeat": 3 },
         { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 12, "chance": 75, "repeat": 3 },
         { "item": "ash", "x": [ 1, 7 ], "y": [ 17, 22 ], "chance": 50, "repeat": 5 },
-        { "item": "flamethrower", "x": 11, "y": [ 19, 20 ], "chance": 90 }
+        { "item": "flamethrower", "x": 11, "y": [ 19, 20 ], "chance": 90 },
+        { "item": "recipe_surv", "x": 7, "y": 12 }
       ],
-      "place_vehicles": [
-        { "vehicle": "bicycle_electric", "x": 13, "y": 18, "chance": 75, "fuel": 25, "status": -1, "rotation": 210 }
-      ],
+      "place_vehicles": [ { "vehicle": "bicycle_electric", "x": 13, "y": 18, "chance": 75, "fuel": 25, "status": -1, "rotation": 210 } ],
       "place_monster": [
         { "monster": "mon_zombie_scorched", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": [ 3, 6 ] },
         { "monster": "mon_zombie_fiend", "x": [ 3, 19 ], "y": [ 3, 19 ], "repeat": [ 1, 3 ] },
@@ -544,29 +541,29 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "Survivor_Encampment_2" ],
-    "//": "Variant five, prepper NPCs.  This version will remain rooted in a separate overmap special, to keep their spawns unique.",
+    "//": "Prepper NPCs variant.  This version will remain rooted in a separate overmap special, to keep their spawns unique.",
     "weight": 1000,
     "object": {
       "rows": [
         ".........&..............",
         "##########====##########",
         "#........&,,,,.........#",
-        "#.||w|w||.,,,,.||w|w||.#",
-        "#.|.....|.,,,,.|.....|.#",
-        "#.|..u..+.,,,,.+..u..|.#",
-        "#.|.....|.,,,,.|.....|.#",
-        "#.||w|w||.,,,,.||w|w||.#",
+        "#.|||||||.,,,,.||w|w||.#",
+        "#.|H~~~~-.,,,,.|F_vCC|.#",
+        "#.|H~~~~x.,,,,.+__u_hw.#",
+        "#.|~~~~~-.,,,,.|nn_}}|.#",
+        "#.|||||||.,,,,.||w|w||.#",
         "#.........,,,,.........#",
         "#.||w|w||.,,,,.||w|w||.#",
-        "#.|.....|.,,,,.|.....|.#",
-        "#.|..u..+.,,,,.+..u..|.#",
-        "#.|.....|.,,,,.|.....|.#",
+        "#.|bbbbb|.,,,,.|}}}_a|.#",
+        "#.whtu__+.,,,,.+__u_fw.#",
+        "#.|ht___|.,,,,.|{{__k|.#",
         "#.|||+|||.,,,,.|||+|||.#",
-        "#.|.....|.,,,,.|.....|.#",
-        "#.|..u..+.,,,,.+..u..|.#",
-        "#.|.....|.,,,,.|.....|.#",
+        "#.|BB_BB|.,,,,.|{{__{|.#",
+        "#.wD_u__+.,,,,.+__u_{w.#",
+        "#.|BBDBB|.,,,,.|}}}_{|.#",
         "#.||w|w||.,,,,.||w|w||.#",
-        "#...OSP...,,,,.........#",
+        "#..OSPrr..,,,,.........#",
         "#.........,,,,.|+|+|+|.#",
         "#.mmmmmmm.!RR!.|T|T|T|.#",
         "#.mmmmmmm.^^^^.|||||||.#",
@@ -582,55 +579,61 @@
         "_": "t_rock_floor",
         "=": "t_palisade_gate",
         "&": "t_palisade_pulley",
-        "}": "t_junk_floor",
+        "{": "t_dirt",
+        "}": "t_rock_floor",
         "^": "t_concrete",
         "-": "t_dirt",
         "!": "t_current_trans",
-        "B": "t_junk_floor",
-        "C": "t_junk_floor",
-        "D": "t_junk_floor",
-        "T": "t_junk_floor",
+        "~": "t_dirtfloor",
+        "B": "t_rock_floor",
+        "C": "t_rock_floor",
+        "D": "t_rock_floor",
+        "F": "t_rock_floor",
+        "H": "t_dirtfloor",
         "O": "t_dirt",
         "P": "t_water_pump",
         "R": "t_concrete",
         "S": "t_dirt",
-        "a": "t_junk_floor",
-        "b": "t_junk_floor",
-        "f": "t_junk_floor",
-        "h": "t_junk_floor",
-        "k": "t_junk_floor",
+        "T": "t_rock_floor",
+        "a": "t_rock_floor",
+        "b": "t_rock_floor",
+        "f": "t_rock_floor",
+        "h": "t_rock_floor",
+        "k": "t_rock_floor",
         "m": "t_dirtmound",
-        "t": "t_junk_floor",
+        "n": "t_rock_floor",
+        "r": "t_dirt",
+        "t": "t_rock_floor",
         "u": "t_utility_light",
-        "v": "t_junk_floor",
+        "v": "t_rock_floor",
         "w": "t_window_enhanced"
       },
       "furniture": {
+        "{": "f_rack",
         "}": "f_locker",
-        "^": "f_smoking_rack",
+        "^": "f_solar_unit",
         "B": "f_makeshift_bed",
         "C": "f_crate_o",
         "D": "f_dresser",
+        "H": "f_hay",
         "O": "f_standing_tank",
+        "R": "f_rack",
+        "S": "f_smoking_rack",
         "T": "f_toilet",
         "a": "f_anvil",
         "b": "f_bookcase",
         "f": "f_forge_rock",
         "h": "f_chair",
         "k": "f_kiln_empty",
+        "n": "f_cupboard",
+        "r": "f_rack",
         "t": "f_table",
         "v": "f_woodstove"
       },
       "place_toilets": [ { "x": 16, "y": 20 }, { "x": 18, "y": 20 }, { "x": 20, "y": 20 } ],
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 75 } },
-        "C": {
-          "items": [
-            { "item": "cannedfood", "chance": 50 },
-            { "item": "cannedfood", "chance": 50 },
-            { "item": "cannedfood", "chance": 50 }
-          ]
-        },
+        "C": { "items": [ { "item": "oven", "chance": 90 } ] },
         "D": {
           "items": [
             { "item": "dresser", "chance": 90 },
@@ -639,32 +642,53 @@
           ]
         },
         "R": { "items": { "item": "gas_charging_rack", "chance": 75 } },
-        "b": { "items": { "item": "mansion_bookcase", "chance": 100 } }
+        "b": { "items": { "item": "mansion_bookcase", "chance": 100 } },
+        "n": {
+          "items": [
+            { "item": "cannedfood", "chance": 50 },
+            { "item": "cannedfood", "chance": 50 },
+            { "item": "cannedfood", "chance": 50 },
+            { "item": "cannedfood", "chance": 50 }
+          ]
+        },
+        "r": { "items": [ { "item": "tools_earthworking", "chance": 90 }, { "item": "farming_seeds", "chance": 60 } ] }
       },
       "place_loot": [
-        { "group": "oven", "x": [ 19, 20 ], "y": 8, "chance": 90, "repeat": 2 },
-        { "group": "power_tools", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
-        { "group": "supplies_reagents_lab", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
-        { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
-        { "group": "gunsmith_gunparts", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
-        { "group": "gunxtras", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
-        { "group": "tools_blacksmith", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
-        { "group": "supplies_metal", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
-        { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 }
+        { "group": "power_tools", "x": [ 19, 20 ], "y": 6, "chance": 75, "repeat": 3 },
+        { "group": "supplies_reagents_lab", "x": [ 19, 20 ], "y": 6, "chance": 50, "repeat": 3 },
+        { "group": "bionics_failed_bio", "x": [ 17, 19 ], "y": 6, "chance": 50, "repeat": 3 },
+        { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
+        { "group": "gunsmith_gunparts", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
+        { "group": "gunxtras", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
+        { "group": "tools_blacksmith", "x": [ 16, 17 ], "y": 12, "chance": 75, "repeat": 3 },
+        { "group": "supplies_metal", "x": [ 16, 17 ], "y": 12, "chance": 25, "repeat": 5 },
+        { "group": "supplies_mechanics", "x": [ 16, 17 ], "y": 12, "chance": 25, "repeat": 5 },
+        { "group": "gear_medical", "x": [ 16, 17 ], "y": 14, "chance": 75, "repeat": 3 },
+        { "group": "surgery", "x": [ 16, 17 ], "y": 14, "chance": 25, "repeat": 5 },
+        { "group": "drugs_heal_simple", "x": [ 16, 17 ], "y": 14, "chance": 50, "repeat": 6 },
+        { "group": "survivor_weapons", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
+        { "group": "ammo_reloaded", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
+        { "group": "mags_makeshift", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
+        { "group": "tools_electronics", "x": 20, "y": [ 14, 16 ], "chance": 75, "repeat": 3 },
+        { "group": "supplies_electronics", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 6 },
+        { "group": "bionics_failed_bio", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 3 },
+        { "item": "bucket", "x": [ 6, 7 ], "y": 4 },
+        { "item": "recipe_surv", "x": 4, "y": 11 }
       ],
       "place_vehicles": [
-        { "vehicle": "motorcycle", "x": 10, "y": 18, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
-        { "vehicle": "motorcycle", "x": 13, "y": 18, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 }
+        { "vehicle": "bicycle_electric", "x": 10, "y": 15, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
+        { "vehicle": "bicycle_electric", "x": 13, "y": 15, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
+        { "vehicle": "surv_tachanka", "x": 12, "y": 8, "chance": 75, "status": -1, "rotation": 270 }
       ],
       "place_npcs": [
-        { "class": "bandit", "x": 5, "y": 3 },
-        { "class": "bandit", "x": 14, "y": 11 },
-        { "class": "bandit", "x": 4, "y": 14 },
-        { "class": "bandit", "x": 5, "y": 19 },
-        { "class": "thug", "x": 18, "y": 6 },
-        { "class": "thug", "x": 3, "y": 10 },
-        { "class": "thug", "x": 20, "y": 9 },
-        { "class": "thug", "x": 19, "y": 16 }
+        { "class": "survn", "x": 9, "y": 4 },
+        { "class": "survn", "x": 18, "y": 6 },
+        { "class": "survn", "x": 3, "y": 11 },
+        { "class": "survn", "x": 19, "y": 11 },
+        { "class": "survn", "x": 4, "y": 5 },
+        { "class": "survn", "x": 19, "y": 15 },
+        { "class": "survn", "x": 6, "y": 19 },
+        { "class": "survn", "x": 14, "y": 17 }
       ]
     }
   }
