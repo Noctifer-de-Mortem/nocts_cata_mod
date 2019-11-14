@@ -27,41 +27,15 @@
     "sym": "C",
     "color": "light_green",
     "see_cost": 5,
-    "mondensity": 0,
     "extras": "surv_encamp"
   },
   {
-    "id": "surv_emcampz",
+    "id": "Survivor_Encampment_2",
     "type": "overmap_terrain",
     "name": "Survivor Encampment",
     "sym": "C",
     "color": "light_green",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "surv_emcampn",
-    "type": "overmap_terrain",
-    "name": "Survivor Encampment",
-    "sym": "C",
-    "color": "light_green",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
-    "id": "surv_emcampnp",
-    "type": "overmap_terrain",
-    "name": "Survivor Encampment",
-    "sym": "C",
-    "color": "light_green",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
+    "see_cost": 5
   },
   {
     "id": "Bio_Weapon_Lab_1",

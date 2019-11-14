@@ -105,6 +105,20 @@
     "to_hit": -1
   },
   {
+    "id": "fr_762R",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "name": "7.62x54 full auto receiver",
+    "description": "A scavenged full auto receiver, use it to craft a full auto 7.62x54 firearm.",
+    "price": 20000,
+    "material": "steel",
+    "weight": 620,
+    "volume": 4,
+    "to_hit": -1
+  },
+  {
     "id": "surcan",
     "type": "TOOL",
     "color": "light_gray",

@@ -113,8 +113,9 @@
       ],
       "place_vehicles": [ { "vehicle": "surv_tachanka", "x": 12, "y": 9, "chance": 90, "status": -1, "rotation": 270 } ],
       "place_monster": [
-        { "monster": "mon_wolf", "x": [ 8, 16 ], "y": [ 2, 12 ], "repeat": [ 5, 10 ] },
-        { "monster": "mon_horse", "x": [ 18, 20 ], "y": [ 8, 10 ], "repeat": [ 1, 2 ] }
+        { "monster": "mon_wolf", "x": [ 9, 15 ], "y": [ 3, 11 ], "repeat": [ 5, 10 ] },
+        { "monster": "mon_horse", "x": 18, "y": 8 },
+        { "monster": "mon_horse", "x": 20, "y": 10, "chance": 50 }
       ]
     }
   },
@@ -287,7 +288,6 @@
     "//": "Variant three, hostile NPCs.  Slightly closer to the traditional encampment layout.",
     "weight": 1000,
     "object": {
-      "faction_owner": [ { "id": "hells_raiders", "x": [ 2, 22 ], "y": [ 3, 22 ] } ],
       "rows": [
         ".........&..............",
         "#########X====X#########",
@@ -544,6 +544,7 @@
     "//": "Prepper NPCs variant.  This version will remain rooted in a separate overmap special, to keep their spawns unique.",
     "weight": 1000,
     "object": {
+      "faction_owner": [ { "id": "preppers", "x": [ 2, 22 ], "y": [ 3, 22 ] } ],
       "rows": [
         ".........&..............",
         "##########====##########",
@@ -556,8 +557,8 @@
         "#.........,,,,.........#",
         "#.||w|w||.,,,,.||w|w||.#",
         "#.|bbbbb|.,,,,.|}}}_a|.#",
-        "#.whtu__+.,,,,.+__u_fw.#",
-        "#.|ht___|.,,,,.|{{__k|.#",
+        "#.w__u__+.,,,,.+__u_fw.#",
+        "#.|ht_ht|.,,,,.|{{__k|.#",
         "#.|||+|||.,,,,.|||+|||.#",
         "#.|BB_BB|.,,,,.|{{__{|.#",
         "#.wD_u__+.,,,,.+__u_{w.#",
@@ -582,7 +583,7 @@
         "{": "t_dirt",
         "}": "t_rock_floor",
         "^": "t_concrete",
-        "-": "t_dirt",
+        "-": "t_splitrail_fence",
         "!": "t_current_trans",
         "~": "t_dirtfloor",
         "B": "t_rock_floor",
@@ -606,7 +607,8 @@
         "t": "t_rock_floor",
         "u": "t_utility_light",
         "v": "t_rock_floor",
-        "w": "t_window_enhanced"
+        "w": "t_window_enhanced",
+        "x": "t_splitrail_fencegate_c"
       },
       "furniture": {
         "{": "f_rack",
@@ -680,13 +682,17 @@
         { "vehicle": "bicycle_electric", "x": 13, "y": 15, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
         { "vehicle": "surv_tachanka", "x": 12, "y": 8, "chance": 75, "status": -1, "rotation": 270 }
       ],
+      "place_monster": [
+        { "monster": "mon_horse", "x": 4, "y": 4 },
+        { "monster": "mon_horse", "x": 6, "y": 6 }
+      ],
       "place_npcs": [
         { "class": "survn", "x": 9, "y": 4 },
         { "class": "survn", "x": 18, "y": 6 },
-        { "class": "survn", "x": 3, "y": 11 },
-        { "class": "survn", "x": 19, "y": 11 },
-        { "class": "survn", "x": 4, "y": 5 },
-        { "class": "survn", "x": 19, "y": 15 },
+        { "class": "survn", "x": 6, "y": 12 },
+        { "class": "survn", "x": 18, "y": 11 },
+        { "class": "survn", "x": 4, "y": 15 },
+        { "class": "survn", "x": 18, "y": 15 },
         { "class": "survn", "x": 6, "y": 19 },
         { "class": "survn", "x": 14, "y": 17 }
       ]

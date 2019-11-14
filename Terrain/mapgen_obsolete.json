@@ -1696,5 +1696,38 @@
     "mondensity": 0,
     "extras": "build",
     "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "surv_emcampz",
+    "type": "overmap_terrain",
+    "name": "Survivor Encampment",
+    "sym": "C",
+    "color": "light_green",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "surv_emcampn",
+    "type": "overmap_terrain",
+    "name": "Survivor Encampment",
+    "sym": "C",
+    "color": "light_green",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
+  },
+  {
+    "id": "surv_emcampnp",
+    "type": "overmap_terrain",
+    "name": "Survivor Encampment",
+    "sym": "C",
+    "color": "light_green",
+    "see_cost": 5,
+    "mondensity": 0,
+    "extras": "build",
+    "flags": [ "NO_ROTATE" ]
   }
 ]
