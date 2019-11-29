@@ -1806,5 +1806,85 @@
     "components": [
       [ [ "xarm_laser_shotgun", 1 ] ]
     ]
+  },
+  {
+    "result": "armor_lightplate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": "4 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 7 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 150 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "components": [
+      [ [ "armor_lightplate", 1 ] ],
+      [ [ "rag", 10 ] ],
+      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
+      [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
+      [ [ "duct_tape", 300 ] ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
+    ]
+  },
+  {
+    "result": "helmet_plate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "45 m",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 10 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
+    "components": [
+      [ [ "helmet_plate", 1 ] ],
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
+      [ [ "rag", 2 ], [ "bandana", 1 ] ],
+      [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],
+      [ [ "duct_tape", 75 ] ]
+    ]
+  },
+  {
+    "result": "gloves_plate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "1 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 40 ] ],
+    "tools": [ [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ] ],
+    "components": [
+      [ [ "gloves_plate", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "duct_tape", 50 ] ],
+      [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 4 ] ]
+    ]
+  },
+  {
+    "result": "boots_plate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "2 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 60 ] ],
+    "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
+    "components": [ [ [ "boots_plate", 1 ] ], [ [ "leather", 4 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "duct_tape", 100 ] ] ]
   }
 ]
