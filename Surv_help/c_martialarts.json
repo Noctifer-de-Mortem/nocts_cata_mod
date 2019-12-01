@@ -3,116 +3,61 @@
     "type": "martial_art",
     "id": "style_surv_com",
     "name": "Survivor Combatives",
-    "description": "You learned how to handle yourself in the cataclysm.  You have become good at using proper, improvised and hand made weaponry, including your fists.  Not flashy but it keeps you alive.",
+    "description": "You learned how to handle yourself in the cataclysm.  Whether armed or unarmed, you know how to use your wits to stay alive.  Survival is of the highest priority.",
     "initiate": [ "You steady yourself, prepared for the fights ahead.", "%s prepares for the fights ahead." ],
-    "arm_block": 99,
-    "leg_block": 99,
-    "arm_block_with_bio_armor_arms": true,
-    "leg_block_with_bio_armor_legs": true,
+    "learn_difficulty": 7,
+    "arm_block": 2,
+    "leg_block": 8,
     "allow_melee": true,
-    "static_buffs": [
+    "onmove_buffs": [
       {
-        "id": "style_surv_passive_weapon",
-        "name": "Weapon Focus",
-        "melee_allowed": true,
-        "min_melee": 6,
-        "description": "Weapon proficiency allows to block and dodge surprise attacks.",
-        "bonus_dodges": 3,
-        "bonus_blocks": 3
-      },
-      {
-        "id": "style_surv_passive_hand",
-        "name": "Unarmed Focus",
-        "unarmed_allowed": true,
-        "min_unarmed": 6,
-        "description": "Careful movement allows to dodge surprise attacks easily.",
-        "bonus_dodges": 3,
-        "bonus_blocks": 3
-      },
-      {
-        "id": "style_surv_recovery",
-        "name": "Combat Roll",
+        "id": "buff_surv_com_onmove",
+        "name": "Elusiveness",
+        "//": "Note: Doubled percentage signs are needed for correct formatting, not a typo.",
+        "description": "Quick and fluid movements make you harder to catch.\n\n+2 Dodge attempts, Dodge skill increased by 50%% of Intelligence, immunity to knockdown.\nLasts for 1 turn.",
+        "min_melee": 4,
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "min_melee": 8,
         "throw_immune": true,
-        "description": "User has learned to to recover from being thrown off their feet."
-      },
-      {
-        "id": "style_surv_passive_weapon_ultimate",
-        "name": "Ultimate Weapon Focus",
-        "melee_allowed": true,
-        "min_melee": 10,
-        "description": "Perfected weapon technique allows the user to dodge and block almost any attack.",
-        "bonus_dodges": 99,
-        "bonus_blocks": 99
-      },
-      {
-        "id": "style_surv_passive_hand_ultimate",
-        "name": "Ultimate Unarmed Focus",
-        "unarmed_allowed": true,
-        "min_unarmed": 10,
-        "description": "Perfected stance allows the user to dodge and block almost any attack.",
-        "bonus_dodges": 99,
-        "bonus_blocks": 99
-      },
-      {
-        "id": "style_surv_hand_quiet",
-        "name": "Quiet Unarmed Combat",
-        "unarmed_allowed": true,
-        "min_unarmed": 10,
-        "quiet": true,
-        "description": "User has learned how to deal all weapon strikes quietly."
-      },
-      {
-        "id": "style_surv_weapon_quiet",
-        "name": "Quiet Weapon Combat",
-        "melee_allowed": true,
-        "min_melee": 10,
-        "quiet": true,
-        "description": "User has learned how to deal all unarmed attacks quietly."
+        "buff_duration": 1,
+        "bonus_dodges": 2,
+        "flat_bonuses": [ [ "dodge", "int", 0.5 ] ]
       }
     ],
-    "onattack_buffs": [
+    "onhit_buffs": [
       {
-        "id": "style_surv_com_attack_momentum",
-        "name": "Combat Momentum",
-        "description": "Each successful hit make the next one more likely to land and more powerful as well.",
+        "id": "buff_surv_com_onhit",
+        "name": "Active Defense",
+        "description": "The best defense is a good offense.\n\n+2 Block attempts, damage blocked increased by 75%% of Intelligence.\nLasts 2 turns.",
+        "min_melee": 5,
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "min_melee": 8,
-        "buff_duration": 5,
-        "max_stacks": 10,
-        "flat_bonuses": [ [ "damage", "bash", 1.5 ], [ "damage", "cut", 1.5 ], [ "damage", "stab", 1.5 ], [ "hit", 1.25 ] ]
+        "buff_duration": 2,
+        "bonus_blocks": 2,
+        "flat_bonuses": [ [ "block", "int", 0.75 ] ]
       }
     ],
     "onkill_buffs": [
       {
-        "id": "style_surv_com_kill_momentum",
-        "name": "Deadly Momentum",
-        "description": "Each successful hit make the next one more likely to land and more powerful as well.",
+        "id": "buff_surv_com_onkill",
+        "name": "Misdirection",
+        "description": "The shock and awe of combat gives you an opportunity to slip away.\n\n+2 Block attempts, +2 Dodge attempts, movement speed increased by 100%% of Intelligence, moving generates 1/2 as much noise.\nLast 3 turns.",
+        "min_melee": 6,
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "min_melee": 10,
-        "buff_duration": 5,
-        "max_stacks": 10,
-        "flat_bonuses": [ [ "damage", "bash", 2.0 ], [ "damage", "cut", 2.0 ], [ "damage", "stab", 2.0 ], [ "hit", 1.5 ] ]
+        "stealthy": true,
+        "buff_duration": 3,
+        "bonus_dodges": 2,
+        "bonus_blocks": 2,
+        "flat_bonuses": [ [ "speed", "int", 1.0 ] ]
       }
     ],
     "techniques": [
-      "tec_surv_com_break_unarmed",
-      "tec_surv_com_counter_unarmed",
-      "tec_surv_com_feint_unarmed",
-      "tec_surv_com_disarm_unarmed",
-      "tec_surv_com_power_unarmed",
-      "tec_surv_com_trip_unamred",
-      "tec_surv_com_rapid_unarmed",
-      "tec_surv_com_precise_unarmed",
-      "tec_surv_com_surprise_unarmed",
-      "tec_surv_com_break_melee",
-      "tec_surv_com_counter_melee",
-      "tec_surv_com_feint_melee",
-      "tec_surv_com_disarm_melee"
+      "tec_surv_com_break",
+      "tec_surv_com_counter_dodge",
+      "tec_surv_com_counter_block",
+      "tec_surv_com_disarm",
+      "tec_surv_com_feint"
     ]
   },
   {
