@@ -463,22 +463,20 @@
     "time": "500 m",
     "reversible": false,
     "book_learn": [ [ "recipe_surv", 7 ] ],
-    "using": [ [ "filament", 400 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 },
-      { "id": "SEW", "level": 1 }
-    ],
-    "tools": [ [ [ "welder", 25 ], [ "welder_crude", 50 ], [ "soldering_iron", 50 ], [ "toolset", 50 ] ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
     "components": [
-      [ [ "leather", 50 ], [ "tanned_hide", 10 ] ],
+      [ [ "survivor_suit", 1 ] ],
+      [ [ "gloves_survivor", 1 ] ],
+      [ [ "boots_survivor", 1 ] ],
+      [ [ "hood_rain", 1 ], [ "wetsuit_hood", 1 ], [ "nomex_hood", 1 ] ],
+      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ], [ "wetsuit", 1 ], [ "nomex_suit", 1 ] ],
+      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
-      [ [ "kevlar_plate", 48 ] ],
-      [ [ "duct_tape", 500 ] ],
+      [ [ "duct_tape", 150 ] ],
+      [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "wristwatch", 1 ] ],
-      [ [ "survivor_suit", 1 ] ]
+      [ [ "wristwatch", 1 ] ]
     ]
   },
   {
@@ -492,22 +490,23 @@
     "time": "500 m",
     "reversible": false,
     "book_learn": [ [ "recipe_surv", 8 ] ],
-    "using": [ [ "filament", 400 ] ],
+    "using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 8 ] ],
     "qualities": [
-      { "id": "CUT", "level": 1 },
       { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 },
-      { "id": "SEW", "level": 1 }
+      { "id": "SAW_M", "level": 1 }
     ],
     "tools": [ [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
     "components": [
+      [ [ "hsurvivor_suit", 1 ] ],
+      [ [ "gloves_hsurvivor", 1 ] ],
+      [ [ "boots_hsurvivor", 1 ] ],
+      [ [ "hood_rain", 1 ], [ "wetsuit_hood", 1 ], [ "nomex_hood", 1 ] ],
+      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ], [ "wetsuit", 1 ], [ "nomex_suit", 1 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
-      [ [ "kevlar_plate", 48 ] ],
-      [ [ "steel_chunk", 7 ], [ "scrap", 21 ], [ "sheet_metal", 4 ] ],
-      [ [ "duct_tape", 500 ] ],
+      [ [ "duct_tape", 150 ] ],
+      [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "wristwatch", 1 ] ],
-      [ [ "hsurvivor_suit", 1 ] ]
+      [ [ "wristwatch", 1 ] ]
     ]
   },
   {
