@@ -246,7 +246,8 @@
         { "class": "bio_weapon_1", "x": 22, "y": 10 },
         { "class": "bio_weapon_2", "x": 22, "y": 14 },
         { "class": "cmnd_guard_1", "x": 15, "y": 6 }
-      ]
+      ],
+      "place_vehicles": [ { "vehicle": "autoclave_cart", "x": 15, "y": 22, "chance": 99, "fuel": 85, "status": -1, "rotation": 90 } ]
     }
   }
 ]

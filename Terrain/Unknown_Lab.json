@@ -113,9 +113,7 @@
         "e": "t_pavement_y",
         "f": "t_chainfence_v"
       },
-      "place_loot": [
-        { "group": "map_extra_science", "x": 14, "y": 8, "chance": 75 }
-      ],
+      "place_loot": [ { "group": "map_extra_science", "x": 14, "y": 8, "chance": 75 } ],
       "place_fields": [
         { "field": "fd_blood", "x": 14, "y": 8 },
         { "field": "fd_blood", "x": 14, "y": 7 },
@@ -300,9 +298,7 @@
         "|": "t_wall_metal"
       },
       "furniture": { "c": "f_chair" },
-      "place_loot": [
-        { "group": "map_extra_science", "x": 10, "y": 13, "chance": 75 }
-      ],
+      "place_loot": [ { "group": "map_extra_science", "x": 10, "y": 13, "chance": 75 } ],
       "place_fields": [
         { "field": "fd_blood", "x": 10, "y": 13 },
         { "field": "fd_blood", "x": 11, "y": 14 },
@@ -411,7 +407,8 @@
         { "monster": "mon_failed_weapon", "x": 6, "y": 15 },
         { "monster": "mon_failed_weapon", "x": 12, "y": 21 },
         { "monster": "mon_failed_weapon", "x": 22, "y": 23 }
-      ]
+      ],
+      "place_vehicles": [ { "vehicle": "autoclave_cart", "x": 13, "y": 17, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 } ]
     }
   },
   {
@@ -517,9 +514,7 @@
         { "field": "fd_blood", "x": 12, "y": 23 },
         { "field": "fd_blood", "x": 13, "y": 23 }
       ],
-      "place_vehicles": [
-        { "vehicle": "chem_cart", "x": 16, "y": 12, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 }
-      ],
+      "place_vehicles": [ { "vehicle": "chem_cart", "x": 16, "y": 12, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 } ],
       "place_monster": [
         { "monster": "mon_failed_weapon", "x": 1, "y": 22 },
         { "monster": "mon_failed_weapon", "x": 15, "y": 21 },
@@ -728,9 +723,7 @@
         { "field": "fd_blood", "x": 12, "y": 17 },
         { "field": "fd_blood", "x": 12, "y": 18 }
       ],
-      "place_vehicles": [
-        { "vehicle": "welding_cart", "x": 9, "y": 9, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 }
-      ],
+      "place_vehicles": [ { "vehicle": "welding_cart", "x": 9, "y": 9, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 } ],
       "place_monster": [
         { "monster": "mon_failed_weapon", "x": 3, "y": 6 },
         { "monster": "mon_failed_weapon", "x": 6, "y": 11 },
