@@ -242,7 +242,6 @@
         { "item": "scrap", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 1, 5 ] },
         { "item": "cu_pipe", "x": [ 16, 22 ], "y": [ 11, 12 ], "chance": 50 },
         { "item": "ceramic_shard", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 2, 8 ] },
-
         { "group": "dissection", "x": [ 11, 12 ], "y": 2, "chance": 75, "repeat": 5 },
         { "group": "bionics", "x": [ 2, 5 ], "y": 6, "chance": 75, "repeat": 5 },
         { "group": "NC_GLADIATOR_LIGHT_weapon", "x": 7, "y": [ 10, 11 ], "chance": 50, "repeat": 3 },
@@ -259,10 +258,8 @@
         { "group": "trash", "x": 6, "y": 21, "repeat": [ 1, 3 ] },
         { "group": "dojo_manuals", "x": 13, "y": [ 17, 18 ], "chance": 50, "repeat": 4 }
       ],
-      "place_npcs": [
-        { "class": "slave_fight", "x": 16, "y": 3 },
-        { "class": "slave_fight", "x": 15, "y": 12 }
-      ]
+      "place_npcs": [ { "class": "slave_fight", "x": 16, "y": 3 }, { "class": "slave_fight", "x": 15, "y": 12 } ],
+      "place_vehicles": [ { "vehicle": "autoclave_cart", "x": 9, "y": 2, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 } ]
     }
   },
   {
