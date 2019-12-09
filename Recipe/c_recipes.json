@@ -17,14 +17,8 @@
   },
   {
     "result": "surcan",
-    "type": "recipe",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
-    "skill_used": "none",
-    "difficulty": 0,
-    "time": "0 m",
-    "reversible": true,
-    "autolearn": true,
+    "type": "uncraft",
+    "time": "1 m",
     "components": [
       [ [ "knife_swissarmy", 1 ] ],
       [ [ "mask_dust", 1 ] ],
@@ -1392,11 +1386,7 @@
   },
   {
     "result": "mil_surp_pack_1",
-    "type": "recipe",
-    "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
-    "difficulty": 0,
+    "type": "uncraft",
     "time": "1 m",
     "components": [
       [ [ "mosin91_30", 1 ] ],
@@ -1409,11 +1399,7 @@
   },
   {
     "result": "mil_surp_pack_2",
-    "type": "recipe",
-    "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
-    "difficulty": 0,
+    "type": "uncraft",
     "time": "1 m",
     "components": [
       [ [ "sks", 1 ] ],
@@ -1426,11 +1412,7 @@
   },
   {
     "result": "mil_surp_pack_3",
-    "type": "recipe",
-    "id_suffix": "uncraft",
-    "category": "CC_NONCRAFT",
-    "subcategory": "CSC_NONCRAFT",
-    "difficulty": 0,
+    "type": "uncraft",
     "time": "1 m",
     "components": [
       [ [ "m1903", 1 ] ],
@@ -1443,11 +1425,7 @@
   },
   {
     "result": "parawatch",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 0,
+    "type": "uncraft",
     "time": "1 m",
     "components": [ [ [ "parabracelets", 1 ] ], [ [ "wristwatch", 1 ] ], [ [ "thermometer", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
@@ -1455,8 +1433,6 @@
   {
     "result": "parabracelets",
     "type": "uncraft",
-    "skill_used": "fabrication",
-    "difficulty": 0,
     "time": "1 m",
     "components": [ [ [ "string_36", 2 ] ] ],
     "flags": [ "BLIND_EASY" ]
@@ -1464,6 +1440,7 @@
   {
     "result": "goggles_welding",
     "type": "recipe",
+    "id_suffix": "alt_creation",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "mechanics",
@@ -1474,8 +1451,8 @@
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 3 ] ],
     "tools": [ [ [ "spray_can", 1 ], [ "char_smoker", 25 ] ] ],
     "components": [
-      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ], [ "sunglasses", 1 ] ],
-      [ [ "duct_tape", 20 ], [ "medical_tape", 20 ] ]
+      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
+      [ [ "duct_tape", 40 ], [ "medical_tape", 40 ] ]
     ]
   },
   {
@@ -1494,79 +1471,6 @@
       [ [ "oxy_torch", 25 ], [ "welder", 85 ], [ "welder_crude", 180 ], [ "toolset", 180 ] ]
     ],
     "components": [ [ [ "bio_sword", 1 ] ], [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ], [ [ "plastic_chunk", 3 ] ] ]
-  },
-  {
-    "result": "mutagen_alpha",
-    "type": "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "cooking",
-    "difficulty": 10,
-    "skills_required": [ "firstaid", 1 ],
-    "time": "20 m",
-    "book_learn": [ [ "recipe_alpha", 9 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 50, "LIST" ] ] ],
-    "components": [
-      [ [ "mutagen", 1 ] ],
-      [ [ "purifier", 1 ] ],
-      [ [ "human_flesh", 3 ], [ "dry_hflesh", 3 ], [ "fetus", 1 ], [ "arm", 1 ], [ "leg", 1 ] ],
-      [ [ "bone_human", 1 ], [ "blood", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
-    ]
-  },
-  {
-    "result": "mutagen_elfa",
-    "type": "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "cooking",
-    "difficulty": 10,
-    "skills_required": [ "firstaid", 1 ],
-    "time": "12 m",
-    "book_learn": [ [ "recipe_elfa", 10 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 31, "LIST" ] ] ],
-    "components": [
-      [ [ "mutagen", 1 ] ],
-      [ [ "veggy", 3 ], [ "biollante_bud", 1 ], [ "datura_seed", 16 ] ],
-      [ [ "meat", 3 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
-    ]
-  },
-  {
-    "result": "mutagen_chimera",
-    "type": "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "cooking",
-    "difficulty": 10,
-    "skills_required": [ "firstaid", 1 ],
-    "time": "15 m",
-    "book_learn": [ [ "recipe_chimera", 9 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 37, "LIST" ] ] ],
-    "components": [
-      [ [ "mutagen", 1 ] ],
-      [ [ "egg_reptile", 1 ] ],
-      [ [ "egg_bird", 1 ] ],
-      [ [ "meat", 6 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
-    ]
-  },
-  {
-    "result": "mutagen_raptor",
-    "type": "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_MUTAGEN",
-    "skill_used": "cooking",
-    "difficulty": 10,
-    "skills_required": [ "firstaid", 1 ],
-    "time": "12 m",
-    "book_learn": [ [ "recipe_raptor", 9 ] ],
-    "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 31, "LIST" ] ] ],
-    "components": [ [ [ "mutagen", 1 ] ], [ [ "egg_reptile", 1 ] ], [ [ "egg_bird", 1 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ] ]
   },
   {
     "result": "badge_bio_weapon",
