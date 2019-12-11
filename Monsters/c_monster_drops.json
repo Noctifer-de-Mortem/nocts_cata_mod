@@ -191,7 +191,11 @@
       { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
       { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
-      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      {
+        "distribution": [ { "item": "omnitech_weapon_ups_manual", "prob": 25 }, { "item": "omnitech_weapon_ups_kit", "prob": 75 } ],
+        "prob": 25
+      }
     ]
   },
   {
@@ -218,7 +222,11 @@
       { "item": "chemistry_set", "damage": [ 0, 1 ], "chance": 90 },
       { "item": "battery_ups", "damage": [ 0, 1 ], "chance": 50 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
-      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
+      { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 },
+      {
+        "distribution": [ { "item": "omnitech_weapon_ups_manual", "prob": 25 }, { "item": "omnitech_weapon_ups_kit", "prob": 75 } ],
+        "prob": 25
+      }
     ]
   }
 ]
