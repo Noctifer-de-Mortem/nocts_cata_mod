@@ -478,7 +478,9 @@
       },
       "place_loot": [
         { "item": "flesh_pistol", "x": 1, "y": 12 },
-        { "item": "evil_invitation", "x": 1, "y": 13 },
+        { "item": "evil_invitation", "x": 1, "y": 12 },
+        { "item": "omnitech_weapon_ups_kit", "x": 1, "y": 13 },
+        { "item": "omnitech_weapon_ups_manual", "x": 1, "y": 13 },
         { "item": "blood_m", "x": 14, "y": 15 },
         { "item": "blood_p", "x": 15, "y": 15 },
         { "item": "acs_74_stealth_cloak_off", "x": 18, "y": 7 },

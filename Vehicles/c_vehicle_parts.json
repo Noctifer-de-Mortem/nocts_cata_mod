@@ -26,14 +26,14 @@
     "difficulty": 4,
     "folded_volume": 8,
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL", "FOLDABLE" ] }
+    "extend": { "flags": [ "FOLDABLE" ] }
   },
   {
     "type": "GENERIC",
     "id": "surv_station",
     "//": "Actual item",
     "name": "survivor's station",
-    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressesd into a single unit. Has no cargo space due to all the components it is made out of.",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit. Has no cargo space due to all the components it is made out of.",
     "weight": 123134,
     "to_hit": -2,
     "color": "light_red",
@@ -48,7 +48,7 @@
     "id": "surv_station_t",
     "//": "Almost all utilities in one!",
     "name": "survivor's station unit",
-    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressesd into a single unit.  Combines the functionality of a vehicle kitchen unit, forge, welder, chemistry set, and all of the myriad functions of the FOODCO kitchen buddy.  As a consequence, it leaves no space left for storage.",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Combines the functionality of a vehicle kitchen unit, forge, welder, chemistry set, and all of the myriad functions of the FOODCO kitchen buddy.  As a consequence, it leaves no space left for storage.",
     "symbol": "&",
     "color": "light_red",
     "broken_symbol": "x",
@@ -79,8 +79,7 @@
     "broken_color": "brown",
     "item": "surv_full_223",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -92,8 +91,7 @@
     "broken_color": "brown",
     "item": "surv_full_308",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -105,8 +103,7 @@
     "broken_color": "brown",
     "item": "surv_full_762",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -118,8 +115,7 @@
     "broken_color": "brown",
     "item": "surv_full_762R",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -131,8 +127,7 @@
     "broken_color": "brown",
     "item": "surv_full_12",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -144,8 +139,7 @@
     "broken_color": "brown",
     "item": "surv_lmg_308",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -157,8 +151,7 @@
     "broken_color": "brown",
     "item": "surv_lmg_223",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -170,8 +163,7 @@
     "broken_color": "brown",
     "item": "surv_lmg_762",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ]
   },
   {
     "type": "vehicle_part",
@@ -184,8 +176,39 @@
     "broken_color": "brown",
     "item": "surv_lmg_762R",
     "difficulty": 4,
-    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ],
-    "extend": { "flags": [ "MANUAL" ] }
+    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ]
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_arc_carbine_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted ARC-314 laser rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "arc_laser_rifle",
+    "breaks_into": [ { "item": "arc_laser_rifle", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_arc_carbine_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted ARC-314 laser rifle (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "arc_laser_rifle_ups",
+    "breaks_into": [ { "item": "arc_laser_rifle_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
   },
   {
     "type": "vehicle_part",
@@ -196,16 +219,98 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "krx_laser_lmg",
-    "difficulty": 6,
-    "//": "Haven't figured out the breaks_into...",
-    "breaks_into": [ { "item": "krx_laser_lmg", "prob": 50 } ]
+    "breaks_into": [ { "item": "krx_laser_lmg", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_lmg_t_ups",
+    "looks_like": "laser_lmg_t",
+    "name": "mounted KRX-108 laser LMG (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "krx_laser_lmg_ups",
+    "breaks_into": [ { "item": "krx_laser_lmg_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_mx_sniper_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted MX-84 laser sniper",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mx_laser_sniper",
+    "breaks_into": [ { "item": "mx_laser_sniper", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_mx_sniper_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted MX-84 laser sniper (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mx_laser_sniper_ups",
+    "breaks_into": [ { "item": "mx_laser_sniper_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "br_bolt_rifle_elec_t",
+    "looks_like": "mounted_coilgun",
+    "name": "mounted BR-96 bolt rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "br_bolt_rifle_elec",
+    "breaks_into": [ { "item": "br_bolt_rifle_elec", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "mk_ionic_cannon_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted MK-2 Ionic Cannon",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mk_ionic_cannon",
+    "breaks_into": [ { "item": "mk_ionic_cannon", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
   },
   {
     "id": "generator_electric_tiny",
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "tiny electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  Its small size makes it rather inefficient compared to its normal efficency as a motor.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Its small size makes it rather inefficient compared to its normal efficiency as a motor.",
     "item": "motor_tiny",
     "difficulty": 1,
     "durability": 80,
@@ -226,7 +331,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "small electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  Its small size has a negative impact on its efficiency.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Its small size has a negative impact on its efficiency.",
     "item": "motor_small",
     "difficulty": 1,
     "durability": 120,
@@ -249,7 +354,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  While relatively energy-intensive, it makes about as efficient a dynamo as it does a motor.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  While relatively energy-intensive, it makes about as efficient a dynamo as it does a motor.",
     "item": "motor",
     "difficulty": 2,
     "durability": 200,
@@ -271,7 +376,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "large electric generator",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  It would need a fairly powerful engine to effectively generate power.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It would need a fairly powerful engine to effectively generate power.",
     "item": "motor_large",
     "difficulty": 3,
     "durability": 400,
@@ -293,7 +398,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "enhanced electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  While it retains much of its efficiency, it still requires a rather powerful engine to operate.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  While it retains much of its efficiency, it still requires a rather powerful engine to operate.",
     "item": "motor_enhanced",
     "difficulty": 4,
     "durability": 200,
@@ -315,7 +420,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "super electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attatched to an internal combustion engine.  You would need one hell of an engine to use this as a generator!",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  You would need one hell of an engine to use this as a generator!",
     "item": "motor_super",
     "difficulty": 5,
     "durability": 400,

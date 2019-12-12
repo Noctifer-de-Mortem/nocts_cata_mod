@@ -378,6 +378,8 @@
       "bio_nanobots",
       "bio_painkiller",
       "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
@@ -394,7 +396,11 @@
     "items": {
       "both": {
         "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor" ],
-        "entries": [ { "item": "arc_laser_rifle_ups", "contents-item": "shoulder_strap" } ]
+        "entries": [
+          { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "holster" },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
@@ -417,6 +423,8 @@
       "bio_evap",
       "bio_lighter",
       "bio_ups",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
@@ -456,7 +464,8 @@
           "rollmat"
         ],
         "entries": [
-          { "item": "mx_laser_sniper_ups", "contents-item": [ "shoulder_strap" ] },
+          { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       },
@@ -485,6 +494,8 @@
       "bio_nanobots",
       "bio_painkiller",
       "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
     "traits": [ "SUPER_SOLDIER_MARKER" ],
@@ -511,7 +522,11 @@
           "id_science",
           "chemistry_set"
         ],
-        "entries": [ { "item": "neo_laser_pistol_ups", "container-item": "holster" } ]
+        "entries": [
+          { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "holster" },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
@@ -556,7 +571,11 @@
     "items": {
       "both": {
         "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor", "cbm_rtg_inductor" ],
-        "entries": [ { "item": "krx_laser_lmg_ups", "contents-item": [ "shoulder_strap" ] } ]
+        "entries": [
+          { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "holster" },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
