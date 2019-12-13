@@ -1789,5 +1789,96 @@
     "using": [ [ "sewing_standard", 60 ] ],
     "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
     "components": [ [ [ "boots_plate", 1 ] ], [ [ "leather", 4 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "duct_tape", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_alpha",
+    "id_suffix": "alt_creation",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 1 ],
+    "difficulty": 10,
+    "time": "3 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_alpha", 9 ] ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
+    "components": [
+      [ [ "blood", 1 ] ],
+      [ [ "human_tallow", 2 ], [ "human_flesh", 3 ], [ "bone_human", 3 ] ],
+      [ [ "royal_jelly", 4 ], [ "purifier", 1 ] ],
+      [ [ "bleach", 3 ], [ "oxy_powder", 300 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_elfa",
+    "id_suffix": "alt_creation",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 1 ],
+    "difficulty": 10,
+    "time": "3 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_elfa", 10 ] ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
+    "components": [
+      [ [ "blood", 1 ] ],
+      [ [ "tallow", 2 ], [ "meat", 3 ], [ "bone", 3 ] ],
+      [ [ "veggy", 3 ], [ "biollante_bud", 1 ], [ "datura_seed", 16 ] ],
+      [ [ "bleach", 3 ], [ "oxy_powder", 300 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_chimera",
+    "id_suffix": "alt_creation",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 1 ],
+    "difficulty": 10,
+    "time": "3 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_chimera", 10 ] ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
+    "components": [
+      [ [ "blood", 1 ] ],
+      [ [ "egg_reptile", 1 ] ],
+      [ [ "eggs_bird", 1, "LIST" ] ],
+      [ [ "meat", 6 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_raptor",
+    "id_suffix": "alt_creation",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 1 ],
+    "difficulty": 10,
+    "time": "3 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_raptor", 10 ] ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
+    "components": [
+      [ [ "blood", 1 ] ],
+      [ [ "egg_reptile", 2 ] ],
+      [ [ "eggs_bird", 2, "LIST" ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
+    "flags": [ "SECRET" ]
   }
 ]
