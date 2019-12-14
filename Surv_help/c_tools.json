@@ -650,6 +650,7 @@
   {
     "id": "stim",
     "type": "TOOL",
+    "category": "tools",
     "symbol": ">",
     "color": "red",
     "name": "bioinjector",
@@ -669,6 +670,7 @@
   {
     "id": "blood_m",
     "type": "TOOL",
+    "category": "tools",
     "symbol": ">",
     "color": "red",
     "name": "organic infusion set",
@@ -689,9 +691,10 @@
   {
     "id": "blood_p",
     "type": "TOOL",
+    "category": "tools",
     "symbol": ">",
     "color": "blue",
-    "name": "organic defusion set",
+    "name": "organic diffusion set",
     "description": "A strange infusion set with several organic-looking parts.  It has multiple tubes for simultaneous extraction and infusion of blood.  Its label refers to it as a rapid stem cell treatment, replicating the user's own genetic structure.",
     "price": 5000,
     "material": [ "plastic", "flesh" ],
@@ -881,6 +884,7 @@
   {
     "id": "cbm_rtg_inductor",
     "type": "TOOL_ARMOR",
+    "category": "tools",
     "symbol": ";",
     "color": "light_green",
     "name": "inductive CBM charger",
