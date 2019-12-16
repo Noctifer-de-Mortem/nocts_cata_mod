@@ -976,7 +976,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_22",
@@ -997,7 +997,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_22", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_9mm",
@@ -1018,7 +1018,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_9mm", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_45",
@@ -1039,7 +1039,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_45", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_308",
@@ -1081,7 +1081,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_full_12",
@@ -1102,7 +1102,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_12", 1 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_308",
@@ -1144,7 +1144,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "surv_lmg_223",
@@ -1165,7 +1165,7 @@
       { "id": "DRILL", "level": 1 }
     ],
     "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
     "result": "aux_flamer_diesel",
