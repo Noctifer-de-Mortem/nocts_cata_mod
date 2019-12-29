@@ -1655,7 +1655,7 @@
     "id": "house_fight",
     "type": "overmap_terrain",
     "name": "Sketchy Cabin",
-    "sym": 67,
+    "sym": "C",
     "color": "i_red",
     "see_cost": 5,
     "mondensity": 0,
