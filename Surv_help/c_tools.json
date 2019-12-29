@@ -541,7 +541,7 @@
   {
     "id": "survbowstored",
     "type": "TOOL",
-    "color": "light_brown",
+    "color": "brown",
     "symbol": "{",
     "name": "collapsed fighting bow",
     "name_plural": "collapsed fighting bows",
