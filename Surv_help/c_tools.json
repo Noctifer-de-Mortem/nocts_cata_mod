@@ -681,10 +681,9 @@
     "volume": 3,
     "cutting": 1,
     "to_hit": -1,
-    "max_charges": 1,
+    "max_charges": 5,
     "initial_charges": 5,
     "charges_per_use": 5,
-    "turns_per_charge": 5,
     "use_action": { "type": "mutagen_iv" },
     "artifact_data": { "charge_type": "ARTC_HP" }
   },
