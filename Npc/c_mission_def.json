@@ -1,8 +1,32 @@
 [
   {
+    "id": "MISSION_LOOT_BIO_LAB",
+    "type": "mission_definition",
+    "name": "Find A Bio-Weapon Badge",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 60000,
+    "item": "badge_bio_weapon",
+    "start": { "assign_mission_target": { "om_terrain": "Bio_Weapon_Lab_2", "om_special": "Bio_Weapon_Lab_s", "reveal_radius": 3, "z": 0 } },
+    "end": { "effect": { "u_add_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" } },
+    "count": 1,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "If you see this, it's a bug!",
+      "offer": "Seeing this is probably also a bug.",
+      "accepted": "And seeing this is probably a bug too.",
+      "rejected": "Oi, cease with these shenanigans, ye debuggers!",
+      "advice": "In fact most of this dialogue is a bug if you run into it, as this mission is started purely through dialogue.",
+      "inquire": "Any luck so far?",
+      "success": "Good.  I hope that it wasn't too harrowing an experience, but we're dealing with some extremely dangerous threats, and it's only going to get worse from there.  Come see me when you're ready, I've got more important tasks that need taking care of.",
+      "success_lie": "Somehow I doubt that... in fact seeing this is probably another bug, given you can't really bluff your way out of this mission.",
+      "failure": "Pretty certain seeing this is a bug too, since you'd have to die to fail this."
+    }
+  },
+  {
     "id": "MISSION_PROOF_APOPHIS_DEAD",
     "type": "mission_definition",
-    "name": "Kill Bio Weapoon Apophis",
+    "name": "Kill Bio-Weapon Apophis",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 10,
     "value": 100000,
@@ -11,11 +35,17 @@
       "effect": { "u_add_effect": "router_mission", "duration": "PERMANENT" },
       "assign_mission_target": { "om_terrain": "Unknown_Lab_4", "om_special": "Unknown_Lab_s", "reveal_radius": 3, "search_range": 180, "z": 0 }
     },
+    "end": {
+      "effect": [
+        { "u_add_var": "apophis_dead", "type": "dialogue", "context": "router", "value": "yes" },
+        { "npc_add_var": "apophis_dead", "type": "dialogue", "context": "router", "value": "yes" }
+      ]
+    },
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "If you see this, it's a bug!",
-      "offer": "Only one thing comes to mind.  You seem like a capable person, so you might have a chance.  We have pieced together the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
+      "offer": "You seem like a capable person, so you might have a chance.  We have pieced together the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
       "accepted": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.  I'd suggest talking to Sigma and Lambda too, before you leave.",
       "rejected": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
       "advice": "Got some decent armor and weapons, this fight won't be easy. Assemble a team to make it easier. Ask Lambda and Sigma if they want to join you, if you want.  A single person can't take it on...",
@@ -35,7 +65,7 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "destination": "makeshift_command_center_b",
     "start": {
-      "effect": "follow",
+      "effect": [ "follow", { "u_add_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" } ],
       "assign_mission_target": {
         "om_terrain": "makeshift_command_center_2",
         "om_special": "makeshift_command_center_s",
