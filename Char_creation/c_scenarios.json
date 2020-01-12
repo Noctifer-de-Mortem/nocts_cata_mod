@@ -247,6 +247,16 @@
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
   },
   {
+    "type": "scenario",
+    "name": "Experimental Soldier Start",
+    "description": "You were called into the labs for reasons that are irrelevant now, once things got out of hand you became busy fighting the things that came overran the lab. You go to where various test subjects were kept, only to find it empty.",
+    "ident": "experiment_soldier_start",
+    "points": -4,
+    "start_name": "Experimental Cells",
+    "allowed_locs": [ "lab_escape_cells" ],
+    "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
+  },
+  {
     "copy-from": "alone",
     "type": "scenario",
     "ident": "alone",
@@ -275,11 +285,5 @@
     "type": "scenario",
     "extend": { "allowed_locs": [ "surv_camp_l" ] },
     "ident": "wilderness"
-  },
-  {
-    "copy-from": "heli_crash",
-    "type": "scenario",
-    "extend": { "map_special": "mx_helicopter", "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] },
-    "ident": "heli_crash"
   }
 ]
