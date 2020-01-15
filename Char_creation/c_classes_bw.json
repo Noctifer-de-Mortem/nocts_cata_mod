@@ -364,7 +364,7 @@
     "ident": "bio_infantry",
     "name": "Super Soldier",
     "description": "The infantry of the Super Soldier project.  You are one of many augmented soldiers to be deployed into a battle field to ensure victory.  With range and melee capabilities, you engage enemies en masse.",
-    "points": 8,
+    "points": 12,
     "CBMs": [
       "bio_targeting",
       "bio_ups",
@@ -412,7 +412,7 @@
     "ident": "bio_scout",
     "name": "Super Scout",
     "description": "The sniper of the Super Soldier project.  You are one of a few augmented soldiers to be used for reconnaissance and V.I.P assassinations.  With your weapons and skills, you can eliminate key targets after living for weeks in enemy territory.",
-    "points": 9,
+    "points": 12,
     "CBMs": [
       "bio_eye_enhancer",
       "bio_eye_optic",
@@ -480,7 +480,7 @@
     "ident": "bio_tool",
     "name": "Super Bio-engineer",
     "description": "Biological and mechanical repair unit, the combat engineer of the Super Soldier project.  You are one of many augmented military 'mechanics to be used as a repair module.  With repair, medical and general electronic capabilities, you can maybe fix the world.",
-    "points": 9,
+    "points": 12,
     "CBMs": [
       "bio_int_enhancer",
       "bio_carbon",
@@ -540,7 +540,7 @@
     "ident": "bio_knight",
     "name": "Super Juggernaut",
     "description": "The tank of the Super Soldier project. You are one of a few augmented soldiers to be used as a heavy support to infantry. With ranged, armor and regenerative capabilities, you can endure heavy damage and return it in kind.",
-    "points": 10,
+    "points": 12,
     "CBMs": [
       "bio_armor_eyes",
       "bio_armor_head",
