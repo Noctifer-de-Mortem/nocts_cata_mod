@@ -1,13 +1,6 @@
 [
   {
     "type": "start_location",
-    "ident": "Survivor_Holdout_l",
-    "//": "starts in Survivor Holdout. Not in use currently.",
-    "name": "Survivor Holdout",
-    "target": "Survivor_Holdout_1"
-  },
-  {
-    "type": "start_location",
     "ident": "surv_camp_l",
     "name": "Survivor Camp Site",
     "target": "surv_camp"
@@ -20,20 +13,44 @@
   },
   {
     "type": "start_location",
-    "ident": "bunker_s",
-    "name": "Military Bunker",
-    "target": "bunker"
-  },
-  {
-    "type": "start_location",
-    "ident": "prison_b_entrance_s",
-    "name": "Prison",
-    "target": "prison_b_entrance"
-  },
-  {
-    "type": "start_location",
     "ident": "house_fight_s",
     "name": "Underground Arena",
     "target": "sketchy_cabin_b2"
+  },
+  {
+    "type": "start_location",
+    "ident": "lab_surface_brick_blockC0",
+    "name": "Research Facility",
+    "target": "lab_surface_brick_blockC0",
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "ident": "robofachq_surface_parking",
+    "name": "Hub 01",
+    "target": "robofachq_surface_parking",
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "ident": "makeshift_command_center_1",
+    "name": "Makeshift Command Center",
+    "target": "makeshift_command_center_1",
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "ident": "Bio_Weapon_Lab",
+    "//": "This versions is for the super soldier start, places them in the outdoors section.",
+    "name": "Bio Weapon Lab",
+    "target": "Bio_Weapon_Lab",
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "ident": "haz_sar_1_2",
+    "name": "Hazardous Waste Sarcophagus",
+    "target": "haz_sar_1_2",
+    "flags": [ "ALLOW_OUTSIDE" ]
   }
 ]

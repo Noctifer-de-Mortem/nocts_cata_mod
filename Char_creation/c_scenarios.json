@@ -249,11 +249,12 @@
   {
     "type": "scenario",
     "name": "Experimental Soldier Start",
-    "description": "You were called into the labs for reasons that are irrelevant now, once things got out of hand you became busy fighting the things that came overran the lab. You go to where various test subjects were kept, only to find it empty.",
+    "description": "You were part of a an advanced infantry unit, deployed to one of several 'priority sites' as part of a last-ditch effort to get the situation under control.  Delays and casualties led to you being the only one left by the time you reached the objective, and things aren't looking any better.",
     "ident": "experiment_soldier_start",
-    "points": -4,
-    "start_name": "Experimental Cells",
-    "allowed_locs": [ "lab_escape_cells" ],
+    "points": -2,
+    "flags": [ "LONE_START", "CITY_START" ],
+    "start_name": "Priority Site",
+    "allowed_locs": [ "lab_surface_brick_blockC0", "robofachq_surface_parking", "makeshift_command_center_1", "Bio_Weapon_Lab", "haz_sar_1_2" ],
     "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
   },
   {
@@ -266,13 +267,15 @@
     "copy-from": "summer_advanced_start",
     "type": "scenario",
     "ident": "summer_advanced_start",
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ],
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   },
   {
     "copy-from": "ambushed",
     "type": "scenario",
     "ident": "ambushed",
-    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ]
+    "traits": [ "MARTIAL_ARTS_SURV_COM", "MARTIAL_ARTS_BIOJUTSU" ],
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   },
   {
     "copy-from": "cyberpunk",
@@ -285,5 +288,17 @@
     "type": "scenario",
     "extend": { "allowed_locs": [ "surv_camp_l" ] },
     "ident": "wilderness"
+  },
+  {
+    "copy-from": "lab_staff",
+    "type": "scenario",
+    "ident": "lab_staff",
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+  },
+  {
+    "copy-from": "heli_crash",
+    "type": "scenario",
+    "ident": "heli_crash",
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   }
 ]
