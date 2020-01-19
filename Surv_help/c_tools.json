@@ -239,7 +239,7 @@
     "color": "light_gray",
     "name": "can forge",
     "sub": "forge",
-    "description": "This is a portable forge with improvised air intake and insulating lining.  It can be used for light metalworking and reheating food, but its utility is limited by its small size and capacity.",
+    "description": "This is a portable forge with improvised air intake and insulating lining.  It can be used for light metalworking, repairing items, and reheating food, but its utility is limited by its small size and capacity.",
     "price": 1000,
     "material": "steel",
     "weight": 1800,
@@ -249,7 +249,18 @@
     "max_charges": 60,
     "charges_per_use": 1,
     "ammo": "charcoal",
-    "use_action": "HOTPLATE",
+    "use_action": [
+      "HOTPLATE",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "iron", "steel", "hardsteel", "aluminum", "copper", "bronze", "silver", "gold", "platinum", "superalloy" ],
+        "skill": "fabrication",
+        "tool_quality": 4,
+        "cost_scaling": 0.1,
+        "move_cost": 1000
+      }
+    ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
