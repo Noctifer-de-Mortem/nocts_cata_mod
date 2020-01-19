@@ -223,16 +223,5 @@
     "sym": ".",
     "color": "brown",
     "see_cost": 5
-  },
-  {
-    "id": "new_fungal_territory",
-    "type": "overmap_terrain",
-    "name": "fungal field",
-    "sym": "t",
-    "color": "cyan",
-    "see_cost": 5,
-    "mondensity": 0,
-    "extras": "build",
-    "flags": [ "NO_ROTATE" ]
   }
 ]

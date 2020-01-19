@@ -735,6 +735,24 @@
     ]
   },
   {
+    "type": "item_group",
+    "id": "bionics_soldat_zombie_generic",
+    "subtype": "distribution",
+    "//": "Bionics for unevolved zombie super soldiers and knife boys, random smattering of bionics shared by two or more super soldiers.",
+    "items": [
+      [ "bio_carbon", 7 ],
+      [ "bio_ears", 5 ],
+      [ "bio_flashlight", 9 ],
+      [ "bio_night_vision", 1 ],
+      [ "bio_purifier", 7 ],
+      [ "bio_sunglasses", 7 ],
+      [ "bio_targeting", 5 ],
+      [ "bio_tools", 5 ],
+      [ "bio_torsionratchet", 7 ],
+      [ "bio_ups", 8 ]
+    ]
+  },
+  {
     "id": "electronics",
     "type": "item_group",
     "items": [ { "group": "ammo_atomic_batteries", "prob": 1 } ]
