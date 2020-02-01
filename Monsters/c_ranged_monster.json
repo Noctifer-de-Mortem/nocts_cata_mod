@@ -5,8 +5,9 @@
     "type": "GUN",
     "name": "zombie super soldier pistol",
     "description": "Version of the NEO-33 for use by monsters.  This is a bug if you find one of these!",
-    "dispersion": 2500,
-    "sight_dispersion": 500
+    "dispersion": 2000,
+    "sight_dispersion": 500,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_20" ] }
   },
   {
     "id": "akro_laser_smg_monster",
@@ -14,8 +15,9 @@
     "type": "GUN",
     "name": "zombie super soldier smg",
     "description": "Version of the AKRO-388 for use by monsters.  This is a bug if you find one of these!",
-    "dispersion": 2000,
-    "sight_dispersion": 500
+    "dispersion": 3000,
+    "sight_dispersion": 500,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_20" ] }
   },
   {
     "id": "arc_laser_rifle_monster",
@@ -23,9 +25,10 @@
     "type": "GUN",
     "name": "zombie super soldier rifle",
     "description": "Version of the ARC-314 for use by monsters.  This is a bug if you find one of these!",
-    "dispersion": 2000,
+    "dispersion": 4000,
     "sight_dispersion": 500,
-    "burst": 3
+    "burst": 3,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
     "id": "krx_laser_lmg_monster",
@@ -33,10 +36,10 @@
     "type": "GUN",
     "name": "zombie super soldier LMG",
     "description": "Version of the KRX-108 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
-    "//": "Again, very heavy nerfing to ensure the player has even a chance of not getting hit.",
-    "dispersion": 2500,
+    "dispersion": 5000,
     "sight_dispersion": 500,
-    "burst": 5
+    "burst": 5,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
     "id": "laser_sniper_monster",
@@ -44,9 +47,9 @@
     "type": "GUN",
     "name": "zombie super soldier sniper",
     "description": "Version of the MX-84 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
-    "//": "Less severe nerfing, the entire point of laser sniper is that it has a high chance of hitting.",
-    "dispersion": 1500,
-    "sight_dispersion": 250
+    "dispersion": 6000,
+    "sight_dispersion": 250,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_100" ] }
   },
   {
     "id": "xarm_laser_shotgun_monster",
@@ -54,8 +57,9 @@
     "type": "GUN",
     "name": "zombie super soldier shotgun",
     "description": "Version of the XARM-37 for use by monsters.  This is a bug if you find one of these!",
-    "dispersion": 1500,
-    "sight_dispersion": 250
+    "dispersion": 2000,
+    "sight_dispersion": 250,
+    "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
     "id": "mk_ionic_cannon_monster",
@@ -64,8 +68,9 @@
     "name": "zombie super soldier sniper",
     "description": "Version of the MK-2 for use by monsters, to account for increased accuracy of ranged attacks.  Copies from MX-84 instead because for some wacky reason the MK2 itself doesn't work right in the hands of monsters.  This is a bug if you find one of these!",
     "skill": "launcher",
-    "dispersion": 2500,
+    "dispersion": 6000,
     "sight_dispersion": 500,
-    "ammo_effects": [ "PLASMA", "EXPLOSIVE_HUGE", "STREAM_BIG", "INCENDIARY", "WIDE", "EMP", "FLASHBANG" ]
+    "ammo_effects": [ "PLASMA", "EXPLOSIVE_HUGE", "STREAM_BIG", "WIDE", "EMP", "FLASHBANG" ],
+    "delete": { "flags": [ "FIRE_100" ] }
   }
 ]

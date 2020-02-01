@@ -384,7 +384,7 @@
     "luminance": 2,
     "regenerates": 1,
     "regen_morale": true,
-    "starting_ammo": { "battery": 5000 },
+    "starting_ammo": { "battery": 100 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -397,7 +397,7 @@
         "fake_dex": 5,
         "fake_per": 3,
         "fake_int": 1,
-        "max_ammo": 5000,
+        "max_ammo": 100,
         "ranges": [ [ 5, 20, "DEFAULT" ], [ 5, 20, "BURST" ], [ 5, 20, "AUTO" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -451,7 +451,7 @@
     "luminance": 2,
     "regenerates": 1,
     "regen_morale": true,
-    "starting_ammo": { "battery": 5000 },
+    "starting_ammo": { "battery": 100 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -464,7 +464,7 @@
         "fake_dex": 5,
         "fake_per": 3,
         "fake_int": 1,
-        "max_ammo": 5000,
+        "max_ammo": 100,
         "ranges": [ [ 2, 10, "DEFAULT" ], [ 2, 10, "BURST" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -518,7 +518,7 @@
     "luminance": 2,
     "regenerates": 3,
     "regen_morale": true,
-    "starting_ammo": { "battery": 10000 },
+    "starting_ammo": { "battery": 200 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -530,7 +530,7 @@
         "fake_str": 4,
         "fake_dex": 3,
         "fake_per": 3,
-        "max_ammo": 10000,
+        "max_ammo": 200,
         "ranges": [ [ 10, 25, "DEFAULT" ], [ 10, 25, "BURST" ], [ 10, 25, "AUTO" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -584,7 +584,7 @@
     "luminance": 2,
     "regenerates": 3,
     "regen_morale": true,
-    "starting_ammo": { "battery": 500 },
+    "starting_ammo": { "battery": 5 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -596,7 +596,7 @@
         "fake_str": 4,
         "fake_dex": 3,
         "fake_per": 3,
-        "max_ammo": 500,
+        "max_ammo": 5,
         "ranges": [ [ 15, 30, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -651,7 +651,7 @@
     "luminance": 2,
     "regenerates": 1,
     "regen_morale": true,
-    "starting_ammo": { "battery": 5000 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_SNIPER_ZOMBIE",
     "special_attacks": [
       {
@@ -663,7 +663,7 @@
         "fake_str": 4,
         "fake_dex": 5,
         "fake_per": 4,
-        "max_ammo": 5000,
+        "max_ammo": 50,
         "ranges": [ [ 10, 30, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -690,7 +690,7 @@
     "id": "mon_zombie_bio_tool_pistol",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
-    "name": "zombie super bio-engineer",
+    "name": "zombie augmented bio-engineer",
     "description": "An advanced, well-equipped member of the military that still succumbed to the cataclysm.  This one is wielding some kind of pistol, and appears to recall how to use it.",
     "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
@@ -719,7 +719,7 @@
     "luminance": 2,
     "regenerates": 3,
     "regen_morale": true,
-    "starting_ammo": { "battery": 1000 },
+    "starting_ammo": { "battery": 25 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
@@ -731,7 +731,7 @@
         "fake_str": 3,
         "fake_dex": 4,
         "fake_per": 5,
-        "max_ammo": 1000,
+        "max_ammo": 25,
         "ranges": [ [ 1, 10, "DEFAULT" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
@@ -756,7 +756,7 @@
     "id": "mon_zombie_bio_tool_smg",
     "type": "MONSTER",
     "looks_like": "mon_zombie_bio_tool",
-    "name": "zombie super bio-engineer",
+    "name": "zombie augmented bio-engineer",
     "description": "An advanced, well-equipped member of the military that still succumbed to the cataclysm.  This one is wielding some kind of submachine gun, and appears to recall how to use it.",
     "default_faction": "super_soldat",
     "species": [ "ZOMBIE" ],
@@ -785,7 +785,7 @@
     "luminance": 2,
     "regenerates": 3,
     "regen_morale": true,
-    "starting_ammo": { "battery": 1000 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
@@ -797,8 +797,8 @@
         "fake_str": 3,
         "fake_dex": 4,
         "fake_per": 5,
-        "max_ammo": 1000,
-        "ranges": [ [ 1, 10, "DEFAULT" ], [ 1, 10, "BURST" ], [ 1, 10, "AUTO" ] ],
+        "max_ammo": 50,
+        "ranges": [ [ 3, 15, "DEFAULT" ], [ 3, 15, "BURST" ], [ 3, 15, "AUTO" ] ],
         "require_targeting_player": true,
         "require_targeting_npc": true,
         "require_targeting_monster": true,

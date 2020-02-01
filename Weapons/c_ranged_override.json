@@ -30,22 +30,13 @@
     "copy-from": "v29_cheap",
     "type": "GUN",
     "name": "homemade laser pistol",
-    "range": 15,
-    "ranged_damage": 10,
-    "pierce": 2,
-    "dispersion": 50,
-    "ups_charges": 15,
-    "reload": 50
+    "pierce": 2
   },
   {
     "id": "v29",
     "copy-from": "v29",
     "type": "GUN",
     "name": "V29 laser pistol",
-    "range": 20,
-    "pierce": 2,
-    "dispersion": 50,
-    "ups_charges": 10,
-    "reload": 25
+    "pierce": 2
   }
 ]
