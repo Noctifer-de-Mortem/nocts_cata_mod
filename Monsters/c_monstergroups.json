@@ -92,6 +92,36 @@
     ]
   },
   {
+    "name": "GROUP_MIL_BASE",
+    "type": "monstergroup",
+    "override": false,
+    "auto_total": true,
+    "monsters": [
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 10, "cost_multiplier": 15, "starts": 336 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 10, "cost_multiplier": 15, "starts": 336 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_BASE_CIVILIAN",
+    "type": "monstergroup",
+    "override": false,
+    "auto_total": true,
+    "monsters": [
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 3, "cost_multiplier": 15, "starts": 336 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 2, "cost_multiplier": 15, "starts": 336 }
+    ]
+  },
+  {
+    "name": "GROUP_MIL_BASE_HOSPITAL",
+    "type": "monstergroup",
+    "override": false,
+    "auto_total": true,
+    "monsters": [
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 3, "cost_multiplier": 15, "starts": 336 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 2, "cost_multiplier": 15, "starts": 336 }
+    ]
+  },
+  {
     "name": "GROUP_MIL_WEAK",
     "type": "monstergroup",
     "override": false,
