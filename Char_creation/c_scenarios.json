@@ -300,5 +300,11 @@
     "type": "scenario",
     "ident": "heli_crash",
     "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+  },
+  {
+    "copy-from": "overrun",
+    "type": "scenario",
+    "ident": "overrun",
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   }
 ]
