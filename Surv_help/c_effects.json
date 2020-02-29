@@ -4,5 +4,35 @@
     "id": "rtg_induction_radiation",
     "max_duration": "2 m",
     "base_mods": { "rad_min": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "adrenaline_bioweapon",
+    "name": [ "Exertion", "Bloodlust" ],
+    "desc": [ "You feel worn out and empty inside.", "You thirst for blood!" ],
+    "apply_message": "You feel an unnatural surge of adrenaline!",
+    "rating": "good",
+    "decay_messages": [ [ "Your bloodlust wears off.  You feel AWFUL!", "bad" ] ],
+    "miss_messages": [ [ "Your weariness throws you off.", 1 ] ],
+    "max_duration": "200 s",
+    "max_intensity": 2,
+    "int_dur_factor": "180 s",
+    "removes_effects": [ "winded", "bleed" ],
+    "base_mods": {
+      "speed_mod": [ -15 ],
+      "str_mod": [ -2 ],
+      "dex_mod": [ -2 ],
+      "int_mod": [ -2 ],
+      "per_mod": [ -1 ],
+      "stamina_min": [ -2 ]
+    },
+    "scaling_mods": {
+      "speed_mod": [ 30 ],
+      "str_mod": [ 4 ],
+      "dex_mod": [ 4 ],
+      "int_mod": [ -1 ],
+      "per_mod": [ 1 ],
+      "stamina_min": [ 4 ]
+    }
   }
 ]
