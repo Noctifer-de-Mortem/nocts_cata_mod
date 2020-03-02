@@ -82,6 +82,16 @@
     ]
   },
   {
+    "name": "GROUP_NECROPOLIS_VAULT2",
+    "type": "monstergroup",
+    "override": false,
+    "auto_total": true,
+    "monsters": [
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 1, "cost_multiplier": 25, "starts": 168 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 1, "cost_multiplier": 30, "starts": 168 }
+    ]
+  },
+  {
     "name": "GROUP_MAYBE_MIL",
     "type": "monstergroup",
     "override": false,
@@ -181,6 +191,15 @@
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_fungus_failed_weapon", "freq": 25, "cost_multiplier": 20, "starts": 168 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SUPER_SOLDIER_RANDOM",
+    "default": "mon_zombie_bio_dormant_unarmed",
+    "//": "Picks an unevolved super soldier at random.",
+    "monsters": [
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 400, "cost_multiplier": 0 }
+    ]
   },
   {
     "type": "monstergroup",
