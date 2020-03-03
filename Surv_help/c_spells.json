@@ -36,5 +36,59 @@
     "effect_str": "rtg_induction_radiation",
     "min_duration": 500,
     "max_duration": 1000
+  },
+  {
+    "type": "SPELL",
+    "id": "c_flesh_hit_effect",
+    "name": "Biological Weapon Effect",
+    "description": "This effect adds bleeding to target.",
+    "valid_targets": [ "hostile" ],
+    "message": "",
+    "effect_str": "bleed",
+    "min_duration": 100,
+    "max_duration": 1000,
+    "effect": "target_attack",
+    "flags": [ "RANDOM_DURATION" ],
+    "extra_effects": [ { "id": "c_flesh_hit_effect_2", "hit_self": true } ]
+  },
+  {
+    "type": "SPELL",
+    "id": "c_flesh_hit_effect_2",
+    "name": "Biological Weapon Wonder",
+    "description": "One-third chance of applying a brief spike of adrenaline.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "effect": "none",
+    "flags": [ "WONDER", "SILENT" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "extra_effects": [
+      { "id": "c_dummy_effect" },
+      { "id": "c_dummy_effect" },
+      { "id": "c_flesh_hit_effect_3" }
+    ]
+  },
+  {
+    "id": "c_flesh_hit_effect_3",
+    "type": "SPELL",
+    "name": "Biological Weapon Adrenaline",
+    "message": "",
+    "description": "The actual adrenaline effect.  Keep the pressure up and you should be fine.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "min_duration": 18500,
+    "max_duration": 19500,
+    "effect": "target_attack",
+    "effect_str": "adrenaline_bioweapon"
+  },
+  {
+    "type": "SPELL",
+    "id": "c_dummy_effect",
+    "name": "Sorry, Nothing",
+    "description": "Dirty hack to add RNG to spell effects.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "message": "",
+    "effect": "target_attack"
   }
 ]

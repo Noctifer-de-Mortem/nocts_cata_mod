@@ -3,6 +3,7 @@
     "type": "TOOL",
     "id": "unbio_bladed_weapon",
     "name": "monomolecular knife",
+    "category": "weapons",
     "description": "A foot-long knife made from high-tech alloy and edged with bonded nanocrystals.  A welded metal handle and handguard allow you to hold it without slicing your hand open.",
     "weight": 250,
     "to_hit": 2,
@@ -28,6 +29,7 @@
     "type": "TOOL",
     "id": "unbio_sword_weapon",
     "name": "monomolecular sword",
+    "category": "weapons",
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.  A welded metal handle and handguard allow you to hold it without slicing your hand open.",
     "weight": 250,
     "to_hit": 2,
@@ -52,6 +54,7 @@
   {
     "type": "TOOL",
     "id": "unbio_claws_weapon",
+    "category": "weapons",
     "name": "bionic claw knuckles",
     "name_plural": "bionic claw knuckles",
     "description": "Short and sharp claws made from a high-tech metal welded to metal knuckles.  Lightweight and fast, wielding them feels as if you were bare-handed.",
@@ -70,8 +73,9 @@
   {
     "type": "TOOL",
     "id": "flesh_knife",
+    "category": "weapons",
     "name": "biological blade",
-    "description": "A foot-long knife made from metal enclosed with flesh and bone.  Its blade consists of razor sharp saw-like protrusions, with a bone handle that fits well in the hand.  Holding it makes you feel powerful, a sensation that grows stronger with time.",
+    "description": "A foot-long knife made from metal enclosed with flesh and bone.  Its blade consists of razor sharp saw-like protrusions, with a bone handle that fits well in the hand.  Holding it brings strange whispers to the back of your mind, as though it has a will of its own.",
     "weight": 220,
     "to_hit": 3,
     "color": "red",
@@ -82,24 +86,23 @@
     "volume": 2,
     "bashing": 2,
     "cutting": 18,
-    "flags": [ "NON_STUCK", "UNBREAKABLE_MELEE", "UNARMED_WEAPON" ],
+    "flags": [ "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "MAGIC_FOCUS", "SHEATH_KNIFE" ],
     "price": 580000,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
-    "use_action": [ "ARTIFACT" ],
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION" ],
-      "effects_wielded": [ "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK" ],
+      "effects_wielded": [ "AEP_SCHIZO", "AEP_SAP_LIFE" ]
     }
   },
   {
     "type": "TOOL",
     "id": "flesh_blade",
+    "category": "weapons",
     "name": "biological sword",
-    "description": "A yard-long sword of metal, enclosed in flesh and bone, including a protective hilt framed with tough sinews.  Grown from a smaller sample, holding it brings a strange sense of power beyond what it used to.  If \"fed\" properly it could have other uses.",
+    "description": "A yard-long sword of metal, enclosed in flesh and bone, including a protective hilt framed with tough sinews.  Grown from a smaller sample, holding it brings a strange sense of power beyond what it used to.  If \"fed\" properly it could be even deadlier, though you won't be able to let go of it until it runs out of power.",
     "weight": 680,
     "to_hit": 2,
     "max_charges": 10,
-    "charges_per_use": 1,
     "color": "red",
     "symbol": "/",
     "material": [ "flesh", "superalloy" ],
@@ -107,16 +110,16 @@
     "volume": 6,
     "bashing": 2,
     "cutting": 25,
-    "flags": [ "NON_STUCK", "UNBREAKABLE_MELEE", "UNARMED_WEAPON" ],
+    "flags": [ "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "MAGIC_FOCUS", "SHEATH_SWORD" ],
     "price": 580000,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
     "use_action": [
       "ARTIFACT",
       {
         "target": "flesh_blade_on",
-        "msg": "You feel a sense of decay and entrophy, as the blade's flesh solidifies into living steel.",
-        "target_charges": 10,
+        "msg": "You feel a sense of decay and entropy, as the blade's flesh solidifies into living steel and envelops your hand.",
         "active": true,
+        "need_wielding": true,
         "need_charges": 1,
         "need_charges_msg": "The blade twitches, failing to do anything.",
         "menu_text": "Let the decay take hold",
@@ -125,18 +128,17 @@
     ],
     "artifact_data": {
       "charge_type": "ARTC_HP",
-      "effects_carried": [ "AEP_ATTENTION" ],
-      "effects_wielded": [ "AEP_SICK", "AEP_EVIL", "AEP_SAP_LIFE", "AEP_MUTAGENIC" ],
-      "effects_activated": [ "AEA_BLOOD", "AEA_ATTENTION", "AEA_PAIN", "AEA_ADRENALINE", "AEA_FUN", "AEA_MUTATE" ]
+      "effects_carried": [ "AEP_SICK" ],
+      "effects_wielded": [ "AEP_SCHIZO", "AEP_SAP_LIFE" ]
     }
   },
   {
     "type": "TOOL",
     "id": "flesh_blade_on",
+    "category": "weapons",
     "name": "biological sword (active)",
     "name_plural": "biological swords (active)",
     "description": "You've activated the power of the blade.  Metal and flesh have wrapped around your hand and it won't let go.  An instinctive bloodlust lingers in the back of your mind, making it harder to focus on the thought of trying to deactivate it.",
-    "initial_charges": 10,
     "max_charges": 10,
     "turns_per_charge": 5,
     "revert_to": "flesh_blade",
@@ -149,22 +151,24 @@
     "techniques": [ "WBLOCK_2", "PRECISE", "BRUTAL" ],
     "volume": 6,
     "bashing": 2,
-    "cutting": 100,
-    "flags": [ "UNBREAKABLE_MELEE", "NO_UNWIELD", "UNARMED_WEAPON" ],
-    "price": 580000,
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
+    "cutting": 50,
+    "flags": [ "UNBREAKABLE_MELEE", "NO_UNWIELD", "UNARMED_WEAPON", "MAGIC_FOCUS", "TRADER_AVOID" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "c_flesh_blade_hit_effect" } ] } ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION" ],
       "effects_wielded": [
         "AEP_STR_UP",
         "AEP_DEX_UP",
         "AEP_SPEED_UP",
         "AEP_ALL_DOWN",
         "AEP_SICK",
-        "AEP_EVIL",
+        "AEP_SCHIZO",
         "AEP_SAP_LIFE",
-        "AEP_MUTAGENIC",
-        "AEP_SCHIZO"
+        "AEP_THIRST",
+        "AEP_HUNGER",
+        "AEP_EVIL",
+        "AEP_MUTAGENIC"
       ]
     }
   }
