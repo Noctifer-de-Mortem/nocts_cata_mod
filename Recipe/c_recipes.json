@@ -1880,5 +1880,22 @@
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "c_hydrogen_gas",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "skills_required": [ "electronics", 2 ],
+    "difficulty": 3,
+    "time": "25 m",
+    "batch_time_factors": [ 90, 4 ],
+    "//": "Low-temperature electrolysis of water to gather hydrogen.  Efficiency range is about 50-60% for this method, figures here are fitting for about 57% or so.",
+    "autolearn": [ [ "cooking", 5 ], [ "electronics", 3 ] ],
+    "book_learn": [ [ "adv_chemistry", 3 ], [ "textbook_chemistry", 3 ], [ "recipe_labchem", 3 ], [ "textbook_gaswarfare", 4 ], [ "atomic_survival", 4 ] ],
+    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "PRESSURIZATION", "level": 1 } ],
+    "tools": [ [ [ "electrolysis_kit", 1750 ] ] ],
+    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ] ]
   }
 ]

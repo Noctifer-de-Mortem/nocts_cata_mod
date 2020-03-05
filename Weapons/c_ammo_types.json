@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "c_hydrogen",
+    "name": "hydrogen gas",
+    "default": "c_hydrogen_gas"
+  }
+]

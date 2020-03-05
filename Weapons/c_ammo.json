@@ -10,5 +10,26 @@
     "price": 5000,
     "proportional": { "dispersion": 0.89 },
     "relative": { "recoil": 300, "range": 19 }
+  },
+  {
+    "id": "c_hydrogen_gas",
+    "type": "AMMO",
+    "name": "hydrogen gas",
+    "category": "chems",
+    "description": "A light, flammable gas compressed for use as fuel.  Quite energy dense, but also requiring a lot of energy to produce, even moreso without pre-cataclysm industry.",
+    "weight": "1438 mg",
+    "volume": "1500 ml",
+    "price": 50,
+    "symbol": "=",
+    "color": "white",
+    "stack_size": 24,
+    "phase": "liquid",
+    "ammo_type": "c_hydrogen",
+    "fuel": {
+      "//": "Compressed gaseous hydrogen has 9.2 MJ/L.  The solid hydrogen canisters have roughly 4 times the density, energy figure here reduced a bit to make for easier calculations.",
+      "energy": 1000,
+      "explosion_data": { "chance_hot": 2, "chance_cold": 2, "factor": 0.5, "fiery": true, "size_factor": 0.1 }
+    },
+    "flags": [ "NO_DROP", "IRREMOVABLE" ]
   }
 ]

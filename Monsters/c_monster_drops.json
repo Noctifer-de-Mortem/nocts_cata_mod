@@ -8,7 +8,8 @@
       { "group": "weapon_hat", "damage": [ 1, 4 ] },
       { "group": "weapon_suit", "damage": [ 1, 4 ] },
       { "group": "weapon_badge", "damage": [ 0, 0 ] },
-      { "group": "weapom_feet", "damage": [ 1, 4 ] }
+      { "group": "weapom_feet", "damage": [ 1, 4 ] },
+      { "group": "bio_weapon_power", "damage": [ 0, 1 ], "chance": 25 }
     ]
   },
   {
@@ -47,6 +48,21 @@
     "id": "weapon_hat",
     "type": "item_group",
     "items": [ [ "hat_noise_cancelling", 50 ] ]
+  },
+  {
+    "id": "bio_weapon_power",
+    "type": "item_group",
+    "//": "Items a Bio-Weapon might hoard for power generation, based on the needs of the successful versions of the Project (except Delta, who lacks any overt fuel source).",
+    "items": [
+      { "item": "chem_ethanol", "charges": [ 0, 2000 ], "container-item": "metal_tank_little", "prob": 10 },
+      { "item": "denat_alcohol", "charges": [ 0, 2000 ], "container-item": "metal_tank_little", "prob": 10 },
+      { "item": "chem_methanol", "charges": [ 0, 2000 ], "container-item": "metal_tank_little", "prob": 10 },
+      { "item": "gasoline", "charges": [ 0, 2000 ], "container-item": "metal_tank_little", "prob": 15 },
+      { "item": "hydrogen_tank", "charges": [ 0, 24 ], "prob": 10 },
+      { "item": "plasma", "charges": [ 1, 4 ], "prob": 5 },
+      { "group": "ammo_any_batteries", "prob": 25 },
+      { "group": "ammo_atomic_batteries", "prob": 15 }
+    ]
   },
   {
     "id": "wild_bio_infantry_rifle",
@@ -171,7 +187,6 @@
       },
       { "item": "krx_laser_lmg", "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
       { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "chance": 25 },
-      { "item": "cbm_rtg_inductor", "damage": [ 0, 3 ], "charges": [ 1, 5 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -199,7 +214,6 @@
       },
       { "item": "mk_ionic_cannon", "damage": [ 0, 3 ], "charges": [ 0, 1 ] },
       { "item": "plasma", "damage": [ 0, 1 ], "charges": [ 1, 2 ], "chance": 50 },
-      { "item": "cbm_rtg_inductor", "damage": [ 0, 3 ], "charges": [ 1, 5 ], "chance": 25 },
       { "item": "militarymap", "damage": [ 0, 1 ], "chance": 10 },
       { "item": "id_military", "damage": [ 0, 1 ], "chance": 10 }
     ]
@@ -378,8 +392,7 @@
                   { "item": "plasma", "damage": [ 0, 1 ], "charges": [ 1, 2 ], "prob": 25 }
                 ],
                 "prob": 25
-              },
-              { "item": "cbm_rtg_inductor", "damage": [ 0, 3 ], "charges": [ 1, 5 ], "chance": 25 }
+              }
             ],
             "prob": 20
           }
