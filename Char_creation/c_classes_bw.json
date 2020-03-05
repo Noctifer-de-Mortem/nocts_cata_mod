@@ -3,8 +3,8 @@
     "type": "profession",
     "ident": "failed_weapon",
     "name": "Failed Bio-Weapon",
-    "description": "From the moment you opened your eyes you knew you were a failure, a reject.  Destined to be something great but many a mistake took that away from you.  You awoke in a world of monsters, now you join them, brethren...",
-    "points": 2,
+    "description": "From the moment you opened your eyes you knew you were a failure, a reject.  Destined to be something great but many a mistake took that away from you.  You awoke in a world of monsters, but you're determined to prove you aren't one of them.",
+    "points": 4,
     "traits": [
       "PSYCHOPATH",
       "HUNGER",
