@@ -479,12 +479,12 @@
   {
     "id": "bionics_mil",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ] ]
+    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 10 ] ]
   },
   {
     "id": "bionics_op",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ] ]
+    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 20 ] ]
   },
   {
     "id": "female_underwear_top",
@@ -608,7 +608,7 @@
     "type": "item_group",
     "id": "bionics_failed_bio",
     "subtype": "distribution",
-    "//": "Intact bionics from failed bio-weapons, excluding broken bionics.  Weight is inverse of install difficulty, capped at 10.  Any CBMs of diffuclty 11+ will use a weight of 1.",
+    "//": "Intact bionics from failed bio-weapons, excluding broken bionics.  Weight is inverse of install difficulty, capped at 10.  Any CBMs of difficulty 11+ will use a weight of 1.  Additionally includes potentially having power-generation CBMs specific to the successful bio-weapons, rather than just what the profession version starts with.",
     "items": [
       [ "bio_armor_arms", 8 ],
       [ "bio_armor_eyes", 6 ],
@@ -618,10 +618,13 @@
       [ "bio_carbon", 7 ],
       [ "bio_chain_lightning", 7 ],
       [ "bio_cqb", 3 ],
+      [ "bio_ethanol", 6 ],
+      [ "bio_fuel_cell_gasoline", 3 ],
       [ "bio_hydraulics", 3 ],
       [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
+      [ "bio_plasma_cell", 3 ],
       [ "bio_razors", 7 ],
       [ "bio_shock", 6 ],
       [ "bio_torsionratchet", 7 ]
@@ -648,6 +651,7 @@
       [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
+      [ "bio_plasma_cell", 3 ],
       [ "bio_radscrubber", 7 ],
       [ "bio_shock", 6 ],
       [ "bio_sword", 3 ],
@@ -665,11 +669,13 @@
       [ "bio_adrenaline", 5 ],
       [ "bio_blade", 3 ],
       [ "bio_carbon", 7 ],
+      [ "bio_metabolics", 7 ],
+      [ "bio_nanobots", 5 ],
       [ "bio_night_vision", 1 ],
+      [ "bio_painkiller", 7 ],
       [ "bio_purifier", 7 ],
       [ "bio_shock", 6 ],
       [ "bio_targeting", 5 ],
-      [ "bio_torsionratchet", 7 ],
       [ "bio_ups", 8 ]
     ]
   },
@@ -686,12 +692,14 @@
       [ "bio_armor_torso", 6 ],
       [ "bio_carbon", 7 ],
       [ "bio_ears", 5 ],
+      [ "bio_fuel_cell_gasoline", 3 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
       [ "bio_power_armor_interface_mkII", 3 ],
       [ "bio_purifier", 7 ],
       [ "bio_radscrubber", 7 ],
       [ "bio_sunglasses", 7 ],
+      [ "bio_sword", 3 ],
       [ "bio_targeting", 5 ],
       [ "bio_ups", 8 ]
     ]
@@ -706,13 +714,13 @@
       [ "bio_evap", 7 ],
       [ "bio_eye_enhancer", 1 ],
       [ "bio_eye_optic", 6 ],
-      [ "bio_flashlight", 9 ],
-      [ "bio_metabolics", 7 ],
       [ "bio_lighter", 7 ],
+      [ "bio_metabolics", 7 ],
+      [ "bio_nanobots", 5 ],
       [ "bio_night_vision", 1 ],
+      [ "bio_painkiller", 7 ],
       [ "bio_recycler", 5 ],
       [ "bio_targeting", 5 ],
-      [ "bio_tools", 5 ],
       [ "bio_ups", 8 ]
     ]
   },
@@ -722,14 +730,17 @@
     "subtype": "distribution",
     "//": "Bionics for zombie super B.A.M.R.U.",
     "items": [
+      [ "bio_batteries", 6 ],
       [ "bio_carbon", 7 ],
       [ "bio_ears", 5 ],
+      [ "bio_emp_armgun", 5 ],
       [ "bio_flashlight", 9 ],
       [ "bio_int_enhancer", 1 ],
       [ "bio_memory", 2 ],
-      [ "bio_tools", 5 ],
-      [ "bio_torsionratchet", 7 ],
+      [ "bio_nanobots", 5 ],
+      [ "bio_painkiller", 7 ],
       [ "bio_sunglasses", 7 ],
+      [ "bio_tools", 5 ],
       [ "bio_ups", 8 ],
       [ "bio_watch", 10 ]
     ]
@@ -738,17 +749,19 @@
     "type": "item_group",
     "id": "bionics_soldat_zombie_generic",
     "subtype": "distribution",
-    "//": "Bionics for unevolved zombie super soldiers and knife boys, random smattering of bionics shared by two or more super soldiers.",
+    "//": "Bionics for unevolved zombie super soldiers and knife boys, random smattering of bionics shared by two or more super soldiers, and also adds their powergen options.",
     "items": [
+      [ "bio_batteries", 6 ],
       [ "bio_carbon", 7 ],
       [ "bio_ears", 5 ],
-      [ "bio_flashlight", 9 ],
+      [ "bio_fuel_cell_gasoline", 3 ],
+      [ "bio_metabolics", 7 ],
+      [ "bio_nanobots", 5 ],
       [ "bio_night_vision", 1 ],
+      [ "bio_painkiller", 7 ],
       [ "bio_purifier", 7 ],
       [ "bio_sunglasses", 7 ],
       [ "bio_targeting", 5 ],
-      [ "bio_tools", 5 ],
-      [ "bio_torsionratchet", 7 ],
       [ "bio_ups", 8 ]
     ]
   },
