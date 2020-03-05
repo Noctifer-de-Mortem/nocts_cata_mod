@@ -8,7 +8,7 @@
     "points": 0,
     "start_name": "Bio-Weapon Lab",
     "allowed_locs": [ "Bio_Weapon_Lab_l" ],
-    "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d" ],
+    "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d", "failed_weapon" ],
     "forbidden_traits": [
       "EASYSLEEPER",
       "NONADDICTIVE",
@@ -288,6 +288,18 @@
     "type": "scenario",
     "extend": { "allowed_locs": [ "surv_camp_l" ] },
     "ident": "wilderness"
+  },
+  {
+    "copy-from": "mutant",
+    "type": "scenario",
+    "ident": "mutant",
+    "extend": { "professions": [ "failed_weapon" ] }
+  },
+  {
+    "copy-from": "lab_chal",
+    "type": "scenario",
+    "ident": "lab_chal",
+    "extend": { "professions": [ "failed_weapon" ] }
   },
   {
     "copy-from": "lab_staff",
