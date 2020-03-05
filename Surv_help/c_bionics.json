@@ -122,7 +122,7 @@
   {
     "id": "bio_plasma_cell",
     "type": "bionic",
-    "name": { "str": "Plasma Pulse Cell CBM" },
+    "name": { "str": "Plasma Pulse Cell" },
     "//": "Spikes of power at low efficiency because the available fuels have much smaller stack sizes than most fuels.  Since hydrogen is energy-dense, power per unit is massive.",
     "description": "Implanted in your chest is a small, advanced form of hydrogen fuel cell.  Designed to produce a spike of power production for cutting-edge military cybernetics, it is significantly less efficient than a traditional hydrogen fuel cell, but each pulse still puts out a lot of power.  Each pulse vents a jet of intense heat, making it dangerous in confined spaces.  It can store either hydrogen gas, or it can use denser military-grade hydrogen canisters.",
     "occupied_bodyparts": [ [ "TORSO", 15 ] ],
