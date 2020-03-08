@@ -7,7 +7,9 @@
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Alpha.  It may prove useful one day.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "fat_to_max_hp": 1.0,
+    "dodge_modifier": 1
   },
   {
     "type": "mutation",
@@ -17,7 +19,9 @@
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Beta.  It may prove useful one day.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "stamina_regen_modifier": 0.25,
+    "bleed_resist": 1
   },
   {
     "type": "mutation",
@@ -27,7 +31,9 @@
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Gamma.  It may prove useful one day.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "craft_skill_bonus": [ [ "computer", 2 ], [ "electronics", 2 ], [ "firstaid", 2 ] ],
+    "anger_relations": [ [ "ROBOT", -95 ] ]
   },
   {
     "type": "mutation",
@@ -37,7 +43,10 @@
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Delta.  It may prove useful one day.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "stealth_modifier": 15,
+    "noise_modifier": 0.85,
+    "scent_modifier": 0.85
   },
   {
     "type": "mutation",
@@ -57,7 +66,8 @@
     "description": "This DNA marker serves as a reminder of what you are - another failure in this world.  It identifies you as a Failed Bio-Weapon.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "anger_relations": [ [ "FBIO-WEAPON", -25 ] ]
   },
   {
     "type": "mutation",
