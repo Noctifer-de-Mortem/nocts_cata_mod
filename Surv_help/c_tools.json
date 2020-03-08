@@ -914,5 +914,25 @@
     "warmth": 20,
     "material_thickness": 2,
     "artifact_data": { "charge_type": "ARTC_TIME" }
+  },
+  {
+    "id": "thermal_lance_makeshift",
+    "type": "TOOL",
+    "name": "makeshift thermal lance",
+    "description": "An improvised welding tool that relies on the pyrophoric nature of steel, plus a supply of oxygen, to create a cutting tool hot enough to melt metal.  It can be used as an improvised and inefficient metalworking tool, or you can activate it to destroy metal barriers.",
+    "looks_like": "oxy_torch",
+    "sub": "oxy_torch",
+    "weight": "2000 g",
+    "volume": "1750 ml",
+    "price": 10000,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "red",
+    "max_charges": 20,
+    "initial_charges": 20,
+    "charges_per_use": 5,
+    "use_action": "OXYTORCH",
+    "qualities": [ [ "WELD", 1 ] ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

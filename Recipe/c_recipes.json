@@ -1897,5 +1897,37 @@
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "PRESSURIZATION", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 1750 ] ] ],
     "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "thermal_lance_makeshift",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 3 ],
+    "difficulty": 3,
+    "time": "45 m",
+    "autolearn": [ [ "mechanics", 4 ], [ "fabrication", 4 ] ],
+    "book_learn": [ [ "manual_mechanics", 4 ], [ "textbook_mechanics", 3 ], [ "welding_book", 2 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "tools": [ [ [ "smoxygen_tank", 12 ], [ "oxygen_tank", 12 ], [ "oxygen_cylinder", 100 ] ] ],
+    "components": [
+      [ [ "pipe", 1 ] ],
+      [ [ "hose", 1 ] ],
+      [ [ "canister_empty", 1 ] ],
+      [ [ "pilot_light", 1 ] ],
+      [ [ "magnesium", 50 ], [ "incendiary", 50 ] ]
+    ]
+  },
+  {
+    "result": "thermal_lance_makeshift",
+    "type": "uncraft",
+    "time": "2 m",
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "canister_empty", 1 ] ],
+      [ [ "hose", 1 ] ],
+      [ [ "scrap", 1 ] ]
+    ]
   }
 ]
