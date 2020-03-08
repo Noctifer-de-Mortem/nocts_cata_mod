@@ -928,9 +928,9 @@
     "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "red",
-    "max_charges": 20,
-    "initial_charges": 20,
-    "charges_per_use": 5,
+    "max_charges": 30,
+    "initial_charges": 30,
+    "charges_per_use": 1,
     "use_action": "OXYTORCH",
     "qualities": [ [ "WELD", 1 ] ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
