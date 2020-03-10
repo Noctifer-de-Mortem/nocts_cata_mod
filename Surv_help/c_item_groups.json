@@ -474,17 +474,22 @@
   {
     "id": "bionics",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ] ]
+    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_atomic_battery", 10 ] ]
   },
   {
     "id": "bionics_mil",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 10 ] ]
+    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 10 ], [ "bio_atomic_battery", 5 ] ]
   },
   {
     "id": "bionics_op",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 20 ] ]
+    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 20 ], [ "bio_atomic_battery", 5 ] ]
+  },
+  {
+    "id": "bionics_sub",
+    "type": "item_group",
+    "items": [ [ "bio_atomic_battery", 5 ] ]
   },
   {
     "id": "female_underwear_top",
@@ -615,6 +620,7 @@
       [ "bio_armor_head", 6 ],
       [ "bio_armor_legs", 8 ],
       [ "bio_armor_torso", 6 ],
+      [ "bio_atomic_battery", 2 ],
       [ "bio_carbon", 7 ],
       [ "bio_chain_lightning", 7 ],
       [ "bio_cqb", 3 ],
@@ -715,12 +721,12 @@
       [ "bio_eye_enhancer", 1 ],
       [ "bio_eye_optic", 6 ],
       [ "bio_lighter", 7 ],
-      [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_night_vision", 1 ],
       [ "bio_painkiller", 7 ],
       [ "bio_recycler", 5 ],
       [ "bio_targeting", 5 ],
+      [ "bio_torsionratchet", 7 ],
       [ "bio_ups", 8 ]
     ]
   },
@@ -762,6 +768,7 @@
       [ "bio_purifier", 7 ],
       [ "bio_sunglasses", 7 ],
       [ "bio_targeting", 5 ],
+      [ "bio_torsionratchet", 7 ],
       [ "bio_ups", 8 ]
     ]
   },
