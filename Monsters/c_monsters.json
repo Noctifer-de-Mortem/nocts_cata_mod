@@ -66,7 +66,7 @@
     "material": [ "flesh" ],
     "symbol": "B",
     "color": "red_cyan",
-    "aggression": 100,
+    "aggression": 5,
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 4,
@@ -86,6 +86,8 @@
     "harvest": "CBM_FAILED_BIO",
     "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "PARROT", 80 ] ],
     "special_when_hit": [ "ZAPBACK", 75 ],
+    "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
     "flags": [

@@ -10,5 +10,12 @@
     "id": "FBIO-WEAPON",
     "anger_triggers": [  ],
     "fear_triggers": [  ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "ROBOT_MILITARY",
+    "description": "a robot",
+    "footsteps": "mechanical whirring.",
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   }
 ]
