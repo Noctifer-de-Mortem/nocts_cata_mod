@@ -3,7 +3,7 @@
     "id": "rep_crossbow",
     "copy-from": "rep_crossbow",
     "type": "GUN",
-    "name": "repeating crossbow",
+    "name": { "str": "repeating crossbow" },
     "skill": "rifle",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ]
   },
@@ -11,7 +11,7 @@
     "id": "coilgun",
     "copy-from": "coilgun",
     "type": "GUN",
-    "name": "coilgun",
+    "name": { "str": "coilgun" },
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
     "ups_charges": 5,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "sling", 1 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
@@ -20,7 +20,7 @@
     "id": "laser_rifle",
     "copy-from": "laser_rifle",
     "type": "GUN",
-    "name": "A7 laser rifle",
+    "name": { "str": "A7 laser rifle" },
     "pierce": 5,
     "dispersion": 0,
     "ups_charges": 25
@@ -29,14 +29,14 @@
     "id": "v29_cheap",
     "copy-from": "v29_cheap",
     "type": "GUN",
-    "name": "homemade laser pistol",
+    "name": { "str": "homemade laser pistol" },
     "pierce": 2
   },
   {
     "id": "v29",
     "copy-from": "v29",
     "type": "GUN",
-    "name": "V29 laser pistol",
+    "name": { "str": "V29 laser pistol" },
     "pierce": 2
   }
 ]

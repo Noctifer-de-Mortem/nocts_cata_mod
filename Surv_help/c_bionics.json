@@ -2,7 +2,7 @@
   {
     "id": "bio_laser_minigun",
     "type": "GUN",
-    "name": "laser gatling arm",
+    "name": { "str": "laser gatling arm" },
     "description": "Your left arm is currently transformed into a ups powered laser gatling gun.  Fire it as if it was any other gun.",
     "volume": "3 L",
     "price": 0,
@@ -25,7 +25,7 @@
   {
     "type": "bionic",
     "id": "bio_laser_armgun",
-    "name": "Laser Gatling Arm",
+    "name": { "str": "Laser Gatling Arm" },
     "//": "To be re-added if this ever gets accessible in JSON: However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
     "occupied_bodyparts": [ [ "ARM_L", 20 ], [ "HAND_L", 5 ] ],
     "act_cost": "50 kJ",
@@ -37,7 +37,7 @@
     "id": "bio_laser_armgun",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Laser Gatling Arm CBM",
+    "name": { "str": "Laser Gatling Arm CBM" },
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
     "price": 220000,
     "difficulty": 3
@@ -45,7 +45,7 @@
   {
     "type": "GENERIC",
     "id": "bio_sword_weapon",
-    "name": "monomolecular sword",
+    "name": { "str": "monomolecular sword" },
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.",
     "weight": "100 g",
     "to_hit": 3,
@@ -61,7 +61,7 @@
   {
     "type": "bionic",
     "id": "bio_sword",
-    "name": "Monomolecular Sword",
+    "name": { "str": "Monomolecular Sword" },
     "occupied_bodyparts": [ [ "ARM_R", 5 ], [ "HAND_R", 2 ] ],
     "act_cost": "1 kJ",
     "fake_item": "bio_sword_weapon",
@@ -72,7 +72,7 @@
     "id": "bio_sword",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Monomolecular Sword CBM",
+    "name": { "str": "Monomolecular Sword CBM" },
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
     "price": 8000,
     "difficulty": 8
@@ -80,7 +80,7 @@
   {
     "id": "bio_flamethrower_gun",
     "type": "GUN",
-    "name": "dual-hand flamethrower",
+    "name": { "str": "dual-hand flamethrower" },
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
     "volume": "3 L",
     "price": 0,
@@ -103,7 +103,7 @@
   {
     "type": "bionic",
     "id": "bio_flamethrower",
-    "name": "Dual-Hand Flamethrower",
+    "name": { "str": "Dual-Hand Flamethrower" },
     "occupied_bodyparts": [ [ "HAND_R", 2 ], [ "HAND_L", 2 ] ],
     "act_cost": "100 kJ",
     "fake_item": "bio_flamethrower_gun",
@@ -114,7 +114,7 @@
     "id": "bio_flamethrower",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Dual-Hand Flamethrower CBM",
+    "name": { "str": "Dual-Hand Flamethrower CBM" },
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
     "price": 220000,
     "difficulty": 4
@@ -138,7 +138,7 @@
     "id": "bio_plasma_cell",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Plasma Pulse Cell CBM",
+    "name": { "str": "Plasma Pulse Cell CBM" },
     "looks_like": "bio_fuel_cell_gasoline",
     "description": "This implant provides an experimental military hydrogen cell, able to produce large spikes of power for intense usage.  Its network of pressurized storage can hold 500 ml of hydrogen gas, or denser hydrogen canisters used in plasma weaponry.  The label advises not to use it in confined spaces, and to keep moving if used during a military operation, due to hazardous levels of waste heat.",
     "price": 450000,
@@ -184,7 +184,7 @@
     "id": "bio_atomic_battery",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Atomic Battery CBM",
+    "name": { "str": "Atomic Battery CBM" },
     "description": "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it is continuous unless deliberately interrupted by the provided disconnect system, making it a good supplement to a more intensive power generation method.",
     "price": 800000,
     "difficulty": 8
@@ -194,7 +194,7 @@
     "//": "Never actually exists, only needed by bionic code for unknown reason to avoid load error.",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": "Atomic Battery Interrupter",
+    "name": { "str": "Atomic Battery Interrupter" },
     "description": "A system of power control and safety mechanisms normally built into an Atomic Battery system.  Removing it is almost certainly a bad idea."
   }
 ]
