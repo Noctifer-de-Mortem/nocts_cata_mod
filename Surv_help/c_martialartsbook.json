@@ -3,8 +3,7 @@
     "id": "manual_surv_com",
     "copy-from": "book_martial",
     "type": "GENERIC",
-    "name": "Survivor Combatives Manual",
-    "name_plural": "Survivor Combatives Manuals ",
+    "name": { "str": "Survivor Combatives Manual" },
     "description": "A very lengthy and boring journal with tutorials on various unorthodox combat mechanics.",
     "book_data": {
       "max_level": 10,
@@ -21,8 +20,7 @@
     "id": "manual_biojutsu",
     "copy-from": "book_martial",
     "type": "GENERIC",
-    "name": "Bionic Combatives Manual",
-    "name_plural": "Bionic Combatives Manuals ",
+    "name": { "str": "Bionic Combatives Manual" },
     "description": "A very lengthy and boring journal detailing the trial and error to learn the Bionic Combatives fighting style from its bionic.",
     "book_data": {
       "max_level": 6,

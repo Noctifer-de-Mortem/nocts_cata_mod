@@ -2,7 +2,7 @@
   {
     "id": "c_cbm_rtg_induction",
     "type": "SPELL",
-    "name": "CBM Induction",
+    "name": { "str": "CBM Induction" },
     "description": "Charges the user's bionic reserves via induction.",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
@@ -16,7 +16,7 @@
   {
     "id": "c_cbm_rtg_induction_2",
     "type": "SPELL",
-    "name": "CBM Induction Heat",
+    "name": { "str": "CBM Induction Heat" },
     "description": "Vented waste heat.",
     "valid_targets": [ "self" ],
     "effect": "target_attack",
@@ -28,7 +28,7 @@
   {
     "id": "c_cbm_rtg_induction_3",
     "type": "SPELL",
-    "name": "CBM Induction Rads",
+    "name": { "str": "CBM Induction Rads" },
     "description": "Radiation!",
     "valid_targets": [ "self" ],
     "flags": [ "RANDOM_DURATION" ],
@@ -40,7 +40,7 @@
   {
     "type": "SPELL",
     "id": "c_flesh_hit_effect",
-    "name": "Biological Weapon Effect",
+    "name": { "str": "Biological Weapon Effect" },
     "description": "This effect adds bleeding to target.",
     "valid_targets": [ "hostile" ],
     "message": "",
@@ -54,7 +54,7 @@
   {
     "type": "SPELL",
     "id": "c_flesh_hit_effect_2",
-    "name": "Biological Weapon Wonder",
+    "name": { "str": "Biological Weapon Wonder" },
     "description": "One-third chance of applying a brief spike of adrenaline.",
     "valid_targets": [ "self" ],
     "message": "",
@@ -71,7 +71,7 @@
   {
     "id": "c_flesh_hit_effect_3",
     "type": "SPELL",
-    "name": "Biological Weapon Adrenaline",
+    "name": { "str": "Biological Weapon Adrenaline" },
     "message": "",
     "description": "The actual adrenaline effect.  Keep the pressure up and you should be fine.",
     "valid_targets": [ "self" ],
@@ -84,7 +84,7 @@
   {
     "type": "SPELL",
     "id": "c_dummy_effect",
-    "name": "Sorry, Nothing",
+    "name": { "str": "Sorry, Nothing" },
     "description": "Dirty hack to add RNG to spell effects.",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT" ],

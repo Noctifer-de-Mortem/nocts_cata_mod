@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_ALPHA",
-    "name": "Bio-Weapon Alpha",
+    "name": { "str": "Bio-Weapon Alpha" },
     "points": 1,
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Alpha.  It may prove useful one day.",
     "valid": false,
@@ -14,7 +14,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_BETA",
-    "name": "Bio-Weapon Beta",
+    "name": { "str": "Bio-Weapon Beta" },
     "points": 1,
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Beta.  It may prove useful one day.",
     "valid": false,
@@ -26,7 +26,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_GAMMA",
-    "name": "Bio-Weapon Gamma",
+    "name": { "str": "Bio-Weapon Gamma" },
     "points": 1,
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Gamma.  It may prove useful one day.",
     "valid": false,
@@ -38,7 +38,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_DELTA",
-    "name": "Bio-Weapon Delta",
+    "name": { "str": "Bio-Weapon Delta" },
     "points": 1,
     "description": "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Delta.  It may prove useful one day.",
     "valid": false,
@@ -51,7 +51,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_GENERIC",
-    "name": "Bio-Weapon",
+    "name": { "str": "Bio-Weapon" },
     "points": 1,
     "description": "This DNA marker serves as a reminder of what you are - a Bio-Weapon.  This is for NPCs, if you have this it's a bug to pester Noctifer about!",
     "valid": false,
@@ -61,7 +61,7 @@
   {
     "type": "mutation",
     "id": "BIO_WEAPON_FAILED",
-    "name": "Failed Bio-Weapon",
+    "name": { "str": "Failed Bio-Weapon" },
     "points": 1,
     "description": "This DNA marker serves as a reminder of what you are - another failure in this world.  It identifies you as a Failed Bio-Weapon.",
     "valid": false,
@@ -72,7 +72,7 @@
   {
     "type": "mutation",
     "id": "SUPER_SOLDIER_MARKER",
-    "name": "Super Soldier Marker",
+    "name": { "str": "Super Soldier Marker" },
     "points": 1,
     "description": "This is a DNA marker identifying you as part of the Super Soldier Project.  It was used to give you clearances to biometric scanners and special weapons but now a days it seems useless.",
     "valid": false,
@@ -82,7 +82,7 @@
   {
     "type": "mutation",
     "id": "MARTIAL_ARTS_SURV_COM",
-    "name": "Survivor Combatives",
+    "name": { "str": "Survivor Combatives" },
     "points": 3,
     "description": "You have become good at using improvised and hand made weaponry, and to a lesser extent your fists. You start with the Survivor Combatives style.",
     "initial_ma_styles": [ "style_surv_com" ],
@@ -91,7 +91,7 @@
   {
     "type": "mutation",
     "id": "MARTIAL_ARTS_BIOJUTSU",
-    "name": "Bionic Combatives",
+    "name": { "str": "Bionic Combatives" },
     "points": 3,
     "description": "You start with the Bionic Combatives style. A modern combat style for the post-modern human.  Nicknamed \"Biojutsu\", Bionic Combatives combines integrated weaponry, armor and augments into an consolidated fighting discipline.",
     "initial_ma_styles": [ "style_biojutsu" ],
@@ -100,7 +100,7 @@
   {
     "type": "mutation",
     "id": "BGSS_BHunter",
-    "name": "Survivor",
+    "name": { "str": "Survivor" },
     "//": "Used by Evelynn Rose.",
     "points": 0,
     "description": "This NPC could tell you about how they survived the cataclysm.",
@@ -110,7 +110,7 @@
   {
     "type": "mutation",
     "id": "PROF_GLADIATOR",
-    "name": "Gladiator",
+    "name": { "str": "Gladiator" },
     "points": 1,
     "description": "You were kidnapped and forced into an underground blood sport, augmented and forced to fight others like you for the amusement of wealthy clients.  You may not be the only one lucky enough to have survived that without being broken.",
     "valid": false,

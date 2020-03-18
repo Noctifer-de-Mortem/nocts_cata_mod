@@ -3,7 +3,7 @@
     "id": "flintlock_ammo_mine",
     "copy-from": "flintlock_ammo",
     "type": "AMMO",
-    "name": "paper Minie ball cartridge",
+    "name": { "str": "paper Minie ball cartridge" },
     "//": "meant as a companion to the Survivor's Flintlock Sniper.",
     "description": "A paper cartridge containing black powder and a Minie ball.  A paper enclosed version of the historic projectile of the USA Civil war.  The Minie ball is still as deadly and accurate as ever.",
     "weight": "55 g",
@@ -14,7 +14,7 @@
   {
     "id": "c_hydrogen_gas",
     "type": "AMMO",
-    "name": "hydrogen gas",
+    "name": { "str": "hydrogen gas", "str_pl": "hydrogen gas" },
     "category": "chems",
     "description": "A light, flammable gas compressed for use as fuel.  Quite energy dense, but also requiring a lot of energy to produce, even moreso without pre-cataclysm industry.",
     "weight": "1438 mg",
