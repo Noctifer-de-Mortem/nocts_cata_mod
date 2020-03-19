@@ -146,7 +146,16 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
     "charges": 10,
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "can_food_unsealed", -1 ], [ "can_drink_unsealed", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 10, "LIST" ] ],
+      [
+        [ "can_food_unsealed", -1 ],
+        [ "canister_empty", -1 ],
+        [ "tinderbox", -1 ],
+        [ "can_drink_unsealed", -1 ],
+        [ "clay_canister", -1 ]
+      ]
+    ],
     "components": [ [ [ "splinter", 2 ], [ "bone_human", 2 ], [ "bone_tainted", 2 ], [ "pine_bough", 10 ] ] ]
   },
   {

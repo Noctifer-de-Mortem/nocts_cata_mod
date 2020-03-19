@@ -435,7 +435,7 @@
   {
     "id": "solar_torch",
     "type": "TOOL",
-    "category": "tools",
+    "sub": "torch",
     "symbol": "/",
     "color": "brown",
     "name": { "str": "solar torch", "str_pl": "solar torches" },
@@ -463,7 +463,7 @@
   {
     "id": "solar_torch_lit",
     "type": "TOOL",
-    "category": "tools",
+    "sub": "torch_lit",
     "symbol": "/",
     "color": "brown",
     "name": { "str": "solar torch (lit)", "str_pl": "solar torches (lit)" },
