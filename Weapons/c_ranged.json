@@ -58,32 +58,34 @@
     "looks_like": "flesh_rifle",
     "color": "red",
     "name": { "str": "biological pistol" },
-    "description": "A pistol made out of fleshy material enclosed by metal.  Whatever it fires seems to be solid enough to do damage, though it appears to rely on a UPS slot.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A pistol made out of fleshy material enclosed by metal.  Whatever it fires seems to be solid enough to do damage along with immolating victims, though it appears to rely on a UPS slot.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "NEVER_JAMS" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
     "bashing": 8,
     "to_hit": -1,
-    "ranged_damage": 20,
+    "//": "Use of armor multiplier until pierce is available as a property for ranged damage blocks, the pierce valud below is ignored by current code but retained for reference.",
+    "ranged_damage": { "damage_type": "stab", "amount": 20, "armor_multiplier": 0.98 },
     "pierce": 2,
-    "range": 10,
+    "range": 15,
     "dispersion": 250,
-    "sight_dispersion": 8,
-    "aim_speed": 2,
     "recoil": 25,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
-    "ups_charges": 1,
-    "reload": 0,
+    "ups_charges": 4,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] }
+      ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
+      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
     }
   },
   {
@@ -96,29 +98,31 @@
     "description": "A sub-machinegun made out of fleshy material enclosed by metal, curiously sustained by a UPS connection.  Whatever the hell it fires seems to have an incendiary effect on targets.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "INCENDIARY", "NEVER_JAMS", "MUZZLE_SMOKE" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
     "bashing": 8,
     "to_hit": -1,
-    "ranged_damage": 25,
+    "ranged_damage": { "damage_type": "stab", "amount": 25, "armor_multiplier": 0.95 },
     "pierce": 5,
     "range": 20,
     "dispersion": 150,
-    "sight_dispersion": 20,
-    "aim_speed": 1,
     "recoil": 20,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "burst", 3 ], [ "AUTO", "auto", 20 ] ],
-    "ups_charges": 2,
-    "reload": 0,
+    "modes": [ [ "DEFAULT", "burst", 3 ], [ "AUTO", "auto", 15 ] ],
+    "ups_charges": 5,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+      ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
+      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
     }
   },
   {
@@ -130,30 +134,32 @@
     "description": "A rifle made out of fleshy material enclosed by metal, evidently partly powered by UPS.  It fires something seemingly alive, over quite a long range in fact, horribly burning and stunning whatever it hits.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "INCENDIARY", "LARGE_BEANBAG", "NEVER_JAMS", "FLAME", "MUZZLE_SMOKE" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "LARGE_BEANBAG", "NAPALM" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "3650 g",
     "volume": "2 L",
     "bashing": 8,
     "to_hit": -1,
-    "ranged_damage": 60,
+    "ranged_damage": { "damage_type": "stab", "amount": 60, "armor_multiplier": 0.9 },
     "pierce": 10,
     "range": 40,
     "barrel_length": 2,
     "dispersion": 50,
-    "sight_dispersion": 5,
-    "aim_speed": 5,
     "recoil": 200,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
-    "ups_charges": 20,
-    "reload": 0,
+    "ups_charges": 12,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+      ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
+      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
     }
   },
   {
@@ -166,29 +172,31 @@
     "description": "A light machinegun made out of fleshy material enclosed by metal, somehow sustained by a UPS connection.  It fires unnatural, presumably-living rounds that daze and immolate almost anything hit by sustained fire.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "INCENDIARY", "BEANBAG", "NEVER_JAMS", "MUZZLE_SMOKE" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM_BIG" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "4750 g",
     "volume": "2 L",
     "bashing": 8,
     "to_hit": -1,
-    "ranged_damage": 40,
+    "ranged_damage": { "damage_type": "stab", "amount": 40, "armor_multiplier": 0.95 },
     "pierce": 5,
-    "range": 30,
+    "range": 40,
     "dispersion": 150,
-    "sight_dispersion": 20,
-    "aim_speed": 20,
     "recoil": 100,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 25 ], [ "AUTO", "high auto", 50 ] ],
-    "ups_charges": 5,
-    "reload": 0,
+    "modes": [ [ "DEFAULT", "low auto", 5 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 30 ] ],
+    "ups_charges": 8,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+      ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
+      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
     }
   },
   {
@@ -197,33 +205,35 @@
     "symbol": "(",
     "color": "red",
     "name": { "str": "biological scattergun" },
-    "description": "A double barreled shotgun made out of fleshy material enclosed by metal that seems to run off UPS charges.  It's hard to tell what this thing even fires, but it appears to have a stunning and incendiary effect on targets.   Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A double barreled shotgun made out of fleshy material enclosed by metal that seems to run off UPS charges.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.   Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "INCENDIARY", "BEANBAG", "NEVER_JAMS", "SHOT", "MUZZLE_SMOKE" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "TANGLE", "LARGE_BEANBAG", "STREAM_BIG", "WIDE" ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "3850 g",
     "volume": "2 L",
     "bashing": 8,
     "to_hit": -1,
-    "ranged_damage": 50,
+    "ranged_damage": { "damage_type": "stab", "amount": 50, "armor_multiplier": 0.98 },
     "pierce": 2,
-    "range": 10,
+    "range": 15,
     "barrel_length": 2,
     "dispersion": 300,
-    "sight_dispersion": 5,
-    "aim_speed": 2,
     "recoil": 300,
     "durability": 8,
     "modes": [ [ "DEFAULT", "one shot", 1 ], [ "BURST", "double barrel", 2 ] ],
     "ups_charges": 10,
-    "reload": 0,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+      ]
+    },
     "artifact_data": {
-      "effects_carried": [ "AEP_ATTENTION", "AEP_PSYSHIELD" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PER_UP", "AEP_MUTAGENIC" ]
+      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
+      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
     }
   },
   {
@@ -1041,7 +1051,7 @@
     "volume": "1 L",
     "bashing": 4,
     "to_hit": -2,
-    "ranged_damage": 15,
+    "ranged_damage": 16,
     "pierce": 5,
     "range": 15,
     "recoil": 5,
@@ -1155,7 +1165,7 @@
     "volume": "1500 ml",
     "bashing": 10,
     "to_hit": -2,
-    "ranged_damage": 15,
+    "ranged_damage": 16,
     "pierce": 5,
     "range": 20,
     "recoil": 10,
