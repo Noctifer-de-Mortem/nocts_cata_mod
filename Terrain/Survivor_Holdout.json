@@ -113,7 +113,7 @@
       ],
       "place_vehicles": [
         { "vehicle": "bicycle_dirt", "x": 5, "y": 5, "chance": 99, "status": -1, "rotation": 270 },
-        { "vehicle": "surv_rv", "x": 10, "y": 8, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
+        { "vehicle": "c_surv_rv_military", "x": 10, "y": 8, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
       ]
     }
   }
