@@ -524,7 +524,7 @@
       ],
       "place_vehicles": [
         { "vehicle": "surv_tractor", "x": 20, "y": 11, "chance": 99, "fuel": 10, "status": -1, "rotation": 270 },
-        { "vehicle": "surv_rv", "x": 3, "y": 5, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
+        { "vehicle": "c_surv_rv_military", "x": 3, "y": 5, "chance": 99, "fuel": 1, "status": -3, "rotation": 270 }
       ]
     }
   },
