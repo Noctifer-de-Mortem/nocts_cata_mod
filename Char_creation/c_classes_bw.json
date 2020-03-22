@@ -241,6 +241,8 @@
       "bio_lockpick",
       "bio_fingerhack",
       "bio_ups",
+      "bio_nanobots",
+      "bio_painkiller",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
@@ -313,11 +315,7 @@
       "bio_fuel_cell_gasoline",
       "bio_plasma_cell"
     ],
-    "items": {
-      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
-      "male": [ "briefs" ],
-      "female": [ "bra", "panties" ]
-    },
+    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -395,15 +393,13 @@
     ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest" ],
         "entries": [
           { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
-      },
-      "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      }
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -446,18 +442,14 @@
     "items": {
       "both": {
         "items": [
-          "undershirt",
-          "arm_warmers",
-          "leg_warmers",
-          "pants_army",
-          "army_top",
-          "jacket_army",
-          "gloves_tactical",
-          "rucksack",
-          "balclava",
-          "hat_boonie",
+          "helmet_liner",
+          "thermal_shirt",
+          "gloves_liner",
+          "under_armor_shorts",
           "socks",
-          "boots_combat",
+          "lmil_armor",
+          "rucksack",
+          "dump_pouch",
           "2lcanteen",
           "mil_mess_kit",
           "e_tool",
@@ -471,9 +463,7 @@
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
-      },
-      "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      }
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -481,7 +471,7 @@
     "type": "profession",
     "ident": "bio_tool",
     "name": "Super Bio-engineer",
-    "description": "Biological and mechanical repair unit, the combat engineer of the Super Soldier project.  You are one of many augmented military 'mechanics to be used as a repair module.  With repair, medical and general electronic capabilities, you can maybe fix the world.",
+    "description": "Biological and mechanical repair unit, the combat engineer of the Super Soldier project.  You are one of many augmented military mechanics to be used as a repair module.  With repair, medical and general electronic capabilities, you can maybe fix the world.",
     "points": 12,
     "CBMs": [
       "bio_batteries",
@@ -516,10 +506,9 @@
       "both": {
         "items": [
           "helmet_liner",
-          "undershirt",
-          "arm_warmers",
+          "thermal_shirt",
           "gloves_liner",
-          "leg_warmers",
+          "under_armor_shorts",
           "socks",
           "lmil_armor",
           "molle_pack",
@@ -531,9 +520,7 @@
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
-      },
-      "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      }
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -578,15 +565,13 @@
     ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "undershirt", "arm_warmers", "gloves_liner", "leg_warmers", "socks", "mil_armor" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "vest", "dump_pouch" ],
         "entries": [
           { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
-      },
-      "male": [ "boxer_shorts" ],
-      "female": [ "bra", "panties" ]
+      }
     },
     "flags": [ "SCEN_ONLY" ]
   },

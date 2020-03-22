@@ -26,6 +26,8 @@
     "type": "item_group",
     "//": "Bio-Weapon Sigma's weapon, don't think you can define weapon overrides any other way.",
     "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
     "entries": [ { "item": "arc_laser_rifle" } ]
   },
   {
