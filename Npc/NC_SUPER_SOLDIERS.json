@@ -5,15 +5,18 @@
     "//": "Generic super soldier kit, unisex.",
     "subtype": "collection",
     "entries": [
-      { "item": "undershirt" },
-      { "item": "pants_army" },
-      { "item": "jacket_army" },
-      { "item": "balclava" },
-      { "item": "beret" },
+      { "item": "helmet_liner" },
+      { "item": "thermal_shirt" },
       { "item": "gloves_liner" },
-      { "item": "gloves_tactical" },
+      { "item": "under_armor_shorts" },
       { "item": "socks" },
-      { "item": "boots_combat" }
+      {
+        "distribution": [ { "item": "lmil_armor", "prob": 40 }, { "item": "mil_armor", "prob": 50 }, { "item": "hmil_armor", "prob": 10 } ]
+      },
+      { "item": "molle_pack" },
+      { "item": "vest", "prob": 50 },
+      { "item": "dump_pouch", "prob": 50 },
+      { "item": "sheath", "contents-item": "knife_combat", "prob": 90 }
     ]
   },
   {
@@ -22,6 +25,7 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [
+      { "item": "protein_bar_evac", "count": [ 4, 8 ] },
       { "item": "militarymap" },
       { "item": "id_military" },
       { "item": "medium_atomic_battery_cell", "count": [ 1, 2 ] }

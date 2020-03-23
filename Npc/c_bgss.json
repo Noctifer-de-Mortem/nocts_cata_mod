@@ -1,9 +1,14 @@
 [
   {
-    "id": [ "TALK_FRIEND" ],
+    "id": [ "TALK_FRIEND_CONVERSATION" ],
     "type": "talk_topic",
     "responses": [
-      { "text": "<BGSS_intro_question>", "topic": "BGSS_BHUNTER_STORY1", "condition": { "npc_has_trait": "BGSS_BHunter" } }
+      {
+        "text": "<BGSS_intro_question>",
+        "topic": "BGSS_BHUNTER_STORY1",
+        "condition": { "npc_has_trait": "BGSS_BHunter" },
+        "switch": true
+      }
     ]
   },
   {

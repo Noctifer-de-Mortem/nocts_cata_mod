@@ -116,14 +116,20 @@
     "id": "NC_PREPPER_carry",
     "type": "item_group",
     "//": "And this is how to reliably get NC overrides to pair guns and ammo.",
-    "subtype": "distribution",
+    "subtype": "collection",
     "entries": [
-      { "group": "NC_PREPPER_carry_pnu", "prob": 20 },
-      { "group": "NC_PREPPER_carry_batt", "prob": 10 },
-      { "group": "NC_PREPPER_carry_223", "prob": 10 },
-      { "group": "NC_PREPPER_carry_9mm", "prob": 10 },
-      { "group": "NC_PREPPER_carry_bow", "prob": 30 },
-      { "group": "NC_PREPPER_carry_flint", "prob": 20 }
+      {
+        "distribution": [
+          { "group": "NC_PREPPER_carry_pnu", "prob": 20 },
+          { "group": "NC_PREPPER_carry_batt", "prob": 10 },
+          { "group": "NC_PREPPER_carry_223", "prob": 10 },
+          { "group": "NC_PREPPER_carry_9mm", "prob": 10 },
+          { "group": "NC_PREPPER_carry_bow", "prob": 30 },
+          { "group": "NC_PREPPER_carry_flint", "prob": 20 }
+        ]
+      },
+      { "group": "gear_survival", "count": [ 1, 3 ] },
+      { "group": "foodintincan", "count": [ 3, 6 ] }
     ]
   },
   {

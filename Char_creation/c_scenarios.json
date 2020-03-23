@@ -244,6 +244,30 @@
     "points": -2,
     "start_name": "Sketchy Cabin",
     "allowed_locs": [ "house_fight_s" ],
+    "traits": [
+      "ARM_FEATHERS",
+      "BEAK",
+      "CARNIVORE",
+      "CHITIN",
+      "ELFAEYES",
+      "FANGS",
+      "FELINE_EARS",
+      "GROWL",
+      "LIGHT_BONES",
+      "NAILS",
+      "PADDED_FEET",
+      "PLANTSKIN",
+      "PONDEROUS1",
+      "RADIOACTIVE1",
+      "RAP_TALONS",
+      "SLIMY",
+      "SLIT_NOSTRILS",
+      "TAIL_LONG",
+      "TROGLO",
+      "URSINE_EYE",
+      "WEB_WALKER",
+      "WHISKERS"
+    ],
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
   },
   {
@@ -254,7 +278,13 @@
     "points": -2,
     "flags": [ "LONE_START", "CITY_START" ],
     "start_name": "Priority Site",
-    "allowed_locs": [ "lab_surface_brick_blockC0", "robofachq_surface_parking", "makeshift_command_center_1", "Bio_Weapon_Lab", "haz_sar_1_2" ],
+    "allowed_locs": [
+      "lab_surface_brick_blockC0",
+      "robofachq_surface_parking",
+      "makeshift_command_center_1",
+      "Bio_Weapon_Lab",
+      "haz_sar_1_2"
+    ],
     "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ]
   },
   {
