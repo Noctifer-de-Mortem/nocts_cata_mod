@@ -327,7 +327,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str": "military armor", "str_pl": "military armor" },
-    "description": "A full-body suit of gray ballistic armor, one size fits most.  Made with rugged leather with with Kevlar lining and plates, it provides decent protection against fragmentation and pistol-caliber rounds, but falls short against rifle-caliber rounds.",
+    "description": "A full-body suit of gray ballistic armor, one size fits most.  Made with rugged leather along with Kevlar lining and plates, it provides decent protection against fragmentation and pistol-caliber rounds, but falls short against rifle-caliber rounds.",
     "weight": "13000 g",
     "volume": "12500 ml",
     "price": 350000,
