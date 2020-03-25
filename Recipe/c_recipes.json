@@ -1948,7 +1948,8 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [
       [ [ "kevlar_plate", 30 ] ],
-      [ [ "rag", 15 ] ]
+      [ [ "rag", 10 ] ],
+      [ [ "plastic_chunk", 5 ] ]
     ]
   },
   {
