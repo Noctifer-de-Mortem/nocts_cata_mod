@@ -45,14 +45,14 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "If you see this, it's a bug!",
-      "offer": "You seem like a capable person, so you might have a chance.  We have pieced together the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside - if you manage to kill that thing, it's all yours.  ...I wish we could do it ourselves, but between the portal breakthroughs, the bombs and  the undead, the chance has been lost.",
+      "offer": "You seem like a capable person, so you might have a chance.  We have pieced together the coordinates to the laboratory Apophis uses as its base.  I want you to take it down, rid the world of Apophis!  That lab has a lot of valuable equipment left inside; if you manage to kill that thing, it's all yours.  I wish we could do it ourselves, but between the portal breakthroughs, the bombs and the undead, the chance has been lost.",
       "accepted": "You're sure about this?  Thank you... that means a lot, you know.  Be sure to bring some proof, be creative.  I'll be waiting for your return.  I'd suggest talking to Sigma and Lambda too, before you leave.",
       "rejected": "I understand.  It's practically a lost cause at this point.  I'll keep trying to figure something out to stop it.",
-      "advice": "Got some decent armor and weapons, this fight won't be easy. Assemble a team to make it easier. Ask Lambda and Sigma if they want to join you, if you want.  A single person can't take it on...",
+      "advice": "Get some decent armor and weapons, this fight won't be easy.  Assemble a team to make it easier.  Ask Lambda and Sigma if they want to join you, if you want.  A single person can't take it on...",
       "inquire": "Is... it dead?",
-      "success": "Is that...you did it!  You have no idea what you have done for us!  You are truly a legend among men in this dark times.  You are always welcomed here!",
-      "success_lie": "Oh, no proof huh?...I hope you are being truthful...",
-      "failure": "At least you are alive...I should have never told you to do something like that...I am sorry..."
+      "success": "Is that...you did it!  You have no idea what you have done for us!  You are truly a legend among men in these dark times.  You are always welcomed here!",
+      "success_lie": "Oh, no proof huh?.  I hope you are being truthful...",
+      "failure": "At least you are alive.  I should have never told you to do something like that.  I am sorry..."
     }
   },
   {
@@ -108,7 +108,7 @@
       "advice": "Ask Router I know he knows something but he won't let us in on it...",
       "inquire": "Found where the beast lays?",
       "success": "Oh. Well, this place was more fortified than I expected...I think I will stay with you for a while longer since you seem to know what you are doing. Maybe we could take in on together one day?",
-      "success_lie": "...Are you done waisting my time?",
+      "success_lie": "...Are you done wasting my time?",
       "failure": "Guess we are back to square one..."
     }
   },
@@ -134,7 +134,7 @@
       "advice": "I think speaking with Router would be the best place to start. He know the history of this whole project.",
       "inquire": "Found where the Apophis is?",
       "success": "This place seems a bit too much for me to handle on the outside alone...thank you anyways. I will continue to follow you, if you don't mind, since you do seem to know your way around.",
-      "success_lie": "You really don't know here it is do you?",
+      "success_lie": "You really don't know where it is do you?",
       "failure": "It was worth the shot..."
     }
   }

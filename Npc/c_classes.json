@@ -311,7 +311,7 @@
     ],
     "worn_override": "NC_BIO_WEAPON_worn",
     "carry_override": "NC_BIO_WEAPON_carry",
-    "weapon_override": "EMPTY_GROUP",
+    "weapon_override": "NC_BIO_WEAPON_L_weapon",
     "//": "Generic mutation and CBM setup, modeled after a mix of Alpha and Gamma.  Add red eyes if they ever become part of mainline.",
     "traits": [
       [ "hair_blond_medium", 100 ],
