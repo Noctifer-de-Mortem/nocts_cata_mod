@@ -107,8 +107,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 10, "cost_multiplier": 15, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_armed", "freq": 10, "cost_multiplier": 15, "starts": 336 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 10, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 10, "cost_multiplier": 15 }
     ]
   },
   {
@@ -117,8 +117,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 3, "cost_multiplier": 15, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_armed", "freq": 2, "cost_multiplier": 15, "starts": 336 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "freq": 3, "cost_multiplier": 15, "starts": 168 },
+      { "monster": "mon_zombie_bio_dormant_armed", "freq": 2, "cost_multiplier": 15, "starts": 168 }
     ]
   },
   {

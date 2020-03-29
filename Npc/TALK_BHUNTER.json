@@ -17,9 +17,15 @@
             "BIO_WEAPON_BETA",
             "BIO_WEAPON_GAMMA",
             "BIO_WEAPON_DELTA",
-            "BIO_WEAPON_FAILED",
-            "SUPER_SOLDIER_MARKER"
+            "BIO_WEAPON_FAILED"
           ]
+        }
+      },
+      {
+        "text": "Part of the Super Soldier project, actually.",
+        "topic": "TALK_BHUNTER_IAM_SOLDAT",
+        "condition": {
+          "u_has_trait": "SUPER_SOLDIER_MARKER"
         }
       },
       { "text": "Bio-Weapon?", "topic": "TALK_BHUNTER_ASK_BIO" },
@@ -41,8 +47,8 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_has_any_trait": [ "BIO_WEAPON_FAILED" ],
-      "yes": "Bio-Weapons.  At least they were supposed to be.  In fact, you look like you're in the same shape as them, though you're not trying to kill me at least.  Can I trust you?",
-      "no": "Bio-Weapons.  At least they were supposed to be.  I don't know what went wrong or who's ordering them around, but they seem hell-bent on destroying everything connected to the project."
+      "yes": "Those augmented abominations, the notes I found tied them to a thing called the Bio-Weapon Project.  You look like you're in the same shape as them, though you're not trying to kill me at least.  Can I trust you?",
+      "no": "Bio-Weapons, that's what the notes in this lab called those things outside.  At least they were supposed to be.  I don't know what went wrong or who's ordering them around, but they seem hell-bent on destroying everything connected to the project."
     },
     "responses": [
       {
@@ -74,7 +80,7 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Well I'll be damned!  How do I know you didn't just find that somewhere?  Oh well, it doesn't really matter. The fact that you have it means you at least met one. Well, if you need anything, I can help you out.",
+      "yes": "Well I'll be damned!  How do I know you didn't just find that somewhere?  Oh well, it doesn't really matter. The fact that you have it means you at least met one.  If you need anything, I can help you out.",
       "no": "Suuuure, right.  You don't even have the badge.  Try and be careful who you lie to next time."
     },
     "responses": [
@@ -82,12 +88,6 @@
         "text": "I can prove it.  If I can recall... Project Mesektet, First Series, external designation RD-Z-01.",
         "topic": "TALK_BHUNTER_CONFIRM_BIO",
         "condition": { "u_has_any_trait": [ "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA" ] }
-      },
-      {
-        "text": "You don't recognize this aug configuration, Hunter?",
-        "topic": "TALK_BHUNTER_CONFIRM_OUST",
-        "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] },
-        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
       },
       {
         "text": "Look at me again, and tell me I'm lying.",
@@ -101,6 +101,20 @@
         "condition": { "not": { "u_is_wearing": "badge_bio_weapon" } }
       },
       { "text": "...", "topic": "TALK_BHUNTER" }
+    ]
+  },
+  {
+    "id": "TALK_BHUNTER_IAM_SOLDAT",
+    "type": "talk_topic",
+    "dynamic_line": "Is that so?  How do I know for sure you aren't just some random scavenger?  Then again, if you made it here then you can take care of yourself, guess that's a good sign.",
+    "responses": [
+      {
+        "text": "You don't recognize this aug configuration, Hunter?",
+        "topic": "TALK_BHUNTER_CONFIRM_OUST",
+        "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] },
+        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+      },
+      { "text": "Good enough, I suppose.", "topic": "TALK_BHUNTER" }
     ]
   },
   {
@@ -130,7 +144,7 @@
   {
     "id": "TALK_BHUNTER_NOBADGE",
     "type": "talk_topic",
-    "dynamic_line": "I'd say you're full of shit, but looking at you, those are some heavy-duty augs.  I don't know if you decided not to wear it, or if you lost yours, but either way I appreciate your honestly.",
+    "dynamic_line": "I'd say you're full of shit, but looking at you, those are some heavy-duty augs.  I don't know if you decided not to wear it, or if you lost yours, but either way I appreciate your honesty.",
     "responses": [
       {
         "text": "Thank you.",
@@ -165,8 +179,8 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "I guess memory wipe makes sense.  Alright, I will explain.  Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  You are one them.  A Bio-Weapon.  This is the lab where you were created.",
-      "no": "Well, alright, let me give you the basics. Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  This lab is one of several places in which the actual modifications were performed."
+      "yes": "I guess memory wipe makes sense.  Alright, I will explain.  Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  You are one them, a Bio-Weapon they called it.  This is the lab where you were created.",
+      "no": "Let me give you the basics.  Some time ago, the military launched a joint research project with an end goal of creating artificial combatants, made to perform various specific tasks - basically, living weapons.  They wanted them to be as low-maintenance as possible.  So to accomplish that, the research team used resources from already ongoing projects to first mutate and then cybernetically enhance humans, focusing on developing whatever qualities the military needed at the time.  This lab is one of several places in which the actual modifications were performed."
     },
     "responses": [
       { "text": "I'll be damned...", "topic": "TALK_BHUNTER" },
@@ -178,12 +192,12 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_has_effect": "evy_ousted",
-      "yes": "I was under orders to investigate this place and find any survivors.  Between that and having been a computer hacker during my college days, it wasn't too hard to follow the trail.  The hard part was scavenging supplues and staying alive.",
+      "yes": "I was under orders to investigate this place and find any survivors.  Between that and having been a computer hacker during my college days, it wasn't too hard to follow the trail.  The hard part was scavenging supplies and staying alive.",
       "no": "I used to be a computer hacker before the world went to hell.  After it did, when I wasn't looking for food and gear or fighting for my life, I was following leads to this place.  The military weren't all that good at keeping their secrets."
     },
     "responses": [
       {
-        "text": "You seem rather well-equiped for a mere hacker.",
+        "text": "You seem rather well-equipped for a mere hacker.",
         "condition": {
           "and": [
             { "or": [ { "u_has_intelligence": 10 }, { "u_has_perception": 10 } ] },
@@ -203,7 +217,7 @@
         }
       },
       {
-        "text": "You seem rather well-equiped for a mere hacker.",
+        "text": "You seem rather well-equipped for a mere hacker.",
         "condition": {
           "and": [
             { "or": [ { "u_has_intelligence": 11 }, { "u_has_perception": 11 } ] },
@@ -214,7 +228,7 @@
         "topic": "TALK_BHUNTER_NOPE"
       },
       {
-        "text": "Right. Research Directive Z-12 ring a bell to you, Hunter?",
+        "text": "Right.  Research Directive Z-12 ring a bell to you, Hunter?",
         "topic": "TALK_BHUNTER_CONFIRM_OUST",
         "condition": { "and": [ { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }, { "not": { "u_has_effect": "evy_ousted" } } ] },
         "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
@@ -253,7 +267,7 @@
   {
     "id": "TALK_BHUNTER_ASK_DOING",
     "type": "talk_topic",
-    "dynamic_line": "I came here to see if I could find anything on the Bio-Weapons. How about yourself?",
+    "dynamic_line": "I came here to see if I could find anything on the research they were doing here.  How about yourself?",
     "responses": [
       {
         "text": "I don't have any orders, and don't remember much from before I woke up.  Had anything in mind?",
@@ -276,7 +290,7 @@
   {
     "id": "TALK_BHUNTER_ASK_DO",
     "type": "talk_topic",
-    "dynamic_line": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it...",
+    "dynamic_line": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon Project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it...",
     "responses": [ { "text": "I'll think about it.", "topic": "TALK_BHUNTER" } ]
   }
 ]

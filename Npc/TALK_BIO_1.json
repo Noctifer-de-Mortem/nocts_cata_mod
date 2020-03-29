@@ -8,7 +8,7 @@
       "no": "Hey visitor, anything exciting out there?"
     },
     "responses": [
-      { "text": "You are a Bio-Weapon?", "topic": "TALK_BIO_1_U_BIO" },
+      { "text": "It says you're a Bio-Weapon?", "topic": "TALK_BIO_1_U_BIO" },
       { "text": "Kinda boring here huh?", "topic": "TALK_BIO_1_BORING" },
       {
         "text": "[MISSION] Router suggested that I talk to you about joining the hunt for Apophis.",
@@ -28,8 +28,8 @@
     "id": "TALK_BIO_1_U_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Yeah.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
-      "no": "That's right.  You seem to know your stuff, guess one doesn't simply find this place by accident.  Router told me what I am.  I am stuck here until further notice."
+      "yes": "Yeah, same augmentation project your badge labels you as, assuming that belongs to you.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
+      "no": "That's what the label says, it's a sorta augmentation project.  You seem to know your stuff, guess one doesn't simply find this place by accident.  Router told me what I am.  I am stuck here until further notice."
     },
     "responses": [
       {
@@ -41,9 +41,15 @@
             "BIO_WEAPON_BETA",
             "BIO_WEAPON_GAMMA",
             "BIO_WEAPON_DELTA",
-            "BIO_WEAPON_FAILED",
-            "SUPER_SOLDIER_MARKER"
+            "BIO_WEAPON_FAILED"
           ]
+        }
+      },
+      {
+        "text": "I'm one of the super soldiers, in fact.",
+        "topic": "TALK_BIO_1_IAM_SOLDAT",
+        "condition": {
+          "u_has_trait": "SUPER_SOLDIER_MARKER"
         }
       },
       { "text": "Well, damn.", "topic": "TALK_BIO_1" }
@@ -54,8 +60,18 @@
     "id": "TALK_BIO_1_IAM_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Looks about right.  Can be hard to tell for sure if that's your badge or not, but they contracted the work out to all sorts of weirdos, and they made all sorts of crazy shit. They could slap the Bio-Weapon label on a zombie swinging around a sword and it still wouldn't be the strangest thing out there.",
-      "no": "I'm not sure whether to believe you or not, without the badge and all.  But whatever, no telling whether you lost yours or maybe you decided on not advertising it for everyone to see.  Given those bastards cranked out everything from super soldiers to a giant cat Bio-Weapon to fucking Apophis, nothing would suprise me at this point."
+      "yes": "Looks about right.  Can be hard to tell for sure if that's your badge or not, but they contracted the work out to all sorts of weirdos, and they made all sorts of crazy shit.  They could slap the Bio-Weapon label on a zombie swinging around a sword and it still wouldn't be the strangest thing out there.",
+      "no": "I'm not sure whether to believe you or not, without the badge and all.  But whatever, no telling whether you lost yours or maybe you decided on not advertising it for everyone to see.  Given those bastards cranked out everything from super soldiers to a giant cat Bio-Weapon to fucking Apophis, nothing would surprise me at this point."
+    },
+    "responses": [ { "text": "...", "topic": "TALK_BIO_1" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_1_IAM_SOLDAT",
+    "dynamic_line": {
+      "u_is_wearing": "badge_bio_weapon",
+      "yes": "Heh, they started passing out the badges to you kids too?  I'm guessing you got your hands on it the hard way, from one of the bastards hunting us down.  We're in the same boat, like it or not.",
+      "no": "If that's true, pleasant surprise to see another of you stopping by.  I'm willing to bet Router needs all the help he can get, might be useful working together.  We'll see, I guess..."
     },
     "responses": [ { "text": "...", "topic": "TALK_BIO_1" } ]
   },
@@ -64,7 +80,7 @@
     "id": "TALK_BIO_1_APOPHIS",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Well I'll be damned.  At this rate I was starting to think we'd just wait for that thing to come find us.  And with one of ours leading the charge, even.  At least, assuming you've earned that badge.  I'm with you.",
+      "yes": "Well I'll be damned.  At this rate I was starting to think we'd just wait for that thing to come find us.  And with one of ours leading the charge, even.  Assuming you've earned that badge, at least.  I'm with you.",
       "no": "Well, I was starting to think I'd never get to join the hunt.  If you've got what it takes, we might come out of it in one piece.  I'm with you."
     },
     "responses": [ { "text": "Let's go, then.", "topic": "TALK_DONE", "effect": "follow" } ]
@@ -74,8 +90,8 @@
     "id": "TALK_BIO_1_BORING",
     "dynamic_line": {
       "u_has_effect": "router_suggestion",
-      "yes": "Tell me about it.  I am a weapon, made to kill and destroy. I am stuck here, nothing left to kill or destroy.  Wish there was something I could do...",
-      "no": "Tell me about it.  I am a weapon, made to kill and destroy. I am stuck here, hiding from something I can't kill or destroy.  Wish there was something I could do..."
+      "yes": "Tell me about it.  I am a weapon, made to kill and destroy.  I'm stuck here, nothing left to kill or destroy.  Wish there was something I could do...",
+      "no": "Tell me about it.  I am a weapon, made to kill and destroy.  I am stuck here, hiding from something I can't kill or destroy.  Wish there was something I could do..."
     },
     "responses": [ { "text": "Must be tough...", "topic": "TALK_BIO_1" } ]
   },
@@ -137,11 +153,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_BIO_1_RECRUIT_SOLDIER",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "One of the diluted batches, right?  No mutagenic package, probably recruited from the army kids assigned to guard the Bio-Weapon labs...still one of us, close enough at least.  You want the real deal, then so be it.  I'll follow your lead.",
-      "no": "Even without the badge, I'm guessing you're not just some cannon fodder fresh out of boot camp.  Augments look about right to be one of the super soldiers, at least.  You want the real deal?  I'll follow your lead."
-    },
+    "dynamic_line": "One of the diluted batches, right?  No mutagenic package, probably recruited from the army kids assigned to guard the labs... still one of us, close enough at least.  You want the real deal, then so be it.  I'll follow your lead.",
     "responses": [ { "text": "Let's go.", "topic": "TALK_DONE", "effect": "follow" } ]
   },
   {

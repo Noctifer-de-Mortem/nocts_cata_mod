@@ -18,6 +18,7 @@
       { "item": "socks" },
       { "item": "boots_combat" },
       { "item": "backpack" },
+      { "item": "sheath" },
       { "item": "badge_bio_weapon" }
     ]
   },
@@ -29,6 +30,13 @@
     "magazine": 100,
     "ammo": 100,
     "entries": [ { "item": "arc_laser_rifle" } ]
+  },
+  {
+    "id": "NC_BIO_WEAPON_L_weapon",
+    "type": "item_group",
+    "//": "Bio-Weapon Lamba's weapon.  She's built more with a lean toward unarmed, but this ensures that she doesn't do anything weird like decide her helmet is a superior weapon.",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_rm42" } ]
   },
   {
     "id": "NC_BIO_WEAPON_carry",

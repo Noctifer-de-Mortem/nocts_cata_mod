@@ -8,7 +8,7 @@
       "no": "Hey visitor, anything exciting out there?"
     },
     "responses": [
-      { "text": "You are a Bio-Weapon?", "topic": "TALK_BIO_2_U_BIO" },
+      { "text": "What's with the badge?  A Bio-Weapon, it says?", "topic": "TALK_BIO_2_U_BIO" },
       { "text": "Kinda boring here huh?", "topic": "TALK_BIO_2_BORING" },
       {
         "text": "[MISSION] Router suggested that I talk to you about joining the hunt for Apophis.",
@@ -28,8 +28,8 @@
     "id": "TALK_BIO_2_U_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Yeah.  Router found me passed out and told me about everything.  I don't remember anything before that.  Guess I just have to trust him for now.",
-      "no": "That's right.  You seem to know your stuff, guess one doesn't simply find this place by accident.  Router told me what I am.  I am stuck here until further notice."
+      "yes": "Military augmentation project, same people handing out the badge you're wearing.  Guessing you know enough about it if you have one yourself.  Don't remember much up until Router found me and took me in, same deal as Sigma.",
+      "no": "A military augmentation project.  Not that sort of bio-weapon if that's what you're thinking, it's not contagious.  More like we're living weapons basically.  Guess you already know a bit for you to have made it here.  Not much else I can tell you, just stuck here waiting."
     },
     "responses": [
       {
@@ -41,12 +41,18 @@
             "BIO_WEAPON_BETA",
             "BIO_WEAPON_GAMMA",
             "BIO_WEAPON_DELTA",
-            "BIO_WEAPON_FAILED",
-            "SUPER_SOLDIER_MARKER"
+            "BIO_WEAPON_FAILED"
           ]
         }
       },
-      { "text": "Well, damn.", "topic": "TALK_BIO_2" }
+      {
+        "text": "I'm one of the super soldiers, in fact.",
+        "topic": "TALK_BIO_2_IAM_SOLDAT",
+        "condition": {
+          "u_has_trait": "SUPER_SOLDIER_MARKER"
+        }
+      },
+      { "text": "I see...", "topic": "TALK_BIO_2" }
     ]
   },
   {
@@ -54,9 +60,15 @@
     "id": "TALK_BIO_2_IAM_BIO",
     "dynamic_line": {
       "u_is_wearing": "badge_bio_weapon",
-      "yes": "Looks about right.  Can be hard to tell for sure if that's your badge or not, but they contracted the work out to all sorts of weirdos, and they made all sorts of crazy shit. They could slap the Bio-Weapon label on a zombie swinging around a sword and it still wouldn't be the strangest thing out there.",
+      "yes": "Guess that explains where you got the badge.",
       "no": "I'm not sure whether to believe you or not, without the badge and all.  But whatever, no telling whether you lost yours or maybe you decided on not advertising it for everyone to see.  Given those bastards cranked out everything from super soldiers to a giant cat Bio-Weapon to fucking Apophis, nothing would suprise me at this point."
     },
+    "responses": [ { "text": "...", "topic": "TALK_BIO_2" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_BIO_2_IAM_SOLDAT",
+    "dynamic_line": "Guess would explain your presence here.  We'll see if you turn out useful like the other two who survived the trip, or if you'll end up stuck sitting around with nothing to do like I've been.",
     "responses": [ { "text": "...", "topic": "TALK_BIO_2" } ]
   },
   {
@@ -137,11 +149,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_BIO_2_RECRUIT_SOLDIER",
-    "dynamic_line": {
-      "u_is_wearing": "badge_bio_weapon",
-      "yes": "Original model?  I'm not sure if I should take that as a compliment or not.  I guess it'd be better than doing nothing and wasting time here.  Ready when you are.",
-      "no": "Seem to be out of uniform there, soldier.  Missing the badge, for one.  But nevermind that, I suppose it's something better than sitting around here.  Lead the way."
-    },
+    "dynamic_line": "Original model?  I'm not sure if I should take that as a compliment or not.  I guess it'd be better than doing nothing and wasting time here.  Ready when you are.",
     "responses": [ { "text": "Let's go.", "topic": "TALK_DONE", "effect": "follow" } ]
   },
   {
