@@ -24,7 +24,7 @@
         "throw_immune": true,
         "buff_duration": 1,
         "bonus_dodges": 1,
-        "flat_bonuses": [ [ "dodge", "int", 0.25 ] ]
+        "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "int", "scale": 0.25 } ]
       }
     ],
     "onhit_buffs": [
@@ -37,7 +37,7 @@
         "melee_allowed": true,
         "buff_duration": 2,
         "bonus_blocks": 1,
-        "flat_bonuses": [ [ "block", "int", 1.0 ] ]
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "int", "scale": 1.0 } ]
       }
     ],
     "onkill_buffs": [
@@ -52,7 +52,7 @@
         "buff_duration": 6,
         "bonus_dodges": 2,
         "bonus_blocks": 2,
-        "flat_bonuses": [ [ "speed", "int", 1.0 ] ]
+        "flat_bonuses": [ { "stat": "speed", "scaling-stat": "int", "scale": 1.0 } ]
       }
     ],
     "techniques": [
