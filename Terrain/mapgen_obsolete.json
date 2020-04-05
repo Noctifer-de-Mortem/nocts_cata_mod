@@ -204,7 +204,7 @@
         { "item": "mccmap", "x": 12, "y": 12 },
         { "item": "laser_rifle", "x": 12, "y": 11 },
         { "item": "goggles_welding", "x": 4, "y": 20, "repeat": 1 },
-        { "item": "anesthesia", "x": [ 11, 12 ], "y": 19, "chance": 50, "repeat": 3 }
+        { "item": "anesthetic_kit", "x": [ 11, 12 ], "y": 19, "chance": 50, "repeat": 3 }
       ],
       "place_npcs": [ { "class": "bio_hunter", "x": 5, "y": 21 } ],
       "place_vehicles": [
@@ -732,7 +732,7 @@
         { "item": "UPS_off", "x": 1, "y": 18 },
         { "item": "megamap", "x": 1, "y": 18 },
         { "item": "acs_74_stealth_cloak_off", "x": 1, "y": 18 },
-        { "item": "anesthesia", "x": 9, "y": 22, "chance": 50, "repeat": [ 1, 3 ] }
+        { "item": "anesthetic_kit", "x": 9, "y": 22, "chance": 50, "repeat": [ 1, 3 ] }
       ],
       "place_monster": [
         { "monster": "mon_failed_weapon", "x": 7, "y": 4 },

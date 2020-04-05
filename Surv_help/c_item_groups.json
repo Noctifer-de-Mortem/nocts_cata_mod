@@ -434,7 +434,7 @@
       [ "omnitech_weapon_ups_manual", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
-      [ "anesthesia", 2 ],
+      [ "anesthetic_kit", 2 ],
       { "group": "ammo_atomic_batteries", "prob": 10 }
     ]
   },
@@ -530,7 +530,7 @@
   {
     "type": "item_group",
     "id": "ambulance_equipment",
-    "items": [ [ "anesthesia", 5 ] ]
+    "items": [ [ "anesthetic_kit", 5 ] ]
   },
   {
     "id": "sketchy_cabin_weapons",
