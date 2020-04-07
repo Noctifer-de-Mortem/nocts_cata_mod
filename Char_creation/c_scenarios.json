@@ -37,7 +37,7 @@
     "ident": "mycus_bwmd",
     "points": 2,
     "start_name": "Fungal Territory",
-    "allowed_locs": [ "forest", "field" ],
+    "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "mycus_weapon" ],
     "forbidden_traits": [
       "GOURMAND",
@@ -66,7 +66,7 @@
     "ident": "prep_house",
     "points": 2,
     "start_name": "Boarded Up House",
-    "allowed_locs": [ "boarded_house" ],
+    "allowed_locs": [ "sloc_house_boarded" ],
     "professions": [ "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ]
   },
   {

@@ -1,56 +1,56 @@
 [
   {
     "type": "start_location",
-    "ident": "surv_camp_l",
+    "id": "surv_camp_l",
     "name": "Survivor Camp Site",
-    "target": "surv_camp"
+    "terrain": [ "surv_camp" ]
   },
   {
     "type": "start_location",
-    "ident": "Bio_Weapon_Lab_l",
+    "id": "Bio_Weapon_Lab_l",
     "name": "Bio Weapon Lab",
-    "target": "Bio_Weapon_Lab_b"
+    "terrain": [ "Bio_Weapon_Lab_b" ]
   },
   {
     "type": "start_location",
-    "ident": "house_fight_s",
+    "id": "house_fight_s",
     "name": "Underground Arena",
-    "target": "sketchy_cabin_b2"
+    "terrain": [ "sketchy_cabin_b2" ]
   },
   {
     "type": "start_location",
-    "ident": "lab_surface_brick_blockC0",
+    "id": "lab_surface_brick_blockC0",
     "name": "Research Facility",
-    "target": "lab_surface_brick_blockC0",
+    "terrain": [ "lab_surface_brick_blockC0" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   },
   {
     "type": "start_location",
-    "ident": "robofachq_surface_parking",
+    "id": "robofachq_surface_parking",
     "name": "Hub 01",
-    "target": "robofachq_surface_parking",
+    "terrain": [ "robofachq_surface_parking" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   },
   {
     "type": "start_location",
-    "ident": "makeshift_command_center_1",
+    "id": "makeshift_command_center_1",
     "name": "Makeshift Command Center",
-    "target": "makeshift_command_center_1",
+    "terrain": [ "makeshift_command_center_1" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   },
   {
     "type": "start_location",
-    "ident": "Bio_Weapon_Lab",
+    "id": "Bio_Weapon_Lab",
     "//": "This versions is for the super soldier start, places them in the outdoors section.",
     "name": "Bio Weapon Lab",
-    "target": "Bio_Weapon_Lab",
+    "terrain": [ "Bio_Weapon_Lab" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   },
   {
     "type": "start_location",
-    "ident": "haz_sar_1_2",
+    "id": "haz_sar_1_2",
     "name": "Hazardous Waste Sarcophagus",
-    "target": "haz_sar_1_2",
+    "terrain": [ "haz_sar_1_2" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   }
 ]
