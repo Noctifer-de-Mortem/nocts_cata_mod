@@ -798,6 +798,7 @@
       [ [ "2x4", 2 ], [ "stick", 2 ] ],
       [ [ "metal_tank", 1 ], [ "metal_tank_little", 2 ] ],
       [ [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
+      [ [ "hand_pump", 1 ] ],
       [ [ "foot_crank", 1 ] ]
     ]
   },
@@ -1194,8 +1195,9 @@
       [ [ "duct_tape", 50 ] ],
       [ [ "pilot_light", 1 ] ],
       [ [ "pipe", 1 ] ],
-      [ [ "hose", 2 ] ],
-      [ [ "metal_tank_little", 1 ] ]
+      [ [ "hose", 1 ] ],
+      [ [ "hand_pump", 1 ] ],
+      [ [ "canister_empty", 1 ] ]
     ]
   },
   {
@@ -1974,6 +1976,32 @@
     "components": [
       [ [ "kevlar_plate", 50 ] ],
       [ [ "hard_steel_armor", 5 ] ]
+    ]
+  },
+  {
+    "result": "flamethrower_surv",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "18 m",
+    "reversible": true,
+    "decomp_learn": 5,
+    "autolearn": true,
+    "book_learn": [ [ "book_icef", 4 ], [ "recipe_surv", 4 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "2x4", 2 ], [ "stick", 2 ] ],
+      [ [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
+      [ [ "duct_tape", 50 ] ],
+      [ [ "pilot_light", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "hose", 2 ] ],
+      [ [ "hand_pump", 1 ] ],
+      [ [ "foot_crank", 1 ] ],
+      [ [ "metal_tank_little", 1 ] ]
     ]
   }
 ]

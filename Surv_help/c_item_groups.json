@@ -86,7 +86,8 @@
       [ "fr_762", 2 ],
       [ "22aux", 1 ],
       [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
+      [ "45aux", 1 ],
+      [ "aux_flamer_diesel", 1 ]
     ]
   },
   {
@@ -101,7 +102,8 @@
       [ "fr_762", 2 ],
       [ "22aux", 1 ],
       [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
+      [ "45aux", 1 ],
+      [ "aux_flamer_diesel", 1 ]
     ]
   },
   {
@@ -287,8 +289,8 @@
       [ "surv_sniper", 2 ],
       [ "elc_bld", 2 ],
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ], 
-	  [ "manual_biojutsu", 1 ]
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ]
     ]
   },
   {
@@ -366,27 +368,53 @@
   {
     "id": "homebooks",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [
+      [ "recipe_surv", 1 ],
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ],
+      { "group": "encylopedias_common", "prob": 1 }
+    ]
   },
   {
     "id": "manuals",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [
+      [ "recipe_surv", 1 ],
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ],
+      { "group": "encylopedias_common", "prob": 1 }
+    ]
   },
   {
     "id": "mansion_books",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 2 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 5 } ]
+    "items": [
+      [ "recipe_surv", 2 ],
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ],
+      { "group": "encylopedias_common", "prob": 5 }
+    ]
   },
   {
     "id": "shelter",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 1 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 }, [ "biomap", 1 ] ]
+    "items": [
+      [ "recipe_surv", 1 ],
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ],
+      { "group": "encylopedias_common", "prob": 1 },
+      [ "biomap", 1 ]
+    ]
   },
   {
     "id": "textbooks",
     "type": "item_group",
-    "items": [ [ "recipe_surv", 2 ], [ "manual_surv_com", 1 ], [ "manual_biojutsu", 1 ], { "group": "encylopedias_common", "prob": 1 } ]
+    "items": [
+      [ "recipe_surv", 2 ],
+      [ "manual_surv_com", 1 ],
+      [ "manual_biojutsu", 1 ],
+      { "group": "encylopedias_common", "prob": 1 }
+    ]
   },
   {
     "id": "gear_survival",
@@ -428,9 +456,9 @@
       [ "goggles_nv_clairvoyance", 2 ],
       [ "flesh_knife", 2 ],
       [ "flesh_pistol", 2 ],
-	  [ "flesh_weapon_kit", 2 ],
+      [ "flesh_weapon_kit", 2 ],
       [ "evil_invitation", 2 ],
-	  [ "omnitech_weapon_ups_kit", 2 ],
+      [ "omnitech_weapon_ups_kit", 2 ],
       [ "omnitech_weapon_ups_manual", 2 ],
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
@@ -474,17 +502,35 @@
   {
     "id": "bionics",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_atomic_battery", 10 ] ]
+    "items": [
+      [ "bio_laser_armgun", 10 ],
+      [ "bio_sword", 5 ],
+      [ "bio_flamethrower", 5 ],
+      [ "bio_plasma_cell", 5 ],
+      [ "bio_atomic_battery", 10 ]
+    ]
   },
   {
     "id": "bionics_mil",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 10 ], [ "bio_sword", 2 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 10 ], [ "bio_atomic_battery", 5 ] ]
+    "items": [
+      [ "bio_laser_armgun", 10 ],
+      [ "bio_sword", 2 ],
+      [ "bio_flamethrower", 5 ],
+      [ "bio_plasma_cell", 10 ],
+      [ "bio_atomic_battery", 5 ]
+    ]
   },
   {
     "id": "bionics_op",
     "type": "item_group",
-    "items": [ [ "bio_laser_armgun", 5 ], [ "bio_sword", 5 ], [ "bio_flamethrower", 5 ], [ "bio_plasma_cell", 20 ], [ "bio_atomic_battery", 5 ] ]
+    "items": [
+      [ "bio_laser_armgun", 5 ],
+      [ "bio_sword", 5 ],
+      [ "bio_flamethrower", 5 ],
+      [ "bio_plasma_cell", 20 ],
+      [ "bio_atomic_battery", 5 ]
+    ]
   },
   {
     "id": "bionics_sub",
@@ -815,5 +861,10 @@
       { "item": "surv_belt_762R", "prob": 60, "ammo-item": "reloaded_762_54R", "charges": [ 5, 75 ] },
       { "item": "reloaded_762_54R", "prob": 30, "charges": [ 10, 20 ] }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_launcher_improvised",
+    "items": [ { "item": "flamethrower_surv", "prob": 15 } ]
   }
 ]
