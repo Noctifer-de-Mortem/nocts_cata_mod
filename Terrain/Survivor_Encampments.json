@@ -101,7 +101,7 @@
         "}": {
           "items": [
             { "item": "tools_gunsmith", "chance": 90 },
-            { "item": "gunsmith_gunparts", "chance": 75 },
+            { "item": "gunmod_common", "chance": 75 },
             { "item": "survivor_weapons", "chance": 50 }
           ]
         }
@@ -388,8 +388,8 @@
         { "group": "power_tools", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "supplies_reagents_lab", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
-        { "group": "gunsmith_gunparts", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
-        { "group": "gunxtras", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
+        { "group": "gunmod_common", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
+        { "group": "gunmod_rare", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
         { "group": "tools_blacksmith", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
         { "group": "supplies_metal", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
         { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
@@ -517,8 +517,8 @@
         { "group": "power_tools", "x": [ 17, 19 ], "y": 6, "chance": 75, "repeat": 3 },
         { "group": "supplies_reagents_lab", "x": [ 17, 19 ], "y": 6, "chance": 75, "repeat": 3 },
         { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
-        { "group": "gunsmith_gunparts", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
-        { "group": "gunxtras", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
+        { "group": "gunmod_common", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
+        { "group": "gunmod_rare", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "tools_blacksmith", "x": [ 16, 18 ], "y": 12, "chance": 75, "repeat": 3 },
         { "group": "supplies_metal", "x": [ 16, 18 ], "y": 12, "chance": 75, "repeat": 3 },
         { "group": "supplies_mechanics", "x": [ 16, 18 ], "y": 12, "chance": 75, "repeat": 3 },
@@ -660,8 +660,8 @@
         { "group": "supplies_reagents_lab", "x": [ 19, 20 ], "y": 6, "chance": 50, "repeat": 3 },
         { "group": "bionics_failed_bio", "x": [ 17, 19 ], "y": 6, "chance": 50, "repeat": 3 },
         { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 10, "chance": 75, "repeat": 3 },
-        { "group": "gunsmith_gunparts", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
-        { "group": "gunxtras", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
+        { "group": "gunmod_common", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
+        { "group": "gunmod_rare", "x": [ 16, 18 ], "y": 10, "chance": 50, "repeat": 3 },
         { "group": "tools_blacksmith", "x": [ 16, 17 ], "y": 12, "chance": 75, "repeat": 3 },
         { "group": "supplies_metal", "x": [ 16, 17 ], "y": 12, "chance": 25, "repeat": 5 },
         { "group": "supplies_mechanics", "x": [ 16, 17 ], "y": 12, "chance": 25, "repeat": 5 },
