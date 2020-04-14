@@ -15,60 +15,17 @@
     "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
-    "id": "gunxtras",
+    "id": "gunmod_rare",
     "type": "item_group",
     "items": [
-      [ "fr_22", 5 ],
-      [ "fr_223", 5 ],
-      [ "fr_308", 5 ],
-      [ "fr_9mm", 5 ],
-      [ "fr_12", 5 ],
-      [ "fr_762", 5 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
-    "id": "gunsmith_gunparts",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 5 ],
-      [ "fr_223", 5 ],
-      [ "fr_308", 5 ],
-      [ "fr_9mm", 5 ],
-      [ "fr_12", 5 ],
-      [ "fr_762", 5 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
-    "id": "cop_armory",
-    "type": "item_group",
-    "items": [
+      [ "auto_case", 10 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
       [ "fr_9mm", 2 ],
       [ "fr_12", 2 ],
       [ "fr_762", 2 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
-    "id": "cop_gear",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 2 ],
-      [ "fr_223", 2 ],
-      [ "fr_308", 2 ],
-      [ "fr_9mm", 2 ],
-      [ "fr_12", 2 ],
-      [ "fr_762", 2 ],
+      [ "fr_762R", 2 ],
       [ "22aux", 1 ],
       [ "9mmaux", 1 ],
       [ "45aux", 1 ]
@@ -78,6 +35,7 @@
     "id": "cop_evidence",
     "type": "item_group",
     "items": [
+      [ "auto_case", 10 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
@@ -94,6 +52,7 @@
     "id": "contraband",
     "type": "item_group",
     "items": [
+      [ "auto_case", 10 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
@@ -107,24 +66,10 @@
     ]
   },
   {
-    "id": "swat_gear",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 2 ],
-      [ "fr_223", 2 ],
-      [ "fr_308", 2 ],
-      [ "fr_9mm", 2 ],
-      [ "fr_12", 2 ],
-      [ "fr_762", 2 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
     "id": "lmoe_guns",
     "type": "item_group",
     "items": [
+      [ "auto_case", 10 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
@@ -140,6 +85,7 @@
     "id": "vault",
     "type": "item_group",
     "items": [
+      [ "auto_case", 10 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
@@ -151,40 +97,19 @@
       [ "45aux", 1 ],
       [ "lmil_armor", 1 ],
       [ "mil_armor", 1 ],
-      [ "hmil_armor", 1 ]
+      [ "hmil_armor", 1 ],
+      { "group": "ammo_atomic_batteries", "prob": 25 }
     ]
   },
   {
     "id": "mil_hw",
     "type": "item_group",
-    "items": [
-      [ "fr_22", 2 ],
-      [ "fr_223", 2 ],
-      [ "fr_308", 2 ],
-      [ "fr_9mm", 2 ],
-      [ "fr_12", 2 ],
-      [ "fr_762", 2 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ],
-      [ "lmil_armor", 2 ],
-      [ "mil_armor", 2 ],
-      [ "hmil_armor", 2 ]
-    ]
+    "items": [ [ "lmil_armor", 2 ], [ "mil_armor", 2 ], [ "hmil_armor", 2 ] ]
   },
   {
     "id": "military",
     "type": "item_group",
     "items": [
-      [ "fr_22", 2 ],
-      [ "fr_223", 2 ],
-      [ "fr_308", 2 ],
-      [ "fr_9mm", 2 ],
-      [ "fr_12", 2 ],
-      [ "fr_762", 2 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ],
       [ "lmil_armor", 1 ],
       [ "mil_armor", 1 ],
       [ "hmil_armor", 1 ],
@@ -204,87 +129,25 @@
     ]
   },
   {
-    "id": "gunsmith_mat",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 5 ],
-      [ "fr_223", 5 ],
-      [ "fr_308", 5 ],
-      [ "fr_9mm", 5 ],
-      [ "fr_12", 5 ],
-      [ "fr_762", 5 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
     "id": "mil_surplus",
     "type": "item_group",
-    "items": [
-      [ "fr_22", 1 ],
-      [ "fr_223", 1 ],
-      [ "fr_308", 1 ],
-      [ "fr_9mm", 1 ],
-      [ "fr_12", 1 ],
-      [ "fr_762", 1 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ],
-      [ "mil_surp_pack_1", 1 ],
-      [ "mil_surp_pack_2", 1 ],
-      [ "mil_surp_pack_3", 1 ]
-    ]
-  },
-  {
-    "id": "mil_accessories",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 1 ],
-      [ "fr_223", 1 ],
-      [ "fr_308", 1 ],
-      [ "fr_9mm", 1 ],
-      [ "fr_12", 1 ],
-      [ "fr_762", 1 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
-  },
-  {
-    "id": "army_personal_locker",
-    "type": "item_group",
-    "items": [
-      [ "fr_22", 1 ],
-      [ "fr_223", 1 ],
-      [ "fr_308", 1 ],
-      [ "fr_9mm", 1 ],
-      [ "fr_12", 1 ],
-      [ "fr_762", 1 ],
-      [ "22aux", 1 ],
-      [ "9mmaux", 1 ],
-      [ "45aux", 1 ]
-    ]
+    "items": [ [ "mil_surp_pack_1", 1 ], [ "mil_surp_pack_2", 1 ], [ "mil_surp_pack_3", 1 ] ]
   },
   {
     "id": "survivorzed_extra",
     "type": "item_group",
     "items": [
+      [ "auto_case", 30 ],
+      [ "fr_22", 6 ],
+      [ "fr_223", 6 ],
+      [ "fr_308", 6 ],
+      [ "fr_9mm", 6 ],
+      [ "fr_12", 6 ],
+      [ "fr_762", 6 ],
+      [ "22aux", 2 ],
+      [ "9mmaux", 2 ],
+      [ "45aux", 2 ],
       [ "sur_pnu_lmg", 2 ],
-      [ "ups_rifle", 2 ],
-      [ "ups_rifle_crank", 2 ],
-      [ "surv_battery_pistol", 2 ],
-      [ "surv_battery_rifle", 2 ],
-      [ "surv_full_223", 2 ],
-      [ "surv_full_22", 2 ],
-      [ "surv_full_9mm", 2 ],
-      [ "surv_full_45", 2 ],
-      [ "surv_full_308", 2 ],
-      [ "surv_full_762", 2 ],
-      [ "surv_full_12", 2 ],
-      [ "surv_lmg_308", 2 ],
-      [ "surv_lmg_762", 2 ],
-      [ "surv_lmg_223", 2 ],
       [ "survbow", 2 ],
       [ "surv_sniper", 2 ],
       [ "elc_bld", 2 ],
@@ -615,15 +478,15 @@
   {
     "id": "guns_pistol_improvised",
     "type": "item_group",
-    "items": [ [ "unbio_laser_gun", 1 ], { "item": "surv_battery_pistol", "prob": 1, "charges-min": 0, "charges-max": 50 } ]
+    "items": [ [ "unbio_laser_gun", 5 ], { "item": "surv_battery_pistol", "prob": 25, "charges-min": 0, "charges-max": 50 } ]
   },
   {
     "id": "guns_smg_improvised",
     "type": "item_group",
     "items": [
-      { "item": "surv_full_22", "prob": 1, "charges-min": 0, "charges-max": 30 },
-      { "item": "surv_full_9mm", "prob": 1, "charges-min": 0, "charges-max": 30 },
-      { "item": "surv_full_45", "prob": 1, "charges-min": 0, "charges-max": 30 }
+      { "item": "surv_full_22", "prob": 25, "charges-min": 0, "charges-max": 30 },
+      { "item": "surv_full_9mm", "prob": 25, "charges-min": 0, "charges-max": 30 },
+      { "item": "surv_full_45", "prob": 25, "charges-min": 0, "charges-max": 30 }
     ]
   },
   {
@@ -631,16 +494,21 @@
     "type": "item_group",
     "items": [
       [ "unbio_chain_lightning", 1 ],
-      { "item": "surv_battery_rifle", "prob": 1, "charges-min": 0, "charges-max": 100 },
-      { "item": "surv_full_223", "prob": 1, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_308", "prob": 1, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_762", "prob": 1, "charges-min": 0, "charges-max": 20 }
+      { "item": "surv_battery_rifle", "prob": 5, "charges-min": 0, "charges-max": 100 },
+      { "item": "surv_full_223", "prob": 15, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_308", "prob": 15, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_762", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_762R", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_308", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_762", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_762R", "prob": 5, "charges-min": 0, "charges-max": 20 }
     ]
   },
   {
     "id": "guns_shotgun_improvised",
     "type": "item_group",
-    "items": [ { "item": "surv_full_12", "prob": 1, "charges-min": 0, "charges-max": 10 } ]
+    "items": [ { "item": "surv_full_12", "prob": 50, "charges-min": 0, "charges-max": 10 } ]
   },
   {
     "id": "guns_energy",
@@ -824,11 +692,6 @@
     "items": [ { "group": "ammo_atomic_batteries", "prob": 1 } ]
   },
   {
-    "id": "vault",
-    "type": "item_group",
-    "items": [ { "group": "ammo_atomic_batteries", "prob": 5 } ]
-  },
-  {
     "id": "tools_science",
     "type": "item_group",
     "items": [ { "group": "ammo_atomic_batteries_full", "prob": 10 } ]
@@ -866,5 +729,10 @@
     "type": "item_group",
     "id": "guns_launcher_improvised",
     "items": [ { "item": "flamethrower_surv", "prob": 15 } ]
+  },
+  {
+    "id": "drugdealer",
+    "type": "item_group",
+    "items": [ [ "auto_case", 50 ] ]
   }
 ]
