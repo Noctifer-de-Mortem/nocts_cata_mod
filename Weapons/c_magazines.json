@@ -21,7 +21,7 @@
     "id": "surv_762_mag",
     "type": "MAGAZINE",
     "name": { "str": "survivor's 7.62x39 magazine" },
-    "description": "A magazine built for the survivor's 7.62x39 assault rifle.  A rough simplification of the AKM magazine pattern, it's still a bit short of the original's legendary reliability.",
+    "description": "A magazine built for the survivor's 7.62x39 assault rifle.  A rough simplification of the AKM magazine pattern, it's still a bit short of the originals legendary reliability.",
     "weight": "400 g",
     "volume": "500 ml",
     "price": 8000,
