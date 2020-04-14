@@ -2000,6 +2000,7 @@
       [ [ "pipe", 1 ] ],
       [ [ "hose", 2 ] ],
       [ [ "hand_pump", 1 ] ],
+      [ [ "foot_crank", 1 ] ],
       [ [ "metal_tank_little", 1 ] ]
     ]
   }
