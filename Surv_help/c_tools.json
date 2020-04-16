@@ -259,16 +259,14 @@
     "symbol": ";",
     "color": "light_gray",
     "name": { "str": "molded hammer" },
-    "//": "Only gets the nail-pulling use action because the stone hammer, for some bizarre reason, has it too.",
     "description": "This is a hammer molded from cast iron.  While a bit brittle if extensively used for combat, it holds up well enough to serve as a tool, though lacks enough of a claw to pry with.",
     "price": 500,
     "material": [ "steel" ],
     "weight": "1600 g",
     "volume": "500 ml",
     "bashing": 12,
-    "use_action": "HAMMER",
-    "qualities": [ [ "HAMMER", 3 ], [ "HAMMER_FINE", 1 ] ],
-    "flags": [ "FRAGILE_MELEE" ]
+    "qualities": [ [ "HAMMER", 3 ] ],
+    "flags": [ "FRAGILE_MELEE", "BELT_CLIP" ]
   },
   {
     "id": "molded_knife",
@@ -340,7 +338,7 @@
     "bashing": 24,
     "cutting": 10,
     "qualities": [ [ "AXE", 2 ], [ "BUTCHER", -36 ] ],
-    "flags": [ "FRAGILE_MELEE" ]
+    "flags": [ "FRAGILE_MELEE", "SHEATH_AXE" ]
   },
   {
     "id": "solar_crude_firestarter",
@@ -576,7 +574,7 @@
     "description": "A multi-tool combing a small hammer and pair of pliers.  Small and practical, the survivor's mini-tool-kit.",
     "price": 5000,
     "material": [ "steel", "wood" ],
-    "flags": [ "STAB", "SHEATH_KNIFE" ],
+    "flags": [ "STAB", "BELT_CLIP" ],
     "weight": "820 g",
     "volume": "500 ml",
     "bashing": 8,
@@ -909,5 +907,25 @@
     "use_action": "OXYTORCH",
     "qualities": [ [ "WELD", 1 ] ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "id": "molded_crowbar",
+    "looks_like": "crowbar",
+    "type": "TOOL",
+    "name": { "str": "molded crowbar" },
+    "description": "This is a hefty prying tool, molded from cast iron.  A bit brittle and heavy to be extensively used as a weapon, but adequate for prying open locked doors.  Not exactly ideal, but it's an improvement over makeshift tools.",
+    "weight": "1250 g",
+    "volume": "1 L",
+    "price": 1300,
+    "to_hit": 1,
+    "bashing": 14,
+    "cutting": 1,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "PRY", 2 ], [ "HAMMER", 1 ] ],
+    "use_action": [ "HAMMER", "CROWBAR" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "BELT_CLIP", "FRAGILE_MELEE" ]
   }
 ]
