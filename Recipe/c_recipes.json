@@ -1,19 +1,19 @@
 [
   {
-    "result": "bearing",
     "type": "recipe",
+    "result": "bearing",
     "id_suffix": "alt_creation",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
+    "skills_required": [ "gun", 4 ],
     "difficulty": 3,
-    "time": "10 m",
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 2 ] ],
-    "//": "Doesn't use c_metal_molding_standard because metal and charcoal usage is non-standard.",
-    "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "tools": [ [ [ "can_forge", -1 ] ], [ [ "material_sand", -1 ], [ "clay_lump", -1 ] ], [ [ "bearing", -1 ], [ "marble", -1 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ], [ [ "charcoal", 30 ], [ "charcoal", 30 ] ] ]
+    "book_learn": [ [ "textbook_fabrication", 2 ], [ "recipe_surv", 2 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 2 ], [ "forging_standard", 2 ] ],
+    "tools": [ [ [ "bearing", -1 ], [ "marble", -1 ] ] ]
   },
   {
     "result": "surcan",
@@ -71,10 +71,11 @@
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": "20 m",
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
-    "using": [ [ "c_metal_molding_standard", 2 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 2 ], [ "forging_standard", 8 ] ],
     "tools": [ [ [ "primitive_hammer", -1 ], [ "makeshift_hammer", -1 ] ] ]
   },
   {
@@ -88,7 +89,7 @@
     "time": "100 m",
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 5 ] ],
-    "using": [ [ "c_metal_molding_standard", 10 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 10 ], [ "forging_standard", 40 ] ],
     "tools": [ [ [ "primitive_axe", -1 ], [ "copper_ax", -1 ] ] ]
   },
   {
@@ -99,10 +100,10 @@
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": "10 m",
+    "time": "30 m",
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
-    "using": [ [ "c_metal_molding_standard", 1 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "primitive_knife", -1 ], [ "makeshift_knife", -1 ], [ "copper_knife", -1 ] ] ]
   },
   {
@@ -116,7 +117,7 @@
     "time": "140 m",
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
-    "using": [ [ "c_metal_molding_standard", 14 ] ],
+    "using": [ [ "c_metal_molding_standard", 14 ], [ "steel_standard", 14 ], [ "forging_standard", 56 ] ],
     "tools": [ [ [ "primitive_shovel", -1 ] ] ]
   },
   {
@@ -127,12 +128,12 @@
     "skill_used": "fabrication",
     "difficulty": 2,
     "skills_required": [ [ "survival", 1 ] ],
-    "time": "20 m",
+    "time": "30 m",
     "reversible": false,
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 1 ] ],
-    "using": [ [ "c_metal_molding_standard", 2 ] ],
-    "tools": [ [ [ "rock_pot", -1 ] ] ]
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 2 ], [ "forging_standard", 8 ] ],
+    "tools": [ [ [ "pot_makeshift", -1 ], [ "pot_makeshift_copper", -1 ] ] ]
   },
   {
     "result": "charcoal",
@@ -2039,5 +2040,65 @@
     ],
     "tools": [ [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "45_casing", -1 ] ] ],
     "components": [ [ [ "m1911", 1 ], [ "m1911_MEU", 1 ], [ "usp_45", 1 ], [ "mk23", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "rebar",
+    "id_suffix": "alt_creation",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 2 ], [ "recipe_surv", 2 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "tools": [ [ [ "rebar", -1 ], [ "pipe", -1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "nail",
+    "id_suffix": "alt_creation",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "tools": [ [ [ "nail", -1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "blade",
+    "id_suffix": "alt_creation",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 h",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "qualities": [
+      { "id": "CUT", "level": 1 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "molded_crowbar",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "120 m",
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_standard", 12 ], [ "forging_standard", 48 ] ],
+    "tools": [ [ [ "makeshift_crowbar", -1 ] ] ]
   }
 ]
