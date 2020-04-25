@@ -33,7 +33,7 @@
     "purifiable": false,
     "profession": true,
     "craft_skill_bonus": [ [ "computer", 2 ], [ "electronics", 2 ], [ "firstaid", 2 ] ],
-    "anger_relations": [ [ "ROBOT", -95 ] ]
+    "anger_relations": [ [ "ROBOT", -45 ] ]
   },
   {
     "type": "mutation",
