@@ -3,48 +3,56 @@
     "id": "mon_secubot",
     "copy-from": "mon_secubot",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_talon_m202a1",
     "copy-from": "mon_talon_m202a1",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_dispatch_military",
     "copy-from": "mon_dispatch_military",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_turret_searchlight",
     "copy-from": "mon_turret_searchlight",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_laserturret",
     "copy-from": "mon_laserturret",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_turret_bmg",
     "copy-from": "mon_turret_bmg",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_turret_rifle",
     "copy-from": "mon_turret_rifle",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   },
   {
     "id": "mon_crows_m240",
     "copy-from": "mon_crows_m240",
     "type": "MONSTER",
-    "species": [ "ROBOT_MILITARY" ]
+    "aggression": 50,
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ]
   }
 ]
