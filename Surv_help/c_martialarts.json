@@ -2,7 +2,7 @@
   {
     "type": "martial_art",
     "id": "style_surv_com",
-    "name": "Survivor Combatives",
+    "name": { "str": "Survivor Combatives" },
     "description": "You learned how to handle yourself in the cataclysm.  Whether armed or unarmed, you know how to use your wits to stay alive.  Survival is of the highest priority.",
     "initiate": [ "You steady yourself, prepared for the fights ahead.", "%s prepares for the fights ahead." ],
     "learn_difficulty": 7,

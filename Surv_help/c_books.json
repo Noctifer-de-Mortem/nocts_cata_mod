@@ -2,7 +2,7 @@
   {
     "id": "encyclopedia_mechanics",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Mechanics",
+    "name": { "str": "Rebuilding Civilization: Mechanics", "str_pl": "Rebuilding Civilization: Mechanics" },
     "description": "The mechanics volume of the Rebuilding Civilization encyclopedia.  This book contains everything from simple machines to the inner workings of submarine engines in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -21,7 +21,7 @@
   {
     "id": "encyclopedia_fabrication",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Fabrication",
+    "name": { "str": "Rebuilding Civilization: Fabrication", "str_pl": "Rebuilding Civilization: Fabrication" },
     "description": "The fabrication volume of the Rebuilding Civilization encyclopedia.  This book contains everything from creating how to create simple stone tools to the creation of the pyramids of Egypt in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -40,7 +40,7 @@
   {
     "id": "encyclopedia_archery",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Archery",
+    "name": { "str": "Rebuilding Civilization: Archery", "str_pl": "Rebuilding Civilization: Archery" },
     "description": "The archery volume of the Rebuilding Civilization encyclopedia.  This book contains everything from correct positioning to the usage of advanced bows in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -59,7 +59,7 @@
   {
     "id": "encyclopedia_barter",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Barter",
+    "name": { "str": "Rebuilding Civilization: Barter", "str_pl": "Rebuilding Civilization: Barter" },
     "description": "The bartering volume of the Rebuilding Civilization encyclopedia.  This book contains everything from what supplies are worth more after the cataclysm to what economic system to use in your new society in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -78,7 +78,7 @@
   {
     "id": "encyclopedia_bashing",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Bashing Weapons",
+    "name": { "str": "Rebuilding Civilization: Bashing Weapons", "str_pl": "Rebuilding Civilization: Bashing Weapons" },
     "description": "The bashing weapons volume of the Rebuilding Civilization encyclopedia.  This book contains everything from self defense with a pipe to the proper swinging technique for a sledge hammer in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -97,7 +97,7 @@
   {
     "id": "encyclopedia_computer",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Computer",
+    "name": { "str": "Rebuilding Civilization: Computers", "str_pl": "Rebuilding Civilization: Computers" },
     "description": "The computer volume of the Rebuilding Civilization encyclopedia.  This book contains everything from basic programing to cyber security algorithms in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -116,7 +116,7 @@
   {
     "id": "encyclopedia_cooking",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Cooking",
+    "name": { "str": "Rebuilding Civilization: Cooking", "str_pl": "Rebuilding Civilization: Cooking" },
     "description": "The cooking volume of the Rebuilding Civilization encyclopedia.  This book contains everything from cooking small game to basic chemistry in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -135,7 +135,7 @@
   {
     "id": "encyclopedia_cutting",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Cutting Weapons",
+    "name": { "str": "Rebuilding Civilization: Cutting Weapons", "str_pl": "Rebuilding Civilization: Cutting Weapons" },
     "description": "The cutting weapons volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using a glass shiv to medieval swordsmanship in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -154,7 +154,7 @@
   {
     "id": "encyclopedia_dodge",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Dodging",
+    "name": { "str": "Rebuilding Civilization: Dodging", "str_pl": "Rebuilding Civilization: Dodging" },
     "description": "The dodging volume of the Rebuilding Civilization encyclopedia.  This book contains everything from dancing for beginners to parkour in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -173,7 +173,7 @@
   {
     "id": "encyclopedia_driving",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Driving",
+    "name": { "str": "Rebuilding Civilization: Driving", "str_pl": "Rebuilding Civilization: Driving" },
     "description": "The driving volume of the Rebuilding Civilization encyclopedia.  This book contains everything from acquiring a driving license to professional racing in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -192,8 +192,8 @@
   {
     "id": "encyclopedia_electronics",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Electronics",
-    "description": "The electronics volume of the Rebuilding Civilization encyclopedia.  This book contains everything from simple circuits to military robotics in fine detail.",
+    "name": { "str": "Rebuilding Civilization: Electronics", "str_pl": "Rebuilding Civilization: Electronics" },
+    "description": "The electronics volume of the Rebuilding Civilization encyclopedia.  This book contains everything from simple circuits to military robotics in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
     "price": 8000,
@@ -211,7 +211,7 @@
   {
     "id": "encyclopedia_firstaid",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: First Aid",
+    "name": { "str": "Rebuilding Civilization: First Aid", "str_pl": "Rebuilding Civilization: First Aid" },
     "description": "The first aid volume of the Rebuilding Civilization encyclopedia.  This book contains everything from proper bandage application to exploratory surgery in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -230,7 +230,7 @@
   {
     "id": "encyclopedia_gun",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Marksmanship",
+    "name": { "str": "Rebuilding Civilization: Marksmanship", "str_pl": "Rebuilding Civilization: Marksmanship" },
     "description": "The marksmanship volume of the Rebuilding Civilization encyclopedia.  This book contains everything from proper iron sight aiming to military sniper techniques in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -249,7 +249,7 @@
   {
     "id": "encyclopedia_launcher",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Launchers",
+    "name": { "str": "Rebuilding Civilization: Launchers", "str_pl": "Rebuilding Civilization: Launchers" },
     "description": "The launchers volume of the Rebuilding Civilization encyclopedia.  This book contains everything from the use of spraycan flamethrowers to recoiless rifles in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -268,7 +268,7 @@
   {
     "id": "encyclopedia_melee",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Melee Combat",
+    "name": { "str": "Rebuilding Civilization: Melee Combat", "str_pl": "Rebuilding Civilization: Melee Combat" },
     "description": "The melee combat volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using a branch to martial arts techniques in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -287,7 +287,7 @@
   {
     "id": "encyclopedia_pistol",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Pistols",
+    "name": { "str": "Rebuilding Civilization: Pistols", "str_pl": "Rebuilding Civilization: Pistols" },
     "description": "The pistols volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using zip pistols to laser pistols in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -306,7 +306,7 @@
   {
     "id": "encyclopedia_rifle",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Rifles",
+    "name": { "str": "Rebuilding Civilization: Rifles", "str_pl": "Rebuilding Civilization: Rifles" },
     "description": "The rifles volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using zip rifles to laser rifles in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -325,7 +325,7 @@
   {
     "id": "encyclopedia_shotgun",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Shotguns",
+    "name": { "str": "Rebuilding Civilization: Shotguns", "str_pl": "Rebuilding Civilization: Shotguns" },
     "description": "The shotguns volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using zip shotguns to laser scatter guns in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -344,7 +344,7 @@
   {
     "id": "encyclopedia_smg",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Sub Machineguns",
+    "name": { "str": "Rebuilding Civilization: Sub Machineguns", "str_pl": "Rebuilding Civilization: Sub Machineguns" },
     "description": "The sub machineguns volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using makeshift smgs to automatic laser carbines in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -363,7 +363,7 @@
   {
     "id": "encyclopedia_speech",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Speech",
+    "name": { "str": "Rebuilding Civilization: Speech", "str_pl": "Rebuilding Civilization: Speech" },
     "description": "The speech volume of the Rebuilding Civilization encyclopedia.  This book contains everything from recruiting survivors to running for political office in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -382,7 +382,7 @@
   {
     "id": "encyclopedia_stabbing",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Piercing Weapons",
+    "name": { "str": "Rebuilding Civilization: Piercing Weapons", "str_pl": "Rebuilding Civilization: Piercing Weapons" },
     "description": "The piercing weapons volume of the Rebuilding Civilization encyclopedia.  This book contains everything from using switchblades to spear combat in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -401,7 +401,7 @@
   {
     "id": "encyclopedia_survival",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Survival",
+    "name": { "str": "Rebuilding Civilization: Survival", "str_pl": "Rebuilding Civilization: Survival" },
     "description": "The survival volume of the Rebuilding Civilization encyclopedia.  This book contains everything from camping to survival on a deserted island in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -420,7 +420,7 @@
   {
     "id": "encyclopedia_swimming",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Swimming",
+    "name": { "str": "Rebuilding Civilization: Swimming", "str_pl": "Rebuilding Civilization: Swimming" },
     "description": "The swimming volume of the Rebuilding Civilization encyclopedia.  This book contains everything from recreational swimming to crossing rivers in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -439,7 +439,7 @@
   {
     "id": "encyclopedia_tailor",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Tailoring",
+    "name": { "str": "Rebuilding Civilization: Tailoring", "str_pl": "Rebuilding Civilization: Tailoring" },
     "description": "The tailoring volume of the Rebuilding Civilization encyclopedia.  This book contains everything from fixing clothing tears to fashion designing in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -458,7 +458,7 @@
   {
     "id": "encyclopedia_throw",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Throwing",
+    "name": { "str": "Rebuilding Civilization: Throwing", "str_pl": "Rebuilding Civilization: Throwing" },
     "description": "The throwing volume of the Rebuilding Civilization encyclopedia.  This book contains everything from throwing stones to spear hunting in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -477,7 +477,7 @@
   {
     "id": "encyclopedia_traps",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Traps",
+    "name": { "str": "Rebuilding Civilization: Traps", "str_pl": "Rebuilding Civilization: Traps" },
     "description": "The traps volume of the Rebuilding Civilization encyclopedia.  This book contains everything from spike pits to disarming landmines in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -496,7 +496,7 @@
   {
     "id": "encyclopedia_unarmed",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Unarmed Combat",
+    "name": { "str": "Rebuilding Civilization: Unarmed Combat", "str_pl": "Rebuilding Civilization: Unarmed Combat" },
     "description": "The unarmed volume of the Rebuilding Civilization encyclopedia.  This book contains everything from self defense techniques to MMA fighting in fine detail.  Being the basic model it skips over the theoretical, recommending the advanced companion book for that knowledge.",
     "weight": "1200 g",
     "volume": "1500 ml",
@@ -515,7 +515,7 @@
   {
     "id": "encyclopedia_mechanics_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Mechanics",
+    "name": { "str": "Rebuilding Civilization: Advanced Mechanics", "str_pl": "Rebuilding Civilization: Advanced Mechanics" },
     "description": "The companion book for the main mechanics volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -535,7 +535,7 @@
   {
     "id": "encyclopedia_fabrication_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Fabrication",
+    "name": { "str": "Rebuilding Civilization: Advanced Fabrication", "str_pl": "Rebuilding Civilization: Advanced Fabrication" },
     "description": "The companion book for the main fabrication volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -555,7 +555,7 @@
   {
     "id": "encyclopedia_archery_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Archery",
+    "name": { "str": "Rebuilding Civilization: Advanced Archery", "str_pl": "Rebuilding Civilization: Advanced Archery" },
     "description": "The companion book for the main archery volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -575,7 +575,7 @@
   {
     "id": "encyclopedia_barter_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Barter",
+    "name": { "str": "Rebuilding Civilization: Advanced Barter", "str_pl": "Rebuilding Civilization: Advanced Barter" },
     "description": "The companion book for the main bartering volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -595,7 +595,7 @@
   {
     "id": "encyclopedia_bashing_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Bashing Weapons",
+    "name": { "str": "Rebuilding Civilization: Advanced Bashing Weapons", "str_pl": "Rebuilding Civilization: Advanced Bashing Weapons" },
     "description": "The companion book for the main bashing weapons volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -615,7 +615,7 @@
   {
     "id": "encyclopedia_computer_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Computers",
+    "name": { "str": "Rebuilding Civilization: Advanced Computers", "str_pl": "Rebuilding Civilization: Advanced Computers" },
     "description": "The companion book for the main computers volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -635,7 +635,7 @@
   {
     "id": "encyclopedia_cooking_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Cooking",
+    "name": { "str": "Rebuilding Civilization: Advanced Cooking", "str_pl": "Rebuilding Civilization: Advanced Cooking" },
     "description": "The companion book for the main cooking volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -655,7 +655,7 @@
   {
     "id": "encyclopedia_cutting_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Cutting Weapons",
+    "name": { "str": "Rebuilding Civilization: Advanced Cutting Weapons", "str_pl": "Rebuilding Civilization: Advanced Cutting Weapons" },
     "description": "The companion book for the main cutting weapons volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -675,7 +675,7 @@
   {
     "id": "encyclopedia_dodge_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Dodging",
+    "name": { "str": "Rebuilding Civilization: Advanced Dodging", "str_pl": "Rebuilding Civilization: Advanced Dodging" },
     "description": "The companion book for the main dodging volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -695,8 +695,8 @@
   {
     "id": "encyclopedia_driving_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Driving",
-    "description": "The companion book for the main  volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
+    "name": { "str": "Rebuilding Civilization: Advanced Driving", "str_pl": "Rebuilding Civilization: Advanced Driving" },
+    "description": "The companion book for the main driving volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
     "price": 8000,
@@ -715,7 +715,7 @@
   {
     "id": "encyclopedia_electronics_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Electronics",
+    "name": { "str": "Rebuilding Civilization: Advanced Electronics", "str_pl": "Rebuilding Civilization: Advanced Electronics" },
     "description": "The companion book for the main electronics volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -735,7 +735,7 @@
   {
     "id": "encyclopedia_firstaid_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced First Aid",
+    "name": { "str": "Rebuilding Civilization: Advanced First Aid", "str_pl": "Rebuilding Civilization: Advanced First Aid" },
     "description": "The companion book for the main first aid volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -755,7 +755,7 @@
   {
     "id": "encyclopedia_gun_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Marksmanship",
+    "name": { "str": "Rebuilding Civilization: Advanced Marksmanship", "str_pl": "Rebuilding Civilization: Advanced Marksmanship" },
     "description": "The companion book for the main marksmanship volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -775,7 +775,7 @@
   {
     "id": "encyclopedia_launcher_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Launchers",
+    "name": { "str": "Rebuilding Civilization: Advanced Launchers", "str_pl": "Rebuilding Civilization: Advanced Launchers" },
     "description": "The companion book for the main launchers volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -795,7 +795,7 @@
   {
     "id": "encyclopedia_melee_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Melee Combat",
+    "name": { "str": "Rebuilding Civilization: Advanced Melee Combat", "str_pl": "Rebuilding Civilization: Advanced Melee Combat" },
     "description": "The companion book for the main melee combat volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -815,7 +815,7 @@
   {
     "id": "encyclopedia_pistol_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Pistols",
+    "name": { "str": "Rebuilding Civilization: Advanced Pistols", "str_pl": "Rebuilding Civilization: Advanced Pistols" },
     "description": "The companion book for the main pistols volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -835,7 +835,7 @@
   {
     "id": "encyclopedia_rifle_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Rifles",
+    "name": { "str": "Rebuilding Civilization: Advanced Rifles", "str_pl": "Rebuilding Civilization: Advanced Rifles" },
     "description": "The companion book for the main rifle volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -855,7 +855,7 @@
   {
     "id": "encyclopedia_shotgun_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Shotguns",
+    "name": { "str": "Rebuilding Civilization: Advanced Shotguns", "str_pl": "Rebuilding Civilization: Advanced Shotguns" },
     "description": "The companion book for the main shotguns volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -875,7 +875,7 @@
   {
     "id": "encyclopedia_smg_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Sub Machineguns",
+    "name": { "str": "Rebuilding Civilization: Advanced Sub Machineguns", "str_pl": "Rebuilding Civilization: Advanced Sub Machineguns" },
     "description": "The companion book for the main sub machineguns volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -895,7 +895,7 @@
   {
     "id": "encyclopedia_speech_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Speech",
+    "name": { "str": "Rebuilding Civilization: Advanced Speech", "str_pl": "Rebuilding Civilization: Advanced Speech" },
     "description": "The companion book for the main speech volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -915,7 +915,7 @@
   {
     "id": "encyclopedia_stabbing_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Piercing Weapons",
+    "name": { "str": "Rebuilding Civilization: Advanced Piercing Weapons", "str_pl": "Rebuilding Civilization: Advanced Piercing Weapons" },
     "description": "The companion book for the main piercing weapons volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -935,7 +935,7 @@
   {
     "id": "encyclopedia_survival_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Survival",
+    "name": { "str": "Rebuilding Civilization: Advanced Survival", "str_pl": "Rebuilding Civilization: Advanced Survival" },
     "description": "The companion book for the main survival volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -955,7 +955,7 @@
   {
     "id": "encyclopedia_swimming_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Swimming",
+    "name": { "str": "Rebuilding Civilization: Advanced Swimming", "str_pl": "Rebuilding Civilization: Advanced Swimming" },
     "description": "The companion book for the main  volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -975,7 +975,7 @@
   {
     "id": "encyclopedia_tailor_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Tailoring",
+    "name": { "str": "Rebuilding Civilization: Advanced Tailoring", "str_pl": "Rebuilding Civilization: Advanced Tailoring" },
     "description": "The companion book for the main tailoring volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -995,7 +995,7 @@
   {
     "id": "encyclopedia_throw_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Throwing",
+    "name": { "str": "Rebuilding Civilization: Advanced Throwing", "str_pl": "Rebuilding Civilization: Advanced Throwing" },
     "description": "The companion book for the main throwing volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -1015,7 +1015,7 @@
   {
     "id": "encyclopedia_traps_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Traps",
+    "name": { "str": "Rebuilding Civilization: Advanced Traps", "str_pl": "Rebuilding Civilization: Advanced Traps" },
     "description": "The companion book for the main trapping volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -1035,7 +1035,7 @@
   {
     "id": "encyclopedia_unarmed_advance",
     "type": "BOOK",
-    "name": "Rebuilding Civilization: Advanced Unarmed Combat",
+    "name": { "str": "Rebuilding Civilization: Advanced Unarmed Combat", "str_pl": "Rebuilding Civilization: Advanced Unarmed Combat" },
     "description": "The companion book for the main unarmed volume of the Rebuilding Civilization encyclopedia.  This book contains theoretical and more advanced but impractical additions to the previous volume.",
     "weight": "1800 g",
     "volume": "2 L",
@@ -1055,8 +1055,7 @@
   {
     "id": "evil_invitation",
     "type": "BOOK",
-    "name": "introduction packet - classified",
-    "name_plural": "introduction packets - classified",
+    "name": { "str": "introduction packet - classified", "str_pl": "introduction packets - classified" },
     "description": "This is a journal with what seems to be an invitation of some sort from some unknown organization.  While its contents rather boring to read, some bits offer promises of 'forbidden knowledge' and that said contents are 'just a taste of true power'...  Science has definitely gone too far...",
     "weight": "1700 g",
     "volume": "500 ml",
@@ -1074,8 +1073,7 @@
   {
     "id": "omnitech_weapon_ups_manual",
     "type": "BOOK",
-    "name": "Omnitech UPS conversion manual",
-    "name_plural": "Omnitech UPS conversion manual",
+    "name": { "str": "Omnitech UPS conversion manual" },
     "description": "This is a booklet dealing the instructions on how to convert an Omnitech laser weapon from using atomic batteries to use UPS power.  If you can find one of the kits mentioned, you could replicate the steps on this booklet.",
     "weight": "1700 g",
     "volume": "500 ml",
@@ -1097,8 +1095,7 @@
     "category": "books",
     "symbol": ",",
     "color": "white",
-    "name": "printed note",
-    "name_plural": "printed notes",
+    "name": { "str": "printed note" },
     "snippet_category": "note_apophis",
     "description": "A scrap of paper.  Something's been printed on it.",
     "material": "paper",
@@ -1112,7 +1109,7 @@
     "category": "books",
     "symbol": ",",
     "color": "white",
-    "name": "folded note",
+    "name": { "str": "folded note" },
     "snippet_category": "note_sketchy_cabin",
     "description": "A scrap of paper, hastily folded up.  Something's been scribbled on it.",
     "material": "paper",

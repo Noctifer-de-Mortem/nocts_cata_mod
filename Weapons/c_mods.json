@@ -2,7 +2,7 @@
   {
     "type": "GUNMOD",
     "id": "aux_flamer_diesel",
-    "name": "aux diesel flamethrower",
+    "name": { "str": "aux diesel flamethrower" },
     "location": "underbarrel",
     "weight": "1820 g",
     "color": "light_red",
@@ -34,7 +34,7 @@
   {
     "type": "GUNMOD",
     "id": "22aux",
-    "name": "aux .22 pistol",
+    "name": { "str": "aux .22 pistol" },
     "//": "Wanted to add a way to allow stand alone fire but never figured it out...",
     "location": "underbarrel",
     "weight": "1020 g",
@@ -65,7 +65,7 @@
   {
     "type": "GUNMOD",
     "id": "9mmaux",
-    "name": "aux 9mm pistol",
+    "name": { "str": "aux 9mm pistol" },
     "location": "underbarrel",
     "weight": "1020 g",
     "color": "dark_gray",
@@ -95,7 +95,7 @@
   {
     "type": "GUNMOD",
     "id": "45aux",
-    "name": "aux .45 pistol",
+    "name": { "str": "aux .45 pistol" },
     "location": "underbarrel",
     "weight": "1020 g",
     "color": "dark_gray",
@@ -125,7 +125,7 @@
   {
     "type": "GUNMOD",
     "id": "surv_laser_sight",
-    "name": "survivor's laser sight",
+    "name": { "str": "survivor's laser sight" },
     "location": "sights",
     "sight_dispersion": 50,
     "aim_speed": 8,
@@ -144,7 +144,7 @@
   {
     "type": "GUNMOD",
     "id": "lmg_handle",
-    "name": "LMG carry handle",
+    "name": { "str": "LMG carry handle" },
     "//": "Unique to my LMGs!",
     "location": "carry handle",
     "dispersion_modifier": 20,
