@@ -254,7 +254,13 @@
       { "id": "HAMMER", "level": 1 }
     ],
     "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
-    "components": [ [ [ "sheet_metal", 1 ] ], [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ], [ [ "spring", 2 ] ], [ [ "wire", 1 ] ], [ [ "nail", 10 ] ] ]
+    "components": [
+      [ [ "sheet_metal", 1 ] ],
+      [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
+      [ [ "spring", 2 ] ],
+      [ [ "wire", 1 ] ],
+      [ [ "nail", 10 ] ]
+    ]
   },
   {
     "result": "fr_22",
@@ -276,7 +282,11 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ] ],
+    "tools": [
+      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ]
+    ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -299,7 +309,11 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "223_casing", -1 ] ] ],
+    "tools": [
+      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "223_casing", -1 ] ]
+    ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -322,7 +336,11 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "308_casing", -1 ] ] ],
+    "tools": [
+      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "308_casing", -1 ] ]
+    ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -345,7 +363,11 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "9mm_casing", -1 ] ] ],
+    "tools": [
+      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "9mm_casing", -1 ] ]
+    ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -368,7 +390,11 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ], [ [ "45_casing", -1 ] ] ],
+    "tools": [
+      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "45_casing", -1 ] ]
+    ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -1921,7 +1947,7 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "kevlar_plate", 30 ] ], [ [ "rag", 10 ] ], [ [ "plastic_chunk", 5 ] ] ]
+    "components": [ [ [ "rag", 20 ] ], [ [ "kevlar_plate", 10 ] ], [ [ "alloy_plate", 2 ] ], [ [ "alloy_sheet", 6 ] ] ]
   },
   {
     "result": "mil_armor",
@@ -1930,7 +1956,13 @@
     "skill_used": "fabrication",
     "difficulty": 6,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "kevlar_plate", 40 ] ], [ [ "leather", 10 ] ] ]
+    "components": [
+      [ [ "leather", 20 ] ],
+      [ [ "kevlar_plate", 15 ] ],
+      [ [ "alloy_plate", 4 ] ],
+      [ [ "alloy_sheet", 4 ] ],
+      [ [ "hard_steel_armor", 2 ] ]
+    ]
   },
   {
     "result": "mil_armor",
@@ -1939,7 +1971,7 @@
     "skill_used": "fabrication",
     "difficulty": 7,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "kevlar_plate", 50 ] ], [ [ "hard_steel_armor", 5 ] ] ]
+    "components": [ [ [ "kevlar_plate", 50 ] ], [ [ "alloy_plate", 8 ] ], [ [ "hard_steel_armor", 4 ] ] ]
   },
   {
     "result": "flamethrower_surv",
@@ -2083,9 +2115,7 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
     "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
-    "qualities": [
-      { "id": "CUT", "level": 1 }
-    ]
+    "qualities": [ { "id": "CUT", "level": 1 } ]
   },
   {
     "type": "recipe",
