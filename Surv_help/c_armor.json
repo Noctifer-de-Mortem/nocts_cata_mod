@@ -345,7 +345,7 @@
     "coverage": 95,
     "encumbrance": 12,
     "warmth": 30,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "environmental_protection": 4,
     "flags": [ "STURDY", "NO_SALVAGE" ]
   },
@@ -389,7 +389,7 @@
     "coverage": 95,
     "encumbrance": 36,
     "warmth": 30,
-    "material_thickness": 9,
+    "material_thickness": 10,
     "environmental_protection": 4,
     "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE" ]
   },
