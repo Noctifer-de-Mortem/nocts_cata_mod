@@ -345,7 +345,7 @@
     "coverage": 95,
     "encumbrance": 12,
     "warmth": 30,
-    "material_thickness": 5,
+    "material_thickness": 4,
     "environmental_protection": 4,
     "flags": [ "STURDY", "NO_SALVAGE" ]
   },
