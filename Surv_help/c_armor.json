@@ -365,7 +365,7 @@
     "color": "dark_gray",
     "covers": [ "HEAD", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
     "coverage": 95,
-    "encumbrance": 25,
+    "encumbrance": 24,
     "warmth": 40,
     "material_thickness": 8,
     "environmental_protection": 4,
