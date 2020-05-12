@@ -17,7 +17,6 @@
       { "skill": "rifle", "bonus": { "rng": [ 0, 3 ] } },
       { "skill": "archery", "bonus": { "rng": [ 0, 3 ] } }
     ],
-    "//": "Weapon is empty group to workaround difficulty pairing weapons and ammo via overrides.",
     "worn_override": "NC_PREPPER_worn",
     "carry_override": "NC_PREPPER_carry",
     "weapon_override": "EMPTY_GROUP",
@@ -399,9 +398,8 @@
     "worn_override": "NC_BIO_HUNTER_E_worn",
     "carry_override": "NC_BIO_HUNTER_E_carry",
     "weapon_override": "NC_BIO_HUNTER_E_weapon",
-    "//": "Add green eyes if it becomes available in vanilla.",
+    "//": "Add green eyes if it becomes available in vanilla.  CBM setup is a balanced setup mixing Super Scout and Bio-Engineer, as much as is NPC-usable",
     "traits": [ [ "hair_red_long", 100 ], [ "SKIN_LIGHT", 100 ], [ "BGSS_BHunter", 100 ], [ "SUPER_SOLDIER_MARKER", 100 ] ],
-    "//": "CBM setup is a balanced setup mixing Super Scout and Bio-Engineer, as much as is NPC-usable.",
     "bionics": [
       { "id": "bio_torsionratchet", "chance": 100 },
       { "id": "bio_power_storage_mkII", "chance": 100 },
