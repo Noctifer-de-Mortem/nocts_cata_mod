@@ -492,11 +492,11 @@
         { "group": "bionics_sci", "x": 20, "y": [ 3, 7 ], "chance": 75, "repeat": 5 },
         { "item": "cbm_rtg_inductor", "x": 20, "y": [ 3, 7 ] },
         { "item": "anesthetic_kit", "x": [ 7, 8 ], "y": 4, "chance": 75, "repeat": 2 },
-        { "group": "map_extra_military", "x": 8, "y": 11, "chance": 95 },
-        { "group": "map_extra_military", "x": 12, "y": 9, "chance": 95 },
-        { "group": "map_extra_military", "x": 4, "y": 12, "chance": 95 },
-        { "group": "map_extra_military", "x": 7, "y": 17, "chance": 95 },
-        { "group": "map_extra_military", "x": 12, "y": 22, "chance": 95 }
+        { "group": "remains_soldier", "x": 8, "y": 11, "chance": 95 },
+        { "group": "remains_soldier", "x": 12, "y": 9, "chance": 95 },
+        { "group": "remains_soldier", "x": 4, "y": 12, "chance": 95 },
+        { "group": "remains_soldier", "x": 7, "y": 17, "chance": 95 },
+        { "group": "remains_soldier", "x": 12, "y": 22, "chance": 95 }
       ],
       "place_fields": [
         { "field": "fd_blood", "x": 8, "y": 11 },
