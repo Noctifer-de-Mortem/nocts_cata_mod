@@ -21,7 +21,7 @@
     "copy-from": "laser_rifle",
     "type": "GUN",
     "name": { "str": "A7 laser rifle" },
-    "relative": { "ranged_damage": { "damage_type": "heat", "armor_penetration": -10 } },
+    "relative": { "ranged_damage": { "damage_type": "stab", "armor_penetration": -10 } },
     "dispersion": 0,
     "ups_charges": 25
   },
@@ -30,13 +30,13 @@
     "copy-from": "v29_cheap",
     "type": "GUN",
     "name": { "str": "homemade laser pistol" },
-    "relative": { "ranged_damage": { "damage_type": "heat", "armor_penetration": -13 } }
+    "relative": { "ranged_damage": { "damage_type": "stab", "armor_penetration": -13 } }
   },
   {
     "id": "v29",
     "copy-from": "v29",
     "type": "GUN",
     "name": { "str": "V29 laser pistol" },
-    "relative": { "ranged_damage": { "damage_type": "heat", "armor_penetration": -5 } }
+    "relative": { "ranged_damage": { "damage_type": "stab", "armor_penetration": -5 } }
   }
 ]
