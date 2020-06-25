@@ -35,7 +35,7 @@
       [ [ "bandana", 1 ] ],
       [ [ "ear_plugs", 1 ] ],
       [ [ "paper", 1 ] ],
-      [ [ "can_food_unsealed", 2 ] ]
+      [ [ "can_food", 2 ] ]
     ],
     "flags": [ "BLIND_EASY" ]
   },
@@ -55,8 +55,8 @@
       [
         [ "metal_tank_little", 1 ],
         [ "sheet_metal_small", 4 ],
-        [ "can_food_unsealed", 6 ],
-        [ "can_drink_unsealed", 6 ],
+        [ "can_food", 6 ],
+        [ "can_drink", 6 ],
         [ "scrap", 12 ]
       ],
       [ [ "clay_lump", 2 ], [ "pebble", 20 ], [ "material_limestone", 100 ], [ "material_sand", 100 ] ],
@@ -150,10 +150,10 @@
     "tools": [
       [ [ "surface_heat", 10, "LIST" ] ],
       [
-        [ "can_food_unsealed", -1 ],
+        [ "can_food", -1 ],
         [ "canister_empty", -1 ],
         [ "tinderbox", -1 ],
-        [ "can_drink_unsealed", -1 ],
+        [ "can_drink", -1 ],
         [ "clay_canister", -1 ]
       ]
     ],
