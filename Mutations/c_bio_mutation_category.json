@@ -1,9 +1,8 @@
 [
   {
     "type": "mutation_category",
-    "id": "mutation_bio_weapon",
+    "id": "BIO-WEAPON",
     "name": "Bio-Weapon",
-    "category": "BIO-WEAPON",
     "threshold_mut": "THRESH_BIO-WEAPON",
     "mutagen_message": "This is a bug, report to Noctifer if you see this.",
     "iv_message": "This is a bug, report to Noctifer if you see this.",

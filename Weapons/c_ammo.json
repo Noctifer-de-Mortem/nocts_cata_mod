@@ -14,7 +14,7 @@
   {
     "id": "c_hydrogen_gas",
     "type": "AMMO",
-    "name": { "str": "hydrogen gas", "str_pl": "hydrogen gas" },
+    "name": { "str_sp": "hydrogen gas" },
     "category": "chems",
     "description": "A light, flammable gas compressed for use as fuel.  Quite energy dense, but also requiring a lot of energy to produce, even moreso without pre-cataclysm industry.",
     "weight": "1438 mg",

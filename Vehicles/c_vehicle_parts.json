@@ -33,7 +33,7 @@
     "id": "surv_station",
     "//": "Actual item",
     "name": "survivor's station",
-    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit. Has no cargo space due to all the components it is made out of.",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Has no cargo space due to all the components it is made out of.",
     "weight": 123134,
     "to_hit": -2,
     "color": "light_red",
@@ -58,7 +58,6 @@
     "item": "surv_station",
     "difficulty": 6,
     "location": "center",
-    "tools": [ "hotplate", "pot", "welder", "soldering_iron", "vac_sealer", "dehydrator", "press", "chemistry_set", "forge" ],
     "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 30, 40 ] },

@@ -43,7 +43,7 @@
     "id": "Bio_Weapon_Lab",
     "//": "This versions is for the super soldier start, places them in the outdoors section.",
     "name": "Bio Weapon Lab",
-    "terrain": [ "Bio_Weapon_Lab" ],
+    "terrain": [ "Bio_Weapon_Lab_1" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   },
   {

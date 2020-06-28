@@ -70,13 +70,14 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] }
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_smg",
@@ -105,14 +106,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_rifle",
@@ -141,14 +143,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_lmg",
@@ -177,14 +180,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "flesh_shotgun",
@@ -192,10 +196,21 @@
     "symbol": "(",
     "color": "red",
     "name": { "str": "biological scattergun" },
-    "description": "A double barreled shotgun made out of fleshy material enclosed by metal that seems to run off UPS charges.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.   Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A double barreled shotgun made out of fleshy material enclosed by metal that seems to run off UPS charges.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": 580000,
     "material": [ "flesh", "superalloy" ],
-    "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "TANGLE", "LARGE_BEANBAG", "STREAM_BIG", "WIDE" ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "INCENDIARY",
+      "MUZZLE_SMOKE",
+      "PLASMA",
+      "BLINDS_EYES",
+      "FLAME",
+      "TANGLE",
+      "LARGE_BEANBAG",
+      "STREAM_BIG",
+      "WIDE"
+    ],
     "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "3850 g",
@@ -213,14 +228,15 @@
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
-        { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ] },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] } 
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+        },
+        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
       ]
     },
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ],
-      "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ]
-    }
+    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
   },
   {
     "id": "sur_pnu_lmg",
@@ -318,14 +334,15 @@
     "reload": 0,
     "loudness": 16,
     "use_action": "HAND_CRANK",
-    "magazine_well": "150 ml",
-    "magazines": [
-      [
-        "battery",
-        [
-          "rifle_crank_battery_cell"
-        ]
-      ]
+    "pocket_data": [
+      {
+        "magazine_well": "150 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "rifle_crank_battery_cell" ]
+      }
     ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -353,18 +370,23 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_50", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": "battery",
-    "magazine_well": "50 ml",
-    "magazines": [
-      [
-        "battery",
-        [
-          "light_battery_cell",
+    "pocket_data": [
+      {
+        "magazine_well": "50 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
           "light_plus_battery_cell",
           "light_minus_battery_cell",
-          "light_disposable_cell",
-          "light_minus_disposable_cell"
+          "light_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
         ]
-      ]
+      }
     ],
     "skill": "pistol",
     "ranged_damage": { "damage_type": "electric", "amount": 4 },
@@ -392,7 +414,16 @@
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "FIRE_100", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": "battery",
-    "magazine_well": "300 ml",
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ],
     "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_disposable_cell" ] ] ],
     "skill": "rifle",
     "ranged_damage": { "damage_type": "electric", "amount": 8 },
@@ -436,8 +467,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 100,
     "loudness": 50,
-    "magazine_well": "250 ml",
-    "magazines": [ [ "223", [ "surv_223_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_223_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -479,8 +518,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
     "reload": 100,
     "loudness": 60,
-    "magazine_well": "100 ml",
-    "magazines": [ [ "22", [ "surv_22_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_22_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -518,8 +565,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
     "reload": 100,
     "loudness": 60,
-    "magazine_well": "100 ml",
-    "magazines": [ [ "9mm", [ "surv_9mm_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_9mm_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -557,8 +612,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 8 ] ],
     "reload": 100,
     "loudness": 60,
-    "magazine_well": "100 ml",
-    "magazines": [ [ "45", [ "surv_45_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "100 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_45_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -596,8 +659,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 100,
     "loudness": 50,
-    "magazine_well": "250 ml",
-    "magazines": [ [ "308", [ "surv_308_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_308_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -639,8 +710,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 100,
     "loudness": 50,
-    "magazine_well": "250 ml",
-    "magazines": [ [ "762", [ "surv_762_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_762_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -683,8 +762,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 100,
     "loudness": 80,
-    "magazine_well": "250 ml",
-    "magazines": [ [ "762R", [ "surv_762R_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_762R_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -726,8 +813,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 100,
     "loudness": 160,
-    "magazine_well": "450 ml",
-    "magazines": [ [ "shot", [ "surv_12_mag" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "450 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_12_mag" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -768,7 +863,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
     "reload": 100,
     "loudness": 80,
-    "magazines": [ [ "308", [ "surv_belt_308" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "25 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_belt_308" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -811,7 +915,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
     "reload": 100,
     "loudness": 80,
-    "magazines": [ [ "762", [ "surv_belt_762" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "25 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_belt_762" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -854,7 +967,16 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 10 ] ],
     "reload": 100,
     "loudness": 80,
-    "magazines": [ [ "223", [ "surv_belt_223" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "25 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_belt_223" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -896,7 +1018,16 @@
     "durability": 6,
     "reload": 100,
     "loudness": 100,
-    "magazines": [ [ "762R", [ "surv_belt_762R" ] ] ],
+    "pocket_data": [
+      {
+        "magazine_well": "25 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_belt_762R" ]
+      }
+    ],
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
@@ -942,6 +1073,7 @@
     "dispersion": 1250,
     "durability": 6,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 1 } } ],
     "use_action": { "type": "transform", "msg": "You collapse the fighting bow into its takedown form.", "target": "survbowstored" }
   },
   {
@@ -965,6 +1097,7 @@
     "durability": 6,
     "blackpowder_tolerance": 80,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flintlock": 1 } } ],
     "reload": 600,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -1015,8 +1148,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "50 ml",
-    "magazines": [ [ "battery", [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "50 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "neo_laser_pistol_ups",
@@ -1091,8 +1232,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "50 ml",
-    "magazines": [ [ "battery", [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "50 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "akro_laser_smg_ups",
@@ -1169,8 +1318,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "arc_laser_rifle_ups",
@@ -1245,8 +1402,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "600 ml",
-    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "600 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "heavy_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "krx_laser_lmg_ups",
@@ -1320,8 +1485,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "mx_laser_sniper_ups",
@@ -1398,8 +1571,16 @@
       [ "emitter", 1 ],
       [ "lens", 1 ]
     ],
-    "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_atomic_battery_cell" ]
+      }
+    ]
   },
   {
     "id": "xarm_laser_shotgun_ups",
@@ -1464,6 +1645,7 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ] ],
     "clip_size": 12,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 12 } } ],
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -1501,6 +1683,7 @@
     "loudness": 25,
     "durability": 10,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 1 } } ],
     "reload": 1000,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
@@ -1525,6 +1708,13 @@
     "dispersion": 450,
     "durability": 7,
     "clip_size": 1500,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "diesel": 1500, "gasoline": 1500, "flammable": 1500, "lamp_oil": 1500, "motor_oil": 1500, "jp8": 1500, "avgas": 1500 }
+      }
+    ],
     "reload": 2000,
     "valid_mod_locations": [
       [ "accessories", 1 ],
