@@ -13,7 +13,7 @@
       "skill": "melee",
       "required_level": 6,
       "chapters": 5,
-      "use_action": "MA_MANUAL"
+      "martial_art": "style_surv_com"
     }
   },
   {
@@ -30,7 +30,7 @@
       "skill": "melee",
       "required_level": 5,
       "chapters": 3,
-      "use_action": "MA_MANUAL"
+      "martial_art": "style_biojutsu"
     }
   }
 ]

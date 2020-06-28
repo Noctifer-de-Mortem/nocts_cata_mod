@@ -98,7 +98,9 @@
         "items": [ "surv_lmg_223", "surv_belt_223", "reloaded_223", "reloaded_223", "reloaded_223" ]
       },
       { "x": -6, "y": 0, "chance": 99, "items": [ "goggles_welding" ] },
-      { "x": -4, "y": 0, "chance": 75, "item_groups": [ "stash_food" ], "repeat": [ 1, 5 ] }
+      { "x": -4, "y": 0, "chance": 75, "item_groups": [ "stash_food" ] },
+      { "x": -4, "y": 0, "chance": 50, "item_groups": [ "stash_food" ] },
+      { "x": -4, "y": 0, "chance": 25, "item_groups": [ "stash_food" ] }
     ]
   },
   {

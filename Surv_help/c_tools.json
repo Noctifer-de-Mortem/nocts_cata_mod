@@ -152,7 +152,7 @@
     "type": "TOOL",
     "symbol": ";",
     "color": "dark_gray",
-    "name": { "str": "survivor's tazer dual blades", "str_pl": "survivor's tazer dual blades" },
+    "name": { "str_sp": "survivor's tazer dual blades" },
     "description": "Two makeshift blades with knuckle guards that double as a tazer.  Has a wrap on the handle to prevent self shock.",
     "price": 36000,
     "material": [ "steel", "plastic" ],
@@ -296,7 +296,7 @@
     "volume": "2 L",
     "bashing": 8,
     "to_hit": -1,
-    "container_data": { "contains": 8, "watertight": true },
+    "pocket_data": [ { "max_contains_volume": "2 L", "max_contains_weight": "2 kg", "watertight": true, "rigid": true } ],
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
     "use_action": "HEAT_FOOD",
     "//": "In the unlikely event some lunatic mistakes this for the frying pan of doom.",
@@ -496,7 +496,7 @@
     "type": "GENERIC",
     "symbol": ";",
     "color": "blue",
-    "name": { "str": "Bugout Location Directions", "str_pl": "Bugout Location Directions" },
+    "name": { "str_sp": "Bugout Location Directions" },
     "description": "A map and set of directions, leading to somebody's rendezvous point.  The name scribbled in one corner seems faintly familiar.",
     "material": "paper",
     "weight": "30 g",
@@ -702,7 +702,7 @@
       "type": "reveal_map",
       "radius": 180,
       "terrain": [ "Unknown_Lab_1", "Unknown_Lab_2", "Unknown_Lab_3", "Unknown_Lab_4" ],
-      "message": "You read the map.  You gulp and realize what must be done..."
+      "message": "You read the map.  You gulp and realize what must be done…"
     }
   },
   {
@@ -831,7 +831,7 @@
     "color": "red",
     "name": { "str": "biological weapon conversion kit" },
     "category": "other",
-    "description": "A suspicious box containing many parts, tools and... flesh?  A manual inside the box, giving minimal information on how to use the contents of the box.  It says to see the introductory information packet for more information, whatever that may be.",
+    "description": "A suspicious box containing many parts, tools and… flesh?  A manual inside the box, giving minimal information on how to use the contents of the box.  It says to see the introductory information packet for more information, whatever that may be.",
     "price": 503500,
     "weight": "10958 g",
     "volume": "3 L",

@@ -55,7 +55,7 @@
     "type": "TOOL",
     "id": "unbio_claws_weapon",
     "category": "weapons",
-    "name": { "str": "bionic claw knuckles", "str_pl": "bionic claw knuckles" },
+    "name": { "str_sp": "bionic claw knuckles" },
     "description": "Short and sharp claws made from a high-tech metal welded to metal knuckles.  Lightweight and fast, wielding them feels as if you were bare-handed.",
     "weight": "200 g",
     "to_hit": 3,

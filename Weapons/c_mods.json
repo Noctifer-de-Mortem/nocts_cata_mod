@@ -125,7 +125,7 @@
     "location": "sights",
     "sight_dispersion": 20,
     "aim_speed": 7,
-    "description": "A sight made for maximum target acquisition. It is composed of a small makeshift red dot sight that emits a laser beam at what it targets. The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.",
+    "description": "A sight made for maximum target acquisition.  It is composed of a small makeshift red dot sight that emits a laser beam at what it targets.  The reticle in the sight allows proper aiming while the laser beam allows for quick target aim.",
     "weight": "150 g",
     "to_hit": -1,
     "color": "dark_gray",

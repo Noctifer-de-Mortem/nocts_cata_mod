@@ -2,7 +2,7 @@
   {
     "type": "npc",
     "id": "bff",
-    "comment": "Your best friend found in the survivor's holdout.",
+    "//": "Your best friend found in the survivor's holdout.",
     "name_suffix": "Best Friend",
     "gender": "male",
     "class": "NC_SCAVENGER",
@@ -14,7 +14,7 @@
   {
     "type": "npc",
     "id": "survn",
-    "comment": "Static encampment NPCs",
+    "//": "Static encampment NPCs",
     "name_suffix": "Prepper",
     "class": "NC_PREPPER",
     "attitude": 0,
@@ -25,7 +25,7 @@
   {
     "type": "npc",
     "id": "survn_special",
-    "comment": "Use as a random NPC encounter",
+    "//": "Use as a random NPC encounter",
     "name_suffix": "Prepper",
     "class": "NC_PREPPER",
     "attitude": 1,
@@ -36,7 +36,7 @@
   {
     "type": "npc",
     "id": "bio_hunter",
-    "comment": "Appears in the in Bio-Weapon Lab to aid you.",
+    "//": "Appears in the in Bio-Weapon Lab to aid you.",
     "name_unique": "Evelynn Rose",
     "name_suffix": "Bio Hunter",
     "gender": "female",
@@ -50,7 +50,7 @@
   {
     "type": "npc",
     "id": "main_bio_sci",
-    "comment": "Main scientists in makeshift center.",
+    "//": "Main scientists in makeshift center.",
     "name_unique": "Router",
     "name_suffix": "Center Leader",
     "gender": "male",
@@ -64,7 +64,7 @@
   {
     "type": "npc",
     "id": "bio_weapon_1",
-    "comment": "One of the Bio-Weapons",
+    "//": "One of the Bio-Weapons",
     "name_unique": "Sigma",
     "name_suffix": "Bio Weapon",
     "gender": "male",
@@ -77,7 +77,7 @@
   {
     "type": "npc",
     "id": "bio_weapon_2",
-    "comment": "One of the Bio-Weapons",
+    "//": "One of the Bio-Weapons",
     "name_unique": "Lambda",
     "name_suffix": "Bio Weapon",
     "gender": "female",
@@ -90,7 +90,7 @@
   {
     "type": "npc",
     "id": "cmnd_guard_1",
-    "comment": "One of the Guards in the Command Center.",
+    "//": "One of the Guards in the Command Center.",
     "name_suffix": "Super Soldier",
     "gender": "female",
     "class": "NC_SUPER_SOLDIER",
@@ -102,7 +102,7 @@
   {
     "type": "npc",
     "id": "cmnd_guard_2",
-    "comment": "One of the Guards in the Command Center.",
+    "//": "One of the Guards in the Command Center.",
     "name_suffix": "Super Soldier",
     "gender": "male",
     "class": "NC_SUPER_SOLDIER",
@@ -114,7 +114,7 @@
   {
     "type": "npc",
     "id": "slave_fight",
-    "comment": "Npc in underground fighting.",
+    "//": "Npc in underground fighting.",
     "name_suffix": "Red Team Slave Fighter",
     "class": "NC_SLAVE_FIGHTER_RED",
     "attitude": 0,
@@ -125,7 +125,7 @@
   {
     "type": "npc",
     "id": "slave_fight_ally",
-    "comment": "Npc in underground fighting, on your side.",
+    "//": "Npc in underground fighting, on your side.",
     "name_suffix": "Blue Team Slave Fighter",
     "class": "NC_SLAVE_FIGHTER_BLUE",
     "attitude": 0,
