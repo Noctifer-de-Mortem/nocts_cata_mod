@@ -219,7 +219,8 @@
       { "level": 3, "name": "swimming" },
       { "level": 3, "name": "computer" },
       { "level": 3, "name": "barter" },
-      { "level": 3, "name": "speech" }
+      { "level": 3, "name": "speech" },
+      { "level": 3, "name": "lockpick" }
     ],
     "CBMs": [
       "bio_atomic_battery",
@@ -451,7 +452,6 @@
           "rucksack",
           "dump_pouch",
           "2lcanteen",
-          "mil_mess_kit",
           "e_tool",
           "mre_beef_box",
           "militarymap",
@@ -459,6 +459,7 @@
           "rollmat"
         ],
         "entries": [
+          { "item": "medium_plus_battery_cell", "ammo-item": "battery", "charges": 600, "container-item": "mil_mess_kit" },
           { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }
@@ -496,7 +497,7 @@
     "skills": [
       { "level": 5, "name": "electronics" },
       { "level": 5, "name": "mechanics" },
-      { "level": 5, "name": "cooking" },
+      { "level": 5, "name": "chemistry" },
       { "level": 5, "name": "firstaid" },
       { "level": 5, "name": "fabrication" },
       { "level": 3, "name": "pistol" },
@@ -512,10 +513,10 @@
           "socks",
           "lmil_armor",
           "molle_pack",
-          "id_science",
-          "chemistry_set"
+          "id_science"
         ],
         "entries": [
+          { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 500, "container-item": "chemistry_set" },
           { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol_ups", "container-item": "holster" },
           { "item": "knife_combat", "container-item": "sheath" }

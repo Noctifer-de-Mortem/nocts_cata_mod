@@ -293,7 +293,7 @@
     "price": 200,
     "material": "iron",
     "weight": "1600 g",
-    "volume": "2 L",
+    "volume": "2005 ml",
     "bashing": 8,
     "to_hit": -1,
     "pocket_data": [ { "max_contains_volume": "2 L", "max_contains_weight": "2 kg", "watertight": true, "rigid": true } ],
