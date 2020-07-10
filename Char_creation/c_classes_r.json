@@ -19,26 +19,30 @@
     "points": 5,
     "skills": [ { "level": 3, "name": "rifle" }, { "level": 2, "name": "gun" }, { "level": 1, "name": "survival" } ],
     "items": {
-      "both": [
-        "socks",
-        "army_top",
-        "hat_boonie",
-        "wearable_light",
-        "balclava",
-        "binoculars",
-        "gloves_tactical",
-        "pants_army",
-        "boots_steel",
-        "jacket_army",
-        "molle_pack",
-        "canteen",
-        "scabbard",
-        "knife_rambo",
-        "ref_lighter",
-        "crowbar",
-        "mre_beef_box",
-        "mil_surp_pack_2"
-      ],
+      "both": {
+        "items": [
+          "socks",
+          "army_top",
+          "hat_boonie",
+          "wearable_light",
+          "balclava",
+          "binoculars",
+          "gloves_tactical",
+          "pants_army",
+          "boots_steel",
+          "jacket_army",
+          "molle_pack",
+          "canteen",
+          "crowbar",
+          "mre_beef_box",
+          "mil_surp_pack_2"
+        ],
+        "entries": [
+          { "item": "knife_rambo", "container-item": "scabbard" },
+          { "item": "light_disposable_cell", "ammo-item": "battery", "charges": 300, "container-item": "wearable_light" },
+          { "group": "charged_ref_lighter" }
+        ]
+      },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
