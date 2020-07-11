@@ -355,7 +355,7 @@
       [ "LUNGE", 20 ]
     ],
     "death_drops": "mon_zombie_bio_knife_death_drops",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1", "BLEED" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ],
     "delete": { "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" } }
   },
   {
