@@ -1,6 +1,6 @@
 # Expansion mod for Cataclysm: Dark Days Ahead
 
-**WARNING**!!!: This mod requires the experimental builds for it to work.
+**WARNING!!!** This mod requires the experimental builds for it to work.
 
 This is the gigantic jabberwock of a mod that adds a lot of content to the game. It adds new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.
 
