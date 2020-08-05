@@ -12,7 +12,7 @@ Good luck, Survivor!
 
 ## Downloads
 
-**Releases** - [0.D stable] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/v0.D) | [0.E stable] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/0.E) | [Experimental] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip)
+**Releases** - [0.D stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/v0.D) | [0.E stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/0.E) | [Experimental](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip)
 
 
 Feedback is welcome! Hope it's fun.
@@ -35,16 +35,16 @@ Unzip the the files in the zip of the name of the mod you use and leave them the
 
 #### "The zombie super scout (insert event where it killed your char)!"
 
-All of the super soldiers were recently rebalanced as shown [here.] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/pull/57)
+All of the super soldiers were recently rebalanced as shown [here.](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/pull/57)
 
 
 #### Why do you have books that level you up from 0-10? Isn't that a bit broken?
 
-I agree, which is why I changed it as shown [here.] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/pull/51)
+I agree, which is why I changed it as shown [here.](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/pull/51)
 
 ## Here is my github for this project
 
-[Github repo] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod)
+[Github repo](https://github.com/Noctifer-de-Mortem/nocts_cata_mod)
 
 Go here to comment and questions more directly and forward your own ideas and changes!
 PR contributions are welcome and encouraged.
@@ -53,7 +53,7 @@ PR contributions are welcome and encouraged.
 So you want to contribute to the game? Good to hear! Here is the general guideline.
 
 #### Suggestions
-If you want to add a suggestion, you can post it as an issue at [Github] (https://github.com/Noctifer-de-Mortem/nocts_cata_mod/issues) or in the [forum.] (https://discourse.cataclysmdda.org/t/cataclysm-mod/10523)
+If you want to add a suggestion, you can post it as an issue at [Github](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/issues) or in the [forum.](https://discourse.cataclysmdda.org/t/cataclysm-mod/10523)
 
 Suggestions can be anything that can be able to be done by messing with the JSON file and that does not go against the devs general wishes. If you don't know if your suggestion meets that criteria, ask anyway and we will let you know.
 
