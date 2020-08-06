@@ -90,5 +90,57 @@
     "flags": [ "SILENT" ],
     "message": "",
     "effect": "target_attack"
+  },
+  {
+    "type": "SPELL",
+    "id": "c_topographical_scan",
+    "effect": "map",
+    "name": { "str": "Topographical Scan" },
+    "description": "Reveals an area around you on the overmap.",
+    "valid_targets": [ "self" ],
+    "min_aoe": 12,
+    "max_aoe": 12,
+    "message": "You hold the scout's tool up, and what appears to be a bolt of plasma fires upwards like a flare, the device's display soon displaying information on the surrounding area.",
+    "base_casting_time": 100
+  },
+  {
+    "id": "c_biostim",
+    "type": "SPELL",
+    "name": { "str": "Biostim" },
+    "description": "Surge of adrenaline with side effects.  The effects granted will give adequate information, so no cast message.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "flags": [ "RANDOM_DURATION", "SILENT" ],
+    "min_duration": 90000,
+    "max_duration": 180000,
+    "effect": "target_attack",
+    "effect_str": "adrenaline",
+    "extra_effects": [ { "id": "c_biostim_side_effects", "hit_self": true }, { "id": "c_biostim_pain", "hit_self": true } ]
+  },
+  {
+    "id": "c_biostim_side_effects",
+    "type": "SPELL",
+    "name": { "str": "Biostim Side Effects" },
+    "description": "Primary side effect to Biostim.  Lasts an hour, and will escalate to a more dangerous effect if you escalate its intensity.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "min_duration": 360000,
+    "max_duration": 360000,
+    "effect": "target_attack",
+    "effect_str": "biostim_side_effects"
+  },
+  {
+    "type": "SPELL",
+    "id": "c_biostim_pain",
+    "name": { "str": "Biostim Pain" },
+    "description": "Similar to AEA_PAIN except message is suppressed.",
+    "valid_targets": [ "self" ],
+    "effect": "recover_energy",
+    "effect_str": "PAIN",
+    "flags": [ "RANDOM_DAMAGE", "SILENT" ],
+    "min_damage": -5,
+    "max_damage": -15,
+    "message": ""
   }
 ]
