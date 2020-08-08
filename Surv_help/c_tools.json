@@ -139,13 +139,22 @@
     "weight": "638 g",
     "volume": "1250 ml",
     "bashing": 8,
-    "cutting": 12,
+    "cutting": 6,
     "to_hit": -1,
     "charges_per_use": 100,
     "ammo": [ "battery" ],
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell" ] ] ],
     "category": "weapons",
-    "use_action": "TAZER"
+    "use_action": "TAZER",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "rigid": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ]
   },
   {
     "id": "elc_blds",
@@ -160,14 +169,23 @@
     "weight": "1276 g",
     "volume": "2500 ml",
     "bashing": 16,
-    "cutting": 24,
+    "cutting": 12,
     "to_hit": -1,
     "//": "Tazer use action can't really be tweaked to justify power consumption changing, since no dual-tazing.  Plus, battery amounts mean keeping it an even 100 is sanest.",
     "charges_per_use": 100,
     "ammo": [ "battery" ],
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell" ] ] ],
     "category": "weapons",
-    "use_action": "TAZER"
+    "use_action": "TAZER",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "rigid": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ]
   },
   {
     "id": "can_forge",
