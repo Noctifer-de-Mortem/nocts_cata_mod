@@ -1098,9 +1098,10 @@
     "name": { "str": "printed note" },
     "snippet_category": "note_apophis",
     "description": "A scrap of paper.  Something's been printed on it.",
-    "material": "paper",
+    "material": [ "paper" ],
     "flags": "TRADER_AVOID",
-    "weight": 3
+    "weight": "3 g",
+    "volume": "1 ml"
   },
   {
     "type": "GENERIC",
@@ -1112,8 +1113,9 @@
     "name": { "str": "folded note" },
     "snippet_category": "note_sketchy_cabin",
     "description": "A scrap of paper, hastily folded up.  Something's been scribbled on it.",
-    "material": "paper",
+    "material": [ "paper" ],
     "flags": "TRADER_AVOID",
-    "weight": 3
+    "weight": "3 g",
+    "volume": "1 ml"
   }
 ]

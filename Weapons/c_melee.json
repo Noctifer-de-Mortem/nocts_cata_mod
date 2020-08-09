@@ -32,7 +32,7 @@
     "name": { "str": "monomolecular sword" },
     "category": "weapons",
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.  A welded metal handle and handguard allow you to hold it without slicing your hand open.",
-    "weight": "250 g",
+    "weight": "450 g",
     "volume": "2500 ml",
     "longest_side": "91 cm",
     "price": 420000,

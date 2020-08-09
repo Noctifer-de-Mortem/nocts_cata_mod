@@ -196,7 +196,7 @@
         "~": "t_sewage",
         "$": "t_recycler",
         "&": "t_floor",
-        "6": "t_console_broken",
+        "6": "t_floor",
         "B": "t_floor",
         "C": "t_floor",
         "F": "t_floor",
@@ -216,6 +216,7 @@
       "furniture": {
         "]": "f_bookcase",
         "&": "f_arc_furnace",
+        "6": "f_console_broken",
         "B": "f_bed",
         "C": "f_counter",
         "F": "f_fridge",
@@ -304,7 +305,7 @@
         "-": "t_bars",
         "]": "t_thconc_floor",
         "<": "t_stairs_up",
-        "6": "t_console_broken",
+        "6": "t_floor",
         "B": "t_floor",
         "S": "t_floor",
         "T": "t_floor",
@@ -319,6 +320,7 @@
         "u": "t_thconc_floor_olight"
       },
       "furniture": {
+        "6": "f_console_broken",
         "B": "f_bed",
         "F": "f_fridge",
         "T": "f_toilet",
