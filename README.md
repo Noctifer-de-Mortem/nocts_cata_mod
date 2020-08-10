@@ -1,7 +1,5 @@
 # Expansion mod for Cataclysm: Dark Days Ahead
 
-**WARNING!!!** This mod requires the experimental builds for it to work.
-
 This is the gigantic jabberwock of a mod that adds a lot of content to the game. It adds new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.
 
 The **Bio-Weapon**, **Super Soldier**, **Commandeers**, **Slave Fighters** and the **Old World Prepper** NPC factions join the world.
@@ -14,6 +12,7 @@ Good luck, Survivor!
 
 **Releases** - [0.D stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/v0.D) | [0.E stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/0.E) | [Experimental](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip)
 
+Launcher users are advised to update this mod via deleting and re-installing in the launcher's mods section after updating their game, as the `update game` function does not touch third-party mods.
 
 Feedback is welcome! Hope it's fun.
 
@@ -25,13 +24,7 @@ Feedback is welcome! Hope it's fun.
 * **pisskop** - Maintain the mod in my absence and help make our mods compatible.
 * **Zetsukaze** - Providing some of the code for the hair mod patch.
 
-**Warning: Spoilers Ahead!**
-
 ## Frequently Asked Questions
-
-#### What do I do with the patches?
-
-Unzip the the files in the zip of the name of the mod you use and leave them there. No need to delete the zip file as long as the files inside are in the folder too.
 
 #### "The zombie super scout (insert event where it killed your char)!"
 
@@ -66,7 +59,9 @@ You can do with this mod whatever you want. You can altered it, distribute it, s
 #### Github Rules
 For starters, go to the issues page and if you would like to work on a specific issue, assign it to yourself. This way we can keep track of who is working on what. If you want PR something that has nothing to do with any issue, just make the PR and await review. Milestone will be made to have a goal to work towards; if you have the skill to work towards one, go for it. Before making a PR, make a world using the latest game experimental and only this mod and see if everything works, if it does, make the PR.
 
-## To do
+# Warning: Spoilers Ahead!
+
+#### To do
 * Include all new content
 * Include all overrides
 * Write a bit of lore
