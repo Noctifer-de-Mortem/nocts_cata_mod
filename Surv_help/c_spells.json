@@ -142,5 +142,40 @@
     "min_damage": -5,
     "max_damage": -15,
     "message": ""
+  },
+  {
+    "id": "c_infusion",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyzed Infusion" },
+    "description": "Creates a bio-ampoule filled with mutagen, adds additional side effects.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "mutagenic_ampoule",
+    "//": "Reuses the pain effect Biostim calls for.",
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true } ],
+    "min_duration": 1,
+    "max_duration": 1,
+    "energy_source": "HP",
+    "base_energy_cost": 10,
+    "final_energy_cost": 10
+  },
+  {
+    "id": "c_defusion",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyzed Defusion" },
+    "description": "Creates a bio-ampoule filled with purifer, adds additional side effects.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "purified_ampoule",
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true } ],
+    "min_duration": 1,
+    "max_duration": 1,
+    "energy_source": "HP",
+    "base_energy_cost": 10,
+    "final_energy_cost": 10
   }
 ]
