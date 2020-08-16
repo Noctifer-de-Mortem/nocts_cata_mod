@@ -154,12 +154,21 @@
     "effect": "spawn_item",
     "effect_str": "mutagenic_ampoule",
     "//": "Reuses the pain effect Biostim calls for.",
-    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true } ],
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
     "min_duration": 1,
-    "max_duration": 1,
-    "energy_source": "HP",
-    "base_energy_cost": 10,
-    "final_energy_cost": 10
+    "max_duration": 1
+  },
+  {
+    "id": "c_hemo_damage",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyst Damage" },
+    "description": "Adds the damaging side effect to the infuser and defuser.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "target_attack",
+    "min_damage": 10,
+    "max_damage": 10
   },
   {
     "id": "c_defusion",
@@ -171,11 +180,8 @@
     "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
     "effect": "spawn_item",
     "effect_str": "purified_ampoule",
-    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true } ],
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
     "min_duration": 1,
-    "max_duration": 1,
-    "energy_source": "HP",
-    "base_energy_cost": 10,
-    "final_energy_cost": 10
+    "max_duration": 1
   }
 ]
