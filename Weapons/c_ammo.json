@@ -31,5 +31,17 @@
       "explosion_data": { "chance_hot": 2, "chance_cold": 2, "factor": 0.5, "fiery": true, "size_factor": 0.1 }
     },
     "flags": [ "NO_DROP", "IRREMOVABLE" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "c_bioampoule",
+    "category": "other",
+    "name": { "str": "bio-ampoule" },
+    "symbol": "=",
+    "color": "cyan",
+    "description": "A thin-walled capsule formed of strange resin filled with a strange liquid, used by exotic autoinjector mechanisms.",
+    "volume": "100 ml",
+    "weight": "1 g",
+    "ammo_type": "c_bioampoule_type"
   }
 ]
