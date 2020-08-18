@@ -472,7 +472,6 @@
         "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       }
     ],
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_disposable_cell" ] ] ],
     "skill": "rifle",
     "ranged_damage": { "damage_type": "electric", "amount": 8 },
     "range": 15,
