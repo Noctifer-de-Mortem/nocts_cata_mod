@@ -123,6 +123,7 @@
       [ "mk_ionic_cannon", 2 ],
       [ "megamap", 5 ],
       [ "stim", 5 ],
+      [ "boots_stealth", 3 ],
       [ "acs_74_stealth_cloak_on", 3 ],
       { "group": "ammo_atomic_batteries", "prob": 5 }
     ]
@@ -313,6 +314,7 @@
       [ "mk_ionic_cannon", 2 ],
       [ "megamap", 2 ],
       [ "stim", 5 ],
+      [ "boots_stealth", 2 ],
       [ "acs_74_stealth_cloak_on", 1 ],
       [ "goggles_nv_clairvoyance", 2 ],
       [ "flesh_knife", 2 ],
@@ -341,6 +343,7 @@
       [ "mk_ionic_cannon", 2 ],
       [ "megamap", 2 ],
       [ "stim", 2 ],
+      [ "boots_stealth", 2 ],
       [ "acs_74_stealth_cloak_on", 2 ],
       [ "goggles_nv_clairvoyance", 2 ],
       [ "blood_m", 1 ],

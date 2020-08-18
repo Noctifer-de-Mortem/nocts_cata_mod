@@ -55,8 +55,16 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "magazine_well": "250 ml",
-    "magazines": [ [ "22", [ "mosquitomag", "sw22mag", "wp22mag", "surv_22_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "mosquitomag", "sw22mag", "wp22mag", "surv_22_mag" ]
+      }
+    ]
   },
   {
     "type": "GUNMOD",
@@ -85,8 +93,16 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "magazine_well": "250 ml",
-    "magazines": [ [ "9mm", [ "glockmag", "glock17_17", "glock17_22", "glockbigmag", "m9mag", "m9bigmag", "usp9mag", "surv_9mm_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glockmag", "glock17_17", "glock17_22", "glockbigmag", "m9mag", "m9bigmag", "usp9mag", "surv_9mm_mag" ]
+      }
+    ]
   },
   {
     "type": "GUNMOD",
@@ -115,8 +131,16 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
-    "magazine_well": "250 ml",
-    "magazines": [ [ "45", [ "m1911mag", "m1911bigmag", "usp45mag", "surv_45_mag" ] ] ]
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "m1911mag", "m1911bigmag", "usp45mag", "surv_45_mag" ]
+      }
+    ]
   },
   {
     "type": "GUNMOD",
