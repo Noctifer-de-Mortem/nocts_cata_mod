@@ -73,11 +73,15 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
+          "values": [
+            { "value": "STRENGTH", "add": -2 },
+            { "value": "DEXTERITY", "add": -2 },
+            { "value": "PERCEPTION", "add": 4 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ]
         }
       ]
-    },
-    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
+    }
   },
   {
     "id": "flesh_smg",
@@ -109,12 +113,23 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
-        },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
+          "values": [
+            { "value": "STRENGTH", "add": -2 },
+            { "value": "DEXTERITY", "add": -2 },
+            { "value": "PERCEPTION", "add": 4 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "hit_me_effect": [
+            {
+              "id": "c_flesh_hit_effect",
+              "once_in": 3,
+              "message": "A surge of energy courses from your weapon, empowering you further!",
+              "npc_message": "A jolt of strange energy envelops %1$s!"
+            }
+          ]
+        }
       ]
-    },
-    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
+    }
   },
   {
     "id": "flesh_rifle",
@@ -146,12 +161,23 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
-        },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
+          "values": [
+            { "value": "STRENGTH", "add": -2 },
+            { "value": "DEXTERITY", "add": -2 },
+            { "value": "PERCEPTION", "add": 4 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "hit_me_effect": [
+            {
+              "id": "c_flesh_hit_effect",
+              "once_in": 3,
+              "message": "A surge of energy courses from your weapon, empowering you further!",
+              "npc_message": "A jolt of strange energy envelops %1$s!"
+            }
+          ]
+        }
       ]
-    },
-    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
+    }
   },
   {
     "id": "flesh_lmg",
@@ -183,12 +209,23 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
-        },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
+          "values": [
+            { "value": "STRENGTH", "add": -2 },
+            { "value": "DEXTERITY", "add": -2 },
+            { "value": "PERCEPTION", "add": 4 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "hit_me_effect": [
+            {
+              "id": "c_flesh_hit_effect",
+              "once_in": 3,
+              "message": "A surge of energy courses from your weapon, empowering you further!",
+              "npc_message": "A jolt of strange energy envelops %1$s!"
+            }
+          ]
+        }
       ]
-    },
-    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
+    }
   },
   {
     "id": "flesh_shotgun",
@@ -231,12 +268,23 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [ { "value": "PERCEPTION", "add": 4 }, { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 } ]
-        },
-        { "has": "WIELD", "condition": "ALWAYS", "hit_me_effect": [ { "id": "c_flesh_hit_effect_2" } ] }
+          "values": [
+            { "value": "STRENGTH", "add": -2 },
+            { "value": "DEXTERITY", "add": -2 },
+            { "value": "PERCEPTION", "add": 4 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "hit_me_effect": [
+            {
+              "id": "c_flesh_hit_effect",
+              "once_in": 3,
+              "message": "A surge of energy courses from your weapon, empowering you further!",
+              "npc_message": "A jolt of strange energy envelops %1$s!"
+            }
+          ]
+        }
       ]
-    },
-    "artifact_data": { "effects_carried": [ "AEP_SICK", "AEP_SCHIZO" ], "effects_wielded": [ "AEP_EVIL", "AEP_PSYSHIELD" ] }
+    }
   },
   {
     "id": "sur_pnu_lmg",

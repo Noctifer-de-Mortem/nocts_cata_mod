@@ -266,6 +266,50 @@
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
   },
   {
+    "type": "mutation",
+    "id": "C_MUTE_BOOTS",
+    "name": { "str": "Soundwave Disruption" },
+    "points": 99,
+    "valid": false,
+    "description": "Your equipment is actively eliminating the sounds of your footsteps.",
+    "player_display": false,
+    "noise_modifier": 0.0
+  },
+  {
+    "id": "boots_stealth",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "pair of mute boots", "str_pl": "pairs of mute boots" },
+    "description": "Experimental reinforced boots that completely silence your steps, but also slow your movement.",
+    "weight": "1280 g",
+    "volume": "2500 ml",
+    "price": 26000,
+    "to_hit": -1,
+    "bashing": 1,
+    "phase": "solid",
+    "material": [ "kevlar", "leather" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "foot_l", "foot_r" ],
+    "coverage": 100,
+    "encumbrance": 18,
+    "warmth": 25,
+    "material_thickness": 3,
+    "environmental_protection": 2,
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ] },
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "BOOTS" ]
+  },
+  {
+    "type": "mutation",
+    "id": "C_RADIOGENIC_GOGGLES",
+    "name": { "str": "Radiogenic Vision" },
+    "points": 99,
+    "valid": false,
+    "description": "You can currently see through walls.  The rads this thing is giving off probably isn't good for you, by the way.",
+    "player_display": false,
+    "flags": [ "CLAIRVOYANCE" ]
+  },
+  {
     "id": "goggles_nv_clairvoyance",
     "type": "TOOL_ARMOR",
     "name": { "str": "pair of radiogenic goggles", "str_pl": "pairs of radiogenic goggles" },
@@ -284,8 +328,8 @@
     "warmth": 10,
     "material_thickness": 4,
     "environmental_protection": 5,
-    "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE", "AEP_RADIOACTIVE", "AEP_GLOW" ] },
-    "flags": [ "GNV_EFFECT", "WATERPROOF", "STURDY" ]
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_RADIOGENIC_GOGGLES" ] } ] },
+    "flags": [ "GNV_EFFECT", "WATERPROOF", "STURDY", "RADIOACTIVE", "LIGHT_25" ]
   },
   {
     "id": "lmil_armor",

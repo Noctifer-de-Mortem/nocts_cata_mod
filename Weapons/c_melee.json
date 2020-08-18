@@ -92,9 +92,22 @@
     "to_hit": 3,
     "flags": [ "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "MAGIC_FOCUS", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
-    "artifact_data": {
-      "effects_carried": [ "AEP_SICK" ],
-      "effects_wielded": [ "AEP_SCHIZO", "AEP_SAP_LIFE" ]
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ],
+          "hit_you_effect": [
+            {
+              "id": "c_lifedrain_1",
+              "once_in": 10,
+              "message": "A strange mist covers %2$s in the wake of your swing.",
+              "npc_message": "A strange mist covers %2$s as %1$s swings at them."
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -102,7 +115,7 @@
     "id": "flesh_blade",
     "category": "weapons",
     "name": { "str": "biological sword" },
-    "description": "A yard-long sword of metal, enclosed in flesh and bone, including a protective hilt framed with tough sinews.  Grown from a smaller sample, holding it brings a strange sense of power beyond what it used to.  If \"fed\" properly it could be even deadlier, though you won't be able to let go of it until it runs out of power.",
+    "description": "A yard-long sword of metal, enclosed in flesh and bone, including a protective hilt framed with tough sinews.  Grown from a smaller sample, holding it brings a strange sense of power beyond what it used to.  It feels almost like a living being with a mind of its own, one that lusts for blood.",
     "weight": "680 g",
     "volume": "1500 ml",
     "longest_side": "91 cm",
@@ -114,65 +127,36 @@
     "bashing": 2,
     "cutting": 25,
     "to_hit": 2,
-    "max_charges": 10,
     "flags": [ "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "MAGIC_FOCUS", "SHEATH_SWORD" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
-    "use_action": [
-      "ARTIFACT",
-      {
-        "target": "flesh_blade_on",
-        "msg": "You feel a sense of decay and entropy, as the blade's flesh solidifies into living steel and envelops your hand.",
-        "active": true,
-        "need_wielding": true,
-        "need_charges": 1,
-        "need_charges_msg": "The blade twitches, failing to do anything.",
-        "menu_text": "Let the decay take hold",
-        "type": "transform"
-      }
-    ],
-    "artifact_data": {
-      "charge_type": "ARTC_HP",
-      "effects_carried": [ "AEP_SICK" ],
-      "effects_wielded": [ "AEP_SCHIZO", "AEP_SAP_LIFE" ]
-    }
-  },
-  {
-    "type": "TOOL",
-    "id": "flesh_blade_on",
-    "category": "weapons",
-    "name": { "str": "biological sword (active)", "str_pl": "biological swords (active)" },
-    "description": "You've activated the power of the blade.  Metal and flesh have wrapped around your hand and it won't let go.  An instinctive bloodlust lingers in the back of your mind, making it harder to focus on the thought of trying to deactivate it.",
-    "revert_to": "flesh_blade",
-    "revert_msg": "The blade loosens up and frees your grip.",
-    "weight": "680 g",
-    "volume": "1500 ml",
-    "longest_side": "91 cm",
-    "color": "red",
-    "symbol": "/",
-    "material": [ "flesh", "superalloy" ],
-    "techniques": [ "WBLOCK_2", "PRECISE", "BRUTAL" ],
-    "bashing": 2,
-    "cutting": 50,
-    "to_hit": 1,
-    "max_charges": 10,
-    "turns_per_charge": 5,
-    "flags": [ "UNBREAKABLE_MELEE", "NO_UNWIELD", "UNARMED_WEAPON", "MAGIC_FOCUS", "TRADER_AVOID" ],
     "relic_data": {
-      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "c_flesh_blade_hit_effect" } ] } ]
-    },
-    "artifact_data": {
-      "effects_wielded": [
-        "AEP_STR_UP",
-        "AEP_DEX_UP",
-        "AEP_SPEED_UP",
-        "AEP_ALL_DOWN",
-        "AEP_SICK",
-        "AEP_SCHIZO",
-        "AEP_SAP_LIFE",
-        "AEP_THIRST",
-        "AEP_HUNGER",
-        "AEP_EVIL",
-        "AEP_MUTAGENIC"
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 2 },
+            { "value": "DEXTERITY", "add": 2 },
+            { "value": "INTELLIGENCE", "add": -2 },
+            { "value": "PERCEPTION", "add": -2 },
+            { "value": "SPEED", "add": 20 }
+          ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT3", "KILLER", "PRED2", "HUNGER2", "CHAOTIC" ],
+          "hit_you_effect": [
+            {
+              "id": "c_lifedrain_1",
+              "once_in": 3,
+              "message": "A strange mist covers %2$s in the wake of your swing.",
+              "npc_message": "A strange mist covers %2$s as %1$s swings at them."
+            },
+            {
+              "id": "c_flesh_hit_effect",
+              "once_in": 3,
+              "message": "A surge of energy courses from your weapon, empowering you further!",
+              "npc_message": "A jolt of strange energy envelops %1$s!"
+            }
+          ]
+        }
       ]
     }
   }

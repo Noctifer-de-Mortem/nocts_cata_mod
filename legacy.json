@@ -137,6 +137,12 @@
     "name": "obsolete stealth cloak (on)"
   },
   {
+    "id": "flesh_blade_on",
+    "copy-from": "flesh_blade",
+    "type": "ARMOR",
+    "name": "obsolete biological sword (on)"
+  },
+  {
     "id": "can_forge_on",
     "type": "TOOL",
     "symbol": ";",
