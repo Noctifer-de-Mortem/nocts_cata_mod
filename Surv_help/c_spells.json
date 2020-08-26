@@ -138,7 +138,7 @@
     "effect": "target_attack",
     "min_damage": 10,
     "max_damage": 10,
-    "damage_type": "true"
+    "damage_type": "pure"
   },
   {
     "id": "c_defusion",
