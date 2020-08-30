@@ -38,42 +38,11 @@
     "max_duration": 1000
   },
   {
-    "type": "SPELL",
     "id": "c_flesh_hit_effect",
-    "name": { "str": "Biological Weapon Effect" },
-    "description": "This effect adds bleeding to target.",
-    "valid_targets": [ "hostile" ],
-    "message": "",
-    "effect_str": "bleed",
-    "min_duration": 100,
-    "max_duration": 1000,
-    "effect": "target_attack",
-    "flags": [ "RANDOM_DURATION" ],
-    "extra_effects": [ { "id": "c_flesh_hit_effect_2", "hit_self": true } ]
-  },
-  {
-    "type": "SPELL",
-    "id": "c_flesh_hit_effect_2",
-    "name": { "str": "Biological Weapon Wonder" },
-    "description": "One-third chance of applying a brief spike of adrenaline.",
-    "valid_targets": [ "self" ],
-    "message": "",
-    "effect": "none",
-    "flags": [ "WONDER", "SILENT" ],
-    "min_damage": 1,
-    "max_damage": 1,
-    "extra_effects": [
-      { "id": "c_dummy_effect" },
-      { "id": "c_dummy_effect" },
-      { "id": "c_flesh_hit_effect_3" }
-    ]
-  },
-  {
-    "id": "c_flesh_hit_effect_3",
     "type": "SPELL",
     "name": { "str": "Biological Weapon Adrenaline" },
     "message": "",
-    "description": "The actual adrenaline effect.  Keep the pressure up and you should be fine.",
+    "description": "Otherworldly adrenaline.  Keep the pressure up and you should be fine.",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "min_duration": 18500,
@@ -142,5 +111,72 @@
     "min_damage": -5,
     "max_damage": -15,
     "message": ""
+  },
+  {
+    "id": "c_infusion",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyzed Infusion" },
+    "description": "Creates a bio-ampoule filled with mutagen, adds additional side effects.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "mutagenic_ampoule",
+    "//": "Reuses the pain effect Biostim calls for.",
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "c_hemo_damage",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyst Damage" },
+    "description": "Adds the damaging side effect to the infuser and defuser.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "target_attack",
+    "min_damage": 10,
+    "max_damage": 10,
+    "damage_type": "pure"
+  },
+  {
+    "id": "c_defusion",
+    "type": "SPELL",
+    "name": { "str": "Hemocatalyzed Defusion" },
+    "description": "Creates a bio-ampoule filled with purifer, adds additional side effects.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS" ],
+    "effect": "spawn_item",
+    "effect_str": "purified_ampoule",
+    "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "type": "SPELL",
+    "id": "c_lifedrain_1",
+    "name": { "str": "Life Drain Shell" },
+    "description": "This exists only to trigger on-self effects from an on-hit action.",
+    "valid_targets": [ "hostile" ],
+    "message": "",
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "target_attack",
+    "flags": [ "SILENT" ],
+    "extra_effects": [ { "id": "c_lifedrain_2", "hit_self": true } ]
+  },
+  {
+    "id": "c_lifedrain_2",
+    "type": "SPELL",
+    "name": { "str": "Life Drain Effect" },
+    "description": "This creates the effect that heals the caster.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "min_damage": -2,
+    "max_damage": -5,
+    "flags": [ "RANDOM_DAMAGE", "SILENT" ]
   }
 ]

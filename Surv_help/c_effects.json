@@ -53,10 +53,9 @@
       "int_mod": [ -1 ],
       "per_mod": [ 1 ],
       "stamina_min": [ 5 ],
-      "stim_tick": [ 10 ],
+      "stim_tick": [ 25 ],
       "stim_chance": [ 10 ],
-      "stim_min": [ 1 ],
-      "stim_max": [ 3 ]
+      "stim_min": [ 1 ]
     },
     "scaling_mods": {
       "speed_mod": [ -5 ],
