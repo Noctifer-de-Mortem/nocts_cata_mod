@@ -109,7 +109,7 @@
     "name": "Experimental Soldier Start",
     "description": "You were part of a an advanced infantry unit, deployed to one of several 'priority sites' as part of a last-ditch effort to get the situation under control.  Delays and casualties led to you being the only one left by the time you reached the objective, and things aren't looking any better.",
     "ident": "experiment_soldier_start",
-    "points": -2,
+    "points": 2,
     "flags": [ "LONE_START", "CITY_START" ],
     "start_name": "Priority Site",
     "allowed_locs": [
