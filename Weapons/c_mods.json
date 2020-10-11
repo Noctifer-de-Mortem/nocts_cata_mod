@@ -25,6 +25,7 @@
       "clip_size": 250
     },
     "min_skills": [ [ "weapon", 2 ], [ "launcher", 1 ] ],
+    "install_time": "30 m",
     "flags": [ "FIRE_50", "STR_RELOAD", "PUMP_RAIL_COMPATIBLE", "NON-FOULING" ]
   },
   {
@@ -55,6 +56,7 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
+    "install_time": "20 m",
     "pocket_data": [
       {
         "magazine_well": "250 ml",
@@ -93,6 +95,7 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
+    "install_time": "20 m",
     "pocket_data": [
       {
         "magazine_well": "250 ml",
@@ -131,6 +134,7 @@
       "reload": 200
     },
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
+    "install_time": "20 m",
     "pocket_data": [
       {
         "magazine_well": "250 ml",
