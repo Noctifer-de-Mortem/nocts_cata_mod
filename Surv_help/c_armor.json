@@ -297,7 +297,7 @@
     "material_thickness": 3,
     "environmental_protection": 2,
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ] },
-    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "BOOTS" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
   },
   {
     "type": "mutation",
