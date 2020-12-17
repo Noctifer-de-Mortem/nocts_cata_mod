@@ -1,4 +1,4 @@
-# Expansion mod for Cataclysm: Dark Days Ahead
+# Expansion mod for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights
 
 This is the gigantic jabberwock of a mod that adds a lot of content to the game. It adds new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.
 
@@ -11,6 +11,8 @@ Good luck, Survivor!
 ## Downloads
 
 **Releases** - [0.D stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/v0.D) | [0.E stable](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/releases/tag/0.E) | [Experimental](https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip)
+
+If you are using Dark Days Ahead, place the included nocts_cata_mod_DDA folder in your data/mods folder. If you are using the Bright Nights fork, use the nocts_cata_mod_BN folder instead. In either case it is recommended that, if updating the mod, to delete the older version of the folder rather than just dumping the new one onto the old one.
 
 Launcher users are advised to update this mod via deleting and re-installing in the launcher's mods section after updating their game, as the `update game` function does not touch third-party mods.
 
