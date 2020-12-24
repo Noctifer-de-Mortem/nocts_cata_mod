@@ -16,13 +16,7 @@
           { "id": [ "xarm_laser_shotgun", "xarm_laser_shotgun_ups" ], "fg": 5 },
           { "id": "mk_ionic_cannon", "fg": 6 }
         ]
-      }
-    ]
-  },
-  {
-    "type": "mod_tileset",
-    "compatibility": [ "UltimateCataclysm", "UltimateCataclysmDemo" ],
-    "tiles-new": [
+      },
       {
         "file": "mod_tileset/Ultica_Expan_Tall.png",
         "sprite_width": 32,
@@ -50,13 +44,7 @@
           { "id": [ "overlay_wielded_xarm_laser_shotgun", "overlay_wielded_xarm_laser_shotgun_ups" ], "fg": 18 },
           { "id": "overlay_wielded_mk_ionic_cannon", "fg": 19 }
         ]
-      }
-    ]
-  },
-  {
-    "type": "mod_tileset",
-    "compatibility": [ "UltimateCataclysm", "UltimateCataclysmDemo" ],
-    "tiles-new": [
+      },
       {
         "file": "mod_tileset/Ultica_Expan_Huge.png",
         "sprite_width": 64,
