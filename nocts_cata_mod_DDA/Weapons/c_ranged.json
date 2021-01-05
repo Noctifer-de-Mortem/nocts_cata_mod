@@ -1783,6 +1783,6 @@
       [ "underbarrel mount", 1 ]
     ],
     "extend": { "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON-FOULING" ] },
-    "ammo_to_fire": 50,
+    "ammo_to_fire": 50
   }
 ]
