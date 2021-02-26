@@ -17,7 +17,7 @@
     "gun_data": {
       "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "motor_oil", "jp8", "avgas" ],
       "skill": "launcher",
-      "ranged_damage": { "damage_type": "stab", "amount": -1 },
+      "ranged_damage": { "damage_type": "heat", "amount": -1 },
       "dispersion": 600,
       "range": 2,
       "durability": 7,
