@@ -355,7 +355,17 @@
   {
     "id": "mut_lab",
     "type": "item_group",
-    "items": [ [ "biomap", 1 ] ]
+    "items": [ [ "biomap", 4 ], [ "iv_mutagen_super_soldier", 1 ] ]
+  },
+  {
+    "id": "mutagens",
+    "type": "item_group",
+    "items": [ [ "iv_mutagen_super_soldier", 1 ] ]
+  },
+  {
+    "id": "mut_iv",
+    "type": "item_group",
+    "items": [ [ "iv_mutagen_super_soldier", 1 ] ]
   },
   {
     "id": "traveler",
@@ -591,7 +601,7 @@
       [ "bio_carbon", 7 ],
       [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
-      [ "bio_night_vision", 1 ],
+      [ "bio_flashlight", 1 ],
       [ "bio_painkiller", 7 ],
       [ "bio_purifier", 7 ],
       [ "bio_shock", 6 ],
@@ -610,8 +620,6 @@
       [ "bio_armor_head", 6 ],
       [ "bio_armor_legs", 8 ],
       [ "bio_armor_torso", 6 ],
-      [ "bio_carbon", 7 ],
-      [ "bio_ears", 5 ],
       [ "bio_fuel_cell_gasoline", 3 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
@@ -632,12 +640,10 @@
     "items": [
       [ "bio_climate", 8 ],
       [ "bio_evap", 7 ],
-      [ "bio_eye_enhancer", 1 ],
       [ "bio_eye_optic", 6 ],
       [ "bio_lighter", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_night_vision", 1 ],
-      [ "bio_painkiller", 7 ],
       [ "bio_recycler", 5 ],
       [ "bio_targeting", 5 ],
       [ "bio_torsionratchet", 7 ],
@@ -655,10 +661,8 @@
       [ "bio_ears", 5 ],
       [ "bio_emp_armgun", 5 ],
       [ "bio_flashlight", 9 ],
-      [ "bio_int_enhancer", 1 ],
       [ "bio_memory", 2 ],
       [ "bio_nanobots", 5 ],
-      [ "bio_painkiller", 7 ],
       [ "bio_sunglasses", 7 ],
       [ "bio_tools", 5 ],
       [ "bio_ups", 8 ],
