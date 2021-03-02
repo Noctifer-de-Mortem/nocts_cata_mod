@@ -159,8 +159,8 @@
     "cancels": [ "PARKOUR", "BADKNEES" ],
     "changes_to": [ "SENTINEL_PERK_DEX_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "movecost_modifier": 0.75,
-    "attackcost_modifier": 0.875,
+    "movecost_modifier": 0.875,
+    "attackcost_modifier": 0.9375,
     "dodge_modifier": 1,
     "fatigue_modifier": 0.25,
     "armor": [ { "parts": "ALL", "electric": -1 } ]
@@ -179,8 +179,8 @@
     "changes_to": [ "SENTINEL_PERK_DEX_3" ],
     "prereqs": [ "SENTINEL_PERK_DEX" ],
     "category": [ "SUPER_SOLDIER" ],
-    "movecost_modifier": 0.5,
-    "attackcost_modifier": 0.75,
+    "movecost_modifier": 0.75,
+    "attackcost_modifier": 0.875,
     "dodge_modifier": 2,
     "fatigue_modifier": 0.5,
     "armor": [ { "parts": "ALL", "electric": -2 } ]
@@ -199,8 +199,8 @@
     "prereqs": [ "SENTINEL_PERK_DEX_2" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "movecost_modifier": 0.25,
-    "attackcost_modifier": 0.625,
+    "movecost_modifier": 0.5,
+    "attackcost_modifier": 0.75,
     "dodge_modifier": 4,
     "fatigue_modifier": 1.0,
     "armor": [ { "parts": "ALL", "electric": -4 } ]
