@@ -79,6 +79,8 @@
       "poison",
       "badpoison",
       "paralyzepoison",
+      "venom_dmg",
+      "venom_weaken",
       "relax_gas",
       "migo_atmosphere",
       "pkill1",
