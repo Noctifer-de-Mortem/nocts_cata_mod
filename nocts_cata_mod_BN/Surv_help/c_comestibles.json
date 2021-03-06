@@ -57,5 +57,16 @@
     "tool": "syringe",
     "flags": [ "NO_INGEST" ],
     "use_action": [ "PURIFIER" ]
+  },
+  {
+    "id": "iv_mutagen_super_soldier",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "nano-mutagenic serum" },
+    "description": "A experimental, super-concentrated cocktail of mutagen and nanomachines.  Vanishingly rare and potentially quite potent in effect.  You need a syringe to inject it… if you really want to?",
+    "price": 2000000,
+    "color": "red",
+    "healthy": -2,
+    "use_action": { "type": "mutagen_iv", "mutation_category": "SUPER_SOLDIER" }
   }
 ]
