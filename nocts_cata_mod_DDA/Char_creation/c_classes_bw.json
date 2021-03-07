@@ -403,6 +403,7 @@
         "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "molle_pack" ],
         "entries": [
           { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "knife_combat", "container-item": "sheath" },
           { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
