@@ -407,7 +407,7 @@
         "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "molle_pack" ],
         "entries": [
           { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
-          { "item": "neo_laser_pistol_ups", "container-item": "holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
@@ -477,7 +477,7 @@
         ],
         "entries": [
           { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
-          { "item": "neo_laser_pistol_ups", "container-item": "holster" },
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }
@@ -539,7 +539,7 @@
         ],
         "entries": [
           { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
-          { "item": "neo_laser_pistol_ups", "container-item": "holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
