@@ -387,11 +387,7 @@
       "SENTINEL_PERK_STR",
       "SENTINEL_PERK_DEX",
       "SENTINEL_PERK_PER",
-      "SENTINEL_PERK_INT",
-      "SENTINEL_STAT_STR",
-      "SENTINEL_STAT_DEX",
-      "SENTINEL_STAT_PER",
-      "SENTINEL_STAT_INT"
+      "SENTINEL_PERK_INT"
     ],
     "skills": [
       { "level": 3, "name": "gun" },
