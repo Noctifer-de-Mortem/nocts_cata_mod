@@ -532,6 +532,7 @@
         ],
         "entries": [
           { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
+          { "item": "knife_combat", "container-item": "sheath" },
           { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
