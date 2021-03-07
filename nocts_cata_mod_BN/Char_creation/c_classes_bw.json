@@ -435,9 +435,7 @@
     "traits": [
       "SUPER_SOLDIER_MARKER",
       "THRESH_SUPER_SOLDIER",
-      "SENTINEL_STAT_DEX_2",
-      "SENTINEL_STAT_PER_2",
-      "SENTINEL_PERK_DEX",
+      "SENTINEL_PERK_DEX_2",
       "SENTINEL_PERK_PER_2"
     ],
     "skills": [
