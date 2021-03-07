@@ -503,10 +503,8 @@
     "traits": [
       "SUPER_SOLDIER_MARKER",
       "THRESH_SUPER_SOLDIER",
-      "SENTINEL_PERK_PER",
-      "SENTINEL_PERK_INT",
-      "SENTINEL_STAT_PER_2",
-      "SENTINEL_STAT_INT_2"
+      "SENTINEL_PERK_PER_2",
+      "SENTINEL_PERK_INT_2"
     ],
     "skills": [
       { "level": 5, "name": "electronics" },
