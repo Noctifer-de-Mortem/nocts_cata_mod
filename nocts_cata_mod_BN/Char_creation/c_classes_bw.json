@@ -568,10 +568,8 @@
     "traits": [
       "SUPER_SOLDIER_MARKER",
       "THRESH_SUPER_SOLDIER",
-      "SENTINEL_PERK_STR",
-      "SENTINEL_PERK_DEX",
-      "SENTINEL_STAT_STR_2",
-      "SENTINEL_STAT_DEX_2"
+      "SENTINEL_PERK_STR_2",
+      "SENTINEL_PERK_DEX_2"
     ],
     "skills": [
       { "level": 3, "name": "gun" },
