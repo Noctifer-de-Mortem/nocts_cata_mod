@@ -687,7 +687,7 @@
       [ [ "hsurvivor_suit", 1 ] ],
       [ [ "gloves_hsurvivor", 1 ] ],
       [ [ "boots_hsurvivor", 1 ] ],
-      [ [ "hood_hsurvivor", 1 ] ],
+      [ [ "hood_survivor", 1 ] ],
       [ [ "hazmat_suit", 1 ] ],
       [ [ "fur", 20 ], [ "tanned_pelt", 4 ] ],
       [ [ "duct_tape", 150 ] ],
