@@ -556,6 +556,40 @@
     ]
   },
   {
+    "result": "lsurv_suit",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "skills_required": [ "fabrication", 7 ],
+    "time": "500 m",
+    "reversible": false,
+    "book_learn": [ [ "recipe_surv", 7 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_polymerworking" }
+    ],
+      "components": [
+      [ [ "lsurvivor_suit", 1 ] ],
+      [ [ "gloves_lsurvivor", 1 ] ],
+      [ [ "boots_lsurvivor", 1 ] ],
+      [ [ "hood_lsurvivor", 1 ] ],
+      [ [ "cleansuit", 1 ] ],
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "fur", 10 ], [ "tanned_pelt", 2 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "kevlar_plate", 9 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "wristwatch", 1 ] ]
+    ]
+  },
+  {
     "result": "fsurv_suit",
     "type": "recipe",
     "activity_level": "MODERATE_EXERCISE",
@@ -582,7 +616,7 @@
       [ [ "hood_fsurvivor", 1 ] ],
       [ [ "cleansuit", 1 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
-      [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
+      [ [ "nomex", 30 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
@@ -618,7 +652,7 @@
       [ [ "hood_wsurvivor", 1 ] ],
       [ [ "cleansuit", 1 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
-      [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
+      [ [ "fur", 25 ], [ "tanned_pelt", 5 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
