@@ -223,7 +223,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str": "survivor's winter scout suit" },
-    "description": "A home-made winter-geared suit built to live off the land.  Comes with ample storage, insulated leather, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection.",
+    "description": "A home-made winter-geared suit built to live off the land.  Comes with ample storage, insulated furs, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection.",
     "weight": "12840 g",
     "volume": "12500 ml",
     "price": 180000,
