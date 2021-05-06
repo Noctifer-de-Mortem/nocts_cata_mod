@@ -550,7 +550,7 @@
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
       [ [ "duct_tape", 150 ] ],
-      [ [ "kevlar_plate", 12 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "swat_armor", 1 ], [ "sheet_kevlar_layered", 24 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
@@ -584,7 +584,7 @@
       [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
       [ [ "fur", 10 ], [ "tanned_pelt", 2 ] ],
       [ [ "duct_tape", 100 ] ],
-      [ [ "kevlar_plate", 9 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "swat_armor", 1 ], [ "sheet_kevlar_layered", 24 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
@@ -618,7 +618,7 @@
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "nomex", 30 ] ],
       [ [ "duct_tape", 150 ] ],
-      [ [ "kevlar_plate", 12 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "swat_armor", 1 ], [ "sheet_kevlar_layered", 24 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
@@ -654,7 +654,7 @@
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "fur", 25 ], [ "tanned_pelt", 5 ] ],
       [ [ "duct_tape", 150 ] ],
-      [ [ "kevlar_plate", 12 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "swat_armor", 1 ], [ "sheet_kevlar_layered", 24 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
@@ -691,7 +691,7 @@
       [ [ "hazmat_suit", 1 ] ],
       [ [ "fur", 20 ], [ "tanned_pelt", 4 ] ],
       [ [ "duct_tape", 150 ] ],
-      [ [ "kevlar_plate", 30 ] ],
+      [ [ "kevlar", 2 ], [ "ballistic_vest_empty", 2 ], [ "swat_armor", 2 ], [ "sheet_kevlar_layered", 48 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]

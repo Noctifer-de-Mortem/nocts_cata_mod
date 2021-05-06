@@ -70,7 +70,7 @@
       }
     ],
     "warmth": 25,
-    "material_thickness": 4,
+    "material_thickness": 7,
     "environmental_protection": 15,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [
@@ -133,7 +133,7 @@
       }
     ],
     "warmth": 15,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "environmental_protection": 3,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [
@@ -198,7 +198,7 @@
       }
     ],
     "warmth": 15,
-    "material_thickness": 4,
+    "material_thickness": 6,
     "environmental_protection": 10,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [
@@ -263,7 +263,7 @@
       }
     ],
     "warmth": 80,
-    "material_thickness": 4,
+    "material_thickness": 6,
     "environmental_protection": 15,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [
@@ -327,7 +327,7 @@
         "flag_restriction": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
       }
     ],
-    "warmth": 25,
+    "warmth": 35,
     "material_thickness": 6,
     "environmental_protection": 20,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
