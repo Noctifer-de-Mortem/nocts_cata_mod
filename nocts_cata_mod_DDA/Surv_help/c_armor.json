@@ -328,7 +328,7 @@
       }
     ],
     "warmth": 25,
-    "material_thickness": 5,
+    "material_thickness": 6,
     "environmental_protection": 20,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [

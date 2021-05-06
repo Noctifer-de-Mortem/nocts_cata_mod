@@ -691,7 +691,7 @@
       [ [ "hazmat_suit", 1 ] ],
       [ [ "fur", 20 ], [ "tanned_pelt", 4 ] ],
       [ [ "duct_tape", 150 ] ],
-      [ [ "kevlar_plate", 12 ] ],
+      [ [ "kevlar_plate", 30 ] ],
       [ [ "cable", 50 ] ],
       [ [ "wristwatch", 1 ] ]
     ]
