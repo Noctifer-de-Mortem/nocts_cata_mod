@@ -341,7 +341,7 @@
       "STURDY",
       "ALLOWS_NATURAL_ATTACKS",
       "WATCH",
-      "NONCONDUCTIVE",
+      "ELECTRIC_IMMUNE",
       "ALARMCLOCK"
     ]
   },
