@@ -37,7 +37,7 @@
     "to_hit": -3,
     "bashing": 6,
     "phase": "solid",
-    "material": [ "leather", "kevlar_layered" ],
+    "material": [ "leather", "kevlar_layered", "kevlar" ],
     "symbol": "[",
     "color": "brown",
     "armor_portion_data": [{ "covers": [ "head" ], "coverage": 100, "encumbrance": [25, 25] },
@@ -294,7 +294,7 @@
     "to_hit": -3,
     "bashing": 6,
     "phase": "solid",
-    "material": [ "kevlar_layered", "steel" ],
+    "material": [ "kevlar_layered", "steel", "kevlar" ],
     "symbol": "[",
     "color": "brown",
     "armor_portion_data": [{ "covers": [ "head" ], "coverage": 100, "encumbrance": [35, 35] },
@@ -328,7 +328,7 @@
       }
     ],
     "warmth": 35,
-    "material_thickness": 6,
+    "material_thickness": 7,
     "environmental_protection": 20,
     "use_action": { "type": "holster", "holster_prompt": "Sheath knife/sword", "holster_msg": "You sheath your %s" },
     "flags": [
