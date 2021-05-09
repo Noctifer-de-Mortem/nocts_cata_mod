@@ -534,13 +534,15 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "welder", 112 ], [ "welder_crude", 168 ], [ "soldering_iron", 168 ], [ "toolset", 168 ] ] ],
     "proficiencies": [
+      { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_polymerworking" },
       { "proficiency": "prof_closures_waterproofing" }
     ],
     "components": [
       [ [ "cleansuit", 1 ] ],
-      [ [ "duct_tape", 600 ] ]
+      [ [ "duct_tape", 600 ] ], 
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ]
     ]
   },
   {
@@ -557,13 +559,15 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "welder", 112 ], [ "welder_crude", 168 ], [ "soldering_iron", 168 ], [ "toolset", 168 ] ] ],
     "proficiencies": [
+      { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_polymerworking" },
       { "proficiency": "prof_closures_waterproofing" }
     ],
     "components": [
       [ [ "cleansuit", 1 ] ],
-      [ [ "duct_tape", 900 ] ]
+      [ [ "duct_tape", 900 ] ], 
+      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ]
     ]
   },
   {
@@ -580,13 +584,15 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "welder", 112 ], [ "welder_crude", 168 ], [ "soldering_iron", 168 ], [ "toolset", 168 ] ] ],
     "proficiencies": [
+      { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_polymerworking" },
       { "proficiency": "prof_closures_waterproofing" }
     ],
     "components": [
       [ [ "hazmat_suit", 1 ] ],
-      [ [ "duct_tape", 800 ] ]
+      [ [ "duct_tape", 800 ] ], 
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ]
     ]
   },
   {
@@ -603,13 +609,15 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "tools": [ [ [ "welder", 112 ], [ "welder_crude", 168 ], [ "soldering_iron", 168 ], [ "toolset", 168 ] ] ],
     "proficiencies": [
+      { "proficiency": "prof_leatherworking_basic" },
       { "proficiency": "prof_closures" },
       { "proficiency": "prof_polymerworking" },
       { "proficiency": "prof_closures_waterproofing" }
     ],
     "components": [
       [ [ "hazmat_suit", 1 ] ],
-      [ [ "duct_tape", 1200 ] ]
+      [ [ "duct_tape", 1200 ] ], 
+      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ]
     ]
   },
   {
