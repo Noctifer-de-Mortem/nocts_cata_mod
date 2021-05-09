@@ -171,7 +171,7 @@
     "warmth": 15,
     "material_thickness": 1,
     "environmental_protection": 9,
-    "flags": [ "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST", "SKINTIGHT" ]
   },
   {
     "id": "xl_strap_clean",
@@ -179,7 +179,7 @@
     "name": { "str": "XL strapped cleansuit" },
     "copy-from": "strap_clean",
     "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
-    "flags": [ "OVERSIZE", "POCKETS", "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST" ]
+    "flags": [ "OVERSIZE", "POCKETS", "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST", "SKINTIGHT" ]
   },
   {
     "id": "strap_hazmat",
@@ -201,7 +201,7 @@
     "warmth": 30,
     "material_thickness": 2,
     "environmental_protection": 20,
-    "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "SKINTIGHT" ]
   },
   {
     "id": "xl_strap_hazmat",
@@ -209,7 +209,7 @@
     "name": { "str": "XL strapped hazmat suit" },
     "copy-from": "strap_hazmat",
     "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
-    "flags": [ "OVERSIZE", "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+    "flags": [ "OVERSIZE", "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "SKINTIGHT" ]
   },
   {
     "id": "armor_lightplate_surv",
