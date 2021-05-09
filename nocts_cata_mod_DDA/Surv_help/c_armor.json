@@ -195,7 +195,7 @@
     "symbol": "[",
     "looks_like": "hazmat_suit",
     "color": "light_red",
-    "covers": [ "head", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "torso", "arm_l", "arm_r", "leg_l", "leg_r"],
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
