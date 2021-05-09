@@ -147,13 +147,13 @@
     "id": "strap_clean",
     "type": "ARMOR",
     "category": "armor",
-    "name": { "str": "Strapped Cleansuit" },
+    "name": { "str": "strapped cleansuit" },
     "description": "An strapped environmental protection suit.  Custom-built from a cleansuit and and leather straps, it provides excellent protection against ambient radiation.",
     "weight": "7200 g",
     "volume": "9 L",
     "price": 140000,
     "price_postapoc": 6000,
-    "material": [ "Leather", "plastic" ],
+    "material": [ "plastic" ],
     "symbol": "[",
     "looks_like": "hazmat_suit",
     "color": "light_red",
@@ -169,15 +169,23 @@
       { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 }
     ],
     "warmth": 35,
-    "material_thickness": 3,
+    "material_thickness": 1,
     "environmental_protection": 9,
     "flags": [ "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST" ]
+  },
+  {
+    "id": "xl_strap_clean",
+    "type": "ARMOR",
+    "name": { "str": "XL strapped cleansuit" },
+    "copy-from": "strap_clean",
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "flags": [ "OVERSIZE", "POCKETS", "VARSIZE", "WATERPROOF", "HOOD", "RAINPROOF", "STURDY", "RAD_RESIST" ]
   },
   {
     "id": "strap_hazmat",
     "type": "ARMOR",
     "category": "armor",
-    "name": { "str": "Strapped Hazmat Suit" },
+    "name": { "str": "strapped hazmat suit" },
     "description": "An strapped impermeable full-body suit that functions as protection from nuclear, biological, and chemical hazards.  It requires a separate gas mask for full protection.",
     "weight": "8700 g",
     "volume": "20 L",
@@ -191,9 +199,17 @@
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 50,
-    "material_thickness": 6,
+    "material_thickness": 2,
     "environmental_protection": 20,
     "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
+  },
+  {
+    "id": "xl_strap_hazmat",
+    "type": "ARMOR",
+    "name": { "str": "XL strapped hazmat suit" },
+    "copy-from": "strap_hazmat",
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "flags": [ "OVERSIZE", "VARSIZE", "WATERPROOF", "RAINPROOF", "GAS_PROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE" ]
   },
   {
     "id": "armor_lightplate_surv",
