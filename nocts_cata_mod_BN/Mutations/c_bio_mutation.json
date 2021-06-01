@@ -8,9 +8,7 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "fat_to_max_hp": 1.0,
-    "dodge_modifier": 1,
-    "stomach_size_multiplier": 2.5
+    "dodge_modifier": 1
   },
   {
     "type": "mutation",
