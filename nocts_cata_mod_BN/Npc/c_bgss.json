@@ -26,7 +26,7 @@
         "text": "I can tell you're one of us, Hunter.  I was expecting an officer, not a college student.",
         "topic": "BGSS_BHUNTER_STORYOUST",
         "condition": { "and": [ { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }, { "not": { "u_has_effect": "evy_ousted" } } ] },
-        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+        "effect": { "u_add_effect": "evy_ousted" }
       },
       {
         "text": "You seem to know a lot more than you're letting on.",
@@ -40,7 +40,7 @@
         "success": {
           "topic": "BGSS_BHUNTER_STORYADMIT",
           "opinion": { "trust": 1 },
-          "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+          "effect": { "u_add_effect": "evy_ousted" }
         },
         "failure": { "topic": "BGSS_BHUNTER_STORYDENY", "effect": { "u_add_effect": "evy_asked_info_recently", "duration": 1800 } }
       },

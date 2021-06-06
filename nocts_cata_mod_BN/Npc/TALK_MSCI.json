@@ -60,8 +60,8 @@
         "text": "We'll see what I can do.",
         "topic": "TALK_MSCI",
         "effect": [
-          { "u_add_effect": "router_suggestion", "duration": "PERMANENT" },
-          { "npc_add_effect": "router_suggestion", "duration": "PERMANENT" }
+          { "u_add_effect": "router_suggestion" },
+          { "npc_add_effect": "router_suggestion" }
         ]
       }
     ]
@@ -76,8 +76,8 @@
         "text": "Oh, okay.",
         "topic": "TALK_MSCI",
         "effect": [
-          { "u_add_effect": "router_suggestion", "duration": "PERMANENT" },
-          { "npc_add_effect": "router_suggestion", "duration": "PERMANENT" }
+          { "u_add_effect": "router_suggestion" },
+          { "npc_add_effect": "router_suggestion" }
         ]
       }
     ]

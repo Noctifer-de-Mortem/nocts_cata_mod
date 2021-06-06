@@ -112,7 +112,7 @@
         "text": "You don't recognize this aug configuration, Hunter?",
         "topic": "TALK_BHUNTER_CONFIRM_OUST",
         "condition": { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] },
-        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+        "effect": { "u_add_effect": "evy_ousted" }
       },
       { "text": "Good enough, I suppose.", "topic": "TALK_BHUNTER" }
     ]
@@ -208,7 +208,7 @@
         "success": {
           "topic": "TALK_BHUNTER_ADMIT",
           "opinion": { "trust": 1 },
-          "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+          "effect": { "u_add_effect": "evy_ousted" }
         },
         "failure": {
           "topic": "TALK_BHUNTER_DENY",
@@ -231,7 +231,7 @@
         "text": "Right.  Research Directive Z-12 ring a bell to you, Hunter?",
         "topic": "TALK_BHUNTER_CONFIRM_OUST",
         "condition": { "and": [ { "u_has_any_trait": [ "SUPER_SOLDIER_MARKER" ] }, { "not": { "u_has_effect": "evy_ousted" } } ] },
-        "effect": { "u_add_effect": "evy_ousted", "duration": "PERMANENT" }
+        "effect": { "u_add_effect": "evy_ousted" }
       },
       { "text": "I see.", "topic": "TALK_BHUNTER" }
     ]
