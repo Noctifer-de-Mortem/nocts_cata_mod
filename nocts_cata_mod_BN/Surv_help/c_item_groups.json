@@ -415,9 +415,14 @@
     ]
   },
   {
-    "id": "bionics_sub",
+    "id": "bionics_tech",
     "type": "item_group",
-    "items": [ [ "bio_atomic_battery", 5 ], [ "bio_hazard_shield", 5 ] ]
+    "items": [ [ "bio_atomic_battery", 10 ], [ "bio_cutting_torch", 20 ] ]
+  },
+  {
+    "id": "bionics_subs",
+    "type": "item_group",
+    "items": [ [ "bio_atomic_battery", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
   },
   {
     "id": "female_underwear_top",
