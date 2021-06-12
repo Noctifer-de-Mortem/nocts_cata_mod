@@ -2156,7 +2156,13 @@
     "skills_required": [ [ "mechanics", 4 ], [ "firstaid", 4 ] ],
     "difficulty": 6,
     "time": "3 h",
-    "book_learn": [ [ "recipe_augs", 7 ], [ "recipe_mil_augs", 7 ], [ "recipe_lab_elec", 6 ] ],
+    "book_learn": [
+      [ "textbook_fabrication", 7 ],
+      [ "textbook_mechanics", 7 ],
+      [ "recipe_augs", 6 ],
+      [ "recipe_mil_augs", 6 ],
+      [ "recipe_lab_elec", 5 ]
+    ],
     "using": [ [ "welding_standard", 50 ] ],
     "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "WRENCH", "level": 2 }, { "id": "SAW_M", "level": 2 } ],
     "components": [
@@ -2168,6 +2174,20 @@
       [ [ "cu_pipe", 4 ] ],
       [ [ "thermometer", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "pouch_autoclave",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "firstaid", 5 ] ],
+    "difficulty": 5,
+    "time": "30 m",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "textbook_fabrication", 6 ], [ "recipe_augs", 5 ], [ "recipe_mil_augs", 5 ], [ "recipe_lab_elec", 4 ] ],
+    "tools": [ [ [ "vac_sealer", 15 ], [ "makeshift_sealer", 30 ] ] ],
+    "components": [ [ [ "bag_plastic", 1 ] ], [ [ "paper", 2 ] ] ]
   },
   {
     "type": "recipe",
