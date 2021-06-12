@@ -95,24 +95,28 @@
       [ "22aux", 1 ],
       [ "9mmaux", 1 ],
       [ "45aux", 1 ],
-      [ "lmil_armor", 1 ],
-      [ "mil_armor", 1 ],
-      [ "hmil_armor", 1 ],
+      { "group": "lmil_armor_collection", "prob": 1 },
+      { "group": "mil_armor_collection", "prob": 1 },
+      { "group": "hmil_armor_collection", "prob": 1 },
       { "group": "ammo_atomic_batteries", "prob": 25 }
     ]
   },
   {
     "id": "mil_hw",
     "type": "item_group",
-    "items": [ [ "lmil_armor", 2 ], [ "mil_armor", 2 ], [ "hmil_armor", 2 ] ]
+    "items": [
+      { "group": "lmil_armor_collection", "prob": 2 },
+      { "group": "mil_armor_collection", "prob": 2 },
+      { "group": "hmil_armor_collection", "prob": 2 }
+    ]
   },
   {
     "id": "military",
     "type": "item_group",
     "items": [
-      [ "lmil_armor", 1 ],
-      [ "mil_armor", 1 ],
-      [ "hmil_armor", 1 ],
+      { "group": "lmil_armor_collection", "prob": 1 },
+      { "group": "mil_armor_collection", "prob": 1 },
+      { "group": "hmil_armor_collection", "prob": 1 },
       [ "neo_laser_pistol", 2 ],
       [ "akro_laser_smg", 2 ],
       [ "arc_laser_rifle", 2 ],
@@ -773,5 +777,23 @@
       [ "bio_animal_empathy", 5 ],
       [ "bio_cutting_torch", 10 ]
     ]
+  },
+  {
+    "id": "lmil_armor_collection",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "lmil_armor" }, { "item": "lmil_helm", "prob": 90 } ]
+  },
+  {
+    "id": "mil_armor_collection",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "mil_armor" }, { "item": "mil_helm", "prob": 90 } ]
+  },
+  {
+    "id": "hmil_armor_collection",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "hmil_armor" }, { "item": "hmil_helm", "prob": 90 } ]
   }
 ]
