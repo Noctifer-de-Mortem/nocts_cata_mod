@@ -577,7 +577,6 @@
     "components": [
       [ [ "hazmat_suit", 1 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
-      [ [ "steel_chunk", 4 ], [ "scrap", 12 ] ],
       [ [ "fur", 20 ], [ "tanned_pelt", 4 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar", 3 ], [ "ballistic_vest_empty", 3 ], [ "swat_armor", 3 ], [ "sheet_kevlar_layered", 72 ] ],
