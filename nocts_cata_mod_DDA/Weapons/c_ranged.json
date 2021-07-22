@@ -73,11 +73,7 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": -2 },
-            { "value": "DEXTERITY", "add": -2 },
-            { "value": "PERCEPTION", "add": 4 }
-          ],
+          "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ]
         }
       ]
@@ -113,11 +109,7 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": -2 },
-            { "value": "DEXTERITY", "add": -2 },
-            { "value": "PERCEPTION", "add": 4 }
-          ],
+          "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
           "hit_me_effect": [
             {
@@ -161,11 +153,7 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": -2 },
-            { "value": "DEXTERITY", "add": -2 },
-            { "value": "PERCEPTION", "add": 4 }
-          ],
+          "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
           "hit_me_effect": [
             {
@@ -209,11 +197,7 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": -2 },
-            { "value": "DEXTERITY", "add": -2 },
-            { "value": "PERCEPTION", "add": 4 }
-          ],
+          "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
           "hit_me_effect": [
             {
@@ -268,11 +252,7 @@
         {
           "has": "WIELD",
           "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": -2 },
-            { "value": "DEXTERITY", "add": -2 },
-            { "value": "PERCEPTION", "add": 4 }
-          ],
+          "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
           "hit_me_effect": [
             {
@@ -500,13 +480,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's .223 assault rifle" },
-    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .223 cartridge via its magazine.",
+    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .223 cartridge via its custom-made magazine, and can accept certain STANAG magazines of equal or lesser capacity.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "223" ],
     "weight": "3028 g",
     "volume": "2 L",
+    "longest_side": "900 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -524,25 +507,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_223_mag" ]
+        "item_restriction": [ "surv_223_mag", "stanag20", "stanag10", "stanag5", "survivor223mag" ]
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -551,13 +529,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's .22 SMG" },
-    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .22 cartridge via its magazine.",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .22 cartridge via its custom-made magazine.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "smg",
     "ammo": [ "22" ],
     "weight": "2074 g",
     "volume": "1500 ml",
+    "longest_side": "800 mm",
+    "barrel_volume": "250 ml",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -580,16 +561,15 @@
     ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
-      [ "sling", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -598,13 +578,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's 9mm SMG" },
-    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the 9mm cartridge via its magazine.",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the 9mm cartridge via its custom-made magazine, or can accept lower-capacity makeshift STEN magazines.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "smg",
     "ammo": [ "9mm" ],
     "weight": "3158 g",
     "volume": "1500 ml",
+    "longest_side": "800 mm",
+    "barrel_volume": "250 ml",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -622,21 +605,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_9mm_mag" ]
+        "item_restriction": [ "surv_9mm_mag", "survivor9mm_mag" ]
       }
     ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
-      [ "sling", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -645,13 +627,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's .45 SMG" },
-    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .45 cartridge via its magazine.",
+    "description": "A (mostly) homemade SMG built from a full auto receiver.  While still lower quality than most pre-cataclysm SMGs, it's superior to many other homemade weapons.  Takes the .45 cartridge via its custom-made magazine, and can accept lower-capacity makeshift variants of the MAC-10 magazine.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "smg",
     "ammo": [ "45" ],
     "weight": "3160 g",
     "volume": "1500 ml",
+    "longest_side": "800 mm",
+    "barrel_volume": "250 ml",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -669,21 +654,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_45_mag" ]
+        "item_restriction": [ "surv_45_mag", "smg_45_mag" ]
       }
     ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
-      [ "sling", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -692,13 +676,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's .308 battle rifle" },
-    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .308 cartridge via its magazine.",
+    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .308 cartridge via its custom-made magazine, and compatible with magazines from the old M14 rifle.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "308" ],
     "weight": "3238 g",
     "volume": "2 L",
+    "longest_side": "900 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -716,25 +703,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_308_mag" ]
+        "item_restriction": [ "surv_308_mag", "m14mag", "m14smallmag", "m14_makeshiftmag" ]
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -743,13 +725,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's 7.62x39 assault rifle" },
-    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x39mm cartridge via its magazine.",
+    "description": "A (mostly) homemade assault rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x39mm cartridge via its custom-made magazine, and can accept any AK-pattern magazine of equal or lesser capacity.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "762" ],
     "weight": "3169 g",
     "volume": "2 L",
+    "longest_side": "900 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -767,25 +752,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_762_mag" ]
+        "item_restriction": [ "surv_762_mag", "akmag20", "akmag10" ]
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -794,14 +774,17 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's 7.62x54 battle rifle" },
-    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its magazine.",
+    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made magazine.",
     "looks_like": "surv_full_308",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "762R" ],
     "weight": "3238 g",
     "volume": "2 L",
+    "longest_side": "900 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -823,21 +806,16 @@
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -846,13 +824,16 @@
     "symbol": "(",
     "color": "brown",
     "name": { "str": "survivor's full-auto shotgun" },
-    "description": "A (mostly) homemade full auto shotgun built from a full auto receiver.  While still lower quality than most pre-cataclysm shotguns, it's superior to many other homemade weapons.  Takes the 12 gauge cartridge via its magazine.",
+    "description": "A (mostly) homemade full auto shotgun built from a full auto receiver.  While still lower quality than most pre-cataclysm shotguns, it's superior to many other homemade weapons.  Takes the 12 gauge cartridge via its custom-made magazine, and can accept lower-capacity variants of the Saiga 12 magazine.",
     "price": "1200 USD",
+    "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "skill": "shotgun",
     "ammo": [ "shot" ],
     "weight": "3592 g",
     "volume": "2500 ml",
+    "longest_side": "1000 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -870,24 +851,20 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "surv_12_mag" ]
+        "item_restriction": [ "surv_12_mag", "saiga10mag" ]
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "muzzle", 1 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -898,11 +875,14 @@
     "name": { "str": "survivor's .308 GPMG" },
     "description": "A (mostly) homemade GPMG built from a full auto receiver.  Although well-made, its high volume of fire makes reliability and accuracy an issue.  Takes the .308 cartridge via a belt feed, and can attach a custom-made carry handle for improved fire from the hip.",
     "price": "1500 USD",
+    "price_postapoc": "150 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "308" ],
     "weight": "8238 g",
     "volume": "2500 ml",
+    "longest_side": "1000 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -924,22 +904,17 @@
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
-      [ "brass catcher", 1 ],
-      [ "muzzle", 1 ],
+      [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
+      [ "brass catcher", 1 ],
       [ "carry handle", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
       [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -950,11 +925,14 @@
     "name": { "str": "survivor's 7.62x39 LMG" },
     "description": "A (mostly) homemade LMG built from a full auto receiver.  Although well-made, its high volume of fire makes reliability and accuracy an issue.  Takes the 7.62x39 cartridge via a belt feed, and can attach a custom-made carry handle for improved fire from the hip.",
     "price": "1500 USD",
+    "price_postapoc": "150 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "762" ],
     "weight": "8169 g",
     "volume": "2500 ml",
+    "longest_side": "1000 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -976,22 +954,17 @@
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
-      [ "brass catcher", 1 ],
-      [ "muzzle", 1 ],
+      [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
+      [ "brass catcher", 1 ],
       [ "carry handle", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
       [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -1002,11 +975,14 @@
     "name": { "str": "survivor's .223 LMG" },
     "description": "A (mostly) homemade LMG built from a full auto receiver.  Although well-made, its high volume of fire makes reliability and accuracy an issue.  Takes the .223 cartridge via a belt feed, and can attach a custom-made carry handle for improved fire from the hip.",
     "price": "1500 USD",
+    "price_postapoc": "150 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "223" ],
     "weight": "8028 g",
     "volume": "2500 ml",
+    "longest_side": "1000 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -1028,21 +1004,17 @@
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
-      [ "muzzle", 1 ],
+      [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
+      [ "brass catcher", 1 ],
       [ "carry handle", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
       [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -1054,11 +1026,14 @@
     "description": "A (mostly) homemade GPMG built from a full auto receiver.  Although well-made, its high volume of fire makes reliability and accuracy an issue.  Takes the 7.62x54R cartridge via a belt feed, and can attach a custom-made carry handle for improved fire from the hip.",
     "looks_like": "surv_lmg_308",
     "price": "1500 USD",
+    "price_postapoc": "150 USD",
     "material": [ "steel", "wood" ],
     "skill": "rifle",
     "ammo": [ "762R" ],
     "weight": "8358 g",
     "volume": "2500 ml",
+    "longest_side": "1000 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
@@ -1079,22 +1054,67 @@
       }
     ],
     "valid_mod_locations": [
-      [ "accessories", 3 ],
-      [ "sling", 1 ],
-      [ "brass catcher", 1 ],
-      [ "muzzle", 1 ],
+      [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "conversion", 1 ],
-      [ "grip", 1 ],
+      [ "brass catcher", 1 ],
       [ "carry handle", 1 ],
-      [ "magazine", 2 ],
-      [ "mechanism", 4 ],
       [ "muzzle", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
+      [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
+    ]
+  },
+  {
+    "id": "surv_full_50",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "brown",
+    "name": { "str": "survivor's .50 automatic AMR" },
+    "description": "A beast of a (mostly) homemade anti-materiel rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .50 BMG cartridge via its custom-made magazine, or can accept lower-capacity Barret magazines.  It can also attach a custom-made carry handle for improved fire from the hip.",
+    "price": "1500 USD",
+    "price_postapoc": "150 USD",
+    "material": [ "steel", "wood" ],
+    "skill": "rifle",
+    "ammo": [ "50" ],
+    "weight": "10 kg",
+    "volume": "3 L",
+    "longest_side": "1200 mm",
+    "barrel_volume": "500 ml",
+    "bashing": 12,
+    "to_hit": -1,
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 550,
+    "blackpowder_tolerance": 25,
+    "min_cycle_recoil": 5000,
+    "durability": 6,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
+    "reload": 100,
+    "loudness": 50,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "surv_50_mag", "m107a1mag" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "carry handle", 1 ],
+      [ "muzzle", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
     ]
   },
   {
@@ -1102,23 +1122,24 @@
     "type": "GUN",
     "symbol": "(",
     "color": "brown",
-    "//": "Effectively a beefed-up composite bow, some loss of accuracy and efficiency compared to making a modern bow.",
     "name": { "str": "survivor's fighting bow" },
-    "description": "A powerful bow that requires a strong archer to use, arms reinforced to compensate for its takedown design.  The tips of the bow have makeshift blades to make this bow an efficient melee weapon when things get close and personal.  Use it to compact the weapon for easier storage.",
+    "description": "A custom-made bow, arms reinforced to compensate for its takedown design.  The tips of the bow have makeshift blades to make this bow an efficient melee weapon when things get close and personal.  Use it to compact the weapon for easier storage.",
     "price": "880 USD",
+    "price_postapoc": "88 USD",
     "material": [ "wood", "steel" ],
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON", "DURABLE_MELEE" ],
     "techniques": [ "RAPID", "WBLOCK_2", "PRECISE" ],
     "skill": "archery",
-    "min_strength": 9,
+    "min_strength": 6,
     "ammo": [ "arrow" ],
     "weight": "1144 g",
     "volume": "2250 ml",
+    "longest_side": "150 cm",
     "bashing": 10,
     "cutting": 18,
     "reload_noise_volume": 4,
     "loudness": 10,
-    "ranged_damage": { "damage_type": "stab", "amount": 7 },
+    "ranged_damage": { "damage_type": "stab", "amount": 6, "armor_penetration": 1 },
     "range": 10,
     "dispersion": 1250,
     "durability": 6,
@@ -1140,6 +1161,8 @@
     "ammo": [ "flintlock" ],
     "weight": "2184 g",
     "volume": "2500 ml",
+    "longest_side": "1200 mm",
+    "barrel_volume": "500 ml",
     "bashing": 12,
     "to_hit": -1,
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },

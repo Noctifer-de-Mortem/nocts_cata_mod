@@ -101,7 +101,12 @@
     "max_charges": 100,
     "turns_per_charge": 15,
     "revert_to": "wear_solar_flashlight",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "You turn the flashlight off.", "target": "wear_solar_flashlight" },
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "You turn the flashlight off.",
+      "target": "wear_solar_flashlight"
+    },
     "covers": [ "HEAD" ],
     "encumbrance": 1,
     "coverage": 15,
@@ -141,7 +146,7 @@
     "bashing": 8,
     "to_hit": 1,
     "ammo": [ "gasoline" ],
-    "max_charges":25,
+    "max_charges": 25,
     "charges_per_use": 1,
     "artifact_data": { "charge_type": "ARTC_SOLAR" },
     "use_action": {
@@ -174,9 +179,7 @@
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
     "revert_msg": "The torch is extinguished.",
-    "use_action": [
-      { "type": "transform", "menu_text": "Extinguish", "msg": "The torch is extinguished.", "target": "solar_torch" }
-    ]
+    "use_action": [ { "type": "transform", "menu_text": "Extinguish", "msg": "The torch is extinguished.", "target": "solar_torch" } ]
   },
   {
     "id": "fr_22",
@@ -187,6 +190,7 @@
     "name": { "str": ".22 full auto receiver" },
     "description": "A custom-made receiver fitted for .22 LR, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "530 g",
     "volume": "750 ml",
@@ -201,6 +205,7 @@
     "name": { "str": ".223 full auto receiver" },
     "description": "A custom-made receiver fitted for .223 Remington, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "600 g",
     "volume": "750 ml",
@@ -215,6 +220,7 @@
     "name": { "str": ".308 full auto receiver" },
     "description": "A custom-made receiver fitted for .308 Winchester, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "620 g",
     "volume": "1 L",
@@ -229,6 +235,7 @@
     "name": { "str": "9mm full auto receiver" },
     "description": "A custom-made receiver fitted for 9x19mm, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "530 g",
     "volume": "750 ml",
@@ -243,6 +250,7 @@
     "name": { "str": ".45 full auto receiver" },
     "description": "A custom-made receiver fitted for .45 ACP, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "530 g",
     "volume": "750 ml",
@@ -255,8 +263,9 @@
     "color": "light_gray",
     "symbol": ",",
     "name": { "str": "12 gauge full auto receiver" },
-    "description": "A custom-made receiver fitted for 12 guage shells, that could be used to craft an automatic firearm.",
+    "description": "A custom-made receiver fitted for 12 gauge shells, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "650 g",
     "volume": "1250 ml",
@@ -271,6 +280,7 @@
     "name": { "str": "7.62x39 full auto receiver" },
     "description": "A custom-made receiver fitted for .7.62x39mm, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "620 g",
     "volume": "1 L",
@@ -285,9 +295,25 @@
     "name": { "str": "7.62x54 full auto receiver" },
     "description": "A custom-made receiver fitted for .7.62x54mmR, that could be used to craft an automatic firearm.",
     "price": "200 USD",
+    "price_postapoc": "250 cent",
     "material": [ "steel" ],
     "weight": "620 g",
     "volume": "1 L",
+    "to_hit": -1
+  },
+  {
+    "id": "fr_50",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "name": { "str": ".50 full auto receiver" },
+    "description": "A custom-made receiver fitted for .50 BMG, that could be used to craft an automatic firearm.",
+    "price": "200 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "650 g",
+    "volume": "1250 ml",
     "to_hit": -1
   },
   {
@@ -324,7 +350,12 @@
     "ammo": [ "battery" ],
     "category": "weapons",
     "use_action": "TAZER",
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ] ] ]
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ]
   },
   {
     "id": "elc_blds",
@@ -346,7 +377,12 @@
     "ammo": [ "battery" ],
     "category": "weapons",
     "use_action": "TAZER",
-    "magazines": [ [ "battery", [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ] ] ]
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ]
   },
   {
     "id": "can_forge",
