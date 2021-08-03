@@ -402,7 +402,6 @@
     "volume": "2 L",
     "bashing": 1,
     "to_hit": -2,
-    "max_charges": 60,
     "charges_per_use": 1,
     "ammo": [ "charcoal" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "charcoal": 60 } } ],
