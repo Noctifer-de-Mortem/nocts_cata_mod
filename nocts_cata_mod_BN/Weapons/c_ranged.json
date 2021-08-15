@@ -388,7 +388,7 @@
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
-    "flags": [ "FIRE_50", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "FIRE_20", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "magazine_well": "50 ml",
     "magazines": [
@@ -406,7 +406,7 @@
       ]
     ],
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "electric", "amount": 4 },
+    "ranged_damage": { "damage_type": "electric", "amount": 5 },
     "range": 10,
     "dispersion": 120,
     "recoil": 10,
@@ -429,7 +429,7 @@
     "bashing": 8,
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
-    "flags": [ "FIRE_100", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "FIRE_50", "NON-FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "battery" ],
     "magazine_well": "300 ml",
     "magazines": [
@@ -439,7 +439,7 @@
       ]
     ],
     "skill": "rifle",
-    "ranged_damage": { "damage_type": "electric", "amount": 8 },
+    "ranged_damage": { "damage_type": "electric", "amount": 12 },
     "range": 15,
     "dispersion": 100,
     "recoil": 30,
