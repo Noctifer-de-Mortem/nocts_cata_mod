@@ -1611,7 +1611,7 @@
     "looks_like": "v29",
     "type": "GUN",
     "name": { "str": "salvaged stun emitter" },
-    "description": "A mi-go beam weapon repurposed for human use using pre-cataclysm developments in bio-technology, crudely interfacing artificial nerves with wiring and converting it into a bulky pistol.  Its strange lens fires short-ranged beams that deal very little damage, but are highly effective at stunning targets.  However it works it has effectively infinite shots, instead steadily draining stamina and slowing you down slightly while on hand.",
+    "description": "A mi-go beam weapon repurposed for human use using pre-cataclysm developments in bio-technology, crudely interfacing artificial nerves with wiring and converting it into a bulky pistol.  Its strange lens fires short-ranged beams that low damage, but are highly effective at stunning targets.  Having been converted for human use, it draws power from a UPS connection.",
     "weight": "1500 g",
     "volume": "1 L",
     "price_postapoc": "25 USD",
@@ -1622,15 +1622,13 @@
     "color": "green",
     "skill": "pistol",
     "range": 10,
-    "ranged_damage": { "damage_type": "electric", "amount": 5 },
+    "ranged_damage": { "damage_type": "electric", "amount": 15 },
+    "ups_charges": 20,
     "dispersion": 100,
     "durability": 7,
     "loudness": 10,
     "ammo_effects": [ "C_DAZZLER_BURST", "LARGE_BEANBAG", "BLINDS_EYES", "PARALYZEPOISON" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
-    "relic_data": {
-      "passive_effects": [ { "has": "HELD", "condition": "ALWAYS", "ench_effects": [ { "effect": "c_mi_go_beam_stamina", "intensity": 1 } ] } ]
-    }
+    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "c_mi_go_rifle_salvaged",
