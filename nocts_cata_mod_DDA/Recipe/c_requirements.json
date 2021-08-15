@@ -11,5 +11,16 @@
         [ "press", -1 ]
       ]
     ]
+  },
+  {
+    "id": "c_resin_molding_standard",
+    "type": "requirement",
+    "//": "Used for working with alien resin, use of solvent based on solubility of shellac.",
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 19, "LIST" ] ] ],
+    "components": [
+      [ [ "resin_chunk", 1 ] ],
+      [ [ "lye", 1 ], [ "lye_powder", 25 ], [ "chem_ethanol", 50 ], [ "denat_alcohol", 50 ], [ "chem_methanol", 50 ] ]
+    ]
   }
 ]
