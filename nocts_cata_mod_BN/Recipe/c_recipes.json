@@ -1811,6 +1811,86 @@
     ]
   },
   {
+    "result": "armor_lightplate_surv",
+    "type": "recipe",
+    "id_suffix": "assembly",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "50 m",
+    "autolearn": [ [ "tailor", 5 ], [ "fabrication", 5 ] ],
+    "reversible": true,
+    "flags": [ "NO_RESIZE" ],
+    "using": [ [ "sewing_standard", 30 ] ],
+    "components": [ [ [ "cuirass_lightplate_surv", 1 ] ], [ [ "armguard_lightplate_surv", 1 ] ], [ [ "legguard_lightplate_surv", 1 ] ] ]
+  },
+  {
+    "result": "cuirass_lightplate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": "4 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 7 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 12 ], [ "welder_crude", 18 ], [ "soldering_iron", 18 ], [ "toolset", 18 ] ] ],
+    "components": [
+      [ [ "cuirass_lightplate", 1 ] ],
+      [ [ "rag", 5 ] ],
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
+      [ [ "duct_tape", 125 ] ],
+      [ [ "kevlar_plate", 10 ] ]
+    ]
+  },
+  {
+    "result": "armguard_lightplate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": "4 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 7 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 30 ] ],
+    "tools": [ [ [ "welder", 6 ], [ "welder_crude", 9 ], [ "soldering_iron", 9 ], [ "toolset", 9 ] ] ],
+    "components": [
+      [ [ "armguard_lightplate", 1 ] ],
+      [ [ "rag", 2 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "duct_tape", 75 ] ],
+      [ [ "kevlar_plate", 6 ] ]
+    ]
+  },
+  {
+    "result": "legguard_lightplate_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": "4 h",
+    "autolearn": [ [ "tailor", 7 ], [ "fabrication", 7 ] ],
+    "book_learn": [ [ "textbook_armwest", 6 ], [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 40 ] ],
+    "tools": [ [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "soldering_iron", 15 ], [ "toolset", 15 ] ] ],
+    "components": [
+      [ [ "legguard_lightplate", 1 ] ],
+      [ [ "rag", 3 ] ],
+      [ [ "leather", 3 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "kevlar_plate", 8 ] ]
+    ]
+  },
+  {
     "result": "helmet_plate_surv",
     "type": "recipe",
     "category": "CC_ARMOR",
