@@ -76,7 +76,7 @@
       "need_charges": 1,
       "need_charges_msg": "The flashlight's batteries are dead."
     },
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "encumbrance": 1,
     "coverage": 15,
     "material_thickness": 2
@@ -107,7 +107,7 @@
       "msg": "You turn the flashlight off.",
       "target": "wear_solar_flashlight"
     },
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "encumbrance": 1,
     "coverage": 15,
     "material_thickness": 2
@@ -649,7 +649,7 @@
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
     "artifact_data": { "charge_type": "ARTC_SOLAR" },
     "flags": [ "BELTED", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD" ],
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "hand_either" ],
     "encumbrance": 5,
     "coverage": 10,
     "phase": "solid"
@@ -834,7 +834,7 @@
     "material": [ "plastic", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
     "use_action": [ "WEATHER_TOOL", "DISASSEMBLE" ],
@@ -852,7 +852,7 @@
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
     "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
@@ -896,7 +896,7 @@
     "description": "A prototype device giving off noticeable heat, housing a compact radioisotope thermoelectric generator.  It does not seem to accept batteries or even provide a UPS hookup, instead housing an inductive charging system designed specifically for CBM power storage.  Being an unfinished design, the only way to dump power into the inductor without electrocuting yourself requires opening up part of the mechanism, exposing you to radiation.",
     "price": "12000 USD",
     "material": [ "plastic", "aluminum" ],
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD" ],
     "weight": "2200 g",
     "volume": "3 L",
