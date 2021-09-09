@@ -573,16 +573,16 @@
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
     "wet_protection": [
-      { "part": "HEAD", "neutral": 9 },
-      { "part": "LEG_L", "neutral": 12 },
-      { "part": "LEG_R", "neutral": 12 },
-      { "part": "FOOT_L", "neutral": 3 },
-      { "part": "FOOT_R", "neutral": 3 },
-      { "part": "ARM_L", "neutral": 12 },
-      { "part": "ARM_R", "neutral": 12 },
-      { "part": "HAND_L", "neutral": 18 },
-      { "part": "HAND_R", "neutral": 18 },
-      { "part": "TORSO", "neutral": 15 }
+      { "part": "head", "neutral": 9 },
+      { "part": "leg_l", "neutral": 12 },
+      { "part": "leg_r", "neutral": 12 },
+      { "part": "foot_l", "neutral": 3 },
+      { "part": "foot_r", "neutral": 3 },
+      { "part": "arm_l", "neutral": 12 },
+      { "part": "arm_r", "neutral": 12 },
+      { "part": "hand_l", "neutral": 18 },
+      { "part": "hand_r", "neutral": 18 },
+      { "part": "torso", "neutral": 15 }
     ],
     "fatigue_regen_modifier": 0.5,
     "enchantments": [ "C_MEP_SENTINEL_MENT" ]

@@ -160,7 +160,7 @@
     "capacity": 80,
     "reliability": 5,
     "reload_time": 200,
-    "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "encumbrance": 10 },
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -178,7 +178,7 @@
     "capacity": 80,
     "reliability": 5,
     "reload_time": 200,
-    "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "encumbrance": 10 },
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -196,7 +196,7 @@
     "capacity": 80,
     "reliability": 5,
     "reload_time": 200,
-    "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "encumbrance": 10 },
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -215,7 +215,7 @@
     "capacity": 80,
     "reliability": 5,
     "reload_time": 200,
-    "armor_data": { "covers": [ "TORSO" ], "coverage": 5, "encumbrance": 10 },
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
