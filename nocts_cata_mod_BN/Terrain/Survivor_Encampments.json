@@ -211,7 +211,7 @@
         "D": "f_dresser",
         "F": "f_fridge",
         "H": "f_chair",
-        "R": "f_rack",
+        "R": "f_battery",
         "V": "f_bathtub",
         "W": "f_workbench",
         "b": "f_bookcase",
@@ -238,7 +238,6 @@
           ]
         },
         "F": { "items": [ { "item": "fridge", "chance": 75 }, { "item": "fridgesnacks", "chance": 75 } ] },
-        "R": { "items": { "item": "gas_charging_rack", "chance": 75 } },
         "W": { "items": [ { "item": "energy_weapon_armory", "chance": 75 }, { "item": "energy_weapon_armory", "chance": 50 } ] },
         "b": { "items": { "item": "mansion_bookcase", "chance": 100 } },
         "e": {

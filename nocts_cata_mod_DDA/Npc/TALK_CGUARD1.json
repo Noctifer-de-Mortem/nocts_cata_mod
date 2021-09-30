@@ -20,7 +20,7 @@
     "type": "talk_topic",
     "dynamic_line": "It's a refuge, made for the Bio-Weapon research team.  I happened to be one of the guards of the project.  It turned into a mess real quick.  Only one of the original scientists is still here.",
     "responses": [
-      { "text": "Bio_weapons?", "topic": "TALK_CGUARD1_BIO" },
+      { "text": "Bio-weapons?", "topic": "TALK_CGUARD1_BIO" },
       { "text": "I see.", "topic": "TALK_CGUARD1" }
     ]
   },
@@ -29,7 +29,7 @@
     "type": "talk_topic",
     "dynamic_line": "Sure!  This is the recreation room and lobby, and the kitchen is next to it.  Down there is the main hallway.  First door on the left is the dormitory, the Bio-Weapons are usually there.  Across from that is just a bunch of junk metal.  Down the hall you have the restroom on the right, then the research room on the left.  Our leader, Router, is there.  He can be a weirdo but he keeps us safe.  Go talk to people if you need anything.",
     "responses": [
-    { "text": "Bio_weapons?", "topic": "TALK_CGUARD1_BIO" },
+    { "text": "Bio-weapons?", "topic": "TALK_CGUARD1_BIO" },
     { "text": "Will do.", "topic": "TALK_CGUARD1" }
     ]
   },

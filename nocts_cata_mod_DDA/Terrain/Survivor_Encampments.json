@@ -267,8 +267,8 @@
         { "item": "recipe_surv", "x": 5, "y": 11 }
       ],
       "place_vehicles": [
-        { "vehicle": "bicycle_electric", "x": 11, "y": 6, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
         { "vehicle": "bicycle_electric", "x": 12, "y": 6, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
+        { "vehicle": "bicycle_electric", "x": 13, "y": 6, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
         { "vehicle": "surv_cart", "x": 17, "y": 20, "chance": 30, "fuel": 60, "status": -1 }
       ],
       "place_monster": [
