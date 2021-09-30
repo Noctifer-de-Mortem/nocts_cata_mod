@@ -6,7 +6,6 @@
     "description": "Your left arm is currently transformed into a ups powered laser gatling gun.  Fire it as if it was any other gun.",
     "volume": "3 L",
     "weight": "3 kg",
-    "price": "0 cent",
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "magenta",
@@ -73,7 +72,7 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "Monomolecular Sword CBM" },
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
-    "price": "80 USD",
+    "price": "250 USD",
     "difficulty": 8
   },
   {
@@ -83,7 +82,6 @@
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
     "volume": "3 L",
     "weight": "3 kg",
-    "price": "0 cent",
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "red",
@@ -152,7 +150,6 @@
     "name": { "str": "Alphavoltaic Power", "str_pl": "none" },
     "description": "seeing this is a bug",
     "stackable": true,
-    "price": "0 cent",
     "volume": "0 ml",
     "flags": [ "PSEUDO", "PERPETUAL" ],
     "fuel": { "energy": 1 }
