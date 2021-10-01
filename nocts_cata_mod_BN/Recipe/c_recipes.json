@@ -2502,5 +2502,18 @@
       [ [ "wire", 5 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ]
     ]
+  },
+  {
+    "result": "leather_bikini_bottom",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "35 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 1 ], [ "manual_tailor", 1 ] ],
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "leather", 3 ] ] ]
   }
 ]
