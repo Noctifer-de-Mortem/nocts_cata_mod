@@ -374,7 +374,14 @@
   {
     "id": "traveler",
     "type": "item_group",
-    "items": [ [ "biomap", 1 ], [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "fancy_panties", 30 ], [ "thong", 30 ] ]
+    "items": [
+      [ "biomap", 1 ],
+      [ "dress_skirt", 75 ],
+      [ "microskirt", 10 ],
+      [ "fancy_bra", 30 ],
+      [ "fancy_panties", 30 ],
+      [ "thong", 30 ]
+    ]
   },
   {
     "id": "bionics",
@@ -441,16 +448,22 @@
   {
     "type": "item_group",
     "id": "male_underwear_bottom",
-    "items": [
-      [ "fancy_boxer_shorts", 70 ],
-      [ "fancy_briefs", 30 ],
-      [ "fancy_boxer_briefs", 50 ]
-    ]
+    "items": [ [ "fancy_boxer_shorts", 70 ], [ "fancy_briefs", 30 ], [ "fancy_boxer_briefs", 50 ] ]
   },
   {
     "id": "allclothes",
     "type": "item_group",
-    "items": [ [ "dress_skirt", 75 ], [ "microskirt", 10 ], [ "fancy_bra", 30 ], [ "fancy_panties", 30 ], [ "thong", 30 ], { "item": "fancy_briefs", "prob": 15 }, { "item": "fancy_boxer_briefs", "prob": 20 }, { "item": "fancy_panties", "prob": 30 }, { "item": "fancy_house_coat", "prob": 25 } ]
+    "items": [
+      [ "dress_skirt", 75 ],
+      [ "microskirt", 10 ],
+      [ "fancy_bra", 30 ],
+      [ "fancy_panties", 30 ],
+      [ "thong", 30 ],
+      { "item": "fancy_briefs", "prob": 15 },
+      { "item": "fancy_boxer_briefs", "prob": 20 },
+      { "item": "fancy_panties", "prob": 30 },
+      { "item": "fancy_house_coat", "prob": 25 }
+    ]
   },
   {
     "type": "item_group",
@@ -469,8 +482,8 @@
     "subtype": "distribution",
     "items": [
       { "item": "bikini_bottom", "prob": 20 },
-	  { "item": "bikini_bottom_fur", "prob": 5 },
-	  { "item": "bikini_bottom_leather", "prob": 10 },
+      { "item": "bikini_bottom_fur", "prob": 5 },
+      { "item": "bikini_bottom_leather", "prob": 10 },
       { "item": "fancy_bra", "prob": 60 },
       { "item": "fancy_panties", "prob": 70 },
       { "item": "thong", "prob": 70 }
