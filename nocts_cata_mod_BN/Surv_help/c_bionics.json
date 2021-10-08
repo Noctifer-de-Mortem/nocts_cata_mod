@@ -94,7 +94,7 @@
     "modes": [ [ "DEFAULT", "auto", 5 ] ],
     "reload": 500,
     "ammo_effects": [ "FLAME", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "TRADER_AVOID", "NON-FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "TRADER_AVOID", "NON-FOULING", "NEEDS_NO_LUBE", "PYROMANIAC_WEAPON" ]
   },
   {
     "type": "bionic",
