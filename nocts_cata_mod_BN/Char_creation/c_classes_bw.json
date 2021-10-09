@@ -478,7 +478,7 @@
         ],
         "entries": [
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-		  { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
+          { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
           { "item": "mx_laser_sniper_ups", "contents-item": "shoulder_strap" },
           { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" },
           { "item": "knife_combat", "container-item": "sheath" }
@@ -537,7 +537,7 @@
         ],
         "entries": [
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
-		  { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
+          { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "akro_laser_smg_ups", "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" }
@@ -573,7 +573,7 @@
       "bio_power_storage_mkII",
       "bio_str_enhancer",
       "bio_dex_enhancer",
-	  "bio_speed"
+      "bio_speed"
     ],
     "traits": [ "SUPER_SOLDIER_MARKER", "THRESH_SUPER_SOLDIER", "SENTINEL_PERK_STR_2", "SENTINEL_PERK_DEX_2" ],
     "skills": [
@@ -591,7 +591,7 @@
         "entries": [
           { "item": "two_way_radio", "contents-item": "battery_ups" },
           { "item": "krx_laser_lmg_ups", "contents-item": "shoulder_strap" },
-		  { "item": "xarm_laser_shotgun", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "xarm_laser_shotgun", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }
