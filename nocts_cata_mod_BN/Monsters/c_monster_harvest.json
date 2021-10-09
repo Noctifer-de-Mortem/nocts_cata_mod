@@ -51,7 +51,7 @@
     "id": "CBM_SOLDAT_ZOMBIE_GENERIC",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
+      { "drop": "bio_power_storage_sentinel", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "bionics_soldat_zombie_generic", "type": "bionic_group", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
@@ -62,7 +62,7 @@
     "id": "CBM_SOLDAT_ZOMBIE",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
+      { "drop": "bio_power_storage_sentinel", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "bionics_soldat_zombie", "type": "bionic_group", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
@@ -73,7 +73,7 @@
     "id": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
+      { "drop": "bio_power_storage_sentinel", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "bionics_soldat_knight_zombie", "type": "bionic_group", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
@@ -84,7 +84,7 @@
     "id": "CBM_SOLDAT_SNIPER_ZOMBIE",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
+      { "drop": "bio_power_storage_sentinel", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "bionics_soldat_sniper_zombie", "type": "bionic_group", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
@@ -95,7 +95,7 @@
     "id": "CBM_SOLDAT_TOOL_ZOMBIE",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
+      { "drop": "bio_power_storage_sentinel", "type": "bionic", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "bionics_soldat_tool_zombie", "type": "bionic_group", "flags": [ "NO_STERILE", "NO_PACKED" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
