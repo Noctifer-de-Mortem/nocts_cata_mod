@@ -420,9 +420,9 @@
         "entries": [
           { "group": "full_mil_helm" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "arc_laser_rifle_ups", "contents-item": "shoulder_strap" },
+          { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
@@ -485,8 +485,8 @@
           { "group": "full_lmil_helm" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
-          { "item": "mx_laser_sniper_ups", "contents-item": "shoulder_strap" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" },
+          { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }
@@ -543,9 +543,9 @@
           { "group": "full_lmil_helm" },
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "akro_laser_smg_ups", "contents-item": "shoulder_strap" },
+          { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
@@ -594,8 +594,8 @@
         "entries": [
           { "group": "full_hmil_helm" },
           { "item": "two_way_radio", "contents-item": "battery_ups" },
-          { "item": "krx_laser_lmg_ups", "contents-item": "shoulder_strap" },
-          { "item": "xarm_laser_shotgun", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
+          { "item": "xarm_laser_shotgun_ups", "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }
