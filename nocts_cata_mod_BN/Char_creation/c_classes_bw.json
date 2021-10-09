@@ -373,8 +373,7 @@
       "bio_shock",
       "bio_targeting",
       "bio_ups",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
+      "bio_power_storage_sentinel",
       "bio_str_enhancer",
       "bio_dex_enhancer",
       "bio_eye_enhancer",
@@ -413,9 +412,9 @@
         ],
         "entries": [
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "arc_laser_rifle_ups", "contents-item": "shoulder_strap" },
+          { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
@@ -439,8 +438,7 @@
       "bio_targeting",
       "bio_torsionratchet",
       "bio_ups",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
+      "bio_power_storage_sentinel",
       "bio_eye_enhancer",
       "bio_dex_enhancer"
     ],
@@ -479,8 +477,8 @@
         "entries": [
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
 		  { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
-          { "item": "mx_laser_sniper_ups", "contents-item": "shoulder_strap" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" },
+          { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }
@@ -504,8 +502,7 @@
       "bio_tools",
       "bio_ups",
       "bio_watch",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
+      "bio_power_storage_sentinel",
       "bio_eye_enhancer",
       "bio_int_enhancer"
     ],
@@ -538,9 +535,9 @@
         "entries": [
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
 		  { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "akro_laser_smg_ups", "contents-item": "shoulder_strap" },
+          { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "neo_laser_pistol", "ammo-item": "battery", "charges": 1000, "container-item": "XL_holster" }
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     },
@@ -569,8 +566,7 @@
       "bio_sword",
       "bio_targeting",
       "bio_ups",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
+      "bio_power_storage_sentinel",
       "bio_str_enhancer",
       "bio_dex_enhancer",
 	  "bio_speed"
@@ -590,8 +586,8 @@
         "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "hmil_armor", "hmil_helm" ],
         "entries": [
           { "item": "two_way_radio", "contents-item": "battery_ups" },
-          { "item": "krx_laser_lmg_ups", "contents-item": "shoulder_strap" },
-		  { "item": "xarm_laser_shotgun", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
+		  { "item": "xarm_laser_shotgun_ups", "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
       }

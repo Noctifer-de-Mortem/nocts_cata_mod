@@ -1098,7 +1098,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "50 ml",
-    "magazines": [ [ "battery", [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "light_atomic_battery_cell_rechargeable", "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
   },
   {
     "id": "neo_laser_pistol_ups",
@@ -1176,7 +1176,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "50 ml",
-    "magazines": [ [ "battery", [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "light_atomic_battery_cell_rechargeable", "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
   },
   {
     "id": "akro_laser_smg_ups",
@@ -1256,7 +1256,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "arc_laser_rifle_ups",
@@ -1334,7 +1334,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "600 ml",
-    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell_rechargeable", "heavy_atomic_battery_cell" ] ] ]
   },
   {
     "id": "krx_laser_lmg_ups",
@@ -1411,7 +1411,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "mx_laser_sniper_ups",
@@ -1491,7 +1491,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "xarm_laser_shotgun_ups",
