@@ -1592,7 +1592,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "PLASMA", "EXPLOSIVE_HUGE", "STREAM_BIG", "INCENDIARY", "WIDE", "EMP", "FLASHBANG" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "PYROMANIAC_WEAPON" ],
     "ups_charges": 150,
     "skill": "launcher",
     "ammo": [ "plasma" ],
