@@ -27,7 +27,6 @@
   {
     "id": "surv_suit",
     "type": "ARMOR",
-    "category": "armor",
     "name": { "str": "survivor's scout suit" },
     "description": "A home-made suit built to live off the land.  Comes with ample storage, fur lining, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection.",
     "weight": "12840 g",
@@ -75,7 +74,6 @@
   {
     "id": "surv_armor_suit",
     "type": "ARMOR",
-    "category": "armor",
     "name": { "str": "survivor's armored scout suit" },
     "//": "Harder to repair but more durable.",
     "description": "A home-made suit built to live off the land.  Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, and a makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and reinforced with metal.  It requires a separate gas mask for full protection.",
@@ -308,7 +306,6 @@
   {
     "id": "boots_stealth",
     "type": "TOOL_ARMOR",
-    "category": "armor",
     "name": { "str": "pair of mute boots", "str_pl": "pairs of mute boots" },
     "description": "Experimental reinforced boots that completely silence your steps, but also slow your movement.",
     "weight": "1280 g",
@@ -365,7 +362,6 @@
   {
     "id": "lmil_armor",
     "type": "ARMOR",
-    "category": "armor",
     "name": { "str_sp": "light military armor" },
     "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.",
     "weight": "9045 g",
@@ -389,7 +385,6 @@
   {
     "id": "mil_armor",
     "type": "ARMOR",
-    "category": "armor",
     "name": { "str_sp": "military armor" },
     "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.",
     "weight": "11700 g",
@@ -413,7 +408,6 @@
   {
     "id": "hmil_armor",
     "type": "ARMOR",
-    "category": "armor",
     "name": { "str_sp": "heavy military armor" },
     "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.",
     "weight": "20250 g",
@@ -437,7 +431,6 @@
   {
     "id": "lmil_helm",
     "type": "TOOL_ARMOR",
-    "category": "armor",
     "name": { "str_sp": "light military helmet" },
     "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.  It includes an integrated gas mask, which must be prepared before use.",
     "weight": "1005 g",
@@ -466,7 +459,6 @@
   {
     "id": "mil_helm",
     "type": "TOOL_ARMOR",
-    "category": "armor",
     "name": { "str_sp": "military helmet" },
     "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.  It includes an integrated gas mask, which must be prepared before use.",
     "weight": "1300 g",
@@ -495,7 +487,6 @@
   {
     "id": "hmil_helm",
     "type": "TOOL_ARMOR",
-    "category": "armor",
     "name": { "str_sp": "heavy military helmet" },
     "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.  It includes an integrated gas mask, which must be prepared before use.",
     "weight": "2250 g",
@@ -734,7 +725,6 @@
     "id": "c_mi_go_carapace_salvaged",
     "looks_like": "rm13_armor",
     "type": "TOOL_ARMOR",
-    "category": "armor",
     "symbol": "[",
     "color": "green",
     "name": { "str": "salvaged carapace armor" },
