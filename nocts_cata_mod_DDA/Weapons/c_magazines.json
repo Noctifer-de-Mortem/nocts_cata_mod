@@ -152,13 +152,14 @@
     "description": "An ammo belt for the survivor's .223 LMG, using canvas and steel wire to form non-disintegrating links.  Not as effective as factory-made ammunition belts, and more awkward to reload too.",
     "weight": "200 g",
     "volume": "250 ml",
+    "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "223" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "223": 80 } } ],
     "capacity": 80,
     "reload_time": 200,
-    "armor_data": { "material": [ "steel" ], "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ] } ] },
+    "armor_data": { "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ], "material": [ "steel" ] } ] },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -168,13 +169,14 @@
     "description": "An ammo belt for the survivor's 7.62x39 LMG, using canvas and steel wire to form non-disintegrating links.  Not as effective as factory-made ammunition belts, and more awkward to reload too.",
     "weight": "200 g",
     "volume": "250 ml",
+    "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "762" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "762": 80 } } ],
     "capacity": 80,
     "reload_time": 200,
-    "armor_data": { "material": [ "steel" ], "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ] } ] },
+    "armor_data": { "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ], "material": [ "steel" ] } ] },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -184,13 +186,14 @@
     "description": "An ammo belt for the survivor's .308 GPMG, using canvas and steel wire to form non-disintegrating links.  Not as effective as factory-made ammunition belts, and more awkward to reload too.",
     "weight": "200 g",
     "volume": "250 ml",
+    "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "308" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "308": 80 } } ],
     "capacity": 80,
     "reload_time": 200,
-    "armor_data": { "material": [ "steel" ], "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ] } ] },
+    "armor_data": { "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ], "material": [ "steel" ] } ] },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -201,13 +204,14 @@
     "weight": "200 g",
     "volume": "250 ml",
     "looks_like": "surv_belt_308",
+    "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "762R" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "762R": 80 } } ],
     "capacity": 80,
     "reload_time": 200,
-    "armor_data": { "material": [ "steel" ], "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ] } ] },
+    "armor_data": { "armor": [ { "encumbrance": 10, "coverage": 5, "covers": [ "torso" ], "material": [ "steel" ] } ] },
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
