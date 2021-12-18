@@ -8,7 +8,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "dodge_modifier": 1
+    "dodge_modifier": 1,
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
@@ -20,7 +21,8 @@
     "purifiable": false,
     "profession": true,
     "stamina_regen_modifier": 0.25,
-    "bleed_resist": 1
+    "bleed_resist": 1,
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
@@ -32,7 +34,8 @@
     "purifiable": false,
     "profession": true,
     "craft_skill_bonus": [ [ "computer", 2 ], [ "electronics", 2 ], [ "firstaid", 2 ] ],
-    "anger_relations": [ [ "ROBOT", -45 ] ]
+    "anger_relations": [ [ "ROBOT", -45 ] ],
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
@@ -45,7 +48,8 @@
     "profession": true,
     "stealth_modifier": 15,
     "noise_modifier": 0.85,
-    "scent_modifier": 0.85
+    "scent_modifier": 0.85,
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
@@ -55,7 +59,8 @@
     "description": "This DNA marker serves as a reminder of what you are - a Bio-Weapon.  This is for NPCs, if you have this it's a bug to pester Noctifer about!",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
@@ -66,7 +71,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "anger_relations": [ [ "FBIO-WEAPON", -25 ] ]
+    "anger_relations": [ [ "FBIO-WEAPON", -25 ] ],
+    "enchantments": [ "C_MEP_BIO_PAINREC" ]
   },
   {
     "type": "mutation",
