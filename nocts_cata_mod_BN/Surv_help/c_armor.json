@@ -769,6 +769,7 @@
     "name": { "str": "salvaged carapace armor (on)" },
     "description": "A vaguely human-shaped shell of alien sinew and steel support, covered in armor plates made of resin.  Currently active, it can protect the wearer from toxic gas, serve as a rebreather, enhance strength and dexterity, enhance stamina and carry capacity, and provide some protection from outside temperature.  In exchange, being active will steadily fatigue the user and affect healthiness, plus render them more vulnerable to electric shocks.",
     "turns_per_charge": 150,
+    "revert_to": "c_mi_go_carapace_salvaged",
     "use_action": {
       "target": "c_mi_go_carapace_salvaged",
       "msg": "The suit's sinews go slack, releasing you from its grasp.",
