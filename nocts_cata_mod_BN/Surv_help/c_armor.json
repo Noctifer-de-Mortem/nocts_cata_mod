@@ -503,7 +503,7 @@
     "coverage": 100,
     "encumbrance": 36,
     "warmth": 30,
-    "material_thickness": 6,
+    "material_thickness": 1,
     "environmental_protection": 4,
     "environmental_protection_with_filter": 16,
     "max_charges": 100,
