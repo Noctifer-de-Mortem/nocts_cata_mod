@@ -540,7 +540,7 @@
     "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bows", 5 ] ],
     "using": [ [ "filament", 100 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "survivor_pack", 1 ] ], [ [ "quiver_large", 1 ], [ "quiver", 2 ] ], [ [ "leather", 10 ], [ "tanned_hide", 2 ] ] ]
+    "components": [ [ [ "survivor_pack", 1 ] ], [ [ "quiver_large", 1 ], [ "quiver", 2 ] ], [ [ "leather", 10 ] ] ]
   },
   {
     "result": "surv_suit",
@@ -561,8 +561,8 @@
       [ [ "boots_survivor", 1 ] ],
       [ [ "hood_survivor", 1 ] ],
       [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
-      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
-      [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
+      [ [ "leather", 10 ] ],
+      [ [ "fur", 15 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
@@ -589,7 +589,7 @@
       [ [ "boots_hsurvivor", 1 ] ],
       [ [ "hood_survivor", 1 ] ],
       [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
-      [ [ "fur", 15 ], [ "tanned_pelt", 3 ] ],
+      [ [ "fur", 15 ] ],
       [ [ "duct_tape", 150 ] ],
       [ [ "kevlar_plate", 12 ] ],
       [ [ "cable", 50 ] ],
@@ -1797,7 +1797,7 @@
     "components": [
       [ [ "armor_lightplate", 1 ] ],
       [ [ "rag", 10 ] ],
-      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
+      [ [ "leather", 10 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
       [ [ "duct_tape", 300 ] ],
       [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
@@ -1835,7 +1835,7 @@
     "components": [
       [ [ "cuirass_lightplate", 1 ] ],
       [ [ "rag", 5 ] ],
-      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "leather", 5 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
       [ [ "duct_tape", 125 ] ],
       [ [ "kevlar_plate", 10 ] ]
@@ -1899,7 +1899,7 @@
     "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
     "components": [
       [ [ "helmet_plate", 1 ] ],
-      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "leather", 5 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
       [ [ "rag", 2 ], [ "bandana", 1 ] ],
       [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],

@@ -134,5 +134,10 @@
       "h_mod_min": [ 1 ],
       "h_mod_tick": [ 300 ]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "c_bio_painrec",
+    "base_mods": { "pain_min": [ -1 ], "pain_tick": [ 10 ] }
   }
 ]

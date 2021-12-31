@@ -34,7 +34,7 @@
       "terrain": { ".": [ [ "t_grass", 4 ], [ "t_grass_long", 2 ], [ "t_dirt", 1 ], [ "t_shrub", 1 ] ] },
       "place_loot": [
         { "group": "wild_bio_weapom_item", "x": [ 1, 22 ], "y": [ 9, 12 ], "repeat": [ 2, 5 ] },
-        { "group": "dead_slave_fighters", "x": [ 3, 19 ], "y": [ 12, 8 ], "repeat": [ 2, 5 ] }
+        { "group": "dead_slave_fighters", "x": [ 3, 19 ], "y": [ 8, 12 ], "repeat": [ 2, 5 ] }
       ],
       "place_monster": [
         { "monster": "mon_failed_weapon", "x": 13, "y": 22 },
