@@ -57,7 +57,7 @@
           { "id": "mil_helm", "fg": 43 },
           { "id": "overlay_worn_mil_helm", "fg": 44 },
           { "id": "hmil_helm", "fg": 45 },
-          { "id": "overlay_worn_mil_helm", "fg": 46 },
+          { "id": "overlay_worn_hmil_helm", "fg": 46 },
           { "id": "c_mi_go_carapace_salvaged", "fg": 47 },
           { "id": "overlay_worn_c_mi_go_carapace_salvaged", "fg": 48 },
           { "id": "c_mi_go_carapace_salvaged_on", "fg": 49 },
