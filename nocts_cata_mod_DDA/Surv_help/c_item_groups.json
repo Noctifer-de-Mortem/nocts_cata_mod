@@ -98,7 +98,7 @@
       { "group": "lmil_armor_collection", "prob": 1 },
       { "group": "mil_armor_collection", "prob": 1 },
       { "group": "hmil_armor_collection", "prob": 1 },
-      { "group": "ammo_atomic_batteries", "prob": 25 }
+      { "group": "ammo_atomic_batteries", "prob": 10 }
     ]
   },
   {
@@ -128,8 +128,7 @@
       [ "megamap", 5 ],
       [ "stim", 5 ],
       [ "boots_stealth", 3 ],
-      [ "acs_74_stealth_cloak_on", 3 ],
-      { "group": "ammo_atomic_batteries", "prob": 5 }
+      [ "acs_74_stealth_cloak_on", 3 ]
     ]
   },
   {
@@ -298,8 +297,7 @@
       [ "xarm_laser_shotgun", 2 ],
       [ "br_bolt_rifle_elec", 2 ],
       [ "mk_ionic_cannon", 2 ],
-      [ "cbm_rtg_inductor", 1 ],
-      { "group": "ammo_atomic_batteries_full", "prob": 5 }
+      [ "cbm_rtg_inductor", 1 ]
     ]
   },
   {
@@ -328,7 +326,8 @@
       [ "blood_m", 2 ],
       [ "blood_p", 2 ],
       [ "anesthetic_kit", 2 ],
-      { "group": "ammo_atomic_batteries", "prob": 10 }
+      { "group": "ammo_atomic_batteries", "prob": 10 },
+      { "group": "ammo_atomic_batteries_full", "prob": 5 }
     ]
   },
   {
@@ -777,33 +776,23 @@
     ]
   },
   {
-    "id": "electronics",
-    "type": "item_group",
-    "items": [ { "group": "ammo_atomic_batteries", "prob": 1 } ]
-  },
-  {
-    "id": "tools_science",
-    "type": "item_group",
-    "items": [ { "group": "ammo_atomic_batteries_full", "prob": 10 } ]
-  },
-  {
     "id": "ammo_atomic_batteries",
     "type": "item_group",
     "items": [
-      { "item": "light_battery_cell", "prob": 4, "charges-min": 0, "charges-max": 1000 },
-      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges-min": 0, "charges-max": 500 },
-      { "item": "medium_battery_cell", "prob": 2, "charges-min": 0, "charges-max": 5000 },
-      { "item": "heavy_battery_cell", "prob": 1, "charges-min": 0, "charges-max": 10000 }
+      { "item": "light_atomic_battery_cell", "prob": 4, "charges": [ 500, 1000 ] },
+      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges": [ 250, 500 ] },
+      { "item": "medium_atomic_battery_cell", "prob": 2, "charges": [ 2500, 5000 ] },
+      { "item": "heavy_atomic_battery_cell", "prob": 1, "charges": [ 5000, 10000 ] }
     ]
   },
   {
     "id": "ammo_atomic_batteries_full",
     "type": "item_group",
     "items": [
-      { "item": "light_battery_cell", "prob": 4, "charges-min": 1000, "charges-max": 1000 },
-      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges-min": 500, "charges-max": 500 },
-      { "item": "medium_battery_cell", "prob": 2, "charges-min": 5000, "charges-max": 5000 },
-      { "item": "heavy_battery_cell", "prob": 1, "charges-min": 10000, "charges-max": 10000 }
+      { "item": "light_atomic_battery_cell", "prob": 4, "charges": 1000 },
+      { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges": 500 },
+      { "item": "medium_atomic_battery_cell", "prob": 2, "charges": 5000 },
+      { "item": "heavy_atomic_battery_cell", "prob": 1, "charges": 10000 }
     ]
   },
   {
@@ -856,6 +845,24 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "item": "mil_armor" }, { "item": "mil_helm", "prob": 90, "charges": [ 0, 100 ] } ]
+  },
+  {
+    "id": "robofac_basic_trade",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "group": "ammo_atomic_batteries_full", "prob": 100 } ]
+  },
+  {
+    "id": "spider",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "group": "ammo_atomic_batteries", "prob": 5 } ]
+  },
+  {
+    "id": "teleport",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "group": "ammo_atomic_batteries", "prob": 10 }, { "group": "ammo_atomic_batteries_full", "prob": 10 } ]
   },
   {
     "id": "hmil_armor_collection",
