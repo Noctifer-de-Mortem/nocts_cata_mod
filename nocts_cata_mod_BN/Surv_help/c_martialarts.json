@@ -16,8 +16,7 @@
       {
         "id": "buff_surv_com_onmove",
         "name": "Elusiveness",
-        "//": "Note: Doubled percentage signs are needed for correct formatting, not a typo.",
-        "description": "Quick and fluid movements make you harder to catch.\n\n+1 Dodge attempts, Dodge skill increased by 25%% of Intelligence, immunity to knockdown.\nLasts for 1 turn.",
+        "description": "Quick and fluid movements make you harder to catch.\n\n+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to knockdown.\nLasts for 1 turn.",
         "skill_requirements": [ { "name": "melee", "level": 4 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -31,7 +30,7 @@
       {
         "id": "buff_surv_com_onhit",
         "name": "Active Defense",
-        "description": "The best defense is a good offense.\n\n+1 Block attempts, damage blocked increased by 100%% of Intelligence.\nLasts 2 turns.",
+        "description": "The best defense is a good offense.\n\n+1 Block attempts, damage blocked increased by 100% of Intelligence.\nLasts 2 turns.",
         "skill_requirements": [ { "name": "melee", "level": 5 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
@@ -44,7 +43,7 @@
       {
         "id": "buff_surv_com_onkill",
         "name": "Misdirection",
-        "description": "The shock and awe of combat gives you an opportunity to slip away.\n\n+2 Block attempts, +2 Dodge attempts, movement speed increased by 100%% of Intelligence, moving generates 1/2 as much noise.\nLast 6 turns.",
+        "description": "The shock and awe of combat gives you an opportunity to slip away.\n\n+2 Block attempts, +2 Dodge attempts, movement speed increased by 100% of Intelligence, moving generates 1/2 as much noise.\nLast 6 turns.",
         "skill_requirements": [ { "name": "melee", "level": 6 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
