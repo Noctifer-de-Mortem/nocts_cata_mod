@@ -156,8 +156,7 @@
       [ "surv_sniper", 2 ],
       [ "elc_bld", 2 ],
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ]
+      { "group": "survivor_combative_books", "prob": 2 }
     ]
   },
   {
@@ -165,6 +164,11 @@
     "type": "item_group",
     "subtype": "collection",
     "groups": [ [ "encylopedias_rare", 5 ] ]
+  },
+  {
+    "id": "survivor_combative_books",
+    "type": "item_group",
+    "items": [ [ "manual_surv_com", 75 ], [ "manual_biojutsu", 20 ], [ "manual_mut_com", 5 ] ]
   },
   {
     "id": "encylopedias_common",
@@ -237,8 +241,7 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ],
+      { "group": "survivor_combative_books", "prob": 1 },
       { "group": "encylopedias_common", "prob": 1 }
     ]
   },
@@ -247,8 +250,7 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ],
+      { "group": "survivor_combative_books", "prob": 1 },
       { "group": "encylopedias_common", "prob": 1 }
     ]
   },
@@ -257,8 +259,7 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ],
+      { "group": "survivor_combative_books", "prob": 3 },
       { "group": "encylopedias_common", "prob": 5 }
     ]
   },
@@ -267,8 +268,7 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 1 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ],
+      { "group": "survivor_combative_books", "prob": 1 },
       { "group": "encylopedias_common", "prob": 1 },
       [ "biomap", 1 ]
     ]
@@ -278,8 +278,7 @@
     "type": "item_group",
     "items": [
       [ "recipe_surv", 2 ],
-      [ "manual_surv_com", 1 ],
-      [ "manual_biojutsu", 1 ],
+      { "group": "survivor_combative_books", "prob": 1 },
       { "group": "encylopedias_common", "prob": 1 }
     ]
   },
@@ -864,5 +863,40 @@
     "id": "c_mi_go_advanced_dissection_myrmidon",
     "subtype": "distribution",
     "items": [ [ "c_mi_go_carapace_broken", 3 ], [ "c_mi_go_beam_broken", 1 ], [ "c_mi_go_claw_broken", 1 ] ]
+  },
+  {
+    "id": "sewer",
+    "type": "item_group",
+    "items": [ [ "manual_mut_com", 1 ] ]
+  },
+  {
+    "id": "sewage_plant",
+    "type": "item_group",
+    "items": [ [ "manual_mut_com", 1 ] ]
+  },
+  {
+    "id": "toxic_dump_equipment",
+    "type": "item_group",
+    "items": [ [ "manual_mut_com", 1 ] ]
+  },
+  {
+    "id": "trash",
+    "type": "item_group",
+    "items": [ [ "manual_mut_com", 1 ] ]
+  },
+  {
+    "id": "book_martial",
+    "type": "item_group",
+    "items": [ { "group": "survivor_combative_books", "prob": 5 } ]
+  },
+  {
+    "id": "book_military",
+    "type": "item_group",
+    "items": [ { "group": "survivor_combative_books", "prob": 10 } ]
+  },
+  {
+    "id": "rare_martial_arts_books",
+    "type": "item_group",
+    "items": [ { "group": "survivor_combative_books", "prob": 1 } ]
   }
 ]

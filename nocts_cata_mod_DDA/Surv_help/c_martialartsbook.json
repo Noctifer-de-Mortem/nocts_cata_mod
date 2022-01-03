@@ -32,5 +32,22 @@
       "chapters": 3,
       "martial_art": "style_biojutsu"
     }
+  },
+  {
+    "id": "manual_mut_com",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": { "str": "Post-Human Combatives Manual" },
+    "description": "A very lengthy and boring journal detailing the ramblings of some increasingly mutated and augmented survivor, and the unorthodox combat techniques they developed to suit their inhuman abilities.",
+    "book_data": {
+      "max_level": 10,
+      "intelligence": 8,
+      "time": "50 m",
+      "fun": -2,
+      "skill": "melee",
+      "required_level": 7,
+      "chapters": 4,
+      "martial_art": "style_mut_com"
+    }
   }
 ]
