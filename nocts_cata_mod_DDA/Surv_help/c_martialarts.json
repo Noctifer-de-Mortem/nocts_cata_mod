@@ -68,7 +68,7 @@
     "name": { "str": "Post-Human Combatives" },
     "description": "You've learned a number of tricks to take advantage of the potential that abandoning your humanity can offer.  Focused on heavy, powerful weapons or mutant limbs, a supernaturally strong post-human can use their abilities to great effect.",
     "initiate": [ "Your loosen your footwork and let your instincts take over.", "%s enters a loose, animalistic stance." ],
-    "learn_difficulty": 9,
+    "learn_difficulty": 7,
     "primary_skill": "melee",
     "static_buffs": [
       {
