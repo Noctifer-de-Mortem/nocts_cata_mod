@@ -102,7 +102,7 @@
         "skill_requirements": [ { "name": "melee", "level": 4 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "buff_duration": 2,
+        "buff_duration": 3,
         "max_stacks": 3,
         "flat_bonuses": [
           { "stat": "speed", "scaling-stat": "str", "scale": 0.45 },
@@ -120,13 +120,10 @@
         "melee_allowed": true,
         "buff_duration": 2,
         "max_stacks": 2,
-        "flat_bonuses": [
-          { "stat": "hit", "scale": 2 },
-          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.3 }
-        ]
+        "flat_bonuses": [ { "stat": "hit", "scale": 2 }, { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.3 } ]
       }
     ],
-    "techniques": [ "tec_mut_com_battering_ram", "tec_mut_com_overrun", "tec_mut_com_stampeding_strike" ],
+    "techniques": [ "tec_mut_com_battering_ram", "tec_mut_com_overrun", "tec_mut_com_stampeding_strike", "tec_mut_com_feint" ],
     "weapons": [
       "2h_flail_steel",
       "2h_flail_wood",
@@ -258,15 +255,7 @@
     "type": "martial_art",
     "name": "Ninjutsu",
     "extend": {
-      "weapons": [
-        "elc_bld",
-        "elc_blds",
-        "molded_knife",
-        "unbio_bladed_weapon",
-        "unbio_sword_weapon",
-        "flesh_knife",
-        "flesh_blade"
-      ]
+      "weapons": [ "elc_bld", "elc_blds", "molded_knife", "unbio_bladed_weapon", "unbio_sword_weapon", "flesh_knife", "flesh_blade" ]
     }
   },
   {
