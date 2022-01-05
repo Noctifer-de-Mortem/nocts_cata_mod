@@ -18,7 +18,7 @@
     "modes": [ [ "DEFAULT", "auto", 5 ] ],
     "reload": 500,
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", :"NO_DROP", "TRADER_AVOID", "NON-FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "NO_DROP", "TRADER_AVOID", "NON-FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "type": "bionic",
