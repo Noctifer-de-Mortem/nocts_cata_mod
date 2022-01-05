@@ -76,7 +76,7 @@
     "skill_requirements": [ { "name": "melee", "level": 6 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "req_buffs": [ "buff_mut_com_onmove" ],
+    "required_buffs_all": [ "buff_mut_com_onmove" ],
     "crit_tec": true,
     "stun_dur": 2,
     "knockback_dist": 4,

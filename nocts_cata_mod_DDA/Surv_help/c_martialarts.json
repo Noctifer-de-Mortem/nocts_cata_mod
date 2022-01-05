@@ -16,12 +16,13 @@
       {
         "id": "buff_surv_com_onmove",
         "name": "Elusiveness",
-        "description": "Quick and fluid movements make you harder to catch.\n\n+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to knockdown.\nLasts for 1 turn.",
+        "description": "Quick and fluid movements make you harder to catch.\n\n+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to knockdown.\nLasts 3 turns, stacks 2 times.",
         "skill_requirements": [ { "name": "melee", "level": 4 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
         "throw_immune": true,
-        "buff_duration": 1,
+        "buff_duration": 3,
+        "max_stacks": 2,
         "bonus_dodges": 1,
         "flat_bonuses": [ { "stat": "dodge", "scaling-stat": "int", "scale": 0.25 } ]
       }
@@ -30,11 +31,12 @@
       {
         "id": "buff_surv_com_onhit",
         "name": "Active Defense",
-        "description": "The best defense is a good offense.\n\n+1 Block attempts, damage blocked increased by 100% of Intelligence.\nLasts 2 turns.",
+        "description": "The best defense is a good offense.\n\n+1 Block attempts, damage blocked increased by 100% of Intelligence.\nLasts 2 turns, stacks 2 times.",
         "skill_requirements": [ { "name": "melee", "level": 5 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
         "buff_duration": 2,
+        "max_stacks": 2,
         "bonus_blocks": 1,
         "flat_bonuses": [ { "stat": "block", "scaling-stat": "int", "scale": 1.0 } ]
       }
@@ -129,16 +131,12 @@
       "2h_flail_wood",
       "chainsaw_off",
       "chainsaw_on",
-      "cs_lajatang_off",
-      "cs_lajatang_on",
       "combatsaw_off",
       "combatsaw_on",
       "e_combatsaw_off",
       "e_combatsaw_on",
       "elec_chainsaw_off",
       "elec_chainsaw_on",
-      "ecs_lajatang_off",
-      "ecs_lajatang_on",
       "glaive",
       "halberd",
       "halberd_fake",
