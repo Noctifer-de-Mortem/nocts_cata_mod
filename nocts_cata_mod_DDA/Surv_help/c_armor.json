@@ -721,7 +721,7 @@
     "looks_like": "panties",
     "color": "white",
     "warmth": 5,
-    "material_thickness": 10,
+    "material_thickness": 1,
     "flags": [ "VARSIZE", "SKINTIGHT", "SUPER_FANCY" ],
     "armor": [
       { "encumbrance": 0, "coverage": 15, "covers": [ "leg_r", "leg_l" ] }
