@@ -790,5 +790,42 @@
     "encumbrance": 10,
     "weight_capacity_modifier": 2,
     "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER" ] }
+  },
+  {
+    "id": "cowboy_hat_surv",
+    "copy-from": "cowboy_hat",
+    "type": "ARMOR",
+    "name": { "str": "survivor cowboy hat" },
+    "description": "A wide-brimmed hat that's been modified with kevlar padding, and bandolier loops sewn onto the hat band.  Perfect for holding a few cartridges somewhere out of the way, sized for just about anything that fits in some form of revolver.",
+    "weight": "420 g",
+    "price_postapoc": 500,
+    "material": [ "leather", "cotton", "kevlar" ],
+    "coverage": 75,
+    "encumbrance": 20,
+    "warmth": 10,
+    "material_thickness": 4,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 6,
+      "ammo": [
+        "22",
+        "38",
+        "357mag",
+        "40",
+        "44",
+        "45",
+        "45colt",
+        "454",
+        "500",
+        "8x40mm",
+        "4570",
+        "410shot",
+        "shot",
+        "36paper",
+        "44paper"
+      ],
+      "draw_cost": 30
+    },
+    "extend": { "effects": [ "STURDY" ] }
   }
 ]
