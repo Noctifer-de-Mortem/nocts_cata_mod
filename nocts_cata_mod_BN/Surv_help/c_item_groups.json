@@ -15,10 +15,15 @@
     "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
+    "id": "gunmod_common",
+    "type": "item_group",
+    "items": [ [ "auto_case", 10 ] ]
+  },
+  {
     "id": "gunmod_rare",
     "type": "item_group",
     "items": [
-      [ "auto_case", 10 ],
+      [ "auto_case", 20 ],
       [ "fr_22", 2 ],
       [ "fr_223", 2 ],
       [ "fr_308", 2 ],
@@ -30,6 +35,11 @@
       [ "9mmaux", 1 ],
       [ "45aux", 1 ]
     ]
+  },
+  {
+    "id": "metal_workshop",
+    "type": "item_group",
+    "items": [ [ "auto_case", 20 ] ]
   },
   {
     "id": "cop_evidence",
@@ -283,7 +293,12 @@
   {
     "id": "gear_survival",
     "type": "item_group",
-    "items": [ { "group": "encylopedias_common", "prob": 10 }, { "group": "encylopedias_rare", "prob": 5 }, [ "biomap", 1 ] ]
+    "items": [
+      { "group": "encylopedias_common", "prob": 10 },
+      { "group": "encylopedias_rare", "prob": 5 },
+      [ "biomap", 1 ],
+      [ "auto_case", 10 ]
+    ]
   },
   {
     "id": "helicopter",
