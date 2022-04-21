@@ -7,8 +7,9 @@
     "specific_heat_liquid": 1,
     "specific_heat_solid": 0.75,
     "latent_heat": 303,
-    "bash_resist": 18,
-    "cut_resist": 38,
+    "bash_resist": 19,
+    "cut_resist": 19,
+    "bullet_resist": 39,
     "acid_resist": 5,
     "fire_resist": 10,
     "elec_resist": 5,
@@ -24,7 +25,8 @@
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
     "bash_resist": 38,
-    "cut_resist": 78
+    "cut_resist": 38,
+    "bullet_resist": 78
   },
   {
     "type": "material",
@@ -32,6 +34,7 @@
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
     "bash_resist": 54,
-    "cut_resist": 114
+    "cut_resist": 54,
+    "bullet_resist": 117
   }
 ]
