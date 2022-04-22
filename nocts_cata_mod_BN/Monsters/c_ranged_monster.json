@@ -7,7 +7,7 @@
     "description": "Version of the NEO-33 for use by monsters, with explicit overrides to ensure that it won't light players on fire.  This is a bug if you find one of these!",
     "dispersion": 2000,
     "sight_dispersion": 500,
-    "ranged_damage": { "damage_type": "stab", "amount": 16, "armor_penetration": 5 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 16, "armor_penetration": 5 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_20" ] }
   },
   {
@@ -18,7 +18,7 @@
     "description": "Version of the AKRO-388 for use by monsters.  This is a bug if you find one of these!",
     "dispersion": 3000,
     "sight_dispersion": 500,
-    "ranged_damage": { "damage_type": "stab", "amount": 16, "armor_penetration": 5 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 16, "armor_penetration": 5 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_20" ] }
   },
   {
@@ -29,7 +29,7 @@
     "description": "Version of the ARC-314 for use by monsters.  This is a bug if you find one of these!",
     "dispersion": 4000,
     "sight_dispersion": 500,
-    "ranged_damage": { "damage_type": "stab", "amount": 40, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 10 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
@@ -40,7 +40,7 @@
     "description": "Version of the KRX-108 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
     "dispersion": 5000,
     "sight_dispersion": 500,
-    "ranged_damage": { "damage_type": "stab", "amount": 40, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 10 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
@@ -51,7 +51,7 @@
     "description": "Version of the MX-84 for use by monsters, to account for increased accuracy of ranged attacks.  This is a bug if you find one of these!",
     "dispersion": 6000,
     "sight_dispersion": 250,
-    "ranged_damage": { "damage_type": "stab", "amount": 80, "armor_penetration": 20 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 80, "armor_penetration": 20 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_100" ] }
   },
   {
@@ -62,7 +62,7 @@
     "description": "Version of the XARM-37 for use by monsters.  This is a bug if you find one of these!",
     "dispersion": 2000,
     "sight_dispersion": 250,
-    "ranged_damage": { "damage_type": "stab", "amount": 80, "armor_penetration": 5 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 80, "armor_penetration": 5 },
     "delete": { "ammo_effects": [ "INCENDIARY" ], "flags": [ "FIRE_50" ] }
   },
   {
@@ -91,6 +91,6 @@
     "dispersion": 5000,
     "sight_dispersion": 1000,
     "modes": [ [ "DEFAULT", "auto", 3 ] ],
-    "ranged_damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 15 }
+    "ranged_damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 15 }
   }
 ]
