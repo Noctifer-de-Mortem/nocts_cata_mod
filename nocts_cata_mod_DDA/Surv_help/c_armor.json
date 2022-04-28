@@ -1,5 +1,13 @@
 [
   {
+    "type": "charge_removal_blacklist",
+    "list": [
+      "lmil_helm",
+      "mil_helm",
+      "hmil_helm"
+    ]
+  },
+  {
     "id": "survbowpack",
     "type": "ARMOR",
     "name": { "str": "survivor's archer backpack" },
@@ -409,7 +417,7 @@
     "looks_like": "power_armor_light",
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [
       {
@@ -435,9 +443,9 @@
     "symbol": "[",
     "color": "dark_gray",
     "looks_like": "power_armor_basic",
-    "warmth": 40,
+    "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [
       {
@@ -465,7 +473,7 @@
     "looks_like": "power_armor_heavy",
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE" ],
     "armor": [
       {
@@ -477,10 +485,10 @@
   },
   {
     "id": "lmil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "light military helmet" },
-    "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.",
     "weight": "1005 g",
     "volume": "1 L",
     "price": "1600 USD",
@@ -493,20 +501,16 @@
     "looks_like": "power_armor_helmet_light",
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gasfilter_m": 100 } } ],
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
-    "flags": [ "STURDY", "NO_SALVAGE", "SLEEP_IGNORE" ],
+    "environmental_protection": 5,
+    "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [ { "encumbrance": 12, "coverage": 100, "covers": [ "head", "eyes", "mouth" ] } ]
   },
   {
     "id": "mil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "military helmet" },
-    "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.",
     "weight": "1300 g",
     "volume": "1250 ml",
     "price": "1750 USD",
@@ -517,22 +521,18 @@
     "symbol": "[",
     "color": "dark_gray",
     "looks_like": "power_armor_helmet_basic",
-    "warmth": 40,
+    "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gasfilter_m": 100 } } ],
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
-    "flags": [ "STURDY", "NO_SALVAGE", "SLEEP_IGNORE" ],
+    "environmental_protection": 5,
+    "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [ { "encumbrance": 24, "coverage": 100, "covers": [ "head", "eyes", "mouth" ] } ]
   },
   {
     "id": "hmil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "heavy military helmet" },
-    "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.",
     "weight": "2250 g",
     "volume": "1500 ml",
     "price": "2000 USD",
@@ -545,11 +545,7 @@
     "looks_like": "power_armor_helmet_heavy",
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gasfilter_m": 100 } } ],
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE", "SLEEP_IGNORE" ],
     "armor": [ { "encumbrance": 36, "coverage": 100, "covers": [ "head", "eyes", "mouth" ] } ]
   },
