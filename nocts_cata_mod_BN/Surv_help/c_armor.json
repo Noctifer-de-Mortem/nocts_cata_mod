@@ -1,5 +1,13 @@
 [
   {
+    "type": "charge_removal_blacklist",
+    "list": [
+      "lmil_helm",
+      "mil_helm",
+      "hmil_helm"
+    ]
+  },
+  {
     "id": "survbowpack",
     "type": "ARMOR",
     "name": { "str": "survivor's archer backpack" },
@@ -386,7 +394,7 @@
     "encumbrance": 12,
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NO_SALVAGE" ]
   },
   {
@@ -407,9 +415,9 @@
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
     "encumbrance": 24,
-    "warmth": 40,
+    "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NO_SALVAGE" ]
   },
   {
@@ -432,14 +440,14 @@
     "encumbrance": 36,
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
+    "environmental_protection": 5,
     "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE" ]
   },
   {
     "id": "lmil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "name": { "str_sp": "light military helmet" },
-    "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.",
     "weight": "1005 g",
     "volume": "1 L",
     "price": "1600 USD",
@@ -455,19 +463,14 @@
     "encumbrance": 12,
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "max_charges": 100,
-    "initial_charges": 100,
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
-    "flags": [ "STURDY", "NO_SALVAGE", "SLEEP_IGNORE" ]
+    "environmental_protection": 5,
+    "flags": [ "STURDY", "NO_SALVAGE" ]
   },
   {
     "id": "mil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "name": { "str_sp": "military helmet" },
-    "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.",
     "weight": "1300 g",
     "volume": "1250 ml",
     "price": "1750 USD",
@@ -481,21 +484,16 @@
     "covers": [ "head", "eyes", "mouth" ],
     "coverage": 100,
     "encumbrance": 24,
-    "warmth": 40,
+    "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "max_charges": 100,
-    "initial_charges": 100,
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
-    "flags": [ "STURDY", "NO_SALVAGE", "SLEEP_IGNORE" ]
+    "environmental_protection": 5,
+    "flags": [ "STURDY", "NO_SALVAGE" ]
   },
   {
     "id": "hmil_helm",
-    "type": "TOOL_ARMOR",
+    "type": "ARMOR",
     "name": { "str_sp": "heavy military helmet" },
-    "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.  It includes an integrated gas mask, which must be prepared before use.",
+    "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.",
     "weight": "2250 g",
     "volume": "1500 ml",
     "price": "2000 USD",
@@ -511,13 +509,8 @@
     "encumbrance": 36,
     "warmth": 30,
     "material_thickness": 1,
-    "environmental_protection": 4,
-    "environmental_protection_with_filter": 16,
-    "max_charges": 100,
-    "initial_charges": 100,
-    "ammo": "gasfilter_m",
-    "use_action": "GASMASK",
-    "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE", "SLEEP_IGNORE" ]
+    "environmental_protection": 5,
+    "flags": [ "STURDY", "NO_SALVAGE" ]
   },
   {
     "id": "fancy_house_coat",

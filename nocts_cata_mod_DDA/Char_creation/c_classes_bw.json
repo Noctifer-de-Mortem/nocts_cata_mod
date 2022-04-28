@@ -1,23 +1,5 @@
 [
   {
-    "type": "item_group",
-    "subtype": "collection",
-    "id": "full_lmil_helm",
-    "entries": [ { "item": "lmil_helm", "ammo-item": "gasfilter_m", "charges": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
-    "id": "full_mil_helm",
-    "entries": [ { "item": "mil_helm", "ammo-item": "gasfilter_m", "charges": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
-    "id": "full_hmil_helm",
-    "entries": [ { "item": "hmil_helm", "ammo-item": "gasfilter_m", "charges": 100 } ]
-  },
-  {
     "type": "profession",
     "id": "failed_weapon",
     "name": "Failed Bio-Weapon",
@@ -412,9 +394,17 @@
     "proficiencies": [ "prof_gunsmithing_basic", "prof_traps", "prof_disarming", "prof_spotting" ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_armor", "molle_pack" ],
+        "items": [
+          "helmet_liner",
+          "thermal_shirt",
+          "gloves_liner",
+          "under_armor_shorts",
+          "socks",
+          "mil_armor",
+          "mil_helm",
+          "molle_pack"
+        ],
         "entries": [
-          { "group": "full_mil_helm" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" },
@@ -469,6 +459,7 @@
           "under_armor_shorts",
           "socks",
           "lmil_armor",
+          "lmil_helm",
           "rucksack",
           "dump_pouch",
           "2lcanteen",
@@ -479,7 +470,6 @@
           "rollmat"
         ],
         "entries": [
-          { "group": "full_lmil_helm" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
           { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
@@ -534,11 +524,11 @@
           "under_armor_shorts",
           "socks",
           "lmil_armor",
+          "lmil_helm",
           "molle_pack",
           "id_science"
         ],
         "entries": [
-          { "group": "full_lmil_helm" },
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
@@ -589,9 +579,8 @@
     "proficiencies": [ "prof_gunsmithing_basic", "prof_traps", "prof_disarming", "prof_spotting" ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "hmil_armor" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "hmil_armor", "hmil_helm" ],
         "entries": [
-          { "group": "full_hmil_helm" },
           { "item": "two_way_radio", "contents-item": "battery_ups" },
           { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
           { "item": "xarm_laser_shotgun_ups", "contents-item": "shoulder_strap" },
