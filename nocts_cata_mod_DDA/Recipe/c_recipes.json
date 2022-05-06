@@ -2509,35 +2509,6 @@
   },
   {
     "type": "recipe",
-    "result": "autoclave_makeshift",
-    "activity_level": "MODERATE_EXERCISE",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_TOOLS",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "mechanics", 4 ], [ "firstaid", 4 ] ],
-    "difficulty": 6,
-    "time": "3 h",
-    "book_learn": [
-      [ "textbook_fabrication", 7 ],
-      [ "textbook_mechanics", 7 ],
-      [ "recipe_augs", 6 ],
-      [ "recipe_mil_augs", 6 ],
-      [ "recipe_lab_elec", 5 ]
-    ],
-    "using": [ [ "welding_standard", 50 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "WRENCH", "level": 2 }, { "id": "SAW_M", "level": 2 } ],
-    "components": [
-      [ [ "pressure_cooker", 1 ] ],
-      [ [ "i6_diesel", 1 ], [ "v6_diesel", 1 ] ],
-      [ [ "metal_tank", 1 ] ],
-      [ [ "pump_complex", 1 ] ],
-      [ [ "hose", 2 ] ],
-      [ [ "cu_pipe", 4 ] ],
-      [ [ "thermometer", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "pouch_autoclave",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
