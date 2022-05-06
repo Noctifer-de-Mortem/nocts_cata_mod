@@ -1,11 +1,7 @@
 [
   {
     "type": "charge_removal_blacklist",
-    "list": [
-      "lmil_helm",
-      "mil_helm",
-      "hmil_helm"
-    ]
+    "list": [ "lmil_helm", "mil_helm", "hmil_helm" ]
   },
   {
     "id": "survbowpack",
@@ -404,7 +400,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "light military armor" },
-    "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.",
+    "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.  It also has two pouches for various sizes of small and medium magazines.",
     "weight": "9045 g",
     "volume": "10250 ml",
     "price": "1600 USD",
@@ -418,6 +414,26 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
+    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "pocket_data": [
+      {
+        "moves": 40,
+        "min_volume": "35 ml",
+        "max_contains_volume": "525 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT" ]
+      },
+      {
+        "moves": 40,
+        "min_volume": "35 ml",
+        "max_contains_volume": "525 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
     "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [
       {
@@ -432,7 +448,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "military armor" },
-    "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.",
+    "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.  It also has two pouches for various sizes of small and medium magazines.",
     "weight": "11700 g",
     "volume": "11250 ml",
     "price": "1750 USD",
@@ -446,6 +462,26 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
+    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "pocket_data": [
+      {
+        "moves": 40,
+        "min_volume": "35 ml",
+        "max_contains_volume": "525 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT" ]
+      },
+      {
+        "moves": 40,
+        "min_volume": "35 ml",
+        "max_contains_volume": "525 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
     "flags": [ "STURDY", "NO_SALVAGE" ],
     "armor": [
       {
@@ -460,7 +496,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str_sp": "heavy military armor" },
-    "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.",
+    "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.  It also has two pouches for various sizes of medium and large magazines.",
     "weight": "20250 g",
     "volume": "13500 ml",
     "price": "2000 USD",
@@ -474,6 +510,26 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
+    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "pocket_data": [
+      {
+        "moves": 40,
+        "min_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      },
+      {
+        "moves": 40,
+        "min_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "holster": true,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
     "flags": [ "STURDY", "NONCONDUCTIVE", "NO_SALVAGE" ],
     "armor": [
       {
@@ -859,54 +915,117 @@
     "pocket_data": [
       {
         "ammo_restriction": {
-          "32": 6,
-          "762x25": 6,
-          "38": 6,
-          "357mag": 6,
-          "357sig": 6,
-          "380": 6,
-          "38super": 6,
-          "40": 6,
-          "10mm": 6,
-          "44": 6,
-          "45": 6,
-          "45colt": 6,
-          "46": 6,
-          "57": 6,
-          "9x18": 6,
-          "9mm": 6,
-          "454": 6,
-          "460": 6,
-          "500": 6,
-          "22": 6,
-          "223": 6,
-          "270win": 6,
-          "300blk": 6,
-          "5x50": 6,
-          "545x39": 6,
-          "3006": 6,
-          "308": 6,
-          "300": 6,
-          "762": 6,
-          "762R": 6,
-          "8x40mm": 6,
-          "4570": 6,
-          "50": 6,
-          "700nx": 6,
-          "410shot": 6,
-          "shot": 6,
-          "20x66mm": 6,
-          "signal_flare": 6,
-          "flintlock": 6,
-          "36paper": 6,
-          "44paper": 6,
-          "blunderbuss": 6,
-          "shotpaper": 6
+          "32": 12,
+          "762x25": 12,
+          "38": 12,
+          "357mag": 12,
+          "357sig": 12,
+          "380": 12,
+          "38super": 12,
+          "40": 12,
+          "10mm": 12,
+          "44": 12,
+          "45": 12,
+          "45colt": 12,
+          "46": 12,
+          "57": 12,
+          "9x18": 12,
+          "9mm": 12,
+          "454": 12,
+          "460": 12,
+          "500": 12,
+          "22": 12,
+          "223": 12,
+          "270win": 12,
+          "300blk": 12,
+          "5x50": 12,
+          "545x39": 12,
+          "3006": 12,
+          "308": 12,
+          "300": 12,
+          "762": 12,
+          "762R": 12,
+          "8x40mm": 12,
+          "4570": 12,
+          "50": 12,
+          "700nx": 12,
+          "410shot": 12,
+          "shot": 12,
+          "20x66mm": 12,
+          "signal_flare": 12,
+          "flintlock": 12,
+          "36paper": 12,
+          "44paper": 12,
+          "blunderbuss": 12,
+          "shotpaper": 12
         },
         "moves": 30
       }
     ],
     "armor": [ { "encumbrance": 20, "coverage": 75, "covers": [ "head" ] } ],
     "extend": { "effects": [ "STURDY" ] }
+  },
+  {
+    "type": "ARMOR",
+    "id": "legrig_surv",
+    "name": { "str": "survivor leg rig" },
+    "description": "A custom set of low-slung adjustable straps and rings, designed to secure a variety of equipment strapped to the legs.  Its straps can handle a wide range of short blades, firearms, magazines, and most items that would fit on a tool belt.  Activate it to store up to 4 items.",
+    "weight": "250 g",
+    "volume": "1500 ml",
+    "price": "100 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "cotton", "leather" ],
+    "symbol": "[",
+    "looks_like": "legrig",
+    "color": "dark_gray",
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "moves": 75,
+        "min_volume": "50 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "762 mm",
+        "skills": [ "pistol", "smg", "shotgun", "rifle" ],
+        "holster": true
+      },
+      {
+        "moves": 75,
+        "min_volume": "50 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "762 mm",
+        "skills": [ "pistol", "smg", "shotgun", "rifle" ],
+        "holster": true
+      },
+      {
+        "moves": 75,
+        "min_volume": "50 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "762 mm",
+        "holster": true,
+        "flag_restriction": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
+      },
+      {
+        "moves": 75,
+        "min_volume": "50 ml",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "762 mm",
+        "holster": true,
+        "flag_restriction": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Stash item", "holster_msg": "You stash your %s" },
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE" ],
+    "armor": [
+      {
+        "encumbrance": [ 2, 6 ],
+        "coverage": 20,
+        "covers": [ "leg_l", "leg_r" ],
+        "specifically_covers": [ "leg_upper_r", "leg_upper_l" ]
+      }
+    ]
   }
 ]
