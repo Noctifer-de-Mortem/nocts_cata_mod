@@ -50,9 +50,7 @@
           "mre_beef_box",
           "mil_surp_pack_2"
         ],
-        "entries": [
-          { "item": "knife_rambo", "container-item": "scabbard" }
-        ]
+        "entries": [ { "item": "knife_rambo", "container-item": "scabbard" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
@@ -93,6 +91,7 @@
           "fur_rollmat",
           "press",
           "puller",
+          "pipe_cleaner",
           "pocketwatch"
         ],
         "entries": [
@@ -101,6 +100,8 @@
           { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_surv_drifter" },
           { "item": "knife_hunting", "container-item": "sheath" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "vinegar", "container-item": "bottle_plastic_small" },
+          { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
           { "item": "36navy_makeshift_magnum", "charges": 8 }
         ]
       },

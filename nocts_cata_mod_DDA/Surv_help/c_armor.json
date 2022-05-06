@@ -1018,7 +1018,7 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash item", "holster_msg": "You stash your %s" },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE" ],
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "NO_QUICKDRAW" ],
     "armor": [
       {
         "encumbrance": [ 2, 6 ],
