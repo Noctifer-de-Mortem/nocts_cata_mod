@@ -9,7 +9,7 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "cowboy_hat_surv_surv_drifter",
-    "entries": [ { "item": "36navy_makeshift_magnum", "charges": 6 } ]
+    "entries": [ { "item": "36navy_makeshift_magnum", "charges": 12 } ]
   },
   {
     "type": "profession",
@@ -101,7 +101,7 @@
           { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_surv_drifter" },
           { "item": "knife_hunting", "container-item": "sheath" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "36navy_makeshift_magnum", "charges": 14 }
+          { "item": "36navy_makeshift_magnum", "charges": 8 }
         ]
       },
       "male": [ "boxer_shorts" ],

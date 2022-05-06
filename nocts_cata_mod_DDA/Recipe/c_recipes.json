@@ -2781,6 +2781,7 @@
     "skills_required": [ "fabrication", 3 ],
     "time": "1 h",
     "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 3 ] ],
     "using": [ [ "sewing_standard", 40 ] ],
     "tools": [ [ [ "welder", 16 ], [ "welder_crude", 24 ], [ "soldering_iron", 24 ], [ "toolset", 24 ] ] ],
     "proficiencies": [ { "proficiency": "prof_millinery" }, { "proficiency": "prof_leatherworking_basic" } ],
@@ -2790,6 +2791,38 @@
       [ [ "rag", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 40 ] ]
+    ]
+  },
+  {
+    "result": "legrig_surv",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "1 h 20 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 5 ] ],
+    "using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 1 ] ],
+    "proficiencies": [ { "proficiency": "prof_leatherworking_basic" }, { "proficiency": "prof_leatherworking" } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "rag", 4 ] ],
+      [ [ "leather", 4 ] ],
+      [
+        [ "tacvest", 1 ],
+        [ "legrig", 1 ],
+        [ "vest", 1 ],
+        [ "tool_belt", 1 ],
+        [ "ragpouch", 4 ],
+        [ "leather_pouch", 2 ],
+        [ "dump_pouch", 1 ],
+        [ "purse", 2 ],
+        [ "fanny", 2 ]
+      ],
+      [ [ "duct_tape", 50 ] ]
     ]
   }
 ]

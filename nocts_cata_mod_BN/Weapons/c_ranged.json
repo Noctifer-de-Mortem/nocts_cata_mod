@@ -1593,7 +1593,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "PLASMA", "EXPLOSIVE_HUGE", "STREAM_BIG", "INCENDIARY", "WIDE", "EMP", "FLASHBANG" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "PYROMANIAC_WEAPON" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "PYROMANIAC_WEAPON", "RELOAD_ONE" ],
     "ups_charges": 150,
     "skill": "launcher",
     "ammo": [ "plasma" ],
@@ -1606,7 +1606,7 @@
     "recoil": 300,
     "loudness": 25,
     "durability": 10,
-    "clip_size": 1,
+    "clip_size": 5,
     "reload": 1000,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
