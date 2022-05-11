@@ -422,7 +422,8 @@
         "max_contains_volume": "525 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT" ]
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "item_restriction": [ "light_atomic_battery_cell", "medium_atomic_battery_cell" ]
       },
       {
         "moves": 40,
@@ -430,7 +431,8 @@
         "max_contains_volume": "525 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT" ]
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "item_restriction": [ "light_atomic_battery_cell", "medium_atomic_battery_cell" ]
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
@@ -470,7 +472,8 @@
         "max_contains_volume": "525 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT" ]
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "item_restriction": [ "light_atomic_battery_cell", "medium_atomic_battery_cell" ]
       },
       {
         "moves": 40,
@@ -478,7 +481,8 @@
         "max_contains_volume": "525 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT" ]
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "item_restriction": [ "light_atomic_battery_cell", "medium_atomic_battery_cell" ]
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
@@ -510,7 +514,7 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "//": "Designed to be able to hold military medium and heavy atomic cells.",
     "pocket_data": [
       {
         "moves": 40,
@@ -518,7 +522,8 @@
         "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ],
+        "item_restriction": [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell" ]
       },
       {
         "moves": 40,
@@ -526,7 +531,8 @@
         "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
-        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ],
+        "item_restriction": [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell" ]
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash magazine", "holster_msg": "You stash your %s" },
