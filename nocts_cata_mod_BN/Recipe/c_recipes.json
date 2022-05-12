@@ -1712,6 +1712,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "neo_laser_pistol", 1 ] ] ]
@@ -1725,6 +1727,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "akro_laser_smg", 1 ] ] ]
@@ -1738,6 +1742,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "arc_laser_rifle", 1 ] ] ]
@@ -1751,6 +1757,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "krx_laser_lmg", 1 ] ] ]
@@ -1764,6 +1772,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "mx_laser_sniper", 1 ] ] ]
@@ -1777,6 +1787,8 @@
     "difficulty": 2,
     "skills_required": [ [ "fabrication", 2 ], [ "mechanics", 2 ] ],
     "time": "12 m",
+    "reversible": true,
+    "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
     "components": [ [ [ "xarm_laser_shotgun", 1 ] ] ]
