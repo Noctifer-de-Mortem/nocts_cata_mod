@@ -136,5 +136,17 @@
       "h_mod_min": [ 1 ],
       "h_mod_tick": [ 300 ]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "c_bio_painrec",
+    "base_mods": { "pain_min": [ -1 ], "pain_tick": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "c_nano_mutagen_trigger",
+    "max_duration": "10 s",
+    "name": [ "Test Effect Name" ],
+    "desc": [ "This is just to ensure nano-mutagen is working right.  If you see this on your effects screen DDA likely fucked up again." ]
   }
 ]

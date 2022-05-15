@@ -49,7 +49,7 @@
     "gun_data": {
       "skill": "pistol",
       "ammo": "22",
-      "ranged_damage": { "damage_type": "stab", "amount": -1 },
+      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
       "dispersion": 530,
       "min_cycle_recoil": 39,
       "durability": 6,
@@ -80,7 +80,7 @@
     "gun_data": {
       "skill": "pistol",
       "ammo": "9mm",
-      "ranged_damage": { "damage_type": "stab", "amount": -1 },
+      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
       "dispersion": 530,
       "min_cycle_recoil": 450,
       "durability": 5,
@@ -111,7 +111,7 @@
     "gun_data": {
       "skill": "pistol",
       "ammo": "45",
-      "ranged_damage": { "damage_type": "stab", "amount": -1 },
+      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
       "dispersion": 530,
       "min_cycle_recoil": 540,
       "durability": 6,
@@ -185,7 +185,7 @@
     "mod_targets": [ "shotgun" ],
     "consume_chance": 15,
     "consume_divisor": 80,
-    "damage_modifier": { "damage_type": "stab", "amount": -5 },
+    "damage_modifier": { "damage_type": "bullet", "amount": -5 },
     "dispersion_modifier": 40,
     "handling_modifier": 2,
     "loudness_modifier": -20,

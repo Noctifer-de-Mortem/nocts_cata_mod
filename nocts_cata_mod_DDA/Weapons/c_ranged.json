@@ -10,7 +10,7 @@
     "price_postapoc": "20 USD",
     "material": [ "superalloy", "steel" ],
     "skill": "pistol",
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "ups_charges": 25,
     "weight": "6 g",
@@ -33,7 +33,7 @@
     "price_postapoc": "20 USD",
     "material": [ "superalloy", "steel" ],
     "skill": "rifle",
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_effects": [ "LIGHTNING", "BOUNCE" ],
     "ups_charges": 40,
     "weight": "2840 g",
@@ -57,7 +57,7 @@
     "price_postapoc": "60 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
@@ -94,7 +94,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
@@ -138,7 +138,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "LARGE_BEANBAG", "NAPALM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "3650 g",
     "volume": "2 L",
@@ -184,7 +184,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM_BIG" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "4750 g",
     "volume": "2 L",
@@ -239,7 +239,7 @@
       "STREAM_BIG",
       "WIDE"
     ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "3850 g",
     "volume": "2 L",
@@ -287,7 +287,7 @@
     "volume": "4250 ml",
     "bashing": 10,
     "to_hit": -1,
-    "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo": [ "pebble" ],
     "skill": "rifle",
     "ranged_damage": { "damage_type": "stab", "amount": 20 },
@@ -327,7 +327,7 @@
     "bashing": 12,
     "to_hit": -1,
     "ammo_effects": [ "LASER", "SHOT", "INCENDIARY" ],
-    "flags": [ "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ups_charges": 80,
     "skill": "rifle",
     "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 3 },
@@ -361,14 +361,15 @@
     "bashing": 8,
     "to_hit": -1,
     "ammo_effects": [ "LASER", "SHOT", "INCENDIARY" ],
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "ammo": [ "battery" ],
-    "ranged_damage": { "damage_type": "heat", "amount": 18, "armor_penetration": 2 },
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 3 },
     "range": 25,
     "dispersion": 150,
     "recoil": 15,
     "durability": 6,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 0,
     "loudness": 16,
     "use_action": "HAND_CRANK",
@@ -407,7 +408,7 @@
     "bashing": 3,
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 20,
     "ammo": [ "battery" ],
     "pocket_data": [
@@ -453,7 +454,7 @@
     "bashing": 8,
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 50,
     "ammo": [ "battery" ],
     "pocket_data": [
@@ -1211,7 +1212,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 20,
     "skill": "pistol",
     "ammo": [ "battery" ],
@@ -1243,7 +1244,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "light_atomic_battery_cell_rechargeable", "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ]
+        "item_restriction": [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell", "light_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1259,7 +1260,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "pistol",
     "weight": "720 g",
     "volume": "1 L",
@@ -1295,7 +1296,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 20,
     "ammo": [ "battery" ],
     "skill": "smg",
@@ -1310,8 +1311,7 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
     "reload": 200,
-    "default_mods": [ "rail_laser_sight", "pistol_grip" ],
-    "built_in_mods": [ "grip" ],
+    "built_in_mods": [ "rail_laser_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1330,7 +1330,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "light_atomic_battery_cell_rechargeable", "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ]
+        "item_restriction": [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell", "light_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1346,7 +1346,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "smg",
     "weight": "2680 g",
     "volume": "1500 ml",
@@ -1359,8 +1359,7 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
     "ups_charges": 20,
-    "default_mods": [ "rail_laser_sight", "pistol_grip" ],
-    "built_in_mods": [ "grip" ],
+    "built_in_mods": [ "rail_laser_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1385,7 +1384,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 50,
     "ammo": [ "battery" ],
     "skill": "rifle",
@@ -1400,7 +1399,7 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "reload": 200,
-    "default_mods": [ "pistol_grip", "grip" ],
+    "built_in_mods": [ "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "sling", 1 ],
@@ -1419,7 +1418,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ]
+        "item_restriction": [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1435,7 +1434,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "3120 g",
     "volume": "2 L",
@@ -1448,7 +1447,7 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "ups_charges": 50,
-    "default_mods": [ "pistol_grip", "grip" ],
+    "built_in_mods": [ "pistol_grip", "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "sling", 1 ],
@@ -1473,7 +1472,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 50,
     "ammo": [ "battery" ],
     "skill": "rifle",
@@ -1506,7 +1505,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "heavy_atomic_battery_cell_rechargeable", "heavy_atomic_battery_cell" ]
+        "item_restriction": [ "heavy_atomic_battery_cell", "heavy_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1522,7 +1521,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "5620 g",
     "volume": "3 L",
@@ -1558,7 +1557,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "DRAW_LASER_BEAM", "EMP", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 100,
     "ammo": [ "battery" ],
     "skill": "rifle",
@@ -1572,8 +1571,7 @@
     "loudness": 20,
     "durability": 10,
     "reload": 300,
-    "default_mods": [ "bipod" ],
-    "built_in_mods": [ "rifle_scope" ],
+    "built_in_mods": [ "bipod", "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1592,7 +1590,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ]
+        "item_restriction": [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1608,7 +1606,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "DRAW_LASER_BEAM", "EMP", "INCENDIARY" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "2950 g",
     "volume": "3 L",
@@ -1620,8 +1618,7 @@
     "loudness": 20,
     "durability": 10,
     "ups_charges": 100,
-    "default_mods": [ "bipod" ],
-    "built_in_mods": [ "rifle_scope" ],
+    "built_in_mods": [ "bipod", "rifle_scope" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -1646,7 +1643,7 @@
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY", "SHOT", "EMP" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_to_fire": 100,
     "ammo": [ "battery" ],
     "skill": "shotgun",
@@ -1660,7 +1657,7 @@
     "loudness": 14,
     "dispersion": 300,
     "durability": 8,
-    "default_mods": [ "rail_laser_sight", "pistol_grip" ],
+    "built_in_mods": [ "rail_laser_sight", "pistol_grip" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
     "reload": 250,
     "valid_mod_locations": [
@@ -1681,7 +1678,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_atomic_battery_cell_rechargeable", "medium_atomic_battery_cell" ]
+        "item_restriction": [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ]
       }
     ]
   },
@@ -1697,7 +1694,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "LASER", "INCENDIARY", "SHOT", "EMP" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "2950 g",
     "volume": "2 L",
@@ -1709,7 +1706,7 @@
     "loudness": 14,
     "dispersion": 300,
     "durability": 8,
-    "default_mods": [ "rail_laser_sight", "pistol_grip" ],
+    "built_in_mods": [ "rail_laser_sight", "pistol_grip" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
     "ups_charges": 100,
     "valid_mod_locations": [
@@ -1735,7 +1732,7 @@
     "price": "1520 USD",
     "price_postapoc": "75 USD",
     "material": [ "superalloy", "steel" ],
-    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ups_charges": 2,
     "skill": "rifle",
     "ammo": [ "bolt" ],
@@ -1775,7 +1772,7 @@
     "price_postapoc": "90 USD",
     "material": [ "superalloy", "steel" ],
     "ammo_effects": [ "PLASMA", "EXPLOSIVE_HUGE", "STREAM_BIG", "INCENDIARY", "WIDE", "EMP", "FLASHBANG" ],
-    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ],
     "ups_charges": 150,
     "skill": "launcher",
     "ammo": [ "plasma" ],
@@ -1788,8 +1785,8 @@
     "recoil": 300,
     "loudness": 25,
     "durability": 10,
-    "clip_size": 1,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 1 } } ],
+    "clip_size": 5,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 5 } } ],
     "reload": 1000,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
@@ -1832,7 +1829,7 @@
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "extend": { "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON-FOULING" ] },
+    "extend": { "flags": [ "FIRE_TWOHAND", "STR_RELOAD", "NON_FOULING" ] },
     "ammo_to_fire": 50
   },
   {
@@ -1857,7 +1854,7 @@
     "durability": 7,
     "loudness": 10,
     "ammo_effects": [ "C_DAZZLER_BURST", "LARGE_BEANBAG", "BLINDS_EYES", "PARALYZEPOISON" ],
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
   },
   {
     "id": "c_mi_go_rifle_salvaged",
@@ -1880,6 +1877,6 @@
     "clip_size": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "c_alien_resin_bullet_type": 10 } } ],
     "reload": 125,
-    "flags": [ "NON-FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ]
+    "flags": [ "NON_FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ]
   }
 ]
