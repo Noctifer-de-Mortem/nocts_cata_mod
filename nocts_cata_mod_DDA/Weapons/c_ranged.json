@@ -1751,9 +1751,9 @@
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 2 ],
+      [ "dampening", 1 ],
       [ "sling", 1 ],
       [ "grip", 1 ],
-      [ "mechanism", 2 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
