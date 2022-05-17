@@ -103,23 +103,33 @@
     ]
   },
   {
-    "id": "c_mi_go_beam",
+    "id": "c_mi_go_multi_worker",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_beam_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_worker", "type": "bionic_group", "max": 1 }
     ]
   },
   {
-    "id": "c_mi_go_claw",
+    "id": "c_mi_go_multi_slaver",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_claw_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_slaver", "type": "bionic_group", "max": 1 }
+    ]
+  },
+  {
+    "id": "c_mi_go_multi_surgeon",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
+      { "drop": "c_mi_go_advanced_dissection_surgeon", "type": "bionic_group", "max": 1 }
     ]
   },
   {
@@ -143,13 +153,13 @@
     ]
   },
   {
-    "id": "c_mi_go_rifle",
+    "id": "c_mi_go_multi_scout",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_rifle_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_scout", "type": "bionic_group", "max": 1 }
     ]
   }
 ]

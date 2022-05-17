@@ -139,5 +139,12 @@
     "type": "effect_type",
     "id": "c_bio_painrec",
     "base_mods": { "pain_min": [ -1 ], "pain_tick": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "c_mi_go_wings_immunity",
+    "removes_effects": [ "downed", "bouldering" ],
+    "base_mods": { "fatigue_min": [ 1 ], "fatigue_tick": [ 300 ] },
+    "flags": [ "EFFECT_FEATHER_FALL" ]
   }
 ]
