@@ -1014,6 +1014,7 @@
   },
   {
     "id": "autoclave_makeshift",
+    "sub": "autoclave",
     "type": "TOOL",
     "name": { "str": "makeshift autoclave" },
     "description": "This oversized pressure cooker uses diesel or other readily-available fuels to power a high-pressure sterilization chamber.  Less efficient than a commercial battery-powered autoclave and incompatible with a vehicle power grid, it does the job if nothing else is available.",
@@ -1026,9 +1027,6 @@
     "material": [ "steel" ],
     "symbol": "A",
     "color": "yellow",
-    "use_action": [ "AUTOCLAVE" ],
-    "flags": [ "ALLOWS_REMOTE_USE" ],
-    "power_draw": 2000000,
     "looks_like": "autoclave",
     "ammo": [ "diesel", "lamp_oil", "motor_oil", "jp8" ],
     "max_charges": 60000
