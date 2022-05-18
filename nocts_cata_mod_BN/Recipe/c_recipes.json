@@ -2516,6 +2516,41 @@
     ]
   },
   {
+    "result": "c_mi_go_extruder_salvaged",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ [ "firstaid", 4 ], [ "mechanics", 3 ], [ "cooking", 5 ] ],
+    "time": "25 m",
+    "book_learn": [ [ "evil_invitation", 4 ], [ "recipe_lab_elec", 5 ], [ "recipe_creepy", 5 ], [ "recipe_labchem", 6 ] ],
+    "using": [ [ "c_resin_molding_standard", 1 ], [ "welding_standard", 10 ], [ "steel_tiny", 1 ] ],
+    "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
+    "components": [ [ [ "c_mi_go_extruder_broken", 1 ] ], [ [ "canister_empty", 1 ] ], [ [ "meat_tainted", 5 ], [ "slime_scrap", 1 ] ] ]
+  },
+  {
+    "result": "c_mi_go_wings_salvaged",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ [ "firstaid", 4 ], [ "electronics", 3 ], [ "mechanics", 3 ], [ "cooking", 5 ] ],
+    "time": "80 m",
+    "book_learn": [ [ "evil_invitation", 6 ], [ "recipe_lab_elec", 7 ], [ "recipe_creepy", 7 ], [ "recipe_labchem", 8 ] ],
+    "using": [ [ "c_resin_molding_standard", 4 ], [ "welding_standard", 20 ], [ "steel_standard", 1 ] ],
+    "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
+    "components": [
+      [ [ "c_mi_go_wings_broken", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "medium_battery_cell", 1 ] ],
+      [ [ "cable", 40 ] ],
+      [ [ "wire", 2 ] ],
+      [ [ "meat_tainted", 15 ], [ "slime_scrap", 3 ] ]
+    ]
+  },
+  {
     "result": "bikini_bottom_leather",
     "type": "recipe",
     "category": "CC_ARMOR",

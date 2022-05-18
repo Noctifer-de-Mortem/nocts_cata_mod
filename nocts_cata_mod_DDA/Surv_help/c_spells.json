@@ -221,5 +221,19 @@
     "max_aoe": 1,
     "shape": "blast",
     "extra_effects": [ { "id": "death_pouf", "hit_self": true }, { "id": "death_acid", "hit_self": true } ]
+  },
+  {
+    "id": "c_resin_create",
+    "type": "SPELL",
+    "name": { "str": "Extrude Resin" },
+    "description": "Creates a random number of alien resin chunks.",
+    "valid_targets": [ "self" ],
+    "message": "",
+    "flags": [ "SILENT", "PERMANENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
+    "effect": "spawn_item",
+    "shape": "blast",
+    "effect_str": "resin_chunk",
+    "min_duration": 1,
+    "max_duration": 2
   }
 ]
