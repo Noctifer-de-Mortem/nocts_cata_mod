@@ -233,8 +233,8 @@
     "effect": "spawn_item",
     "shape": "blast",
     "effect_str": "resin_chunk",
-    "min_duration": 1,
-    "max_duration": 2
+    "min_damage": 1,
+    "max_damage": 2
   },
   {
     "id": "c_flesh_pistol_regen",
