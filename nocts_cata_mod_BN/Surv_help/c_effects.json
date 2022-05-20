@@ -146,5 +146,11 @@
     "removes_effects": [ "downed", "bouldering" ],
     "base_mods": { "fatigue_min": [ 1 ], "fatigue_tick": [ 300 ] },
     "flags": [ "EFFECT_FEATHER_FALL" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "c_flesh_magazine_side_effect",
+    "max_duration": "1 m",
+    "base_mods": { "hunger_min": [ 1 ] }
   }
 ]
