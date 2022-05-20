@@ -151,6 +151,6 @@
     "type": "effect_type",
     "id": "c_flesh_magazine_side_effect",
     "max_duration": "1 m",
-    "base_mods": { "hunger": [ 1 ] }
+    "base_mods": { "hunger_min": [ 1 ] }
   }
 ]

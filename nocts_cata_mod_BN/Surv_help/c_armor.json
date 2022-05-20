@@ -855,7 +855,7 @@
     "id": "c_mi_go_wings_salvaged_on",
     "copy-from": "c_mi_go_wings_salvaged",
     "type": "TOOL_ARMOR",
-    "name": { "str_sp": "set of salvaged exo-wings (on)", "str_pl": "sets of salvaged exo-wings (on)" },
+    "name": { "str": "set of salvaged exo-wings (on)", "str_pl": "sets of salvaged exo-wings (on)" },
     "description": "A set of thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  They are currently buzzing with life, greatly speeding up movement and enhancing dodge as well as granting immunity to falling damage, in exchange for increased fatigue gain.",
     "turns_per_charge": 75,
     "revert_to": "c_mi_go_wings_salvaged",

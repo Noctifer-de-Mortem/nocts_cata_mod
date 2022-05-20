@@ -292,7 +292,6 @@
     "count": 10,
     "capacity": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 10 } } ],
-    "reliability": 10,
     "reload_time": 100,
     "flags": [ "MAG_COMPACT", "MAG_DESTROY", "NO_UNLOAD" ]
   },
@@ -310,7 +309,6 @@
     "count": 30,
     "capacity": 30,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 30 } } ],
-    "reliability": 10,
     "reload_time": 100,
     "flags": [ "MAG_COMPACT", "MAG_DESTROY", "NO_UNLOAD" ]
   },
@@ -328,7 +326,6 @@
     "count": 15,
     "capacity": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 15 } } ],
-    "reliability": 10,
     "reload_time": 100,
     "flags": [ "MAG_COMPACT", "MAG_DESTROY", "NO_UNLOAD" ]
   },
@@ -346,7 +343,6 @@
     "count": 50,
     "capacity": 50,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 50 } } ],
-    "reliability": 10,
     "reload_time": 100,
     "flags": [ "MAG_BULKY", "MAG_DESTROY", "NO_UNLOAD" ]
   },
@@ -364,7 +360,6 @@
     "count": 20,
     "capacity": 20,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 20 } } ],
-    "reliability": 10,
     "reload_time": 100,
     "flags": [ "MAG_COMPACT", "MAG_DESTROY", "NO_UNLOAD" ]
   }
