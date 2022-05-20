@@ -927,7 +927,8 @@
     "weight": "10958 g",
     "volume": "3 L",
     "to_hit": -2,
-    "material": [ "plastic", "steel" ]
+    "material": [ "plastic", "steel" ],
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "DISTILL", 1 ], [ "CHEM", 3 ], [ "BOIL", 1 ] ]
   },
   {
     "id": "omnitech_weapon_ups_kit",
@@ -942,7 +943,17 @@
     "weight": "10958 g",
     "volume": "3 L",
     "to_hit": -2,
-    "material": [ "plastic", "steel" ]
+    "material": [ "plastic", "steel" ],
+    "qualities": [
+      [ "HAMMER", 2 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "WRENCH", 1 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "SAW_M", 1 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ]
+    ]
   },
   {
     "id": "cbm_rtg_inductor",

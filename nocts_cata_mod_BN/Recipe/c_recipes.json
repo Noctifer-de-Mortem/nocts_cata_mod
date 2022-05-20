@@ -1586,6 +1586,7 @@
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
+      [ [ "flesh_weapon_kit", -1 ] ],
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
@@ -1597,7 +1598,6 @@
       [ [ "power_supply", 2 ] ],
       [ [ "battery_ups", 1 ] ],
       [ [ "e_scrap", 5 ] ],
-      [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_pistol", 1 ], [ "c_mi_go_beam_salvaged", 1 ] ]
     ]
   },
@@ -1613,6 +1613,7 @@
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
+      [ [ "flesh_weapon_kit", -1 ] ],
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
@@ -1624,7 +1625,6 @@
       [ [ "power_supply", 2 ] ],
       [ [ "battery_ups", 1 ] ],
       [ [ "e_scrap", 5 ] ],
-      [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_pistol", 1 ], [ "c_mi_go_beam_salvaged", 1 ] ]
     ]
   },
@@ -1640,6 +1640,7 @@
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
+      [ [ "flesh_weapon_kit", -1 ] ],
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
@@ -1651,7 +1652,6 @@
       [ [ "power_supply", 2 ] ],
       [ [ "battery_ups", 1 ] ],
       [ [ "e_scrap", 5 ] ],
-      [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_pistol", 1 ], [ "c_mi_go_beam_salvaged", 1 ] ]
     ]
   },
@@ -1667,6 +1667,7 @@
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
+      [ [ "flesh_weapon_kit", -1 ] ],
       [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
@@ -1678,7 +1679,6 @@
       [ [ "power_supply", 2 ] ],
       [ [ "battery_ups", 1 ] ],
       [ [ "e_scrap", 5 ] ],
-      [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_pistol", 1 ], [ "c_mi_go_beam_salvaged", 1 ] ]
     ]
   },
@@ -1693,13 +1693,12 @@
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
+    "tools": [ [ [ "flesh_weapon_kit", -1 ] ], [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
-      [ [ "flesh_weapon_kit", 1 ] ],
       [ [ "flesh_knife", 1 ], [ "c_mi_go_claw_salvaged", 1 ] ]
     ]
   },
@@ -1715,7 +1714,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "neo_laser_pistol", 1 ] ] ]
   },
   {
@@ -1730,7 +1733,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "akro_laser_smg", 1 ] ] ]
   },
   {
@@ -1745,7 +1752,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "arc_laser_rifle", 1 ] ] ]
   },
   {
@@ -1760,7 +1771,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "krx_laser_lmg", 1 ] ] ]
   },
   {
@@ -1775,7 +1790,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "mx_laser_sniper", 1 ] ] ]
   },
   {
@@ -1790,7 +1809,11 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ] ] ],
+    "qualities": [
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "xarm_laser_shotgun", 1 ] ] ]
   },
   {
@@ -1965,7 +1988,7 @@
     "time": "3 h",
     "batch_time_factors": [ 20, 5 ],
     "book_learn": [ [ "recipe_alpha", 9 ] ],
-    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
     "components": [
       [ [ "blood", 1 ] ],
@@ -1988,7 +2011,7 @@
     "time": "3 h",
     "batch_time_factors": [ 20, 5 ],
     "book_learn": [ [ "recipe_elfa", 10 ] ],
-    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
     "components": [
       [ [ "blood", 1 ] ],
@@ -2011,7 +2034,7 @@
     "time": "3 h",
     "batch_time_factors": [ 20, 5 ],
     "book_learn": [ [ "recipe_chimera", 10 ] ],
-    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
     "components": [
       [ [ "blood", 1 ] ],
@@ -2034,7 +2057,7 @@
     "time": "3 h",
     "batch_time_factors": [ 20, 5 ],
     "book_learn": [ [ "recipe_raptor", 10 ] ],
-    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "DISTILL", "level": 2 } ],
+    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "BOIL", "level": 1 }, { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 25 ] ], [ [ "surface_heat", 50, "LIST" ] ], [ [ "blood_m", -1 ] ], [ [ "blood_p", -1 ] ] ],
     "components": [
       [ [ "blood", 1 ] ],
