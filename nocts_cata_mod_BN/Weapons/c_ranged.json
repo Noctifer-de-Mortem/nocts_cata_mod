@@ -1181,7 +1181,7 @@
     "recoil": 10,
     "loudness": 8,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ], [ "AUTO", "auto", 10 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
     "reload": 200,
     "built_in_mods": [ "rail_laser_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
@@ -1226,7 +1226,7 @@
     "recoil": 10,
     "loudness": 8,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 5 ], [ "AUTO", "auto", 10 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "spray", 10 ], [ "AUTO", "auto", 15 ] ],
     "ups_charges": 20,
     "built_in_mods": [ "rail_laser_sight", "pistol_grip", "grip" ],
     "valid_mod_locations": [
@@ -1265,7 +1265,7 @@
     "recoil": 10,
     "loudness": 14,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "reload": 200,
     "built_in_mods": [ "pistol_grip", "grip" ],
     "valid_mod_locations": [
@@ -1305,7 +1305,7 @@
     "recoil": 10,
     "loudness": 14,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "ups_charges": 50,
     "built_in_mods": [ "pistol_grip", "grip" ],
     "valid_mod_locations": [
@@ -1346,7 +1346,7 @@
     "recoil": 5,
     "loudness": 14,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "low auto", 10 ], [ "AUTO", "high auto", 20 ] ],
+    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
     "reload": 500,
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -1384,7 +1384,7 @@
     "recoil": 5,
     "loudness": 14,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "low auto", 10 ], [ "AUTO", "high auto", 20 ] ],
+    "modes": [ [ "DEFAULT", "low auto", 10 ], [ "BURST", "medium auto", 15 ], [ "AUTO", "high auto", 25 ] ],
     "ups_charges": 50,
     "valid_mod_locations": [
       [ "accessories", 2 ],
