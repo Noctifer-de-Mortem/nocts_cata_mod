@@ -25,6 +25,8 @@
     "price_postapoc": "5 cent",
     "symbol": "=",
     "color": "white",
+    "damage": { "damage_type": "heat", "amount": 9, "armor_penetration": 2 },
+    "range": 3,
     "stack_size": 24,
     "phase": "liquid",
     "ammo_type": "c_hydrogen",
@@ -33,6 +35,7 @@
       "energy": 1000,
       "explosion_data": { "chance_hot": 2, "chance_cold": 2, "factor": 0.5, "fiery": true, "size_factor": 0.1 }
     },
+    "effects": [ "INCENDIARY" ],
     "flags": [ "NO_DROP", "IRREMOVABLE" ]
   },
   {
