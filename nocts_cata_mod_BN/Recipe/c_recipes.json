@@ -1714,10 +1714,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "neo_laser_pistol", 1 ] ] ]
   },
@@ -1733,10 +1730,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "akro_laser_smg", 1 ] ] ]
   },
@@ -1752,10 +1746,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "arc_laser_rifle", 1 ] ] ]
   },
@@ -1771,10 +1762,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "krx_laser_lmg", 1 ] ] ]
   },
@@ -1790,10 +1778,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "mx_laser_sniper", 1 ] ] ]
   },
@@ -1809,10 +1794,7 @@
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [ [ "omnitech_weapon_ups_manual", 2 ] ],
-    "qualities": [
-      { "id": "WRENCH_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "omnitech_weapon_ups_kit", -1 ], [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
     "components": [ [ [ "xarm_laser_shotgun", 1 ] ] ]
   },
@@ -2705,6 +2687,41 @@
         [ "fanny", 2 ]
       ],
       [ [ "duct_tape", 50 ] ]
+    ]
+  },
+  {
+    "result": "c_power_armor_surv",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ [ "mechanics", 4 ], [ "electronics", 2 ] ],
+    "time": "5 h",
+    "autolearn": [ [ "fabrication", 7 ], [ "mechanics", 5 ], [ "electronics", 3 ] ],
+    "book_learn": [
+      [ "recipe_surv", 4 ],
+      [ "textbook_robots", 5 ],
+      [ "book_icef", 5 ],
+      [ "recipe_melee", 6 ],
+      [ "textbook_biodiesel", 6 ]
+    ],
+    "using": [ [ "welding_standard", 200 ], [ "steel_standard", 10 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "//": "Most of these parts are what you'd get out of a diesel engine with makeshift alternatives permitted.  No engine block and the hand-crank replaces the glow plugs and general starting.  The rest of the components are for structure, hydraulics, and armor.",
+    "components": [
+      [ [ "drivebelt", 2 ], [ "drivebelt_makeshift", 2 ] ],
+      [ [ "filter_air", 1 ], [ "filter_air_makeshift", 1 ] ],
+      [ [ "filter_liquid", 1 ], [ "filter_liquid_makeshift", 1 ] ],
+      [ [ "motor_small", 1 ], [ "motor_tiny", 2 ] ],
+      [ [ "well_pump", 1 ], [ "pump_complex", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "hand_crank_charger", 1 ], [ "alternator_bicycle", 1 ], [ "alternator_motorbike", 1 ] ],
+      [ [ "hose", 4 ], [ "makeshift_hose", 4 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "motor_oil", 1600 ], [ "lamp_oil", 1600 ] ],
+      [ [ "foldframe", 2 ] ],
+      [ [ "steel_plate", 4 ], [ "steel_armor", 24 ] ]
     ]
   }
 ]

@@ -775,6 +775,7 @@
       "msg": "The carapace comes to life, spiracles dilating as environmental seals close.",
       "target": "c_mi_go_carapace_salvaged_on",
       "active": true,
+      "need_worn": true,
       "need_charges": 1,
       "need_charges_msg": "The carapace suit doesn't respond, evidently out of energy."
     },
@@ -811,7 +812,7 @@
     "environmental_protection": 15,
     "encumbrance": 10,
     "weight_capacity_modifier": 2,
-    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER" ] }
+    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] }
   },
   {
     "id": "c_mi_go_wings_salvaged",
@@ -833,6 +834,7 @@
       "msg": "The exo-wings whir to life, becoming a fluttering blur of green and gray.",
       "target": "c_mi_go_wings_salvaged_on",
       "active": true,
+      "need_worn": true,
       "need_charges": 1,
       "need_charges_msg": "The exo-wings don't respond, evidently out of energy."
     },
@@ -960,5 +962,84 @@
       "flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
     },
     "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "NO_QUICKDRAW" ]
+  },
+  {
+    "type": "mutation",
+    "id": "C_MOVE_NOISE",
+    "name": { "str": "Makeshift Power Armor Noise" },
+    "points": 99,
+    "valid": false,
+    "description": "This is used to make the player a lot less stealthy, but also punch harder on top of the armor's strength bonus.",
+    "player_display": false,
+    "noise_modifier": 5.0,
+    "stealth_modifier": -10,
+    "scent_intensity": 1200,
+    "rand_bash_bonus": { "min": 3, "max": 6 }
+  },
+  {
+    "id": "c_power_armor_surv",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "looks_like": "rm13_armor",
+    "name": { "str": "makeshift power armor" },
+    "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's cumbersome but provides considerable protection aside from gaps in the joints and vision slits, and the servos offer quite a bit of power when active.",
+    "flags": [ "OVERSIZE", "STURDY", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
+    "price": "500 USD",
+    "price_postapoc": "50 USD",
+    "material": [ "steel" ],
+    "weight": "50 kg",
+    "volume": "40 L",
+    "to_hit": -3,
+    "max_charges": 2000,
+    "ammo": [ "diesel", "lamp_oil", "motor_oil", "jp8" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ACTIVE",
+          "values": [ { "value": "STRENGTH", "add": 4 } ],
+          "mutations": [ "C_MOVE_NOISE" ]
+        }
+      ]
+    },
+    "use_action": {
+      "type": "transform",
+      "msg": "Your makeshift power armor roars to life, servos kicking into gear!",
+      "target": "c_power_armor_surv_on",
+      "need_worn": true,
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "There's no fuel in the makeshift power armor's tank."
+    },
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
+    "warmth": 15,
+    "environmental_protection": 5,
+    "encumbrance": 45,
+    "coverage": 90,
+    "material_thickness": 8
+  },
+  {
+    "id": "c_power_armor_surv_on",
+    "copy-from": "c_power_armor_surv",
+    "repairs_like": "c_power_armor_surv",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "makeshift power armor (on)", "str_pl": "makeshift power armors (on)" },
+    "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer and making the armor less encumbering, but also being warmer and making stealth more difficult.",
+    "extend": { "effects": [ "TRADER_AVOID" ] },
+    "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
+    "turns_per_charge": 3,
+    "revert_to": "c_power_armor_surv",
+    "revert_msg": "Your makeshift power armor sputters and dies!",
+    "use_action": {
+      "target": "c_power_armor_surv",
+      "msg": "You shut the makeshift power armor off.",
+      "menu_text": "Turn off",
+      "type": "transform"
+    },
+    "warmth": 45,
+    "encumbrance": 15,
+    "weight_capacity_modifier": 1.5
   }
 ]
