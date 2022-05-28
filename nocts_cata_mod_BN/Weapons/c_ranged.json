@@ -1700,5 +1700,42 @@
     "clip_size": 10,
     "reload": 125,
     "flags": [ "NON-FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ]
+  },
+  {
+    "id": "omnitech_plasma_pistol",
+    "looks_like": "v29",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "light_blue",
+    "name": { "str": "PX12 plasma pistol" },
+    "description": "An experimental compact plasma projector developed by Omnitech, designed to be assembled in the field.  Given the complexity of its components, they made some ambitious assumptions about the availability of parts mid-mission.  Remarkably powerful though short-ranged, its varible-pressure design allows it to use commercial-grade hydrogen or military plasma cells.",
+    "price": "8000 USD",
+    "price_postapoc": "20 USD",
+    "material": [ "steel", "plastic" ],
+    "flags": [ "NEVER_JAMS", "NON-FOULING", "PYROMANIAC_WEAPON" ],
+    "ups_charges": 25,
+    "ammo_effects": [ "PLASMA", "EXPLOSIVE_TINY", "FLAME" ],
+    "skill": "pistol",
+    "ammo": [ "plasma", "c_hydrogen" ],
+    "weight": "850 g",
+    "volume": "1 L",
+    "bashing": 6,
+    "to_hit": -1,
+    "ranged_damage": { "damage_type": "heat", "amount": 15 },
+    "range": -1,
+    "dispersion": 150,
+    "durability": 6,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
+    "clip_size": 15,
+    "reload": 450,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]
