@@ -2,22 +2,22 @@
   {
     "id": "chalice_cult_books",
     "type": "item_group",
-    "items": [ { "group": "encylopedias_rare", "prob": 5 } ]
+    "items": [ { "group": "encylopedias_survalist", "prob": 5 } ]
   },
   {
     "id": "cleansing_flame_books",
     "type": "item_group",
-    "items": [ { "group": "encylopedias_rare", "prob": 5 } ]
+    "items": [ { "group": "encylopedias_survalist", "prob": 5 } ]
   },
   {
     "id": "sanguine_cult_books",
     "type": "item_group",
-    "items": [ { "group": "encylopedias_rare", "prob": 3 }, [ "manual_mut_com", 2 ] ]
+    "items": [ { "group": "encylopedias_survalist", "prob": 3 }, [ "manual_mut_com", 2 ] ]
   },
   {
     "id": "unaligned_arcanist_books",
     "type": "item_group",
-    "items": [ { "group": "encylopedias_rare", "prob": 5 } ]
+    "items": [ { "group": "encylopedias_survalist", "prob": 5 } ]
   },
   {
     "id": "reading_lights",
