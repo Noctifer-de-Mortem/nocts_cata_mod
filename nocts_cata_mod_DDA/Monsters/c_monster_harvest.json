@@ -4,14 +4,14 @@
     "type": "harvest",
     "entries": [
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
@@ -35,19 +35,19 @@
     "type": "harvest",
     "entries": [
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
       {
-        "drop": "bionics_failed_bio",
+        "drop": "bionic_power_storage_mil",
         "type": "bionic_group",
         "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
@@ -63,20 +63,20 @@
     "type": "harvest",
     "entries": [
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },
       {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
         "flags": [ "NO_STERILE", "NO_PACKED" ],
         "faults": [ "fault_bionic_salvaged" ]
       },

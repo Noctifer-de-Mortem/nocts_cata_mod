@@ -313,6 +313,7 @@
   {
     "id": "ammo_atomic_batteries",
     "type": "item_group",
+    "//": "This is vanilla in BN, added to DDA version so DDA will have a consistent experience.",
     "items": [
       { "item": "light_atomic_battery_cell", "prob": 4, "charges": [ 500, 1000 ] },
       { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges": [ 250, 500 ] },
@@ -323,6 +324,7 @@
   {
     "id": "ammo_atomic_batteries_full",
     "type": "item_group",
+    "//": "This is vanilla in BN, added to DDA version so DDA will have a consistent experience.",
     "items": [
       { "item": "light_atomic_battery_cell", "prob": 4, "charges": 1000 },
       { "item": "light_minus_atomic_battery_cell", "prob": 3, "charges": 500 },
@@ -406,5 +408,11 @@
     "id": "c_mi_go_advanced_dissection_scout",
     "subtype": "distribution",
     "items": [ [ "c_mi_go_rifle_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+  },
+  {
+    "id": "bionic_power_storage_mil",
+    "type": "item_group",
+    "//": "This is vanilla in BN, added to DDA version so DDA will have a consistent experience.",
+    "items": [ [ "bio_power_storage", 50 ], [ "bio_power_storage_mkII", 50 ], [ "bio_power_storage_sentinel", 10 ] ]
   }
 ]

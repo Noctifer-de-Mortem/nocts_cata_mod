@@ -488,6 +488,11 @@
     ]
   },
   {
+    "id": "bionic_power_storage_mil",
+    "type": "item_group",
+    "items": [ [ "bio_power_storage_sentinel", 10 ] ]
+  },
+  {
     "id": "bionics_op",
     "type": "item_group",
     "items": [
