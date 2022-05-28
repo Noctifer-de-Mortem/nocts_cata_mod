@@ -3,8 +3,8 @@
     "id": "CBM_FAILED_BIO",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "bionics_failed_bio", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "mutant_human_flesh", "type": "flesh", "mass_ratio": 0.2 },
       { "drop": "hstomach_large", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
@@ -19,8 +19,8 @@
     "id": "CBM_FAILED_BIO_ZOMBIE",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "bionics_failed_bio", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
@@ -32,9 +32,9 @@
     "id": "CBM_APOPHIS",
     "type": "harvest",
     "entries": [
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
-      { "drop": "bio_power_storage_mkII", "type": "bionic", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
+      { "drop": "bionic_power_storage_mil", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "bionics_apophis_off", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "bionics_apophis_def", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
       { "drop": "bionics_apophis_util", "type": "bionic_group", "faults": [ "fault_bionic_nonsterile" ] },
@@ -103,23 +103,33 @@
     ]
   },
   {
-    "id": "c_mi_go_beam",
+    "id": "c_mi_go_multi_worker",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_beam_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_worker", "type": "bionic_group", "max": 1 }
     ]
   },
   {
-    "id": "c_mi_go_claw",
+    "id": "c_mi_go_multi_slaver",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_claw_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_slaver", "type": "bionic_group", "max": 1 }
+    ]
+  },
+  {
+    "id": "c_mi_go_multi_surgeon",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
+      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
+      { "drop": "c_mi_go_advanced_dissection_surgeon", "type": "bionic_group", "max": 1 }
     ]
   },
   {
@@ -143,13 +153,13 @@
     ]
   },
   {
-    "id": "c_mi_go_rifle",
+    "id": "c_mi_go_multi_scout",
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.4 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.1 },
       { "drop": "fat_tainted", "type": "offal", "mass_ratio": 0.1 },
-      { "drop": "c_mi_go_rifle_broken", "type": "bionic", "max": 1 }
+      { "drop": "c_mi_go_advanced_dissection_scout", "type": "bionic_group", "max": 1 }
     ]
   }
 ]
