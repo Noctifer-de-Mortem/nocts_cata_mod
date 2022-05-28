@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2022-05-15 19:20+0600\n"
+"POT-Creation-Date: 2022-05-25 14:24+0600\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,14 @@ msgstr ""
 
 #. ~ Description for Cataclysm++
 #: .\modinfo.json
-msgid "The unofficial expansion mod for Cataclysm: Dark Days Ahead."
+msgid ""
+"The unofficial expansion mod for Cataclysm: Bright Nights.\n"
+"\n"
+"The gigantic jabberwock of a mod that adds a lot of content to the game: new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.\n"
+"\n"
+"The Bio-Weapon, Super Soldier, Commandeers, Slave Fighters and the Old World Prepper NPC factions join the world.\n"
+"\n"
+"Seek the Bio-weapons, find loot, take down new monsters and invest in skills for new craftable items."
 msgstr ""
 
 #: .\Char_creation\c_classes_bw.json
@@ -430,8 +437,8 @@ msgstr ""
 #: .\Char_creation\c_classes_r.json
 msgctxt "prof_desc_male"
 msgid ""
-"You were a very busy person. That's why you bought a can of survival items "
-"and called it a day. Now it's the only thing you have."
+"You were a very busy person.  That's why you bought a can of survival items "
+"and called it a day.  Now it's the only thing you have."
 msgstr ""
 
 #: .\Char_creation\c_classes_r.json
@@ -443,8 +450,8 @@ msgstr ""
 #: .\Char_creation\c_classes_r.json
 msgctxt "prof_desc_female"
 msgid ""
-"You were a very busy person. That's why you bought a can of survival items "
-"and called it a day. Now it's the only thing you have."
+"You were a very busy person.  That's why you bought a can of survival items "
+"and called it a day.  Now it's the only thing you have."
 msgstr ""
 
 #: .\Char_creation\c_classes_r.json
@@ -457,8 +464,8 @@ msgstr ""
 msgctxt "prof_desc_male"
 msgid ""
 "You were paranoid about the world ending so you jumped on the prepper "
-"bandwagon. You read a book on survival and got yourself a gun pack and some "
-"gear. The cataclysm was not what you expected."
+"bandwagon.  You read a book on survival and got yourself a gun pack and some"
+" gear.  The cataclysm was not what you expected."
 msgstr ""
 
 #: .\Char_creation\c_classes_r.json
@@ -471,8 +478,38 @@ msgstr ""
 msgctxt "prof_desc_female"
 msgid ""
 "You were paranoid about the world ending so you jumped on the prepper "
-"bandwagon. You read a book on survival and got yourself a gun pack and some "
-"gear. The cataclysm was not what you expected."
+"bandwagon.  You read a book on survival and got yourself a gun pack and some"
+" gear.  The cataclysm was not what you expected."
+msgstr ""
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_male"
+msgid "Wasteland Drifter"
+msgstr ""
+
+#. ~ Profession (male Wasteland Drifter) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_male"
+msgid ""
+"With the end of the world, you found yourself wandering from town to town, "
+"scavenging and learning as you go.  Sleeping under the stars, scraping by "
+"one meal and one bullet at a time, you've taken to this new life like a duck"
+" takes to water."
+msgstr ""
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Wasteland Drifter"
+msgstr ""
+
+#. ~ Profession (female Wasteland Drifter) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_female"
+msgid ""
+"With the end of the world, you found yourself wandering from town to town, "
+"scavenging and learning as you go.  Sleeping under the stars, scraping by "
+"one meal and one bullet at a time, you've taken to this new life like a duck"
+" takes to water."
 msgstr ""
 
 #. ~ Name for scenario 'Bio-Weapon Lab' for a male character
@@ -639,8 +676,9 @@ msgctxt "scen_desc_male"
 msgid ""
 "You were part of a an advanced infantry unit, deployed to one of several "
 "'priority sites' as part of a last-ditch effort to get the situation under "
-"control.  Delays and casualties led to you being the only one left by the "
-"time you reached the objective, and things aren't looking any better."
+"control.  Delays, casualties and having to fight your way through the chaos "
+"led to you being the only one left by the time you reached the objective, "
+"and with you being so hurt, things aren't looking any better."
 msgstr ""
 
 #. ~ Description for scenario 'Experimental Soldier Start' for a female
@@ -650,8 +688,9 @@ msgctxt "scen_desc_female"
 msgid ""
 "You were part of a an advanced infantry unit, deployed to one of several "
 "'priority sites' as part of a last-ditch effort to get the situation under "
-"control.  Delays and casualties led to you being the only one left by the "
-"time you reached the objective, and things aren't looking any better."
+"control.  Delays, casualties and having to fight your way through the chaos "
+"led to you being the only one left by the time you reached the objective, "
+"and with you being so hurt, things aren't looking any better."
 msgstr ""
 
 #. ~ Starting location for scenario 'Experimental Soldier Start'.
@@ -742,7 +781,7 @@ msgid ""
 msgstr ""
 
 #: .\Monsters\c_monsters.json
-msgid "Apophis fires its fusion blaster!"
+msgid "Apophis fires its gatling laser!"
 msgstr ""
 
 #: .\Monsters\c_monsters.json
@@ -998,6 +1037,31 @@ msgctxt "gun_type_type"
 msgid "launcher"
 msgstr ""
 
+#: .\Monsters\c_ranged_monster.json
+msgid "monster laser gatling"
+msgid_plural "monster laser gatlings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Monsters\c_ranged_monster.json
+msgid ""
+"Used to give Bio-Weapon Apophis a mockup of the laser gatling, minus setting"
+" targets on fire and a shorter burst size.  This is a bug if you find one of"
+" these!"
+msgstr ""
+
+#: .\Monsters\c_ranged_monster.json .\Surv_help\c_bionics.json
+#: .\Weapons\c_ranged.json
+msgid "auto"
+msgstr ""
+
+#: .\Monsters\c_ranged_monster.json .\Surv_help\c_bionics.json
+#: .\Weapons\c_mods.json .\Weapons\c_ranged.json
+#: .\Weapons\c_ranged_override.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
 #: .\Monsters\c_speech.json
 msgid "a pained groan."
 msgstr ""
@@ -1151,15 +1215,195 @@ msgid ""
 " but now a days it seems useless."
 msgstr ""
 
+#: .\Mutations\c_bio_mutation.json
+msgid "Natural Armor"
+msgstr ""
+
+#. ~ Description for {'str': 'Natural Armor'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your skin and underlying muscles are hard as stone.  You have innate "
+"resistance to all forms of physical damage and are less likely to suffer "
+"bleeding, but you also suffer extra encumbrance."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Metabolic Instability"
+msgstr ""
+
+#. ~ Description for {'str': 'Metabolic Instability'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your body requires more resources than normal, burning calories and "
+"requiring more food in exchange for warming you up more easily.  You can "
+"also better tolerate mutant toxins."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Neural Degeneration"
+msgstr ""
+
+#. ~ Description for {'str': 'Neural Degeneration'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"You suffer from a form of artificially-induced atavism.  Reading is much "
+"slower, and crafting is more difficult.  Persuading NPCs will be more "
+"difficult, but threatening them will be easier."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Neural Augmentation"
+msgstr ""
+
+#. ~ Description for {'str': 'Neural Augmentation'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your brain has been basically rewired to handle technical tasks more easily."
+"  You can read much faster, and find it easier to craft.  However, this "
+"increased activity makes you require much more sleep as well."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Pain Mitigation"
+msgstr ""
+
+#. ~ Description for {'str': 'Pain Mitigation'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your body is conditioned to easily shrug off pain.  Any aches and pains you "
+"accumulate will steadily fade away."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Unsteady Footwork"
+msgstr ""
+
+#. ~ Description for {'str': 'Unsteady Footwork'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"It's far easier for someone of your stature to simply stand there and take "
+"it.  Your movement across flat terrain and in water is 10% slower, your "
+"movement in rough terrain is 30% slower, and you suffer a severe penalty to "
+"dodging."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Machine Empathy"
+msgstr ""
+
+#. ~ Description for {'str': 'Machine Empathy'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Something they did to you seems to confound facial recognition software.  "
+"Most of the haywire robots out there will be slower to identify you as a "
+"threat."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Augmented Healing"
+msgstr ""
+
+#. ~ Description for {'str': 'Augmented Healing'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your body recovers from injury much quicker than normal, especially when "
+"you're awake and active."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Navigator"
+msgstr ""
+
+#. ~ Description for {'str': 'Navigator'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your mental conditioning makes it easier to handle the outdoors, and to find"
+" your way.  Your sight radius on the overmap is increased, and you suffer "
+"reduced wet penalties."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Metabolic Stasis"
+msgstr ""
+
+#. ~ Description for {'str': 'Metabolic Stasis'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your body is tuned to operate at a much slower pace to conserve energy.  You"
+" need less food, water, and sleep than normal people, but your stamina "
+"regenerates much more slowly, and you heal slower too."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Hunter-Killer"
+msgstr ""
+
+#. ~ Description for {'str': 'Hunter-Killer'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your reflexes and agility have been greatly augmented.  You move faster "
+"overall, attack much faster, and can find it easier to dodge attacks.  "
+"What's more, your instincts have been honed to make combat skills easier to "
+"learn, and you find killing easier on the mind."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Cardioefficiency"
+msgstr ""
+
+#. ~ Description for {'str': 'Cardioefficiency'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"You find it easier than normal to recover from physical exertion, gaining "
+"increased stamina regeneration."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Subtlety"
+msgstr ""
+
+#. ~ Description for {'str': 'Subtlety'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your innate conditioning makes it much easier to slip past undetected and "
+"manipulate others.  You're harder to spot and your movement is more quiet, "
+"plus it's much easier to persuade and lie to NPCs."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Unyielding"
+msgstr ""
+
+#. ~ Description for {'str': 'Unyielding'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your durability and resilience are overall far beyond normal humans.  You "
+"gain a flat +50 to all hit points, plus your maximum stamina and stamina "
+"regeneration is 30% higher than normal."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Vulnerable"
+msgstr ""
+
+#. ~ Description for {'str': 'Vulnerable'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Your body is much less resilient overall. Your maximum HP is 50% lower than "
+"normal, and you suffer increased phyiscal damage."
+msgstr ""
+
 #: .\Mutations\c_bio_mutation.json .\Surv_help\c_martialarts.json
 msgid "Survivor Combatives"
 msgstr ""
 
 #. ~ Description for {'str': 'Survivor Combatives'}
-#: .\Mutations\c_bio_mutation.json
+#. ~ Description for martial art '{'str': 'Survivor Combatives'}'
+#: .\Mutations\c_bio_mutation.json .\Surv_help\c_martialarts.json
 msgid ""
-"You have become good at using improvised and hand made weaponry, and to a "
-"lesser extent your fists.  You start with the Survivor Combatives style."
+"You learned how to handle yourself in the cataclysm.  Whether armed or "
+"unarmed, you know how to use your wits to stay alive.  Survival is of the "
+"highest priority."
 msgstr ""
 
 #: .\Mutations\c_bio_mutation.json .\Surv_help\c_martialarts.json
@@ -1173,6 +1417,19 @@ msgid ""
 "post-modern human.  Nicknamed \"Biojutsu\", Bionic Combatives combines "
 "integrated weaponry, armor and augments into an consolidated fighting "
 "discipline."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json .\Surv_help\c_martialarts.json
+msgid "Post-Human Combatives"
+msgstr ""
+
+#. ~ Description for {'str': 'Post-Human Combatives'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"You start with the Post-Human Combatives style.  You've learned a number of "
+"tricks to take advantage of the potential that abandoning your humanity can "
+"offer.  Focused on heavy, powerful weapons or mutant limbs, a supernaturally"
+" strong post-human can use their abilities to great effect."
 msgstr ""
 
 #: .\Mutations\c_bio_mutation.json
@@ -2415,7 +2672,7 @@ msgid ""
 msgstr ""
 
 #: .\Npc\TALK_CGUARD1.json
-msgid "Bio_weapons?"
+msgid "Bio-weapons?"
 msgstr ""
 
 #: .\Npc\TALK_CGUARD1.json
@@ -3572,6 +3829,49 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "survivor cuirass"
+msgid_plural "survivor cuirasses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor cuirass', 'str_pl': 'survivor
+#. cuirasses'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A medieval steel breastplate, modified with kevlar and leather to better "
+"protect from the elements."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor steel arm guards"
+msgid_plural "survivor steel arm guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor steel arm guards', 'str_pl': 'survivor
+#. steel arm guards'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A full assembly of medieval arm protection.  Rerebraces, couters, and "
+"vambraces, subsequently modified with kevlar and leather to better protect "
+"the joints."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor steel leg guards"
+msgid_plural "survivor steel leg guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor steel leg guards', 'str_pl': 'survivor
+#. steel leg guards'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, "
+"subsequently modified with kevlar and leather to better protect the joints."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "survivor great helm"
 msgid_plural "survivor great helms"
 msgstr[0] ""
@@ -3641,12 +3941,11 @@ msgstr ""
 
 #: .\Surv_help\c_armor.json
 msgid "ACS-74 stealth cloak"
-msgid_plural "ACS-74 stealth cloaks (on)"
+msgid_plural "ACS-74 stealth cloaks"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'ACS-74 stealth cloak', 'str_pl': 'ACS-74 stealth
-#. cloaks (on)'}
+#. ~ Description for {'str': 'ACS-74 stealth cloak'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "An experimental cloak that uses a highly sophisticated network of cameras "
@@ -3711,13 +4010,29 @@ msgid_plural "light military armor"
 msgstr[0] ""
 msgstr[1] ""
 
+#. ~ Use action holster_msg for {'str_sp': 'light military armor'}.
+#. ~ Use action holster_msg for {'str_sp': 'military armor'}.
+#. ~ Use action holster_msg for {'str_sp': 'heavy military armor'}.
+#. ~ Use action holster_msg for {'str': 'survivor leg rig'}.
+#: .\Surv_help\c_armor.json
+msgid "You stash your %s."
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str_sp': 'light military armor'}.
+#. ~ Use action holster_prompt for {'str_sp': 'military armor'}.
+#. ~ Use action holster_prompt for {'str_sp': 'heavy military armor'}.
+#: .\Surv_help\c_armor.json
+msgid "Stash magazine"
+msgstr ""
+
 #. ~ Description for {'str_sp': 'light military armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A fairly light full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from a fabric bodysuit with advanced composite "
 "plates, it is relatively easy to move in but protection is minimal, only "
-"rated for pistol-caliber rounds and fragmentation."
+"rated for pistol-caliber rounds and fragmentation.  It also has two pouches "
+"for various sizes of small and medium magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3732,7 +4047,8 @@ msgid ""
 "A full-body suit of gray ballistic armor, one size fits most, with separate "
 "helmet.  Made with leather lining and advanced composite plates, it provides"
 " adequate protection against anything up to intermediate caliber ammunition,"
-" but may fail against full-power rifle rounds."
+" but may fail against full-power rifle rounds.  It also has two pouches for "
+"various sizes of small and medium magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3747,7 +4063,8 @@ msgid ""
 "A heavy-duty full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from heavy-duty lining with advanced plating, it"
 " protects the body rather well against most rifle rounds, but may be too "
-"cumbersome for most situations."
+"cumbersome for most situations.  It also has two pouches for various sizes "
+"of medium and large magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3761,8 +4078,7 @@ msgstr[1] ""
 msgid ""
 "A fairly light full-face ballistic helmet, one size fits most.  Made from a "
 "fabric lining with advanced composite plates, it is only rated for pistol-"
-"caliber rounds and fragmentation.  It includes an integrated gas mask, which"
-" must be prepared before use."
+"caliber rounds and fragmentation."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3776,8 +4092,7 @@ msgstr[1] ""
 msgid ""
 "A full-face ballistic helmet, one size fits most.  Made with leather lining "
 "and advanced composite plates, it provides adequate protection against "
-"anything up to intermediate caliber ammunition.  It includes an integrated "
-"gas mask, which must be prepared before use."
+"anything up to intermediate caliber ammunition."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3791,8 +4106,22 @@ msgstr[1] ""
 msgid ""
 "A heavy-duty full-face ballistic helmet, one size fits most.  Made from "
 "heavy-duty lining with advanced plating, it protects the head rather well "
-"against most rifle rounds.  It includes an integrated gas mask, which must "
-"be prepared before use."
+"against most rifle rounds."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "designer bathrobe"
+msgid_plural "designer bathrobes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'designer bathrobe'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"An outer garment of absorbent, towel-like material traditionally worn to "
+"cover one's nakedness to and from the bath.  It makes you wish you had "
+"running water to bathe with.  This one has a golden logo of a now irrelevant"
+" fashion company sewn on."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3804,6 +4133,79 @@ msgstr[1] ""
 #. ~ Description for {'str': 'designer bra'}
 #: .\Surv_help\c_armor.json
 msgid "A luxurious designer bra.  Serves its purpose and looks good on you."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "designer panties"
+msgid_plural "designer panties"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'designer panties'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A luxurious set of designer panties. Preserves your modesty and looks good "
+"on you."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "designer briefs"
+msgid_plural "designer briefs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'designer briefs'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A pair of designer briefs.  Comfortable and good looking underwear worn by "
+"men."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "designer boxer shorts"
+msgid_plural "designer boxer shorts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'designer boxer shorts'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"Men's designer boxer shorts.  Much more fashionable than briefs and just as "
+"comfortable."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "designer boxer briefs"
+msgid_plural "designer boxer briefs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'designer boxer briefs'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"The age-old question, boxers or briefs?  Your answer?  Yes, the fancy kind."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "leather bikini bottom"
+msgid_plural "leather bikini bottoms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'leather bikini bottom'}
+#: .\Surv_help\c_armor.json
+msgid "A simple leather bikini bottom."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "fur bikini bottom"
+msgid_plural "fur bikini bottoms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fur bikini bottom'}
+#: .\Surv_help\c_armor.json
+msgid "A simple fur bikini bottom."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -3845,6 +4247,149 @@ msgid ""
 "wear."
 msgstr ""
 
+#: .\Surv_help\c_armor.json
+msgid "salvaged carapace armor"
+msgid_plural "salvaged carapace armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'salvaged carapace armor'}.
+#: .\Surv_help\c_armor.json
+msgid ""
+"The carapace comes to life, spiracles dilating as environmental seals close."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'salvaged carapace armor'}.
+#: .\Surv_help\c_armor.json
+msgid "The carapace suit doesn't respond, evidently out of energy."
+msgstr ""
+
+#. ~ Description for {'str': 'salvaged carapace armor'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A vaguely human-shaped shell of alien sinew and steel support, covered in "
+"armor plates made of resin.  Salvaged using pre-cataclysm research into "
+"other living weaponry, it's been practically mutilated to fit a human (or "
+"mutant) wearer.  Activating it will reduce the suit's encumbrance, enhance "
+"strength and dexterity, protect the wearer from toxic gas, serve as a "
+"rebreather, enhance stamina and carry capacity, and provide some protection "
+"from outside temperature.  It seems to recharge from sunlight, and being "
+"active will also gradually fatigue the user and affect healthiness, plus "
+"render them more vulnerable to electric shocks."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "salvaged carapace armor (on)"
+msgid_plural "salvaged carapace armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'salvaged carapace armor (on)', 'str_pl':
+#. 'salvaged carapace armors (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "The suit's sinews go slack, releasing you from its grasp."
+msgstr ""
+
+#. ~ Description for {'str': 'salvaged carapace armor (on)', 'str_pl':
+#. 'salvaged carapace armors (on)'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A vaguely human-shaped shell of alien sinew and steel support, covered in "
+"armor plates made of resin.  Currently active, it can protect the wearer "
+"from toxic gas, serve as a rebreather, enhance strength and dexterity, "
+"enhance stamina and carry capacity, and provide some protection from outside"
+" temperature.  In exchange, being active will steadily fatigue the user and "
+"affect healthiness, plus render them more vulnerable to electric shocks."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "set of salvaged exo-wings"
+msgid_plural "sets of salvaged exo-wings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'set of salvaged exo-wings', 'str_pl': 'sets
+#. of salvaged exo-wings'}.
+#: .\Surv_help\c_armor.json
+msgid ""
+"The exo-wings whir to life, becoming a fluttering blur of green and gray."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'set of salvaged exo-wings',
+#. 'str_pl': 'sets of salvaged exo-wings'}.
+#: .\Surv_help\c_armor.json
+msgid "The exo-wings don't respond, evidently out of energy."
+msgstr ""
+
+#. ~ Description for {'str': 'set of salvaged exo-wings', 'str_pl': 'sets of
+#. salvaged exo-wings'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A set of thin, green iridescent wings, steel wires and joints meshed with "
+"thick alien nervous cords.  Salvaged using pre-cataclysm research into other"
+" living weaponry, it's been heavily altered to fit a human (or mutant) "
+"wearer.  Activating it will grant immunity to falling damage and vastly "
+"speed up movement.  It seems to recharge from sunlight, and being active "
+"will also gradually fatigue the user."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "set of salvaged exo-wings (on)"
+msgid_plural "sets of salvaged exo-wings (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'set of salvaged exo-wings (on)', 'str_pl':
+#. 'sets of salvaged exo-wings (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "The exo-wings go limp as they shut down."
+msgstr ""
+
+#. ~ Description for {'str': 'set of salvaged exo-wings (on)', 'str_pl': 'sets
+#. of salvaged exo-wings (on)'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A set of thin, green iridescent wings, steel wires and joints meshed with "
+"thick alien nervous cords.  They are currently buzzing with life, greatly "
+"speeding up movement and enhancing dodge as well as granting immunity to "
+"falling damage, in exchange for increased fatigue gain."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor cowboy hat"
+msgid_plural "survivor cowboy hats"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor cowboy hat'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A wide-brimmed hat that's been modified with kevlar padding, and bandolier "
+"loops sewn onto the hat band.  Perfect for holding a few cartridges "
+"somewhere out of the way, its adjustable loops fitting a wide variety of "
+"ammunition."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor leg rig"
+msgid_plural "survivor leg rigs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_prompt for {'str': 'survivor leg rig'}.
+#: .\Surv_help\c_armor.json
+msgid "Stash item"
+msgstr ""
+
+#. ~ Description for {'str': 'survivor leg rig'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A custom set of low-slung adjustable straps and rings, designed to secure a "
+"variety of equipment strapped to the legs.  Its straps can handle a wide "
+"range of short blades, firearms, magazines, and most items that would fit on"
+" a tool belt.  Activate it to store up to 4 items."
+msgstr ""
+
 #: .\Surv_help\c_bionics.json
 msgid "laser gatling arm"
 msgid_plural "laser gatling arms"
@@ -3855,16 +4400,6 @@ msgstr[1] ""
 msgid ""
 "Your left arm is currently transformed into a ups powered laser gatling gun."
 "  Fire it as if it was any other gun."
-msgstr ""
-
-#: .\Surv_help\c_bionics.json .\Weapons\c_ranged.json
-msgid "auto"
-msgstr ""
-
-#: .\Surv_help\c_bionics.json .\Weapons\c_mods.json .\Weapons\c_ranged.json
-#: .\Weapons\c_ranged_override.json
-msgctxt "gun_type_type"
-msgid "rifle"
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -3886,7 +4421,7 @@ msgid_plural "Laser Gatling Arm CBMs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\Surv_help\c_bionics.json .\Weapons\c_melee.json
+#: .\Surv_help\c_bionics.json
 msgid "monomolecular sword"
 msgid_plural "monomolecular swords"
 msgstr[0] ""
@@ -4161,6 +4696,31 @@ msgstr ""
 #: .\Surv_help\c_bionics.json
 msgid ""
 "Earthly wildlife, mutant or otherwise, will currently ignore your presence."
+msgstr ""
+
+#: .\Surv_help\c_bionics.json
+msgid "Sentinel Power Storage"
+msgstr ""
+
+#. ~ Description for {'str': 'Sentinel Power Storage'}
+#: .\Surv_help\c_bionics.json
+msgid ""
+"An experimental and rare Compact Bionics Module that increases your power "
+"capacity by 1000 kJ."
+msgstr ""
+
+#: .\Surv_help\c_bionics.json
+msgid "Sentinel Power Storage CBM"
+msgid_plural "Sentinel Power Storage CBM"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Sentinel Power Storage CBM'}
+#: .\Surv_help\c_bionics.json
+msgid ""
+"A Compact Bionics Module developed by Omnitech Labs for military "
+"applications based on the highly successful Power Storage CBM.  Increases "
+"the user's power capacity by 1000 units."
 msgstr ""
 
 #: .\Surv_help\c_books.json
@@ -5138,12 +5698,15 @@ msgstr ""
 msgid "The pain in your muscles goes back to just a dull tension."
 msgstr ""
 
-#. ~ Description for martial art '{'str': 'Survivor Combatives'}'
-#: .\Surv_help\c_martialarts.json
+#: .\Surv_help\c_effects.json
+msgid "Powering Beam Weapon"
+msgstr ""
+
+#. ~ Description of effect 'Powering Beam Weapon'.
+#: .\Surv_help\c_effects.json
 msgid ""
-"You learned how to handle yourself in the cataclysm.  Whether armed or "
-"unarmed, you know how to use your wits to stay alive.  Survival is of the "
-"highest priority."
+"The salvaged stun emitter is wearing your body down a bit, presumably that's"
+" what powers it."
 msgstr ""
 
 #. ~ Initiate message for martial art '{'str': 'Survivor Combatives'}'
@@ -5167,8 +5730,8 @@ msgstr ""
 msgid ""
 "The best defense is a good offense.\n"
 "\n"
-"+1 Block attempts, damage blocked increased by 100%% of Intelligence.\n"
-"Lasts 2 turns."
+"+1 Block attempts, damage blocked increased by 100% of Intelligence.\n"
+"Lasts 2 turns, stacks 2 times."
 msgstr ""
 
 #: .\Surv_help\c_martialarts.json
@@ -5181,8 +5744,68 @@ msgstr ""
 msgid ""
 "Quick and fluid movements make you harder to catch.\n"
 "\n"
-"+1 Dodge attempts, Dodge skill increased by 25%% of Intelligence, immunity to knockdown.\n"
-"Lasts for 1 turn."
+"+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to knockdown.\n"
+"Lasts 3 turns, stacks 2 turns."
+msgstr ""
+
+#. ~ Description for martial art '{'str': 'Post-Human Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid ""
+"You've learned a number of tricks to take advantage of the potential that "
+"abandoning your humanity can offer.  Focused on heavy, powerful weapons or "
+"mutant limbs, a supernaturally strong post-human can use their abilities to "
+"great effect."
+msgstr ""
+
+#. ~ Initiate message for martial art '{'str': 'Post-Human Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid "Your loosen your footwork and let your instincts take over."
+msgstr ""
+
+#. ~ Initiate message for martial art '{'str': 'Post-Human Combatives'}'
+#: .\Surv_help\c_martialarts.json
+#, c-format
+msgid "%s enters a loose, animalistic stance."
+msgstr ""
+
+#: .\Surv_help\c_martialarts.json
+msgid "Brutal Efficiency"
+msgstr ""
+
+#. ~ Description of buff 'Brutal Efficiency' for martial art '{'str': 'Post-
+#. Human Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid ""
+"One powerful blow makes the follow-up that much easier.\n"
+"\n"
+"+2 Accuracy, bash armor penetration increased by 30% of strength.\n"
+"Lasts 2 turns, stacks 2 times."
+msgstr ""
+
+#: .\Surv_help\c_martialarts.json
+msgid "Large And In Charge"
+msgstr ""
+
+#. ~ Description of buff 'Large And In Charge' for martial art '{'str': 'Post-
+#. Human Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid ""
+"Your stance makes better use of your might to compensate for poor footwork.\n"
+"Accuracy increased by 15% of strength, -10 move cost."
+msgstr ""
+
+#: .\Surv_help\c_martialarts.json
+msgid "Bull Rush"
+msgstr ""
+
+#. ~ Description of buff 'Bull Rush' for martial art '{'str': 'Post-Human
+#. Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid ""
+"When you get enough momentum going, they're going to feel it.\n"
+"\n"
+"Movement speed increased by 45% of strength, bash damage increased by 15% of strength.  Enables \"Battering Ram\" technique.\n"
+"Lasts 2 turns, stacks 3 times."
 msgstr ""
 
 #: .\Surv_help\c_martialarts.json
@@ -5245,6 +5868,20 @@ msgstr[1] ""
 msgid ""
 "A very lengthy and boring journal detailing the trial and error to learn the"
 " Bionic Combatives fighting style from its bionic."
+msgstr ""
+
+#: .\Surv_help\c_martialartsbook.json
+msgid "Post-Human Combatives Manual"
+msgid_plural "Post-Human Combatives Manuals"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'Post-Human Combatives Manual'}
+#: .\Surv_help\c_martialartsbook.json
+msgid ""
+"A very lengthy and boring journal detailing the ramblings of some "
+"increasingly mutated and augmented survivor, and the unorthodox combat "
+"techniques they developed to suit their inhuman abilities."
 msgstr ""
 
 #: .\Surv_help\c_materials.json
@@ -5616,6 +6253,78 @@ msgstr ""
 msgid "This creates the effect that heals the caster."
 msgstr ""
 
+#: .\Surv_help\c_spells.json
+msgid "Extrude Resin"
+msgstr ""
+
+#. ~ Description for {'str': 'Extrude Resin'}
+#: .\Surv_help\c_spells.json
+msgid "Creates a random number of alien resin chunks."
+msgstr ""
+
+#: .\Surv_help\c_spells.json
+msgid "Weave Magazine"
+msgstr ""
+
+#. ~ Description for {'str': 'Weave Magazine'}
+#: .\Surv_help\c_spells.json
+msgid "Creates a small fleshwoven magazine."
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\Surv_help\c_spells.json
+msgid ""
+"A tendril slithers from the biological pistol and jabs into you, draining "
+"something before a small magazine of living flesh weaves itself together and"
+" sloughs off the weapon."
+msgstr ""
+
+#: .\Surv_help\c_spells.json
+msgid "Fleshweaving Side Effect"
+msgstr ""
+
+#. ~ Description for {'str': 'Fleshweaving Side Effect'}
+#: .\Surv_help\c_spells.json
+msgid "Small amount of extra hunger."
+msgstr ""
+
+#. ~ Description for {'str': 'Weave Magazine'}
+#: .\Surv_help\c_spells.json
+msgid "Creates a fleshwoven magazine."
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\Surv_help\c_spells.json
+msgid ""
+"A tendril slithers from the biological sub-machinegun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\Surv_help\c_spells.json
+msgid ""
+"A tendril slithers from the biological rifle and jabs into you, draining "
+"something before a small magazine of living flesh weaves itself together and"
+" sloughs off the weapon."
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\Surv_help\c_spells.json
+msgid ""
+"A tendril slithers from the biological machinegun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\Surv_help\c_spells.json
+msgid ""
+"A tendril slithers from the biological scattergun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+
 #: .\Surv_help\c_techniques.json
 msgid "Grab Break"
 msgstr ""
@@ -5664,12 +6373,12 @@ msgstr ""
 
 #: .\Surv_help\c_techniques.json
 #, c-format
-msgid "You fake a strike at %s"
+msgid "You fake a strike at %s."
 msgstr ""
 
 #: .\Surv_help\c_techniques.json
 #, c-format
-msgid "<npcname> fakes a strike at %s"
+msgid "<npcname> fakes a strike at %s."
 msgstr ""
 
 #: .\Surv_help\c_techniques.json
@@ -5684,6 +6393,48 @@ msgstr ""
 #: .\Surv_help\c_techniques.json
 #, c-format
 msgid "<npcname> knock %s's weapon away"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+msgid "Battering Ram"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "You send %s flying with a mighty blow"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "<npcname>'s sends %s flying with a mighty blow"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+msgid "Overrun"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "You swiftly slam into and bowl over %s"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "<npcname> swiftly slams into and bowls over %s"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+msgid "Stampeding Strike"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "You bear down on %s with terrible force"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "<npcname> bears down on %s with terrible force"
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -5926,7 +6677,7 @@ msgstr[1] ""
 #. ~ Description for {'str': '12 gauge full auto receiver'}
 #: .\Surv_help\c_tools.json
 msgid ""
-"A custom-made receiver fitted for 12 guage shells, that could be used to "
+"A custom-made receiver fitted for 12 gauge shells, that could be used to "
 "craft an automatic firearm."
 msgstr ""
 
@@ -5954,6 +6705,19 @@ msgstr[1] ""
 msgid ""
 "A custom-made receiver fitted for .7.62x54mmR, that could be used to craft "
 "an automatic firearm."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid ".50 full auto receiver"
+msgid_plural ".50 full auto receivers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '.50 full auto receiver'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A custom-made receiver fitted for .50 BMG, that could be used to craft an "
+"automatic firearm."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6449,6 +7213,162 @@ msgid ""
 "grid, it does the job if nothing else is available."
 msgstr ""
 
+#: .\Surv_help\c_tools.json
+msgid "surgical claw"
+msgid_plural "surgical claws"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'surgical claw'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A cluster of wiry tissue and irregular structures of alien resin, from which"
+" juts an eighteen-inch long blade.  It seems to be made partly of the same "
+"green glassy resin, fading gradually into the off-white synthetic bone or "
+"keratin forming the edge.  It is still razor-sharp and makes for an awkward "
+"cutting tool, but was not built (or grown) with human ergonomics in mind, "
+"making it currently ineffective as a weapon."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "biological lens"
+msgid_plural "biological lenss"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'biological lens'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A relatively small oblong object mostly made out of strange glassy resin.  "
+"One end has an opening covered by an almost perfectly clear surface of this "
+"material, while the other devolves into a tangled mess of severed tendons "
+"and tattered flesh.  A weapon of this sort might be useful, though the "
+"fleshy end of it seems ill-suited for human operation."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "resin projector"
+msgid_plural "resin projectors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'resin projector'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A long barrel of alien resin blended in with a jumble of iridescent, "
+"chitinous flesh and torn muscles.  It clearly seems to be a projectile "
+"weapon, but the ruined mess on the other end makes it difficult to tell how "
+"the weapon is supposed to function nor if it'd be useful in human hands.  It"
+" certainly looks like it wasn't designed with limbs in mind, let alone human"
+" hands."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "carapace husk"
+msgid_plural "carapace husks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'carapace husk'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A shell made of multiple plates of strange resin and iridescent flesh, held "
+"together by a network of sinew.  It resembles a biological suit of armor for"
+" a distinctly inhuman creature more than an actual body part, though the "
+"frayed organic wiring lining the inside paints a much more fleshy picture of"
+" how it was operated.  It almost seems like it could still be used, although"
+" its shape and function clearly never had humans in mind."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "alien spinneret"
+msgid_plural "alien spinnerets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'alien spinneret'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A fist-sized clump of gore and torn muscle fibers, from which jut three thin"
+" spines of what seems to be synthetic bone, or possibly keratin.  In between"
+" the spines are countless thin strands of what looks like brilliant green "
+"fiberglass, most likely alien resin.  This seems to be used for either "
+"producing or shaping this strange substance, potentially useful but right "
+"now it's of little use to anyone like this, human or alien."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "set of iridescent wings"
+msgid_plural "sets of iridescent wings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'set of iridescent wings', 'str_pl': 'sets of
+#. iridescent wings'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"Several pairs of glossy insect-like wings, thin green iridescent flesh "
+"flushed with congealed fluid in what seem to be veins, weaving a spider-web "
+"pattern of pale grey all throughout.  They blend together into a mangled "
+"cluster of chitinous plates covering off-white nervous cords, provoking "
+"rather strong convulsions when pulled the wrong way.  Whether they fly "
+"through the void of space on these or use them for something else, it's "
+"evident these wings were manufactured as much as evolved."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "salvaged resin extruder"
+msgid_plural "salvaged resin extruders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'salvaged resin extruder'}.
+#. ~ Use action menu_text for {'str': 'salvaged resin extruder (alternate
+#. mode)', 'str_pl': 'salvaged resin extruders (alternate mode)'}.
+#: .\Surv_help\c_tools.json
+msgid "switch mode"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'salvaged resin extruder'}.
+#: .\Surv_help\c_tools.json
+msgid "You switch the %s to weaving mode"
+msgstr ""
+
+#. ~ Description for {'str': 'salvaged resin extruder'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A strange device made of alien flesh blended with technology.  Three thin "
+"spines of synthetic ivory surround some sort of nozzle, its contents "
+"steadily regenerating.  It can be activated to produce shards of resin, for "
+"whatever use you may have for such a thing.  Activate it will set it to "
+"apply resin more slowly, letting it be used for repairing salvaged mi-go "
+"biotechnlogy."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "salvaged resin extruder (alternate mode)"
+msgid_plural "salvaged resin extruders (alternate mode)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'salvaged resin extruder (alternate mode)',
+#. 'str_pl': 'salvaged resin extruders (alternate mode)'}.
+#: .\Surv_help\c_tools.json
+msgid "You switch the %s to its normal mode"
+msgstr ""
+
+#. ~ Description for {'str': 'salvaged resin extruder (alternate mode)',
+#. 'str_pl': 'salvaged resin extruders (alternate mode)'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A strange device made of alien flesh blended with technology.  Three thin "
+"spines of synthetic ivory surround some sort of nozzle, its contents "
+"steadily regenerating.  It's currently set to apply resin more slowly, "
+"letting it be used for repairing salvaged mi-go biotechnlogy.  Activate it "
+"to switch back to its normal mode, for creating larger shards of resin for "
+"other purposes."
+msgstr ""
+
 #: .\Terrain\c_terrain.json
 msgid "concrete wall with glass port"
 msgstr ""
@@ -6510,7 +7430,15 @@ msgid "Sketchy Cabin"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
+msgid "Sketchy Cabin roof"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
 msgid "abandoned barn"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
+msgid "abandoned barn roof"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
@@ -6758,6 +7686,51 @@ msgid ""
 "used by exotic autoinjector mechanisms."
 msgstr ""
 
+#: .\Weapons\c_ammo.json
+msgid "resin bullet"
+msgid_plural "resin bullets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'resin bullet'}
+#: .\Weapons\c_ammo.json
+msgid ""
+"A glassy green pellet of alien resin, molded in a shape vaguely resembling a"
+" modern rifle bullet, albeit elongated."
+msgstr ""
+
+#: .\Weapons\c_ammo.json
+msgid ".36 paper overpressure cartridge"
+msgid_plural ".36 paper overpressure cartridges"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '.36 paper overpressure cartridge'}
+#: .\Weapons\c_ammo.json
+msgid ""
+"A paper cartridge containing an increased measure of any available powder, "
+"and a .36 projectile for the Colt M1861 Navy.  A bit more powerful but less "
+"accurate, and potentially unreliable."
+msgstr ""
+
+#: .\Weapons\c_ammo.json
+msgid ".44 paper overpressure cartridge"
+msgid_plural ".44 paper overpressure cartridges"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '.44 paper overpressure cartridge'}
+#: .\Weapons\c_ammo.json
+msgid ""
+"A paper cartridge containing an increased measure of any available powder, "
+"and a .44 projectile for the Colt M1860 Army.  A bit more powerful but less "
+"accurate, and potentially unreliable."
+msgstr ""
+
+#: .\Weapons\c_ammo_types.json
+msgid "resin pellets"
+msgstr ""
+
 #: .\Weapons\c_magazines.json
 msgid "survivor's .223 magazine"
 msgid_plural "survivor's .223 magazines"
@@ -6794,8 +7767,9 @@ msgstr[1] ""
 #. ~ Description for {'str': "survivor's .308 magazine"}
 #: .\Weapons\c_magazines.json
 msgid ""
-"A magazine built for the survivor's .308 battle rifle.  While well-made, it "
-"isn't standardized to fit common production models."
+"A magazine built for the survivor's .308 battle rifle.  Based on the design "
+"of the venerable M14's magazine, its makeshift design makes it incompatible "
+"with factory rifles."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -6849,9 +7823,9 @@ msgstr[1] ""
 #. ~ Description for {'str': "survivor's .45 magazine"}
 #: .\Weapons\c_magazines.json
 msgid ""
-"A magazine built for the survivor's .45 SMG.  A .45 ACP conversion of a "
-"further-simplified STEN pattern, it's decently-made but not designed for any"
-" known factory-made model of firearm."
+"A magazine built for the survivor's .45 SMG.  Roughly modeled after the "
+"MAC-10 magazine in design, it's decently-made but not designed for any known"
+" factory-made model of firearm."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -6924,6 +7898,20 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_magazines.json
+msgid "survivor's .50 magazine"
+msgid_plural "survivor's .50 magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "survivor's .50 magazine"}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A magazine built for the survivor's .50 automatic AMR.  Vaguely resembling "
+"the magazine from the Barrett M107A1 but bulkier, it is clearly not designed"
+" to factory specifications."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
 msgid "crank rifle capacitor bank"
 msgid_plural "crank rifle capacitor banks"
 msgstr[0] ""
@@ -6938,39 +7926,140 @@ msgid ""
 "this thing isn't an electrocution hazard."
 msgstr ""
 
-#: .\Weapons\c_melee.json
-msgid "monomolecular knife"
-msgid_plural "monomolecular knifes"
+#: .\Weapons\c_magazines.json
+msgid "light rechargeable plutonium cell"
+msgid_plural "light rechargeable plutonium cells"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'monomolecular knife'}
+#. ~ Description for {'str': 'light rechargeable plutonium cell'}
+#. ~ Description for {'str': 'medium rechargeable plutonium cell'}
+#. ~ Description for {'str': 'heavy rechargeable plutonium cell'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"This battery uses a thin plutonium-244 rod to stabilize multiple proprietary"
+" exotic compounds.  Designed by Omnitech for a military contract, this "
+"modified plutonium battery is rechargeable, but as it made for military "
+"purposes there is very little this is compatible with."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
+msgid "medium rechargeable plutonium cell"
+msgid_plural "medium rechargeable plutonium cells"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_magazines.json
+msgid "heavy rechargeable plutonium cell"
+msgid_plural "heavy rechargeable plutonium cells"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_magazines.json
+msgid "fleshwoven pistol magazine"
+msgid_plural "fleshwoven pistol magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fleshwoven pistol magazine'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological pistol."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
+msgid "fleshwoven SMG magazine"
+msgid_plural "fleshwoven SMG magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fleshwoven SMG magazine'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological sub-machinegun."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
+msgid "fleshwoven rifle magazine"
+msgid_plural "fleshwoven rifle magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fleshwoven rifle magazine'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological rifle."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
+msgid "fleshwoven LMG magazine"
+msgid_plural "fleshwoven LMG magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fleshwoven LMG magazine'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A small chunk of woven sinew and mutated bone, that feels like it's holding "
+"some sort of liquid.  It was grown for use with the biological machinegun."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
+msgid "fleshwoven shotgun magazine"
+msgid_plural "fleshwoven shotgun magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fleshwoven shotgun magazine'}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A small chunk of woven sinew and mutated bone, that feels like it's holding "
+"some sort of liquid.  It was grown for use with the biological scattergun."
+msgstr ""
+
+#: .\Weapons\c_melee.json
+msgid "repurposed monomolecular knife"
+msgid_plural "repurposed monomolecular knifes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'repurposed monomolecular knife'}
 #: .\Weapons\c_melee.json
 msgid ""
 "A foot-long knife made from high-tech alloy and edged with bonded "
-"nanocrystals.  A welded metal handle and handguard allow you to hold it "
-"without slicing your hand open."
-msgstr ""
-
-#. ~ Description for {'str': 'monomolecular sword'}
-#: .\Weapons\c_melee.json
-msgid ""
-"A yard-long sword made from high-tech alloy and edged with bonded "
-"nanocrystals.  A welded metal handle and handguard allow you to hold it "
-"without slicing your hand open."
+"nanocrystals, salvaged from a CBM.  A welded metal handle and handguard "
+"allow you to hold it without slicing your hand open."
 msgstr ""
 
 #: .\Weapons\c_melee.json
-msgid "bionic claw knuckles"
-msgid_plural "bionic claw knuckles"
+msgid "repurposed monomolecular sword"
+msgid_plural "repurposed monomolecular swords"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'bionic claw knuckles'}
+#. ~ Description for {'str': 'repurposed monomolecular sword'}
 #: .\Weapons\c_melee.json
 msgid ""
-"Short and sharp claws made from a high-tech metal welded to metal knuckles."
-"  Lightweight and fast, wielding them feels as if you were bare-handed."
+"A yard-long sword made from high-tech alloy and edged with bonded "
+"nanocrystals, salvaged from a CBM.  A welded metal handle and handguard "
+"allow you to hold it without slicing your hand open."
+msgstr ""
+
+#: .\Weapons\c_melee.json
+msgid "repurposed bionic claws"
+msgid_plural "repurposed bionic claws"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'repurposed bionic claws'}
+#: .\Weapons\c_melee.json
+msgid ""
+"Short and sharp claws made from a high-tech metal welded to metal knuckles, "
+"salvaged from a CBM.  Lightweight and fast, wielding them feels as if you "
+"were bare-handed."
 msgstr ""
 
 #: .\Weapons\c_melee.json
@@ -7002,6 +8091,39 @@ msgid ""
 "holding it brings a strange sense of power beyond what it used to.  It feels"
 " almost like a living being with a mind of its own, one that lusts for "
 "blood."
+msgstr ""
+
+#: .\Weapons\c_melee.json
+msgid "salvaged claw blade"
+msgid_plural "salvaged claw blades"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'salvaged claw blade'}
+#: .\Weapons\c_melee.json
+msgid ""
+"A mesh of steel and alien resin gripped in the palm, from which juts a "
+"razor-sharp eighteen-inch blade.  The exotic green glass-like material fades"
+" into a hardened edge of some off-white synthetic material.  Wielded similar"
+" to tiger claws, with its single blade between two fingers.  Salvaged using "
+"pre-cataclysm research into other living weaponry, it now works as well for "
+"dissection (or vivisection) in human hands as it once did in the clutches of"
+" the mi-go."
+msgstr ""
+
+#: .\Weapons\c_melee.json
+msgid "makeshift greatsword"
+msgid_plural "makeshift greatswords"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift greatsword'}
+#: .\Weapons\c_melee.json
+msgid ""
+"A heavy blade made from part of a vehicle frame, sawed down to a single long"
+" piece of steel that's been bent to shape and sharpened.  While crude and "
+"too bulky to fit in a scabbard, it packs one hell of a punch, and offers "
+"decent reach."
 msgstr ""
 
 #: .\Weapons\c_mods.json
@@ -7180,18 +8302,19 @@ msgstr[1] ""
 #: .\Weapons\c_ranged.json
 msgid ""
 "A pistol made out of fleshy material enclosed by metal.  Whatever it fires "
-"seems to be solid enough to do damage along with immolating victims, though "
-"it appears to rely on a UPS slot.  Wielding it gives you a strange sense of "
-"focus, though the occasional twitch and unnerving sound from this thing "
-"leaves you uneasy.  Hopefully it's not sentient."
+"seems to be solid enough to do damage along with immolating victims.  "
+"Activate it to draw your life force into the weapon, weaving a replacement "
+"magazine of flesh and bone.  Wielding it gives you a strange sense of focus,"
+" though the occasional twitch and unnerving sound from this thing leaves you"
+" uneasy.  Hopefully it's not sentient."
 msgstr ""
 
 #: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
 msgid "semi"
 msgstr ""
 
-#: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
-msgid "burst"
+#: .\Weapons\c_ranged.json
+msgid "2-rd. burst"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7202,11 +8325,16 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"A sub-machinegun made out of fleshy material enclosed by metal, curiously "
-"sustained by a UPS connection.  Whatever the hell it fires seems to have an "
-"incendiary effect on targets.  Wielding it gives you a strange sense of "
-"focus, though the occasional twitch and unnerving sound from this thing "
-"leaves you uneasy.  Hopefully it's not sentient."
+"A sub-machinegun made out of fleshy material enclosed by metal.  Whatever "
+"the hell it fires seems to have an incendiary effect on targets.  Activate "
+"it to draw your life force into the weapon, weaving a replacement magazine "
+"of flesh and bone.  Wielding it gives you a strange sense of focus, though "
+"the occasional twitch and unnerving sound from this thing leaves you uneasy."
+"  Hopefully it's not sentient."
+msgstr ""
+
+#: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
+msgid "burst"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7217,15 +8345,12 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"A rifle made out of fleshy material enclosed by metal, evidently partly "
-"powered by UPS.  It fires something seemingly alive, over quite a long range"
-" in fact, horribly burning and stunning whatever it hits.  Wielding it gives"
+"A rifle made out of fleshy material enclosed by metal.  It fires something "
+"seemingly alive, over quite a long range in fact, horribly burning and "
+"stunning whatever it hits.  Activate it to draw your life force into the "
+"weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives"
 " you a strange sense of focus, though the occasional twitch and unnerving "
 "sound from this thing leaves you uneasy.  Hopefully it's not sentient."
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid "semi auto"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7236,24 +8361,12 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"A light machinegun made out of fleshy material enclosed by metal, somehow "
-"sustained by a UPS connection.  It fires unnatural, presumably-living rounds"
-" that daze and immolate almost anything hit by sustained fire.  Wielding it "
-"gives you a strange sense of focus, though the occasional twitch and "
-"unnerving sound from this thing leaves you uneasy.  Hopefully it's not "
-"sentient."
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid "low auto"
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid "medium auto"
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid "high auto"
+"A light machinegun made out of fleshy material enclosed by metal.  It fires "
+"unnatural, presumably-living rounds that daze and immolate almost anything "
+"hit by sustained fire.  Activate it to draw your life force into the weapon,"
+" weaving a replacement magazine of flesh and bone.  Wielding it gives you a "
+"strange sense of focus, though the occasional twitch and unnerving sound "
+"from this thing leaves you uneasy.  Hopefully it's not sentient."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7264,12 +8377,13 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"A double barreled shotgun made out of fleshy material enclosed by metal that"
-" seems to run off UPS charges.  It's hard to tell what this thing even "
-"fires, but it appears to have a powerful stunning and incendiary effect on "
-"targets.  Wielding it gives you a strange sense of focus, though the "
-"occasional twitch and unnerving sound from this thing leaves you uneasy.  "
-"Hopefully it's not sentient."
+"An automatic shotgun made out of fleshy material enclosed by metal.  It's "
+"hard to tell what this thing even fires, but it appears to have a powerful "
+"stunning and incendiary effect on targets.  Activate it to draw your life "
+"force into the weapon, weaving a replacement magazine of flesh and bone.  "
+"Wielding it gives you a strange sense of focus, though the occasional twitch"
+" and unnerving sound from this thing leaves you uneasy.  Hopefully it's not "
+"sentient."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7277,7 +8391,7 @@ msgid "one shot"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
-msgid "double barrel"
+msgid "two-round burst"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7357,7 +8471,9 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade assault rifle built from a full auto receiver.  While "
 "still lower quality than most pre-cataclysm rifles, it's superior to many "
-"other homemade weapons.  Takes the .223 cartridge via its magazine."
+"other homemade weapons.  Takes the .223 cartridge via its custom-made "
+"magazine, and can accept certain STANAG magazines of equal or lesser "
+"capacity."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7370,7 +8486,7 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade SMG built from a full auto receiver.  While still lower "
 "quality than most pre-cataclysm SMGs, it's superior to many other homemade "
-"weapons.  Takes the .22 cartridge via its magazine."
+"weapons.  Takes the .22 cartridge via its custom-made magazine."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7383,7 +8499,8 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade SMG built from a full auto receiver.  While still lower "
 "quality than most pre-cataclysm SMGs, it's superior to many other homemade "
-"weapons.  Takes the 9mm cartridge via its magazine."
+"weapons.  Takes the 9mm cartridge via its custom-made magazine, or can "
+"accept lower-capacity makeshift STEN magazines."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7396,7 +8513,8 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade SMG built from a full auto receiver.  While still lower "
 "quality than most pre-cataclysm SMGs, it's superior to many other homemade "
-"weapons.  Takes the .45 cartridge via its magazine."
+"weapons.  Takes the .45 cartridge via its custom-made magazine, and can "
+"accept lower-capacity makeshift variants of the MAC-10 magazine."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7409,7 +8527,8 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade automatic rifle built from a full auto receiver.  While "
 "still lower quality than most pre-cataclysm rifles, it's superior to many "
-"other homemade weapons.  Takes the .308 cartridge via its magazine."
+"other homemade weapons.  Takes the .308 cartridge via its custom-made "
+"magazine, and compatible with magazines from the old M14 rifle."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7422,7 +8541,9 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade assault rifle built from a full auto receiver.  While "
 "still lower quality than most pre-cataclysm rifles, it's superior to many "
-"other homemade weapons.  Takes the 7.62x39mm cartridge via its magazine."
+"other homemade weapons.  Takes the 7.62x39mm cartridge via its custom-made "
+"magazine, and can accept any AK-pattern magazine of equal or lesser "
+"capacity."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7435,7 +8556,8 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade automatic rifle built from a full auto receiver.  While "
 "still lower quality than most pre-cataclysm rifles, it's superior to many "
-"other homemade weapons.  Takes the 7.62x54mmR cartridge via its magazine."
+"other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made "
+"magazine."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7448,7 +8570,8 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade full auto shotgun built from a full auto receiver.  "
 "While still lower quality than most pre-cataclysm shotguns, it's superior to"
-" many other homemade weapons.  Takes the 12 gauge cartridge via its "
+" many other homemade weapons.  Takes the 12 gauge cartridge via its custom-"
+"made magazine, and can accept lower-capacity variants of the Saiga 12 "
 "magazine."
 msgstr ""
 
@@ -7509,6 +8632,21 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ranged.json
+msgid "survivor's .50 automatic AMR"
+msgid_plural "survivor's .50 automatic AMRs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"A beast of a (mostly) homemade anti-materiel rifle built from a full auto "
+"receiver.  While still lower quality than most pre-cataclysm rifles, it's "
+"superior to many other homemade weapons.  Takes the .50 BMG cartridge via "
+"its custom-made magazine, or can accept lower-capacity Barret magazines.  It"
+" can also attach a custom-made carry handle for improved fire from the hip."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
 msgid "survivor's fighting bow"
 msgid_plural "survivor's fighting bows"
 msgstr[0] ""
@@ -7516,10 +8654,10 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"A powerful bow that requires a strong archer to use, arms reinforced to "
-"compensate for its takedown design.  The tips of the bow have makeshift "
-"blades to make this bow an efficient melee weapon when things get close and "
-"personal.  Use it to compact the weapon for easier storage."
+"A custom-made bow, arms reinforced to compensate for its takedown design.  "
+"The tips of the bow have makeshift blades to make this bow an efficient "
+"melee weapon when things get close and personal.  Use it to compact the "
+"weapon for easier storage."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7544,19 +8682,26 @@ msgstr[1] ""
 #: .\Weapons\c_ranged.json
 msgid ""
 "A relatively small laser pistol, boxy design having just enough concessions "
-"to ergonomics to fit well in the hand.  It draws power from compact atomic "
-"batteries, offering energy efficiency and prolonged usage, at the expense of"
-" firepower and range.  The markings refer to \"Omnitech Labs\" as the "
-"manufacturer."
+"to ergonomics to fit well in the hand.  Its manufacturer is listed as "
+"Omnitech Labs.  Powered by atomic power cells or an experimental "
+"rechargeable version, for heavy use where a UPS would not be sustainable in "
+"the short term."
 msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "NEO-33E1 laser pistol"
+msgid_plural "NEO-33E1 laser pistols"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
 "A relatively small laser pistol, boxy design having just enough concessions "
 "to ergonomics to fit well in the hand.  It offers energy efficiency and "
-"prolonged usage, at the expense of firepower and range.  The markings refer "
-"to \"Omnitech Labs\" as the manufacturer.  This one has been converted to "
-"use UPS as its fuel source."
+"prolonged usage, at the expense of firepower and range.  Its manufacturer is"
+" listed as Omnitech Labs.  This one has been converted to use a UPS, a "
+"modification to allow sustained operations in the field in case resupply is "
+"not available."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7568,23 +8713,30 @@ msgstr[1] ""
 #: .\Weapons\c_ranged.json
 msgid ""
 "Based on the design of the NEO-33, the AKRO-388 balances energy efficiency "
-"with rate of fire, offering decent firepower.  Its body is scaled up and "
-"adapted to better handle like common submachineguns in active service.  "
-"Relies on atomic batteries instead of a UPS connection.  Its manufacturer is"
-" listed as Omnitech Labs."
+"with rate of fire, offering decent firepower and handling like common "
+"submachineguns in active service.  Its manufacturer is listed as Omnitech "
+"Labs.  Powered by atomic power cells or an experimental rechargeable "
+"version, for heavy use where a UPS would not be sustainable in the short "
+"term."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "AKRO-388E1 laser SMG"
+msgid_plural "AKRO-388E1 laser SMGs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"Based on the design of the NEO-33, the AKRO-388 balances energy efficiency "
+"with rate of fire, offering decent firepower and handling like common "
+"submachineguns in active service.  Its manufacturer is listed as Omnitech "
+"Labs.  This one has been converted to use a UPS, a modification to allow "
+"sustained operations in the field in case resupply is not available."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
 msgid "spray"
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid ""
-"Based on the design of the NEO-33, the AKRO-388 is balances energy "
-"efficiency with rate of fire, offering decent firepower.  Its body is scaled"
-" up and adapted to better handle like common submachineguns in active "
-"service.  Its manufacturer is listed as Omnitech Labs.  This one has been "
-"converted to use UPS as its fuel source."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7595,21 +8747,26 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"An experimental laser rifle based on the A7 and AKRO-388, adapted to rely on"
-" atomic batteries.  Offers the modular benefits of a combat rifle with the "
-"efficiency of a laser weapon, in a relatively compact package.  Overall it "
-"mimics the handling and operation of common rifles currently in service, for"
-" ease-of-use.  The manufacturer is listed as Omnitech Labs."
+"An experimental laser rifle based on the A7 and AKRO-388, offering the "
+"handling of a modern combat rifle with the efficiency of a laser weapon, in "
+"a relatively compact package.  The manufacturer is listed as Omnitech Labs."
+"  Powered by atomic power cells or an experimental rechargeable version, for"
+" heavy use where a UPS would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
+msgid "ARC-314E1 laser rifle"
+msgid_plural "ARC-314E1 laser rifles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
 msgid ""
-"An experimental laser rifle based on the A7 and AKRO-388.  Offers the "
-"modular benefits of a combat rifle with the efficiency of a laser weapon, in"
-" a relatively compact package.  Overall it mimics the handling and operation"
-" of common rifles currently in service, for ease-of-use.  The manufacturer "
-"is listed as Omnitech Labs.  This one has been converted to use UPS as its "
-"fuel source."
+"An experimental laser rifle based on the A7 and AKRO-388, offering the "
+"handling of a modern combat rifle with the efficiency of a laser weapon, in "
+"a relatively compact package.  The manufacturer is listed as Omnitech Labs."
+"  This one has been converted to use a UPS, a modification to allow "
+"sustained operations in the field in case resupply is not available."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7623,19 +8780,33 @@ msgid ""
 "With the power per shot of the ARC and the firerate of the AKRO, Omnitech "
 "Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While "
 "not very energy-efficient, this behemoth can deal a devastating blow to "
-"large groups of enemies, but each pulse draws heavily from a proprietary "
-"atomic battery connection.  If attached to a vehicle mount, it can also make"
-" full use of its otherwise-limited automated targeting."
+"large groups of enemies.  The manufacturer is listed as Omnitech Labs.  "
+"Powered by atomic power cells or an experimental rechargeable version, for "
+"heavy use where a UPS would not be sustainable in the short term."
 msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "low auto"
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "high auto"
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "KRX-108E1 laser LMG"
+msgid_plural "KRX-108E1 laser LMGs"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
 "With the power per shot of the ARC and the firerate of the AKRO, Omnitech "
 "Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While "
 "not very energy-efficient, this behemoth can deal a devastating blow to "
-"large groups of enemies.  If attached to a vehicle mount, it can also make "
-"full use of its otherwise-limited automated targeting.  This one has been "
-"converted to use UPS as its fuel source."
+"large groups of enemies.  The manufacturer is listed as Omnitech Labs.  This"
+" one has been converted to use a UPS, a modification to allow sustained "
+"operations in the field in case resupply is not available."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7646,35 +8817,46 @@ msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"Omnitech Labs' single shot laser rifle, designed to deal massive damage to a"
-" single target.  Intended to be used as a long-range support weapon by "
-"modern special forces.  Requires an insane amount of energy to fire a single"
-" powerful laser, additionally providing EMP effects.  Uses a proprietary "
-"atomic battery capacitor system"
+"An accurized, long-range laser rifle, designed to deal massive damage to a "
+"single target.  Intended to be used as a long-range support weapon by modern"
+" special forces.  Requires an insane amount of energy to fire a single "
+"powerful laser, additionally providing EMP effects.  The manufacturer is "
+"listed as Omnitech Labs.  Powered by atomic power cells or an experimental "
+"rechargeable version, for heavy use where a UPS would not be sustainable in "
+"the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
-msgid ""
-"Omnitech Labs' single shot laser rifle, designed to deal massive damage to a"
-" single target.  Intended to be used as a long-range support weapon by "
-"modern special forces.  Requires an insane amount of energy to fire a single"
-" powerful laser, additionally providing EMP effects.  This one has been "
-"converted to use UPS as its fuel source."
-msgstr ""
-
-#: .\Weapons\c_ranged.json
-msgid "XARM-37 Pulse Scatter Gun"
-msgid_plural "XARM-37 Pulse Scatter Guns"
+msgid "MX-84E1 laser sniper"
+msgid_plural "MX-84E1 laser snipers"
 msgstr[0] ""
 msgstr[1] ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
-"This is a modified double-barreled ARC rifle, designed by Omnitech Labs.  "
-"Gains an EMP effect at the cost of range and firepower, relying on atomic "
-"cells instead of a UPS hookup.  It is fired in short pulses that act like "
-"buckshot; still decent against conventional threats but best against "
-"electronics."
+"An accurized laser rifle, designed to deal massive damage to a single "
+"target.  Intended to be used as a long-range support weapon by modern "
+"special forces.  Requires an insane amount of energy to fire a single "
+"powerful laser, additionally providing EMP effects.  The manufacturer is "
+"listed as Omnitech Labs.  This one has been converted to use a UPS, a "
+"modification to allow sustained operations in the field in case resupply is "
+"not available."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "XARM-37 pulse scattergun"
+msgid_plural "XARM-37 pulse scatterguns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"This is an ARC rifle modified into something resembling a double-barrel "
+"shotgun.  It fires short-range EMP pulses; still decent against conventional"
+" threats but best against electronics.  The manufacturer is listed as "
+"Omnitech Labs.  Powered by atomic power cells or an experimental "
+"rechargeable version, for heavy use where a UPS would not be sustainable in "
+"the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7682,12 +8864,18 @@ msgid "double-barrel"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
+msgid "XARM-37E1 pulse scattergun"
+msgid_plural "XARM-37E1 pulse scatterguns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
 msgid ""
-"This is a modified double-barreled ARC rifle, designed by Omnitech Labs.  "
-"Gains an EMP effect at the cost of range and firepower.  It is fired in "
-"short pulses that act like buckshot; still decent against conventional "
-"threats but best against electronics.  This one has been converted to use "
-"UPS as its fuel source."
+"This is an ARC rifle modified into something resembling a double-barrel "
+"shotgun.  It fires short-range EMP pulses; still decent against conventional"
+" threats but best against electronics.  The manufacturer is listed as "
+"Omnitech Labs.  This one has been converted to use a UPS, a modification to "
+"allow sustained operations in the field in case resupply is not available."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -7705,8 +8893,8 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ranged.json
-msgid "MK-2 Ionic Cannon"
-msgid_plural "MK-2 Ionic Cannons"
+msgid "MK-2 ionic cannon"
+msgid_plural "MK-2 ionic cannons"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7731,14 +8919,39 @@ msgid ""
 "considerably less fuel per gout of flame, at the expense of power and range."
 msgstr ""
 
-#: .\Weapons\c_ranged_override.json
-msgid "repeating crossbow"
-msgid_plural "repeating crossbows"
+#: .\Weapons\c_ranged.json
+msgid "salvaged stun emitter"
+msgid_plural "salvaged stun emitters"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\Weapons\c_ranged.json
+msgid ""
+"A mi-go beam weapon repurposed for human use using pre-cataclysm "
+"developments in bio-technology, crudely interfacing artificial nerves with "
+"wiring and converting it into a bulky pistol.  Its strange lens fires short-"
+"ranged beams that low damage, but are highly effective at stunning targets."
+"  Having been converted for human use, it draws power from a UPS connection."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "salvaged resin rifle"
+msgid_plural "salvaged resin rifles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"A mi-go weapon that projects pieces of hardened alien resin at high "
+"velocities, its exotic controls stripped down and interfaced with something "
+"more fitting human anatomy.  The product of pre-cataclysm biotechnology "
+"applied to solve an outside-context problem.  Although it relies on special "
+"ammunition, it is relatively easy to mold resin into compatible projectiles,"
+" and it packs a decent punch with very little noise."
+msgstr ""
+
 #: .\Weapons\c_ranged_override.json
-msgid "coilgun"
-msgid_plural "coilguns"
+msgid "repeating crossbow"
+msgid_plural "repeating crossbows"
 msgstr[0] ""
 msgstr[1] ""
