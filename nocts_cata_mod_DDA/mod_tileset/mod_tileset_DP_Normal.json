@@ -16,7 +16,12 @@
           { "id": "mon_zombie_bio_dormant_armed", "fg": 8 },
           { "id": "mon_zombie_bio_knife", "fg": 9 },
           {
-            "id": [ "corpse_mon_zombie_bio_dormant_unarmed", "corpse_mon_zombie_bio_dormant_armed", "corpse_mon_zombie_bio_knife" ],
+            "id": [
+              "corpse_mon_zombie_bio_dormant_unarmed",
+              "corpse_mon_zombie_bio_dormant_armed",
+              "corpse_mon_zombie_bio_knife",
+              "mon_zombie_bio_reanimated"
+            ],
             "fg": 10
           },
           { "id": "mon_zombie_bio_infantry_rifle", "fg": 11 },
@@ -157,7 +162,8 @@
             ],
             "fg": 75
           },
-          { "id": [ "overlay_worn_c_power_armor_surv", "overlay_worn_c_power_armor_surv_on" ], "fg": 76 }
+          { "id": [ "overlay_worn_c_power_armor_surv", "overlay_worn_c_power_armor_surv_on" ], "fg": 76 },
+          { "id": "mon_zombie_bio_reanimated", "fg": 77 }
         ],
         "sprite_width": 32,
         "sprite_height": 32
