@@ -77,7 +77,10 @@
       "bio_armor_eyes"
     ],
     "items": {
-      "both": [ "badge_bio_weapon", "subsuit_xl", "footrags", "hat_noise_cancelling" ],
+      "both": {
+        "items": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
+        "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
+      },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
