@@ -89,6 +89,7 @@
     "magazine": 100,
     "ammo": 100,
     "entries": [
+      { "item": "badge_bio_weapon_evy" },
       { "item": "mre_veggy_box" },
       { "item": "biomap" },
       { "item": "militarymap" },
