@@ -72,6 +72,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
+      { "item": "badge_bio_weapon_evy" },
       { "item": "mre_veggy_box" },
       { "item": "biomap" },
       { "item": "militarymap" },
