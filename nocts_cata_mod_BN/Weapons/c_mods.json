@@ -135,7 +135,7 @@
     "color": "dark_gray",
     "symbol": ":",
     "material": [ "plastic", "steel" ],
-    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "crossbow", "bow", "launcher" ],
+    "mod_targets": [ "smg", "rifle", "pistol", "shotgun", "crossbow", "archery", "launcher" ],
     "volume": "250 ml",
     "price": "850 USD",
     "price_postapoc": "850 cent",
