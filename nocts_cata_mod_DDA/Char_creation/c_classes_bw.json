@@ -142,6 +142,7 @@
     "name": "Fungus Failed Bio-Weapon",
     "description": "Assimilation process is complete, incorporation and modification of biology and bionics into our system was successful.  Protection of our new domain and brethren is our current objective.  Inability to remove previous DNA marker is but a minor setback.",
     "points": 4,
+    "//": "Most of the same traits as standard failed bio-weapons, though Unstable Genetics has been removed since Mycus characters aren't supposed to mutate, and they softlock if it gives them Carnivore.",
     "traits": [
       "NIGHTVISION",
       "PSYCHOPATH",
@@ -151,7 +152,6 @@
       "ARMOR_BIOWEAPON",
       "PONDEROUS_BIOWEAPON",
       "HUNGER_BIOWEAPON",
-      "UNSTABLE",
       "ANIMALDISCORD",
       "THRESH_MYCUS",
       "BIO_WEAPON_FAILED"
