@@ -6,6 +6,7 @@
     "density": 13,
     "specific_heat_liquid": 1,
     "specific_heat_solid": 0.75,
+    "soft": true,
     "latent_heat": 303,
     "bash_resist": 9,
     "cut_resist": 19,
