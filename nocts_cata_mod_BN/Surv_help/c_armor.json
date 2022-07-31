@@ -268,7 +268,21 @@
     "symbol": "[",
     "looks_like": "badge_cybercop",
     "color": "red",
-    "flags": [ "TRADER_AVOID" ]
+    "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
+  },
+  {
+    "id": "badge_bio_weapon_evy",
+    "type": "ARMOR",
+    "name": { "str": "RFID access badge" },
+    "description": "A round silver medallion with a RFID chip embedded in the front.  The markings seem to identify the wearer as a part of the Bio-Weapon project.",
+    "weight": "60 g",
+    "price": "100 USD",
+    "phase": "solid",
+    "material": [ "silver" ],
+    "symbol": "[",
+    "looks_like": "badge_cybercop",
+    "color": "red",
+    "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
   },
   {
     "id": "acs_74_stealth_cloak_on",

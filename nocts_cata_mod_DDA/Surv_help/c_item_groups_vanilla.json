@@ -160,6 +160,7 @@
         [ "xarm_laser_shotgun", 2 ],
         [ "br_bolt_rifle_elec", 2 ],
         [ "mk_ionic_cannon", 2 ],
+        [ "omnitech_plasma_pistol", 1 ],
         [ "megamap", 5 ],
         [ "stim", 5 ],
         [ "boots_stealth", 3 ],
@@ -301,6 +302,7 @@
         [ "xarm_laser_shotgun", 2 ],
         [ "br_bolt_rifle_elec", 2 ],
         [ "mk_ionic_cannon", 2 ],
+        [ "omnitech_plasma_pistol", 1 ],
         [ "cbm_rtg_inductor", 1 ]
       ]
     }
@@ -337,6 +339,7 @@
         },
         [ "br_bolt_rifle_elec", 2 ],
         [ "mk_ionic_cannon", 2 ],
+        [ "omnitech_plasma_pistol", 1 ],
         [ "megamap", 2 ],
         [ "stim", 5 ],
         [ "boots_stealth", 2 ],
@@ -388,6 +391,7 @@
         },
         [ "br_bolt_rifle_elec", 2 ],
         [ "mk_ionic_cannon", 2 ],
+        [ "omnitech_plasma_pistol", 1 ],
         [ "megamap", 2 ],
         [ "stim", 2 ],
         [ "boots_stealth", 2 ],
@@ -659,6 +663,7 @@
     "extend": {
       "items": [
         [ "mk_ionic_cannon", 1 ],
+        [ "omnitech_plasma_pistol", 1 ],
         {
           "distribution": [ { "item": "neo_laser_pistol", "prob": 50, "charges": [ 0, 500 ] }, { "item": "neo_laser_pistol_ups", "prob": 50 } ],
           "prob": 1
@@ -770,5 +775,11 @@
     "copy-from": "rare_martial_arts_books",
     "type": "item_group",
     "extend": { "items": [ { "group": "survivor_combative_books", "prob": 1 } ] }
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_energy",
+    "copy-from": "gunmod_energy",
+    "extend": { "items": [ [ "hydrogen_convertor", 40 ] ] }
   }
 ]
