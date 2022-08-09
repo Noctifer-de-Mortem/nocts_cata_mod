@@ -41,7 +41,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "heavy_atomic_battery_cell_rechargeable", "charges": [ 5000, 10000 ], "container-item": "UPS_off" },
+      { "item": "heavy_atomic_battery_cell", "charges": [ 5000, 10000 ], "container-item": "UPS_off" },
       { "item": "mre_veggy_box" },
       { "item": "biomap" },
       { "item": "militarymap" },
