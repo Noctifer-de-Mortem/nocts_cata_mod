@@ -42,6 +42,7 @@
     "id": "NC_BIO_WEAPON_carry",
     "type": "item_group",
     "subtype": "collection",
+    "ammo": 100,
     "entries": [
       {
         "distribution": [
