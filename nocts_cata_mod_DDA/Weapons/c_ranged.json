@@ -1232,7 +1232,12 @@
     "durability": 6,
     "clip_size": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 1 } } ],
-    "use_action": { "type": "transform", "msg": "You collapse the fighting bow into its takedown form.", "target": "survbowstored" }
+    "use_action": {
+      "type": "transform",
+      "msg": "You collapse the fighting bow into its takedown form.",
+      "target": "survbowstored",
+      "ammo_scale": 0
+    }
   },
   {
     "id": "surv_sniper",
@@ -1982,16 +1987,16 @@
     "durability": 6,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 15,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "airtight": true, "rigid": true, "ammo_restriction": { "plasma": 15, "c_hydrogen": 15 } } ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "watertight": true,
+        "airtight": true,
+        "rigid": true,
+        "ammo_restriction": { "plasma": 15, "c_hydrogen": 15 }
+      }
+    ],
     "reload": 450,
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "grip", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   }
-
 ]

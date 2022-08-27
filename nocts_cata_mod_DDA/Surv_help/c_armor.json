@@ -909,7 +909,8 @@
     "use_action": {
       "target": "c_mi_go_carapace_salvaged",
       "msg": "The suit's sinews go slack, releasing you from its grasp.",
-      "type": "transform"
+      "type": "transform",
+      "ammo_scale": 0
     },
     "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] },
     "material": [ "alien_resin", "flesh", "steel" ],
@@ -969,7 +970,12 @@
     "description": "A set of thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  They are currently buzzing with life, greatly speeding up movement and enhancing dodge as well as granting immunity to falling damage, in exchange for increased fatigue gain.",
     "turns_per_charge": 75,
     "revert_to": "c_mi_go_wings_salvaged",
-    "use_action": { "target": "c_mi_go_wings_salvaged", "msg": "The exo-wings go limp as they shut down.", "type": "transform" },
+    "use_action": {
+      "target": "c_mi_go_wings_salvaged",
+      "msg": "The exo-wings go limp as they shut down.",
+      "type": "transform",
+      "ammo_scale": 0
+    },
     "extend": { "flags": [ "NO_TAKEOFF" ] },
     "armor": [ { "encumbrance": 0, "coverage": 40, "covers": [ "torso" ] } ]
   },
@@ -1184,7 +1190,8 @@
       "target": "c_power_armor_surv",
       "msg": "You shut the makeshift power armor off.",
       "menu_text": "Turn off",
-      "type": "transform"
+      "type": "transform",
+      "ammo_scale": 0
     },
     "warmth": 45,
     "armor": [
