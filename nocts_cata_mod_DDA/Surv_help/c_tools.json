@@ -51,7 +51,13 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
     "turns_per_charge": 15,
     "revert_to": "solar_flashlight",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "You turn the flashlight off.", "target": "solar_flashlight" }
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "You turn the flashlight off.",
+      "target": "solar_flashlight",
+      "ammo_scale": 0
+    }
   },
   {
     "id": "wear_solar_flashlight",
@@ -118,7 +124,8 @@
       "type": "transform",
       "menu_text": "Turn off",
       "msg": "You turn the flashlight off.",
-      "target": "wear_solar_flashlight"
+      "target": "wear_solar_flashlight",
+      "ammo_scale": 0
     },
     "armor": [
       {
@@ -201,7 +208,15 @@
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
     "revert_msg": "The torch is extinguished.",
-    "use_action": [ { "type": "transform", "menu_text": "Extinguish", "msg": "The torch is extinguished.", "target": "solar_torch" } ]
+    "use_action": [
+      {
+        "type": "transform",
+        "menu_text": "Extinguish",
+        "msg": "The torch is extinguished.",
+        "target": "solar_torch",
+        "ammo_scale": 0
+      }
+    ]
   },
   {
     "id": "fr_22",
@@ -631,7 +646,12 @@
     "weight": "1144 g",
     "volume": "1 L",
     "to_hit": -1,
-    "use_action": { "type": "transform", "msg": "You unfold your bow, locking the arms into place.", "target": "survbow" }
+    "use_action": {
+      "type": "transform",
+      "msg": "You unfold your bow, locking the arms into place.",
+      "target": "survbow",
+      "ammo_scale": 0
+    }
   },
   {
     "id": "semap",
@@ -1171,7 +1191,8 @@
         "type": "transform",
         "msg": "You switch the %s to weaving mode",
         "target": "c_mi_go_extruder_salvaged_alt",
-        "menu_text": "switch mode"
+        "menu_text": "switch mode",
+        "ammo_scale": 0
       }
     ]
   },
@@ -1197,7 +1218,8 @@
         "type": "transform",
         "msg": "You switch the %s to its normal mode",
         "target": "c_mi_go_extruder_salvaged",
-        "menu_text": "switch mode"
+        "menu_text": "switch mode",
+        "ammo_scale": 0
       }
     ]
   }
