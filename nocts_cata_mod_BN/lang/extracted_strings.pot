@@ -2,11 +2,499 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2022-05-25 14:24+0600\n"
+"POT-Creation-Date: 2022-09-05 10:19+0300\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Mechanics"
+msgid_plural "Rebuilding Civilization: Mechanics"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Mechanics'}
+#: .\legacy.json
+msgid ""
+"The mechanics volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from simple machines to the inner workings of submarine"
+" engines in extremly fine detail no practical exam.  This book is so "
+"technical, longwinded and dry that even bookworms and fast readers would "
+"find it hard to read.  Literally any other book on the subject would be a "
+"more efficient way to learn but if the books you have are missing specific "
+"information then this is a good substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Fabrication"
+msgid_plural "Rebuilding Civilization: Fabrication"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Fabrication'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The fabrication volume of the Rebuilding Civilization encyclopedia.  This "
+"book contains everything from creating how to create simple stone tools to "
+"the creation of the pyramids of Egypt in fine detail.  This book is so "
+"technical, longwinded and dry that even bookworms and fast readers would "
+"find it hard to read.  Literally any other book on the subject would be a "
+"more efficient way to learn but if the books you have are missing specific "
+"information then this is a good substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Archery"
+msgid_plural "Rebuilding Civilization: Archery"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Archery'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The archery volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from correct positioning to the usage of advanced bows "
+"in fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Barter"
+msgid_plural "Rebuilding Civilization: Barter"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Barter'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The bartering volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from what supplies are worth more after the cataclysm "
+"to what economic system to use in your new society in fine detail.  This "
+"book is so technical, longwinded and dry that even bookworms and fast "
+"readers would find it hard to read.  Literally any other book on the subject"
+" would be a more efficient way to learn but if the books you have are "
+"missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Bashing Weapons"
+msgid_plural "Rebuilding Civilization: Bashing Weapons"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Bashing Weapons'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The bashing weapons volume of the Rebuilding Civilization encyclopedia.  "
+"This book contains everything from self defense with a pipe to the proper "
+"swinging technique for a sledge hammer in fine detail.  This book is so "
+"technical, longwinded and dry that even bookworms and fast readers would "
+"find it hard to read.  Literally any other book on the subject would be a "
+"more efficient way to learn but if the books you have are missing specific "
+"information then this is a good substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Computers"
+msgid_plural "Rebuilding Civilization: Computers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Computers'}
+#: .\legacy.json
+msgid ""
+"The computer volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from basic programing to cyber security algorithms in "
+"fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Cooking"
+msgid_plural "Rebuilding Civilization: Cooking"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Cooking'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The cooking volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from cooking small game to basic chemistry in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Cutting Weapons"
+msgid_plural "Rebuilding Civilization: Cutting Weapons"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Cutting Weapons'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The cutting weapons volume of the Rebuilding Civilization encyclopedia.  "
+"This book contains everything from using a glass shiv to medieval "
+"swordsmanship in fine detail.  This book is so technical, longwinded and dry"
+" that even bookworms and fast readers would find it hard to read.  Literally"
+" any other book on the subject would be a more efficient way to learn but if"
+" the books you have are missing specific information then this is a good "
+"substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Dodging"
+msgid_plural "Rebuilding Civilization: Dodging"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Dodging'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The dodging volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from dancing for beginners to parkour in fine detail.  "
+"This book is so technical, longwinded and dry that even bookworms and fast "
+"readers would find it hard to read.  Literally any other book on the subject"
+" would be a more efficient way to learn but if the books you have are "
+"missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Driving"
+msgid_plural "Rebuilding Civilization: Driving"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Driving'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The driving volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from acquiring a driving license to professional racing "
+"in fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Electronics"
+msgid_plural "Rebuilding Civilization: Electronics"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Electronics'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The electronics volume of the Rebuilding Civilization encyclopedia.  This "
+"book contains everything from simple circuits to military robotics in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: First Aid"
+msgid_plural "Rebuilding Civilization: First Aid"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: First Aid'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The first aid volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from proper bandage application to exploratory surgery "
+"in fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Marksmanship"
+msgid_plural "Rebuilding Civilization: Marksmanship"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Marksmanship'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The marksmanship volume of the Rebuilding Civilization encyclopedia.  This "
+"book contains everything from proper iron sight aiming to military sniper "
+"techniques in fine detail.  This book is so technical, longwinded and dry "
+"that even bookworms and fast readers would find it hard to read.  Literally "
+"any other book on the subject would be a more efficient way to learn but if "
+"the books you have are missing specific information then this is a good "
+"substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Launchers"
+msgid_plural "Rebuilding Civilization: Launchers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Launchers'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The launchers volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from the use of spraycan flamethrowers to recoiless "
+"rifles in fine detail.  This book is so technical, longwinded and dry that "
+"even bookworms and fast readers would find it hard to read.  Literally any "
+"other book on the subject would be a more efficient way to learn but if the "
+"books you have are missing specific information then this is a good "
+"substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Melee Combat"
+msgid_plural "Rebuilding Civilization: Melee Combat"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Melee Combat'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The melee combat volume of the Rebuilding Civilization encyclopedia.  This "
+"book contains everything from using a branch to martial arts techniques in "
+"fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Pistols"
+msgid_plural "Rebuilding Civilization: Pistols"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'Rebuilding Civilization: Pistols', 'str_pl':
+#. 'Rebuilding Civilization: Pistols'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The pistols volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from using zip pistols to laser pistols in fine detail."
+"  This book is so technical, longwinded and dry that even bookworms and fast"
+" readers would find it hard to read.  Literally any other book on the "
+"subject would be a more efficient way to learn but if the books you have are"
+" missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Rifles"
+msgid_plural "Rebuilding Civilization: Rifles"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Rifles'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The rifles volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from using zip rifles to laser rifles in fine detail.  "
+"This book is so technical, longwinded and dry that even bookworms and fast "
+"readers would find it hard to read.  Literally any other book on the subject"
+" would be a more efficient way to learn but if the books you have are "
+"missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Shotguns"
+msgid_plural "Rebuilding Civilization: Shotguns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Shotguns'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The shotguns volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from using zip shotguns to laser scatter guns in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Sub Machineguns"
+msgid_plural "Rebuilding Civilization: Sub Machineguns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Sub Machineguns'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The sub machineguns volume of the Rebuilding Civilization encyclopedia.  "
+"This book contains everything from using makeshift smgs to automatic laser "
+"carbines in fine detail.  This book is so technical, longwinded and dry that"
+" even bookworms and fast readers would find it hard to read.  Literally any "
+"other book on the subject would be a more efficient way to learn but if the "
+"books you have are missing specific information then this is a good "
+"substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Speech"
+msgid_plural "Rebuilding Civilization: Speech"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Speech'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The speech volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from recruiting survivors to running for political "
+"office in fine detail.  This book is so technical, longwinded and dry that "
+"even bookworms and fast readers would find it hard to read.  Literally any "
+"other book on the subject would be a more efficient way to learn but if the "
+"books you have are missing specific information then this is a good "
+"substitute until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Piercing Weapons"
+msgid_plural "Rebuilding Civilization: Piercing Weapons"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Piercing Weapons'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The piercing weapons volume of the Rebuilding Civilization encyclopedia.  "
+"This book contains everything from using switchblades to spear combat in "
+"fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Survival"
+msgid_plural "Rebuilding Civilization: Survival"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Survival'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The survival volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from camping to survival on a deserted island in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Swimming"
+msgid_plural "Rebuilding Civilization: Swimming"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Swimming'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The swimming volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from recreational swimming to crossing rivers in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Tailoring"
+msgid_plural "Rebuilding Civilization: Tailoring"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Tailoring'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The tailoring volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from fixing clothing tears to fashion designing in fine"
+" detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Throwing"
+msgid_plural "Rebuilding Civilization: Throwing"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Throwing'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The throwing volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from throwing stones to spear hunting in fine detail.  "
+"This book is so technical, longwinded and dry that even bookworms and fast "
+"readers would find it hard to read.  Literally any other book on the subject"
+" would be a more efficient way to learn but if the books you have are "
+"missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Traps"
+msgid_plural "Rebuilding Civilization: Traps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Traps'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The traps volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from spike pits to disarming landmines in fine detail.  "
+"This book is so technical, longwinded and dry that even bookworms and fast "
+"readers would find it hard to read.  Literally any other book on the subject"
+" would be a more efficient way to learn but if the books you have are "
+"missing specific information then this is a good substitute until you find "
+"something better."
+msgstr ""
+
+#: .\legacy.json .\Surv_help\c_books.json
+msgid "Rebuilding Civilization: Unarmed Combat"
+msgid_plural "Rebuilding Civilization: Unarmed Combat"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Unarmed Combat'}
+#: .\legacy.json .\Surv_help\c_books.json
+msgid ""
+"The unarmed volume of the Rebuilding Civilization encyclopedia.  This book "
+"contains everything from self defense techniques to MMA fighting in fine "
+"detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
+msgstr ""
 
 #: .\modinfo.json
 msgid "Cataclysm++"
@@ -29,6 +517,11 @@ msgctxt "profession_male"
 msgid "Failed Bio-Weapon"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Failed Bio-Weapon"
+msgstr ""
+
 #. ~ Profession (male Failed Bio-Weapon) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -37,11 +530,6 @@ msgid ""
 "  Destined to be something great but many a mistake took that away from you."
 "  You awoke in a world of monsters, but you're determined to prove you "
 "aren't one of them."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Failed Bio-Weapon"
 msgstr ""
 
 #. ~ Profession (female Failed Bio-Weapon) description
@@ -59,6 +547,11 @@ msgctxt "profession_male"
 msgid "Fungus Failed Bio-Weapon"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Fungus Failed Bio-Weapon"
+msgstr ""
+
 #. ~ Profession (male Fungus Failed Bio-Weapon) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -67,11 +560,6 @@ msgid ""
 "and bionics into our system was successful.  Protection of our new domain "
 "and brethren is our current objective.  Inability to remove previous DNA "
 "marker is but a minor setback."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Fungus Failed Bio-Weapon"
 msgstr ""
 
 #. ~ Profession (female Fungus Failed Bio-Weapon) description
@@ -89,6 +577,11 @@ msgctxt "profession_male"
 msgid "Bio-Weapon Alpha"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Bio-Weapon Alpha"
+msgstr ""
+
 #. ~ Profession (male Bio-Weapon Alpha) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -96,11 +589,6 @@ msgid ""
 "'The Predator'.  You were the first, the Alpha.  Created to sow chaos behind"
 " enemy lines, driven by hunger.  You awoke into the unknown with an appetite"
 " - good thing the world is full of prey to devour!"
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Bio-Weapon Alpha"
 msgstr ""
 
 #. ~ Profession (female Bio-Weapon Alpha) description
@@ -117,6 +605,11 @@ msgctxt "profession_male"
 msgid "Bio-Weapon Delta"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Bio-Weapon Delta"
+msgstr ""
+
 #. ~ Profession (male Bio-Weapon Delta) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -125,11 +618,6 @@ msgid ""
 "Capable of taking down enemies from afar, exploring enemy territory and "
 "integrating into the local populace.  You awoke to chaos, and you plan to "
 "eliminate whoever caused it."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Bio-Weapon Delta"
 msgstr ""
 
 #. ~ Profession (female Bio-Weapon Delta) description
@@ -147,6 +635,11 @@ msgctxt "profession_male"
 msgid "Bio-Weapon Beta"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Bio-Weapon Beta"
+msgstr ""
+
 #. ~ Profession (male Bio-Weapon Beta) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -154,11 +647,6 @@ msgid ""
 "'The Immortal', designed to be a one-man army.  Your body is a lethal "
 "weapon, finely tuned arms and defenses ready to destroy anything standing in"
 " your way.  You awoke to a horde of enemies, so now you take them all on."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Bio-Weapon Beta"
 msgstr ""
 
 #. ~ Profession (female Bio-Weapon Beta) description
@@ -175,6 +663,11 @@ msgctxt "profession_male"
 msgid "Bio-Weapon Gamma"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Bio-Weapon Gamma"
+msgstr ""
+
 #. ~ Profession (male Bio-Weapon Gamma) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -183,11 +676,6 @@ msgid ""
 "technology.  You are a walking, adaptive repair machine.  You awoke to the "
 "sounds of machines fighting abominations.  You could help them, or destroy "
 "them, if they get in your way."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Bio-Weapon Gamma"
 msgstr ""
 
 #. ~ Profession (female Bio-Weapon Gamma) description
@@ -205,6 +693,11 @@ msgctxt "profession_male"
 msgid "Super Soldier"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Super Soldier"
+msgstr ""
+
 #. ~ Profession (male Super Soldier) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -212,11 +705,6 @@ msgid ""
 "The infantry of the Super Soldier project.  You are one of many augmented "
 "soldiers to be deployed into a battle field to ensure victory.  With range "
 "and melee capabilities, you engage enemies en masse."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Super Soldier"
 msgstr ""
 
 #. ~ Profession (female Super Soldier) description
@@ -233,6 +721,11 @@ msgctxt "profession_male"
 msgid "Super Scout"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Super Scout"
+msgstr ""
+
 #. ~ Profession (male Super Scout) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -241,11 +734,6 @@ msgid ""
 "soldiers to be used for reconnaissance and V.I.P assassinations.  With your "
 "weapons and skills, you can eliminate key targets after living for weeks in "
 "enemy territory."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Super Scout"
 msgstr ""
 
 #. ~ Profession (female Super Scout) description
@@ -263,6 +751,11 @@ msgctxt "profession_male"
 msgid "Super Bio-engineer"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Super Bio-engineer"
+msgstr ""
+
 #. ~ Profession (male Super Bio-engineer) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -271,11 +764,6 @@ msgid ""
 "Soldier project.  You are one of many augmented military mechanics to be "
 "used as a repair module.  With repair, medical and general electronic "
 "capabilities, you can maybe fix the world."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Super Bio-engineer"
 msgstr ""
 
 #. ~ Profession (female Super Bio-engineer) description
@@ -293,6 +781,11 @@ msgctxt "profession_male"
 msgid "Super Juggernaut"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Super Juggernaut"
+msgstr ""
+
 #. ~ Profession (male Super Juggernaut) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -301,11 +794,6 @@ msgid ""
 "soldiers to be used as a heavy support to infantry.  With ranged, armor and "
 "regenerative capabilities, you can endure heavy damage and return it in "
 "kind."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Super Juggernaut"
 msgstr ""
 
 #. ~ Profession (female Super Juggernaut) description
@@ -323,17 +811,17 @@ msgctxt "profession_male"
 msgid "Slave Fighter (Blade)"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Slave Fighter (Blade)"
+msgstr ""
+
 #. ~ Profession (male Slave Fighter (Blade)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
 "You were augmented with a blade, and enhancements to your speed and reaction"
 " time. You can hit an opponent multiple times before they land a blow."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Slave Fighter (Blade)"
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Blade)) description
@@ -349,17 +837,17 @@ msgctxt "profession_male"
 msgid "Slave Fighter (Claws)"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Slave Fighter (Claws)"
+msgstr ""
+
 #. ~ Profession (male Slave Fighter (Claws)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
 "You were augmented with some claws, and enhancements to your reflexes. You "
 "deliver a powerful strike that neutralizes foes in few hits."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Slave Fighter (Claws)"
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Claws)) description
@@ -375,6 +863,11 @@ msgctxt "profession_male"
 msgid "Slave Fighter (Shocker)"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Slave Fighter (Shocker)"
+msgstr ""
+
 #. ~ Profession (male Slave Fighter (Shocker)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -382,11 +875,6 @@ msgid ""
 "You were augmented with electrical generators and protection from them. You "
 "hit multiple foes with electricity, frying them until their nervous system "
 "gives up."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Slave Fighter (Shocker)"
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Shocker)) description
@@ -403,6 +891,11 @@ msgctxt "profession_male"
 msgid "Slave Fighter (Weapon Master)"
 msgstr ""
 
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Slave Fighter (Weapon Master)"
+msgstr ""
+
 #. ~ Profession (male Slave Fighter (Weapon Master)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
@@ -411,11 +904,6 @@ msgid ""
 "you but are not weapons in and of themselves. You have been trained to use "
 "all sorts of different weapons, including your fists. You can pretty much "
 "weaponize a sock."
-msgstr ""
-
-#: .\Char_creation\c_classes_bw.json
-msgctxt "profession_female"
-msgid "Slave Fighter (Weapon Master)"
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Weapon Master)) description
@@ -433,17 +921,17 @@ msgctxt "profession_male"
 msgid "Canned Survivor"
 msgstr ""
 
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Canned Survivor"
+msgstr ""
+
 #. ~ Profession (male Canned Survivor) description
 #: .\Char_creation\c_classes_r.json
 msgctxt "prof_desc_male"
 msgid ""
 "You were a very busy person.  That's why you bought a can of survival items "
 "and called it a day.  Now it's the only thing you have."
-msgstr ""
-
-#: .\Char_creation\c_classes_r.json
-msgctxt "profession_female"
-msgid "Canned Survivor"
 msgstr ""
 
 #. ~ Profession (female Canned Survivor) description
@@ -459,6 +947,11 @@ msgctxt "profession_male"
 msgid "Prepper"
 msgstr ""
 
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Prepper"
+msgstr ""
+
 #. ~ Profession (male Prepper) description
 #: .\Char_creation\c_classes_r.json
 msgctxt "prof_desc_male"
@@ -466,11 +959,6 @@ msgid ""
 "You were paranoid about the world ending so you jumped on the prepper "
 "bandwagon.  You read a book on survival and got yourself a gun pack and some"
 " gear.  The cataclysm was not what you expected."
-msgstr ""
-
-#: .\Char_creation\c_classes_r.json
-msgctxt "profession_female"
-msgid "Prepper"
 msgstr ""
 
 #. ~ Profession (female Prepper) description
@@ -487,6 +975,11 @@ msgctxt "profession_male"
 msgid "Wasteland Drifter"
 msgstr ""
 
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Wasteland Drifter"
+msgstr ""
+
 #. ~ Profession (male Wasteland Drifter) description
 #: .\Char_creation\c_classes_r.json
 msgctxt "prof_desc_male"
@@ -495,11 +988,6 @@ msgid ""
 "scavenging and learning as you go.  Sleeping under the stars, scraping by "
 "one meal and one bullet at a time, you've taken to this new life like a duck"
 " takes to water."
-msgstr ""
-
-#: .\Char_creation\c_classes_r.json
-msgctxt "profession_female"
-msgid "Wasteland Drifter"
 msgstr ""
 
 #. ~ Profession (female Wasteland Drifter) description
@@ -946,6 +1434,20 @@ msgstr ""
 
 #: .\Monsters\c_monsters.json
 msgid "The super soldier fires its smg!"
+msgstr ""
+
+#: .\Monsters\c_monsters.json
+msgid "reanimated augmented soldier"
+msgid_plural "reanimated augmented soldiers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'reanimated augmented soldier'}
+#: .\Monsters\c_monsters.json
+msgid ""
+"An advanced, well-equipped member of the military that still succumbed to "
+"the cataclysm.  This one has no sign of its signature weaponry and its armor"
+" is in tatters, yet it still marches on with unnerving confidence and speed."
 msgstr ""
 
 #: .\Monsters\c_ranged_monster.json
@@ -1971,6 +2473,10 @@ msgid "Hey you, are you also after the Bio-Weapons?"
 msgstr ""
 
 #: .\Npc\TALK_BHUNTER.json
+msgid "[MISSION] Are you the one who triggered the security here?"
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
 msgid "Yeah, I am one of them."
 msgstr ""
 
@@ -2001,6 +2507,52 @@ msgstr ""
 #: .\Npc\TALK_BHUNTER.json .\Npc\TALK_BIO_1.json .\Npc\TALK_BIO_2.json
 #: .\Npc\TALK_CGUARD1.json
 msgid "Well, bye."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
+"My friends and I were investigating this place to try and find some answers,"
+" that could've done it I suppose.  Either that or those things outside that "
+"attacked a while after we showed up.  Who sent you?"
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
+"I was asked to investigate a security breach by a scientist involved in "
+"this."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
+"Well there's a surprise.  I was searching for exactly that, to see if anyone"
+" was left that might know more about this project.  So they're not only "
+"still around but have some help, based on the badge you're wearing.  I'd be "
+"willing to assist them with intel if you'd let me tag along."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
+"I was searching for exactly that, to see if anyone was left that might know "
+"more about this project.  Glad to hear they're still alive out there.  I'd "
+"be willing to assist them with intel if you'd let me tag along."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid "Alright, I'll lead the way."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid "I'd like to ask you some other questions first."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
+"Thank you.  I'll follow along and hopefully working together will help "
+"improve the situation."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json .\Npc\TALK_BIO_1.json .\Npc\TALK_BIO_2.json
+msgid "Let's go."
 msgstr ""
 
 #: .\Npc\TALK_BHUNTER.json
@@ -2286,13 +2838,20 @@ msgstr ""
 
 #: .\Npc\TALK_BHUNTER.json
 msgid ""
+"Now that you've told me where to look, we should probably get out of this "
+"place and get going soon.  Search the area if you need any supplies or gear,"
+" but be careful.  Might still be some of the things that attacked us nearby."
+msgstr ""
+
+#: .\Npc\TALK_BHUNTER.json
+msgid ""
 "I'm trying to reach a hideout built by former scientists who worked on the "
 "Bio-Weapon Project.  Rumor has it they live somewhere in the woods.  Maybe "
 "you could help me find it…"
 msgstr ""
 
 #: .\Npc\TALK_BHUNTER.json
-msgid "I'll think about it."
+msgid "We'll see then."
 msgstr ""
 
 #: .\Npc\TALK_BIO_1.json .\Npc\TALK_BIO_2.json
@@ -2452,10 +3011,6 @@ msgstr ""
 msgid ""
 "Heh, badge or no badge, I can tell in your voice you're one of them.  Just "
 "like me.  Got that same fighting spirit too.  Alright, take the lead."
-msgstr ""
-
-#: .\Npc\TALK_BIO_1.json .\Npc\TALK_BIO_2.json
-msgid "Let's go."
 msgstr ""
 
 #: .\Npc\TALK_BIO_1.json
@@ -2765,7 +3320,7 @@ msgstr ""
 msgid "Go ask Router.  He's down below with the others."
 msgstr ""
 
-#: .\Npc\TALK_CGUARD2.json .\Npc\TALK_MSCI.json
+#: .\Npc\TALK_CGUARD2.json
 msgid "Okay."
 msgstr ""
 
@@ -3046,105 +3601,12 @@ msgstr ""
 
 #: .\Npc\TALK_MSCI.json
 msgid ""
-"Well, you know that badge you're wearing?  They're linked to those augmented"
-" abominations, the old lab sites called it the Bio-Weapon Project, or "
-"Project Mesektet.  I'd like to ask first, how you got your hands on it.  I "
-"have some rather dangerous work that needs to be done, but I need "
-"confirmation that you can handle it."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"I have some important work that needs to be done, but I'm not sure if you're"
-" cut out for it.  Have you ever run into a bio-weapon before?  That's what "
-"the lab techs called those augmented abominations adding to the already "
-"massive loss of life out there.  Rather dangerous, heavily augmented and "
-"mutated.  I don't want to put someone inexperienced in unnecessary danger."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I'm part of the Bio-Weapon Project, actually."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I'm one of them, I wasn't wearing the badge."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I'm a member of the Super Soldier Project, I can handle it."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I found it along the way.  What needs to be done?"
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I have one of those emblems they wear actually, right here."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "I'm willing to try, what can I do?"
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid "Er, nevermind then."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"That would explain it then.  That you're here and not hostile at least "
-"confirms you're still on humanity's side.  We're here because of Apophis.  "
-"He was built to exterminate the Bio-Weapon Project, along with every person "
-"involved in your creation.  He's attracted several failed experiments to his"
-" cause as well.  They shouldn't have rushed so many victims through those "
-"procedures… we need to gather intel and make allies, more people like you.  "
-"I'm willing to trust you with this, if you're prepared for some hard fights "
-"ahead."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"Huh.  Looking at you, I'm willing to give you the benefit of the doubt.  "
-"Plenty of reasons to want to be more discreet.  Then you should know that "
-"the project left a lot of unfinished business, a lot of problems for you and"
-" I to clean up.  A lot of unwilling test subjects discarded, and now taking "
-"it out on what's left of the human race.  If you think you're ready, I "
-"should have something for you."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"I'm willing to take your word for it.  We'll need all the help we can get.  "
-"We've been gathering information on a renegade part of the Bio-Weapon "
-"Project, codenamed Apophis.  I have a few leads on intel that may give us a "
-"shot at taking it down.  Come talk to me when you're ready."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"Well, you've most likely learned by now how dangerous those things can be.  "
-"If you're able to handle yourself well enough out there to get your hands on"
-" something like that, then hopefully you can be trusted with more dangerous "
-"work.  I have something I'd like to ask of you, when you get the chance."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"Ah, I see.  Well then, you should likely be familiar with how dangerous "
-"these things are.  You'll likely run into a lot more of these things, but "
-"the work I need done will be a major help for those surviving out there in "
-"the region.  Come see me when you're ready."
-msgstr ""
-
-#: .\Npc\TALK_MSCI.json
-msgid ""
-"I'd like for you to go scout out a small lab installation, associated what "
-"they called the Bio-Weapon Project.  Recently there was a security breach "
-"logged on what's left of the laboratory network, and I have reason to "
-"believe that a number of renegade former experiments, what locals have come "
-"to label augmented abominations, might be responsible.  If you can reach "
-"that place and bring back one of the badges those things wear, I'll be "
-"willing to trust you with more complicated missions."
+"There's a lot to deal with, first I'd like for you to go scout out a small "
+"lab installation, associated what they called the Bio-Weapon Project.  "
+"Recently there was a security breach logged on what's left of the laboratory"
+" network, and I have reason to believe that a number of renegade former "
+"experiments, what locals have come to label augmented abominations, might be"
+" responsible.  I'd like to ask you to investigate."
 msgstr ""
 
 #: .\Npc\TALK_MSCI.json
@@ -3154,7 +3616,17 @@ msgid ""
 msgstr ""
 
 #: .\Npc\TALK_MSCI.json
-msgid "Okay, I'll do it."
+msgid ""
+"Like the place I woke up in?  Some members of the Super Soldier project had "
+"been there, then the place came under attack by the renegades you mentioned."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "I found an item like that already, is this what you're talking about?"
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "I'll do it.  What am I looking for?"
 msgstr ""
 
 #: .\Npc\TALK_MSCI.json
@@ -3167,19 +3639,75 @@ msgstr ""
 
 #: .\Npc\TALK_MSCI.json
 msgid ""
-"Huh?  Oh, so you have been there already, I'm guessing.  I guess that's "
-"adequate, no sense in wasting time we don't have on a wild goose chase.  If "
-"you think you can handle yourself, I still have other missions for you."
+"I see, so that means you already confirmed what I suspected, and made an "
+"attempt to lead her here.  Hope things turned out alright.  If you think you"
+" can handle yourself, I still have other missions for you."
 msgstr ""
 
 #: .\Npc\TALK_MSCI.json
 msgid ""
-"Alright, I'll mark the location on your map.  I want you to exercise extreme"
-" caution.  Those things are likely to still be in the area, and they're not "
-"easy to take down.  If things look too hectic there, break contact and try "
-"not to get in over your head.  I feel bad enough sending you off on a "
-"mission like this as it is, but we'll need people who can handle far bigger "
-"threats.  So please, don't get yourself killed."
+"So that explains a lot, triggering the alarms probably caused a power "
+"failure in the systems keeping you locked up there.  I'm glad you made it "
+"out of there in one piece.  Come see me when you're ready."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid ""
+"I see, hadn't expected that since you weren't wearing the badge.  Triggering"
+" the alarms probably caused a power failure in the systems keeping you "
+"locked up there.  I'm glad you made it out of there in one piece.  Come see "
+"me when you're ready."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "Alright then."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid ""
+"How the hell… well that's good luck on our part I suppose.  You survived "
+"whatever was there at least, let me see.  So I was right, the Super Soldier "
+"project made it at least past Zero Day.  I hope there were other survivors "
+"there.  In any case, come see me when you're ready, there's much to be done."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid ""
+"Someone was logged by security having used an RFID access badge.  It looks "
+"similar to the silver bio-weapon badges the creatures wear.  If you find any"
+" survivors then talk to them, otherwise bring the access badge back with "
+"you.  I'll mark the location on your map, but be careful.  Those things "
+"might be present, and they're not easy to take down.  If things get too "
+"hectic, break contact and try not to get in over your head."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "Not a problem."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "Got any advice?"
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "I'll be back soon!"
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid ""
+"If whoever opened that place up is non-hostile, they might be looking for "
+"us, and we could use all the help we can get.  Be ready for anything though,"
+" there might be augmented abominations or undead present.  I feel bad enough"
+" sending you off on a mission like this as it is, but we'll need people who "
+"can handle far bigger threats.  So please, don't get yourself killed."
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "Alright, before I go though…"
+msgstr ""
+
+#: .\Npc\TALK_MSCI.json
+msgid "I'll be back soon then."
 msgstr ""
 
 #: .\Npc\TALK_MSCI.json
@@ -3569,7 +4097,15 @@ msgid ""
 msgstr ""
 
 #: .\Npc\c_mission_def.json
-msgid "Find A Bio-Weapon Badge"
+msgid "Investigate Bio-Weapon Lab"
+msgstr ""
+
+#. ~ Description for mission 'Investigate Bio-Weapon Lab'
+#: .\Npc\c_mission_def.json
+msgid ""
+"Explore a Bio-Weapon Lab that suffered a recent security breach.  Either "
+"find whoever accessed the location and speak with them, or retrieve the RFID"
+" access badge that was used and bring it back to Router."
 msgstr ""
 
 #: .\Npc\c_mission_def.json
@@ -3600,10 +4136,11 @@ msgstr ""
 
 #: .\Npc\c_mission_def.json
 msgid ""
-"Good.  I hope that it wasn't too harrowing an experience, but we're dealing "
-"with some extremely dangerous threats, and it's only going to get worse from"
-" there.  Come see me when you're ready, I've got more important tasks that "
-"need taking care of."
+"So this confirms that the Super Soldier project isn't quite dead yet.  I "
+"hope that it wasn't too harrowing an experience, but we're dealing with some"
+" extremely dangerous threats, and it's only going to get worse from there.  "
+"Keep whatever you found there, it might be useful.  Come see me when you're "
+"ready."
 msgstr ""
 
 #: .\Npc\c_mission_def.json
@@ -3937,6 +4474,19 @@ msgstr[1] ""
 msgid ""
 "A round silver medallion that identifies the wearer as a part of the Bio-"
 "Weapon project.  This one has the name 'Apophis' inscribed on the front."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "RFID access badge"
+msgid_plural "RFID access badges"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'RFID access badge'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A round silver medallion with a RFID chip embedded in the front.  The "
+"markings seem to identify the wearer as a part of the Bio-Weapon project."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4390,6 +4940,76 @@ msgid ""
 " a tool belt.  Activate it to store up to 4 items."
 msgstr ""
 
+#: .\Surv_help\c_armor.json
+msgid "Makeshift Power Armor Noise"
+msgstr ""
+
+#. ~ Description for {'str': 'Makeshift Power Armor Noise'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"This is used to make the player a lot less stealthy, but also punch harder "
+"on top of the armor's strength bonus."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift power armor"
+msgid_plural "makeshift power armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'makeshift power armor'}.
+#: .\Surv_help\c_armor.json
+msgid "Your makeshift power armor roars to life, servos kicking into gear!"
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'makeshift power armor'}.
+#: .\Surv_help\c_armor.json
+msgid "There's no fuel in the makeshift power armor's tank."
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift power armor'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"An incredibly heavy suit of steel plates covering a network of hydraulics, "
+"driven by pieces of a stripped-down diesel engine jury-rigged to assist the "
+"wearer's movements.  It's cumbersome but provides considerable protection "
+"aside from gaps in the joints and vision slits, and the servos offer quite a"
+" bit of power when active."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift power armor (on)"
+msgid_plural "makeshift power armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'makeshift power armor (on)', 'str_pl':
+#. 'makeshift power armors (on)'}.
+#. ~ Use action menu_text for {'str': 'solar flashlight (on)', 'str_pl':
+#. 'solar flashlights (on)'}.
+#. ~ Use action menu_text for {'str': 'wearable solar flashlight (on)',
+#. 'str_pl': 'wearable solar flashlights (on)'}.
+#: .\Surv_help\c_armor.json .\Surv_help\c_tools.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'makeshift power armor (on)', 'str_pl':
+#. 'makeshift power armors (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "You shut the makeshift power armor off."
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift power armor (on)', 'str_pl':
+#. 'makeshift power armors (on)'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"An incredibly heavy suit of steel plates covering a network of hydraulics, "
+"driven by pieces of a stripped-down diesel engine jury-rigged to assist the "
+"wearer's movements.  It's currently active, strengthening the wearer and "
+"making the armor less encumbering, but also being warmer and making stealth "
+"more difficult."
+msgstr ""
+
 #: .\Surv_help\c_bionics.json
 msgid "laser gatling arm"
 msgid_plural "laser gatling arms"
@@ -4490,8 +5110,21 @@ msgid ""
 "Designed to produce a spike of power production for cutting-edge military "
 "cybernetics, it is significantly less efficient than a traditional hydrogen "
 "fuel cell, but each pulse still puts out a lot of power.  Each pulse vents a"
-" jet of intense heat, making it dangerous in confined spaces.  It can store "
-"either hydrogen gas, or it can use denser military-grade hydrogen canisters."
+" jet of intense heat, making it dangerous in confined spaces.  It has two "
+"chambers, this one is configured for military-grade hydrogen canisters."
+msgstr ""
+
+#: .\Surv_help\c_bionics.json
+msgid "Hydrogen Pulse Cell"
+msgstr ""
+
+#. ~ Description for {'str': 'Hydrogen Pulse Cell'}
+#: .\Surv_help\c_bionics.json
+msgid ""
+"A small, advanced form of hydrogen fuel cell, designed to produce a spike of"
+" power production for cutting-edge military cybernetics.  This is the "
+"separate chamber for burning lower-pressure hydrogen, for less intense "
+"bursts of bionic energy."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -4505,10 +5138,10 @@ msgstr[1] ""
 msgid ""
 "This implant provides an experimental military hydrogen cell, able to "
 "produce large spikes of power for intense usage.  Its network of pressurized"
-" storage can hold 500 ml of hydrogen gas, or denser hydrogen canisters used "
-"in plasma weaponry.  The label advises not to use it in confined spaces, and"
-" to keep moving if used during a military operation, due to hazardous levels"
-" of waste heat."
+" storage has two chambers, one can hold 500 ml of hydrogen gas, the other 5 "
+"rounds of denser hydrogen canisters used in plasma weaponry.  The label "
+"advises not to use it in confined spaces, and to keep moving if used during "
+"a military operation, due to hazardous levels of waste heat."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -4723,801 +5356,28 @@ msgid ""
 "the user's power capacity by 1000 units."
 msgstr ""
 
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Mechanics"
-msgid_plural "Rebuilding Civilization: Mechanics"
-msgstr[0] ""
-msgstr[1] ""
-
 #. ~ Description for {'str_sp': 'Rebuilding Civilization: Mechanics'}
 #: .\Surv_help\c_books.json
 msgid ""
 "The mechanics volume of the Rebuilding Civilization encyclopedia.  This book"
 " contains everything from simple machines to the inner workings of submarine"
-" engines in fine detail.  Being the basic model it skips over the "
-"theoretical, recommending the advanced companion book for that knowledge."
+" engines in extremely fine detail.  This book is so technical, longwinded "
+"and dry that even bookworms and fast readers would find it hard to read.  "
+"Literally any other book on the subject would be a more efficient way to "
+"learn but if the books you have are missing specific information then this "
+"is a good substitute until you find something better."
 msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Fabrication"
-msgid_plural "Rebuilding Civilization: Fabrication"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Fabrication'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The fabrication volume of the Rebuilding Civilization encyclopedia.  This "
-"book contains everything from creating how to create simple stone tools to "
-"the creation of the pyramids of Egypt in fine detail.  Being the basic model"
-" it skips over the theoretical, recommending the advanced companion book for"
-" that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Archery"
-msgid_plural "Rebuilding Civilization: Archery"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Archery'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The archery volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from correct positioning to the usage of advanced bows "
-"in fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Barter"
-msgid_plural "Rebuilding Civilization: Barter"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Barter'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The bartering volume of the Rebuilding Civilization encyclopedia.  This book"
-" contains everything from what supplies are worth more after the cataclysm "
-"to what economic system to use in your new society in fine detail.  Being "
-"the basic model it skips over the theoretical, recommending the advanced "
-"companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Bashing Weapons"
-msgid_plural "Rebuilding Civilization: Bashing Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Bashing Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The bashing weapons volume of the Rebuilding Civilization encyclopedia.  "
-"This book contains everything from self defense with a pipe to the proper "
-"swinging technique for a sledge hammer in fine detail.  Being the basic "
-"model it skips over the theoretical, recommending the advanced companion "
-"book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Computers"
-msgid_plural "Rebuilding Civilization: Computers"
-msgstr[0] ""
-msgstr[1] ""
 
 #. ~ Description for {'str_sp': 'Rebuilding Civilization: Computers'}
 #: .\Surv_help\c_books.json
 msgid ""
 "The computer volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from basic programing to cyber security algorithms in "
-"fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Cooking"
-msgid_plural "Rebuilding Civilization: Cooking"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Cooking'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The cooking volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from cooking small game to basic chemistry in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Cutting Weapons"
-msgid_plural "Rebuilding Civilization: Cutting Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Cutting Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The cutting weapons volume of the Rebuilding Civilization encyclopedia.  "
-"This book contains everything from using a glass shiv to medieval "
-"swordsmanship in fine detail.  Being the basic model it skips over the "
-"theoretical, recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Dodging"
-msgid_plural "Rebuilding Civilization: Dodging"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Dodging'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The dodging volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from dancing for beginners to parkour in fine detail.  "
-"Being the basic model it skips over the theoretical, recommending the "
-"advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Driving"
-msgid_plural "Rebuilding Civilization: Driving"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Driving'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The driving volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from acquiring a driving license to professional racing "
-"in fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Electronics"
-msgid_plural "Rebuilding Civilization: Electronics"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Electronics'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The electronics volume of the Rebuilding Civilization encyclopedia.  This "
-"book contains everything from simple circuits to military robotics in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: First Aid"
-msgid_plural "Rebuilding Civilization: First Aid"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: First Aid'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The first aid volume of the Rebuilding Civilization encyclopedia.  This book"
-" contains everything from proper bandage application to exploratory surgery "
-"in fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Marksmanship"
-msgid_plural "Rebuilding Civilization: Marksmanship"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Marksmanship'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The marksmanship volume of the Rebuilding Civilization encyclopedia.  This "
-"book contains everything from proper iron sight aiming to military sniper "
-"techniques in fine detail.  Being the basic model it skips over the "
-"theoretical, recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Launchers"
-msgid_plural "Rebuilding Civilization: Launchers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Launchers'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The launchers volume of the Rebuilding Civilization encyclopedia.  This book"
-" contains everything from the use of spraycan flamethrowers to recoiless "
-"rifles in fine detail.  Being the basic model it skips over the theoretical,"
-" recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Melee Combat"
-msgid_plural "Rebuilding Civilization: Melee Combat"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Melee Combat'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The melee combat volume of the Rebuilding Civilization encyclopedia.  This "
-"book contains everything from using a branch to martial arts techniques in "
-"fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Pistols"
-msgid_plural "Rebuilding Civilization: Pistols"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Rebuilding Civilization: Pistols', 'str_pl':
-#. 'Rebuilding Civilization: Pistols'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The pistols volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from using zip pistols to laser pistols in fine detail."
-"  Being the basic model it skips over the theoretical, recommending the "
-"advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Rifles"
-msgid_plural "Rebuilding Civilization: Rifles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Rifles'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The rifles volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from using zip rifles to laser rifles in fine detail.  "
-"Being the basic model it skips over the theoretical, recommending the "
-"advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Shotguns"
-msgid_plural "Rebuilding Civilization: Shotguns"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Shotguns'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The shotguns volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from using zip shotguns to laser scatter guns in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Sub Machineguns"
-msgid_plural "Rebuilding Civilization: Sub Machineguns"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Sub Machineguns'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The sub machineguns volume of the Rebuilding Civilization encyclopedia.  "
-"This book contains everything from using makeshift smgs to automatic laser "
-"carbines in fine detail.  Being the basic model it skips over the "
-"theoretical, recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Speech"
-msgid_plural "Rebuilding Civilization: Speech"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Speech'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The speech volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from recruiting survivors to running for political "
-"office in fine detail.  Being the basic model it skips over the theoretical,"
-" recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Piercing Weapons"
-msgid_plural "Rebuilding Civilization: Piercing Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Piercing Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The piercing weapons volume of the Rebuilding Civilization encyclopedia.  "
-"This book contains everything from using switchblades to spear combat in "
-"fine detail.  Being the basic model it skips over the theoretical, "
-"recommending the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Survival"
-msgid_plural "Rebuilding Civilization: Survival"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Survival'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The survival volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from camping to survival on a deserted island in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Swimming"
-msgid_plural "Rebuilding Civilization: Swimming"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Swimming'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The swimming volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from recreational swimming to crossing rivers in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Tailoring"
-msgid_plural "Rebuilding Civilization: Tailoring"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Tailoring'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The tailoring volume of the Rebuilding Civilization encyclopedia.  This book"
-" contains everything from fixing clothing tears to fashion designing in fine"
-" detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Throwing"
-msgid_plural "Rebuilding Civilization: Throwing"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Throwing'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The throwing volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from throwing stones to spear hunting in fine detail.  "
-"Being the basic model it skips over the theoretical, recommending the "
-"advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Traps"
-msgid_plural "Rebuilding Civilization: Traps"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Traps'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The traps volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from spike pits to disarming landmines in fine detail.  "
-"Being the basic model it skips over the theoretical, recommending the "
-"advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Unarmed Combat"
-msgid_plural "Rebuilding Civilization: Unarmed Combat"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Unarmed Combat'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The unarmed volume of the Rebuilding Civilization encyclopedia.  This book "
-"contains everything from self defense techniques to MMA fighting in fine "
-"detail.  Being the basic model it skips over the theoretical, recommending "
-"the advanced companion book for that knowledge."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Mechanics"
-msgid_plural "Rebuilding Civilization: Advanced Mechanics"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Mechanics'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main mechanics volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Fabrication"
-msgid_plural "Rebuilding Civilization: Advanced Fabrication"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced
-#. Fabrication'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main fabrication volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Archery"
-msgid_plural "Rebuilding Civilization: Advanced Archery"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Archery'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main archery volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Barter"
-msgid_plural "Rebuilding Civilization: Advanced Barter"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Rebuilding Civilization: Advanced Barter',
-#. 'str_pl': 'Rebuilding Civilization: Advanced Barter'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main bartering volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Bashing Weapons"
-msgid_plural "Rebuilding Civilization: Advanced Bashing Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Bashing
-#. Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main bashing weapons volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Computers"
-msgid_plural "Rebuilding Civilization: Advanced Computers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Computers'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main computers volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Cooking"
-msgid_plural "Rebuilding Civilization: Advanced Cooking"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Cooking'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main cooking volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Cutting Weapons"
-msgid_plural "Rebuilding Civilization: Advanced Cutting Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Cutting
-#. Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main cutting weapons volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Dodging"
-msgid_plural "Rebuilding Civilization: Advanced Dodging"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Dodging'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main dodging volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Driving"
-msgid_plural "Rebuilding Civilization: Advanced Driving"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Driving'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main driving volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Electronics"
-msgid_plural "Rebuilding Civilization: Advanced Electronics"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced
-#. Electronics'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main electronics volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced First Aid"
-msgid_plural "Rebuilding Civilization: Advanced First Aid"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced First Aid'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main first aid volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Marksmanship"
-msgid_plural "Rebuilding Civilization: Advanced Marksmanship"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced
-#. Marksmanship'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main marksmanship volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Launchers"
-msgid_plural "Rebuilding Civilization: Advanced Launchers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Launchers'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main launchers volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Melee Combat"
-msgid_plural "Rebuilding Civilization: Advanced Melee Combat"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Melee
-#. Combat'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main melee combat volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Pistols"
-msgid_plural "Rebuilding Civilization: Advanced Pistols"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Pistols'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main pistols volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Rifles"
-msgid_plural "Rebuilding Civilization: Advanced Rifles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Rifles'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main rifle volume of the Rebuilding Civilization "
-"encyclopedia.  This book contains theoretical and more advanced but "
-"impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Shotguns"
-msgid_plural "Rebuilding Civilization: Advanced Shotguns"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Shotguns'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main shotguns volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Sub Machineguns"
-msgid_plural "Rebuilding Civilization: Advanced Sub Machineguns"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Sub
-#. Machineguns'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main sub machineguns volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Speech"
-msgid_plural "Rebuilding Civilization: Advanced Speech"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Speech'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main speech volume of the Rebuilding Civilization"
-" encyclopedia.  This book contains theoretical and more advanced but "
-"impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Piercing Weapons"
-msgid_plural "Rebuilding Civilization: Advanced Piercing Weapons"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Piercing
-#. Weapons'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main piercing weapons volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Survival"
-msgid_plural "Rebuilding Civilization: Advanced Survival"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Survival'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main survival volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Swimming"
-msgid_plural "Rebuilding Civilization: Advanced Swimming"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Swimming'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main  volume of the Rebuilding Civilization "
-"encyclopedia.  This book contains theoretical and more advanced but "
-"impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Tailoring"
-msgid_plural "Rebuilding Civilization: Advanced Tailoring"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Tailoring'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main tailoring volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Throwing"
-msgid_plural "Rebuilding Civilization: Advanced Throwing"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Throwing'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main throwing volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Traps"
-msgid_plural "Rebuilding Civilization: Advanced Traps"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Traps'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main trapping volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
-msgstr ""
-
-#: .\Surv_help\c_books.json
-msgid "Rebuilding Civilization: Advanced Unarmed Combat"
-msgid_plural "Rebuilding Civilization: Advanced Unarmed Combat"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'Rebuilding Civilization: Advanced Unarmed
-#. Combat'}
-#: .\Surv_help\c_books.json
-msgid ""
-"The companion book for the main unarmed volume of the Rebuilding "
-"Civilization encyclopedia.  This book contains theoretical and more advanced"
-" but impractical additions to the previous volume."
+"contains everything from basic programming to cyber security algorithms in "
+"fine detail.  This book is so technical, longwinded and dry that even "
+"bookworms and fast readers would find it hard to read.  Literally any other "
+"book on the subject would be a more efficient way to learn but if the books "
+"you have are missing specific information then this is a good substitute "
+"until you find something better."
 msgstr ""
 
 #: .\Surv_help\c_books.json
@@ -5745,7 +5605,7 @@ msgid ""
 "Quick and fluid movements make you harder to catch.\n"
 "\n"
 "+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to knockdown.\n"
-"Lasts 3 turns, stacks 2 turns."
+"Lasts 3 turns, stacks 2 times."
 msgstr ""
 
 #. ~ Description for martial art '{'str': 'Post-Human Combatives'}'
@@ -5791,7 +5651,7 @@ msgstr ""
 #: .\Surv_help\c_martialarts.json
 msgid ""
 "Your stance makes better use of your might to compensate for poor footwork.\n"
-"Accuracy increased by 15% of strength, -10 move cost."
+"Accuracy increased by 15% of strength, -10% move cost."
 msgstr ""
 
 #: .\Surv_help\c_martialarts.json
@@ -5805,7 +5665,7 @@ msgid ""
 "When you get enough momentum going, they're going to feel it.\n"
 "\n"
 "Movement speed increased by 45% of strength, bash damage increased by 15% of strength.  Enables \"Battering Ram\" technique.\n"
-"Lasts 2 turns, stacks 3 times."
+"Lasts 3 turns, stacks 3 times."
 msgstr ""
 
 #: .\Surv_help\c_martialarts.json
@@ -5979,19 +5839,6 @@ msgid "nanoskirt"
 msgid_plural "nanoskirts"
 msgstr[0] ""
 msgstr[1] ""
-
-#: .\Surv_help\c_override.json
-msgid "hydrogen tank"
-msgid_plural "hydrogen tanks"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'hydrogen tank'}
-#: .\Surv_help\c_override.json
-msgid ""
-"This is a tank of compressed hydrogen gas.  If you need to make water from "
-"scratch, or lift a zeppelin, it could come in handy."
-msgstr ""
 
 #: .\Surv_help\c_snippets.json
 msgid ""
@@ -6473,14 +6320,6 @@ msgid "solar flashlight (on)"
 msgid_plural "solar flashlights (on)"
 msgstr[0] ""
 msgstr[1] ""
-
-#. ~ Use action menu_text for {'str': 'solar flashlight (on)', 'str_pl':
-#. 'solar flashlights (on)'}.
-#. ~ Use action menu_text for {'str': 'wearable solar flashlight (on)',
-#. 'str_pl': 'wearable solar flashlights (on)'}.
-#: .\Surv_help\c_tools.json
-msgid "Turn off"
-msgstr ""
 
 #. ~ Use action msg for {'str': 'solar flashlight (on)', 'str_pl': 'solar
 #. flashlights (on)'}.
@@ -7534,7 +7373,7 @@ msgid "mounted ARC-314 laser rifle"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
-msgid "mounted ARC-314 laser rifle (UPS)"
+msgid "mounted ARC-314E1 laser rifle (UPS)"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
@@ -7542,7 +7381,7 @@ msgid "mounted KRX-108 laser LMG"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
-msgid "mounted KRX-108 laser LMG (UPS)"
+msgid "mounted KRX-108E1 laser LMG (UPS)"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
@@ -7550,7 +7389,7 @@ msgid "mounted MX-84 laser sniper"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
-msgid "mounted MX-84 laser sniper (UPS)"
+msgid "mounted MX-84E1 laser sniper (UPS)"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
@@ -8230,7 +8069,7 @@ msgstr ""
 
 #: .\Weapons\c_mods.json
 msgctxt "gun_type_type"
-msgid "bow"
+msgid "archery"
 msgstr ""
 
 #: .\Weapons\c_mods.json
@@ -8267,6 +8106,25 @@ msgstr ""
 
 #: .\Weapons\c_mods.json
 msgid "muzzle"
+msgstr ""
+
+#: .\Weapons\c_mods.json
+msgid "hydrogen density converter"
+msgid_plural "hydrogen density converters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_mods.json
+msgid ""
+"An ad-hoc conversion kit designed by Omnitech for experimental plasma "
+"weaponry.  Its purpose is to reconfigure the emitter to function with much "
+"lower compression rates, allowing it to use commercial-grade hydrogen "
+"instead of now-irreplaceable compressed hydrogen canisters.  This will give "
+"the weapon reduced power, range, and accuracy."
+msgstr ""
+
+#: .\Weapons\c_mods.json
+msgid "emitter"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8948,6 +8806,21 @@ msgid ""
 "applied to solve an outside-context problem.  Although it relies on special "
 "ammunition, it is relatively easy to mold resin into compatible projectiles,"
 " and it packs a decent punch with very little noise."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "PX12 plasma pistol"
+msgid_plural "PX12 plasma pistols"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"An experimental compact plasma projector developed by Omnitech, designed to "
+"be assembled in the field.  Given the complexity of its components, they "
+"made some ambitious assumptions about the availability of parts mid-mission."
+"  Remarkably powerful though short-ranged, its varible-pressure design "
+"allows it to use commercial-grade hydrogen or military plasma cells."
 msgstr ""
 
 #: .\Weapons\c_ranged_override.json
