@@ -6636,9 +6636,9 @@ msgstr ""
 #: .\Surv_help\c_bionics.json
 msgid "Alphavoltaic Power"
 msgid_plural "none"
-msgstr[0] "Альфа-вольтовая Энергия"
-msgstr[1] "альфа-вольтовая Энергия"
-msgstr[2] "альфа-вольтовая Энергия"
+msgstr[0] "АВ Батарея"
+msgstr[1] "АВ Батарея"
+msgstr[2] "АВ Батарея"
 
 #. ~ Description for {'str': 'Alphavoltaic Power', 'str_pl': 'none'}
 #: .\Surv_help\c_bionics.json
