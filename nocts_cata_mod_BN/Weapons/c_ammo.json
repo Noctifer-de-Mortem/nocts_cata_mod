@@ -20,7 +20,7 @@
     "category": "chems",
     "description": "A light, flammable gas compressed for use as fuel.  Quite energy dense, but also requiring a lot of energy to produce, even moreso without pre-cataclysm industry.",
     "//": "Roughly 23 kg per cubic meter at the lower end of pressure for compressed hydrogen.",
-    "weight": "23 mg",
+    "weight": "2300 mg",
     "volume": "1000 ml",
     "price": "50 cent",
     "price_postapoc": "5 cent",

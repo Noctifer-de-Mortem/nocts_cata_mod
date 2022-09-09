@@ -137,7 +137,7 @@
     "name": { "str": "Hydrogen Pulse Cell" },
     "description": "A small, advanced form of hydrogen fuel cell, designed to produce a spike of power production for cutting-edge military cybernetics.  This is the separate chamber for burning lower-pressure hydrogen, for less intense bursts of bionic energy.",
     "fuel_options": [ "c_hydrogen_gas" ],
-    "fuel_capacity": 8,
+    "fuel_capacity": 5,
     "fuel_efficiency": 0.25,
     "exothermic_power_gen": true,
     "time": 1,
