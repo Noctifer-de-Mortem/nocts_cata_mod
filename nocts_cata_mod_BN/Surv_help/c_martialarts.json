@@ -247,6 +247,13 @@
     "extend": { "weapons": [ "unbio_sword_weapon", "flesh_blade" ] }
   },
   {
+    "id": "style_barbaran",
+    "copy-from": "style_barbaran",
+    "type": "martial_art",
+    "name": { "str": "Barbaran Montante" },
+    "extend": { "weapons": [ "greatsword_makeshift" ] }
+  },
+  {
     "id": "style_swordsmanship",
     "copy-from": "style_swordsmanship",
     "type": "martial_art",
