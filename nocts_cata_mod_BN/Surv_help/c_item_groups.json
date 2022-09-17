@@ -122,23 +122,39 @@
   {
     "id": "military",
     "type": "item_group",
+    "items": [ { "group": "c_military_spawn_special", "prob": 250 } ]
+  },
+  {
+    "id": "c_military_spawn_special",
+    "type": "item_group",
     "items": [
-      { "group": "lmil_armor_collection", "prob": 1 },
-      { "group": "mil_armor_collection", "prob": 1 },
-      { "group": "hmil_armor_collection", "prob": 1 },
-      [ "neo_laser_pistol", 2 ],
-      [ "akro_laser_smg", 2 ],
-      [ "arc_laser_rifle", 2 ],
-      [ "krx_laser_lmg", 2 ],
-      [ "mx_laser_sniper", 2 ],
-      [ "xarm_laser_shotgun", 2 ],
-      [ "br_bolt_rifle_elec", 2 ],
-      [ "mk_ionic_cannon", 2 ],
-      [ "omnitech_plasma_pistol", 1 ],
-      [ "megamap", 5 ],
+      { "group": "lmil_armor_collection", "prob": 20 },
+      { "group": "mil_armor_collection", "prob": 10 },
+      { "group": "hmil_armor_collection", "prob": 10 },
+      {
+        "item": "light_minus_atomic_battery_cell",
+        "prob": 5,
+        "charges": [ 0, 500 ],
+        "container-item": "neo_laser_pistol"
+      },
+      { "item": "light_atomic_battery_cell", "prob": 5, "charges": [ 0, 1000 ], "container-item": "akro_laser_smg" },
+      { "item": "medium_atomic_battery_cell", "prob": 5, "charges": [ 0, 5000 ], "container-item": "arc_laser_rifle" },
+      { "item": "medium_atomic_battery_cell", "prob": 5, "charges": [ 0, 5000 ], "container-item": "mx_laser_sniper" },
+      { "item": "heavy_atomic_battery_cell", "prob": 5, "charges": [ 0, 10000 ], "container-item": "krx_laser_lmg" },
+      {
+        "item": "medium_atomic_battery_cell",
+        "prob": 5,
+        "charges": [ 0, 5000 ],
+        "container-item": "xarm_laser_shotgun"
+      },
+      { "item": "mk_ionic_cannon", "prob": 4, "charges": [ 0, 5 ] },
+      { "item": "br_bolt_rifle_elec", "prob": 3, "charges": [ 0, 12 ] },
+      { "item": "omnitech_plasma_pistol", "prob": 3, "charges": [ 0, 15 ] },
       [ "stim", 5 ],
-      [ "boots_stealth", 3 ],
-      [ "acs_74_stealth_cloak_on", 3 ]
+      [ "megamap", 2 ],
+      [ "boots_stealth", 2 ],
+      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "iv_mutagen_super_soldier", 10 ]
     ]
   },
   {
@@ -1020,5 +1036,10 @@
     "id": "gunmod_energy",
     "//": "Gunmods for energy weaponry found only at military sites and laboratories.",
     "items": [ [ "hydrogen_convertor", 40 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "bunker_basement_drugs",
+    "items": [ { "item": "iv_mutagen_super_soldier", "prob": 10 } ]
   }
 ]
