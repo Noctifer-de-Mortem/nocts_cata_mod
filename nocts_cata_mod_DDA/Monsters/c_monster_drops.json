@@ -363,7 +363,7 @@
                   {
                     "item": "light_minus_atomic_battery_cell",
                     "damage": [ 0, 1 ],
-                    "charges": [ 0, 1000 ],
+                    "charges": [ 0, 500 ],
                     "prob": 25
                   }
                 ],
@@ -425,7 +425,7 @@
                   {
                     "item": "light_minus_atomic_battery_cell",
                     "damage": [ 0, 1 ],
-                    "charges": [ 0, 1000 ],
+                    "charges": [ 0, 500 ],
                     "prob": 25
                   }
                 ],

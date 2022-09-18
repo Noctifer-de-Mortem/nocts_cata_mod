@@ -59,7 +59,7 @@
     "price_postapoc": "60 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
@@ -99,7 +99,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
@@ -146,7 +146,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "LARGE_BEANBAG", "NAPALM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
     "skill": "rifle",
     "weight": "3650 g",
     "volume": "2 L",
@@ -195,7 +195,7 @@
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM_BIG" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
     "skill": "rifle",
     "weight": "4750 g",
     "volume": "2 L",
@@ -254,7 +254,7 @@
       "STREAM_BIG",
       "WIDE"
     ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
     "skill": "shotgun",
     "weight": "3850 g",
     "volume": "2 L",
@@ -1750,13 +1750,6 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 15,
     "reload": 450,
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "grip", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   }
 ]
