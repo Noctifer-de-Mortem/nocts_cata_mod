@@ -1214,7 +1214,15 @@
     "price": "880 USD",
     "price_postapoc": "88 USD",
     "material": [ "wood", "steel" ],
-    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS", "FIRE_TWOHAND", "STR_DRAW", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON", "DURABLE_MELEE" ],
+    "flags": [
+      "WATERPROOF_GUN",
+      "NEVER_JAMS",
+      "FIRE_TWOHAND",
+      "STR_DRAW",
+      "RELOAD_AND_SHOOT",
+      "PRIMITIVE_RANGED_WEAPON",
+      "DURABLE_MELEE"
+    ],
     "techniques": [ "RAPID", "WBLOCK_2", "PRECISE" ],
     "ammo_effects": [ "NEVER_MISFIRES" ],
     "skill": "archery",
@@ -1880,7 +1888,7 @@
     "name": { "str": "survivor's flamethrower" },
     "//": "Most stats are in between regular flamethrower and obsoleted simple flamethrower.  Integral mag because multiple ammo types.  No burst fire, less range and a damage penalty, but it uses half as much fuel as normal.",
     "description": "A makeshift flamethrower, charged from a integral fuel tank using a hand-cranked pump.  While homemade, it is higher-quality than most makeshift weapons, and can run on just about any fuel of suitable viscosity.  It uses considerably less fuel per gout of flame, at the expense of power and range.",
-    "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "motor_oil", "jp8", "avgas" ],
+    "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8", "avgas" ],
     "weight": "1587 g",
     "volume": "5 L",
     "price": "200 USD",
@@ -1898,7 +1906,16 @@
         "pocket_type": "MAGAZINE",
         "rigid": true,
         "watertight": true,
-        "ammo_restriction": { "diesel": 1500, "gasoline": 1500, "flammable": 1500, "lamp_oil": 1500, "motor_oil": 1500, "jp8": 1500, "avgas": 1500 }
+        "ammo_restriction": {
+          "diesel": 1500,
+          "gasoline": 1500,
+          "flammable": 1500,
+          "lamp_oil": 1500,
+          "crude_lamp_oil": 1500,
+          "motor_oil": 1500,
+          "jp8": 1500,
+          "avgas": 1500
+        }
       }
     ],
     "reload": 4,

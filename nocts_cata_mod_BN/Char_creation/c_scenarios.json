@@ -169,5 +169,18 @@
     "type": "scenario",
     "id": "overrun",
     "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+  },
+  {
+    "copy-from": "surrounded",
+    "type": "scenario",
+    "add_professions": true,
+    "extend": { "allowed_locs": [ "sloc_mansion" ] },
+    "id": "surrounded"
+  },
+  {
+    "copy-from": "migo_prisoner",
+    "type": "scenario",
+    "id": "migo_prisoner",
+    "extend": { "professions": [ "failed_weapon" ] }
   }
 ]

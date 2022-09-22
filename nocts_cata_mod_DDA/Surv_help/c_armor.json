@@ -1135,13 +1135,13 @@
     "weight": "50 kg",
     "volume": "40 L",
     "to_hit": -3,
-    "ammo": [ "diesel", "lamp_oil", "motor_oil", "jp8" ],
+    "ammo": [ "diesel", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
         "rigid": true,
         "watertight": true,
-        "ammo_restriction": { "diesel": 2000, "lamp_oil": 2000, "motor_oil": 2000, "jp8": 2000 }
+        "ammo_restriction": { "diesel": 2000, "lamp_oil": 2000, "crude_lamp_oil": 2000, "motor_oil": 2000, "jp8": 2000 }
       }
     ],
     "relic_data": {
