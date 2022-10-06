@@ -1,6 +1,10 @@
 # Expansion mod for Cataclysm, Bright Nights version
 
-The version of this mod in this folder is is for Cataclysm: Bright Nights. Copy the folder containing this content into data/mods if you are using that version of Cataclysm. Use the other folder, nocts_cata_mod_DDA if you are playing with Cataclysm: Dark Days Ahead.
+This version is for the 0.1 Stable release of Cataclysm: Bright Nights. To use this, copy over the nocts_cata_mod_BN folder into data/mods.
+
+If you are using experimental Bright Nights, it is recommended you update from the main page using the "download zip" option within the green "code" button, and copy the nocts_cata_mod_BN folder into data/mods folder.
+
+Likewise, if you are using experimental DDA, use the nocts_cata_mod folder from the master branch.
 
 This is the gigantic jabberwock of a mod that adds a lot of content to the game. It adds new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.
 
