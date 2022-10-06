@@ -881,7 +881,9 @@
             { "value": "STRENGTH", "add": 2 },
             { "value": "DEXTERITY", "add": 1 },
             { "value": "ARMOR_ELEC", "multiply": 0.5 },
-            { "value": "CARRY_WEIGHT", "multiply": 1.0 }
+            { "value": "CARRY_WEIGHT", "multiply": 1.0 },
+            { "value": "CLIMATE_CONTROL_HEAT", "add": 50 },
+            { "value": "CLIMATE_CONTROL_CHILL", "add": 50 }
           ],
           "ench_effects": [ { "effect": "c_mi_go_carapace_stamina", "intensity": 1 } ]
         }
@@ -912,7 +914,7 @@
       "type": "transform",
       "ammo_scale": 0
     },
-    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] },
+    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] },
     "material": [ "alien_resin", "flesh", "steel" ],
     "material_thickness": 4,
     "environmental_protection": 15,
