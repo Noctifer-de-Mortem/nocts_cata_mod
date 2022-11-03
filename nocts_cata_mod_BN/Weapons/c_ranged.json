@@ -1456,7 +1456,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable", "heavy_atomic_battery_cell_rechargeable" ] ] ]
   },
   {
     "id": "mx_laser_sniper_ups",

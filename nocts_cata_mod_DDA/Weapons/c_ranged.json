@@ -413,7 +413,7 @@
     "symbol": "(",
     "looks_like": "ups_rifle",
     "name": { "str": "survivor's crank rifle" },
-    "description": "Further building on the developments that went into the UPS rifle, this integrates a hand crank and capacitors to charge a custom-made power cell.  Infinite ammo at the cost of reliability.  Use it to deploy the crank charger.",
+    "description": "Further building on the developments that went into the UPS rifle, this integrates a hand crank and capacitors to charge a custom-made power cell.  Infinite ammo at the cost of reliability.  Use it to ready the hand-crank charger, allowing you to recharge loaded capacitor banks.",
     "price": "7490 USD",
     "price_postapoc": "60 USD",
     "material": [ "steel", "wood" ],
@@ -433,7 +433,13 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 0,
     "loudness": 16,
-    "use_action": "HAND_CRANK",
+    "use_action": {
+      "type": "transform",
+      "msg": "You ready the rifle for recharging.",
+      "menu_text": "Swap to recharge mode",
+      "target": "ups_rifle_crank_charge",
+      "ammo_scale": 0
+    },
     "pocket_data": [
       {
         "magazine_well": "300 ml",
@@ -444,15 +450,7 @@
         "item_restriction": [ "rifle_crank_battery_cell" ]
       }
     ],
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "sling", 1 ],
-      [ "grip", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "//": "No gunmods as these will likely get deleted on transformation."
   },
   {
     "id": "surv_battery_pistol",
@@ -1680,7 +1678,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ]
+        "item_restriction": [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable", "heavy_atomic_battery_cell_rechargeable" ]
       }
     ]
   },

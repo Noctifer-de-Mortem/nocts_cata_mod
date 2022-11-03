@@ -1222,5 +1222,43 @@
         "ammo_scale": 0
       }
     ]
+  },
+  {
+    "id": "ups_rifle_crank_charge",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "survivor's crank rifle (charge mode)", "str_pl": "survivor's crank rifle (charge mode)" },
+    "description": "Further building on the developments that went into the UPS rifle, this integrates a hand crank and capacitors to charge a custom-made power cell.  Activate it to recharge a loaded capacitor bank, or to ready it for firing.",
+    "color": "yellow",
+    "symbol": "(",
+    "looks_like": "ups_rifle_crank",
+    "price": "7490 USD",
+    "price_postapoc": "60 USD",
+    "material": [ "steel", "wood" ],
+    "weight": "4964 g",
+    "volume": "4250 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ammo": [ "battery" ],
+    "use_action": [
+      "HAND_CRANK",
+      {
+        "type": "transform",
+        "msg": "You ready the rifle for firing.",
+        "menu_text": "Swap to fire mode",
+        "target": "ups_rifle_crank",
+        "ammo_scale": 0
+      }
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "300 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "rifle_crank_battery_cell" ]
+      }
+    ]
   }
 ]
