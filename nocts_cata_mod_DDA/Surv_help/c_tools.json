@@ -1260,5 +1260,21 @@
         "item_restriction": [ "rifle_crank_battery_cell" ]
       }
     ]
+  },
+  {
+    "id": "wire_saw_makeshift",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "makeshift wire saw" },
+    "description": "This is a flexible saw made from thin wire and added abrasive, with makeshift handles on either end.  It should suffice for light metal and wood sawing.",
+    "weight": "200 g",
+    "volume": "100 ml",
+    "price": "10 USD",
+    "price_postapoc": "50 cent",
+    "material": "iron",
+    "symbol": ";",
+    "color": "light_gray",
+    "looks_like": "chain",
+    "qualities": [ [ "SAW_M", 1 ], [ "SAW_W", 1 ] ]
   }
 ]
