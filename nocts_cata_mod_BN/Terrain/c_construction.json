@@ -1,0 +1,21 @@
+[
+  {
+    "type": "construction_group",
+    "id": "place_survstation",
+    "name": "Place survivor's station"
+  },
+  {
+    "type": "construction",
+    "id": "c_constr_gridsurvstation",
+    "group": "place_survstation",
+    "category": "WORKSHOP",
+    "required_skills": [ [ "electronics", 1 ] ],
+    "time": "30 m",
+    "qualities": [ [ { "id": "SCREW", "level": 1 } ] ],
+    "using": [ [ "soldering_standard", 20 ] ],
+    "components": [ [ [ "surv_station", 1 ] ], [ [ "cable", 5 ] ], [ [ "solder_wire", 10 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_surv_station"
+  }
+]
