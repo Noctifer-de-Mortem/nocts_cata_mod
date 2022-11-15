@@ -2772,7 +2772,10 @@
     "proficiencies": [ { "proficiency": "prof_metalworking" } ],
     "book_learn": [ [ "recipe_surv", 2 ], [ "recipe_melee", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "frame", 1 ] ], [ [ "rag", 3 ], [ "felt_patch", 3 ], [ "leather", 3 ], [ "fur", 3 ], [ "duct_tape", 150 ] ] ]
+    "components": [
+      [ [ "frame", 1 ], [ "hdframe", 1 ] ],
+      [ [ "rag", 3 ], [ "felt_patch", 3 ], [ "leather", 3 ], [ "fur", 3 ], [ "duct_tape", 150 ] ]
+    ]
   },
   {
     "result": "36navy_makeshift_magnum",
@@ -2970,7 +2973,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "plastic_chunk", 1 ], [ "2x4", 1 ], [ "stick", 1 ] ],
-      [ [ "cable", 10 ], [ "wire", 1 ], [ "string_floss", 1 ] ],
+      [ [ "cable", 10 ], [ "wire", 1 ], [ "string_floss", 1 ], [ "thread_kevlar", 25 ] ],
       [ [ "material_sand", 10 ], [ "salt", 20 ] ]
     ]
   }
