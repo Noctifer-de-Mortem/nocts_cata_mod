@@ -118,7 +118,7 @@
     "dispersion": 150,
     "recoil": 20,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
     "ammo": [ "battery" ],
     "pocket_data": [
       {
@@ -174,7 +174,7 @@
     "dispersion": 50,
     "recoil": 200,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
     "ammo": [ "battery" ],
     "pocket_data": [
       {
@@ -1746,7 +1746,7 @@
     "dispersion": 300,
     "durability": 8,
     "built_in_mods": [ "rail_laser_sight", "pistol_grip" ],
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "2-rd. burst", 2 ] ],
     "reload": 250,
     "valid_mod_locations": [
       [ "accessories", 2 ],
@@ -1795,7 +1795,7 @@
     "dispersion": 300,
     "durability": 8,
     "built_in_mods": [ "rail_laser_sight", "pistol_grip" ],
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "double-barrel", 2 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "2-rd. burst", 2 ] ],
     "ups_charges": 100,
     "valid_mod_locations": [
       [ "accessories", 2 ],
