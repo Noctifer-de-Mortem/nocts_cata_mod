@@ -54,12 +54,12 @@
     "looks_like": "flesh_rifle",
     "color": "red",
     "name": { "str": "biological pistol" },
-    "description": "A pistol made out of fleshy material enclosed by metal.  Whatever it fires seems to be solid enough to do damage along with immolating victims.  Activate it to draw your life force into the weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A pistol made out of fleshy material enclosed by metal.  Whatever it fires seems to be solid enough to do damage along with immolating victims.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": "5800 USD",
     "price_postapoc": "60 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
@@ -72,24 +72,13 @@
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "2-rd. burst", 2 ] ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
-    "ammo": [ "battery" ],
-    "pocket_data": [
-      {
-        "magazine_well": "200 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "flesh_pistol_magazine" ]
-      }
-    ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_flesh_pistol_regen", "need_wielding": true, "no_fail": true, "level": 0 },
     "relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
           "condition": "ALWAYS",
           "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
+          "ench_effects": [ { "effect": "c_flesh_pistol_side_effect", "intensity": 1 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ]
         }
       ]
@@ -102,12 +91,12 @@
     "looks_like": "flesh_rifle",
     "color": "red",
     "name": { "str": "biological sub-machinegun" },
-    "description": "A sub-machinegun made out of fleshy material enclosed by metal.  Whatever the hell it fires seems to have an incendiary effect on targets.  Activate it to draw your life force into the weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A sub-machinegun made out of fleshy material enclosed by metal.  Whatever the hell it fires seems to have an incendiary effect on targets.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": "5800 USD",
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
@@ -119,18 +108,6 @@
     "recoil": 20,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
-    "ammo": [ "battery" ],
-    "pocket_data": [
-      {
-        "magazine_well": "600 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "flesh_smg_magazine" ]
-      }
-    ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_flesh_smg_regen", "need_wielding": true, "no_fail": true, "level": 0 },
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
@@ -139,6 +116,7 @@
           "condition": "ALWAYS",
           "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "ench_effects": [ { "effect": "c_flesh_smg_side_effect", "intensity": 1 } ],
           "hit_me_effect": [
             {
               "id": "c_flesh_hit_effect",
@@ -157,12 +135,12 @@
     "symbol": "(",
     "color": "red",
     "name": { "str": "biological rifle" },
-    "description": "A rifle made out of fleshy material enclosed by metal.  It fires something seemingly alive, over quite a long range in fact, horribly burning and stunning whatever it hits.  Activate it to draw your life force into the weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A rifle made out of fleshy material enclosed by metal.  It fires something seemingly alive, over quite a long range in fact, horribly burning and stunning whatever it hits.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": "5800 USD",
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "LARGE_BEANBAG", "NAPALM" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "3650 g",
     "volume": "2 L",
@@ -175,18 +153,6 @@
     "recoil": 200,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
-    "ammo": [ "battery" ],
-    "pocket_data": [
-      {
-        "magazine_well": "300 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "flesh_rifle_magazine" ]
-      }
-    ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_flesh_rifle_regen", "need_wielding": true, "no_fail": true, "level": 0 },
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
@@ -195,6 +161,7 @@
           "condition": "ALWAYS",
           "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "ench_effects": [ { "effect": "c_flesh_rifle_side_effect", "intensity": 1 } ],
           "hit_me_effect": [
             {
               "id": "c_flesh_hit_effect",
@@ -214,12 +181,12 @@
     "looks_like": "flesh_rifle",
     "color": "red",
     "name": { "str": "biological machinegun" },
-    "description": "A light machinegun made out of fleshy material enclosed by metal.  It fires unnatural, presumably-living rounds that daze and immolate almost anything hit by sustained fire.  Activate it to draw your life force into the weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "A light machinegun made out of fleshy material enclosed by metal.  It fires unnatural, presumably-living rounds that daze and immolate almost anything hit by sustained fire.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": "5800 USD",
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
     "ammo_effects": [ "NEVER_MISFIRES", "INCENDIARY", "MUZZLE_SMOKE", "PLASMA", "BLINDS_EYES", "FLAME", "BEANBAG", "STREAM_BIG" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "rifle",
     "weight": "4750 g",
     "volume": "2 L",
@@ -231,18 +198,6 @@
     "recoil": 100,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 5 ], [ "BURST", "low auto", 5 ], [ "AUTO", "high auto", 10 ] ],
-    "ammo": [ "battery" ],
-    "pocket_data": [
-      {
-        "magazine_well": "1000 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "flesh_lmg_magazine" ]
-      }
-    ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_flesh_lmg_regen", "need_wielding": true, "no_fail": true, "level": 0 },
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
@@ -251,6 +206,7 @@
           "condition": "ALWAYS",
           "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "ench_effects": [ { "effect": "c_flesh_lmg_side_effect", "intensity": 1 } ],
           "hit_me_effect": [
             {
               "id": "c_flesh_hit_effect",
@@ -270,7 +226,7 @@
     "color": "red",
     "looks_like": "flesh_rifle",
     "name": { "str": "biological scattergun" },
-    "description": "An automatic shotgun made out of fleshy material enclosed by metal.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.  Activate it to draw your life force into the weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
+    "description": "An automatic shotgun made out of fleshy material enclosed by metal.  It's hard to tell what this thing even fires, but it appears to have a powerful stunning and incendiary effect on targets.  Wielding it gives you a strange sense of focus, though the occasional twitch and unnerving sound from this thing leaves you uneasy.  Hopefully it's not sentient.",
     "price": "5800 USD",
     "price_postapoc": "75 USD",
     "material": [ "flesh", "superalloy" ],
@@ -286,7 +242,7 @@
       "STREAM_BIG",
       "WIDE"
     ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_PLAYER_ENERGY" ],
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "skill": "shotgun",
     "weight": "3850 g",
     "volume": "2 L",
@@ -299,18 +255,6 @@
     "recoil": 300,
     "durability": 8,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "2-rd. burst", 2 ] ],
-    "ammo": [ "battery" ],
-    "pocket_data": [
-      {
-        "magazine_well": "400 ml",
-        "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
-        "item_restriction": [ "flesh_shotgun_magazine" ]
-      }
-    ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_flesh_shotgun_regen", "need_wielding": true, "no_fail": true, "level": 0 },
     "valid_mod_locations": [ [ "accessories", 1 ], [ "sling", 1 ] ],
     "relic_data": {
       "passive_effects": [
@@ -319,6 +263,7 @@
           "condition": "ALWAYS",
           "values": [ { "value": "STRENGTH", "add": -2 }, { "value": "DEXTERITY", "add": -2 }, { "value": "PERCEPTION", "add": 4 } ],
           "mutations": [ "SCHIZOPHRENIC", "ROT2", "PRED2", "INFRARED", "ELECTRORECEPTORS" ],
+          "ench_effects": [ { "effect": "c_flesh_scattergun_side_effect", "intensity": 1 } ],
           "hit_me_effect": [
             {
               "id": "c_flesh_hit_effect",
