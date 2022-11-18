@@ -115,7 +115,7 @@
     "id": "summer_advanced_start",
     "extend": {
       "traits": [ "MARTIAL_ARTS_SURV_COM" ],
-      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter" ]
+      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter", "surv_knight_errant", "bionic_silencer" ]
     }
   },
   {
@@ -124,20 +124,20 @@
     "id": "ambushed",
     "extend": {
       "traits": [ "MARTIAL_ARTS_SURV_COM" ],
-      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter" ]
+      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter", "surv_knight_errant", "bionic_silencer" ]
     }
   },
   {
     "copy-from": "cyberpunk",
     "type": "scenario",
     "id": "cyberpunk",
-    "extend": { "traits": [ "MARTIAL_ARTS_BIOJUTSU" ] }
+    "extend": { "traits": [ "MARTIAL_ARTS_BIOJUTSU" ], "professions": [ "bionic_silencer" ] }
   },
   {
     "copy-from": "wilderness",
     "type": "scenario",
     "add_professions": true,
-    "extend": { "allowed_locs": [ "surv_camp_l" ], "professions": [ "surv_drifter" ] },
+    "extend": { "allowed_locs": [ "surv_camp_l" ], "professions": [ "surv_drifter", "surv_knight_errant" ] },
     "id": "wilderness"
   },
   {
@@ -156,13 +156,13 @@
     "copy-from": "lab_staff",
     "type": "scenario",
     "id": "lab_staff",
-    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "bionic_silencer" ] }
   },
   {
     "copy-from": "heli_crash",
     "type": "scenario",
     "id": "heli_crash",
-    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "bionic_silencer" ] }
   },
   {
     "copy-from": "overrun",
@@ -174,7 +174,7 @@
     "copy-from": "surrounded",
     "type": "scenario",
     "add_professions": true,
-    "extend": { "allowed_locs": [ "sloc_mansion" ] },
+    "extend": { "allowed_locs": [ "sloc_mansion" ], "professions": [ "surv_drifter", "surv_knight_errant", "bionic_silencer" ] },
     "id": "surrounded"
   },
   {
