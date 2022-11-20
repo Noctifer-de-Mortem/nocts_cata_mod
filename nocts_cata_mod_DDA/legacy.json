@@ -112,19 +112,19 @@
     "id": "stealth_cloak_f",
     "copy-from": "acs_74_stealth_cloak_on",
     "type": "ARMOR",
-    "name": "stealth cloak"
+    "name": "obsolete stealth cloak"
   },
   {
     "id": "stealth_cloak",
     "copy-from": "acs_74_stealth_cloak_on",
     "type": "ARMOR",
-    "name": "stealth cloak (on)"
+    "name": "obsolete stealth cloak (on)"
   },
   {
     "id": "flesh_blade_on",
     "copy-from": "flesh_blade",
     "type": "ARMOR",
-    "name": "biological sword"
+    "name": "obsolete biological sword"
   },
   {
     "id": "mold_metal",
@@ -1006,5 +1006,13 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 20 } } ],
     "reload_time": 100,
     "flags": [ "MAG_COMPACT", "MAG_DESTROY", "NO_UNLOAD" ]
+  },
+  {
+    "id": "c_stealth_cloak",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "values": [ { "value": "SPEED", "add": -20 }, { "value": "STRENGTH", "add": -4 }, { "value": "DEXTERITY", "add": -4 } ],
+    "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
   }
 ]
