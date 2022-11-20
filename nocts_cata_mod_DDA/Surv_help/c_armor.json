@@ -318,15 +318,6 @@
     "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
   },
   {
-    "id": "c_stealth_cloak",
-    "//": "Reinstated for use because it turns out ench_effects called directly from relics is broken in DDA.",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "values": [ { "value": "SPEED", "add": -20 }, { "value": "STRENGTH", "add": -4 }, { "value": "DEXTERITY", "add": -4 } ],
-    "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
-  },
-  {
     "id": "acs_74_stealth_cloak_on",
     "type": "TOOL_ARMOR",
     "name": { "str": "ACS-74 stealth cloak" },
@@ -344,7 +335,16 @@
     "warmth": 15,
     "material_thickness": 1,
     "environmental_protection": 4,
-    "relic_data": { "passive_effects": [ { "id": "c_stealth_cloak" } ] },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "SPEED", "add": -20 }, { "value": "STRENGTH", "add": -4 }, { "value": "DEXTERITY", "add": -4 } ],
+          "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
+        }
+      ]
+    },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "PADDED" ],
     "armor": [ { "encumbrance": 15, "coverage": 75, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "head" ] } ]
   },
