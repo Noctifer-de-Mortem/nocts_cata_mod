@@ -1,0 +1,44 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_surv_station",
+    "looks_like": "surv_station",
+    "name": "grid survivor's station",
+    "symbol": "&",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Draws power from the electrical grid, combining the functions of a kitchen unit, forge, welding rig, FOODCO kitchen buddy, and a chemistry lab.  Has no cargo space due to all the components it is made out of.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": 10,
+    "crafting_pseudo_item": [
+      "fake_oven",
+      "fake_gridforge",
+      "fake_gridwelder",
+      "fake_gridsolderingiron",
+      "fake_gridfood_processor",
+      "fake_griddehydrator",
+      "fake_gridvac_sealer",
+      "fake_gridwater_purifier",
+      "press",
+      "fake_chemistry_set",
+      "fake_gridelectrolysis_kit"
+    ],
+    "examine_action": "use_furn_fake_item",
+    "flags": [ "NOITEM", "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "surv_station", "count": 1 }, { "item": "cable", "charges": 5 } ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "steel_lump", "count": [ 30, 40 ] },
+        { "item": "steel_chunk", "count": [ 30, 40 ] },
+        { "item": "scrap", "count": [ 30, 40 ] },
+        { "item": "circuit", "count": [ 30, 40 ] },
+        { "item": "e_scrap", "count": [ 30, 40 ] },
+        { "item": "amplifier", "count": [ 30, 40 ] }
+      ]
+    }
+  }
+]
