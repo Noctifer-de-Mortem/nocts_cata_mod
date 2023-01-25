@@ -19,7 +19,7 @@
     "ammo": [ "battery" ],
     "max_charges": 100,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -47,7 +47,7 @@
     "bashing": 1,
     "to_hit": 2,
     "ammo": [ "battery" ],
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "max_charges": 100,
     "turns_per_charge": 15,
     "revert_to": "solar_flashlight",
@@ -73,7 +73,7 @@
     "ammo": [ "battery" ],
     "max_charges": 100,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -105,7 +105,7 @@
     "bashing": 1,
     "to_hit": 2,
     "ammo": [ "battery" ],
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "max_charges": 100,
     "turns_per_charge": 15,
     "revert_to": "wear_solar_flashlight",
@@ -138,7 +138,7 @@
     "ammo": [ "battery" ],
     "max_charges": 100,
     "charges_per_use": 5,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "use_action": { "type": "firestarter" }
   },
   {
@@ -159,7 +159,7 @@
     "ammo": [ "gasoline" ],
     "max_charges": 25,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "use_action": {
       "type": "transform",
       "target": "solar_torch_lit",
@@ -186,7 +186,7 @@
     "bashing": 8,
     "to_hit": 1,
     "ammo": [ "gasoline" ],
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "max_charges": 25,
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
@@ -687,7 +687,7 @@
     "charges_per_use": 250,
     "max_charges": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
+    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
     "flags": [ "BELTED", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD" ],
     "covers": [ "hand_either" ],
     "encumbrance": 5,
@@ -714,7 +714,7 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "1 h", "rate": 1 } ] },
     "use_action": { "type": "cast_spell", "spell_id": "c_biostim", "no_fail": true, "level": 0 }
   },
   {
@@ -737,7 +737,7 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "1 h", "rate": 1 } ] },
     "use_action": { "type": "cast_spell", "spell_id": "c_infusion", "no_fail": true, "level": 0 }
   },
   {
@@ -760,7 +760,7 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "1 h", "rate": 1 } ] },
     "use_action": { "type": "cast_spell", "spell_id": "c_defusion", "no_fail": true, "level": 0 }
   },
   {
@@ -979,7 +979,7 @@
     "ammo": [ "battery" ],
     "max_charges": 25,
     "charges_per_use": 1,
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "1 h", "rate": 1 } ] },
     "use_action": { "type": "cast_spell", "spell_id": "c_cbm_rtg_induction", "no_fail": true, "level": 0 }
   },
   {
@@ -1135,7 +1135,7 @@
     "material": [ "alien_resin", "flesh", "steel" ],
     "weight": "300 g",
     "volume": "250 ml",
-    "artifact_data": { "charge_type": "ARTC_TIME" },
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "1 h", "rate": 1 } ] },
     "max_charges": 100,
     "charges_per_use": 25,
     "use_action": [

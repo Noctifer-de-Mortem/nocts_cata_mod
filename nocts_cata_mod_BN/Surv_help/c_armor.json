@@ -803,7 +803,6 @@
     "weight": "20 kg",
     "volume": "25 L",
     "to_hit": -3,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
     "max_charges": 100,
     "use_action": {
       "type": "transform",
@@ -823,7 +822,8 @@
           "ench_effects": [ { "effect": "c_mi_go_carapace_stamina", "intensity": 1 } ],
           "mutations": [ "C_MIGO_HEAT_BONUS" ]
         }
-      ]
+      ],
+      "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ]
     },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
@@ -864,7 +864,6 @@
     "weight": "2 kg",
     "volume": "5 L",
     "to_hit": -3,
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
     "max_charges": 100,
     "use_action": {
       "type": "transform",
@@ -883,7 +882,8 @@
           "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
           "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
         }
-      ]
+      ],
+      "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ]
     },
     "covers": [ "torso" ],
     "encumbrance": 10,
