@@ -170,23 +170,13 @@
   },
   {
     "id": "bio_atomic_battery",
-    "//": "This actually does nothing useful, see below.",
     "type": "bionic",
     "name": { "str": "Atomic Battery" },
-    "description": "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method.  It will produce power continuously unless interrupted by the integral disconnect switch.",
-    "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "included_bionics": [ "bio_atomic_battery_2" ],
-    "flags": [ "BIONIC_SHOCKPROOF" ]
-  },
-  {
-    "id": "bio_atomic_battery_2",
-    "//": "This hides where the actual powergen is defined.  Toggling pure-passive powergen screws up the logic such that it'll only work when off, so of course turning it on needs to be disguised as a safety switch.  5 watts, closer to a bank of RHUs than an RTG, but it outputs ",
-    "type": "bionic",
-    "name": { "str": "Atomic Battery Interrupter" },
-    "description": "An integrated safety mechanism allowing one to shut down power production at will.  Works via angling plutonium catalysts to manipulate how much alpha decay hits the advanced nanocompounds that produce power.  Turn it on to halt power production, in the unlikely event that it becomes necessary.",
+    "description": "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method.",
     "fuel_options": [ "c_atomic_battery_power" ],
-    "passive_fuel_efficiency": 0.005,
+    "fuel_efficiency": 0.005,
     "time": 1,
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
     "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_SHOCKPROOF" ]
   },
   {
