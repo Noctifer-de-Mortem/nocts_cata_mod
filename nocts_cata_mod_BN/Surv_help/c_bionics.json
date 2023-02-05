@@ -184,17 +184,9 @@
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
     "name": { "str": "Atomic Battery CBM" },
-    "description": "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it is continuous unless deliberately interrupted by the provided disconnect system, making it a good supplement to a more intensive power generation method.",
+    "description": "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it also provides a continuous source of power, making it a good supplement to a more intensive power generation method.",
     "price": "8000 USD",
     "difficulty": 8
-  },
-  {
-    "id": "bio_atomic_battery_2",
-    "//": "Never actually exists, only needed by bionic code for unknown reason to avoid load error.",
-    "copy-from": "bionic_general",
-    "type": "BIONIC_ITEM",
-    "name": { "str": "Atomic Battery Interrupter" },
-    "description": "A system of power control and safety mechanisms normally built into an Atomic Battery system.  Removing it is almost certainly a bad idea."
   },
   {
     "id": "bio_hazard_shield",

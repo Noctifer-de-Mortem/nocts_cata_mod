@@ -809,5 +809,12 @@
     "description": "This is a now-unneeded holdover from back when Atomic Battery had to work around code bugs and would only generate power when turned off instead of when turned on.",
     "occupied_bodyparts": [ [ "torso", 10 ] ],
     "flags": [ "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_atomic_battery_2",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Obsolete CBM" },
+    "description": "This is a now-unneeded holdover from back when Atomic Battery had to work around code bugs and would only generate power when turned off instead of when turned on."
   }
 ]
