@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2022-09-05 10:38+0300\n"
+"POT-Creation-Date: 2023-02-22 12:37+0600\n"
 "PO-Revision-Date: \n"
 "Last-Translator: CV514 <codename.dust@gmail.com>\n"
 "Language-Team: \n"
@@ -10,9 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: .\legacy.json .\Surv_help\c_books.json
 msgid "Rebuilding Civilization: Mechanics"
@@ -742,9 +742,170 @@ msgstr ""
 "способом обучения, но если в ваших книгах отсутствует конкретная информация, "
 "то это хорошая замена, пока вы не найдете что-то лучше."
 
+#: .\legacy.json
+msgid "Weave Magazine"
+msgstr "Сплести магазин"
+
+#. ~ Description for {'str': 'Weave Magazine'}
+#: .\legacy.json
+msgid "Creates a small fleshwoven magazine."
+msgstr "Создаёт небольшой свитый из плоти магазин."
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\legacy.json
+msgid ""
+"A tendril slithers from the biological pistol and jabs into you, draining "
+"something before a small magazine of living flesh weaves itself together and "
+"sloughs off the weapon."
+msgstr ""
+"Из биологического пистолета выползает усик и вонзается в вас, высасывая что-"
+"то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает оружие."
+
+#: .\legacy.json
+msgid "Fleshweaving Side Effect"
+msgstr "Побочный эффект плетения плоти"
+
+#. ~ Description for {'str': 'Fleshweaving Side Effect'}
+#: .\legacy.json
+msgid "Small amount of extra hunger."
+msgstr "Небольшое увеличение голода."
+
+#. ~ Description for {'str': 'Weave Magazine'}
+#: .\legacy.json
+msgid "Creates a fleshwoven magazine."
+msgstr "Создаёт свитый из плоти магазин."
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\legacy.json
+msgid ""
+"A tendril slithers from the biological sub-machinegun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+"Из биологического пистолета-пулемета выползает усик и вонзается в вас, "
+"высасывая что-то, прежде чем небольшой магазин живой плоти сплетается и "
+"отбрасывает оружие."
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\legacy.json
+msgid ""
+"A tendril slithers from the biological rifle and jabs into you, draining "
+"something before a small magazine of living flesh weaves itself together and "
+"sloughs off the weapon."
+msgstr ""
+"Из биологической винтовки вылетает усик и вонзается в вас, высасывая что-то, "
+"прежде чем небольшой магазин живой плоти сплетается с оружием и отбрасывает "
+"его."
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\legacy.json
+msgid ""
+"A tendril slithers from the biological machinegun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+"Из биологического пулемета выползает усик и вонзается в вас, высасывая что-"
+"то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает оружие."
+
+#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
+#: .\legacy.json
+msgid ""
+"A tendril slithers from the biological scattergun and jabs into you, "
+"draining something before a small magazine of living flesh weaves itself "
+"together and sloughs off the weapon."
+msgstr ""
+"Из биологического фаршевателя выползает усик и вонзается в вас, высасывая "
+"что-то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает "
+"оружие."
+
+#: .\legacy.json
+msgid "fleshwoven pistol magazine"
+msgid_plural "fleshwoven pistol magazines"
+msgstr[0] "пистолетный магазин из плоти"
+msgstr[1] "пистолетных магазина из плоти"
+msgstr[2] "пистолетных магазинов из плоти"
+
+#. ~ Description for {'str': 'fleshwoven pistol magazine'}
+#: .\legacy.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological pistol."
+msgstr ""
+"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
+"находится какая-то жидкость. Он был выращен для использования с "
+"биологическим пистолетом."
+
+#: .\legacy.json
+msgid "fleshwoven SMG magazine"
+msgid_plural "fleshwoven SMG magazines"
+msgstr[0] "магазин для ПП из плоти"
+msgstr[1] "магазина для ПП из плоти"
+msgstr[2] "магазинов для ПП из плоти"
+
+#. ~ Description for {'str': 'fleshwoven SMG magazine'}
+#: .\legacy.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological sub-machinegun."
+msgstr ""
+"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
+"находится какая-то жидкость. Он был выращен для использования с "
+"биологическим пистолетом-пулемётом."
+
+#: .\legacy.json
+msgid "fleshwoven rifle magazine"
+msgid_plural "fleshwoven rifle magazines"
+msgstr[0] "винтовочный магазин из плоти"
+msgstr[1] "винтовочных магазина из плоти"
+msgstr[2] "винтовочных магазинов из плоти"
+
+#. ~ Description for {'str': 'fleshwoven rifle magazine'}
+#: .\legacy.json
+msgid ""
+"A chunk of woven sinew and mutated bone, that feels like it's holding some "
+"sort of liquid.  It was grown for use with the biological rifle."
+msgstr ""
+"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
+"находится какая-то жидкость. Он был выращен для использования с "
+"биологической винтовкой."
+
+#: .\legacy.json
+msgid "fleshwoven LMG magazine"
+msgid_plural "fleshwoven LMG magazines"
+msgstr[0] "пулемётный магазин из плоти"
+msgstr[1] "пулемётных магазина из плоти"
+msgstr[2] "пулемётных магазинов из плоти"
+
+#. ~ Description for {'str': 'fleshwoven LMG magazine'}
+#: .\legacy.json
+msgid ""
+"A small chunk of woven sinew and mutated bone, that feels like it's holding "
+"some sort of liquid.  It was grown for use with the biological machinegun."
+msgstr ""
+"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
+"находится какая-то жидкость. Он был выращен для использования с "
+"биологическим пулемётом."
+
+#: .\legacy.json
+msgid "fleshwoven shotgun magazine"
+msgid_plural "fleshwoven shotgun magazines"
+msgstr[0] "магазин для дробовика из плоти"
+msgstr[1] "магазина для дробовика из плоти"
+msgstr[2] "магазинов для дробовика из плоти"
+
+#. ~ Description for {'str': 'fleshwoven shotgun magazine'}
+#: .\legacy.json
+msgid ""
+"A small chunk of woven sinew and mutated bone, that feels like it's holding "
+"some sort of liquid.  It was grown for use with the biological scattergun."
+msgstr ""
+"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
+"находится какая-то жидкость. Он был выращен для использования с "
+"биологическим дробовиком."
+
 #: .\modinfo.json
 msgid "Cataclysm++"
-msgstr "Cataclysm++"
+msgstr "Катаклизм++"
 
 #. ~ Description for Cataclysm++
 #: .\modinfo.json
@@ -767,13 +928,13 @@ msgstr ""
 "Гигантский мод-бармалот, добавляющий много игрового контента: новые "
 "предметы, здания, сценарии, монстры, и так далее. Также перерабатывает и "
 "добавляет альтернативы многим вещам, от рецептов до сценариев. Ещё он "
-"добавляет псевдо-историю и лор, находящийся в разработке.\n"
+"добавляет псевдо-историю и лор, находящиеся в процессе разработки.\n"
 "\n"
-"NPC-фракции Био-оружия, Супер-солдат, Командиров, Бойцов-рабов и "
-"Выживальщиков Старого Света Prepper присоединяются к миру.\n"
+"В мире появятся новые NPC-фракции: Био-оружие, Супер-солдаты, Командиры, "
+"Бойцы-рабы и Выживальщики Старого Света.\n"
 "\n"
-"Ищите био-оружие, находите ништяки, уничтожайте новых монстров и занимайтесь "
-"развитием навыков для создания новых предметов."
+"Ищите био-оружие, находите много интересных штук, уничтожайте новых монстров "
+"и занимайтесь развитием навыков для создания новых предметов."
 
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_male"
@@ -1156,7 +1317,7 @@ msgstr "Раб-Боец (Клинок)"
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_female"
 msgid "Slave Fighter (Blade)"
-msgstr "Раб-Боец (Клинок)"
+msgstr "Рабыня-Боец (Клинок)"
 
 #. ~ Profession (male Slave Fighter (Blade)) description
 #: .\Char_creation\c_classes_bw.json
@@ -1188,7 +1349,7 @@ msgstr "Раб-Боец (Когти)"
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_female"
 msgid "Slave Fighter (Claws)"
-msgstr "Раб-Боец (Когти)"
+msgstr "Рабыня-Боец (Когти)"
 
 #. ~ Profession (male Slave Fighter (Claws)) description
 #: .\Char_creation\c_classes_bw.json
@@ -1220,7 +1381,7 @@ msgstr "Раб-Боец (Шокер)"
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_female"
 msgid "Slave Fighter (Shocker)"
-msgstr "Раб-Боец (Шокер)"
+msgstr "Рабыня-Боец (Шокер)"
 
 #. ~ Profession (male Slave Fighter (Shocker)) description
 #: .\Char_creation\c_classes_bw.json
@@ -1251,12 +1412,12 @@ msgstr ""
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_male"
 msgid "Slave Fighter (Weapon Master)"
-msgstr "Slave Fighter (Мастер Оружия)"
+msgstr "Раб-Боец (Мастер Оружия)"
 
 #: .\Char_creation\c_classes_bw.json
 msgctxt "profession_female"
 msgid "Slave Fighter (Weapon Master)"
-msgstr "Slave Fighter (Мастер Оружия)"
+msgstr "Рабыня-Боец (Мастер Оружия)"
 
 #. ~ Profession (male Slave Fighter (Weapon Master)) description
 #: .\Char_creation\c_classes_bw.json
@@ -1389,6 +1550,76 @@ msgstr ""
 "После конца света ты стала скитаться из города в город, собирая мусор и "
 "адаптируясь к новой жизни.  Ночуя под звездами, питаясь одной едой и пулей "
 "за раз, ты приняла эту новую жизнь, как утка принимает воду."
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_male"
+msgid "Wasteland Knight-Errant"
+msgstr "Бродяга-мечник пустошей"
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Wasteland Knight-Errant"
+msgstr "Бродяга-мечница пустошей"
+
+#. ~ Profession (male Wasteland Knight-Errant) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_male"
+msgid ""
+"When the world ended, you decided you would live by the sword.  By good "
+"fortune or by dedication, you lived long enough to earn your steel."
+msgstr ""
+"Когда наступил конец света, ты решил, что будешь жить путём меча. Благодаря "
+"удаче или самоотверженности, ты прожил достаточно долго, чтобы заслужить "
+"свою сталь."
+
+#. ~ Profession (female Wasteland Knight-Errant) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_female"
+msgid ""
+"When the world ended, you decided you would live by the sword.  By good "
+"fortune or by dedication, you lived long enough to earn your steel."
+msgstr ""
+"Когда наступил конец света, ты решила, что будешь жить путём меча. Благодаря "
+"удаче или самоотверженности, ты прожила достаточно долго, чтобы заслужить "
+"свою сталь."
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_male"
+msgid "Bionic Silencer"
+msgstr "Бионический глушитель"
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Bionic Silencer"
+msgstr "Бионическая глушилка"
+
+#. ~ Profession (male Bionic Silencer) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_male"
+msgid ""
+"You were trained and equipped for infiltrating secure facilities for your "
+"mysterious backers, to secure specific objects of interest and silence high-"
+"value targets.  Now that they've gone silent themselves, you'll have to use "
+"your gifts for simple survival."
+msgstr ""
+"Ты был обучен и оснащён для проникновения на охраняемые предприятия твоих "
+"таинственных покровителей, чтобы захватывать интересующие их объекты и "
+"заставлять умолкнуть особо важные цели. Теперь, когда они сами замолчали, "
+"тебе придётся использовать свой дар для простого выживания."
+
+#. ~ Profession (female Bionic Silencer) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_female"
+msgid ""
+"You were trained and equipped for infiltrating secure facilities for your "
+"mysterious backers, to secure specific objects of interest and silence high-"
+"value targets.  Now that they've gone silent themselves, you'll have to use "
+"your gifts for simple survival."
+msgstr ""
+"Ты была обучена и оснащена для проникновения на охраняемые предприятия твоих "
+"таинственных покровителей, чтобы захватывать интересующие их объекты и "
+"заставлять умолкнуть особо важные цели. Теперь, когда они сами замолчали, "
+"тебе придётся использовать свой дар для простого выживания."
 
 #. ~ Name for scenario 'Bio-Weapon Lab' for a male character
 #: .\Char_creation\c_scenarios.json
@@ -2445,19 +2676,20 @@ msgstr ""
 "бесшумны, к тому же вам гораздо легче убедить или обмануть других NPC."
 
 #: .\Mutations\c_bio_mutation.json
-msgid "Unyielding"
-msgstr "Непреклонность"
+msgid "Unyielding Frame"
+msgstr "Несгибаемая структура"
 
-#. ~ Description for {'str': 'Unyielding'}
+#. ~ Description for {'str': 'Unyielding Frame'}
 #: .\Mutations\c_bio_mutation.json
 msgid ""
-"Your durability and resilience are overall far beyond normal humans.  You "
-"gain a flat +50 to all hit points, plus your maximum stamina and stamina "
-"regeneration is 30% higher than normal."
+"Your durability and resilience are overall far beyond normal humans, and "
+"your form is larger than a normal human.  You gain a flat +50 to all hit "
+"points, plus your maximum stamina and stamina regeneration is 30% higher "
+"than normal."
 msgstr ""
-"Ваша прочность и стойкость в целом намного выше, чем у обычных людей.  Вы "
-"получаете +50 ко всем очкам здоровья, а также максимальную выносливость и "
-"регенерацию выносливости на 30% выше, чем обычно."
+"Ваша прочность и стойкость намного выше, чем у обычных людей, и в целом вы "
+"заметно крупнее других. Вы получаете +50 ко всем очкам здоровья, а также "
+"максимальную выносливость и регенерацию выносливости на 30% выше, чем обычно."
 
 #: .\Mutations\c_bio_mutation.json
 msgid "Vulnerable"
@@ -3097,16 +3329,16 @@ msgstr "Направленность Стража: Физическая"
 msgid ""
 "Your physical genetic conditioning has reached its peak, beyond all human "
 "limits.  Your body is hardened against physical damage slightly and your "
-"figure is more intimating, but you've also developed an immunity to most "
+"figure is more intimidating, but you've also developed an immunity to most "
 "toxins, as well as depressant and painkilling drugs.  Your metabolism also "
 "processes radioactive contaminants faster, and you recover from pain quickly."
 msgstr ""
-"Твоё физическое развитие на пути Стража достигло своего пика, превзойдя все "
-"человеческие пределы. Твоё тело немного закалено против физических "
-"повреждений, и твоя фигура более привлекательна, ты также выработал "
-"иммунитет к большинству токсинов, а также к депрессантам и обезболивающим "
-"препаратам. Твой метаболизм также быстрее перерабатывает радиоактивные "
-"загрязнения, и ты быстрее оправляешься от боли."
+"Твоё физическое развитие достигло своего пика, превзойдя все человеческие "
+"пределы. Твоё тело несколько закалено против физических повреждений, и в "
+"целом ты выглядишь более угрожающе, ещё у тебя выработался иммунитет к "
+"большинству токсинов, а также к депрессантам и обезболивающим препаратам. "
+"Твой метаболизм также быстрее перерабатывает радиоактивные загрязнения, и ты "
+"быстрее оправляешься от боли."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Conditioning: Mental"
@@ -5705,14 +5937,14 @@ msgstr ""
 "повышенную уязвимость."
 
 #: .\Surv_help\c_armor.json
-msgid "pair of survivor gauntlets"
-msgid_plural "pairs of survivor gauntlets"
-msgstr[0] "пара рукавиц выживальщика"
-msgstr[1] "пары рукавиц выживальщика"
-msgstr[2] "пар рукавиц выживальщика"
+msgid "pair of survivor armored gauntlets"
+msgid_plural "pairs of survivor armored gauntlets"
+msgstr[0] "пара бронированных рукавиц выживальщика"
+msgstr[1] "пары бронированных рукавиц выживальщика"
+msgstr[2] "пар бронированных рукавиц выживальщика"
 
-#. ~ Description for {'str': 'pair of survivor gauntlets', 'str_pl': 'pairs of
-#. survivor gauntlets'}
+#. ~ Description for {'str': 'pair of survivor armored gauntlets', 'str_pl':
+#. 'pairs of survivor armored gauntlets'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A heavy set of medieval gauntlets, modified with kevlar reinforcements to "
@@ -5722,14 +5954,14 @@ msgstr ""
 "дополнительной защиты от окружающей среды."
 
 #: .\Surv_help\c_armor.json
-msgid "pair of survivor sabatons"
-msgid_plural "pairs of survivor sabatons"
-msgstr[0] "пара латных сапогов выживальщика"
-msgstr[1] "пары латных сапогов выживальщика"
-msgstr[2] "пар латных сапогов выживальщика"
+msgid "pair of survivor armored boots"
+msgid_plural "pairs of survivor armored boots"
+msgstr[0] "пара бронированных сапогов выживальщика"
+msgstr[1] "пары бронированных сапогов выживальщика"
+msgstr[2] "пар бронированных сапогов выживальщика"
 
-#. ~ Description for {'str': 'pair of survivor sabatons', 'str_pl': 'pairs of
-#. survivor sabatons'}
+#. ~ Description for {'str': 'pair of survivor armored boots', 'str_pl':
+#. 'pairs of survivor armored boots'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A heavy set of armor plated boots, modified with kevlar to better protect "
@@ -5768,8 +6000,8 @@ msgid ""
 "Weapon project.  This one has the name 'Apophis' inscribed on the front."
 msgstr ""
 "Круглый серебряный медальон, который идентифицирует владельца как часть "
-"проекта \"Био-Оружие\". У этого бейджа есть дополнительная подпись \"Апофеоз"
-"\"."
+"проекта \"Био-Оружие\". У этого бейджа есть дополнительная подпись "
+"\"Апофеоз\"."
 
 #: .\Surv_help\c_armor.json
 msgid "RFID access badge"
@@ -6174,6 +6406,19 @@ msgid ""
 msgstr "Очень коротка юбка. Нет карманов, но в ней очень удобно двигаться."
 
 #: .\Surv_help\c_armor.json
+msgid "Carapace Armor Cooling"
+msgstr "Охлаждение панцирной брони"
+
+#. ~ Description for {'str': 'Carapace Armor Cooling'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"This is used to make salvaged carapace armor provide further cooling if "
+"overheating."
+msgstr ""
+"Используется для охлаждения восстановленной панцирной брони в случае "
+"перегрева."
+
+#: .\Surv_help\c_armor.json
 msgid "salvaged carapace armor"
 msgid_plural "salvaged carapace armors"
 msgstr[0] "восстановленная панцирная броня"
@@ -6196,8 +6441,8 @@ msgstr "Костюм не реагирует, очевидно, у него за
 #. ~ Description for {'str': 'salvaged carapace armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A vaguely human-shaped shell of alien sinew and steel support, covered in "
-"armor plates made of resin.  Salvaged using pre-cataclysm research into "
+"A vaguely human-shaped second skin of alien sinew and steel support, covered "
+"in armor plates made of resin.  Salvaged using pre-cataclysm research into "
 "other living weaponry, it's been practically mutilated to fit a human (or "
 "mutant) wearer.  Activating it will reduce the suit's encumbrance, enhance "
 "strength and dexterity, protect the wearer from toxic gas, serve as a "
@@ -6207,14 +6452,14 @@ msgid ""
 "render them more vulnerable to electric shocks."
 msgstr ""
 "Оболочка неопределенной человеческой формы из чужеродного сухожилия и "
-"стальных опор, покрытая бронированными пластинами из резины. Восстановленная "
-"в результате исследований, проводившихся до Катаклизма, она была подвергнута "
-"трансформации, чтобы подогнать ее под человека (или мутанта). Активация "
-"уменьшает сковывание костюма, увеличивает силу и ловкость, защищает от "
-"токсичных газов, служит в качестве ребризера, повышает выносливость и "
-"грузоподъёмность, а также обеспечивает некоторую защиту от внешней "
-"температуры. Похоже, что костюм перезаряжается от солнечного света, а "
-"активная работа постепенно утомляет пользователя и влияет на здоровье, а "
+"стальных опор, покрытая бронированными пластинами из смолы. Восстановленная "
+"в результате исследований по живому оружию, проводившихся до Катаклизма, она "
+"была подвергнута трансформации, чтобы подогнать ее под человека (или "
+"мутанта). Активация уменьшает сковывание костюма, увеличивает силу и "
+"ловкость, защищает от токсичных газов, служит в качестве ребризера, повышает "
+"выносливость и грузоподъёмность, а также обеспечивает некоторую защиту от "
+"внешней температуры. Похоже, что костюм перезаряжается от солнечного света, "
+"а активная работа постепенно утомляет пользователя и влияет на здоровье, а "
 "также делает его более уязвимым к электрическим разрядам."
 
 #: .\Surv_help\c_armor.json
@@ -6278,18 +6523,18 @@ msgstr "Экзо-крылья не реагируют, очевидно, у ни
 #. salvaged exo-wings'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A set of thin, green iridescent wings, steel wires and joints meshed with "
-"thick alien nervous cords.  Salvaged using pre-cataclysm research into other "
-"living weaponry, it's been heavily altered to fit a human (or mutant) "
-"wearer.  Activating it will grant immunity to falling damage and vastly "
-"speed up movement.  It seems to recharge from sunlight, and being active "
-"will also gradually fatigue the user."
+"A harness from which jut thin, green iridescent wings, steel wires and "
+"joints meshed with thick alien nervous cords.  Salvaged using pre-cataclysm "
+"research into other living weaponry, it's been heavily altered to fit a "
+"human (or mutant) wearer.  Activating it will grant immunity to falling "
+"damage and vastly speed up movement.  It seems to recharge from sunlight, "
+"and being active will also gradually fatigue the user."
 msgstr ""
-"Комплект тонких, зелёных переливающихся крыльев, стальных проводов и "
-"суставов, соединённых массивными инопланетными нервными кабелями. "
-"Восстановленный в результате исследований, проводившихся до Катаклизма, он "
-"был сильно изменён, чтобы подойти для использования человеком (или "
-"мутантом). Его активация даёт иммунитет к повреждениям при падении и "
+"Комплект тонких, зелёных переливающихся крыльев, стальных кабелей и "
+"суставов, соединённых массивными инопланетными нервными проводами. "
+"Восстановленный в результате исследований по живому оружию, проводившихся до "
+"Катаклизма, он был сильно изменён, чтобы подойти для использования человеком "
+"(или мутантом). Его активация даёт иммунитет к повреждениям при падении и "
 "значительно ускоряет передвижение. Похоже, что он перезаряжается от "
 "солнечного света, при этом активное состояние также постепенно утомляет "
 "пользователя."
@@ -6345,9 +6590,9 @@ msgstr ""
 #: .\Surv_help\c_armor.json
 msgid "survivor leg rig"
 msgid_plural "survivor leg rigs"
-msgstr[0] "Ножные петли выживальщика"
-msgstr[1] "Ножных петлей выживальщика"
-msgstr[2] "Ножных петлей выживальщика"
+msgstr[0] "ножные петли выживальщика"
+msgstr[1] "ножных петлей выживальщика"
+msgstr[2] "ножных петлей выживальщика"
 
 #. ~ Use action holster_prompt for {'str': 'survivor leg rig'}.
 #: .\Surv_help\c_armor.json
@@ -6405,15 +6650,15 @@ msgstr "В баке импровизированной силовой брони
 msgid ""
 "An incredibly heavy suit of steel plates covering a network of hydraulics, "
 "driven by pieces of a stripped-down diesel engine jury-rigged to assist the "
-"wearer's movements.  It's cumbersome but provides considerable protection "
-"aside from gaps in the joints and vision slits, and the servos offer quite a "
-"bit of power when active."
+"wearer's movements.  When running it will increase your strength and make it "
+"less encumbering to wear, but the motors make things warm and make stealth "
+"harder."
 msgstr ""
-"Невероятно тяжелый костюм из стальных пластин, покрытый сетью гидравлики, "
+"Невероятно тяжёлый костюм из стальных пластин, покрывающий сеть гидравлики, "
 "приводимый в движение частями урезанного дизельного двигателя, чтобы помочь "
-"владельцу двигаться. Она громоздка, но обеспечивает значительную защиту, "
-"если не считать щелей в суставах и смотровых щелей, а сервоприводы в "
-"активном состоянии обеспечивают довольно большую силу."
+"владельцу двигаться. Во время бега он увеличит вагу силу и станет меньше вас "
+"нагружать, но работающие моторы добавят температуры и увеличат вашу "
+"заметность."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift power armor (on)"
@@ -6581,7 +6826,7 @@ msgid ""
 "jet of intense heat, making it dangerous in confined spaces.  It has two "
 "chambers, this one is configured for military-grade hydrogen canisters."
 msgstr ""
-"В вашу грудь имплантирована небольшой, усовершенствованный водородный "
+"В вашу грудь имплантирован небольшой, усовершенствованный водородный "
 "топливный элемент. Разработанный для получения моментного всплеска выработки "
 "энергии для особой, продвинутой военной кибернетики, он значительно менее "
 "эффективен, чем традиционный водородный топливный элемент. Но каждый импульс "
@@ -6643,11 +6888,11 @@ msgstr[2] "АВ Батарея"
 #. ~ Description for {'str': 'Alphavoltaic Power', 'str_pl': 'none'}
 #: .\Surv_help\c_bionics.json
 msgid "seeing this is a bug"
-msgstr "видеть это - баг"
+msgstr "если это видно - значит, это баг"
 
 #: .\Surv_help\c_bionics.json
 msgid "Atomic Battery"
-msgstr "Атомная Батарея"
+msgstr "Атомная батарея"
 
 #. ~ Description for {'str': 'Atomic Battery'}
 #: .\Surv_help\c_bionics.json
@@ -6670,9 +6915,9 @@ msgstr ""
 #: .\Surv_help\c_bionics.json
 msgid "Atomic Battery Interrupter"
 msgid_plural "Atomic Battery Interrupters"
-msgstr[0] "Реле для Атомной батареи"
-msgstr[1] "Реле для Атомной батареи"
-msgstr[2] "Реле для Атомной батареи"
+msgstr[0] "Реле для атомной батареи"
+msgstr[1] "Реле для атомной батареи"
+msgstr[2] "Реле для атомной батареи"
 
 #. ~ Description for {'str': 'Atomic Battery Interrupter'}
 #: .\Surv_help\c_bionics.json
@@ -7106,7 +7351,7 @@ msgstr "Напряжение"
 #. ~ Description of effect 'Exertion'.
 #: .\Surv_help\c_effects.json
 msgid "You feel worn out and empty inside."
-msgstr "Вы чувствуете себя измученным и опустошенным внутри."
+msgstr "Вы чувствуете изнурение и опустошённость внутри."
 
 #: .\Surv_help\c_effects.json
 msgid "Bloodlust"
@@ -7115,7 +7360,7 @@ msgstr "Жажда крови"
 #. ~ Description of effect 'Bloodlust'.
 #: .\Surv_help\c_effects.json
 msgid "You thirst for blood!"
-msgstr "Ты жаждешь крови!"
+msgstr "Вы жаждете крови!"
 
 #. ~ Apply message for effect(s) 'Exertion, Bloodlust'.
 #: .\Surv_help\c_effects.json
@@ -7125,12 +7370,12 @@ msgstr "Вы чувствуете неестественный прилив ад
 #. ~ Miss message for effect(s) 'Exertion, Bloodlust'.
 #: .\Surv_help\c_effects.json
 msgid "Your weariness throws you off."
-msgstr "Твоя усталость сбивает тебя с толку."
+msgstr "Ваша усталость сбивает вас с толку."
 
 #. ~ Decay message for effect(s) 'Exertion, Bloodlust'.
 #: .\Surv_help\c_effects.json
 msgid "Your bloodlust wears off.  You feel AWFUL!"
-msgstr "Твоя жажда крови проходит. Ты чувствуешь себя УЖАСНО!"
+msgstr "Ваша жажда крови проходит. Вы чувствуете себя УЖАСНО!"
 
 #: .\Surv_help\c_effects.json .\Surv_help\c_spells.json
 msgid "Biostim"
@@ -7153,8 +7398,8 @@ msgid ""
 "Your heart feels like it's going a mile a minute, and every muscle in your "
 "body is sore."
 msgstr ""
-"У тебя такое чувство, что сердце бьется со скоростью тысячи ударов в минуту, "
-"и каждая мышца в твоем теле стонет и болит."
+"У вас такое чувство, что сердце бьется со скоростью тысячи ударов в минуту, "
+"а каждая мышца в теле стонет и болит."
 
 #. ~ Apply message for effect(s) 'Biostim, Biostim Overdose'.
 #: .\Surv_help\c_effects.json
@@ -7216,6 +7461,20 @@ msgstr ""
 "Длится 2 хода, складывается 2 раза."
 
 #: .\Surv_help\c_martialarts.json
+msgid "Fluid Motion"
+msgstr "Плавное перемещение"
+
+#. ~ Description of buff 'Fluid Motion' for martial art '{'str': 'Survivor
+#. Combatives'}'
+#: .\Surv_help\c_martialarts.json
+msgid ""
+"You've learned to move with a purposeful efficiency.  Movement speed "
+"increased by 25% of Intelligence."
+msgstr ""
+"Вы научились двигаться с осознанной эффективностью. Скорость передвижения "
+"увеличена на 25% от Интеллекта."
+
+#: .\Surv_help\c_martialarts.json
 msgid "Elusiveness"
 msgstr "Неуловимость"
 
@@ -7223,16 +7482,18 @@ msgstr "Неуловимость"
 #. Combatives'}'
 #: .\Surv_help\c_martialarts.json
 msgid ""
-"Quick and fluid movements make you harder to catch.\n"
+"Quick and fluid movements make you harder to catch, and better able to roll "
+"with the punches.\n"
 "\n"
-"+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, immunity to "
-"knockdown.\n"
+"+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, bash damage "
+"taken reduced by 25% of Intelligence, immunity to knockdown.\n"
 "Lasts 3 turns, stacks 2 times."
 msgstr ""
-"Из-за быстрых и плавных движений вас очень трудно поймать.\n"
+"Из-за быстрых и плавных движений вас очень трудно поймать, а входящие удары "
+"легче контролировать.\n"
 "\n"
-"+1 попытка уклонения, навык уклонения увеличен на 25%% от Интеллекта, "
-"иммунитет к нокдауну.\n"
+"+1 попытка уклонения, навык уклонения увеличен на 25% от Интеллекта, "
+"входящий ударный урон уменьшен на 25% от Интеллекта, иммунитет к нокдауну.\n"
 "Длится 3 хода, складывается 2 раза."
 
 #. ~ Description for martial art '{'str': 'Post-Human Combatives'}'
@@ -7338,6 +7599,10 @@ msgid "Fencing"
 msgstr "Фехтование"
 
 #: .\Surv_help\c_martialarts.json
+msgid "Barbaran Montante"
+msgstr "Мантанте по Барбарану"
+
+#: .\Surv_help\c_martialarts.json
 msgid "Medieval Swordsmanship"
 msgstr "Средневековое искусство фехтования"
 
@@ -7352,9 +7617,9 @@ msgstr "Фьоре Деи Либери"
 #: .\Surv_help\c_martialartsbook.json
 msgid "Survivor Combatives Manual"
 msgid_plural "Survivor Combatives Manuals"
-msgstr[0] "учебник по боевому искусству выживальщика"
-msgstr[1] "учебника по боевому искусству выживальщика"
-msgstr[2] "учебников по боевому искусству выживальщика"
+msgstr[0] "Учебник по боевому искусству выживальщика"
+msgstr[1] "Учебника по боевому искусству выживальщика"
+msgstr[2] "Учебников по боевому искусству выживальщика"
 
 #. ~ Description for {'str': 'Survivor Combatives Manual'}
 #: .\Surv_help\c_martialartsbook.json
@@ -7368,9 +7633,9 @@ msgstr ""
 #: .\Surv_help\c_martialartsbook.json
 msgid "Bionic Combatives Manual"
 msgid_plural "Bionic Combatives Manuals"
-msgstr[0] "учебник по бионическому боевому искусству"
-msgstr[1] "учебника по бионическому боевому искусству"
-msgstr[2] "учебников по бионическому боевому искусству"
+msgstr[0] "Учебник по бионическому боевому искусству"
+msgstr[1] "Учебника по бионическому боевому искусству"
+msgstr[2] "Учебников по бионическому боевому искусству"
 
 #. ~ Description for {'str': 'Bionic Combatives Manual'}
 #: .\Surv_help\c_martialartsbook.json
@@ -7384,9 +7649,9 @@ msgstr ""
 #: .\Surv_help\c_martialartsbook.json
 msgid "Post-Human Combatives Manual"
 msgid_plural "Post-Human Combatives Manuals"
-msgstr[0] "учебник по постчеловеческим боевые искусства"
-msgstr[1] "учебника по постчеловеческим боевые искусства"
-msgstr[2] "учебников по постчеловеческим боевые искусства"
+msgstr[0] "Учебник по постчеловеческим боевые искусства"
+msgstr[1] "Учебника по постчеловеческим боевые искусства"
+msgstr[2] "Учебников по постчеловеческим боевые искусства"
 
 #. ~ Description for {'str': 'Post-Human Combatives Manual'}
 #: .\Surv_help\c_martialartsbook.json
@@ -7852,82 +8117,6 @@ msgstr "Экстракция смолы"
 #: .\Surv_help\c_spells.json
 msgid "Creates a random number of alien resin chunks."
 msgstr "Создаёт случайное количество сгустков инопланетной смолы."
-
-#: .\Surv_help\c_spells.json
-msgid "Weave Magazine"
-msgstr "Сплести магазин"
-
-#. ~ Description for {'str': 'Weave Magazine'}
-#: .\Surv_help\c_spells.json
-msgid "Creates a small fleshwoven magazine."
-msgstr "Создаёт небольшой свитый из плоти магазин."
-
-#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
-#: .\Surv_help\c_spells.json
-msgid ""
-"A tendril slithers from the biological pistol and jabs into you, draining "
-"something before a small magazine of living flesh weaves itself together and "
-"sloughs off the weapon."
-msgstr ""
-"Из биологического пистолета выползает усик и вонзается в вас, высасывая что-"
-"то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает оружие."
-
-#: .\Surv_help\c_spells.json
-msgid "Fleshweaving Side Effect"
-msgstr "Побочный эффект плетения плоти"
-
-#. ~ Description for {'str': 'Fleshweaving Side Effect'}
-#: .\Surv_help\c_spells.json
-msgid "Small amount of extra hunger."
-msgstr "Небольшое увеличение голода."
-
-#. ~ Description for {'str': 'Weave Magazine'}
-#: .\Surv_help\c_spells.json
-msgid "Creates a fleshwoven magazine."
-msgstr "Создаёт свитый из плоти магазин."
-
-#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
-#: .\Surv_help\c_spells.json
-msgid ""
-"A tendril slithers from the biological sub-machinegun and jabs into you, "
-"draining something before a small magazine of living flesh weaves itself "
-"together and sloughs off the weapon."
-msgstr ""
-"Из биологического пистолета-пулемета выползает усик и вонзается в вас, "
-"высасывая что-то, прежде чем небольшой магазин живой плоти сплетается и "
-"отбрасывает оружие."
-
-#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
-#: .\Surv_help\c_spells.json
-msgid ""
-"A tendril slithers from the biological rifle and jabs into you, draining "
-"something before a small magazine of living flesh weaves itself together and "
-"sloughs off the weapon."
-msgstr ""
-"Из биологической винтовки вылетает усик и вонзается в вас, высасывая что-то, "
-"прежде чем небольшой магазин живой плоти сплетается с оружием и отбрасывает "
-"его."
-
-#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
-#: .\Surv_help\c_spells.json
-msgid ""
-"A tendril slithers from the biological machinegun and jabs into you, "
-"draining something before a small magazine of living flesh weaves itself "
-"together and sloughs off the weapon."
-msgstr ""
-"Из биологического пулемета выползает усик и вонзается в вас, высасывая что-"
-"то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает оружие."
-
-#. ~ Message for SPELL '{'str': 'Weave Magazine'}'
-#: .\Surv_help\c_spells.json
-msgid ""
-"A tendril slithers from the biological scattergun and jabs into you, "
-"draining something before a small magazine of living flesh weaves itself "
-"together and sloughs off the weapon."
-msgstr ""
-"Из биологического фаршевателя выползает усик и вонзается в вас, высасывая "
-"что-то, прежде чем небольшой магазин живой плоти сплетается и отбрасывает "
-"оружие."
 
 #: .\Surv_help\c_techniques.json
 msgid "Grab Break"
@@ -9235,6 +9424,64 @@ msgstr ""
 "восстановленной биотехнологии ми-го. Активируйте его, чтобы переключиться в "
 "обычный режим, для создания более крупных сгустков смолы для других целей."
 
+#: .\Surv_help\c_tools.json
+msgid "makeshift wire saw"
+msgid_plural "makeshift wire saws"
+msgstr[0] "самодельная пила из кабеля"
+msgstr[1] "самодельных пилы из кабеля"
+msgstr[2] "самодельных пил из кабеля"
+
+#. ~ Description for {'str': 'makeshift wire saw'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"This is a flexible saw made from thin wire and added abrasive, with "
+"makeshift handles on either end.  It should suffice for light metal and wood "
+"sawing."
+msgstr ""
+"Гибкая пила, лента которой сделана из кабеля с нанесённым абразивом, с "
+"приделанными рукоятками на обоих концах. Сгодится для несложной работы по "
+"металлу и дереву."
+
+#: .\Terrain\c_construction.json
+msgid "Place survivor's station"
+msgstr "Установить станцию выживальщика"
+
+#: .\Terrain\c_construction.json
+msgid ""
+"Will only work if constructed in/on a building that has an electric grid "
+"with a mounted battery."
+msgstr ""
+"Будет работать только если разместить в/на здании с существующей "
+"электросетью и смонтированным аккумулятором."
+
+#: .\Terrain\c_furniture.json
+msgid "grid survivor's station"
+msgstr "сетевая станция выживальщика"
+
+#. ~ Description for grid survivor's station
+#: .\Terrain\c_furniture.json
+msgid ""
+"A makeshift vehicle mountable station comprised of many utilities, all "
+"compressed into a single unit.  Draws power from the electrical grid, "
+"combining the functions of a kitchen unit, forge, welding rig, FOODCO "
+"kitchen buddy, and a chemistry lab.  Has no cargo space due to all the "
+"components it is made out of."
+msgstr ""
+"Импровизированная станция устанавливаемая на транспортное средство, "
+"состоящая из множества инструментов, все они упакованы в максимально "
+"компактный агрегат. Работает от электросети. Сочетает в себе функционал "
+"автомобильного кухонного блока, кузницы, сварочного аппарата, набора химии и "
+"всех бесчисленных функций кухонного приятеля ФудКо. Не имеет грузового "
+"пространства из-за всех этих инструментов, из которых она сделана."
+
+#: .\Terrain\c_furniture.json
+msgid "metal screeching!"
+msgstr "скрежет металла!"
+
+#: .\Terrain\c_furniture.json
+msgid "clang!"
+msgstr "лязг!"
+
 #: .\Terrain\c_terrain.json
 msgid "concrete wall with glass port"
 msgstr "бетонная стена с оконным проёмом"
@@ -9321,11 +9568,11 @@ msgstr "Химическая станция"
 
 #: .\Vehicles\c_carts.json
 msgid "Survivor Station"
-msgstr "Станция Выживальщика"
+msgstr "Станция выживальщика"
 
 #: .\Vehicles\c_carts.json
 msgid "Autoclave Station"
-msgstr "Станция автоклава"
+msgstr "Автоклавная станция"
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "mounted UPS rifle"
@@ -9367,11 +9614,12 @@ msgid ""
 "of the FOODCO kitchen buddy.  As a consequence, it leaves no space left for "
 "storage."
 msgstr ""
-"A makeshift vehicle mountable station comprised of many utilities, all "
-"compressed into a single unit. Сочетает в себе функциональность "
-"автомобильного кухонного блока, кузницы, сварочного аппарата, набора химии и "
-"всех бесчисленных функций кухонного приятеля ФудКо. Как следствие, места для "
-"вещей там не осталось."
+"Импровизированная станция устанавливаемая на транспортное средство, "
+"состоящая из множества инструментов, все они упакованы в максимально "
+"компактный агрегат. Сочетает в себе функционал автомобильного кухонного "
+"блока, кузницы, сварочного аппарата, набора химии и всех бесчисленных "
+"функций кухонного приятеля ФудКо. Как следствие, места для хранения вещей "
+"там не осталось."
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "mounted survivor's .223 assault rifle"
@@ -9443,99 +9691,81 @@ msgstr "смонтировнная MK-2 ионная пушка"
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "tiny electric dynamo"
-msgstr "крошечная электрическая динамо-машина"
+msgstr "крошечная динамо-машина"
 
 #. ~ Description for tiny electric dynamo
+#. ~ Description for small electric dynamo
+#. ~ Description for electric dynamo
 #: .\Vehicles\c_vehicle_parts.json
 msgid ""
 "An electric motor improvised to serve as an electric generator, to be "
-"attached to an internal combustion engine.  Its small size makes it rather "
-"inefficient compared to its normal efficiency as a motor."
+"attached to an internal combustion engine.  Much less efficient compared to "
+"its normal application as a motor."
 msgstr ""
 "Электрический двигатель, импровизированный, чтобы служить в качестве "
 "электрического генератора, должен быть присоединен к двигателю внутреннего "
-"сгорания. Его небольшой размер делает его довольно неэффективным по "
+"сгорания. Его небольшой размер делает его значительно менее неэффективным по "
 "сравнению с его обычной эффективностью в качестве двигателя."
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "small electric dynamo"
 msgstr "малая электрическая динамо-машина"
 
-#. ~ Description for small electric dynamo
-#: .\Vehicles\c_vehicle_parts.json
-msgid ""
-"An electric motor improvised to serve as an electric generator, to be "
-"attached to an internal combustion engine.  Its small size has a negative "
-"impact on its efficiency."
-msgstr ""
-"Электрический двигатель, импровизированный, чтобы служить в качестве "
-"электрического генератора, должен быть присоединен к двигателю внутреннего "
-"сгорания. Его небольшие размеры отрицательно сказываются на его "
-"эффективности."
-
 #: .\Vehicles\c_vehicle_parts.json
 msgid "electric dynamo"
 msgstr "электрическая динамо-машина"
 
-#. ~ Description for electric dynamo
 #: .\Vehicles\c_vehicle_parts.json
-msgid ""
-"An electric motor improvised to serve as an electric generator, to be "
-"attached to an internal combustion engine.  While relatively energy-"
-"intensive, it makes about as efficient a dynamo as it does a motor."
-msgstr ""
-"Электрический двигатель, импровизированный, чтобы служить в качестве "
-"электрического генератора, должен быть присоединен к двигателю внутреннего "
-"сгорания. Несмотря на относительную энергоемкость, динамо-машина становится "
-"такой же эффективной, как и сам двигатель."
+msgid "large electric dynamo"
+msgstr "большая динамо-машина"
 
-#: .\Vehicles\c_vehicle_parts.json
-msgid "large electric generator"
-msgstr "большой электрический генератор"
-
-#. ~ Description for large electric generator
+#. ~ Description for large electric dynamo
 #: .\Vehicles\c_vehicle_parts.json
 msgid ""
 "An electric motor improvised to serve as an electric generator, to be "
 "attached to an internal combustion engine.  It would need a fairly powerful "
-"engine to effectively generate power."
+"engine to effectively generate power, and it's much less efficient compared "
+"to its normal application as a motor."
 msgstr ""
 "Электрический двигатель, импровизированный, чтобы служить в качестве "
 "электрического генератора, должен быть присоединен к двигателю внутреннего "
 "сгорания. Для эффективной выработки энергии потребуется довольно мощный "
-"двигатель."
+"двигатель, и его эффективность по сравнению с режимом мотора снижена."
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "enhanced electric dynamo"
-msgstr "усовершенствованная электрическая динамо-машина"
+msgstr "усовершенствованная динамо-машина"
 
 #. ~ Description for enhanced electric dynamo
 #: .\Vehicles\c_vehicle_parts.json
 msgid ""
 "An electric motor improvised to serve as an electric generator, to be "
-"attached to an internal combustion engine.  While it retains much of its "
-"efficiency, it still requires a rather powerful engine to operate."
+"attached to an internal combustion engine.  It requires a rather powerful "
+"engine to operate, at reduced efficieny compared to its normal application "
+"as a motor."
 msgstr ""
 "Электрический двигатель, импровизированный, чтобы служить в качестве "
 "электрического генератора, должен быть присоединен к двигателю внутреннего "
-"сгорания. Хотя он сохраняет большую часть своей эффективности, для его "
-"работы все еще требуется довольно мощный двигатель."
+"сгорания. Для работы требует достаточно мощный двигатель, и имеет меньшую "
+"эффективность, чем если бы он работал в качестве мотора."
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "super electric dynamo"
-msgstr "мощная электрическая динамо-машина"
+msgstr "супер динамо-машина"
 
 #. ~ Description for super electric dynamo
 #: .\Vehicles\c_vehicle_parts.json
 msgid ""
 "An electric motor improvised to serve as an electric generator, to be "
-"attached to an internal combustion engine.  You would need one hell of an "
-"engine to use this as a generator!"
+"attached to an internal combustion engine.  Even being less effective like "
+"this, its power output is immense.  You would need one hell of an engine to "
+"use this as a generator!"
 msgstr ""
 "Электрический двигатель, импровизированный, чтобы служить в качестве "
 "электрического генератора, должен быть присоединен к двигателю внутреннего "
-"сгорания. Вам понадобится чертовски хороший двигатель, чтобы использовать "
-"его в качестве генератора!"
+"сгорания. Хоть и менее эффективен в таком варианте, но всё ещё выдаёт "
+"огромное количество энергии. Вам понадобится чертовски хороший двигатель, "
+"чтобы использовать его в качестве генератора!"
 
 #: .\Vehicles\c_vehicles.json
 msgid "Survivor's Militarized RV"
@@ -9605,9 +9835,9 @@ msgstr ""
 #: .\Weapons\c_ammo.json
 msgid "resin bullet"
 msgid_plural "resin bullets"
-msgstr[0] "Смоляная пуля"
-msgstr[1] "Смоляных пули"
-msgstr[2] "Смоляных пуль"
+msgstr[0] "смоляная пуля"
+msgstr[1] "смоляных пули"
+msgstr[2] "смоляных пуль"
 
 #. ~ Description for {'str': 'resin bullet'}
 #: .\Weapons\c_ammo.json
@@ -9951,91 +10181,6 @@ msgstr[0] "тяжёлая перезаряжаемая плутониевая б
 msgstr[1] "тяжёлых перезаряжаемых плутониевых батарейки"
 msgstr[2] "тяжёлых перезаряжаемых плутониевых батареек"
 
-#: .\Weapons\c_magazines.json
-msgid "fleshwoven pistol magazine"
-msgid_plural "fleshwoven pistol magazines"
-msgstr[0] "пистолетный магазин из плоти"
-msgstr[1] "пистолетных магазина из плоти"
-msgstr[2] "пистолетных магазинов из плоти"
-
-#. ~ Description for {'str': 'fleshwoven pistol magazine'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"A chunk of woven sinew and mutated bone, that feels like it's holding some "
-"sort of liquid.  It was grown for use with the biological pistol."
-msgstr ""
-"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
-"находится какая-то жидкость. Он был выращен для использования с "
-"биологическим пистолетом."
-
-#: .\Weapons\c_magazines.json
-msgid "fleshwoven SMG magazine"
-msgid_plural "fleshwoven SMG magazines"
-msgstr[0] "магазин для ПП из плоти"
-msgstr[1] "магазина для ПП из плоти"
-msgstr[2] "магазинов для ПП из плоти"
-
-#. ~ Description for {'str': 'fleshwoven SMG magazine'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"A chunk of woven sinew and mutated bone, that feels like it's holding some "
-"sort of liquid.  It was grown for use with the biological sub-machinegun."
-msgstr ""
-"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
-"находится какая-то жидкость. Он был выращен для использования с "
-"биологическим пистолетом-пулемётом."
-
-#: .\Weapons\c_magazines.json
-msgid "fleshwoven rifle magazine"
-msgid_plural "fleshwoven rifle magazines"
-msgstr[0] "винтовочный магазин из плоти"
-msgstr[1] "винтовочных магазина из плоти"
-msgstr[2] "винтовочных магазинов из плоти"
-
-#. ~ Description for {'str': 'fleshwoven rifle magazine'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"A chunk of woven sinew and mutated bone, that feels like it's holding some "
-"sort of liquid.  It was grown for use with the biological rifle."
-msgstr ""
-"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
-"находится какая-то жидкость. Он был выращен для использования с "
-"биологической винтовкой."
-
-#: .\Weapons\c_magazines.json
-msgid "fleshwoven LMG magazine"
-msgid_plural "fleshwoven LMG magazines"
-msgstr[0] "пулемётный магазин из плоти"
-msgstr[1] "пулемётных магазина из плоти"
-msgstr[2] "пулемётных магазинов из плоти"
-
-#. ~ Description for {'str': 'fleshwoven LMG magazine'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"A small chunk of woven sinew and mutated bone, that feels like it's holding "
-"some sort of liquid.  It was grown for use with the biological machinegun."
-msgstr ""
-"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
-"находится какая-то жидкость. Он был выращен для использования с "
-"биологическим пулемётом."
-
-#: .\Weapons\c_magazines.json
-msgid "fleshwoven shotgun magazine"
-msgid_plural "fleshwoven shotgun magazines"
-msgstr[0] "магазин для дробовика из плоти"
-msgstr[1] "магазина для дробовика из плоти"
-msgstr[2] "магазинов для дробовика из плоти"
-
-#. ~ Description for {'str': 'fleshwoven shotgun magazine'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"A small chunk of woven sinew and mutated bone, that feels like it's holding "
-"some sort of liquid.  It was grown for use with the biological scattergun."
-msgstr ""
-"Кусок сплетённого сухожилия и мутировавшей кости, в котором, кажется, "
-"находится какая-то жидкость. Он был выращен для использования с "
-"биологическим дробовиком."
-
 #: .\Weapons\c_melee.json
 msgid "repurposed monomolecular knife"
 msgid_plural "repurposed monomolecular knifes"
@@ -10136,9 +10281,9 @@ msgstr ""
 #: .\Weapons\c_melee.json
 msgid "salvaged claw blade"
 msgid_plural "salvaged claw blades"
-msgstr[0] "Восстановленный клинковый коготь"
-msgstr[1] "Восстановленных клинковых когтя"
-msgstr[2] "Восстановленных клинковых когтей"
+msgstr[0] "восстановленный клинковый коготь"
+msgstr[1] "восстановленных клинковых когтя"
+msgstr[2] "восстановленных клинковых когтей"
 
 #. ~ Description for {'str': 'salvaged claw blade'}
 #: .\Weapons\c_melee.json
@@ -10426,16 +10571,14 @@ msgstr[2] "биологических пистолетов"
 msgid ""
 "A pistol made out of fleshy material enclosed by metal.  Whatever it fires "
 "seems to be solid enough to do damage along with immolating victims.  "
-"Activate it to draw your life force into the weapon, weaving a replacement "
-"magazine of flesh and bone.  Wielding it gives you a strange sense of focus, "
-"though the occasional twitch and unnerving sound from this thing leaves you "
-"uneasy.  Hopefully it's not sentient."
+"Wielding it gives you a strange sense of focus, though the occasional twitch "
+"and unnerving sound from this thing leaves you uneasy.  Hopefully it's not "
+"sentient."
 msgstr ""
-"Пистолет из мясистого материала, заключенного в металл. Всё, чем он "
-"стреляет, кажется достаточно твердым, чтобы наносить урон наряду с "
-"обездвиживанием жертв. Активируйте его, чтобы втянуть свою жизненную силу в "
-"оружие, сплетая запасной магазин из плоти и костей. Оружие даёт вам странное "
-"чувство сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
+"Пистолет из мясистого материала, заключенного в металл. То, чем он стреляет, "
+"достаточно плотное, и способно поджигать цели одновременно с нанесением "
+"проникающего урона. Наличие этого оружия в руках даёт вам странное чувство "
+"сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
 "издаваемые этой штукой, не дают вам покоя. Остаётся надеяться, что она не "
 "разумна."
 
@@ -10457,19 +10600,16 @@ msgstr[2] "биологических пистолетов-пулемётов"
 #: .\Weapons\c_ranged.json
 msgid ""
 "A sub-machinegun made out of fleshy material enclosed by metal.  Whatever "
-"the hell it fires seems to have an incendiary effect on targets.  Activate "
-"it to draw your life force into the weapon, weaving a replacement magazine "
-"of flesh and bone.  Wielding it gives you a strange sense of focus, though "
-"the occasional twitch and unnerving sound from this thing leaves you "
-"uneasy.  Hopefully it's not sentient."
+"the hell it fires seems to have an incendiary effect on targets.  Wielding "
+"it gives you a strange sense of focus, though the occasional twitch and "
+"unnerving sound from this thing leaves you uneasy.  Hopefully it's not "
+"sentient."
 msgstr ""
-"Пистолет-пулемёт из мясистого материала, заключенного в металл. Всё, чем он "
-"стреляет, кажется достаточно твердым, чтобы наносить урон наряду с "
-"обездвиживанием жертв. Активируйте его, чтобы втянуть свою жизненную силу в "
-"оружие, сплетая запасной магазин из плоти и костей. Оружие даёт вам странное "
-"чувство сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
-"издаваемые этой штукой, не дают вам покоя. Остаётся надеяться, что она не "
-"разумна."
+"Пистолет-пулемёт из мясистого материала, заключенного в металл. Что за "
+"чёртовы патроны в нём, непонятно, но они способны поджигать цели. Наличие "
+"этого оружия в руках даёт вам странное чувство сосредоточенности, хотя "
+"случайные подергивания и нервирующие звуки, издаваемые этой штукой, не дают "
+"вам покоя. Остаётся надеяться, что она не разумна."
 
 #: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
 msgid "burst"
@@ -10486,16 +10626,14 @@ msgstr[2] "биологических винтовок"
 msgid ""
 "A rifle made out of fleshy material enclosed by metal.  It fires something "
 "seemingly alive, over quite a long range in fact, horribly burning and "
-"stunning whatever it hits.  Activate it to draw your life force into the "
-"weapon, weaving a replacement magazine of flesh and bone.  Wielding it gives "
-"you a strange sense of focus, though the occasional twitch and unnerving "
-"sound from this thing leaves you uneasy.  Hopefully it's not sentient."
+"stunning whatever it hits.  Wielding it gives you a strange sense of focus, "
+"though the occasional twitch and unnerving sound from this thing leaves you "
+"uneasy.  Hopefully it's not sentient."
 msgstr ""
-"Винтовка из мясистого материала, заключенного в металл. Всё, чем он "
-"стреляет, кажется достаточно твердым, чтобы наносить урон наряду с "
-"обездвиживанием жертв. Активируйте его, чтобы втянуть свою жизненную силу в "
-"оружие, сплетая запасной магазин из плоти и костей. Оружие даёт вам странное "
-"чувство сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
+"Винтовка из мясистого материала, заключенного в металл. Стреляет чем-то явно "
+"живым, и на дальние дистанции, нанося страшные ожоги и вызывая эффект "
+"оглушения. Наличие этого оружия в руках даёт вам странное чувство "
+"сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
 "издаваемые этой штукой, не дают вам покоя. Остаётся надеяться, что она не "
 "разумна."
 
@@ -10510,18 +10648,24 @@ msgstr[2] "биологических пулеметов"
 msgid ""
 "A light machinegun made out of fleshy material enclosed by metal.  It fires "
 "unnatural, presumably-living rounds that daze and immolate almost anything "
-"hit by sustained fire.  Activate it to draw your life force into the weapon, "
-"weaving a replacement magazine of flesh and bone.  Wielding it gives you a "
-"strange sense of focus, though the occasional twitch and unnerving sound "
-"from this thing leaves you uneasy.  Hopefully it's not sentient."
+"hit by sustained fire.  Wielding it gives you a strange sense of focus, "
+"though the occasional twitch and unnerving sound from this thing leaves you "
+"uneasy.  Hopefully it's not sentient."
 msgstr ""
-"Лёгкий пулемёт из мясистого материала, заключенного в металл. Всё, чем он "
-"стреляет, кажется достаточно твердым, чтобы наносить урон наряду с "
-"обездвиживанием жертв. Активируйте его, чтобы втянуть свою жизненную силу в "
-"оружие, сплетая запасной магазин из плоти и костей. Оружие даёт вам странное "
-"чувство сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
-"издаваемые этой штукой, не дают вам покоя. Остаётся надеяться, что она не "
-"разумна."
+"Лёгкий пулемёт из мясистого материала, заключенного в металл. Стреляет "
+"необычными и, возможно, живыми патронами, способными обескураживать и "
+"поджигать всех, в кого они попадут. Наличие этого оружия в руках даёт вам "
+"странное чувство сосредоточенности, хотя случайные подергивания и "
+"нервирующие звуки, издаваемые этой штукой, не дают вам покоя. Остаётся "
+"надеяться, что она не разумна."
+
+#: .\Weapons\c_ranged.json
+msgid "low auto"
+msgstr "малая очередь"
+
+#: .\Weapons\c_ranged.json
+msgid "high auto"
+msgstr "мощная очередь"
 
 #: .\Weapons\c_ranged.json
 msgid "biological scattergun"
@@ -10534,27 +10678,16 @@ msgstr[2] "биологических фаршевателей"
 msgid ""
 "An automatic shotgun made out of fleshy material enclosed by metal.  It's "
 "hard to tell what this thing even fires, but it appears to have a powerful "
-"stunning and incendiary effect on targets.  Activate it to draw your life "
-"force into the weapon, weaving a replacement magazine of flesh and bone.  "
-"Wielding it gives you a strange sense of focus, though the occasional twitch "
-"and unnerving sound from this thing leaves you uneasy.  Hopefully it's not "
-"sentient."
+"stunning and incendiary effect on targets.  Wielding it gives you a strange "
+"sense of focus, though the occasional twitch and unnerving sound from this "
+"thing leaves you uneasy.  Hopefully it's not sentient."
 msgstr ""
-"Автоматический дробовик из мясистого материала, заключенного в металл. Всё, "
-"чем он стреляет, кажется достаточно твердым, чтобы наносить урон наряду с "
-"обездвиживанием жертв. Активируйте его, чтобы втянуть свою жизненную силу в "
-"оружие, сплетая запасной магазин из плоти и костей. Оружие даёт вам странное "
-"чувство сосредоточенности, хотя случайные подергивания и нервирующие звуки, "
-"издаваемые этой штукой, не дают вам покоя. Остаётся надеяться, что она не "
-"разумна."
-
-#: .\Weapons\c_ranged.json
-msgid "one shot"
-msgstr "один выстрел"
-
-#: .\Weapons\c_ranged.json
-msgid "two-round burst"
-msgstr "очередь в 2 патрона"
+"Автоматический дробовик из мясистого материала, заключенного в металл. "
+"Трудно сказать, чем конкретно он стреляет, но похоже, эти снаряды способны с "
+"лёгкостью оглушать и даже поджигать цели. Наличие этого оружия в руках даёт "
+"вам странное чувство сосредоточенности, хотя случайные подергивания и "
+"нервирующие звуки, издаваемые этой штукой, не дают вам покоя. Остаётся "
+"надеяться, что она не разумна."
 
 #: .\Weapons\c_ranged.json
 msgid "survivor's pneumatic LMG"
@@ -10603,16 +10736,13 @@ msgstr[2] "динамо-винтовок выживальщика"
 msgid ""
 "Further building on the developments that went into the UPS rifle, this "
 "integrates a hand crank and capacitors to charge a custom-made power cell.  "
-"Infinite ammo, at the cost of performance and reliability.  Use it to deploy "
-"the crank charger."
+"Infinite ammo at the cost of reliability.  Use it to deploy the crank "
+"charger."
 msgstr ""
 "Основываясь на разработках, которые вошли в винтовку УБП, в неё была "
 "интегрированна специальная рукоятка, соединённая с устройством схожим с "
-"динамо-машиной. С помощью него можно накапливать заряд, механически "
-"прокручивая рукоятку. Интегрированные в винтовку конденсаторы способны "
-"накапливать заряд, для дальнейшего использования. Это, по сути, бесконечные "
-"боеприпасы. Разве что придётся заплатить мощностью и надежностью. "
-"Используйте её для развертывания зарядного устройства."
+"динамо-машиной. Бесконечные патроны ценой надёжности. Используйте для "
+"развертывания зарядного устройства."
 
 #: .\Weapons\c_ranged.json
 msgid "survivor's battery pistol"
@@ -11117,14 +11247,6 @@ msgstr ""
 "быть достаточным в краткосрочной перспективе."
 
 #: .\Weapons\c_ranged.json
-msgid "low auto"
-msgstr "малая очередь"
-
-#: .\Weapons\c_ranged.json
-msgid "high auto"
-msgstr "мощная очередь"
-
-#: .\Weapons\c_ranged.json
 msgid "KRX-108E1 laser LMG"
 msgid_plural "KRX-108E1 laser LMGs"
 msgstr[0] "KRX-108E1 лазерный пулемёт"
@@ -11222,10 +11344,6 @@ msgstr ""
 "указан как Omnitech Labs. Питается от атомных энергоэлементов или "
 "экспериментальной перезаряжаемой версии, для тяжелого использования, где ИБП "
 "не может быть достаточным в краткосрочной перспективе."
-
-#: .\Weapons\c_ranged.json
-msgid "double-barrel"
-msgstr "двойной выстрел"
 
 #: .\Weapons\c_ranged.json
 msgid "XARM-37E1 pulse scattergun"
@@ -11379,9 +11497,64 @@ msgstr ""
 #: .\Weapons\c_ranged_override.json
 msgid "repeating crossbow"
 msgid_plural "repeating crossbows"
-msgstr[0] "самоперезаряжающийся арбалет"
-msgstr[1] "самоперезаряжающихся арбалета"
-msgstr[2] "самоперезаряжающихся арбалетов"
+msgstr[0] "самозарядный арбалет"
+msgstr[1] "самозарядных арбалета"
+msgstr[2] "самозарядных арбалетов"
+
+#~ msgid ""
+#~ "An incredibly heavy suit of steel plates covering a network of "
+#~ "hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged "
+#~ "to assist the wearer's movements.  It's cumbersome but provides "
+#~ "considerable protection aside from gaps in the joints and vision slits, "
+#~ "and the servos offer quite a bit of power when active."
+#~ msgstr ""
+#~ "Невероятно тяжелый костюм из стальных пластин, покрытый сетью гидравлики, "
+#~ "приводимый в движение частями урезанного дизельного двигателя, чтобы "
+#~ "помочь владельцу двигаться. Она громоздка, но обеспечивает значительную "
+#~ "защиту, если не считать щелей в суставах и смотровых щелей, а "
+#~ "сервоприводы в активном состоянии обеспечивают довольно большую силу."
+
+#~ msgid ""
+#~ "An electric motor improvised to serve as an electric generator, to be "
+#~ "attached to an internal combustion engine.  Its small size has a negative "
+#~ "impact on its efficiency."
+#~ msgstr ""
+#~ "Электрический двигатель, импровизированный, чтобы служить в качестве "
+#~ "электрического генератора, должен быть присоединен к двигателю "
+#~ "внутреннего сгорания. Его небольшие размеры отрицательно сказываются на "
+#~ "его эффективности."
+
+#~ msgid ""
+#~ "An electric motor improvised to serve as an electric generator, to be "
+#~ "attached to an internal combustion engine.  While relatively energy-"
+#~ "intensive, it makes about as efficient a dynamo as it does a motor."
+#~ msgstr ""
+#~ "Электрический двигатель, импровизированный, чтобы служить в качестве "
+#~ "электрического генератора, должен быть присоединен к двигателю "
+#~ "внутреннего сгорания. Несмотря на относительную энергоемкость, динамо-"
+#~ "машина становится такой же эффективной, как и сам двигатель."
+
+#~ msgid "large electric generator"
+#~ msgstr "большой электрический генератор"
+
+#~ msgid ""
+#~ "An electric motor improvised to serve as an electric generator, to be "
+#~ "attached to an internal combustion engine.  While it retains much of its "
+#~ "efficiency, it still requires a rather powerful engine to operate."
+#~ msgstr ""
+#~ "Электрический двигатель, импровизированный, чтобы служить в качестве "
+#~ "электрического генератора, должен быть присоединен к двигателю "
+#~ "внутреннего сгорания. Хотя он сохраняет большую часть своей "
+#~ "эффективности, для его работы все еще требуется довольно мощный двигатель."
+
+#~ msgid "one shot"
+#~ msgstr "один выстрел"
+
+#~ msgid "two-round burst"
+#~ msgstr "очередь в 2 патрона"
+
+#~ msgid "double-barrel"
+#~ msgstr "двойной выстрел"
 
 #~ msgid "I'll think about it."
 #~ msgstr "Я подумаю над этим."
@@ -12057,8 +12230,8 @@ msgstr[2] "самоперезаряжающихся арбалетов"
 #~ "достаточными уступками эргономике, чтобы хорошо лежать в руке. Он "
 #~ "питается от компактных атомных батарей, что обеспечивает "
 #~ "энергоэффективность и длительное использование в ущерб огневой мощи и "
-#~ "дальности стрельбы.  Маркировка указывает на производителя \"Omnitech Labs"
-#~ "\"."
+#~ "дальности стрельбы.  Маркировка указывает на производителя \"Omnitech "
+#~ "Labs\"."
 
 #~ msgid ""
 #~ "Based on the design of the NEO-33, the AKRO-388 balances energy "
