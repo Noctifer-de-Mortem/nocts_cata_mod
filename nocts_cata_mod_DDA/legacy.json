@@ -1041,5 +1041,30 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "Obsolete CBM" },
     "description": "This is a now-unneeded holdover from back when Atomic Battery had to work around code bugs and would only generate power when turned off instead of when turned on."
+  },
+  {
+    "id": "hydrogen_convertor",
+    "type": "GUNMOD",
+    "name": { "str": "obsolete gunmod" },
+    "description": "This item has been dummied out from the DDA version of Cata++, as pocket data has been set in such a way that ammo conversion gunmods no longer work as well as they used to, requiring overrides for any relevent weapon to prevent errors from occurring (and maybe compatibility with other mods that add more plasma weapons impossible without added patchmods).",
+    "weight": "380 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "1000 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "emitter",
+    "mod_targets": [ "pistol", "rifle", "launcher" ],
+    "install_time": "30 m",
+    "min_skills": [ [ "weapon", 3 ], [ "electronics", 2 ] ],
+    "acceptable_ammo": [ "plasma" ],
+    "ammo_modifier": [ "c_hydrogen" ]
+  },
+  {
+    "result": "hydrogen_convertor",
+    "type": "recipe",
+    "obsolete": true
   }
 ]

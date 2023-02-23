@@ -759,12 +759,6 @@
   },
   {
     "type": "item_group",
-    "id": "gunmod_energy",
-    "copy-from": "gunmod_energy",
-    "extend": { "items": [ [ "hydrogen_convertor", 40 ] ] }
-  },
-  {
-    "type": "item_group",
     "id": "bunker_basement_drugs",
     "copy-from": "bunker_basement_drugs",
     "extend": { "items": [ { "item": "iv_mutagen_super_soldier", "prob": 10 } ] }
