@@ -38,6 +38,12 @@
     "see_cost": 5
   },
   {
+    "id": "Survivor_Encampment_2_roof",
+    "copy-from": "Survivor_Encampment_2",
+    "type": "overmap_terrain",
+    "name": "Survivor Encampment roof"
+  },
+  {
     "id": "Bio_Weapon_Lab_1",
     "type": "overmap_terrain",
     "name": "parking lot",
