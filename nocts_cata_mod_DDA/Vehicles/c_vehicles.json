@@ -26,10 +26,10 @@
       { "x": -1, "y": 4, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
 
       { "x": -2, "y": -1, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
-      { "x": -2, "y": 0, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
+      { "x": -2, "y": 0, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "aisle_lights", "hdroof" ] },
       { "x": -2, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
       { "x": -2, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 3, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
+      { "x": -2, "y": 3, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "aisle_lights", "hdroof" ] },
       { "x": -2, "y": 4, "parts": [ "hdframe_vertical", "door_opaque", "plating_hard", "door_motor" ] },
 
       { "x": -3, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_hard" ] },
@@ -48,7 +48,7 @@
 
       { "x": -5, "y": -1, "parts": [ "hdframe_vertical", "omnicam", "hdboard_vertical", "plating_hard" ] },
       { "x": -5, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "surv_station_t", "tank" ] },
-      { "x": -5, "y": 1, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
+      { "x": -5, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "aisle_lights", "hdroof" ] },
       { "x": -5, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
       { "x": -5, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "seat_wood" ] },
       { "x": -5, "y": 4, "parts": [ "hdframe_vertical", "omnicam", "reinforced_windshield", "v_curtain", "plating_hard" ] },
@@ -82,7 +82,7 @@
       { "x": -9, "y": 4, "parts": [ "hdframe_se", "wheel_mount_heavy", "wheel_armor", "hdboard_se", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] }
     ],
     "items": [
-      { "x": -9, "y": 0, "chance": 50, "items": [ "folding_bicycle" ] },
+      { "x": -9, "y": 0, "chance": 50, "items": [ "folded_bicycle" ] },
       { "x": -9, "y": 1, "chance": 99, "items": [ "jack" ] },
       { "x": -9, "y": 2, "chance": 70, "items": [ "wheel_armor" ] },
       { "x": -9, "y": 3, "chance": 99, "items": [ "jerrycan_big" ] },
