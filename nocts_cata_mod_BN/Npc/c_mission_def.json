@@ -5,10 +5,17 @@
     "name": "Investigate Bio-Weapon Lab",
     "description": "Explore a Bio-Weapon Lab that suffered a recent security breach.  Either find whoever accessed the location and speak with them, or retrieve the RFID access badge that was used and bring it back to Router.",
     "goal": "MGOAL_CONDITION",
-    "goal_condition": { "or": [ { "u_has_item": "badge_bio_weapon_evy" }, { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" } ] },
+    "goal_condition": {
+      "or": [
+        { "u_has_item": "badge_bio_weapon_evy" },
+        { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" }
+      ]
+    },
     "difficulty": 6,
     "value": 60000,
-    "start": { "assign_mission_target": { "om_terrain": "Bio_Weapon_Lab_2", "om_special": "Bio_Weapon_Lab_s", "reveal_radius": 3, "z": 0 } },
+    "start": {
+      "assign_mission_target": { "om_terrain": "Bio_Weapon_Lab_2", "om_special": "Bio_Weapon_Lab_s", "reveal_radius": 3, "z": 0 }
+    },
     "end": { "effect": { "u_add_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" } },
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -75,6 +82,7 @@
         "z": 0
       }
     },
+    "end": { "effect": { "u_add_effect": "c_evy_assisted" } },
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  I think I have a lead on where they are, but I would appreciate a helping hand.  I had someone with me, but he got caught outside when company showed up.",

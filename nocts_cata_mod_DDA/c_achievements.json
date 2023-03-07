@@ -1,0 +1,110 @@
+[
+  {
+    "id": "achievement_c_npc_evelynn",
+    "type": "achievement",
+    "name": { "str": "<color_light_green>(Cataclysm++)</color> Paper Trail" },
+    "description": "Assist Evelynn Rose in tracking down the researchers fleeing a mysterious threat.",
+    "//": "Achievement is fully hidden until you reveal it.",
+    "hidden_by": [ "achievement_c_npc_evelynn" ],
+    "requirements": [ { "event_statistic": "num_avatar_c_npc_evelynn", "is": ">=", "target": 1, "visible": "never" } ]
+  },
+  {
+    "id": "num_avatar_c_npc_evelynn",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_c_npc_evelynn"
+  },
+  {
+    "id": "avatar_c_npc_evelynn",
+    "type": "event_transformation",
+    "event_type": "character_gains_effect",
+    "value_constraints": { "effect": { "equals": [ "efftype_id", "c_evy_assisted" ] } },
+    "drop_fields": [ "effect" ]
+  },
+  {
+    "id": "achievement_c_npc_evelynn_2",
+    "type": "achievement",
+    "name": { "str": "<color_light_green>(Cataclysm++)</color> Secret Hunter" },
+    "description": "Talk Evelynn Rose into revealing she's more than a mere hacker.",
+    "//": "Achievement is fully hidden until you reveal it.",
+    "hidden_by": [ "achievement_c_npc_evelynn_2" ],
+    "requirements": [ { "event_statistic": "num_avatar_c_npc_evelynn_2", "is": ">=", "target": 1, "visible": "never" } ]
+  },
+  {
+    "id": "num_avatar_c_npc_evelynn_2",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_c_npc_evelynn_2"
+  },
+  {
+    "id": "avatar_c_npc_evelynn_2",
+    "type": "event_transformation",
+    "event_type": "character_gains_effect",
+    "value_constraints": { "effect": { "equals": [ "efftype_id", "evy_ousted" ] } },
+    "drop_fields": [ "effect" ]
+  },
+  {
+    "id": "achievement_c_npc_router",
+    "type": "achievement",
+    "name": { "str": "<color_light_green>(Cataclysm++)</color> Unforeseen Consequences" },
+    "description": "Take on a dangerous mission from Router, in pursuit of a fearsome bionic mutant.",
+    "//": "Achievement is fully hidden until you reveal it.",
+    "hidden_by": [ "achievement_c_npc_router" ],
+    "requirements": [ { "event_statistic": "num_avatar_c_npc_router", "is": ">=", "target": 1, "visible": "never" } ]
+  },
+  {
+    "id": "num_avatar_c_npc_router",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_c_npc_router"
+  },
+  {
+    "id": "avatar_c_npc_router",
+    "type": "event_transformation",
+    "event_type": "character_gains_effect",
+    "value_constraints": { "effect": { "equals": [ "efftype_id", "router_mission" ] } },
+    "drop_fields": [ "effect" ]
+  },
+  {
+    "id": "achievement_c_monkill_apophis",
+    "type": "achievement",
+    "name": { "str": "<color_light_green>(Cataclysm++)</color> Sunrise" },
+    "description": "Slay Bio-Weapon Apophis.",
+    "hidden_by": [ "achievement_c_npc_router" ],
+    "requirements": [ { "event_statistic": "num_avatar_c_monkill_apophis", "is": ">=", "target": 1, "visible": "never" } ]
+  },
+  {
+    "id": "num_avatar_c_monkill_apophis",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_c_monkill_apophis"
+  },
+  {
+    "id": "avatar_c_monkill_apophis",
+    "type": "event_transformation",
+    "event_type": "character_kills_monster",
+    "value_constraints": { "victim_type": { "equals": [ "mtype_id", "hulk_weapon" ] } },
+    "drop_fields": [ "victim_type" ]
+  },
+  {
+    "id": "achievement_c_mutation_super_soldier",
+    "type": "achievement",
+    "name": { "str": "<color_light_green>(Cataclysm++)</color> Defender" },
+    "description": "Sworn to avenge, you have become more than human.",
+    "hidden_by": [ "achievement_c_mutation_super_soldier" ],
+    "requirements": [ { "event_statistic": "num_avatar_c_mutation_super_soldier", "is": ">=", "target": 1, "visible": "never" } ]
+  },
+  {
+    "id": "num_avatar_c_mutation_super_soldier",
+    "type": "event_statistic",
+    "stat_type": "count",
+    "event_transformation": "avatar_c_mutation_super_soldier"
+  },
+  {
+    "id": "avatar_c_mutation_super_soldier",
+    "type": "event_transformation",
+    "event_type": "crosses_mutation_threshold",
+    "value_constraints": { "category": { "equals": [ "mutation_category_id", "SUPER_SOLDIER" ] } },
+    "drop_fields": [ "category" ]
+  }
+]

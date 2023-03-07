@@ -21,6 +21,24 @@
   {
     "type": "vehicle_part",
     "copy-from": "turret",
+    "id": "unbio_chain_lightning_t",
+    "name": "chain lightning rifle",
+    "looks_like": "laser_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "unbio_chain_lightning",
+    "folded_volume": 14,
+    "breaks_into": [ { "item": "unbio_chain_lightning", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
     "id": "sur_pnu_lmg_t",
     "name": "mounted pneumatic LMG",
     "looks_like": "mounted_bigun",
@@ -32,6 +50,24 @@
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_battery_rifle_t",
+    "name": "mounted survivor's battery rifle",
+    "looks_like": "laser_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "surv_battery_rifle",
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "surv_battery_rifle", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
   },
   {
     "type": "GENERIC",
@@ -199,6 +235,19 @@
   {
     "type": "vehicle_part",
     "copy-from": "turret",
+    "id": "surv_full_50_t",
+    "name": "mounted survivor's .50 automatic AMR",
+    "looks_like": "mounted_browning",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_50",
+    "breaks_into": [ { "item": "surv_full_50", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
     "id": "laser_arc_carbine_t",
     "looks_like": "laser_rifle",
     "name": "mounted ARC-314 laser rifle",
@@ -295,6 +344,38 @@
   {
     "type": "vehicle_part",
     "copy-from": "turret",
+    "id": "xarm_laser_shotgun_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted XARM-37 pulse scattergun",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "xarm_laser_shotgun",
+    "breaks_into": [ { "item": "xarm_laser_shotgun", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "xarm_laser_shotgun_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted XARM-37E1 pulse scattergun (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "xarm_laser_shotgun_ups",
+    "breaks_into": [ { "item": "xarm_laser_shotgun_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
     "id": "br_bolt_rifle_elec_t",
     "looks_like": "mounted_coilgun",
     "name": "mounted BR-96 bolt rifle",
@@ -323,6 +404,19 @@
       "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 5 ] ] }
     }
+  },
+  {
+    "id": "flamethrower_surv_t",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted survivor's flamethrower" },
+    "item": "flamethrower_surv",
+    "default_ammo": "diesel",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "breaks_into": [ { "item": "scrap", "count": 3 }, { "item": "steel_chunk", "count": 1 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+    "extend": { "flags": [ "USE_TANKS" ] }
   },
   {
     "id": "generator_electric_tiny",
