@@ -1066,5 +1066,100 @@
     "result": "hydrogen_convertor",
     "type": "recipe",
     "obsolete": true
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "ups_rifle_t",
+    "to": "turret_ups_rifle"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "sur_pnu_lmg_t",
+    "to": "turret_sur_pnu_lmg"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_full_223_t",
+    "to": "turret_surv_full_223"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_full_308_t",
+    "to": "turret_surv_full_308"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_full_762_t",
+    "to": "turret_surv_full_762"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_full_762R_t",
+    "to": "turret_surv_full_762R"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_full_12_t",
+    "to": "turret_surv_full_12"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_lmg_308_t",
+    "to": "turret_surv_lmg_308"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_lmg_223_t",
+    "to": "turret_surv_lmg_223"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_lmg_762_t",
+    "to": "turret_surv_lmg_762"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "surv_lmg_762R_t",
+    "to": "turret_surv_lmg_762R"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_arc_carbine_t",
+    "to": "turret_arc_laser_rifle"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_arc_carbine_t_ups",
+    "to": "turret_arc_laser_rifle_ups"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_lmg_t",
+    "to": "turret_krx_laser_lmg"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_lmg_t_ups",
+    "to": "turret_krx_laser_lmg_ups"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_mx_sniper_t",
+    "to": "turret_mx_laser_sniper"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "laser_mx_sniper_t_ups",
+    "to": "turret_mx_laser_sniper_ups"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "br_bolt_rifle_elec_t",
+    "to": "turret_br_bolt_rifle_elec"
+  },
+  {
+    "type": "vehicle_part_migration",
+    "from": "mk_ionic_cannon_t",
+    "to": "turret_mk_ionic_cannon"
   }
 ]

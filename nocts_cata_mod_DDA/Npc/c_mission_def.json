@@ -75,6 +75,7 @@
         "z": 0
       }
     },
+    "end": { "effect": { "u_add_effect": "c_evy_assisted", "duration": "PERMANENT" } },
     "dialogue": {
       "describe": "If you see this, it's a bug!",
       "offer": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon project.  I think I have a lead on where they are, but I would appreciate a helping hand.  I had someone with me, but he got caught outside when company showed up.",

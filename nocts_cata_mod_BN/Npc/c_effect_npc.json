@@ -1,6 +1,12 @@
 [
   {
     "type": "effect_type",
+    "id": "c_evy_assisted",
+    "//": "Effect for players, used for achievement tracking.  Intended to be permanent.",
+    "permanent": true
+  },
+  {
+    "type": "effect_type",
     "id": "evy_ousted",
     "//": "Used to specifiy that a specific player has convinced Evelynn Rose to admit personal information.  Intended to be permanent.",
     "permanent": true

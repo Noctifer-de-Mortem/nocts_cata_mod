@@ -12,10 +12,10 @@
       { "x": 1, "y": 4, "parts": [ "hdframe_ne", "reinforced_windshield", "omnicam", "plating_hard" ] },
 
       { "x": 0, "y": -1, "parts": [ "hdframe_vertical", "wheel_mount_heavy_steerable", "wheel_armor", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
-      { "x": 0, "y": 0, "parts": [ "hdframe_vertical_2", "turret_mount", "ups_rifle_t", "hdroof", "seat", "seatbelt_heavyduty", "cam_control", "controls", "dashboard", "vehicle_clock", "vehicle_alarm", "stereo" ] },
+      { "x": 0, "y": 0, "parts": [ "hdframe_vertical_2", "turret_mount", "turret_ups_rifle", "hdroof", "seat", "seatbelt_heavyduty", "cam_control", "controls", "dashboard", "vehicle_clock", "vehicle_alarm", "stereo" ] },
       { "x": 0, "y": 1, "parts": [ "hdframe_vertical_2", "tracker", "inboard_mirror", "horn_big", "trunk_floor", "hdroof" ] },
       { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "tracker", "trunk_floor", "hdroof" ] },
-      { "x": 0, "y": 3, "parts": [ "hdframe_vertical_2", "turret_mount", "ups_rifle_t", "hdroof", "seat", "seatbelt_heavyduty" ] },
+      { "x": 0, "y": 3, "parts": [ "hdframe_vertical_2", "turret_mount", "turret_ups_rifle", "hdroof", "seat", "seatbelt_heavyduty" ] },
       { "x": 0, "y": 4, "parts": [ "hdframe_vertical", "wheel_mount_heavy_steerable", "wheel_armor", "hddoor", "inboard_mirror", "plating_hard", "door_motor" ] },
 
       { "x": -1, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
@@ -75,10 +75,10 @@
       { "x": -8, "y": 4, "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ] },
 
       { "x": -9, "y": -1, "parts": [ "hdframe_sw", "wheel_mount_heavy", "wheel_armor", "hdboard_sw", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] },
-      { "x": -9, "y": 0, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ] },
+      { "x": -9, "y": 0, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "turret_ups_rifle", "bike_rack", "muffler", "plating_hard" ] },
       { "x": -9, "y": 1, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ] },
       { "x": -9, "y": 2, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ] },
-      { "x": -9, "y": 3, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ] },
+      { "x": -9, "y": 3, "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "turret_ups_rifle", "bike_rack", "muffler", "plating_hard" ] },
       { "x": -9, "y": 4, "parts": [ "hdframe_se", "wheel_mount_heavy", "wheel_armor", "hdboard_se", "omnicam", "storage_battery_mount", "storage_battery_removable", "plating_hard" ] }
     ],
     "items": [
@@ -174,7 +174,7 @@
     ],
     "parts": [
       { "x": -2, "y": -1, "parts": [ "frame_wood_cross", "wheel_mount_wood", "wheel_wood_b", "wooden_aisle_vertical" ] },
-      { "x": -2, "y": 0, "parts": [ "frame_wood_cross", "seat_wood", "turret_mount", { "ammo_types": [ "reloaded_762_54R" ], "part": "surv_lmg_762R_t", "ammo": 60, "ammo_qty": [ 5, 75 ] } ] },
+      { "x": -2, "y": 0, "parts": [ "frame_wood_cross", "seat_wood", "turret_mount", { "ammo_types": [ "reloaded_762_54R" ], "part": "turret_surv_lmg_762R", "ammo": 60, "ammo_qty": [ 5, 75 ] } ] },
       { "x": -2, "y": 1, "parts": [ "frame_wood_cross", "wheel_mount_wood", "wheel_wood_b", "wooden_aisle_vertical" ] },
       { "x": -1, "y": 0, "parts": [ "frame_wood_cross", "wood box" ] },
       { "x": 0, "y": 0, "parts": [ "frame_wood_cross", "seat_wood", "reins_tackle" ] },
