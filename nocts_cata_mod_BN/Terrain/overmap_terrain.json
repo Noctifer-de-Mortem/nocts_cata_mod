@@ -30,6 +30,16 @@
     "extras": "surv_encamp"
   },
   {
+    "id": "Survivor_Encampment_robotics",
+    "copy-from": "Survivor_Encampment",
+    "type": "overmap_terrain"
+  },
+  {
+    "id": "Survivor_Encampment_overrun",
+    "copy-from": "Survivor_Encampment",
+    "type": "overmap_terrain"
+  },
+  {
     "id": "Survivor_Encampment_2",
     "type": "overmap_terrain",
     "name": "Survivor Encampment",
@@ -38,10 +48,35 @@
     "see_cost": 5
   },
   {
-    "id": "Survivor_Encampment_2_roof",
+    "id": "Survivor_Encampment_bandits",
+    "copy-from": "Survivor_Encampment_2",
+    "type": "overmap_terrain"
+  },
+  {
+    "id": "Survivor_Encampment_roof",
     "copy-from": "Survivor_Encampment_2",
     "type": "overmap_terrain",
     "name": "Survivor Encampment roof"
+  },
+  {
+    "id": "Survivor_Encampment_robotics_roof",
+    "copy-from": "Survivor_Encampment_roof",
+    "type": "overmap_terrain"
+  },
+  {
+    "id": "Survivor_Encampment_bandits_roof",
+    "copy-from": "Survivor_Encampment_roof",
+    "type": "overmap_terrain"
+  },
+  {
+    "id": "Survivor_Encampment_overrun_roof",
+    "copy-from": "Survivor_Encampment_roof",
+    "type": "overmap_terrain"
+  },
+  {
+    "id": "Survivor_Encampment_2_roof",
+    "copy-from": "Survivor_Encampment_roof",
+    "type": "overmap_terrain"
   },
   {
     "id": "Bio_Weapon_Lab_1",
