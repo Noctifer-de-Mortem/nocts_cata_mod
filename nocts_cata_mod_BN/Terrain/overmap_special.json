@@ -23,12 +23,54 @@
   {
     "type": "overmap_special",
     "id": "Survivor_Encampment",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_north" } ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_roof_north" }
+    ],
     "locations": [ "wilderness" ],
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
-    "occurrences": [ 0, 5 ],
-    "flags": [ "CLASSIC" ]
+    "occurrences": [ 25, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Survivor_Encampment_robotics",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_robotics_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_robotics_roof_north" }
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 25, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Survivor_Encampment_overrun",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_overrun_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_overrun_roof_north" }
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 25, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Survivor_Encampment_bandits",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_bandits_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_bandits_roof_north" }
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 10, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 50, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE" ]
   },
   {
     "type": "overmap_special",

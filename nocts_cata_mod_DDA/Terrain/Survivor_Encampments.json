@@ -122,7 +122,43 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "Survivor_Encampment" ],
+    "om_terrain": [ "Survivor_Encampment_roof" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "  .....                 ",
+        "  .....                 ",
+        "  .....                 ",
+        "  ......         ,,,,,  ",
+        "  ......         ,,,,,  ",
+        "  .=....         ,,,,,  ",
+        "  ......         ,,,,,  ",
+        "  ......         ,,,,,  ",
+        "                        ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "  ....................  ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { ",": "t_thatch_roof" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Encampment_robotics" ],
     "//": "Variant two, house and equipment sheds.  These are infested with renegade robots.",
     "weight": 1000,
     "object": {
@@ -222,8 +258,7 @@
         "n": "f_cupboard",
         "o": "f_oven",
         "s": "f_sink",
-        "t": "f_toilet",
-        "v": "f_woodstove"
+        "t": "f_toilet"
       },
       "set": [ { "point": "trap", "id": "tr_rollmat", "x": 12, "y": 13 }, { "point": "trap", "id": "tr_rollmat", "x": 12, "y": 17 } ],
       "place_toilets": [ { "x": 6, "y": 20 } ],
@@ -285,7 +320,43 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "Survivor_Encampment" ],
+    "om_terrain": [ "Survivor_Encampment_robotics_roof" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "  ........    ,,,,,,,,  ",
+        "  ........    ,,,,,,,,  ",
+        "  ........    ,,,,,,,,  ",
+        "  ........    ,,,,,,,,  ",
+        "  ........    ,,,,,,,,  ",
+        "  ........    ,,,,,,,,  ",
+        "  ........              ",
+        "  ........       ,,,,   ",
+        "  ........      ,,,,,,  ",
+        "  ........      ,,,,,,  ",
+        "  ........      ,,,,,,  ",
+        "  ........      ,,,,,,  ",
+        "  ........       ,,,,   ",
+        "  ........              ",
+        "  ........     ,,,,,,,  ",
+        "  ........     ,,,,,,,  ",
+        "  ........     ,,,,,,,  ",
+        "  ........     ,,,,,,,  ",
+        "  ........     ,,,,,,,  ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { ",": "t_metal_flat_roof" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Encampment_bandits" ],
     "//": "Variant three, hostile NPCs.  Slightly closer to the traditional encampment layout.",
     "weight": 1000,
     "object": {
@@ -415,7 +486,42 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "Survivor_Encampment" ],
+    "om_terrain": [ "Survivor_Encampment_bandits_roof" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "  .......               ",
+        "  .......      .......  ",
+        "  .......      ...=...  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......               ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......      .....=.  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......               ",
+        "               .......  ",
+        "               .......  ",
+        "               .......  ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Encampment_overrun" ],
     "//": "Variant four, zombie takeover.  Incomplete version based off the original design, implies they were struggling with an outbreak while still under construction.",
     "weight": 1000,
     "object": {
@@ -541,8 +647,43 @@
   {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ "Survivor_Encampment_overrun_roof" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "  .......      .......  ",
+        "  .......      ...=...  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "                        ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "  .......      .....=.  ",
+        "  .......      .......  ",
+        "  .......      .......  ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [ "Survivor_Encampment_2" ],
-    "//": "Prepper NPCs variant.  This version will remain rooted in a separate overmap special, to keep their spawns unique.",
+    "//": "Prepper NPCs variant.",
     "weight": 1000,
     "object": {
       "faction_owner": [ { "id": "preppers", "x": [ 2, 22 ], "y": [ 3, 22 ] } ],
