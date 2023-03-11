@@ -522,7 +522,7 @@
     "copy-from": "vehicle_alternator",
     "type": "vehicle_part",
     "name": "enhanced electric dynamo",
-    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It requires a rather powerful engine to operate, at reduced efficieny compared to its normal application as a motor.",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It requires a rather powerful engine to operate, at reduced efficiency compared to its normal application as a motor.",
     "item": "motor_enhanced",
     "durability": 200,
     "power": -282000,
