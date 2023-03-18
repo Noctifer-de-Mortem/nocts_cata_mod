@@ -1,0 +1,248 @@
+[
+  {
+    "id": "dissect_CBM_FAILED_BIO",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_failed_bio",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_FAILED_BIO_ZOMBIE",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_APOPHIS",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionic_power_storage_mil",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_apophis_off",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_apophis_def",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_apophis_util",
+        "type": "bionic_group",
+        "flags": [ "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_SOLDAT_ZOMBIE_GENERIC",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage_sentinel",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_soldat_zombie_generic",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_SOLDAT_ZOMBIE",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage_sentinel",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_soldat_zombie",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_SOLDAT_KNIGHT_ZOMBIE",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage_sentinel",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_soldat_knight_zombie",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_SOLDAT_SNIPER_ZOMBIE",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage_sentinel",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_soldat_sniper_zombie",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_CBM_SOLDAT_TOOL_ZOMBIE",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage_sentinel",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      },
+      {
+        "drop": "bionics_soldat_tool_zombie",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ]
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_worker",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_worker",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_slaver",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_slaver",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_surgeon",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_surgeon",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_guard",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_guard",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_myrmidon",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_myrmidon",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  },
+  {
+    "id": "dissect_c_mi_go_multi_scout",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "c_mi_go_advanced_dissection_scout",
+        "type": "bionic_group",
+        "max": 1
+      }
+    ]
+  }
+]
