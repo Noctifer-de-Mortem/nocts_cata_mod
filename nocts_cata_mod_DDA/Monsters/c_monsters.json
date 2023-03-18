@@ -33,6 +33,7 @@
     "regeneration_modifiers": [ [ "onfire", -2 ] ],
     "regen_morale": true,
     "harvest": "CBM_FAILED_BIO_ZOMBIE",
+    "dissect": "CBM_FAILED_BIO_ZOMBIE",
     "special_attacks": [ [ "SHOCKSTORM", 10 ], [ "PARROT", 50 ], { "type": "bite", "cooldown": 5 } ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
@@ -91,6 +92,7 @@
     "regeneration_modifiers": [ [ "onfire", -3 ] ],
     "regen_morale": true,
     "harvest": "CBM_FAILED_BIO",
+    "dissect": "CBM_FAILED_BIO",
     "special_attacks": [ [ "SHOCKSTORM", 15 ], [ "PARROT", 80 ] ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
@@ -135,6 +137,7 @@
     "regeneration_modifiers": [ [ "onfire", -5 ] ],
     "starting_ammo": { "generic_no_ammo": 1000 },
     "harvest": "CBM_APOPHIS",
+    "dissect": "CBM_APOPHIS",
     "special_attacks": [
       [ "SHOCKSTORM", 15 ],
       [ "TAZER", 15 ],
@@ -211,6 +214,7 @@
     "vision_night": 3,
     "luminance": 5,
     "harvest": "CBM_FAILED_BIO",
+    "dissect": "CBM_FAILED_BIO",
     "regenerates": 4,
     "regeneration_modifiers": [ [ "onfire", -2 ] ],
     "regen_morale": true,
@@ -269,6 +273,7 @@
     "regeneration_modifiers": [ [ "onfire", -1 ], [ "corroding", -1 ] ],
     "regen_morale": true,
     "harvest": "CBM_SOLDAT_ZOMBIE_GENERIC",
+    "dissect": "CBM_SOLDAT_ZOMBIE_GENERIC",
     "special_attacks": [ [ "GRAB", 10 ] ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
@@ -313,6 +318,7 @@
     "regeneration_modifiers": [ [ "onfire", -1 ], [ "corroding", -1 ] ],
     "regen_morale": true,
     "harvest": "CBM_SOLDAT_ZOMBIE_GENERIC",
+    "dissect": "CBM_SOLDAT_ZOMBIE_GENERIC",
     "special_attacks": [ [ "GRAB", 10 ] ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
@@ -380,6 +386,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 100 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
+    "dissect": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -450,6 +457,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 100 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
+    "dissect": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -519,6 +527,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 200 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
+    "dissect": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -587,6 +596,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 5 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
+    "dissect": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -657,6 +667,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_SNIPER_ZOMBIE",
+    "dissect": "CBM_SOLDAT_SNIPER_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -728,6 +739,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 25 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
+    "dissect": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -797,6 +809,7 @@
     "regen_morale": true,
     "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
+    "dissect": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
         "type": "gun",
@@ -865,6 +878,7 @@
     "regeneration_modifiers": [ [ "onfire", -1 ], [ "corroding", -1 ] ],
     "regen_morale": true,
     "harvest": "CBM_SOLDAT_ZOMBIE_GENERIC",
+    "dissect": "CBM_SOLDAT_ZOMBIE_GENERIC",
     "special_attacks": [
       { "type": "leap", "cooldown": 10, "max_range": 5 },
       [ "GRAB", 5 ],
