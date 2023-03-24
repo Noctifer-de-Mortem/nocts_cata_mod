@@ -595,7 +595,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "fish_bait": 1 } } ],
     "charges_per_use": 1,
     "ammo": [ "fish_bait" ],
-    "qualities": [ [ "FISHING_ROD", 1 ] ],
+    "flags": [ "FISH_POOR" ],
+    "use_action": "FISH_ROD",
     "to_hit": -1
   },
   {
