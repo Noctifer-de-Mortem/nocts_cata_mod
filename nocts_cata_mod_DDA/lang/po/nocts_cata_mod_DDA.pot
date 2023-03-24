@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: None\n"
-"POT-Creation-Date: 2023-02-04 19:27+0800\n"
-"PO-Revision-Date: 2023-02-04 19:27+0800\n"
+"POT-Creation-Date: 2023-03-24 19:49+0800\n"
+"PO-Revision-Date: 2023-03-24 19:49+0800\n"
 "Last-Translator: None\n"
 "Language-Team: None\n"
 "Language: en\n"
@@ -10,6 +10,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. ~ Name of achievement
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Paper Trail"
+msgstr ""
+
+#. ~ Description of achievement "<color_light_green>(Cataclysm++)</color> Paper Trail"
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "Assist Evelynn Rose in tracking down the researchers fleeing a mysterious threat."
+msgstr ""
+
+#. ~ Name of achievement
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Secret Hunter"
+msgstr ""
+
+#. ~ Description of achievement "<color_light_green>(Cataclysm++)</color> Secret Hunter"
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "Talk Evelynn Rose into revealing she's more than a mere hacker."
+msgstr ""
+
+#. ~ Name of achievement
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Unforeseen Consequences"
+msgstr ""
+
+#. ~ Description of achievement "<color_light_green>(Cataclysm++)</color> Unforeseen Consequences"
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "Take on a dangerous mission from Router, in pursuit of a fearsome bionic mutant."
+msgstr ""
+
+#. ~ Name of achievement
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Sunrise"
+msgstr ""
+
+#. ~ Description of achievement "<color_light_green>(Cataclysm++)</color> Sunrise"
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "Slay Bio-Weapon Apophis."
+msgstr ""
+
+#. ~ Name of achievement
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Defender"
+msgstr ""
+
+#. ~ Description of achievement "<color_light_green>(Cataclysm++)</color> Defender"
+#: mods\nocts_cata_mod_DDA\c_achievements.json
+msgid "Sworn to avenge, you have become more than human."
+msgstr ""
 
 #. ~ Monster name
 #: mods\nocts_cata_mod_DDA\legacy.json
@@ -541,12 +591,140 @@ msgstr[1] ""
 msgid "A small chunk of woven sinew and mutated bone, that feels like it's holding some sort of liquid.  It was grown for use with the biological scattergun."
 msgstr ""
 
-#. ~ MOD name
-#: mods\nocts_cata_mod_DDA\modinfo.json
-msgid "Cataclysm++"
+#. ~ pseudo item, used as fuel type for atomic battery CBM
+#. ~ Item name
+#. ~ Name of material
+#: mods\nocts_cata_mod_DDA\Surv_help\c_materials.json mods\nocts_cata_mod_DDA\legacy.json
+msgid "Alphavoltaic Power"
+msgid_plural "none"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ pseudo item, used as fuel type for atomic battery CBM
+#. ~ Description of "Alphavoltaic Power"
+#: mods\nocts_cata_mod_DDA\legacy.json
+msgid "seeing this is a bug"
 msgstr ""
 
-#. ~ Description of MOD "Cataclysm++"
+#. ~ Name of a bionic
+#. ~ Item name
+#: mods\nocts_cata_mod_DDA\legacy.json
+msgid "Obsolete CBM"
+msgid_plural "Obsolete CBMs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of bionic "Obsolete CBM"
+#. ~ Description of "Obsolete CBM"
+#: mods\nocts_cata_mod_DDA\legacy.json
+msgid "This is a now-unneeded holdover from back when Atomic Battery had to work around code bugs and would only generate power when turned off instead of when turned on."
+msgstr ""
+
+#. ~ Gun mod name
+#: mods\nocts_cata_mod_DDA\legacy.json
+msgid "obsolete gunmod"
+msgid_plural "obsolete gunmods"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun mod "obsolete gunmod"
+#: mods\nocts_cata_mod_DDA\legacy.json
+msgid "This item has been dummied out from the DDA version of Cata++, as pocket data has been set in such a way that ammo conversion gunmods no longer work as well as they used to, requiring overrides for any relevent weapon to prevent errors from occurring (and maybe compatibility with other mods that add more plasma weapons impossible without added patchmods)."
+msgstr ""
+
+#. ~ Location of gun mod "obsolete gunmod"
+#. ~ Valid mod location of gun "NEO-33 laser pistol"
+#. ~ Valid mod location of gun "NEO-33E1 laser pistol"
+#. ~ Valid mod location of gun "AKRO-388 laser SMG"
+#. ~ Valid mod location of gun "AKRO-388E1 laser SMG"
+#. ~ Valid mod location of gun "ARC-314 laser rifle"
+#. ~ Valid mod location of gun "ARC-314E1 laser rifle"
+#. ~ Valid mod location of gun "KRX-108 laser LMG"
+#. ~ Valid mod location of gun "KRX-108E1 laser LMG"
+#. ~ Valid mod location of gun "MX-84 laser sniper"
+#. ~ Valid mod location of gun "MX-84E1 laser sniper"
+#. ~ Valid mod location of gun "XARM-37 pulse scattergun"
+#. ~ Valid mod location of gun "XARM-37E1 pulse scattergun"
+#. ~ Valid mod location of gun "handheld laser cannon"
+#: mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\Weapons\c_ranged_override.json mods\nocts_cata_mod_DDA\legacy.json
+msgid "emitter"
+msgstr ""
+
+#. ~ Target of gun mod "obsolete gunmod"
+#. ~ Target of gun mod "survivor's laser sight"
+#. ~ Skill associated with gun "bio laser pistol"
+#. ~ Skill associated with gun "biological pistol"
+#. ~ Skill associated with gun "survivor's battery pistol"
+#. ~ Skill associated with gun "NEO-33 laser pistol"
+#. ~ Skill associated with gun "NEO-33E1 laser pistol"
+#. ~ Skill associated with gun "salvaged stun emitter"
+#. ~ Skill associated with gun "PX12 plasma pistol"
+#: mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\legacy.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
+
+#. ~ Target of gun mod "obsolete gunmod"
+#. ~ Skill associated with gun "monster laser gatling"
+#. ~ Skill associated with gun "laser gatling arm"
+#. ~ Skill associated with gun "dual-hand flamethrower"
+#. ~ Target of gun mod "survivor's auxiliary flamethrower"
+#. ~ Target of gun mod "survivor's auxiliary .22 pistol"
+#. ~ Target of gun mod "survivor's auxiliary 9mm pistol"
+#. ~ Target of gun mod "survivor's auxiliary .45 pistol"
+#. ~ Target of gun mod "survivor's laser sight"
+#. ~ Target of gun mod "makeshift LMG recoil handle"
+#. ~ Skill associated with gun "chain lightning rifle"
+#. ~ Skill associated with gun "biological rifle"
+#. ~ Skill associated with gun "biological machinegun"
+#. ~ Skill associated with gun "survivor's pneumatic LMG"
+#. ~ Skill associated with gun "survivor's UPS rifle"
+#. ~ Skill associated with gun "survivor's crank rifle"
+#. ~ Skill associated with gun "survivor's battery rifle"
+#. ~ Skill associated with gun "survivor's .223 assault rifle"
+#. ~ Skill associated with gun "survivor's .308 battle rifle"
+#. ~ Skill associated with gun "survivor's 7.62x39 assault rifle"
+#. ~ Skill associated with gun "survivor's 7.62x54 battle rifle"
+#. ~ Skill associated with gun "survivor's .308 GPMG"
+#. ~ Skill associated with gun "survivor's 7.62x39 LMG"
+#. ~ Skill associated with gun "survivor's .223 LMG"
+#. ~ Skill associated with gun "survivor's 7.62x54 GPMG"
+#. ~ Skill associated with gun "survivor's .50 automatic AMR"
+#. ~ Skill associated with gun "survivor's flintlock sniper"
+#. ~ Skill associated with gun "ARC-314 laser rifle"
+#. ~ Skill associated with gun "ARC-314E1 laser rifle"
+#. ~ Skill associated with gun "KRX-108 laser LMG"
+#. ~ Skill associated with gun "KRX-108E1 laser LMG"
+#. ~ Skill associated with gun "MX-84 laser sniper"
+#. ~ Skill associated with gun "MX-84E1 laser sniper"
+#. ~ Skill associated with gun "BR-96 bolt rifle"
+#. ~ Skill associated with gun "salvaged resin rifle"
+#. ~ Skill associated with gun "repeating crossbow"
+#. ~ Skill associated with gun "handheld laser cannon"
+#: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\Weapons\c_ranged_override.json mods\nocts_cata_mod_DDA\legacy.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#. ~ Target of gun mod "obsolete gunmod"
+#. ~ Skill associated with gun "zombie super soldier sniper"
+#. ~ Target of gun mod "survivor's auxiliary flamethrower"
+#. ~ Target of gun mod "survivor's auxiliary .22 pistol"
+#. ~ Target of gun mod "survivor's auxiliary 9mm pistol"
+#. ~ Target of gun mod "survivor's auxiliary .45 pistol"
+#. ~ Target of gun mod "survivor's laser sight"
+#. ~ Skill associated with gun "MK-2 ionic cannon"
+#: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\legacy.json
+msgctxt "gun_type_type"
+msgid "launcher"
+msgstr ""
+
+#. ~ MOD name
+#: mods\nocts_cata_mod_DDA\modinfo.json
+msgid "<color_light_green>Cataclysm++</color>"
+msgstr ""
+
+#. ~ Description of MOD "<color_light_green>Cataclysm++</color>"
 #: mods\nocts_cata_mod_DDA\modinfo.json
 msgid "The unofficial expansion mod for Cataclysm: Dark Days Ahead.\n\nThe gigantic jabberwock of a mod that adds a lot of content to the game: new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.\n\nThe Bio-Weapon, Super Soldier, Commandeers, Slave Fighters and the Old World Prepper NPC factions join the world.\n\nSeek the Bio-weapons, find loot, take down new monsters and invest in skills for new craftable items."
 msgstr ""
@@ -1538,19 +1716,6 @@ msgstr ""
 msgid "Version of the MK-2 for use by monsters, to account for increased accuracy of ranged attacks.  Copies from MX-84 instead because for some wacky reason the MK2 itself doesn't work right in the hands of monsters.  Unlike the others, overriding the damage type doesn't matter because it you take a direct heat, being lit on fire from heat damagetype is the least of your worries.  This is a bug if you find one of these!"
 msgstr ""
 
-#. ~ Skill associated with gun "zombie super soldier sniper"
-#. ~ Target of gun mod "survivor's auxiliary flamethrower"
-#. ~ Target of gun mod "survivor's auxiliary .22 pistol"
-#. ~ Target of gun mod "survivor's auxiliary 9mm pistol"
-#. ~ Target of gun mod "survivor's auxiliary .45 pistol"
-#. ~ Target of gun mod "survivor's laser sight"
-#. ~ Target of gun mod "hydrogen density converter"
-#. ~ Skill associated with gun "MK-2 ionic cannon"
-#: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json
-msgctxt "gun_type_type"
-msgid "launcher"
-msgstr ""
-
 #. ~ Name of a gun
 #: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json
 msgid "monster laser gatling"
@@ -1575,48 +1740,6 @@ msgstr ""
 #. ~ Firing mode of gun "PX12 plasma pistol"
 #: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json
 msgid "auto"
-msgstr ""
-
-#. ~ Skill associated with gun "monster laser gatling"
-#. ~ Skill associated with gun "laser gatling arm"
-#. ~ Skill associated with gun "dual-hand flamethrower"
-#. ~ Target of gun mod "survivor's auxiliary flamethrower"
-#. ~ Target of gun mod "survivor's auxiliary .22 pistol"
-#. ~ Target of gun mod "survivor's auxiliary 9mm pistol"
-#. ~ Target of gun mod "survivor's auxiliary .45 pistol"
-#. ~ Target of gun mod "survivor's laser sight"
-#. ~ Target of gun mod "makeshift LMG recoil handle"
-#. ~ Target of gun mod "hydrogen density converter"
-#. ~ Skill associated with gun "chain lightning rifle"
-#. ~ Skill associated with gun "biological rifle"
-#. ~ Skill associated with gun "biological machinegun"
-#. ~ Skill associated with gun "survivor's pneumatic LMG"
-#. ~ Skill associated with gun "survivor's UPS rifle"
-#. ~ Skill associated with gun "survivor's crank rifle"
-#. ~ Skill associated with gun "survivor's battery rifle"
-#. ~ Skill associated with gun "survivor's .223 assault rifle"
-#. ~ Skill associated with gun "survivor's .308 battle rifle"
-#. ~ Skill associated with gun "survivor's 7.62x39 assault rifle"
-#. ~ Skill associated with gun "survivor's 7.62x54 battle rifle"
-#. ~ Skill associated with gun "survivor's .308 GPMG"
-#. ~ Skill associated with gun "survivor's 7.62x39 LMG"
-#. ~ Skill associated with gun "survivor's .223 LMG"
-#. ~ Skill associated with gun "survivor's 7.62x54 GPMG"
-#. ~ Skill associated with gun "survivor's .50 automatic AMR"
-#. ~ Skill associated with gun "survivor's flintlock sniper"
-#. ~ Skill associated with gun "ARC-314 laser rifle"
-#. ~ Skill associated with gun "ARC-314E1 laser rifle"
-#. ~ Skill associated with gun "KRX-108 laser LMG"
-#. ~ Skill associated with gun "KRX-108E1 laser LMG"
-#. ~ Skill associated with gun "MX-84 laser sniper"
-#. ~ Skill associated with gun "MX-84E1 laser sniper"
-#. ~ Skill associated with gun "BR-96 bolt rifle"
-#. ~ Skill associated with gun "salvaged resin rifle"
-#. ~ Skill associated with gun "repeating crossbow"
-#. ~ Skill associated with gun "handheld laser cannon"
-#: mods\nocts_cata_mod_DDA\Monsters\c_ranged_monster.json mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\Weapons\c_ranged_override.json
-msgctxt "gun_type_type"
-msgid "rifle"
 msgstr ""
 
 #. ~ Speech from speaker mon_zombie_failed_weapon
@@ -4482,7 +4605,7 @@ msgstr[1] ""
 
 #. ~ Description of "designer bra"
 #: mods\nocts_cata_mod_DDA\Surv_help\c_armor.json
-msgid "A luxurious designer bra.  Serves its purpose and looks good on you."
+msgid "A luxurious designer bra.  Serves its purpose and feels good on you."
 msgstr ""
 
 #. ~ Item name
@@ -4494,7 +4617,7 @@ msgstr[1] ""
 
 #. ~ Description of "designer panties"
 #: mods\nocts_cata_mod_DDA\Surv_help\c_armor.json
-msgid "A luxurious set of designer panties. Preserves your modesty and looks good on you."
+msgid "A luxurious set of designer panties. Preserves your modesty and feels good on you."
 msgstr ""
 
 #. ~ Item name
@@ -4506,7 +4629,7 @@ msgstr[1] ""
 
 #. ~ Description of "designer briefs"
 #: mods\nocts_cata_mod_DDA\Surv_help\c_armor.json
-msgid "A pair of designer briefs.  Comfortable and good looking underwear worn by men."
+msgid "A pair of designer briefs.  Comfortable and fashionable underwear worn by men."
 msgstr ""
 
 #. ~ Item name
@@ -4915,21 +5038,6 @@ msgstr[1] ""
 msgid "This implant provides an experimental military hydrogen cell, able to produce large spikes of power for intense usage.  Its network of pressurized storage has two chambers, one can hold 500 ml of hydrogen gas, the other 5 rounds of denser hydrogen canisters used in plasma weaponry.  The label advises not to use it in confined spaces, and to keep moving if used during a military operation, due to hazardous levels of waste heat."
 msgstr ""
 
-#. ~ pseudo item, used as fuel type for atomic battery CBM
-#. ~ Item name
-#. ~ Name of material
-#: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json mods\nocts_cata_mod_DDA\Surv_help\c_materials.json
-msgid "Alphavoltaic Power"
-msgid_plural "none"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ pseudo item, used as fuel type for atomic battery CBM
-#. ~ Description of "Alphavoltaic Power"
-#: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "seeing this is a bug"
-msgstr ""
-
 #. ~ Name of a bionic
 #: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
 msgid "Atomic Battery"
@@ -4937,21 +5045,7 @@ msgstr ""
 
 #. ~ Description of bionic "Atomic Battery"
 #: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method.  It will produce power continuously unless interrupted by the integral disconnect switch."
-msgstr ""
-
-#. ~ Name of a bionic
-#. ~ Never actually exists, only needed by bionic code for unknown reason to avoid load error.
-#. ~ Item name
-#: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "Atomic Battery Interrupter"
-msgid_plural "Atomic Battery Interrupters"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of bionic "Atomic Battery Interrupter"
-#: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "An integrated safety mechanism allowing one to shut down power production at will.  Works via angling plutonium catalysts to manipulate how much alpha decay hits the advanced nanocompounds that produce power.  Turn it on to halt power production, in the unlikely event that it becomes necessary."
+msgid "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method."
 msgstr ""
 
 #. ~ Item name
@@ -4963,13 +5057,7 @@ msgstr[1] ""
 
 #. ~ Description of "Atomic Battery CBM"
 #: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it is continuous unless deliberately interrupted by the provided disconnect system, making it a good supplement to a more intensive power generation method."
-msgstr ""
-
-#. ~ Never actually exists, only needed by bionic code for unknown reason to avoid load error.
-#. ~ Description of "Atomic Battery Interrupter"
-#: mods\nocts_cata_mod_DDA\Surv_help\c_bionics.json
-msgid "A system of power control and safety mechanisms normally built into an Atomic Battery system.  Removing it is almost certainly a bad idea."
+msgid "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it also provides a continuous source of power, making it a good supplement to a more intensive power generation method."
 msgstr ""
 
 #. ~ Item name
@@ -6987,6 +7075,11 @@ msgstr ""
 
 #. ~ Overmap terrain name
 #: mods\nocts_cata_mod_DDA\Terrain\overmap_terrain.json
+msgid "Survivor Encampment roof"
+msgstr ""
+
+#. ~ Overmap terrain name
+#: mods\nocts_cata_mod_DDA\Terrain\overmap_terrain.json
 msgid "parking lot"
 msgstr ""
 
@@ -7055,16 +7148,6 @@ msgstr ""
 msgid "Autoclave Station"
 msgstr ""
 
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted UPS rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted pneumatic LMG"
-msgstr ""
-
 #. ~ Actual item
 #. ~ Item name
 #: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
@@ -7087,91 +7170,6 @@ msgstr ""
 #. ~ Description of vehicle part "survivor's station unit"
 #: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
 msgid "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Combines the functionality of a vehicle kitchen unit, forge, welder, chemistry set, and all of the myriad functions of the FOODCO kitchen buddy.  As a consequence, it leaves no space left for storage."
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's .223 assault rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's .308 battle rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's 7.62x39 assault rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's 7.62x54 battle rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's full-auto shotgun"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's .308 GPMG"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's .223 LMG"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's 7.62x39 LMG"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted survivor's 7.62x54 GPMG"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted ARC-314 laser rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted ARC-314 laser rifle (UPS)"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted KRX-108 laser LMG"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted KRX-108 laser LMG (UPS)"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted MX-84 laser sniper"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted MX-84 laser sniper (UPS)"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted BR-96 bolt rifle"
-msgstr ""
-
-#. ~ Vehicle part name
-#: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "mounted MK-2 Ionic Cannon"
 msgstr ""
 
 #. ~ Vehicle part name
@@ -7213,7 +7211,7 @@ msgstr ""
 
 #. ~ Description of vehicle part "enhanced electric dynamo"
 #: mods\nocts_cata_mod_DDA\Vehicles\c_vehicle_parts.json
-msgid "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It requires a rather powerful engine to operate, at reduced efficieny compared to its normal application as a motor."
+msgid "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It requires a rather powerful engine to operate, at reduced efficiency compared to its normal application as a motor."
 msgstr ""
 
 #. ~ Vehicle part name
@@ -7769,20 +7767,6 @@ msgid "sights"
 msgstr ""
 
 #. ~ Target of gun mod "survivor's laser sight"
-#. ~ Target of gun mod "hydrogen density converter"
-#. ~ Skill associated with gun "bio laser pistol"
-#. ~ Skill associated with gun "biological pistol"
-#. ~ Skill associated with gun "survivor's battery pistol"
-#. ~ Skill associated with gun "NEO-33 laser pistol"
-#. ~ Skill associated with gun "NEO-33E1 laser pistol"
-#. ~ Skill associated with gun "salvaged stun emitter"
-#. ~ Skill associated with gun "PX12 plasma pistol"
-#: mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json
-msgctxt "gun_type_type"
-msgid "pistol"
-msgstr ""
-
-#. ~ Target of gun mod "survivor's laser sight"
 #: mods\nocts_cata_mod_DDA\Weapons\c_mods.json
 msgctxt "gun_type_type"
 msgid "bow"
@@ -7840,36 +7824,6 @@ msgstr ""
 #. ~ Valid mod location of gun "survivor's flintlock sniper"
 #: mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json
 msgid "muzzle"
-msgstr ""
-
-#. ~ Gun mod name
-#: mods\nocts_cata_mod_DDA\Weapons\c_mods.json
-msgid "hydrogen density converter"
-msgid_plural "hydrogen density converters"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of gun mod "hydrogen density converter"
-#: mods\nocts_cata_mod_DDA\Weapons\c_mods.json
-msgid "An ad-hoc conversion kit designed by Omnitech for experimental plasma weaponry.  Its purpose is to reconfigure the emitter to function with much lower compression rates, allowing it to use commercial-grade hydrogen instead of now-irreplaceable compressed hydrogen canisters.  This will give the weapon reduced power, range, and accuracy."
-msgstr ""
-
-#. ~ Location of gun mod "hydrogen density converter"
-#. ~ Valid mod location of gun "NEO-33 laser pistol"
-#. ~ Valid mod location of gun "NEO-33E1 laser pistol"
-#. ~ Valid mod location of gun "AKRO-388 laser SMG"
-#. ~ Valid mod location of gun "AKRO-388E1 laser SMG"
-#. ~ Valid mod location of gun "ARC-314 laser rifle"
-#. ~ Valid mod location of gun "ARC-314E1 laser rifle"
-#. ~ Valid mod location of gun "KRX-108 laser LMG"
-#. ~ Valid mod location of gun "KRX-108E1 laser LMG"
-#. ~ Valid mod location of gun "MX-84 laser sniper"
-#. ~ Valid mod location of gun "MX-84E1 laser sniper"
-#. ~ Valid mod location of gun "XARM-37 pulse scattergun"
-#. ~ Valid mod location of gun "XARM-37E1 pulse scattergun"
-#. ~ Valid mod location of gun "handheld laser cannon"
-#: mods\nocts_cata_mod_DDA\Weapons\c_mods.json mods\nocts_cata_mod_DDA\Weapons\c_ranged.json mods\nocts_cata_mod_DDA\Weapons\c_ranged_override.json
-msgid "emitter"
 msgstr ""
 
 #. ~ Name of a gun
@@ -8813,4 +8767,3 @@ msgstr[1] ""
 #: mods\nocts_cata_mod_DDA\Weapons\c_ranged_override.json
 msgid "This is a laser cannon stripped from the barrel of a TX-5LR Cerberus laser turret that has been modified to use UPS power for firing."
 msgstr ""
-
