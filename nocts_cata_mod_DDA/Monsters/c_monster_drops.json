@@ -133,13 +133,7 @@
           {
             "collection": [
               { "item": "arc_laser_rifle_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 20
           }
@@ -183,13 +177,7 @@
           {
             "collection": [
               { "item": "xarm_laser_shotgun_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 20
           }
@@ -234,20 +222,14 @@
           {
             "collection": [
               { "item": "mx_laser_sniper_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 25
           }
         ]
       },
       { "item": "e_tool", "damage": [ 0, 3 ], "prob": 50 },
-      { "item": "mre_beef_box", "damage": [ 0, 3 ], "prob": 75 },
+      { "group": "mre_full_pack", "damage": [ 0, 3 ], "prob": 75 },
       { "item": "large_tent_kit", "damage": [ 0, 3 ], "prob": 25 },
       { "item": "rollmat", "damage": [ 0, 3 ], "prob": 50 }
     ]
@@ -289,13 +271,7 @@
           {
             "collection": [
               { "item": "krx_laser_lmg_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 5
           }
@@ -324,13 +300,7 @@
       },
       { "item": "mk_ionic_cannon", "damage": [ 0, 3 ], "charges": [ 0, 1 ] },
       { "item": "plasma", "damage": [ 0, 1 ], "charges": [ 1, 2 ], "prob": 50 },
-      {
-        "distribution": [
-          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-        ],
-        "prob": 10
-      }
+      { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
     ]
   },
   {
@@ -360,12 +330,7 @@
                 "distribution": [
                   { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
                   { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  {
-                    "item": "light_minus_atomic_battery_cell",
-                    "damage": [ 0, 1 ],
-                    "charges": [ 0, 500 ],
-                    "prob": 25
-                  }
+                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
                 ],
                 "prob": 25
               }
@@ -375,13 +340,7 @@
           {
             "collection": [
               { "item": "neo_laser_pistol_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 50
           }
@@ -422,12 +381,7 @@
                 "distribution": [
                   { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
                   { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  {
-                    "item": "light_minus_atomic_battery_cell",
-                    "damage": [ 0, 1 ],
-                    "charges": [ 0, 500 ],
-                    "prob": 25
-                  }
+                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
                 ],
                 "prob": 25
               }
@@ -437,13 +391,7 @@
           {
             "collection": [
               { "item": "akro_laser_smg_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
+              { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 }
             ],
             "prob": 50
           }
@@ -550,7 +498,7 @@
                 "prob": 20
               },
               { "item": "e_tool", "damage": [ 0, 3 ], "prob": 50 },
-              { "item": "mre_beef_box", "damage": [ 0, 3 ], "prob": 75 },
+              { "group": "mre_full_pack", "damage": [ 0, 3 ], "prob": 75 },
               { "item": "large_tent_kit", "damage": [ 0, 3 ], "prob": 25 },
               { "item": "rollmat", "damage": [ 0, 3 ], "prob": 50 }
             ],

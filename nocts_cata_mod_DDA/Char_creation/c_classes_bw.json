@@ -402,7 +402,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
-      "bio_railgun",
+      "bio_pitch_perfect",
       "bio_remote",
       "bio_resonator",
       "bio_cutting_torch",
@@ -523,7 +523,6 @@
           "dump_pouch",
           "2lcanteen",
           "e_tool",
-          "mre_beef_box",
           "militarymap",
           "tent_kit",
           "rollmat"
@@ -746,7 +745,7 @@
     "CBMs": [
       "bio_razors",
       "bio_magnet",
-      "bio_railgun",
+      "bio_pitch_perfect",
       "bio_shock",
       "bio_flamethrower",
       "bio_targeting",
