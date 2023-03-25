@@ -82,16 +82,6 @@
     ]
   },
   {
-    "name": "GROUP_NECROPOLIS_VAULT2",
-    "type": "monstergroup",
-    "override": false,
-    "auto_total": true,
-    "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 1, "cost_multiplier": 25, "starts": 168 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 1, "cost_multiplier": 30, "starts": 168 }
-    ]
-  },
-  {
     "name": "GROUP_MAYBE_MIL",
     "type": "monstergroup",
     "override": false,

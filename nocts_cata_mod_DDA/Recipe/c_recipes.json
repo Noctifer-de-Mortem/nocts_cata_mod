@@ -66,7 +66,7 @@
     "components": [
       [ [ "gasoline", 1 ] ],
       [ [ "slime_scrap", 1 ] ],
-      [ [ "bleach", 1 ], [ "oxy_powder", 100 ], [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "bleach", 1 ], [ "oxy_powder", 100 ], [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
   {
@@ -114,7 +114,9 @@
       [ [ "aluminum_foil", 1 ] ],
       [ [ "ref_lighter", 1 ] ],
       [ [ "string_6", 20 ] ],
-      [ [ "1st_aid", 1 ] ],
+      [ [ "aspirin", 10 ] ],
+      [ [ "disinfectant", 10 ] ],
+      [ [ "bandages", 6 ] ],
       [ [ "pur_tablets", 1 ] ],
       [ [ "wild_herbs", 1 ] ],
       [ [ "caff_gum", 1 ] ],
@@ -1468,7 +1470,7 @@
     "charges": 1,
     "using": [ [ "bullet_forming", 20 ], [ "ammo_bullet", 15 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "gunpowder", 5 ], [ "chem_black_powder", 8 ], [ "chem_match_head_powder", 8 ] ], [ [ "paper", 1 ] ] ]
+    "components": [ [ [ "gunpowder", 5 ], [ "chem_black_powder", 8 ] ], [ [ "paper", 1 ] ] ]
   },
   {
     "result": "unbio_bladed_weapon",
@@ -1677,7 +1679,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
       [ [ "power_supply", 2 ] ],
@@ -1705,7 +1707,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
       [ [ "power_supply", 2 ] ],
@@ -1733,7 +1735,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
       [ [ "power_supply", 2 ] ],
@@ -1761,7 +1763,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
       [ [ "power_supply", 2 ] ],
@@ -1785,7 +1787,7 @@
     "tools": [ [ [ "flesh_weapon_kit", -1 ] ], [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "meat_tainted", 25 ], [ "slime_scrap", 5 ] ],
       [ [ "flesh_knife", 1 ], [ "c_mi_go_claw_salvaged", 1 ] ]
@@ -1912,7 +1914,7 @@
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
       [ [ "duct_tape", 300 ] ],
-      [ [ "kevlar", 1 ], [ "swat_armor", 1 ], [ "sheet_kevlar_layered", 24 ] ]
+      [ [ "kevlar", 1 ], [ "sheet_kevlar_layered", 24 ] ]
     ]
   },
   {
@@ -2074,7 +2076,7 @@
       [ [ "human_tallow", 2 ], [ "human_flesh", 3 ], [ "bone_human", 3 ] ],
       [ [ "royal_jelly", 4 ], [ "purifier", 1 ] ],
       [ [ "bleach", 3 ], [ "oxy_powder", 300 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
   },
@@ -2098,7 +2100,7 @@
       [ [ "tallow", 2 ], [ "meat", 3 ], [ "bone", 3 ] ],
       [ [ "veggy", 3 ], [ "biollante_bud", 1 ], [ "datura_seed", 16 ] ],
       [ [ "bleach", 3 ], [ "oxy_powder", 300 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
   },
@@ -2122,7 +2124,7 @@
       [ [ "egg_reptile", 1 ] ],
       [ [ "eggs_bird", 1, "LIST" ] ],
       [ [ "meat", 6 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
   },
@@ -2145,7 +2147,7 @@
       [ [ "blood", 1 ] ],
       [ [ "egg_reptile", 2 ] ],
       [ [ "eggs_bird", 2, "LIST" ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia_hydroxide", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
   },
@@ -2398,7 +2400,7 @@
       { "id": "DRILL", "level": 2 }
     ],
     "tools": [ [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ], [ [ "9mm_casing", -1 ] ] ],
-    "components": [ [ [ "glock_19", 1 ], [ "glock_17", 1 ], [ "m9", 1 ], [ "90two", 1 ], [ "usp_9mm", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+    "components": [ [ [ "glock_19", 1 ], [ "glock_17", 1 ], [ "m9", 1 ], [ "usp_9mm", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -2788,7 +2790,7 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
     "components": [
-      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ], [ "chem_match_head_powder", 6 ] ],
+      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ] ],
       [ [ "smpistol_primer", 1 ] ],
       [ [ "paper", 1 ], [ "aluminum_foil", 1 ] ]
     ]
@@ -2811,7 +2813,7 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
     "components": [
-      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ], [ "chem_match_head_powder", 6 ] ],
+      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ] ],
       [ [ "lgpistol_primer", 1 ] ],
       [ [ "paper", 1 ], [ "aluminum_foil", 1 ] ]
     ]
@@ -2832,7 +2834,7 @@
     "proficiencies": [ { "proficiency": "prof_millinery" }, { "proficiency": "prof_leatherworking_basic" } ],
     "components": [
       [ [ "cowboy_hat", 1 ], [ "hat_boonie", 1 ], [ "straw_hat", 1 ] ],
-      [ [ "kevlar_plate", 3 ] ],
+      [ [ "sheet_kevlar_layered", 6 ] ],
       [ [ "rag", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 40 ] ]
