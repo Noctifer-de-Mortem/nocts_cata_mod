@@ -19,7 +19,7 @@
     "ammo": [ "battery" ],
     "charges_per_use": 1,
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -48,7 +48,7 @@
     "to_hit": 2,
     "ammo": [ "battery" ],
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "turns_per_charge": 15,
     "revert_to": "solar_flashlight",
     "use_action": {
@@ -79,7 +79,7 @@
     "ammo": [ "battery" ],
     "charges_per_use": 1,
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
       "msg": "You turn the flashlight on.",
@@ -117,7 +117,7 @@
     "to_hit": 2,
     "ammo": [ "battery" ],
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "turns_per_charge": 15,
     "revert_to": "wear_solar_flashlight",
     "use_action": {
@@ -155,7 +155,7 @@
     "ammo": [ "battery" ],
     "charges_per_use": 5,
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": { "type": "firestarter" }
   },
   {
@@ -740,7 +740,7 @@
     "charges_per_use": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
     "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 250 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 250 } } ],
     "flags": [ "BELTED", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_UNLOAD", "NO_RELOAD" ],
     "phase": "solid",
     "sided": true,
@@ -1182,7 +1182,7 @@
     "volume": "250 ml",
     "ammo": [ "battery" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "battery": 100 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "charges_per_use": 25,
     "use_action": [
       { "type": "cast_spell", "spell_id": "c_resin_create", "no_fail": true, "level": 0 },
