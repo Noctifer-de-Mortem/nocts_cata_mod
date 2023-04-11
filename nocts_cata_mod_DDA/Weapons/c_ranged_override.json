@@ -9,7 +9,7 @@
   },
   {
     "id": "laser_cannon",
-    "//": "Preserved here becuase DDA removed it and Cata++ makes some use of it.",
+    "//": "Preserved here because DDA removed it and Cata++ makes some use of it.",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 10,
@@ -30,7 +30,7 @@
     "dispersion": 90,
     "durability": 7,
     "loudness": 8,
-    "ups_charges": 25,
+    "energy_drain": "25 kJ",
     "reload": 200,
     "valid_mod_locations": [
       [ "emitter", 1 ],
@@ -43,6 +43,6 @@
       [ "underbarrel mount", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS" ]
   }
 ]
