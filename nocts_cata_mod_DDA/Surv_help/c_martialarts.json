@@ -27,11 +27,11 @@
       {
         "id": "buff_surv_com_onmove",
         "name": "Elusiveness",
-        "description": "Quick and fluid movements make you harder to catch, and better able to roll with the punches.\n\n+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, bash damage taken reduced by 25% of Intelligence, immunity to knockdown.\nLasts 3 turns, stacks 2 times.",
+        "description": "Quick and fluid movements make you harder to catch, and better able to roll with the punches.\n\n+1 Dodge attempts, Dodge skill increased by 25% of Intelligence, bash damage taken reduced by 25% of Intelligence, quicker recovery from knockdowns.\nLasts 3 turns, stacks 2 times.",
         "skill_requirements": [ { "name": "melee", "level": 4 } ],
         "unarmed_allowed": true,
         "melee_allowed": true,
-        "throw_immune": true,
+        "flags": [ "DOWNED_RECOVERY" ],
         "buff_duration": 3,
         "max_stacks": 3,
         "bonus_dodges": 1,

@@ -3,7 +3,6 @@
     "name": "GROUP_ZOMBIE_MID",
     "type": "monstergroup",
     "//": "This is obsolete in standard Cataclysm but used in PK's Rebalancing for some things.",
-    "override": false,
     "auto_total": true,
     "monsters": [
       { "monster": "mon_failed_weapon", "weight": 1, "cost_multiplier": 80 },

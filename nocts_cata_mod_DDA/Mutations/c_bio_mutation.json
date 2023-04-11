@@ -95,13 +95,12 @@
     "name": { "str": "Natural Armor" },
     "points": 0,
     "mixed_effect": true,
-    "description": "Your skin and underlying muscles are hard as stone.  You have innate resistance to all forms of physical damage and are less likely to suffer bleeding, but you also suffer extra encumbrance.",
+    "description": "Your skin and underlying muscles are hard as stone.  You have innate resistance to all forms of physical damage, but you also suffer extra encumbrance.",
     "valid": false,
     "purifiable": false,
     "profession": true,
     "cancels": [ "THINSKIN", "THICKSKIN" ],
     "types": [ "SKIN" ],
-    "bleed_resist": 1,
     "encumbrance_always": [
       [ "torso", 5 ],
       [ "head", 5 ],
@@ -231,7 +230,7 @@
     "profession": true,
     "types": [ "HEALING" ],
     "healing_awake": 2.5,
-    "healing_resting": 1.0,
+    "healing_multiplier": 2.0,
     "mending_modifier": 10.0
   },
   {
@@ -274,7 +273,7 @@
     "thirst_modifier": -0.25,
     "fatigue_modifier": -0.25,
     "stamina_regen_modifier": -0.5,
-    "healing_resting": -0.5,
+    "healing_multiplier": 0.5,
     "mending_modifier": 0.25
   },
   {
