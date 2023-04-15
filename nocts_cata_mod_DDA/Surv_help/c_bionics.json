@@ -316,7 +316,7 @@
     "weight": "226 g",
     "bashing": 3,
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "USES_BIONIC_POWER" ],
-    "max_charges": 1000,
+    "ammo": "battery",
     "charges_per_use": 6,
     "use_action": [ "OXYTORCH" ],
     "qualities": [ [ "WELD", 2 ] ]
