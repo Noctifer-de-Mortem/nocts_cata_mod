@@ -1558,7 +1558,7 @@
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "kitchen_unit", 1 ] ], [ [ "forgerig", 1 ] ], [ [ "weldrig", 1 ] ], [ [ "craftrig", 1 ] ], [ [ "chemlab", 1 ] ] ]
+    "components": [ [ [ "kitchen_unit", 1 ] ], [ [ "forgerig", 1 ] ], [ [ "weldrig", 1 ] ], [ [ "craftrig", 1 ] ], [ [ "veh_tools_kitchen", 1 ] ] ]
   },
   {
     "result": "mil_surp_pack_1",
