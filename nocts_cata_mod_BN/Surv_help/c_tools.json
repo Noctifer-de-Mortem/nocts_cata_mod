@@ -708,8 +708,6 @@
     "material": [ "plastic", "flesh" ],
     "weight": "150 g",
     "volume": "250 ml",
-    "cutting": 1,
-    "to_hit": -1,
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
@@ -731,8 +729,6 @@
     "material": [ "plastic", "flesh" ],
     "weight": "150 g",
     "volume": "750 ml",
-    "cutting": 1,
-    "to_hit": -1,
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
@@ -754,8 +750,6 @@
     "material": [ "plastic", "flesh" ],
     "weight": "150 g",
     "volume": "750 ml",
-    "cutting": 1,
-    "to_hit": -1,
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
@@ -776,7 +770,6 @@
     "material": [ "paper" ],
     "weight": "30 g",
     "volume": "250 ml",
-    "to_hit": -1,
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
@@ -797,7 +790,6 @@
     "material": [ "paper" ],
     "weight": "30 g",
     "volume": "250 ml",
-    "to_hit": -1,
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
@@ -818,7 +810,6 @@
     "material": [ "paper" ],
     "weight": "30 g",
     "volume": "250 ml",
-    "to_hit": -1,
     "use_action": {
       "type": "reveal_map",
       "radius": 180,
@@ -838,7 +829,6 @@
     "price_postapoc": "60 USD",
     "weight": "8932 g",
     "volume": "4500 ml",
-    "to_hit": -2,
     "material": [ "wood", "steel" ],
     "use_action": "DISASSEMBLE"
   },
@@ -854,7 +844,6 @@
     "price_postapoc": "70 USD",
     "weight": "8932 g",
     "volume": "4500 ml",
-    "to_hit": -2,
     "material": [ "wood", "steel" ],
     "use_action": "DISASSEMBLE"
   },
@@ -870,7 +859,6 @@
     "price_postapoc": "65 USD",
     "weight": "8932 g",
     "volume": "4500 ml",
-    "to_hit": -2,
     "material": [ "wood", "steel" ],
     "use_action": "DISASSEMBLE"
   },
@@ -883,7 +871,6 @@
     "volume": "500 ml",
     "price": "10 USD",
     "price_postapoc": "1 USD",
-    "to_hit": -1,
     "material": [ "plastic", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
@@ -903,7 +890,6 @@
     "volume": "250 ml",
     "price": "5 USD",
     "price_postapoc": "50 cent",
-    "to_hit": -1,
     "material": [ "cotton" ],
     "symbol": "[",
     "color": "dark_gray",
@@ -926,7 +912,6 @@
     "price_postapoc": "25 USD",
     "weight": "10958 g",
     "volume": "3 L",
-    "to_hit": -2,
     "material": [ "plastic", "steel" ],
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "DISTILL", 1 ], [ "CHEM", 3 ], [ "BOIL", 1 ] ]
   },
@@ -942,7 +927,6 @@
     "price_postapoc": "25 USD",
     "weight": "10958 g",
     "volume": "3 L",
-    "to_hit": -2,
     "material": [ "plastic", "steel" ],
     "qualities": [
       [ "HAMMER", 2 ],

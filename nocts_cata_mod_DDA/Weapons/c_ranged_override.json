@@ -20,7 +20,7 @@
     "price": 400000,
     "price_postapoc": 8000,
     "to_hit": -1,
-    "bashing": 4,
+    "melee_damage": { "bash": 4 },
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "magenta",

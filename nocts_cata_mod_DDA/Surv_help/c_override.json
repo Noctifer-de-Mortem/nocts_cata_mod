@@ -96,7 +96,7 @@
     "price": "6000 USD",
     "price_postapoc": "120 USD",
     "to_hit": -3,
-    "bashing": 8,
+    "melee_damage": { "bash": 8 },
     "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "white",
