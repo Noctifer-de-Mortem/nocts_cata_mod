@@ -63,7 +63,7 @@
     "symbol": ":",
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
-    "bashing": 9,
+    "melee_damage": { "bash": 9 },
     "gun_data": {
       "skill": "pistol",
       "ammo": "22",
@@ -102,7 +102,7 @@
     "symbol": ":",
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
-    "bashing": 8,
+    "melee_damage": { "bash": 8 },
     "gun_data": {
       "skill": "pistol",
       "ammo": "9mm",
@@ -141,7 +141,7 @@
     "symbol": ":",
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
-    "bashing": 8,
+    "melee_damage": { "bash": 8 },
     "gun_data": {
       "skill": "pistol",
       "ammo": "45",
@@ -221,7 +221,7 @@
     "price_postapoc": "350 cent",
     "install_time": "30 s",
     "to_hit": 1,
-    "bashing": 3,
+    "melee_damage": { "bash": 3 },
     "material": [ "steel" ],
     "symbol": ":",
     "color": "dark_gray",

@@ -52,7 +52,7 @@
     "material": [ "superalloy" ],
     "techniques": [ "RAPID", "WBLOCK_2" ],
     "volume": "2250 ml",
-    "cutting": 48,
+    "melee_damage": { "cut": 48 },
     "flags": [ "BIONIC_WEAPON", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
     "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 20 ] ]
   },
@@ -314,7 +314,7 @@
     "symbol": "#",
     "color": "white",
     "weight": "226 g",
-    "bashing": 3,
+    "melee_damage": { "bash": 3 },
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "USES_BIONIC_POWER" ],
     "ammo": "battery",
     "charges_per_use": 6,
@@ -400,7 +400,8 @@
     "name": { "str_sp": "Sentinel Power Storage CBM" },
     "looks_like": "bio_power_storage_mkII",
     "description": "A Compact Bionics Module developed by Omnitech Labs for military applications based on the highly successful Power Storage CBM.  Increases the user's power capacity by 1000 units.",
-    "price": 1000000,
+    "price": "10000 USD",
+    "price_postapoc": "10 USD",
     "weight": "50 g",
     "difficulty": 1
   }

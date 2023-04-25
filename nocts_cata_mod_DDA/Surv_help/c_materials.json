@@ -8,12 +8,7 @@
     "specific_heat_solid": 0.75,
     "soft": true,
     "latent_heat": 303,
-    "bash_resist": 9,
-    "cut_resist": 19,
-    "bullet_resist": 49,
-    "acid_resist": 5,
-    "fire_resist": 20,
-    "elec_resist": 5,
+    "resist": { "bash": 9, "cut": 19, "bullet": 49, "acid": 5, "heat": 20, "electricity": 5 },
     "chip_resist": 20,
     "repaired_with": "alloy_sheet",
     "breathability": "GOOD",
@@ -26,29 +21,20 @@
     "id": "c_superalloy_composite_medium",
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
-    "bash_resist": 19,
-    "cut_resist": 37,
-    "bullet_resist": 98,
-    "fire_resist": 38
+    "resist": { "bash": 19, "cut": 37, "bullet": 98, "acid": 5, "heat": 38, "electricity": 5 }
   },
   {
     "type": "material",
     "id": "c_superalloy_composite_heavy",
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
-    "bash_resist": 24,
-    "cut_resist": 54,
-    "bullet_resist": 147,
-    "fire_resist": 57
+    "resist": { "bash": 24, "cut": 54, "bullet": 147, "acid": 5, "heat": 57, "electricity": 5 }
   },
   {
     "type": "material",
     "id": "c_atomic_battery_power",
     "name": "Alphavoltaic Power",
-    "fuel_data": { 
-      "energy": "1000 kJ", 
-      "perpetual": true 
-    },
+    "fuel_data": { "energy": "1000 kJ", "perpetual": true },
     "copy-from": "pseudo_fuel"
   },
   {
@@ -56,14 +42,9 @@
     "id": "c_hydrogen_gas",
     "name": "Pressurized hydrogen",
     "density": 1,
-    "bash_resist": 0,
     "specific_heat_liquid": 0.82,
     "specific_heat_solid": 0.45,
-    "cut_resist": 0,
-    "bullet_resist": 0,
-    "acid_resist": 0,
-    "fire_resist": 0,
-    "elec_resist": 0,
+    "resist": { "bash": 0, "cut": 0, "acid": 0, "heat": 0, "bullet": 0 },
     "chip_resist": 0,
     "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
     "bash_dmg_verb": "dented",

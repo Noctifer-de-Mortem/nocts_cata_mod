@@ -339,7 +339,8 @@
     "name": { "str_sp": "Sentinel Power Storage CBM" },
     "looks_like": "bio_power_storage_mkII",
     "description": "A Compact Bionics Module developed by Omnitech Labs for military applications based on the highly successful Power Storage CBM.  Increases the user's power capacity by 1000 units.",
-    "price": 1000000,
+    "price": "10000 USD",
+    "price_postapoc": "10 USD",
     "weight": "50 g",
     "difficulty": 1
   }
