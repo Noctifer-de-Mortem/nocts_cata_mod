@@ -69,7 +69,7 @@
     "name": "tiny electric dynamo",
     "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Much less efficient compared to its normal application as a motor.",
     "item": "motor_tiny",
-    "folded_volume": 1,
+    "folded_volume": "250 ml",
     "durability": 80,
     "power": "-800 W",
     "epower": "320 W",
@@ -97,7 +97,7 @@
     "power": "-7040 W",
     "epower": "3098 W",
     "damage_modifier": 80,
-    "folded_volume": 1,
+    "folded_volume": "250 ml",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 1, 2 ] },
       { "item": "steel_chunk", "count": [ 1, 2 ] },
