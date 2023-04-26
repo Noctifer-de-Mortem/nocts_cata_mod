@@ -61,9 +61,7 @@
         { "monster": "mon_zombie_failed_weapon", "x": 2, "y": 10 },
         { "monster": "mon_zombie_failed_weapon", "x": 12, "y": 4 }
       ],
-      "place_vehicles": [
-        { "vehicle": "humvee_tow", "x": 8, "y": 18, "rotation": 30, "chance": 100, "fuel": 10, "status": 1 }
-      ]
+      "place_vehicles": [ { "vehicle": "humvee_tow", "x": 8, "y": 18, "rotation": 30, "chance": 100, "fuel": 10, "status": 1 } ]
     }
   },
   {
@@ -199,6 +197,7 @@
         "|+|+|@@|-|r      v     |"
       ],
       "palettes": [ "necropolis_b2" ],
+      "set": [ { "square": "radiation", "amount": [ 1, 5 ], "x": 0, "x2": 23, "y": 0, "y2": 23 } ],
       "items": {
         "@": { "item": "army_bed", "chance": 50 },
         "L": { "item": "army_personal_locker", "chance": 40, "repeat": 2 },
