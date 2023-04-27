@@ -43,6 +43,7 @@
   {
     "type": "GENERIC",
     "id": "bio_sword_weapon",
+    "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
     "name": { "str": "monomolecular sword" },
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.",
     "weight": "300 g",

@@ -153,161 +153,30 @@
       }
     ],
     "techniques": [ "tec_mut_com_battering_ram", "tec_mut_com_overrun", "tec_mut_com_stampeding_strike", "tec_mut_com_feint" ],
+    "weapon_category": [
+      "2H_SWORDS",
+      "CLUBS",
+      "MACES",
+      "MORNINGSTARS",
+      "FLAILS",
+      "2H_HAMMERS",
+      "1H_AXES",
+      "2H_AXES",
+      "HOOKED_POLES",
+      "PIKES",
+      "GLAIVES"
+    ],
     "weapons": [
-      "2h_flail_steel",
-      "2h_flail_wood",
-      "ax",
-      "battleaxe",
-      "battleaxe_inferior",
       "chainsaw_off",
       "chainsaw_on",
-      "copper_ax",
-      "cs_lajatang_off",
-      "cs_lajatang_on",
       "combatsaw_off",
       "combatsaw_on",
       "e_combatsaw_off",
       "e_combatsaw_on",
       "elec_chainsaw_off",
       "elec_chainsaw_on",
-      "ecs_lajatang_off",
-      "ecs_lajatang_on",
-      "fire_ax",
-      "glaive",
-      "sword_metal",
-      "greatsword_makeshift",
-      "halberd",
-      "halberd_fake",
-      "hammer_sledge",
-      "hammer_sledge_engineer",
-      "hammer_sledge_heavy",
-      "hammer_sledge_short",
-      "homewrecker",
-      "ji",
-      "lajatang",
-      "lobotomizer",
-      "longsword",
-      "longsword_fake",
-      "longsword_inferior",
-      "lucern_hammer",
-      "lucern_hammerfake",
-      "makeshift_halberd",
-      "makeshift_scythe_war",
       "masonrysaw_off",
-      "masonrysaw_on",
-      "molded_axe",
-      "naginata",
-      "naginata_fake",
-      "naginata_inferior",
-      "nodachi",
-      "nodachi_fake",
-      "nodachi_inferior",
-      "pickaxe",
-      "pike",
-      "pike_copper",
-      "pike_fake",
-      "pike_inferior",
-      "pike_wood",
-      "primitive_axe",
-      "scythe",
-      "scythe_war",
-      "spear_survivor",
-      "zweihander",
-      "zweihander_fake",
-      "zweihander_inferior"
+      "masonrysaw_on"
     ]
-  },
-  {
-    "id": "style_biojutsu",
-    "copy-from": "style_biojutsu",
-    "type": "martial_art",
-    "name": { "str": "Bionic Combatives" },
-    "extend": { "weapons": [ "unbio_bladed_weapon", "unbio_sword_weapon", "unbio_claws_weapon", "bio_sword_weapon" ] }
-  },
-  {
-    "id": "style_aikido",
-    "copy-from": "style_aikido",
-    "type": "martial_art",
-    "name": { "str": "Aikido" },
-    "extend": { "weapons": [ "unbio_claws_weapon" ] }
-  },
-  {
-    "id": "style_judo",
-    "copy-from": "style_judo",
-    "type": "martial_art",
-    "name": { "str": "Judo" },
-    "extend": { "weapons": [ "unbio_claws_weapon" ] }
-  },
-  {
-    "id": "style_silat",
-    "copy-from": "style_silat",
-    "type": "martial_art",
-    "name": { "str": "Silat" },
-    "extend": { "weapons": [ "elc_bld", "elc_blds", "molded_knife", "unbio_bladed_weapon", "flesh_knife" ] }
-  },
-  {
-    "id": "style_eskrima",
-    "copy-from": "style_eskrima",
-    "type": "martial_art",
-    "name": { "str": "Eskrima" },
-    "extend": { "weapons": [ "elc_bld", "elc_blds", "molded_knife", "unbio_bladed_weapon", "flesh_knife" ] }
-  },
-  {
-    "id": "style_krav_maga",
-    "copy-from": "style_krav_maga",
-    "type": "martial_art",
-    "name": { "str": "Krav Maga" },
-    "extend": {
-      "weapons": [
-        "elc_bld",
-        "elc_blds",
-        "molded_knife",
-        "unbio_bladed_weapon",
-        "flesh_knife",
-        "neo_laser_pistol",
-        "neo_laser_pistol_ups",
-        "akro_laser_smg",
-        "akro_laser_smg_ups",
-        "arc_laser_rifle",
-        "arc_laser_rifle_ups"
-      ]
-    }
-  },
-  {
-    "id": "style_fencing",
-    "copy-from": "style_fencing",
-    "type": "martial_art",
-    "name": { "str": "Fencing" },
-    "extend": { "weapons": [ "unbio_sword_weapon", "flesh_blade" ] }
-  },
-  {
-    "id": "style_barbaran",
-    "copy-from": "style_barbaran",
-    "type": "martial_art",
-    "name": { "str": "Barbaran Montante" },
-    "extend": { "weapons": [ "greatsword_makeshift" ] }
-  },
-  {
-    "id": "style_swordsmanship",
-    "copy-from": "style_swordsmanship",
-    "type": "martial_art",
-    "name": { "str": "Medieval Swordsmanship" },
-    "extend": { "weapons": [ "unbio_sword_weapon", "flesh_blade", "greatsword_makeshift" ] }
-  },
-  {
-    "id": "style_ninjutsu",
-    "copy-from": "style_ninjutsu",
-    "type": "martial_art",
-    "name": { "str": "Ninjutsu" },
-    "extend": {
-      "weapons": [ "elc_bld", "elc_blds", "molded_knife", "unbio_bladed_weapon", "unbio_sword_weapon", "flesh_knife", "flesh_blade" ]
-    }
-  },
-  {
-    "id": "style_medievalpole",
-    "copy-from": "style_medievalpole",
-    "type": "martial_art",
-    "name": { "str": "Fior Di Battaglia" },
-    "extend": { "weapons": [ "molded_axe" ] }
   }
 ]
