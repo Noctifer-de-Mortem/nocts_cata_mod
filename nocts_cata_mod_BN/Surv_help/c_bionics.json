@@ -29,7 +29,7 @@
     "act_cost": "50 kJ",
     "fake_item": "bio_laser_minigun",
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
-    "flags": [ "BIONIC_GUN" ]
+    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_laser_armgun",
@@ -65,7 +65,7 @@
     "act_cost": "1 kJ",
     "fake_item": "bio_sword_weapon",
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_sword",
@@ -105,7 +105,7 @@
     "act_cost": "100 kJ",
     "fake_item": "bio_flamethrower_gun",
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
-    "flags": [ "BIONIC_GUN" ]
+    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_flamethrower",
