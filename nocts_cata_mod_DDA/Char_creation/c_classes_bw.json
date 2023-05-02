@@ -360,7 +360,6 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
-      "bio_power_armor_interface_mkII",
       "bio_fuel_cell_gasoline",
       "bio_plasma_cell"
     ],
@@ -613,7 +612,6 @@
       "bio_metabolics",
       "bio_nanobots",
       "bio_painkiller",
-      "bio_power_armor_interface_mkII",
       "bio_purifier",
       "bio_sunglasses",
       "bio_ears",
