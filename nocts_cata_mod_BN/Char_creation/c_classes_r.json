@@ -172,6 +172,7 @@
       { "level": 4, "name": "dodge" },
       { "level": 3, "name": "mechanics" },
       { "level": 3, "name": "melee" },
+      { "level": 2, "name": "cutting" },
       { "level": 2, "name": "survival" }
     ],
     "items": {
