@@ -816,5 +816,25 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "Obsolete CBM" },
     "description": "This is a now-unneeded holdover from back when Atomic Battery had to work around code bugs and would only generate power when turned off instead of when turned on."
+  },
+  {
+    "id": "shmap",
+    "category": "maps",
+    "type": "GENERIC",
+    "symbol": ";",
+    "color": "blue",
+    "looks_like": "survivormap",
+    "name": { "str_sp": "Bugout Location Directions" },
+    "description": "A map and set of directions, leading to somebody's rendezvous point.  The name scribbled in one corner seems faintly familiar.",
+    "material": [ "paper" ],
+    "weight": "30 g",
+    "volume": "250 ml",
+    "to_hit": -1,
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 180,
+      "terrain": [ "Survivor_Holdout_1" ],
+      "message": "Thoroughly poring over the map, you memorize the location."
+    }
   }
 ]

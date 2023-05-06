@@ -2802,5 +2802,47 @@
       [ [ "cable", 10 ], [ "wire", 1 ], [ "string_floss", 1 ] ],
       [ [ "material_sand", 10 ], [ "salt", 20 ] ]
     ]
+  },
+  {
+    "result": "note_apophis",
+    "type": "uncraft",
+    "time": "6 s",
+    "components": [ [ [ "paper", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "note_sketchy_cabin",
+    "type": "uncraft",
+    "time": "6 s",
+    "components": [ [ [ "paper", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "semap",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [ [ [ "paper", 10 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "ulmap",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [ [ [ "paper", 10 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "mccmap",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [ [ [ "paper", 10 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "biomap",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [ [ [ "paper", 10 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]

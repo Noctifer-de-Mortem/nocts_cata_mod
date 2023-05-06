@@ -51,8 +51,6 @@
         ]
       },
       { "group": "mre_full_pack" },
-      { "item": "biomap" },
-      { "item": "militarymap" },
       { "group": "everyday_gear" },
       { "group": "drugs_soldier", "prob": 50 },
       { "group": "supplies_electronics", "prob": 50, "count": [ 1, 3 ] }
