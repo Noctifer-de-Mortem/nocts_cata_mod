@@ -30,7 +30,6 @@
     "ammo": 100,
     "entries": [
       { "item": "protein_bar_evac", "count": [ 4, 8 ] },
-      { "item": "militarymap" },
       { "item": "id_military" },
       {
         "distribution": [
@@ -91,7 +90,6 @@
     "entries": [
       { "item": "badge_bio_weapon_evy" },
       { "item": "mre_veggy_box" },
-      { "item": "biomap" },
       { "item": "militarymap" },
       { "group": "NC_BIO_HUNTER_E_battery", "count": [ 5, 10 ] },
       { "group": "everyday_gear" },
