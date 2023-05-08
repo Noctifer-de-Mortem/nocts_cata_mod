@@ -129,8 +129,20 @@
     "type": "scenario",
     "id": "summer_advanced_start",
     "extend": {
-      "traits": [ "MARTIAL_ARTS_SURV_COM" ],
-      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter", "surv_knight_errant", "bionic_silencer"  ]
+      "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_SURV_COM" ],
+      "professions": [
+        "bio_weapon_a",
+        "bio_weapon_b",
+        "bio_weapon_g",
+        "bio_weapon_d",
+        "bio_infantry",
+        "bio_scout",
+        "bio_knight",
+        "bio_tool",
+        "surv_drifter",
+        "surv_knight_errant",
+        "bionic_silencer"
+      ]
     }
   },
   {
@@ -138,8 +150,20 @@
     "type": "scenario",
     "id": "ambushed",
     "extend": {
-      "traits": [ "MARTIAL_ARTS_SURV_COM" ],
-      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "surv_drifter", "surv_knight_errant", "bionic_silencer"  ]
+      "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_SURV_COM" ],
+      "professions": [
+        "bio_weapon_a",
+        "bio_weapon_b",
+        "bio_weapon_g",
+        "bio_weapon_d",
+        "bio_infantry",
+        "bio_scout",
+        "bio_knight",
+        "bio_tool",
+        "surv_drifter",
+        "surv_knight_errant",
+        "bionic_silencer"
+      ]
     }
   },
   {
@@ -153,13 +177,16 @@
     "copy-from": "mutant",
     "type": "scenario",
     "id": "mutant",
-    "extend": { "traits": [ "MARTIAL_ARTS_MUT_COM" ], "professions": [ "failed_weapon" ] }
+    "extend": {
+      "traits": [ "MARTIAL_ARTS_MUT_COM" ],
+      "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d", "failed_weapon" ]
+    }
   },
   {
     "copy-from": "lab_chal",
     "type": "scenario",
     "id": "lab_chal",
-    "extend": { "professions": [ "failed_weapon" ] }
+    "extend": { "traits": [ "MARTIAL_ARTS_MUT_COM" ], "professions": [ "failed_weapon" ] }
   },
   {
     "copy-from": "lab_staff",
