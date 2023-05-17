@@ -1622,7 +1622,12 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable", "heavy_atomic_battery_cell_rechargeable" ]
+        "item_restriction": [
+          "medium_atomic_battery_cell",
+          "heavy_atomic_battery_cell",
+          "medium_atomic_battery_cell_rechargeable",
+          "heavy_atomic_battery_cell_rechargeable"
+        ]
       }
     ]
   },
@@ -1819,6 +1824,37 @@
     "durability": 10,
     "clip_size": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 5 } } ],
+    "reload": 1000,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
+  },
+  {
+    "id": "mk_ionic_cannon_plut",
+    "type": "GUN",
+    "looks_like": "mk_ionic_cannon",
+    "symbol": "(",
+    "color": "dark_gray",
+    "name": { "str": "MK-2N1 atomic cannon" },
+    "description": "It appears to be a launcher, firing powerful pulses of energy.  It has been modified to use plutonium fuel cells to generate massive blasts of nuclear plasma, supplanting both the original UPS cost and the hydrogen it used to fire.  You hope anything that warrants firepower like this won't get too close.",
+    "price": "20000 USD",
+    "price_postapoc": "90 USD",
+    "material": [ "superalloy", "steel" ],
+    "ammo_effects": [ "PLASMA", "MININUKE_MOD", "INCENDIARY", "WIDE", "EMP", "FLASHBANG" ],
+    "flags": [ "ALWAYS_TWOHAND", "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "RELOAD_ONE" ],
+    "ammo_to_fire": 100,
+    "skill": "launcher",
+    "ammo": [ "plutonium" ],
+    "weight": "8280 g",
+    "volume": "3 L",
+    "melee_damage": { "bash": 8 },
+    "to_hit": -2,
+    "//": "Same base damage, minus the hydrogen's damage bonus, but way bigger damage increase from the different explosion.",
+    "ranged_damage": { "damage_type": "heat", "amount": 250 },
+    "range": 50,
+    "recoil": 300,
+    "loudness": 25,
+    "durability": 10,
+    "clip_size": 500,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plutonium": 500 } } ],
     "reload": 1000,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "stock", 1 ] ]
   },
