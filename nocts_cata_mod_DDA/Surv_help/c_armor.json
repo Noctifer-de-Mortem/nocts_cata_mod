@@ -1087,7 +1087,7 @@
     "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer and making the armor less encumbering, but also being warmer and making stealth more difficult.",
     "extend": { "effects": [ "TRADER_AVOID" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
-    "turns_per_charge": 3,
+    "turns_per_charge": 6,
     "revert_to": "c_power_armor_surv",
     "revert_msg": "Your makeshift power armor sputters and dies!",
     "use_action": {
