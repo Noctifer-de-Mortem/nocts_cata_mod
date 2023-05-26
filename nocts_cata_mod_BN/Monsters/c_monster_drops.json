@@ -107,6 +107,7 @@
       { "group": "mon_zombie_bio_common" },
       { "item": "mil_armor", "damage": [ 1, 4 ], "prob": 75 },
       { "item": "mil_helm", "damage": [ 1, 4 ], "prob": 75 },
+      { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
       { "item": "vest", "damage": [ 1, 4 ], "prob": 50 },
       {
         "distribution": [
@@ -157,6 +158,7 @@
       { "group": "mon_zombie_bio_common" },
       { "item": "mil_armor", "damage": [ 1, 4 ], "prob": 75 },
       { "item": "mil_helm", "damage": [ 1, 4 ], "prob": 75 },
+      { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
       { "item": "vest", "damage": [ 1, 4 ], "prob": 50 },
       {
         "distribution": [
@@ -262,6 +264,7 @@
       { "group": "mon_zombie_bio_common" },
       { "item": "hmil_armor", "damage": [ 1, 4 ], "prob": 75 },
       { "item": "hmil_helm", "damage": [ 1, 4 ], "prob": 75 },
+      { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
       { "item": "vest", "damage": [ 1, 4 ], "prob": 50 },
       { "item": "dump_pouch", "damage": [ 1, 4 ], "prob": 50 },
       {
@@ -343,6 +346,7 @@
       { "group": "mon_zombie_bio_common" },
       { "item": "lmil_armor", "damage": [ 1, 4 ], "prob": 75 },
       { "item": "lmil_helm", "damage": [ 1, 4 ], "prob": 75 },
+      { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
       { "item": "molle_pack", "damage": [ 1, 4 ], "prob": 50 },
       {
         "distribution": [
@@ -360,12 +364,7 @@
                 "distribution": [
                   { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
                   { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  {
-                    "item": "light_minus_atomic_battery_cell",
-                    "damage": [ 0, 1 ],
-                    "charges": [ 0, 500 ],
-                    "prob": 25
-                  }
+                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
                 ],
                 "prob": 25
               }
@@ -422,12 +421,7 @@
                 "distribution": [
                   { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
                   { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  {
-                    "item": "light_minus_atomic_battery_cell",
-                    "damage": [ 0, 1 ],
-                    "charges": [ 0, 500 ],
-                    "prob": 25
-                  }
+                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
                 ],
                 "prob": 25
               }
@@ -511,6 +505,7 @@
             "collection": [
               { "item": "mil_armor", "damage": [ 1, 4 ], "prob": 75 },
               { "item": "mil_helm", "damage": [ 1, 4 ], "prob": 75 },
+              { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
               { "item": "vest", "damage": [ 1, 4 ], "prob": 50 },
               {
                 "item": "medium_atomic_battery_cell_rechargeable",
@@ -525,6 +520,7 @@
             "collection": [
               { "item": "hmil_armor", "damage": [ 1, 4 ], "prob": 75 },
               { "item": "hmil_helm", "damage": [ 1, 4 ], "prob": 75 },
+              { "item": "shield_ballistic", "prob": 10, "damage": [ 1, 4 ] },
               { "item": "vest", "damage": [ 1, 4 ], "prob": 50 },
               { "item": "dump_pouch", "damage": [ 1, 4 ], "prob": 50 },
               {
@@ -560,6 +556,7 @@
             "collection": [
               { "item": "lmil_armor", "damage": [ 1, 4 ], "prob": 75 },
               { "item": "lmil_helm", "damage": [ 1, 4 ], "prob": 75 },
+              { "item": "shield_ballistic", "prob": 5, "damage": [ 1, 4 ] },
               { "item": "molle_pack", "damage": [ 1, 4 ], "prob": 50 },
               {
                 "distribution": [

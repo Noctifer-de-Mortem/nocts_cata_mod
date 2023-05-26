@@ -2796,6 +2796,23 @@
     ]
   },
   {
+    "type": "recipe",
+    "result": "greatbow_makeshift",
+    "activity_level": "MODERATE_EXERCISE",
+    "byproducts": [ [ "steel_chunk", 35 ] ],
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "archery", 3 ],
+    "time": "60 m",
+    "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_metalworking" } ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bows", 3 ], [ "manual_archery", 4 ], [ "book_archery", 4 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "frame", 1 ], [ "hdframe", 1 ] ], [ [ "rope_superior_short", 1, "LIST" ] ] ]
+  },
+  {
     "result": "36navy_makeshift_magnum",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
