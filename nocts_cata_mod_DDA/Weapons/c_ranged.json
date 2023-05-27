@@ -1169,7 +1169,7 @@
     "techniques": [ "RAPID", "WBLOCK_2", "PRECISE" ],
     "ammo_effects": [ "NEVER_MISFIRES" ],
     "skill": "archery",
-    "min_strength": 6,
+    "min_strength": 7,
     "ammo": [ "arrow" ],
     "weight": "1144 g",
     "volume": "2250 ml",
@@ -1177,7 +1177,7 @@
     "melee_damage": { "bash": 10, "cut": 18 },
     "reload_noise_volume": 4,
     "loudness": 10,
-    "ranged_damage": { "damage_type": "stab", "amount": 6, "armor_penetration": 1 },
+    "ranged_damage": { "damage_type": "stab", "amount": 7, "armor_penetration": 1 },
     "range": 10,
     "dispersion": 1250,
     "durability": 6,
@@ -1189,6 +1189,50 @@
       "target": "survbowstored",
       "ammo_scale": 0
     }
+  },
+  {
+    "id": "greatbow_makeshift",
+    "looks_like": "compgreatbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": { "str": "makeshift greatbow" },
+    "description": "A massive steel longbow made from part of a vehicle frame sawed and bent into shape.  While extremely powerful, its immense draw weight requires superhuman strength to use, plus it suffers in efficiency and accuracy.",
+    "price": "85 USD",
+    "material": [ "steel" ],
+    "flags": [ "FIRE_TWOHAND", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON", "BELTED", "SHEATH_BOW", "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "ammo_effects": [ "NEVER_MISFIRES" ],
+    "techniques": [ "WBLOCK_1" ],
+    "skill": "archery",
+    "min_strength": 20,
+    "ammo": [ "arrow" ],
+    "weight": "7 kg",
+    "volume": "5 L",
+    "longest_side": "198 cm",
+    "price_postapoc": "30 USD",
+    "armor_data": {
+      "armor": [
+        {
+          "material": [ { "type": "steel", "covered_by_mat": 100, "thickness": 1.0 } ],
+          "encumbrance": 30,
+          "coverage": 10,
+          "covers": [ "torso" ],
+          "specifically_covers": [ "torso_hanging_back" ]
+        }
+      ]
+    },
+    "reload_noise_volume": 4,
+    "loudness": 25,
+    "durability": 7,
+    "ranged_damage": { "damage_type": "stab", "amount": 13 },
+    "range": 24,
+    "dispersion": 1500,
+    "sight_dispersion": 3000,
+    "clip_size": 1,
+    "valid_mod_locations": [ [ "dampening", 1 ], [ "arrow rest", 1 ] ],
+    "reload": 50,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 1 } } ],
+    "melee_damage": { "bash": 25 }
   },
   {
     "id": "surv_sniper",
