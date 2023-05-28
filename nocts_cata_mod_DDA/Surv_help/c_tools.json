@@ -669,7 +669,7 @@
     "color": "brown",
     "weapon_category": [ "MACES" ],
     "name": { "str": "hammer multi-tool" },
-    "description": "A multi-tool combing a small hammer and pair of pliers.  Small and practical, the survivor's mini-tool-kit.",
+    "description": "A multi-tool combining a small hammer and pliers with a number of other small tools.  Small and practical, the survivor's mini-tool-kit.",
     "price": "50 USD",
     "price_postapoc": "5 USD",
     "material": [ "steel", "wood" ],
@@ -687,7 +687,8 @@
       [ "SCREW_FINE", 1 ],
       [ "BUTCHER", 8 ],
       [ "HAMMER", 2 ],
-      [ "HAMMER_FINE", 1 ]
+      [ "HAMMER_FINE", 1 ],
+      [ "PRY", 1 ]
     ]
   },
   {
