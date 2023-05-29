@@ -570,7 +570,7 @@
     "id": "evil_invitation",
     "type": "BOOK",
     "name": { "str": "introduction packet - classified", "str_pl": "introduction packets - classified" },
-    "description": "This is a journal with what seems to be an invitation of some sort from some unknown organization.  While its contents rather boring to read, some bits offer promises of 'forbidden knowledge' and that said contents are 'just a taste of true power'…  Science has definitely gone too far…",
+    "description": "This is a journal with what seems to be an invitation of some sort from some unknown organization.  While its contents are rather boring to read, some bits offer promises of 'forbidden knowledge' and that said contents are 'just a taste of true power'…  Science has definitely gone too far…",
     "weight": "1700 g",
     "volume": "500 ml",
     "price": "500 USD",
@@ -583,7 +583,8 @@
     "max_level": 10,
     "intelligence": 12,
     "time": "45 m",
-    "fun": -1
+    "fun": -1,
+    "flags": [ "TRADER_AVOID", "BOOK_CANNIBAL" ]
   },
   {
     "id": "omnitech_weapon_ups_manual",
