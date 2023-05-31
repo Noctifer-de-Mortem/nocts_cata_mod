@@ -2946,7 +2946,8 @@
       [ [ "metal_tank_little", 1 ] ],
       [ [ "motor_oil", 1600 ], [ "lamp_oil", 1600 ] ],
       [ [ "foldframe", 2 ] ],
-      [ [ "steel_plate", 4 ], [ "steel_armor", 24 ] ]
+      [ [ "steel_plate", 3 ], [ "steel_armor", 18 ] ],
+      [ [ "kevlar", 1 ], [ "sheet_kevlar_layered", 24 ] ]
     ]
   },
   {
