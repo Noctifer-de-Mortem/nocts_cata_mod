@@ -2771,7 +2771,8 @@
       [ [ "metal_tank_little", 1 ] ],
       [ [ "motor_oil", 1600 ], [ "lamp_oil", 1600 ] ],
       [ [ "foldframe", 2 ] ],
-      [ [ "steel_plate", 4 ], [ "steel_armor", 24 ] ]
+      [ [ "steel_plate", 3 ], [ "steel_armor", 18 ] ],
+      [ [ "kevlar", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
     ]
   },
   {
@@ -2876,5 +2877,38 @@
     "time": "30 s",
     "components": [ [ [ "paper", 10 ] ] ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "shield_riot_surv",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "25 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_melee", 4 ] ],
+    "tools": [
+      [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ],
+      [ [ "mold_plastic", -1 ] ],
+      [ [ "surface_heat", 15, "LIST" ] ]
+    ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "shield_riot", 1 ], [ "plastic_chunk", 50 ] ], [ [ "kevlar_plate", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "shield_welded_surv",
+    "byproducts": [ [ "steel_chunk", 40 ] ],
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "75 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 5 ], [ "recipe_melee", 5 ] ],
+    "using": [ [ "welding_standard", 30 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "frame", 1 ] ], [ [ "steel_plate", 1 ] ], [ [ "kevlar_plate", 15 ] ] ]
   }
 ]
