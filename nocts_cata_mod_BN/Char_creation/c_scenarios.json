@@ -209,5 +209,11 @@
     "type": "scenario",
     "id": "migo_prisoner",
     "extend": { "professions": [ "failed_weapon" ] }
+  },
+  {
+    "copy-from": "assassination",
+    "type": "scenario",
+    "id": "assassination",
+    "extend": { "professions": [ "bio_weapon_d", "bio_scout", "bionic_silencer" ] }
   }
 ]
