@@ -466,7 +466,13 @@
         "entries": [
           { "item": "mil_armor", "contents-group": "c_plut_medium" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "arc_laser_rifle", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          {
+            "item": "arc_laser_rifle",
+            "ammo-item": "battery",
+            "charges": 5000,
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "auto_wield" ]
+          },
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
@@ -531,7 +537,13 @@
           { "item": "lmil_armor", "contents-group": "c_plut_medium" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           { "item": "mil_mess_kit", "contents-item": [ "battery_ups" ] },
-          { "item": "mx_laser_sniper", "ammo-item": "battery", "charges": 5000, "contents-item": "shoulder_strap" },
+          {
+            "item": "mx_laser_sniper",
+            "ammo-item": "battery",
+            "charges": 5000,
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "auto_wield" ]
+          },
           { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
@@ -589,7 +601,13 @@
           { "item": "lmil_armor", "contents-group": "c_plut_light" },
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "akro_laser_smg", "ammo-item": "battery", "charges": 1000, "contents-item": "shoulder_strap" },
+          {
+            "item": "akro_laser_smg",
+            "ammo-item": "battery",
+            "charges": 1000,
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "auto_wield" ]
+          },
           { "item": "knife_combat", "container-item": "sheath" },
           { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
@@ -637,11 +655,17 @@
     ],
     "items": {
       "both": {
-        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "hmil_helm" ],
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "hmil_helm", "legrig" ],
         "entries": [
           { "item": "hmil_armor", "contents-group": "c_plut_heavy" },
           { "item": "two_way_radio", "contents-item": "battery_ups" },
-          { "item": "krx_laser_lmg", "ammo-item": "battery", "charges": 10000, "contents-item": "shoulder_strap" },
+          {
+            "item": "krx_laser_lmg",
+            "ammo-item": "battery",
+            "charges": 10000,
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "auto_wield" ]
+          },
           { "item": "xarm_laser_shotgun_ups", "contents-item": "shoulder_strap" },
           { "item": "knife_combat", "container-item": "sheath" }
         ]
