@@ -2,17 +2,17 @@
   {
     "id": "camping",
     "type": "item_group",
-    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
+    "items": [ [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "sports",
     "type": "item_group",
-    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
+    "items": [ [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "allsporting",
     "type": "item_group",
-    "items": [ [ "surcan", 10 ], [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
+    "items": [ [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ]
   },
   {
     "id": "gunmod_common",
