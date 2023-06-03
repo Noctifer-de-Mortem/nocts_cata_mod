@@ -645,10 +645,11 @@
     "skills": [
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "shotgun" },
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "cutting" },
-      { "level": 3, "name": "bashing" },
-      { "level": 3, "name": "stabbing" },
+      { "level": 2, "name": "bashing" },
+      { "level": 2, "name": "stabbing" },
       { "level": 3, "name": "dodge" }
     ],
     "proficiencies": [ "prof_gunsmithing_basic", "prof_traps", "prof_disarming", "prof_spotting" ],
@@ -676,7 +677,7 @@
     "type": "profession",
     "id": "sf_blade",
     "name": "Slave Fighter (Blade)",
-    "description": "You were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with a blade and enhancements to your speed and reaction time.  Forced through rudimentary training as a novelty fighter, you were expected to be able to be down opponents with ease.",
     "points": 6,
     "CBMs": [
       "bio_sword",
@@ -693,7 +694,7 @@
     "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -703,7 +704,7 @@
     "type": "profession",
     "id": "sf_claw",
     "name": "Slave Fighter (Claws)",
-    "description": "You were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with bionic claws and enhancements to your reflexes.  Forced through rudimentary training as a novelty fighter, you were expected to tear your foes apart like an animal.",
     "points": 6,
     "CBMs": [
       "bio_claws",
@@ -725,7 +726,7 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -735,7 +736,7 @@
     "type": "profession",
     "id": "sf_shock",
     "name": "Slave Fighter (Shocker)",
-    "description": "You were augmented with electrical generators and protection from them. You hit multiple foes with electricity, frying them until their nervous system gives up.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with electrical generation and protection bionics.  It was expected that you'd be a living tesla coil in the ring, frying victims until they roll over and die.",
     "points": 6,
     "CBMs": [
       "bio_chain_lightning",
@@ -751,7 +752,7 @@
     "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -761,15 +762,13 @@
     "type": "profession",
     "id": "sf_weapon",
     "name": "Slave Fighter (Weapon Master)",
-    "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
+    "description": "You were kidnapped for some sort of underground bloodsport.  Augmented with a mish-mash of support bionics and put through hellish training, you were intended to be a wild card to spice up matches, able to weaponize whatever you could get your hands on.",
     "points": 6,
     "traits": [ "MARTIAL_ARTS_SURV_COM", "PROF_GLADIATOR" ],
     "CBMs": [
-      "bio_razors",
       "bio_magnet",
       "bio_pitch_perfect",
       "bio_shock",
-      "bio_flamethrower",
       "bio_targeting",
       "bio_eye_enhancer",
       "bio_dex_enhancer",
@@ -798,7 +797,7 @@
       { "level": 2, "name": "throw" }
     ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },

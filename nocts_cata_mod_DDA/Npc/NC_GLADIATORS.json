@@ -67,12 +67,13 @@
     "type": "item_group",
     "//": "Helms for Red Team.",
     "items": [
-      [ "helmet_chitin", 25 ],
+      [ "helmet_chitin", 15 ],
       [ "helmet_acidchitin", 10 ],
       [ "pot_helmet", 25 ],
       [ "helmet_football", 15 ],
       [ "helmet_motor", 15 ],
       [ "firehelmet", 10 ],
+      [ "helmet_scrap", 10 ],
       [ "depowered_helmet", 1 ]
     ]
   },
@@ -87,7 +88,8 @@
       [ "bookplate", 5 ],
       [ "vest_leather_mod", 5 ],
       [ "football_armor", 5 ],
-      [ "motorbike_armor", 10 ]
+      [ "motorbike_armor", 5 ],
+      [ "cuirass_scrap", 5 ]
     ]
   },
   {
@@ -98,7 +100,7 @@
       [ "2byarm_guard", 15 ],
       [ "armguard_acidchitin", 10 ],
       [ "armguard_chitin", 20 ],
-      [ "armguard_metal", 10 ]
+      [ "armguard_scrap", 10 ]
     ]
   },
   {
@@ -110,7 +112,7 @@
   {
     "id": "NC_GLADIATOR_HEAVY_legs",
     "type": "item_group",
-    "items": [ [ "legguard_hard", 10 ], [ "2byshin_guard", 10 ], [ "legguard_metal", 10 ] ]
+    "items": [ [ "legguard_hard", 10 ], [ "2byshin_guard", 10 ], [ "armguard_scrap", 10 ] ]
   },
   {
     "id": "NC_GLADIATOR_HEAVY_feet",

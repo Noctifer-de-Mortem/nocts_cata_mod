@@ -365,22 +365,6 @@
     "to_hit": -1
   },
   {
-    "id": "surcan",
-    "type": "TOOL",
-    "color": "light_gray",
-    "symbol": ",",
-    "looks_like": "can_medium",
-    "name": { "str": "survival kit in a can", "str_pl": "survival kits in cans" },
-    "description": "A large tin can held together by a tab and seal.  Remove the seal to split the container into two smaller cans and reveal its contents.  It contains carefully packed survival items with a list of them on the side of the can.  You could not possibly put its contents back together.",
-    "price": "6 USD",
-    "material": [ "steel" ],
-    "flags": [ "WATERPROOF" ],
-    "weight": "103 g",
-    "volume": "500 ml",
-    "to_hit": -1,
-    "use_action": "DISASSEMBLE"
-  },
-  {
     "id": "elc_bld",
     "type": "TOOL",
     "symbol": ";",

@@ -647,10 +647,11 @@
     "skills": [
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "shotgun" },
       { "level": 3, "name": "melee" },
       { "level": 3, "name": "cutting" },
-      { "level": 3, "name": "bashing" },
-      { "level": 3, "name": "stabbing" },
+      { "level": 2, "name": "bashing" },
+      { "level": 2, "name": "stabbing" },
       { "level": 3, "name": "dodge" }
     ],
     "items": {
@@ -677,7 +678,7 @@
     "type": "profession",
     "id": "sf_blade",
     "name": "Slave Fighter (Blade)",
-    "description": "You were augmented with a blade, and enhancements to your speed and reaction time. You can hit an opponent multiple times before they land a blow.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with a blade and enhancements to your speed and reaction time.  Forced through rudimentary training as a novelty fighter, you were expected to be able to be down opponents with ease.",
     "points": 6,
     "CBMs": [
       "bio_sword",
@@ -694,7 +695,7 @@
     "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -704,7 +705,7 @@
     "type": "profession",
     "id": "sf_claw",
     "name": "Slave Fighter (Claws)",
-    "description": "You were augmented with some claws, and enhancements to your reflexes. You deliver a powerful strike that neutralizes foes in few hits.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with bionic claws and enhancements to your reflexes.  Forced through rudimentary training as a novelty fighter, you were expected to tear your foes apart like an animal.",
     "points": 6,
     "CBMs": [
       "bio_claws",
@@ -726,7 +727,7 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -736,7 +737,7 @@
     "type": "profession",
     "id": "sf_shock",
     "name": "Slave Fighter (Shocker)",
-    "description": "You were augmented with electrical generators and protection from them. You hit multiple foes with electricity, frying them until their nervous system gives up.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with electrical generation and protection bionics.  It was expected that you'd be a living tesla coil in the ring, frying victims until they roll over and die.",
     "points": 6,
     "CBMs": [
       "bio_chain_lightning",
@@ -752,7 +753,7 @@
     "traits": [ "PROF_GLADIATOR" ],
     "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "dodge" } ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -762,15 +763,13 @@
     "type": "profession",
     "id": "sf_weapon",
     "name": "Slave Fighter (Weapon Master)",
-    "description": "You have been augmented with many 'passive' combat bionics, they merely aid you but are not weapons in and of themselves. You have been trained to use all sorts of different weapons, including your fists. You can pretty much weaponize a sock.",
+    "description": "You were kidnapped for some sort of underground bloodsport.  Augmented with a mish-mash of support bionics and put through hellish training, you were intended to be a wild card to spice up matches, able to weaponize whatever you could get your hands on.",
     "points": 6,
     "traits": [ "MARTIAL_ARTS_SURV_COM", "PROF_GLADIATOR" ],
     "CBMs": [
-      "bio_razors",
       "bio_magnet",
       "bio_railgun",
       "bio_shock",
-      "bio_flamethrower",
       "bio_targeting",
       "bio_eye_enhancer",
       "bio_dex_enhancer",
@@ -799,10 +798,177 @@
       { "level": 2, "name": "throw" }
     ],
     "items": {
-      "both": [ "socks", "hat_cotton", "gloves_fingerless", "tshirt", "jeans", "boots" ],
+      "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
     "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "prof_feral_bio_weapon",
+    "copy-from": "prof_feral_unemployed",
+    "name": "Feral Bio-Weapon",
+    "description": "From the moment you opened your eyes you knew you were a failure, a reject.  Destined to be something great but many a mistake took that away from you.  You awoke in a world of monsters, so only fitting that you're a monster yourself.",
+    "//": "CBMs based off failed bio-weapon, mutations take more influence from Alpha.",
+    "points": 4,
+    "traits": [
+      "NIGHTVISION",
+      "PAINREC_BIOWEAPON",
+      "SPEED_BIOWEAPON",
+      "REGEN_BIOWEAPON",
+      "HUNGER_BIOWEAPON",
+      "STAMINA_BIOWEAPON",
+      "NEURO_BAD_BIOWEAPON",
+      "BIO_WEAPON_FAILED",
+      "PROF_FERAL"
+    ],
+    "skills": [ { "level": 2, "name": "firstaid" }, { "level": 2, "name": "electronics" }, { "level": 2, "name": "mechanics" } ],
+    "CBMs": [
+      "bio_drain",
+      "bio_power_weakness",
+      "bio_nostril",
+      "bio_thumbs",
+      "bio_leaky",
+      "bio_sleepy",
+      "bio_trip",
+      "bio_stiff",
+      "bio_razors",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_hydraulics",
+      "bio_metabolics",
+      "bio_chain_lightning",
+      "bio_carbon",
+      "bio_nanobots",
+      "bio_painkiller",
+      "bio_torsionratchet",
+      "bio_cqb",
+      "bio_shock",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_armor_eyes"
+    ],
+    "items": {
+      "both": {
+        "items": [ "badge_bio_weapon" ],
+        "entries": [
+          { "item": "footrags", "damage": [ 0, 3 ] },
+          { "item": "subsuit_xl", "damage": [ 0, 3 ] },
+          { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] }
+        ]
+      },
+      "male": { "entries": [ { "item": "briefs", "damage": [ 0, 3 ] } ] },
+      "female": { "entries": [ { "item": "bra", "damage": [ 0, 3 ] }, { "item": "panties", "damage": [ 0, 3 ] } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "prof_feral_bio_infantry",
+    "copy-from": "prof_feral_unemployed",
+    "name": "Feral Super Soldier",
+    "description": "You were one of many augmented soldiers to be deployed into a battle field to ensure victory, as part of the of the Super Soldier project.  Now there's nothing left but more targets to be put down.",
+    "points": 16,
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_blade",
+      "bio_carbon",
+      "bio_metabolics",
+      "bio_nanobots",
+      "bio_painkiller",
+      "bio_night_vision",
+      "bio_purifier",
+      "bio_shock",
+      "bio_targeting",
+      "bio_ups",
+      "bio_power_storage_sentinel",
+      "bio_str_enhancer",
+      "bio_dex_enhancer",
+      "bio_eye_enhancer",
+      "bio_int_enhancer",
+      "bio_speed"
+    ],
+    "traits": [
+      "SUPER_SOLDIER_MARKER",
+      "THRESH_SUPER_SOLDIER",
+      "SENTINEL_PERK_STR",
+      "SENTINEL_PERK_DEX",
+      "SENTINEL_PERK_PER",
+      "SENTINEL_PERK_INT",
+      "PROF_MILITARY",
+      "PROF_FERAL"
+    ],
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "shotgun" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "unarmed" },
+      { "level": 3, "name": "cutting" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "under_armor_shorts", "damage": [ 0, 3 ] },
+          { "item": "thermal_shirt", "damage": [ 0, 3 ] },
+          { "item": "socks", "damage": [ 0, 3 ] },
+          { "item": "gloves_liner", "damage": [ 0, 3 ] },
+          { "item": "mil_armor", "damage": [ 0, 3 ] },
+          { "item": "helmet_liner", "damage": [ 0, 3 ] },
+          { "item": "mil_helm", "damage": [ 0, 3 ] },
+          { "item": "molle_pack", "damage": [ 0, 3 ] },
+          { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
+          {
+            "item": "xarm_laser_shotgun",
+            "ammo-item": "battery",
+            "charges": [ 1, 5000 ],
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "auto_wield" ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "prof_feral_sf_blade",
+    "copy-from": "prof_feral_unemployed",
+    "name": "Feral Slave Fighter",
+    "description": "You were augmented and used as part of an underground blood sport.  You survived, a lot of fresh meat didn't.  Your handlers didn't either, and now you've free once more, free and a lot hungrier than before you were kidnapped.",
+    "//": "One higher point cost since starts off geared up and mutated like a Red Team gladiator.",
+    "points": 7,
+    "CBMs": [
+      "bio_shock",
+      "bio_adrenaline",
+      "bio_drain",
+      "bio_power_weakness",
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [ "LARGE", "COLDBLOOD", "GROWL", "PROF_GLADIATOR", "PROF_FERAL" ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "loincloth", "damage": [ 0, 3 ] },
+          { "item": "pants_leather", "damage": [ 0, 3 ] },
+          { "item": "armguard_scrap", "damage": [ 0, 3 ] },
+          { "item": "footrags", "damage": [ 0, 3 ] },
+          { "item": "boots_steel", "damage": [ 0, 3 ] },
+          { "item": "helmet_scrap", "damage": [ 0, 3 ] },
+          { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "female": { "entries": [ { "item": "chestwrap", "damage": [ 0, 3 ] } ] }
+    }
   }
 ]

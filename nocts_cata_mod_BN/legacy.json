@@ -836,5 +836,15 @@
       "terrain": [ "Survivor_Holdout_1" ],
       "message": "Thoroughly poring over the map, you memorize the location."
     }
+  },
+  {
+    "id": "surcan",
+    "type": "MIGRATION",
+    "replace": "survival_kit"
+  },
+  {
+    "type": "recipe",
+    "result": "surcanuncraft",
+    "obsolete": true
   }
 ]

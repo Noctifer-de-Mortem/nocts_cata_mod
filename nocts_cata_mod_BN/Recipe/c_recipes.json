@@ -97,30 +97,6 @@
     "tools": [ [ [ "bearing", -1 ], [ "marble", -1 ] ] ]
   },
   {
-    "result": "surcan",
-    "type": "uncraft",
-    "time": "1 m",
-    "components": [
-      [ [ "knife_swissarmy", 1 ] ],
-      [ [ "mask_dust", 1 ] ],
-      [ [ "sewing_kit", 1 ] ],
-      [ [ "aluminum_foil", 1 ] ],
-      [ [ "ref_lighter", 1 ] ],
-      [ [ "string_6", 20 ] ],
-      [ [ "1st_aid", 1 ] ],
-      [ [ "pur_tablets", 1 ] ],
-      [ [ "wild_herbs", 1 ] ],
-      [ [ "caff_gum", 1 ] ],
-      [ [ "fishing_hook_basic", 2 ] ],
-      [ [ "gloves_medical", 1 ] ],
-      [ [ "bandana", 1 ] ],
-      [ [ "ear_plugs", 1 ] ],
-      [ [ "paper", 1 ] ],
-      [ [ "can_food_unsealed", 2 ] ]
-    ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
     "result": "can_forge",
     "type": "recipe",
     "category": "CC_OTHER",
