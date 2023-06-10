@@ -2630,6 +2630,22 @@
     "components": [ [ [ "alien_pod_resin", 1 ] ] ]
   },
   {
+    "type": "recipe",
+    "result": "c_alien_resin_bullet_makeshift",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ [ "gun", 2 ] ],
+    "time": "30 m",
+    "batch_time_factors": [ 80, 4 ],
+    "charges": 10,
+    "book_learn": [ [ "evil_invitation", 3 ], [ "recipe_lab_elec", 4 ], [ "recipe_creepy", 4 ], [ "recipe_labchem", 5 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "forging_standard", 1 ] ],
+    "components": [ [ [ "scrap", 1 ], [ "weights", 4, "LIST" ] ] ]
+  },
+  {
     "result": "c_mi_go_beam_salvaged",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
