@@ -2231,7 +2231,7 @@
       [ [ "hose", 1 ], [ "makeshift_hose", 1 ] ],
       [ [ "canister_empty", 1 ], [ "clay_canister", 1 ] ],
       [ [ "pilot_light", 1 ] ],
-      [ [ "magnesium", 50 ], [ "incendiary", 50 ] ]
+      [ [ "magnesium", 50 ], [ "chem_aluminium_powder", 50 ], [ "incendiary", 50 ] ]
     ]
   },
   {
