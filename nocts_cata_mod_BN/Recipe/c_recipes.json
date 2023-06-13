@@ -2095,10 +2095,10 @@
     "tools": [ [ [ "smoxygen_tank", 12 ], [ "oxygen_tank", 12 ], [ "oxygen_cylinder", 100 ] ] ],
     "components": [
       [ [ "pipe", 1 ] ],
-      [ [ "hose", 1 ] ],
-      [ [ "canister_empty", 1 ] ],
+      [ [ "hose", 1 ], [ "makeshift_hose", 1 ] ],
+      [ [ "canister_empty", 1 ], [ "clay_canister", 1 ] ],
       [ [ "pilot_light", 1 ] ],
-      [ [ "magnesium", 50 ], [ "incendiary", 50 ] ]
+      [ [ "magnesium", 50 ], [ "chem_aluminium_powder", 50 ], [ "incendiary", 50 ] ]
     ]
   },
   {
@@ -2106,7 +2106,7 @@
     "type": "uncraft",
     "time": "2 m",
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "canister_empty", 1 ] ], [ [ "hose", 1 ] ], [ [ "scrap", 1 ] ] ]
+    "components": [ [ [ "canister_empty", 1 ] ], [ [ "pilot_light", 1 ] ], [ [ "hose", 1 ] ], [ [ "scrap", 1 ] ] ]
   },
   {
     "result": "lmil_armor",
