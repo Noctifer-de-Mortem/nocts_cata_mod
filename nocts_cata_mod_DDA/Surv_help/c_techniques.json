@@ -108,7 +108,8 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_tec": true,
-    "downed_target": true,
+    "condition": { "npc_has_effect": "downed" },
+    "condition_desc": "* Only works on a <info>downed</info> target",
     "stun_dur": 1,
     "flat_bonuses": [
       { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.5 },
