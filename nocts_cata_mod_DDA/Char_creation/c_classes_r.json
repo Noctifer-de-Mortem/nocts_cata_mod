@@ -9,7 +9,17 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "cowboy_hat_surv_surv_drifter",
-    "entries": [ { "item": "36navy_makeshift_magnum", "charges": 12 } ]
+    "entries": [ { "item": "44army_makeshift_magnum", "charges": 12 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "legrig_surv_surv_drifter",
+    "entries": [
+      { "item": "colt_navy", "ammo-item": "36navy_makeshift_magnum", "charges": 6 },
+      { "item": "colt_army", "ammo-item": "44army_makeshift_magnum", "charges": 6 },
+      { "item": "knife_hunting" }
+    ]
   },
   {
     "type": "profession",
@@ -99,18 +109,13 @@
         ],
         "entries": [
           { "item": "cowboy_hat_surv", "contents-group": "cowboy_hat_surv_surv_drifter" },
-          {
-            "item": "colt_navy",
-            "ammo-item": "36navy_makeshift_magnum",
-            "charges": 6,
-            "container-item": "XL_holster"
-          },
+          { "item": "legrig_surv", "contents-group": "legrig_surv_surv_drifter" },
           { "item": "flintlock_pouch", "contents-group": "flintlock_pouch_surv_drifter" },
-          { "item": "knife_hunting", "container-item": "sheath" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "vinegar", "container-item": "bottle_plastic_small" },
           { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
-          { "item": "36navy_makeshift_magnum", "charges": 8 },
+          { "item": "36navy_makeshift_magnum", "charges": 5 },
+          { "item": "44army_makeshift_magnum", "charges": 7 },
           { "group": "charged_ref_lighter" }
         ]
       },
