@@ -22,7 +22,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 22 ] ],
     "gunmod_data": {
       "location": "underbarrel",
-      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+      "mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "SHOTGUNS" ], [ "M_XBOWS" ] ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
       "install_time": "20 m"
     }
@@ -50,7 +50,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 20 ] ],
     "gunmod_data": {
       "location": "underbarrel",
-      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+      "mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "SHOTGUNS" ], [ "M_XBOWS" ] ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
       "install_time": "20 m"
     }
