@@ -1330,16 +1330,9 @@
     "difficulty": 9,
     "time": "240 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "qualities": [
-      { "id": "ANVIL", "level": 3 },
-      { "id": "CUT", "level": 1 },
-      { "id": "HAMMER_FINE", "level": 1 },
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "using": [ [ "forging_standard", 4 ], [ "steel_standard", 3 ] ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "using": [ [ "blacksmithing_advanced", 4 ], [ "steel_standard", 3 ] ],
+    "tools": [ [ [ "small_repairkit", 120 ], [ "large_repairkit", 120 ] ] ],
     "components": [ [ [ "2x4", 2 ] ], [ [ "pipe", 2 ] ], [ [ "spring", 2 ] ], [ [ "pilot_light", 1 ] ] ]
   },
   {
