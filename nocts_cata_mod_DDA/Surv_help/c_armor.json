@@ -1068,7 +1068,6 @@
       "success_chance": 2,
       "success_message": "Your makeshift power armor roars to life, servos kicking into gear!",
       "failure_message": "Your armor sputters but fails to start up.",
-      "lacks_fuel_message": "You work your armor's starter, but nothing happens."
     },
     "warmth": 15,
     "environmental_protection": 5,
