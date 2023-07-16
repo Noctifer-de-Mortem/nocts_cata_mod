@@ -1067,7 +1067,7 @@
       "noise": 10,
       "success_chance": 2,
       "success_message": "Your makeshift power armor roars to life, servos kicking into gear!",
-      "failure_message": "Your armor sputters but fails to start up.",
+      "failure_message": "Your armor sputters but fails to start up."
     },
     "warmth": 15,
     "environmental_protection": 5,
