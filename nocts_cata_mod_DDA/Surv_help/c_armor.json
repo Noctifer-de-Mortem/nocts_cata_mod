@@ -1093,12 +1093,13 @@
     "revert_to": "c_power_armor_surv",
     "revert_msg": "Your makeshift power armor sputters and dies!",
     "use_action": [
+      { "type": "transform", "target": "c_power_armor_surv", "msg": "You shut the makeshift power armor off.", "menu_text": "Turn off" }
+    ],
+    "tick_action": [
       {
         "type": "fireweapon_on",
-        "noise": 30,
         "noise_chance": 5,
         "noise_message": "Your armor whirs with activity.",
-        "voluntary_extinguish_message": "You shut the makeshift power armor off.",
         "charges_extinguish_message": "Your makeshift power armor sputters and dies!",
         "water_extinguish_message": "Your armor's engine floods and cuts out!"
       }
