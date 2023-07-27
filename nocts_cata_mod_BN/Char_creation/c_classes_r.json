@@ -189,7 +189,6 @@
       ],
       "male": [ "fancy_briefs", "pants" ],
       "female": [ "fancy_bra", "fancy_panties", "dress_skirt" ]
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   }
 ]
