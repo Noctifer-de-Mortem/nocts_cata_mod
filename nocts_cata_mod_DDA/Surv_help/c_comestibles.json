@@ -15,7 +15,6 @@
     "material": [ "hydrocarbons" ],
     "volume": "250 ml",
     "phase": "solid",
-    "charges": 1,
     "fun": -10
   },
   {
