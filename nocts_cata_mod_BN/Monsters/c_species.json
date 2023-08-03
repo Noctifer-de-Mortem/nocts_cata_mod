@@ -2,12 +2,14 @@
   {
     "type": "SPECIES",
     "id": "BIO-WEAPON",
+    "name": { "str": "bio-weapon" },
     "anger_triggers": [  ],
     "fear_triggers": [  ]
   },
   {
     "type": "SPECIES",
     "id": "FBIO-WEAPON",
+    "name": { "str": "bio-weapon" },
     "anger_triggers": [  ],
     "fear_triggers": [  ]
   }
