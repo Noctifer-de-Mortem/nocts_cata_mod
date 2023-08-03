@@ -71,7 +71,7 @@
     "name": { "str": "<color_light_green>(Cataclysm++)</color> Sunrise" },
     "description": "Slay Bio-Weapon Apophis.",
     "hidden_by": [ "achievement_c_npc_router" ],
-    "kill_requirements": [ { "monster": "hulk_weapon", "is": ">=", "count": "1" } ],
+    "kill_requirements": [ { "monster": "hulk_weapon", "is": ">=", "count": 1 } ],
     "requirements": [ { "event_statistic": "num_avatar_c_monkill_apophis", "is": "anything" } ]
 
   },
