@@ -859,8 +859,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "use_action": [ "WEATHER_TOOL", "DISASSEMBLE",
-      { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
+    "use_action": [ "WEATHER_TOOL", "DISASSEMBLE", { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
     "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
   },
   {
