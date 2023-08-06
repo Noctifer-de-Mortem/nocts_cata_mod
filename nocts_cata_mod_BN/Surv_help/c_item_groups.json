@@ -473,7 +473,7 @@
     "items": [
       [ "biomap", 1 ],
       [ "dress_skirt", 25 ],
-	  [ "dress_pants", 25 ],
+      [ "dress_pants", 25 ],
       [ "microskirt", 10 ],
       [ "fancy_bra", 10 ],
       [ "fancy_panties", 10 ],
@@ -557,7 +557,7 @@
     "type": "item_group",
     "items": [
       [ "dress_skirt", 25 ],
-	  [ "dress_pants", 25 ],
+      [ "dress_pants", 25 ],
       [ "microskirt", 10 ],
       [ "fancy_bra", 10 ],
       [ "fancy_panties", 10 ],
