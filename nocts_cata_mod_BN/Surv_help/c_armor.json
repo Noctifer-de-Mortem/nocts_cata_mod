@@ -620,7 +620,7 @@
     "description": "A simple leather bikini bottom.",
     "material": [ "leather" ],
     "warmth": 5,
-    "delete": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
+    "extend": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
   },
   {
     "id": "bikini_bottom_fur",
@@ -631,7 +631,7 @@
     "description": "A simple fur bikini bottom.",
     "material": [ "fur" ],
     "warmth": 10,
-    "delete": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
+    "extend": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
   },
   {
     "id": "thong",
