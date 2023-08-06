@@ -158,7 +158,6 @@
       "bio_alarm",
       "bio_cloak",
       "bio_atomic_battery",
-      "bio_cloak",
       "bio_fingerhack",
       "bio_lockpick",
       "bio_metabolics",
@@ -195,7 +194,7 @@
         "matches",
         "bottle_metal"
       ],
-      "male": [ "fancy_briefs", "pants" ],
+      "male": [ "fancy_briefs", "dress_pants" ],
       "female": [ "fancy_bra", "fancy_panties", "dress_skirt" ]
     }
   }

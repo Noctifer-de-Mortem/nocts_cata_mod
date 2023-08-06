@@ -620,7 +620,7 @@
     "description": "A simple leather bikini bottom.",
     "material": [ "leather" ],
     "warmth": 5,
-    "delete": { "flags": [ "WATER_FRIENDLY" ] }
+    "extend": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
   },
   {
     "id": "bikini_bottom_fur",
@@ -631,7 +631,7 @@
     "description": "A simple fur bikini bottom.",
     "material": [ "fur" ],
     "warmth": 10,
-    "delete": { "flags": [ "WATER_FRIENDLY" ] }
+    "extend": { "flags": [ "FANCY", "WATER_FRIENDLY" ] }
   },
   {
     "id": "thong",
@@ -663,6 +663,15 @@
     "description": "A skirt that is on the short side.  No pockets but it is comfortable to wear.",
     "storage": 0,
     "coverage": 30
+  },
+  {
+    "id": "dress_pants",
+    "copy-from": "pants",
+    "repairs_like": "jeans",
+    "type": "ARMOR",
+    "name": { "str": "dress pants" },
+    "description": "A pair of khaki pants.  Slightly warmer than jeans and much more professional than normal pants.",
+    "extend": { "flags": [ "FANCY" ] }
   },
   {
     "type": "mutation",
