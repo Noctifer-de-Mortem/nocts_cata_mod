@@ -847,7 +847,7 @@
     "id": "parawatch",
     "type": "ARMOR",
     "name": { "str": "paracord survival watch", "str_pl": "paracord survival watches" },
-    "description": "A simple wristwatch on a plastic band, wrapped with a paracord bracelet with a thermometer attached.  Tells the time and has an alarm clock feature.",
+    "description": "A simple wristwatch on a plastic band, wrapped with a paracord bracelet with a thermometer, magnifying glass, and compass attached.  Tells the time and has an alarm clock feature.",
     "weight": "100 g",
     "volume": "500 ml",
     "price": "10 USD",
@@ -859,8 +859,9 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "use_action": [ "WEATHER_TOOL", "DISASSEMBLE" ],
-    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "THERMOMETER" ]
+    "use_action": [ "WEATHER_TOOL", "DISASSEMBLE",
+      { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
+    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
   },
   {
     "id": "parabracelets",

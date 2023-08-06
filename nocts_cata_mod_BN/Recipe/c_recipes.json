@@ -1499,7 +1499,7 @@
     "result": "parawatch",
     "type": "uncraft",
     "time": "1 m",
-    "components": [ [ [ "parabracelets", 1 ] ], [ [ "wristwatch", 1 ] ], [ [ "thermometer", 1 ] ] ],
+    "components": [ [ [ "parabracelets", 1 ] ], [ [ "wristwatch", 1 ] ], [ [ "thermometer", 1 ] ], [ [ "magnifying_glass", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
