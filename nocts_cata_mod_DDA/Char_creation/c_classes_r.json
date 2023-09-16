@@ -165,6 +165,37 @@
   },
   {
     "type": "profession",
+    "id": "surv_techno_barbarian",
+    "name": "Wasteland Techno-Barbarian",
+    "description": "The end of the world brings out the best and worst in everyone.  For you, it was a chance to channel your pre-Cataclysm expertise into something more primal.  Whether you have the might to use such armament remains to be seen.",
+    "points": 12,
+    "skills": [
+      { "level": 6, "name": "fabrication" },
+      { "level": 4, "name": "mechanics" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "cooking" },
+      { "level": 3, "name": "survival" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "bashing" },
+      { "level": 1, "name": "cutting" }
+    ],
+    "proficiencies": [ "prof_metalworking", "prof_intro_chemistry" ],
+    "items": {
+      "both": {
+        "ammo": 100,
+        "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot" ],
+        "entries": [
+          { "item": "c_power_armor_surv", "ammo-item": "lamp_oil", "charges": 2000 },
+          { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] },
+          { "item": "makeshift_knife", "container-item": "sheath" }
+        ]
+      },
+      "female": [ "chestwrap" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
     "id": "bionic_silencer",
     "name": "Bionic Silencer",
     "description": "You were trained and equipped for infiltrating secure facilities for your mysterious backers, to secure specific objects of interest and silence high-value targets.  Now that they've gone silent themselves, you'll have to use your gifts for simple survival.",

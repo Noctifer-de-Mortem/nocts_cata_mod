@@ -165,7 +165,7 @@
     "items": {
       "both": {
         "ammo": 100,
-        "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot", "press_dowel", "puller" ],
+        "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot" ],
         "entries": [
           { "item": "c_power_armor_surv", "ammo-item": "lamp_oil", "charges": 2000 },
           { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] },
