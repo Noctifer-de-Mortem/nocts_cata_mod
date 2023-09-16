@@ -191,6 +191,7 @@
       [ "FLAMETHROWERS" ]
     ],
     "volume": "250 ml",
+    "integral_volume": "125 ml",
     "price": "850 USD",
     "price_postapoc": "850 cent",
     "install_time": "30 m",
