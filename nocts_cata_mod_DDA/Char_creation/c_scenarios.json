@@ -59,7 +59,19 @@
     "points": 2,
     "start_name": "Boarded Up House",
     "allowed_locs": [ "sloc_house_boarded" ],
-    "professions": [ "survivalist", "jr_survivalist", "prepper", "fisher", "birder", "groundskeeper", "blacksmith" ],
+    "professions": [
+      "survivalist",
+      "jr_survivalist",
+      "prepper",
+      "fisher",
+      "birder",
+      "groundskeeper",
+      "blacksmith",
+      "bionic_silencer",
+      "surv_drifter",
+      "surv_knight_errant",
+      "surv_techno_barbarian"
+    ],
     "traits": [ "MARTIAL_ARTS_SURV_COM" ]
   },
   {
@@ -151,7 +163,8 @@
         "bio_knight",
         "bio_tool",
         "surv_drifter",
-        "surv_knight_errant"
+        "surv_knight_errant",
+        "surv_techno_barbarian"
       ]
     }
   },
@@ -171,7 +184,8 @@
         "bio_knight",
         "bio_tool",
         "surv_drifter",
-        "surv_knight_errant"
+        "surv_knight_errant",
+        "surv_techno_barbarian"
       ]
     }
   },
@@ -179,7 +193,7 @@
     "copy-from": "wilderness",
     "type": "scenario",
     "add_professions": true,
-    "extend": { "allowed_locs": [ "surv_camp_l" ], "professions": [ "surv_drifter", "surv_knight_errant" ] },
+    "extend": { "allowed_locs": [ "surv_camp_l" ], "professions": [ "surv_drifter", "surv_knight_errant", "surv_techno_barbarian" ] },
     "id": "wilderness"
   },
   {
@@ -219,7 +233,7 @@
     "copy-from": "surrounded",
     "type": "scenario",
     "add_professions": true,
-    "extend": { "allowed_locs": [ "sloc_mansion" ], "professions": [ "surv_drifter", "surv_knight_errant" ] },
+    "extend": { "allowed_locs": [ "sloc_mansion" ], "professions": [ "surv_drifter", "surv_knight_errant", "surv_techno_barbarian" ] },
     "id": "surrounded"
   },
   {

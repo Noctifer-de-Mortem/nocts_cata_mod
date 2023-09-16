@@ -966,7 +966,7 @@
       {
         "moves": 75,
         "min_volume": "50 ml",
-        "max_contains_volume": "1500 ml",
+        "max_contains_volume": "2 L",
         "max_contains_weight": "5 kg",
         "max_item_length": "762 mm",
         "skills": [ "pistol", "smg", "shotgun", "rifle" ],
@@ -975,7 +975,7 @@
       {
         "moves": 75,
         "min_volume": "50 ml",
-        "max_contains_volume": "1500 ml",
+        "max_contains_volume": "2 L",
         "max_contains_weight": "5 kg",
         "max_item_length": "762 mm",
         "skills": [ "pistol", "smg", "shotgun", "rifle" ],
@@ -984,7 +984,7 @@
       {
         "moves": 75,
         "min_volume": "50 ml",
-        "max_contains_volume": "1500 ml",
+        "max_contains_volume": "2 L",
         "max_contains_weight": "5 kg",
         "max_item_length": "762 mm",
         "holster": true,
@@ -993,7 +993,7 @@
       {
         "moves": 75,
         "min_volume": "50 ml",
-        "max_contains_volume": "1500 ml",
+        "max_contains_volume": "2 L",
         "max_contains_weight": "5 kg",
         "max_item_length": "762 mm",
         "holster": true,
