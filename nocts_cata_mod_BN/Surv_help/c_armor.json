@@ -896,7 +896,6 @@
       "min_volume": "50 ml",
       "max_volume": "2 L",
       "skills": [ "pistol", "smg", "shotgun", "rifle" ],
-      "draw_cost": 75,
       "flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
     },
     "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "NO_QUICKDRAW" ]
