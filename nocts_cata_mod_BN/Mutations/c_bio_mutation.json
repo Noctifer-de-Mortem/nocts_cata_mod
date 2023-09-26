@@ -1,5 +1,17 @@
 [
   {
+    "id": "BIO_WEAPON_SCEN",
+    "type": "mutation_flag"
+  },
+  {
+    "id": "BIO_WEAPON_SERIES_1",
+    "type": "mutation_flag"
+  },
+  {
+    "id": "BIO_WEAPON_ANY",
+    "type": "mutation_flag"
+  },
+  {
     "type": "mutation",
     "id": "BIO_WEAPON_ALPHA",
     "name": { "str": "Bio-Weapon Alpha" },
