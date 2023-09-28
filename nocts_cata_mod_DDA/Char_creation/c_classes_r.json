@@ -185,7 +185,7 @@
         "ammo": 100,
         "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot" ],
         "entries": [
-          { "item": "c_power_armor_surv", "ammo-item": "lamp_oil", "charges": 2000 },
+          { "item": "c_power_armor_surv", "contents-item": "lamp_oil", "charges": 2000 },
           { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] },
           { "item": "makeshift_knife", "container-item": "sheath" }
         ]
