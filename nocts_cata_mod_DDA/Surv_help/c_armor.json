@@ -806,7 +806,7 @@
     "copy-from": "c_mi_go_carapace_salvaged",
     "type": "TOOL_ARMOR",
     "name": { "str": "salvaged carapace armor (on)", "str_pl": "salvaged carapace armors (on)" },
-    "description": "A vaguely human-shaped shell of alien sinew and steel support, covered in armor plates made of resin.  Salvaged using pre-cataclysm research into other living weaponry, it's been practically mutilated to fit a human (or mutant) wearer.  Currently active, it enhances strength and dexterity, make your attacks faster, protects the wearer from toxic gas, serves as a rebreather, enhances stamina and carry capacity, and provides some protection from outside temperature.  Recharges in sunlight, being active also gradually fatigues the user and affects healthiness, plus renders them more vulnerable to electric shocks.",
+    "description": "A second skin of alien sinew and steel support, covered in armor plates made of resin.  Salvaged using pre-cataclysm research into other living weaponry, it's been practically mutilated to fit a human (or mutant) wearer.  Currently active, it enhances strength and dexterity, make your attacks faster, protects the wearer from toxic gas, serves as a rebreather, enhances stamina and carry capacity, and provides some protection from outside temperature.  Recharges in sunlight, being active also gradually fatigues the user and affects healthiness, plus renders them more vulnerable to electric shocks.",
     "turns_per_charge": 150,
     "revert_to": "c_mi_go_carapace_salvaged",
     "use_action": {
