@@ -113,7 +113,15 @@
       [ "foot_l", 5 ],
       [ "foot_r", 5 ]
     ],
-    "armor": [ { "parts": "ALL", "physical": 10 } ]
+    "armor": [
+      {
+        "parts": [ "ALL" ],
+        "cut": 10,
+        "bash": 10,
+        "stab": 10,
+        "bullet": 10
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -345,7 +353,15 @@
     "profession": true,
     "cancels": [ "TOUGH", "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "THICKSKIN", "THINSKIN" ],
     "hp_modifier": -0.5,
-    "armor": [ { "parts": "ALL", "physical": -5 } ]
+    "armor": [
+      {
+        "parts": [ "ALL" ],
+        "cut": -5,
+        "bash": -5,
+        "stab": -5,
+        "bullet": -5
+      }
+    ]
   },
   {
     "type": "mutation",
