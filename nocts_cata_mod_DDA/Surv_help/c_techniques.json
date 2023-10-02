@@ -83,7 +83,6 @@
     "crit_tec": true,
     "stun_dur": 2,
     "knockback_dist": 4,
-    "powerful_knockback": true,
     "attack_vectors": [ "WEAPON", "HAND" ]
   },
   {
