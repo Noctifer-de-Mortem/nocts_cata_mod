@@ -6,5 +6,187 @@
     "name": { "str": "repeating crossbow" },
     "skill": "rifle",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ]
+  },
+  {
+    "id": "acr",
+    "copy-from": "acr",
+    "name": { "str": "Remington ACR" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "ar15",
+    "copy-from": "ar15",
+    "name": { "str": "AR-15" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "ar_pistol",
+    "copy-from": "ar_pistol",
+    "name": { "str": "AR pistol" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "h&k416a5",
+    "copy-from": "h&k416a5",
+    "name": { "str": "H&K416 A5" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "m249",
+    "copy-from": "m249",
+    "name": { "str": "M249" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag", "surv_belt_223" ] ] ] }
+  },
+  {
+    "id": "m27iar",
+    "copy-from": "m27iar",
+    "name": { "str": "M27 IAR" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "m4a1",
+    "copy-from": "m4a1",
+    "name": { "str": "M4A1" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "m16a4",
+    "copy-from": "m16a4",
+    "name": { "str": "M16A4" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "oa93",
+    "copy-from": "oa93",
+    "name": { "str": "OA-93" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "scar_l",
+    "copy-from": "scar_l",
+    "name": { "str": "FN SCAR-L" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "sig552",
+    "copy-from": "sig552",
+    "name": { "str": "SIG 552" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "surv_carbine_223",
+    "copy-from": "surv_carbine_223",
+    "name": { "str": "handmade carbine" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "223", [ "surv_223_mag" ] ] ] }
+  },
+  {
+    "id": "ak47",
+    "copy-from": "ak47",
+    "name": { "str": "AKM" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "762", [ "surv_762_mag" ] ] ] }
+  },
+  {
+    "id": "arx160",
+    "copy-from": "arx160",
+    "name": { "str_sp": "Beretta ARX-160" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "762", [ "surv_762_mag" ] ] ] }
+  },
+  {
+    "id": "aksemi",
+    "copy-from": "aksemi",
+    "name": { "str": "AK-47" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "762", [ "surv_762_mag" ] ] ] }
+  },
+  {
+    "id": "draco",
+    "copy-from": "draco",
+    "name": { "str": "Mini Draco" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "762", [ "surv_762_mag" ] ] ] }
+  },
+  {
+    "id": "m14ebr",
+    "copy-from": "m14ebr",
+    "name": { "str_sp": "M14 EBR-RI" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "308", [ "surv_308_mag" ] ] ] }
+  },
+  {
+    "id": "m1a",
+    "copy-from": "m1a",
+    "name": { "str_sp": "M1A" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "308", [ "surv_308_mag" ] ] ] }
+  },
+  {
+    "id": "m240",
+    "copy-from": "m240",
+    "name": { "str": "M240" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "308", [ "surv_belt_308" ] ] ] }
+  },
+  {
+    "id": "m60",
+    "copy-from": "m60",
+    "name": { "str": "M60" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "308", [ "surv_belt_308" ] ] ] }
+  },
+  {
+    "id": "saiga_12",
+    "copy-from": "saiga_12",
+    "name": { "str": "Saiga-12" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "shot", [ "surv_12_mag" ] ] ] }
+  },
+  {
+    "id": "smg_9mm",
+    "copy-from": "smg_9mm",
+    "name": { "str": "Luty SMG: 9x19mm", "str_pl": "Luty SMGs: 9x19mm" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "9mm", [ "surv_9mm_mag" ] ] ] }
+  },
+  {
+    "id": "sten",
+    "copy-from": "sten",
+    "name": { "str": "STEN" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "9mm", [ "surv_9mm_mag" ] ] ] }
+  },
+  {
+    "id": "mac_10",
+    "copy-from": "mac_10",
+    "name": { "str": "MAC-10" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "45", [ "surv_45_mag" ] ] ] }
+  },
+  {
+    "id": "smg_45",
+    "copy-from": "smg_45",
+    "name": { "str": "Luty SMG: .45", "str_pl": "Luty SMGs: .45" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "45", [ "surv_45_mag" ] ] ] }
+  },
+  {
+    "id": "m107a1",
+    "copy-from": "m107a1",
+    "name": { "str_sp": "Barrett M107A1" },
+    "type": "GUN",
+    "extend": { "magazines": [ [ "50", [ "surv_50_mag" ] ] ] }
   }
 ]
