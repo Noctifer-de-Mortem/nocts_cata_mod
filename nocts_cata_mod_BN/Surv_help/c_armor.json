@@ -1015,9 +1015,9 @@
     "color": "blue",
     "looks_like": "shield_welded",
     "covers": [ "arm_either", "leg_either" ],
-    "coverage": 80,
-    "encumbrance": 50,
-    "material_thickness": 7,
+    "coverage": 90,
+    "encumbrance": 45,
+    "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
     "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN" ]
   }
