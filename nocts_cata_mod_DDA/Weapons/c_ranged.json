@@ -1187,8 +1187,10 @@
       "type": "transform",
       "msg": "You collapse the fighting bow into its takedown form.",
       "target": "survbowstored",
+      "menu_text": "Fold",
       "ammo_scale": 0
-    }
+    },
+    "valid_mod_locations": [ [ "dampening", 1 ], [ "arrow rest", 1 ] ]
   },
   {
     "id": "greatbow_makeshift",
@@ -1822,14 +1824,15 @@
     "price_postapoc": "75 USD",
     "material": [ "superalloy", "steel" ],
     "flags": [ "RELOAD_ONE", "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS" ],
-    "energy_drain": "2 kJ",
+    "energy_drain": "5 kJ",
     "skill": "rifle",
     "ammo": [ "bolt" ],
     "weight": "3280 g",
     "volume": "2 L",
     "melee_damage": { "bash": 8 },
     "to_hit": -2,
-    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "//": "Bows and crossbows are hilariously bad in DDA, crits are supposed to make up for that but those are unreliable",
+    "ranged_damage": { "damage_type": "stab", "amount": 5 },
     "range": 20,
     "dispersion": 50,
     "recoil": 20,
@@ -1839,8 +1842,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 12 } } ],
     "reload": 100,
     "valid_mod_locations": [
-      [ "accessories", 2 ],
       [ "dampening", 1 ],
+      [ "mechanism", 4 ],
       [ "sling", 1 ],
       [ "grip", 1 ],
       [ "rail", 1 ],
