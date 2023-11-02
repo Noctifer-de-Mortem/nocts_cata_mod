@@ -569,7 +569,13 @@
     "weight": "1144 g",
     "volume": "1 L",
     "to_hit": -1,
-    "use_action": { "type": "transform", "msg": "You unfold your bow, locking the arms into place.", "target": "survbow" }
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Unfold",
+      "msg": "You unfold your bow, locking the arms into place.",
+      "target": "survbow"
+    },
+    "flags": [ "BELT_CLIP" ]
   },
   {
     "id": "semap",
