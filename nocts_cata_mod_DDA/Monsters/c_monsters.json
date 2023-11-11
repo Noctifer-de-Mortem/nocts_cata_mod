@@ -120,7 +120,6 @@
     "luminance": 30,
     "regenerates": 10,
     "regeneration_modifiers": [ [ "onfire", -5 ] ],
-    "starting_ammo": { "generic_no_ammo": 1000 },
     "harvest": "CBM_APOPHIS",
     "dissect": "dissect_CBM_APOPHIS",
     "special_attacks": [
