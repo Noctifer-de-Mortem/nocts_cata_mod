@@ -68,7 +68,7 @@
     "loudness": 2,
     "count": 20,
     "dont_recover_one_in": 10,
-    "effects": [ "NEVER_MISFIRES", "NON-FOULING" ]
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ]
   },
   {
     "type": "AMMO",
