@@ -966,7 +966,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift power armor (on)", "str_pl": "makeshift power armors (on)" },
     "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
-    "extend": { "effects": [ "TRADER_AVOID", "FIRE_SUPPORT" ] },
+    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
     "turns_per_charge": 6,
     "revert_to": "c_power_armor_surv",
@@ -1019,6 +1019,6 @@
     "encumbrance": 45,
     "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "FIRE_SUPPORT" ]
+    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT" ]
   }
 ]
