@@ -26,7 +26,7 @@
     "name": { "str": "Laser Gatling Arm" },
     "//": "To be re-added if this ever gets accessible in JSON: However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
     "occupied_bodyparts": [ [ "arm_l", 10 ] ],
-    "act_cost": "50 kJ",
+    "act_cost": "40 kJ",
     "fake_item": "bio_laser_minigun",
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
     "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
@@ -63,7 +63,7 @@
     "id": "bio_sword",
     "name": { "str": "Monomolecular Sword" },
     "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
-    "act_cost": "1 kJ",
+    "act_cost": "150 J",
     "fake_item": "bio_sword_weapon",
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
@@ -93,7 +93,7 @@
     "dispersion": 300,
     "sight_dispersion": 150,
     "durability": 10,
-    "modes": [ [ "DEFAULT", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "auto", 2 ] ],
     "reload": 500,
     "ammo_effects": [ "FLAME", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_DROP", "TRADER_AVOID", "NON_FOULING", "NEEDS_NO_LUBE", "PYROMANIAC_WEAPON" ]
@@ -103,7 +103,7 @@
     "id": "bio_flamethrower",
     "name": { "str": "Dual-Hand Flamethrower" },
     "occupied_bodyparts": [ [ "hand_r", 2 ], [ "hand_l", 2 ] ],
-    "act_cost": "100 kJ",
+    "act_cost": "50 kJ",
     "fake_item": "bio_flamethrower_gun",
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
     "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
@@ -124,7 +124,6 @@
     "//": "Spikes of power at low efficiency because the available fuels have much smaller stack sizes than most fuels.  Since hydrogen is energy-dense, power per unit is massive.",
     "description": "Implanted in your chest is a small, advanced form of hydrogen fuel cell.  Designed to produce a spike of power production for cutting-edge military cybernetics, it is significantly less efficient than a traditional hydrogen fuel cell, but each pulse still puts out a lot of power.  Each pulse vents a jet of intense heat, making it dangerous in confined spaces.  It has two chambers, this one is configured for military-grade hydrogen canisters.",
     "occupied_bodyparts": [ [ "torso", 15 ] ],
-    "encumbrance": [ [ "torso", 5 ] ],
     "fuel_options": [ "plasma" ],
     "fuel_capacity": 5,
     "fuel_efficiency": 0.25,
