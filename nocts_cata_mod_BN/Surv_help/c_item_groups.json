@@ -739,6 +739,77 @@
     ]
   },
   {
+    "id": "harvest_bionics_failed_bio",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "burnt_out_bionic", "prob": 10 },
+      { "group": "bionic_salvage_junk_mil", "prob": 15 },
+      { "group": "bionics_failed_bio", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_power_storage_sentinel",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "item": "bio_power_storage_sentinel", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_soldat_zombie_generic",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionics_soldat_zombie_generic", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_soldat_zombie",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionics_soldat_zombie", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_soldat_knight_zombie",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionics_soldat_knight_zombie", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_soldat_sniper_zombie",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionics_soldat_sniper_zombie", "prob": 50 }
+    ]
+  },
+  {
+    "id": "harvest_soldat_tool_zombie",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 25 },
+      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionics_soldat_tool_zombie", "prob": 50 }
+    ]
+  },
+  {
     "type": "item_group",
     "id": "bionics_failed_bio",
     "subtype": "distribution",
@@ -966,37 +1037,74 @@
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_worker",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_extruder_broken", 1 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_extruder_broken", 25 ],
+      [ "c_mi_go_wings_broken", 25 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_slaver",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_beam_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_beam_broken", 40 ],
+      [ "c_mi_go_wings_broken", 10 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_surgeon",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_claw_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_claw_broken", 40 ],
+      [ "c_mi_go_wings_broken", 10 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_guard",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_carapace_broken", 2 ], [ "c_mi_go_beam_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_carapace_broken", 30 ],
+      [ "c_mi_go_beam_broken", 20 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_myrmidon",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_carapace_broken", 3 ], [ "c_mi_go_beam_broken", 1 ], [ "c_mi_go_claw_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_carapace_broken", 30 ],
+      [ "c_mi_go_beam_broken", 10 ],
+      [ "c_mi_go_claw_broken", 10 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_scout",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_rifle_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [
+      [ "null", 25 ],
+      [ "resin_chunk", 20 ],
+      [ "fetid_goop", 5 ],
+      [ "c_mi_go_rifle_broken", 40 ],
+      [ "c_mi_go_wings_broken", 10 ]
+    ]
   },
   {
     "id": "sewer",

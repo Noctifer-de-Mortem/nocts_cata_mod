@@ -382,19 +382,19 @@
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_slaver",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_beam_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [ [ "c_mi_go_beam_broken", 4 ], [ "c_mi_go_wings_broken", 1 ] ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_surgeon",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_claw_broken", 3 ], [ "c_mi_go_wings_broken", 1 ] ]
+    "items": [ [ "c_mi_go_claw_broken", 4 ], [ "c_mi_go_wings_broken", 1 ] ]
   },
   {
     "type": "item_group",
     "id": "c_mi_go_advanced_dissection_guard",
     "subtype": "distribution",
-    "items": [ [ "c_mi_go_carapace_broken", 2 ], [ "c_mi_go_beam_broken", 1 ] ]
+    "items": [ [ "c_mi_go_carapace_broken", 3 ], [ "c_mi_go_beam_broken", 2 ] ]
   },
   {
     "type": "item_group",
