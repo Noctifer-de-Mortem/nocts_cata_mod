@@ -921,7 +921,7 @@
     "color": "dark_gray",
     "looks_like": "rm13_armor",
     "name": { "str": "makeshift power armor" },
-    "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
+    "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
     "flags": [ "OVERSIZE", "STURDY", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
     "price": "500 USD",
     "price_postapoc": "50 USD",
@@ -965,8 +965,8 @@
     "repairs_like": "c_power_armor_surv",
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift power armor (on)", "str_pl": "makeshift power armors (on)" },
-    "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
-    "extend": { "effects": [ "TRADER_AVOID" ] },
+    "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
+    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
     "turns_per_charge": 6,
     "revert_to": "c_power_armor_surv",
@@ -1004,7 +1004,7 @@
     "id": "shield_welded_surv",
     "type": "ARMOR",
     "name": { "str": "makeshift ballistic pavise" },
-    "description": "A heavy shield made from armor plates and kevlar lining, welded to a framework that helps distribute the weight.  It leaves you free to operate two-handed weapons, but is still absurdly heavy and encumbering.",
+    "description": "A heavy shield made from armor plates and kevlar lining, welded to a framework that helps distribute the weight.  It leaves you free to operate two-handed weapons, even letting you brace heavy weapons to fire without mounting terrain, but is still absurdly heavy and encumbering.",
     "weight": "25 kg",
     "volume": "5 L",
     "price_postapoc": "5 USD",
@@ -1019,6 +1019,6 @@
     "encumbrance": 45,
     "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN" ]
+    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT" ]
   }
 ]
