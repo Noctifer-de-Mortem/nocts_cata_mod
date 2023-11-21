@@ -118,9 +118,13 @@
   {
     "id": "sketchy_cabin_guard_weapons",
     "type": "item_group",
-    "magazine": 100,
-    "ammo": 75,
-    "items": [ [ "makarov", 25 ], [ "ak47", 5 ], [ "ak74", 10 ], [ "sks", 10 ], [ "shotgun_d", 50 ] ]
+    "items": [
+      { "group": "nested_makarov", "prob": 25 },
+      { "group": "nested_ak47", "prob": 5 },
+      { "group": "nested_ak74", "prob": 10 },
+      { "group": "nested_sks", "prob": 10 },
+      { "group": "nested_shotgun_d", "prob": 50 }
+    ]
   },
   {
     "id": "sketchy_cabin_gore",
