@@ -1198,6 +1198,7 @@
   {
     "result": "surv_full_762",
     "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -2843,6 +2844,7 @@
   {
     "result": "cowboy_hat_surv",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "tailor",
