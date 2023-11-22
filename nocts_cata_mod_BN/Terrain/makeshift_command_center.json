@@ -240,6 +240,10 @@
         { "item": "broken_manhack", "x": 1, "y": 17 },
         { "item": "broken_manhack", "x": 5, "y": 17 }
       ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "commandeers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "bio_weapons", "x": [ 0, 23 ], "y": [ 0, 23 ] }
+      ],
       "place_npcs": [
         { "class": "main_bio_sci", "x": 20, "y": 22 },
         { "class": "bio_weapon_1", "x": 22, "y": 10 },
