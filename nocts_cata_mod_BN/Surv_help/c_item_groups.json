@@ -759,7 +759,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "item": "bio_power_storage_sentinel", "prob": 50 }
     ]
   },
@@ -769,7 +769,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "group": "bionics_soldat_zombie_generic", "prob": 50 }
     ]
   },
@@ -779,7 +779,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "group": "bionics_soldat_zombie", "prob": 50 }
     ]
   },
@@ -789,7 +789,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "group": "bionics_soldat_knight_zombie", "prob": 50 }
     ]
   },
@@ -799,7 +799,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "group": "bionics_soldat_sniper_zombie", "prob": 50 }
     ]
   },
@@ -809,7 +809,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 25 },
-      { "item": "bionic_salvage_junk_mil", "prob": 25 },
+      { "group": "bionic_salvage_junk_mil", "prob": 25 },
       { "group": "bionics_soldat_tool_zombie", "prob": 50 }
     ]
   },
