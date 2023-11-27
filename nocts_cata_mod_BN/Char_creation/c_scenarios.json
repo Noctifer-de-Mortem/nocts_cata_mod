@@ -124,7 +124,7 @@
       "Bio_Weapon_Lab",
       "haz_sar_1_2"
     ],
-    "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ],
+    "professions": [ "power_armor_soldier", "bio_soldier", "bio_sniper", "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ],
     "traits": [ "MARTIAL_ARTS_BIOJUTSU" ]
   },
   {
