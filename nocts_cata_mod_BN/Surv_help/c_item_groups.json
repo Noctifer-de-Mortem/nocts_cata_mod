@@ -509,6 +509,11 @@
     ]
   },
   {
+    "id": "bionics_heavy_mil",
+    "type": "item_group",
+    "items": [ [ "bio_plasma_cell", 10 ], [ "bio_atomic_battery", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
+  },
+  {
     "id": "bionic_power_storage_mil",
     "type": "item_group",
     "items": [ [ "bio_power_storage_sentinel", 10 ] ]
