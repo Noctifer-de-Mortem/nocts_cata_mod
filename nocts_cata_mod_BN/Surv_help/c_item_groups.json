@@ -543,6 +543,11 @@
     "items": [ [ "bio_atomic_battery", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
   },
   {
+    "id": "bionics_survivalist",
+    "type": "item_group",
+    "items": [ [ "bio_atomic_battery", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_animal_empathy", 5 ], [ "bio_cutting_torch", 10 ] ]
+  },
+  {
     "id": "female_underwear_top",
     "type": "item_group",
     "items": [ [ "fancy_bra", 10 ] ]
