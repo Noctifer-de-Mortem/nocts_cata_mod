@@ -675,7 +675,7 @@
     "max_charges": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
     "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ] },
-    "flags": [ "BELTED", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD" ],
+    "flags": [ "BELTED", "COMPACT", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD" ],
     "covers": [ "hand_either" ],
     "encumbrance": 5,
     "coverage": 10,
@@ -866,7 +866,7 @@
     "encumbrance": 1,
     "coverage": 5,
     "use_action": [ "WEATHER_TOOL", "DISASSEMBLE", { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
-    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
+    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
   },
   {
     "id": "parabracelets",
@@ -884,7 +884,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
+    "flags": [ "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
     "use_action": "DISASSEMBLE"
   },
   {
@@ -939,7 +939,7 @@
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],
     "covers": [ "torso" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD" ],
+    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "COMPACT", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD" ],
     "weight": "2200 g",
     "volume": "3 L",
     "bashing": 4,
