@@ -866,7 +866,16 @@
     "encumbrance": 1,
     "coverage": 5,
     "use_action": [ "WEATHER_TOOL", "DISASSEMBLE", { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
-    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
+    "flags": [
+      "WATCH",
+      "ALARMCLOCK",
+      "BELTED",
+      "FRAGILE",
+      "ALLOWS_NATURAL_ATTACKS",
+      "FIRESTARTER",
+      "THERMOMETER",
+      "POWERARMOR_COMPATABLE"
+    ]
   },
   {
     "id": "parabracelets",
@@ -884,7 +893,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
+    "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATABLE" ],
     "use_action": "DISASSEMBLE"
   },
   {
