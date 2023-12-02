@@ -1019,6 +1019,6 @@
     "encumbrance": 45,
     "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT" ]
+    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT", "POWERARMOR_COMPATABLE" ]
   }
 ]

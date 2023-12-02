@@ -939,7 +939,7 @@
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],
     "covers": [ "torso" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD" ],
+    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD", "POWERARMOR_COMPATABLE" ],
     "weight": "2200 g",
     "volume": "3 L",
     "bashing": 4,
