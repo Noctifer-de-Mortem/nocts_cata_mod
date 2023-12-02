@@ -874,7 +874,7 @@
       "ALLOWS_NATURAL_ATTACKS",
       "FIRESTARTER",
       "THERMOMETER",
-      "POWERARMOR_COMPATABLE"
+      "POWERARMOR_COMPATIBLE"
     ]
   },
   {
@@ -893,7 +893,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATABLE" ],
+    "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATIBLE" ],
     "use_action": "DISASSEMBLE"
   },
   {
@@ -948,7 +948,7 @@
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],
     "covers": [ "torso" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD", "POWERARMOR_COMPATABLE" ],
+    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD", "POWERARMOR_COMPATIBLE" ],
     "weight": "2200 g",
     "volume": "3 L",
     "bashing": 4,
