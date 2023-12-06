@@ -190,15 +190,11 @@
   {
     "type": "GUNMOD",
     "id": "lmg_handle",
-    "name": { "str": "makeshift LMG recoil handle" },
-    "//": "Unique to my LMGs!",
-    "location": "carry handle",
-    "sight_dispersion": 45,
-    "field_of_view": 900,
-    "aim_speed_modifier": 10,
-    "dispersion_modifier": 60,
+    "name": { "str": "survivor's LMG recoil handle" },
+    "location": "grip",
+    "dispersion_modifier": -25,
     "handling_modifier": 10,
-    "description": "A side-mounted handle designed for a custom LMG of some sort, to help in hip fire.  Reduces target acquisition time and perceived recoil, but increases overall dispersion.  Attaching it will hinder the effective use of the weapon's default sights, as well.",
+    "description": "A side-mounted handle designed for machine guns, to help in hip fire.  Makes aiming easier and greatly reduces recoil, but hinders the use of the weapon's default sights and makes it slower to wield.",
     "weight": "120 g",
     "volume": "250 ml",
     "integral_volume": "0 ml",
@@ -209,7 +205,7 @@
     "mod_targets": [ "rifle" ],
     "install_time": "20 m",
     "min_skills": [ [ "weapon", 2 ], [ "gun", 1 ] ],
-    "flags": [ "DISABLE_SIGHTS" ]
+    "flags": [ "DISABLE_SIGHTS", "NEEDS_UNFOLD" ]
   },
   {
     "id": "shot_crafted_suppressor",
