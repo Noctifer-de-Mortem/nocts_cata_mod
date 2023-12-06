@@ -866,7 +866,17 @@
     "encumbrance": 1,
     "coverage": 5,
     "use_action": [ "WEATHER_TOOL", "DISASSEMBLE", { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true } ],
-    "flags": [ "WATCH", "ALARMCLOCK", "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "FIRESTARTER", "THERMOMETER" ]
+    "flags": [
+      "WATCH",
+      "ALARMCLOCK",
+      "BELTED",
+      "COMPACT",
+      "FRAGILE",
+      "ALLOWS_NATURAL_ATTACKS",
+      "FIRESTARTER",
+      "THERMOMETER",
+      "POWERARMOR_COMPATIBLE"
+    ]
   },
   {
     "id": "parabracelets",
@@ -884,7 +894,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "flags": [ "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS" ],
+    "flags": [ "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATIBLE" ],
     "use_action": "DISASSEMBLE"
   },
   {
@@ -939,7 +949,7 @@
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],
     "covers": [ "torso" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "COMPACT", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD" ],
+    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "COMPACT", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD", "POWERARMOR_COMPATIBLE" ],
     "weight": "2200 g",
     "volume": "3 L",
     "bashing": 4,
