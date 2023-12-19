@@ -240,6 +240,12 @@
     "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
   },
   {
+    "copy-from": "aircraft_carrier_start",
+    "type": "scenario",
+    "id": "aircraft_carrier_start",
+    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool" ] }
+  },
+  {
     "copy-from": "surrounded",
     "type": "scenario",
     "add_professions": true,
