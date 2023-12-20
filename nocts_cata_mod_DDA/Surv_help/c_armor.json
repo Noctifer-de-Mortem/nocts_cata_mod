@@ -1086,7 +1086,7 @@
     "repairs_like": "c_power_armor_surv",
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift power armor (on)", "str_pl": "makeshift power armors (on)" },
-    "description": "An incredibly heavy suit of steel plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
+    "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
     "extend": { "effects": [ "TRADER_AVOID" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
     "turns_per_charge": 6,
