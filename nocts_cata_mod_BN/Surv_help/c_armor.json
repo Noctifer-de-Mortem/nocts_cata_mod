@@ -128,6 +128,18 @@
     ]
   },
   {
+    "id": "surv_armor_suit_superalloy",
+    "copy-from": "surv_armor_suit",
+    "type": "ARMOR",
+    "name": { "str": "survivor's superalloy scout suit" },
+    "description": "A home-made suit built to live off the land.  Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, and a makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and reinforced with superalloy.  It requires a separate gas mask for full protection.",
+    "material": [ "kevlar", "superalloy" ],
+    "color": "light_cyan",
+    "//": "Superalloy armor uses 5 less encumbrance than base item",
+    "encumbrance": 40,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
+  },
+  {
     "id": "armor_lightplate_surv",
     "copy-from": "armor_lightplate",
     "//": "No storage or other amenities, but a modest increase in protection relative to the added encumbrance.",
@@ -144,6 +156,17 @@
     "environmental_protection": 3,
     "material_thickness": 5,
     "extend": { "flags": [ "WATERPROOF" ] }
+  },
+  {
+    "id": "armor_lightplate_surv_superalloy",
+    "copy-from": "armor_lightplate_surv",
+    "type": "ARMOR",
+    "name": { "str": "survivor superalloy plate armor" },
+    "description": "A suit of Gothic plate armor, made from superalloy plates further modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 20,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
     "id": "cuirass_lightplate_surv",
@@ -163,6 +186,17 @@
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
+    "id": "cuirass_lightplate_surv_superalloy",
+    "copy-from": "cuirass_lightplate_surv",
+    "type": "ARMOR",
+    "name": { "str": "survivor superalloy cuirass", "str_pl": "survivor superalloy cuirasses" },
+    "description": "A medieval breastplate remade in cutting-edge superalloy, modified with kevlar and leather to better protect from the elements.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 20,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
+  },
+  {
     "id": "armguard_lightplate_surv",
     "copy-from": "armguard_lightplate",
     "type": "ARMOR",
@@ -178,6 +212,17 @@
     "environmental_protection": 3,
     "material_thickness": 5,
     "extend": { "flags": [ "WATERPROOF" ] }
+  },
+  {
+    "id": "armguard_lightplate_surv_superalloy",
+    "copy-from": "armguard_lightplate_surv",
+    "type": "ARMOR",
+    "name": { "str": "survivor superalloy arm guards", "str_pl": "survivor superalloy arm guards" },
+    "description": "A full assembly of medieval arm protection, made from modern superalloy.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 20,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
     "id": "legguard_lightplate_surv",
@@ -197,6 +242,17 @@
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
+    "id": "legguard_lightplate_surv_superalloy",
+    "copy-from": "legguard_lightplate_surv",
+    "type": "ARMOR",
+    "name": { "str": "survivor superalloy leg guards", "str_pl": "survivor superalloy leg guards" },
+    "description": "A full assembly of medieval leg protection, made from modern superalloy.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 20,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
+  },
+  {
     "id": "helmet_plate_surv",
     "copy-from": "helmet_plate",
     "type": "ARMOR",
@@ -212,6 +268,17 @@
     "material_thickness": 6,
     "qualities": [ [ "GLARE", 1 ] ],
     "extend": { "flags": [ "WATERPROOF", "SUN_GLASSES" ] }
+  },
+  {
+    "id": "helmet_plate_surv_superalloy",
+    "copy-from": "helmet_plate_surv",
+    "type": "ARMOR",
+    "name": { "str": "survivor superalloy great helm" },
+    "description": "A modernized medieval helmet that has been further modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 30,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
     "id": "gloves_plate_surv",
@@ -230,6 +297,17 @@
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
+    "id": "gloves_plate_surv_superalloy",
+    "copy-from": "gloves_plate_surv",
+    "type": "ARMOR",
+    "name": { "str": "pair of survivor superalloy armored gauntlets", "str_pl": "pairs of survivor superalloy armored gauntlets" },
+    "description": "A set of medieval gauntlets plated with superalloy, then further modified with kevlar reinforcements to increase protection from the elements.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 20,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
+  },
+  {
     "id": "boots_plate_surv",
     "copy-from": "boots_plate",
     "type": "ARMOR",
@@ -243,6 +321,17 @@
     "warmth": 25,
     "material_thickness": 5,
     "environmental_protection": 3
+  },
+  {
+    "id": "boots_plate_surv_superalloy",
+    "copy-from": "boots_plate_surv",
+    "type": "ARMOR",
+    "name": { "str": "pair of survivor superalloy armored boots", "str_pl": "pairs of survivor superalloy armored boots" },
+    "description": "A set of superalloy plated boots, modified with kevlar to better protect from the elements.",
+    "material": [ "superalloy", "kevlar", "leather" ],
+    "color": "light_cyan",
+    "encumbrance": 25,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
     "id": "badge_bio_weapon",
@@ -986,6 +1075,53 @@
     "weight_capacity_modifier": 2
   },
   {
+    "id": "c_power_armor_surv_superalloy",
+    "copy-from": "c_power_armor_surv",
+    "type": "ARMOR",
+    "name": { "str": "makeshift superalloy power armor" },
+    "description": "A heavy suit of superalloy and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
+    "material": [ "superalloy", "kevlar_rigid" ],
+    "color": "light_cyan",
+    "encumbrance": 40,
+    "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 },
+    "use_action": {
+      "type": "fireweapon_off",
+      "target_id": "c_power_armor_surv_superalloy_on",
+      "moves": 100,
+      "noise": 60,
+      "success_chance": 2,
+      "success_message": "Your makeshift superalloy power armor roars to life, servos kicking into gear!",
+      "failure_message": "Your armor sputters but fails to start up.",
+      "lacks_fuel_message": "You work your armor's starter, but nothing happens."
+    }
+  },
+  {
+    "id": "c_power_armor_surv_superalloy_on",
+    "copy-from": "c_power_armor_surv_superalloy",
+    "repairs_like": "c_power_armor_surv_superalloy",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "makeshift superalloy power armor (on)", "str_pl": "makeshift superalloy power armors (on)" },
+    "description": "A heavy suit of superalloy and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
+    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
+    "//": "turns_per_charge increased over standard version since lighter suit takes less effort to power.",
+    "turns_per_charge": 10,
+    "revert_to": "c_power_armor_surv_superalloy",
+    "use_action": [
+      {
+        "type": "fireweapon_on",
+        "noise": 30,
+        "noise_chance": 5,
+        "noise_message": "Your armor whirs with activity.",
+        "voluntary_extinguish_message": "You shut the makeshift power armor off.",
+        "charges_extinguish_message": "Your makeshift superalloy power armor sputters and dies!",
+        "water_extinguish_message": "Your armor's engine floods and cuts out!"
+      }
+    ],
+    "warmth": 45,
+    "encumbrance": 10,
+    "weight_capacity_modifier": 2
+  },
+  {
     "id": "shield_riot_surv",
     "copy-from": "shield_riot",
     "type": "ARMOR",
@@ -1020,5 +1156,17 @@
     "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
     "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT", "POWERARMOR_COMPATIBLE" ]
+  },
+  {
+    "id": "shield_welded_surv_superalloy",
+    "copy-from": "shield_welded_surv",
+    "type": "ARMOR",
+    "name": { "str": "makeshift superalloy ballistic pavise" },
+    "description": "A shield made from superalloy plates and kevlar lining, welded to a framework that helps distribute the weight.  It leaves you free to operate two-handed weapons, even letting you brace heavy weapons to fire without mounting terrain, but is still very heavy and encumbering.",
+    "material": [ "superalloy", "kevlar_rigid" ],
+    "color": "light_cyan",
+    "encumbrance": 40,
+    "//": "No pre-apoc price to modify since post-cata makeshift item",
+    "proportional": { "weight": 0.6, "price_postapoc": 2 }
   }
 ]

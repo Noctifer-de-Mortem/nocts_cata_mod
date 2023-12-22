@@ -532,7 +532,7 @@
     "skills_required": [ "fabrication", 8 ],
     "time": "500 m",
     "book_learn": [ [ "recipe_surv", 8 ] ],
-    "using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 8 ] ],
+    "using": [ [ "sewing_standard", 100 ], [ "steel_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "tools": [ [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
     "components": [
@@ -540,6 +540,35 @@
       [ [ "gloves_hsurvivor", 1 ] ],
       [ [ "boots_hsurvivor", 1 ] ],
       [ [ "hood_survivor", 1 ] ],
+      [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
+      [ [ "fur", 15 ] ],
+      [ [ "duct_tape", 150 ] ],
+      [ [ "kevlar_plate", 12 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "wristwatch", 1 ] ]
+    ]
+  },
+  {
+    "result": "surv_armor_suit_superalloy",
+    "//": "Superalloy armor recipes use alloy sheets equal to steel lumps used, difficulty 2 levels higher (maxing out at 10)",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "skills_required": [ "fabrication", 10 ],
+    "time": "500 m",
+    "//2": "Fabrication capped at 10, booklearn still elevated as if it could go past 10",
+    "book_learn": [ [ "recipe_surv", 10 ] ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "tools": [ [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "components": [
+      [ [ "sasurvivor_suit", 1 ] ],
+      [ [ "gloves_sasurvivor", 1 ] ],
+      [ [ "boots_sasurvivor", 1 ] ],
+      [ [ "hood_survivor", 1 ] ],
+      [ [ "alloy_sheet", 2 ] ],
       [ [ "hazmat_suit", 1 ], [ "cleansuit", 1 ] ],
       [ [ "fur", 15 ] ],
       [ [ "duct_tape", 150 ] ],
@@ -1789,6 +1818,48 @@
     "components": [ [ [ "cuirass_lightplate_surv", 1 ] ], [ [ "armguard_lightplate_surv", 1 ] ], [ [ "legguard_lightplate_surv", 1 ] ] ]
   },
   {
+    "result": "armor_lightplate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "4 h",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 150 ], [ "welding_standard", 7 ] ],
+    "components": [
+      [ [ "armor_lightplate_superalloy", 1 ] ],
+      [ [ "rag", 10 ] ],
+      [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
+      [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
+      [ [ "duct_tape", 300 ] ],
+      [ [ "kevlar", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
+    ]
+  },
+  {
+    "result": "armor_lightplate_surv_superalloy",
+    "type": "recipe",
+    "id_suffix": "assembly",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "//": "No fabrication increase since we're just putting already-made pieces together",
+    "difficulty": 3,
+    "skills_required": [ "tailor", 3 ],
+    "time": "20 m",
+    "autolearn": [ [ "fabrication", 6 ], [ "tailor", 4 ] ],
+    "reversible": true,
+    "flags": [ "NO_RESIZE" ],
+    "using": [ [ "sewing_standard", 30 ] ],
+    "components": [
+      [ [ "cuirass_lightplate_surv_superalloy", 1 ] ],
+      [ [ "armguard_lightplate_surv_superalloy", 1 ] ],
+      [ [ "legguard_lightplate_surv_superalloy", 1 ] ]
+    ]
+  },
+  {
     "result": "cuirass_lightplate_surv",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -1802,6 +1873,27 @@
     "using": [ [ "sewing_standard", 50 ], [ "welding_standard", 3 ] ],
     "components": [
       [ [ "cuirass_lightplate", 1 ] ],
+      [ [ "rag", 5 ] ],
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
+      [ [ "duct_tape", 125 ] ],
+      [ [ "kevlar_plate", 10 ] ]
+    ]
+  },
+  {
+    "result": "cuirass_lightplate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "2 h",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 50 ], [ "welding_standard", 3 ] ],
+    "components": [
+      [ [ "cuirass_lightplate_superalloy", 1 ] ],
       [ [ "rag", 5 ] ],
       [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
@@ -1830,6 +1922,26 @@
     ]
   },
   {
+    "result": "armguard_lightplate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "1 h",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 30 ], [ "welding_standard", 2 ] ],
+    "components": [
+      [ [ "armguard_lightplate_superalloy", 1 ] ],
+      [ [ "rag", 2 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "duct_tape", 75 ] ],
+      [ [ "kevlar_plate", 6 ] ]
+    ]
+  },
+  {
     "result": "legguard_lightplate_surv",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -1843,6 +1955,26 @@
     "using": [ [ "sewing_standard", 40 ], [ "welding_standard", 2 ] ],
     "components": [
       [ [ "legguard_lightplate", 1 ] ],
+      [ [ "rag", 3 ] ],
+      [ [ "leather", 3 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "kevlar_plate", 8 ] ]
+    ]
+  },
+  {
+    "result": "legguard_lightplate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "1 h",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 40 ], [ "welding_standard", 2 ] ],
+    "components": [
+      [ [ "legguard_lightplate_superalloy", 1 ] ],
       [ [ "rag", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 100 ] ],
@@ -1872,6 +2004,28 @@
     ]
   },
   {
+    "result": "helmet_plate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "45 m",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 10 ], [ "welding_standard", 1 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
+    "components": [
+      [ [ "helmet_plate_superalloy", 1 ] ],
+      [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
+      [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "kevlar_plate", 6 ] ],
+      [ [ "rag", 2 ], [ "bandana", 1 ] ],
+      [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],
+      [ [ "duct_tape", 75 ] ]
+    ]
+  },
+  {
     "result": "gloves_plate_surv",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -1891,6 +2045,25 @@
     ]
   },
   {
+    "result": "gloves_plate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "45 m",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 40 ], [ "welding_standard", 2 ] ],
+    "components": [
+      [ [ "gloves_plate_superalloy", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "duct_tape", 50 ] ],
+      [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 4 ] ]
+    ]
+  },
+  {
     "result": "boots_plate_surv",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -1903,6 +2076,20 @@
     "book_learn": [ [ "textbook_armwest", 5 ], [ "recipe_surv", 4 ] ],
     "using": [ [ "sewing_standard", 60 ], [ "welding_standard", 3 ] ],
     "components": [ [ [ "boots_plate", 1 ] ], [ [ "leather", 4 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "duct_tape", 100 ] ] ]
+  },
+  {
+    "result": "boots_plate_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "skills_required": [ "tailor", 4 ],
+    "time": "45 m",
+    "autolearn": [ [ "fabrication", 8 ], [ "tailor", 5 ] ],
+    "book_learn": [ [ "textbook_armwest", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "sewing_standard", 60 ], [ "welding_standard", 3 ] ],
+    "components": [ [ [ "boots_plate_superalloy", 1 ] ], [ [ "leather", 4 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "duct_tape", 100 ] ] ]
   },
   {
     "type": "recipe",
@@ -2723,6 +2910,43 @@
     ]
   },
   {
+    "result": "c_power_armor_surv_superalloy",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 4 ], [ "electronics", 2 ] ],
+    "time": "5 h",
+    "autolearn": [ [ "fabrication", 9 ], [ "mechanics", 5 ], [ "electronics", 3 ] ],
+    "book_learn": [
+      [ "recipe_surv", 6 ],
+      [ "textbook_robots", 7 ],
+      [ "book_icef", 7 ],
+      [ "recipe_melee", 8 ],
+      [ "textbook_biodiesel", 8 ]
+    ],
+    "using": [ [ "welding_standard", 200 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "//": "Swapping out both the main armor plating and the call to steel_standard, hence two superalloy components",
+    "components": [
+      [ [ "drivebelt", 2 ], [ "drivebelt_makeshift", 2 ] ],
+      [ [ "filter_air", 1 ], [ "filter_air_makeshift", 1 ] ],
+      [ [ "filter_liquid", 1 ], [ "filter_liquid_makeshift", 1 ] ],
+      [ [ "motor_small", 1 ], [ "motor_tiny", 2 ] ],
+      [ [ "well_pump", 1 ], [ "pump_complex", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "hand_crank_charger", 1 ], [ "alternator_bicycle", 1 ], [ "alternator_motorbike", 1 ] ],
+      [ [ "hose", 4 ], [ "makeshift_hose", 4 ] ],
+      [ [ "metal_tank_little", 1 ] ],
+      [ [ "motor_oil", 1600 ], [ "lamp_oil", 1600 ] ],
+      [ [ "foldframe", 2 ] ],
+      [ [ "alloy_plate", 3 ], [ "alloy_sheet", 36 ] ],
+      [ [ "alloy_sheet", 10 ] ],
+      [ [ "kevlar", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ]
+    ]
+  },
+  {
     "result": "hydrogen_convertor",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -2856,5 +3080,21 @@
     "using": [ [ "welding_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [ [ [ "frame", 1 ] ], [ [ "steel_plate", 1 ] ], [ [ "kevlar_plate", 15 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "shield_welded_surv_superalloy",
+    "//": "Still uses a steel frame, but could still get some weight saving from better plating",
+    "byproducts": [ [ "steel_chunk", 40 ] ],
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "75 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_surv", 7 ], [ "recipe_melee", 7 ] ],
+    "using": [ [ "welding_standard", 30 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "frame", 1 ] ], [ [ "alloy_plate", 1 ] ], [ [ "kevlar_plate", 15 ] ] ]
   }
 ]
