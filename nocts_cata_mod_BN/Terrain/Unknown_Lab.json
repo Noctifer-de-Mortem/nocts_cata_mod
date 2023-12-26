@@ -603,7 +603,7 @@
       "toilets": { "t": {  } },
       "place_loot": [
         { "item": "flesh_knife", "x": 15, "y": [ 3, 4 ] },
-        { "item": "jumpsuit_xl", "x": [ 18, 19 ], "y": 7, "chance": 50, "repeat": 6 },
+        { "item": "subsuit_xl", "x": [ 18, 19 ], "y": 7, "chance": 50, "repeat": 6 },
         { "group": "surgery", "x": [ 13, 16 ], "y": 7, "chance": 50, "repeat": 8 },
         { "group": "oven", "x": 17, "y": 7, "chance": 50, "repeat": 3 },
         { "group": "tools_home", "x": [ 21, 22 ], "y": 3, "chance": 75, "repeat": 5 },
