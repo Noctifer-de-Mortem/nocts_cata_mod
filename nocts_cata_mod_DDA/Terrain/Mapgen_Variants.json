@@ -109,10 +109,10 @@
       },
       "monster": { "i": { "monster": "mon_zombie_soldier", "chance": 30 } },
       "place_monster": [
-        { "monster": "mon_zombie_bio_dormant_unarmed", "x": 8, "y": 14 },
-        { "monster": "mon_zombie_bio_dormant_unarmed", "x": 13, "y": 15 },
-        { "monster": "mon_zombie_bio_dormant_unarmed", "x": 9, "y": 10 },
-        { "monster": "mon_zombie_bio_dormant_unarmed", "x": 22, "y": 14 }
+        { "monster": "mon_zombie_bio_dormant_armed", "x": 8, "y": 14 },
+        { "monster": "mon_zombie_bio_dormant_armed", "x": 13, "y": 15 },
+        { "monster": "mon_zombie_bio_dormant_armed", "x": 9, "y": 10 },
+        { "monster": "mon_zombie_bio_dormant_armed", "x": 22, "y": 14 }
       ],
       "place_loot": [
         { "item": "arc_laser_rifle", "x": 8, "y": 9, "chance": 75, "repeat": 5 },
