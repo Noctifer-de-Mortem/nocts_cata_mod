@@ -1184,7 +1184,7 @@
   {
     "id": "mil_armor_electronics",
     "type": "item_group",
-    "entries": [
+    "items": [
       [ "megamap", 1 ],
       [ "boots_stealth", 1 ],
       [ "acs_74_stealth_cloak_on", 1 ],
