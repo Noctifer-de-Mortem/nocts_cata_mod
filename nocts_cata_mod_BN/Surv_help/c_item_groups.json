@@ -1165,5 +1165,31 @@
     "type": "item_group",
     "id": "bunker_basement_drugs",
     "items": [ { "item": "iv_mutagen_super_soldier", "prob": 10 } ]
+  },
+  {
+    "id": "military_ballistic_armor",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "distribution": [
+          { "group": "lmil_armor_collection", "prob": 1 },
+          { "group": "mil_armor_collection", "prob": 1 },
+          { "group": "hmil_armor_collection", "prob": 1 }
+        ],
+        "prob": 5
+      }
+    ]
+  },
+  {
+    "id": "mil_armor_electronics",
+    "type": "item_group",
+    "items": [
+      [ "megamap", 1 ],
+      [ "boots_stealth", 1 ],
+      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "goggles_nv_clairvoyance", 1 ],
+      [ "cbm_rtg_inductor", 1 ]
+    ]
   }
 ]
