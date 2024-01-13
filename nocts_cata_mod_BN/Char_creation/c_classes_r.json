@@ -196,7 +196,7 @@
       "bio_sword",
       "bio_uncanny_dodge",
       "bio_ups",
-      "bio_watch",
+      "bio_infolink",
       "bio_power_storage_mkII"
     ],
     "skills": [
@@ -211,19 +211,7 @@
       { "level": 2, "name": "speech" }
     ],
     "items": {
-      "both": [
-        "socks",
-        "dress_shoes",
-        "kevlar",
-        "dress_shirt",
-        "knit_scarf",
-        "mbag",
-        "gold_watch",
-        "smart_phone",
-        "multitool",
-        "matches",
-        "bottle_metal"
-      ],
+      "both": [ "socks", "dress_shoes", "kevlar", "dress_shirt", "knit_scarf", "mbag", "multitool", "matches", "bottle_metal" ],
       "male": [ "fancy_briefs", "dress_pants" ],
       "female": [ "fancy_bra", "fancy_panties", "dress_skirt" ]
     }

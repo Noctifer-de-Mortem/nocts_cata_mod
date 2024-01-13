@@ -295,7 +295,7 @@
       "bio_torsionratchet",
       "bio_recycler",
       "bio_carbon",
-      "bio_watch",
+      "bio_infolink",
       "bio_face_mask",
       "bio_lockpick",
       "bio_fingerhack",
@@ -567,7 +567,7 @@
       "bio_sunglasses",
       "bio_tools",
       "bio_ups",
-      "bio_watch",
+      "bio_infolink",
       "bio_power_storage_sentinel",
       "bio_eye_enhancer",
       "bio_int_enhancer"
@@ -600,7 +600,6 @@
         "entries": [
           { "item": "lmil_armor", "contents-group": "c_plut_light" },
           { "item": "chemistry_set", "contents-item": [ "battery_ups" ] },
-          { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
           {
             "item": "akro_laser_smg",
             "ammo-item": "battery",

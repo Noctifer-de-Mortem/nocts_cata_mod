@@ -232,7 +232,7 @@
     "proficiencies": [ "prof_lockpicking" ],
     "items": {
       "both": {
-        "items": [ "socks", "dress_shoes", "kevlar", "dress_shirt", "knit_scarf", "mbag", "gold_watch", "multitool", "bottle_metal" ],
+        "items": [ "socks", "dress_shoes", "kevlar", "dress_shirt", "knit_scarf", "mbag", "multitool", "bottle_metal" ],
         "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" } ]
       },
       "male": [ "fancy_briefs", "pants" ],
