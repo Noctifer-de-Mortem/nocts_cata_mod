@@ -8,7 +8,7 @@
     "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Draws power from the electrical grid, combining the functions of a kitchen unit, forge, welding rig, FOODCO kitchen buddy, and a chemistry lab.  Has no cargo space due to all the components it is made out of.",
     "color": "blue",
     "move_cost_mod": -1,
-    "coverage": 80,
+    "coverage": 60,
     "required_str": -1,
     "crafting_pseudo_item": [
       "fake_oven",
@@ -38,7 +38,8 @@
         { "item": "circuit", "count": [ 30, 40 ] },
         { "item": "e_scrap", "count": [ 30, 40 ] },
         { "item": "amplifier", "count": [ 30, 40 ] }
-      ]
+      ],
+      "ranged": { "reduction": [ 10, 20 ], "destroy_threshold": 50, "block_unaimed_chance": "50%" }
     }
   }
 ]
