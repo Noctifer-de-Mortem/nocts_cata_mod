@@ -27,7 +27,7 @@
     "components": [
       [ [ "solar_flashlight", 1 ] ],
       [
-        [ "rag", 2 ],
+        [ "cotton_patchwork", 2 ],
         [ "leather", 2 ],
         [ "string_6", 6 ],
         [ "string_36", 1 ],
@@ -82,7 +82,7 @@
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ], [ "splinter", 1 ], [ "pool_cue", 1 ], [ "torch_done", 1 ] ],
       [ [ "gas_slime_scrap", 1 ] ],
-      [ [ "rag", 1 ] ]
+      [ [ "cotton_patchwork", 1 ] ]
     ]
   },
   {
@@ -1802,7 +1802,7 @@
     "using": [ [ "sewing_standard", 150 ], [ "welding_standard", 7 ] ],
     "components": [
       [ [ "armor_lightplate", 1 ] ],
-      [ [ "rag", 10 ] ],
+      [ [ "cotton_patchwork", 10 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
       [ [ "duct_tape", 300 ] ],
@@ -1841,7 +1841,7 @@
     "using": [ [ "sewing_standard", 50 ], [ "welding_standard", 3 ] ],
     "components": [
       [ [ "cuirass_lightplate", 1 ] ],
-      [ [ "rag", 5 ] ],
+      [ [ "cotton_patchwork", 5 ] ],
       [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
       [ [ "duct_tape", 125 ] ],
@@ -1863,7 +1863,7 @@
     "using": [ [ "sewing_standard", 30 ], [ "welding_standard", 2 ] ],
     "components": [
       [ [ "armguard_lightplate", 1 ] ],
-      [ [ "rag", 2 ] ],
+      [ [ "cotton_patchwork", 2 ] ],
       [ [ "leather", 2 ] ],
       [ [ "duct_tape", 75 ] ],
       [ [ "sheet_kevlar_layered", 6 ] ]
@@ -1884,7 +1884,7 @@
     "using": [ [ "sewing_standard", 40 ], [ "welding_standard", 2 ] ],
     "components": [
       [ [ "legguard_lightplate", 1 ] ],
-      [ [ "rag", 3 ] ],
+      [ [ "cotton_patchwork", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 100 ] ],
       [ [ "sheet_kevlar_layered", 8 ] ]
@@ -1908,7 +1908,7 @@
       [ [ "helmet_plate", 1 ] ],
       [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
       [ [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ], [ "helmet_army", 1 ], [ "sheet_kevlar_layered", 6 ] ],
-      [ [ "rag", 2 ], [ "bandana", 1 ] ],
+      [ [ "cotton_patchwork", 2 ], [ "bandana", 1 ] ],
       [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],
       [ [ "duct_tape", 75 ] ]
     ]
@@ -2311,7 +2311,7 @@
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
     "using": [ [ "soldering_standard", 5 ] ],
     "components": [
-      [ [ "rag", 4 ], [ "plastic_chunk", 4 ], [ "felt_patch", 4 ], [ "leather", 4 ] ],
+      [ [ "cotton_patchwork", 4 ], [ "plastic_chunk", 4 ], [ "felt_patch", 4 ], [ "leather", 4 ] ],
       [ [ "pipe", 1 ] ],
       [ [ "scrap", 1 ] ]
     ]
@@ -2573,7 +2573,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "frame", 1 ], [ "hdframe", 1 ] ],
-      [ [ "rag", 3 ], [ "felt_patch", 3 ], [ "leather", 3 ], [ "fur", 3 ], [ "duct_tape", 150 ] ]
+      [ [ "cotton_patchwork", 3 ], [ "felt_patch", 3 ], [ "leather", 3 ], [ "fur", 3 ], [ "duct_tape", 150 ] ]
     ]
   },
   {
@@ -2657,7 +2657,7 @@
     "components": [
       [ [ "cowboy_hat", 1 ], [ "hat_boonie", 1 ], [ "straw_hat", 1 ] ],
       [ [ "sheet_kevlar_layered", 6 ] ],
-      [ [ "rag", 3 ] ],
+      [ [ "cotton_patchwork", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 40 ] ]
     ]
@@ -2678,7 +2678,7 @@
     "proficiencies": [ { "proficiency": "prof_leatherworking_basic" }, { "proficiency": "prof_leatherworking" } ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "rag", 4 ] ],
+      [ [ "cotton_patchwork", 4 ] ],
       [ [ "leather", 4 ] ],
       [
         [ "tacvest", 1 ],

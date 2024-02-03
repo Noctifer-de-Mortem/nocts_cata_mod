@@ -81,7 +81,7 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 18 ] ], [ [ "sheet_kevlar_layered", 9 ] ], [ [ "alloy_plate", 2 ] ], [ [ "alloy_sheet", 3 ] ] ]
+    "components": [ [ [ "cotton_patchwork", 18 ] ], [ [ "sheet_kevlar_layered", 9 ] ], [ [ "alloy_plate", 2 ] ], [ [ "alloy_sheet", 3 ] ] ]
   },
   {
     "result": "mil_armor",
@@ -117,7 +117,7 @@
     "skill_used": "fabrication",
     "difficulty": 5,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 2 ] ], [ [ "sheet_kevlar_layered", 1 ] ], [ [ "alloy_sheet", 3 ] ] ]
+    "components": [ [ [ "cotton_patchwork", 2 ] ], [ [ "sheet_kevlar_layered", 1 ] ], [ [ "alloy_sheet", 3 ] ] ]
   },
   {
     "result": "mil_helm",
@@ -223,7 +223,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ], [ [ "wire", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ], [ [ "wire", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -232,7 +232,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -241,7 +241,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -250,7 +250,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -259,7 +259,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -295,7 +295,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -304,7 +304,7 @@
     "time": "30 s",
     "activity_level": "LIGHT_EXERCISE",
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "rag", 1 ] ] ],
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
   }
 ]
