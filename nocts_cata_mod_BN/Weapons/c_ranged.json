@@ -526,9 +526,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -568,9 +568,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -610,9 +610,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -652,9 +652,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -694,9 +694,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -736,9 +736,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -778,9 +778,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -820,9 +820,9 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "grip mount", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -863,8 +863,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "grip", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -905,8 +905,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "grip", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -947,8 +947,8 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -989,8 +989,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "grip", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -1031,8 +1031,8 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "grip", 1 ],
-      [ "rail mount", 1 ],
-      [ "sights mount", 1 ]
+      [ "rail", 1 ],
+      [ "sights", 1 ]
     ]
   },
   {
@@ -1771,10 +1771,10 @@
       [ "accessories", 1 ],
       [ "grip", 1 ],
       [ "sling", 1 ],
-      [ "rail mount", 1 ],
-      [ "stock mount", 1 ],
-      [ "sights mount", 1 ],
-      [ "underbarrel mount", 1 ]
+      [ "rail", 1 ],
+      [ "stock", 1 ],
+      [ "sights", 1 ],
+      [ "underbarrel", 1 ]
     ],
     "extend": { "flags": [ "FIRE_50", "FIRE_TWOHAND", "STR_RELOAD", "NON_FOULING" ] },
     "delete": { "flags": [ "FIRE_100" ] }
