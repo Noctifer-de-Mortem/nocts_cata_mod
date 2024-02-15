@@ -1494,10 +1494,8 @@
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
-      [ [ "kitchen_unit", 1 ] ],
       [ [ "forgerig", 1 ] ],
-      [ [ "weldrig", 1 ] ],
-      [ [ "craftrig", 1 ] ],
+      [ [ "veh_tools_workshop", 1 ] ],
       [ [ "veh_tools_kitchen", 1 ] ]
     ]
   },
@@ -1801,7 +1799,7 @@
     "book_learn": [ [ "textbook_armwest", 5 ], [ "recipe_surv", 4 ] ],
     "using": [ [ "sewing_standard", 150 ], [ "welding_standard", 7 ] ],
     "components": [
-      [ [ "armor_lightplate", 1 ] ],
+      [ [ "armor_qt_lightplate", 1 ] ],
       [ [ "cotton_patchwork", 10 ] ],
       [ [ "leather", 10 ], [ "tanned_hide", 2 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
@@ -1840,7 +1838,7 @@
     "book_learn": [ [ "textbook_armwest", 5 ], [ "recipe_surv", 4 ] ],
     "using": [ [ "sewing_standard", 50 ], [ "welding_standard", 3 ] ],
     "components": [
-      [ [ "cuirass_lightplate", 1 ] ],
+      [ [ "armor_qt_light_chestplate", 1 ] ],
       [ [ "cotton_patchwork", 5 ] ],
       [ [ "leather", 5 ], [ "tanned_hide", 1 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
@@ -1862,7 +1860,7 @@
     "book_learn": [ [ "textbook_armwest", 5 ], [ "recipe_surv", 4 ] ],
     "using": [ [ "sewing_standard", 30 ], [ "welding_standard", 2 ] ],
     "components": [
-      [ [ "armguard_lightplate", 1 ] ],
+      [ [ "armor_qt_lightarmguard", 1 ] ],
       [ [ "cotton_patchwork", 2 ] ],
       [ [ "leather", 2 ] ],
       [ [ "duct_tape", 75 ] ],
@@ -1883,7 +1881,7 @@
     "book_learn": [ [ "textbook_armwest", 5 ], [ "recipe_surv", 4 ] ],
     "using": [ [ "sewing_standard", 40 ], [ "welding_standard", 2 ] ],
     "components": [
-      [ [ "legguard_lightplate", 1 ] ],
+      [ [ "armor_qt_light_leg_guard", 1 ] ],
       [ [ "cotton_patchwork", 3 ] ],
       [ [ "leather", 3 ] ],
       [ [ "duct_tape", 100 ] ],
