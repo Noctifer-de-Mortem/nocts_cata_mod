@@ -33,7 +33,6 @@
       "both": {
         "items": [
           "socks",
-          "army_top",
           "hat_boonie",
           "wearable_light",
           "balclava",
@@ -48,6 +47,7 @@
           "mil_surp_pack_2"
         ],
         "entries": [
+          { "item": "tank_top", "variant": "tank_top_camo" },
           { "item": "knife_rambo", "container-item": "scabbard" },
           {
             "item": "light_disposable_cell",
