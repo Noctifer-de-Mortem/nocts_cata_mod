@@ -1016,12 +1016,13 @@
     "name": { "str": "Makeshift Power Armor Noise" },
     "points": 99,
     "valid": false,
+    "//": "rand_bash_bonus has been removed without any replacement, so now using the average of the old 3-6 damage",
     "description": "This is used to make the player a lot less stealthy, but also punch harder on top of the armor's strength bonus.",
     "player_display": false,
     "noise_modifier": 5.0,
     "stealth_modifier": -10,
     "scent_intensity": 1200,
-    "rand_bash_bonus": { "min": 3, "max": 6 }
+    "enchantments": [ { "values": [ { "value": "ITEM_DAMAGE_BASH", "add": 4.5 } ] } ]
   },
   {
     "id": "c_power_armor_surv",
