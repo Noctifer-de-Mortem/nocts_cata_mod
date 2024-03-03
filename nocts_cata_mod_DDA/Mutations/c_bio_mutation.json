@@ -113,15 +113,7 @@
       [ "foot_l", 5 ],
       [ "foot_r", 5 ]
     ],
-    "armor": [
-      {
-        "parts": [ "ALL" ],
-        "cut": 10,
-        "bash": 10,
-        "stab": 10,
-        "bullet": 10
-      }
-    ]
+    "armor": [ { "parts": [ "ALL" ], "cut": 10, "bash": 10, "stab": 10, "bullet": 10 } ]
   },
   {
     "type": "mutation",
@@ -211,10 +203,16 @@
     "profession": true,
     "types": [ "RUNNING" ],
     "cancels": [ "BADKNEES" ],
-    "movecost_flatground_modifier": 1.1,
-    "movecost_swim_modifier": 1.1,
-    "movecost_obstacle_modifier": 1.3,
-    "dodge_modifier": -6
+    "enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_SWIM_MOD", "multiply": 0.1 },
+          { "value": "BONUS_DODGE", "add": -6 },
+          { "value": "MOVECOST_FLATGROUND_MOD", "multiply": 0.1 },
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": 0.3 }
+        ]
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -295,11 +293,17 @@
     "profession": true,
     "types": [ "RUNNING" ],
     "cancels": [ "BADKNEES" ],
-    "movecost_flatground_modifier": 0.75,
-    "movecost_obstacle_modifier": 0.75,
-    "movecost_swim_modifier": 0.75,
     "attackcost_modifier": 0.5,
-    "dodge_modifier": 3,
+    "enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_SWIM_MOD", "multiply": -0.25 },
+          { "value": "BONUS_DODGE", "add": 3 },
+          { "value": "MOVECOST_FLATGROUND_MOD", "multiply": -0.25 },
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 }
+        ]
+      }
+    ],
     "flags": [ "PRED2" ]
   },
   {
@@ -337,9 +341,9 @@
     "purifiable": false,
     "profession": true,
     "cancels": [ "TOUGH", "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "GOODCARDIO", "BADCARDIO" ],
-    "hp_adjustment": 50,
     "cardio_multiplier": 1.3,
     "types": [ "SIZE" ],
+    "enchantments": [ { "values": [ { "value": "MAX_HP", "add": 50 } ] } ],
     "flags": [ "LARGE" ]
   },
   {
@@ -352,16 +356,8 @@
     "purifiable": false,
     "profession": true,
     "cancels": [ "TOUGH", "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW", "THICKSKIN", "THINSKIN" ],
-    "hp_modifier": -0.5,
-    "armor": [
-      {
-        "parts": [ "ALL" ],
-        "cut": -5,
-        "bash": -5,
-        "stab": -5,
-        "bullet": -5
-      }
-    ]
+    "armor": [ { "parts": [ "ALL" ], "cut": -5, "bash": -5, "stab": -5, "bullet": -5 } ],
+    "enchantments": [ { "values": [ { "value": "MAX_HP", "multiply": -0.5 } ] } ]
   },
   {
     "type": "mutation",
