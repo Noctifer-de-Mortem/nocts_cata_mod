@@ -15,13 +15,19 @@
     "changes_to": [ "SENTINEL_PERK_STR_2" ],
     "category": [ "SUPER_SOLDIER" ],
     "//": "Max stamina intrinsically affects stamina regen to the same extent.",
-    "cardio_multiplier": 1.25,
-    "weight_capacity_modifier": 1.25,
+    "enchantments": [
+      {
+        "values": [
+          { "value": "CARDIO_MULTIPLIER", "multiply": 0.25 },
+          { "value": "METABOLISM", "multiply": 0.25 },
+          { "value": "CARRY_WEIGHT", "multiply": 0.25 }
+        ]
+      }
+    ],
     "healing_awake": 0.1,
     "healing_multiplier": 1.25,
     "vitamin_rates": [ [ "blood", -1 ], [ "redcells", -1 ] ],
     "mending_modifier": 1.0,
-    "metabolism_modifier": 0.25,
     "thirst_modifier": 0.25
   },
   {
@@ -40,13 +46,19 @@
     "changes_to": [ "SENTINEL_PERK_STR_3" ],
     "prereqs": [ "SENTINEL_PERK_STR" ],
     "category": [ "SUPER_SOLDIER" ],
-    "cardio_multiplier": 1.5,
-    "weight_capacity_modifier": 1.5,
+    "enchantments": [
+      {
+        "values": [
+          { "value": "CARDIO_MULTIPLIER", "multiply": 0.5 },
+          { "value": "METABOLISM", "multiply": 0.5 },
+          { "value": "CARRY_WEIGHT", "multiply": 0.5}
+        ]
+      }
+    ],
     "healing_awake": 0.2,
     "healing_multiplier": 1.5,
     "mending_modifier": 2.0,
     "vitamin_rates": [ [ "blood", -2 ], [ "redcells", -2 ] ],
-    "metabolism_modifier": 0.5,
     "thirst_modifier": 0.5,
     "flags": [ "C_SENTINEL_MARKER_1" ]
   },
@@ -66,13 +78,19 @@
     "prereqs": [ "SENTINEL_PERK_STR_2" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "cardio_multiplier": 2.0,
-    "weight_capacity_modifier": 2.0,
+    "enchantments": [
+      {
+        "values": [
+          { "value": "CARDIO_MULTIPLIER", "multiply": 1.0 },
+          { "value": "METABOLISM", "multiply": 1.0 },
+          { "value": "CARRY_WEIGHT", "multiply": 1.0 }
+        ]
+      }
+    ],
     "healing_awake": 0.4,
     "healing_multiplier": 2.0,
     "mending_modifier": 4.0,
     "vitamin_rates": [ [ "blood", -4 ], [ "redcells", -4 ] ],
-    "metabolism_modifier": 1.0,
     "thirst_modifier": 1.0
   },
   {
@@ -166,10 +184,17 @@
     "cancels": [ "BADKNEES" ],
     "changes_to": [ "SENTINEL_PERK_DEX_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "attackcost_modifier": 0.9375,
-    "fatigue_modifier": 0.25,
     "armor": [ { "parts": "ALL", "electric": -1 } ],
-    "enchantments": [ { "values": [ { "value": "BONUS_DODGE", "add": 1 }, { "value": "MOVE_COST", "multiply": -0.125 } ] } ]
+    "enchantments": [
+      { 
+        "values": [ 
+          { "value": "BONUS_DODGE", "add": 1 },
+          { "value": "MOVE_COST", "multiply": -0.125 },
+          { "value": "ATTACK_SPEED", "multiply": -0.0625 },
+          { "value": "FATIGUE", "multiply": 0.25 }
+        ]
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -185,10 +210,17 @@
     "changes_to": [ "SENTINEL_PERK_DEX_3" ],
     "prereqs": [ "SENTINEL_PERK_DEX" ],
     "category": [ "SUPER_SOLDIER" ],
-    "attackcost_modifier": 0.875,
-    "fatigue_modifier": 0.5,
     "armor": [ { "parts": "ALL", "electric": -2 } ],
-    "enchantments": [ { "values": [ { "value": "BONUS_DODGE", "add": 2 }, { "value": "MOVE_COST", "multiply": -0.25 } ] } ],
+    "enchantments": [
+      { 
+        "values": [ 
+          { "value": "BONUS_DODGE", "add": 2 },
+          { "value": "MOVE_COST", "multiply": -0.25 },
+          { "value": "ATTACK_SPEED", "multiply": -0.125 },
+          { "value": "FATIGUE", "multiply": 0.5 }
+        ]
+      }
+    ],
     "flags": [ "C_SENTINEL_MARKER_2" ]
   },
   {
@@ -205,10 +237,17 @@
     "prereqs": [ "SENTINEL_PERK_DEX_2" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "attackcost_modifier": 0.75,
-    "fatigue_modifier": 1.0,
     "armor": [ { "parts": "ALL", "electric": -4 } ],
-    "enchantments": [ { "values": [ { "value": "BONUS_DODGE", "add": 4 }, { "value": "MOVE_COST", "multiply": -0.5 } ] } ]
+    "enchantments": [
+      { 
+        "values": [ 
+          { "value": "BONUS_DODGE", "add": 4 },
+          { "value": "MOVE_COST", "multiply": -0.5 },
+          { "value": "ATTACK_SPEED", "multiply": -0.25 },
+          { "value": "FATIGUE", "multiply": 1.0 }
+        ]
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -302,7 +341,7 @@
     "category": [ "SUPER_SOLDIER" ],
     "social_modifiers": { "lie": -10 },
     "craft_skill_bonus": [ [ "electronics", 1 ], [ "mechanics", 1 ], [ "firstaid", 1 ], [ "computer", 1 ], [ "fabrication", 1 ] ],
-    "reading_speed_multiplier": 1.25,
+    "enchantments": [ { "values": [ { "value": "READING_SPEED_MULTIPLIER", "multiply": 0.25 } ] } ],
     "flags": [ "PRED2" ]
   },
   {
@@ -320,7 +359,7 @@
     "category": [ "SUPER_SOLDIER" ],
     "social_modifiers": { "lie": -20 },
     "craft_skill_bonus": [ [ "electronics", 2 ], [ "mechanics", 2 ], [ "firstaid", 2 ], [ "computer", 2 ], [ "fabrication", 2 ] ],
-    "reading_speed_multiplier": 1.5,
+    "enchantments": [ { "values": [ { "value": "READING_SPEED_MULTIPLIER", "multiply": 0.5 } ] } ],
     "flags": [ "PRED3", "C_SENTINEL_MARKER_3" ]
   },
   {
@@ -338,7 +377,7 @@
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
     "social_modifiers": { "lie": -40 },
     "craft_skill_bonus": [ [ "electronics", 4 ], [ "mechanics", 4 ], [ "firstaid", 4 ], [ "computer", 4 ], [ "fabrication", 4 ] ],
-    "reading_speed_multiplier": 2.0,
+    "enchantments": [ { "values": [ { "value": "READING_SPEED_MULTIPLIER", "multiply": 1.0 } ] } ],
     "flags": [ "PRED4" ]
   },
   {
@@ -431,11 +470,17 @@
     "cancels": [ "EAGLEEYED", "UNOBSERVANT", "GOODHEARING", "BADHEARING", "DEAF", "LIGHTSTEP", "CLUMSY" ],
     "changes_to": [ "SENTINEL_PERK_PER_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "overmap_sight": 5,
-    "noise_modifier": 0.75,
     "anger_relations": [ [ "MAMMAL", 5 ], [ "BIRD", 5 ] ],
     "social_modifiers": { "persuade": -5 },
-    "enchantments": [ { "values": [ { "value": "HEARING_MULT", "multiply": 0.25 } ] } ]
+    "enchantments": [
+      {
+        "values": [
+          { "value": "HEARING_MULT", "multiply": 0.25 },
+          { "value": "FOOTSTEP_NOISE", "multiply": -0.25 },
+          { "value": "OVERMAP_SIGHT", "add": 5 }
+        ]
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -450,11 +495,17 @@
     "prereqs": [ "SENTINEL_PERK_PER" ],
     "changes_to": [ "SENTINEL_PERK_PER_3" ],
     "category": [ "SUPER_SOLDIER" ],
-    "overmap_sight": 10,
-    "noise_modifier": 0.5,
     "anger_relations": [ [ "MAMMAL", 10 ], [ "BIRD", 10 ] ],
     "social_modifiers": { "persuade": -10 },
-    "enchantments": [ { "values": [ { "value": "HEARING_MULT", "multiply": 0.5 } ] } ],
+    "enchantments": [
+      {
+        "values": [
+          { "value": "HEARING_MULT", "multiply": 0.5 },
+          { "value": "FOOTSTEP_NOISE", "multiply": -0.5 },
+          { "value": "OVERMAP_SIGHT", "add": 10 }
+        ]
+      }
+    ],
     "flags": [ "C_SENTINEL_MARKER_4" ]
   },
   {
@@ -470,11 +521,17 @@
     "prereqs": [ "SENTINEL_PERK_PER_2" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "overmap_sight": 15,
-    "noise_modifier": 0.0,
     "anger_relations": [ [ "MAMMAL", 20 ], [ "BIRD", 20 ] ],
     "social_modifiers": { "persuade": -20 },
-    "enchantments": [ { "values": [ { "value": "HEARING_MULT", "multiply": 1 } ] } ]
+    "enchantments": [
+      {
+        "values": [
+          { "value": "HEARING_MULT", "multiply": 1.0 },
+          { "value": "FOOTSTEP_NOISE", "multiply": -1.0 },
+          { "value": "OVERMAP_SIGHT", "add": 15 }
+        ]
+      }
+    ]
   },
   {
     "type": "mutation",
@@ -605,7 +662,13 @@
       { "part": "hand_r", "neutral": 18 },
       { "part": "torso", "neutral": 15 }
     ],
-    "fatigue_regen_modifier": 0.5,
-    "enchantments": [ "C_MEP_SENTINEL_MENT" ]
+    "enchantments": [
+      "C_MEP_SENTINEL_MENT",
+      {
+        "values": [
+          { "value": "FATIGUE_REGEN", "multiply": 0.5 }
+        ]
+      }
+    ]
   }
 ]
