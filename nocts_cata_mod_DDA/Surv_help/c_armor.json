@@ -356,7 +356,7 @@
     "valid": false,
     "description": "Your equipment is actively eliminating the sounds of your footsteps.",
     "player_display": false,
-    "noise_modifier": 0.0
+    "enchantments": [ { "values": [ { "value": "FOOTSTEP_NOISE", "multiply": -1.0 } ] } ]
   },
   {
     "id": "boots_stealth",
@@ -1019,10 +1019,16 @@
     "//": "rand_bash_bonus has been removed without any replacement, so now using the average of the old 3-6 damage",
     "description": "This is used to make the player a lot less stealthy, but also punch harder on top of the armor's strength bonus.",
     "player_display": false,
-    "noise_modifier": 5.0,
-    "stealth_modifier": -10,
     "scent_intensity": 1200,
-    "enchantments": [ { "values": [ { "value": "ITEM_DAMAGE_BASH", "add": 4.5 } ] } ]
+    "enchantments": [
+      {
+        "values": [
+          { "value": "ITEM_DAMAGE_BASH", "add": 4.5 },
+          { "value": "STEALTH_MODIFIER", "add": -10 },
+          { "value": "FOOTSTEP_NOISE", "multiply": 4.0 }
+        ]
+      }
+    ]
   },
   {
     "id": "c_power_armor_surv",
