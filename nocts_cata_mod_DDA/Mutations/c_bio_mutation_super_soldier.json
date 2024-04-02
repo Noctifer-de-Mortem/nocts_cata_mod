@@ -20,15 +20,14 @@
         "values": [
           { "value": "CARDIO_MULTIPLIER", "multiply": 0.25 },
           { "value": "METABOLISM", "multiply": 0.25 },
-          { "value": "CARRY_WEIGHT", "multiply": 0.25 }
+          { "value": "CARRY_WEIGHT", "multiply": 0.25 },
+          { "value": "REGEN_HP_AWAKE", "multiply": 0.1 },
+          { "value": "REGEN_HP", "multiply": 0.25 },
+          { "value": "MENDING_MODIFIER", "multiply": 0.0 }
         ]
       }
     ],
-    "healing_awake": 0.1,
-    "healing_multiplier": 1.25,
-    "vitamin_rates": [ [ "blood", -1 ], [ "redcells", -1 ] ],
-    "mending_modifier": 1.0,
-    "thirst_modifier": 0.25
+    "vitamin_rates": [ [ "blood", -1 ], [ "redcells", -1 ] ]
   },
   {
     "type": "mutation",
@@ -51,15 +50,14 @@
         "values": [
           { "value": "CARDIO_MULTIPLIER", "multiply": 0.5 },
           { "value": "METABOLISM", "multiply": 0.5 },
-          { "value": "CARRY_WEIGHT", "multiply": 0.5}
+          { "value": "CARRY_WEIGHT", "multiply": 0.5 },
+          { "value": "REGEN_HP_AWAKE", "multiply": 0.2 },
+          { "value": "REGEN_HP", "multiply": 0.5 },
+          { "value": "MENDING_MODIFIER", "multiply": 1.0 }
         ]
       }
     ],
-    "healing_awake": 0.2,
-    "healing_multiplier": 1.5,
-    "mending_modifier": 2.0,
     "vitamin_rates": [ [ "blood", -2 ], [ "redcells", -2 ] ],
-    "thirst_modifier": 0.5,
     "flags": [ "C_SENTINEL_MARKER_1" ]
   },
   {
@@ -83,15 +81,14 @@
         "values": [
           { "value": "CARDIO_MULTIPLIER", "multiply": 1.0 },
           { "value": "METABOLISM", "multiply": 1.0 },
-          { "value": "CARRY_WEIGHT", "multiply": 1.0 }
+          { "value": "CARRY_WEIGHT", "multiply": 1.0 },
+          { "value": "REGEN_HP_AWAKE", "multiply": 0.4 },
+          { "value": "REGEN_HP", "multiply": 1.0 },
+          { "value": "MENDING_MODIFIER", "multiply": 3.0 }
         ]
       }
     ],
-    "healing_awake": 0.4,
-    "healing_multiplier": 2.0,
-    "mending_modifier": 4.0,
-    "vitamin_rates": [ [ "blood", -4 ], [ "redcells", -4 ] ],
-    "thirst_modifier": 1.0
+    "vitamin_rates": [ [ "blood", -4 ], [ "redcells", -4 ] ]
   },
   {
     "type": "mutation",

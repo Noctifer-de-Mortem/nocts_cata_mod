@@ -267,7 +267,7 @@
     ],
     "parts": [
       { "x": 0, "y": 1, "parts": [ "hdframe#vertical", "door_opaque" ] },
-      { "x": 0, "y": 0, "parts": [ "hdframe#vertical_2", "reaper_advanced", "hdroof" ] },
+      { "x": 0, "y": 0, "parts": [ "reaper_advanced", "hdroof" ] },
       { "x": 0, "y": -1, "parts": [ "hdframe#vertical", "hdboard#vertical" ] },
       { "x": 1, "y": 1, "parts": [ "hdframe#vertical", "reinforced_windshield" ] },
       { "x": 1, "y": 0, "parts": [ "hdframe#vertical_2", "controls", "seat", "seatbelt_heavyduty", "hdroof" ] },
@@ -288,7 +288,7 @@
         "y": 1,
         "parts": [ "hdframe#cross", "storage_battery_mount", "storage_battery_removable", "hdboard#se" ]
       },
-      { "x": -1, "y": 0, "parts": [ "hdframe#horizontal", "plow", "hdboard#horizontal" ] },
+      { "x": -1, "y": 0, "parts": [ "plow", "hdboard#horizontal" ] },
       {
         "x": -1,
         "y": -1,

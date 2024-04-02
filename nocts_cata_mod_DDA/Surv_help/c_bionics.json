@@ -212,7 +212,7 @@
     "name": { "str": "Atomic Battery" },
     "description": "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method.",
     "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "power_trickle": "5 J",
+    "enchantments": [ { "values": [ { "value": "POWER_TRICKLE", "add": 6 } ] } ],
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
   },
   {
