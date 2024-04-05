@@ -68,8 +68,8 @@
       "hurt_min": [ 1 ],
       "hurt_max": [ 3 ],
       "vomit_chance": [ 600 ],
-      "fatigue_chance": [ 250 ],
-      "fatigue_min": [ 1 ]
+      "sleepiness_chance": [ 250 ],
+      "sleepiness_min": [ 1 ]
     }
   },
   {
@@ -129,8 +129,8 @@
     "id": "c_mi_go_carapace_stamina",
     "base_mods": {
       "stamina_min": [ 20 ],
-      "fatigue_min": [ 1 ],
-      "fatigue_tick": [ 300 ],
+      "sleepiness_min": [ 1 ],
+      "sleepiness_tick": [ 300 ],
       "health_min": [ 1 ],
       "health_tick": [ 300 ],
       "h_mod_min": [ 1 ],
@@ -155,7 +155,7 @@
     "type": "effect_type",
     "id": "c_mi_go_wings_immunity",
     "removes_effects": [ "downed", "bouldering" ],
-    "base_mods": { "fatigue_min": [ 1 ], "fatigue_tick": [ 300 ] },
+    "base_mods": { "sleepiness_min": [ 1 ], "sleepiness_tick": [ 300 ] },
     "flags": [ "EFFECT_FEATHER_FALL" ]
   },
   {

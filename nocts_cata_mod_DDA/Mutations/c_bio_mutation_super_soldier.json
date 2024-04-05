@@ -183,12 +183,12 @@
     "category": [ "SUPER_SOLDIER" ],
     "armor": [ { "parts": "ALL", "electric": -1 } ],
     "enchantments": [
-      { 
-        "values": [ 
+      {
+        "values": [
           { "value": "BONUS_DODGE", "add": 1 },
           { "value": "MOVE_COST", "multiply": -0.125 },
           { "value": "ATTACK_SPEED", "multiply": -0.0625 },
-          { "value": "FATIGUE", "multiply": 0.25 }
+          { "value": "SLEEPINESS", "multiply": 0.25 }
         ]
       }
     ]
@@ -209,12 +209,12 @@
     "category": [ "SUPER_SOLDIER" ],
     "armor": [ { "parts": "ALL", "electric": -2 } ],
     "enchantments": [
-      { 
-        "values": [ 
+      {
+        "values": [
           { "value": "BONUS_DODGE", "add": 2 },
           { "value": "MOVE_COST", "multiply": -0.25 },
           { "value": "ATTACK_SPEED", "multiply": -0.125 },
-          { "value": "FATIGUE", "multiply": 0.5 }
+          { "value": "SLEEPINESS", "multiply": 0.5 }
         ]
       }
     ],
@@ -236,12 +236,12 @@
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
     "armor": [ { "parts": "ALL", "electric": -4 } ],
     "enchantments": [
-      { 
-        "values": [ 
+      {
+        "values": [
           { "value": "BONUS_DODGE", "add": 4 },
           { "value": "MOVE_COST", "multiply": -0.5 },
           { "value": "ATTACK_SPEED", "multiply": -0.25 },
-          { "value": "FATIGUE", "multiply": 1.0 }
+          { "value": "SLEEPINESS", "multiply": 1.0 }
         ]
       }
     ]
@@ -659,13 +659,6 @@
       { "part": "hand_r", "neutral": 18 },
       { "part": "torso", "neutral": 15 }
     ],
-    "enchantments": [
-      "C_MEP_SENTINEL_MENT",
-      {
-        "values": [
-          { "value": "FATIGUE_REGEN", "multiply": 0.5 }
-        ]
-      }
-    ]
+    "enchantments": [ "C_MEP_SENTINEL_MENT", { "values": [ { "value": "SLEEPINESS_REGEN", "multiply": 0.5 } ] } ]
   }
 ]
