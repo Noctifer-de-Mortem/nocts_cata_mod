@@ -235,7 +235,7 @@
   {
     "id": "rifle_crank_battery_cell",
     "type": "MAGAZINE",
-    "category": "spare_parts",
+    "category": "battery",
     "name": { "str": "crank rifle capacitor bank" },
     "description": "This is a homemade power cell made from household batteries along with a series of capacitors, designed to translate mechanical force into enough voltage to more efficiently power a survivor's crank rifle.  It's a wonder this thing isn't an electrocution hazard.",
     "weight": "500 g",
@@ -255,7 +255,6 @@
     "id": "light_atomic_battery_cell_rechargeable",
     "copy-from": "light_atomic_battery_cell",
     "type": "MAGAZINE",
-    "category": "spare_parts",
     "name": { "str": "light rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
     "extend": { "flags": [ "RECHARGE", "MAG_COMPACT" ] }
@@ -264,7 +263,6 @@
     "id": "medium_atomic_battery_cell_rechargeable",
     "copy-from": "medium_atomic_battery_cell",
     "type": "MAGAZINE",
-    "category": "spare_parts",
     "name": { "str": "medium rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
     "extend": { "flags": [ "RECHARGE", "MAG_COMPACT" ] }
@@ -273,7 +271,6 @@
     "id": "heavy_atomic_battery_cell_rechargeable",
     "copy-from": "heavy_atomic_battery_cell",
     "type": "MAGAZINE",
-    "category": "spare_parts",
     "name": { "str": "heavy rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
     "extend": { "flags": [ "RECHARGE", "MAG_BULKY" ] }

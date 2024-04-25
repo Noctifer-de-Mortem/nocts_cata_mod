@@ -152,7 +152,7 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { ",": "t_thatch_roof" }
+      "terrain": { ",": "t_thatch_roof", "=": "t_flat_roof" }
     }
   },
   {
@@ -515,7 +515,8 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "roof_palette" ]
+      "palettes": [ "roof_palette" ],
+      "terrain": { "=": "t_flat_roof" }
     }
   },
   {
@@ -676,7 +677,8 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "roof_palette" ]
+      "palettes": [ "roof_palette" ],
+      "terrain": { "=": "t_flat_roof" }
     }
   },
   {
@@ -872,7 +874,7 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { ",": "t_thatch_roof" }
+      "terrain": { ",": "t_thatch_roof", "=": "t_flat_roof" }
     }
   }
 ]
