@@ -5,6 +5,7 @@
     "name": "Survivor Holdout",
     "sym": "H",
     "color": "i_red",
+    "looks_like": "campsite",
     "see_cost": 5,
     "extras": "build"
   },
@@ -15,6 +16,7 @@
     "//": "Designed to look like a normal forest.",
     "sym": "F",
     "color": "green",
+    "looks_like": "forest",
     "see_cost": 5,
     "mondensity": 0,
     "extras": "build",
@@ -26,6 +28,7 @@
     "name": "Survivor Encampment",
     "sym": "C",
     "color": "light_green",
+    "looks_like": "campsite",
     "see_cost": 5,
     "extras": "surv_encamp"
   },
@@ -45,6 +48,7 @@
     "name": "Survivor Encampment",
     "sym": "C",
     "color": "light_green",
+    "looks_like": "campsite",
     "see_cost": 5
   },
   {
@@ -84,6 +88,7 @@
     "name": "parking lot",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "s_lot",
     "see_cost": 2,
     "extras": "field"
   },
@@ -93,6 +98,7 @@
     "name": "Bio-Weapon Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "bunker",
     "see_cost": 5
   },
   {
@@ -101,6 +107,7 @@
     "name": "Bio-Weapon Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "bunker_basement",
     "see_cost": 5
   },
   {
@@ -109,6 +116,7 @@
     "name": "parking lot",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "s_lot",
     "see_cost": 2,
     "extras": "field"
   },
@@ -118,6 +126,7 @@
     "name": "parking lot",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "s_lot",
     "see_cost": 2,
     "extras": "field"
   },
@@ -128,6 +137,7 @@
     "sym": "L",
     "color": "light_blue",
     "see_cost": 5,
+    "looks_like": "bunker",
     "extras": "build"
   },
   {
@@ -136,6 +146,7 @@
     "name": "Unknown Bunker",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "bunker",
     "see_cost": 5
   },
   {
@@ -144,6 +155,7 @@
     "name": "Unknown Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "microlab_generic_edge",
     "see_cost": 5
   },
   {
@@ -152,6 +164,7 @@
     "name": "Unknown Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "microlab_generic_edge",
     "see_cost": 5
   },
   {
@@ -160,6 +173,7 @@
     "name": "Unknown Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "microlab_generic_edge",
     "see_cost": 5
   },
   {
@@ -168,6 +182,7 @@
     "name": "Unknown Lab",
     "sym": "L",
     "color": "light_blue",
+    "looks_like": "microlab_generic_edge",
     "see_cost": 5
   },
   {
@@ -176,6 +191,7 @@
     "name": "parking lot",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "s_lot",
     "see_cost": 2,
     "extras": "field"
   },
@@ -185,6 +201,7 @@
     "name": "Makeshift Command Center",
     "sym": "C",
     "color": "blue",
+    "looks_like": "bunker",
     "see_cost": 5
   },
   {
@@ -193,6 +210,7 @@
     "name": "Makeshift Command Center",
     "sym": "C",
     "color": "blue",
+    "looks_like": "bunker_basement",
     "see_cost": 5
   },
   {
@@ -202,6 +220,7 @@
     "sym": ".",
     "color": "brown",
     "see_cost": 2,
+    "looks_like": "field",
     "mondensity": 0,
     "extras": "field",
     "flags": [ "NO_ROTATE" ]
@@ -212,13 +231,15 @@
     "name": "Sketchy Cabin",
     "sym": "C",
     "color": "i_red",
+    "looks_like": "cabin",
     "see_cost": 5
   },
   {
     "id": "sketchy_cabin_1_roof",
     "copy-from": "sketchy_cabin_1",
     "type": "overmap_terrain",
-    "name": "Sketchy Cabin roof"
+    "name": "Sketchy Cabin roof",
+    "looks_like": "cabin_roof"
   },
   {
     "id": "sketchy_cabin_2",
@@ -226,13 +247,15 @@
     "name": "abandoned barn",
     "sym": "B",
     "color": "brown",
+    "looks_like": "desolatebarn",
     "see_cost": 5
   },
   {
     "id": "sketchy_cabin_2_roof",
     "copy-from": "sketchy_cabin_2",
     "type": "overmap_terrain",
-    "name": "abandoned barn roof"
+    "name": "abandoned barn roof",
+    "looks_like": "farm_3_roof"
   },
   {
     "type": "overmap_terrain",
@@ -240,6 +263,7 @@
     "name": "underground arena",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "bunker_basement",
     "see_cost": 5,
     "flags": [ "KNOWN_UP" ]
   },
@@ -249,6 +273,7 @@
     "name": "underground arena",
     "sym": "O",
     "color": "dark_gray",
+    "looks_like": "bunker_basement",
     "see_cost": 5,
     "flags": [ "KNOWN_UP" ]
   },
@@ -259,6 +284,7 @@
     "//": "Designed to look like a normal forest.",
     "sym": "F",
     "color": "green",
+    "looks_like": "forest",
     "see_cost": 5,
     "mondensity": 0,
     "extras": "build",
@@ -271,6 +297,7 @@
     "//": "Designed to look like a normal plain tile.",
     "sym": ".",
     "color": "brown",
+    "looks_like": "plain",
     "see_cost": 5
   }
 ]
