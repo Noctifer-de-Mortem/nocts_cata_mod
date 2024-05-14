@@ -69,7 +69,8 @@
       { "level": 4, "name": "tailor" },
       { "level": 3, "name": "cooking" },
       { "level": 3, "name": "fabrication" },
-      { "level": 2, "name": "survival" }
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "mechanics" }
     ],
     "items": {
       "both": {
@@ -164,10 +165,9 @@
     ],
     "items": {
       "both": {
-        "ammo": 100,
-        "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot" ],
+        "items": [ "loincloth", "footrags", "c_power_armor_surv", "backpack", "waterskin", "flint_steel", "clay_pot" ],
         "entries": [
-          { "item": "c_power_armor_surv", "ammo-item": "lamp_oil", "charges": 2000 },
+          { "item": "lamp_oil", "container-item": "metal_tank_little" },
           { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] },
           { "item": "makeshift_knife", "container-item": "sheath" }
         ]
