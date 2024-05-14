@@ -116,7 +116,15 @@
     "using": [ [ "surface_heat", 50 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "components": [
-      [ [ "metal_tank_little", 1 ], [ "sheet_metal_small", 4 ], [ "can_food", 6 ], [ "can_drink", 6 ], [ "scrap", 12 ] ],
+      [
+        [ "metal_tank_little", 1 ],
+        [ "can_food_big", 1 ],
+        [ "can_medium", 3 ],
+        [ "sheet_metal_small", 4 ],
+        [ "can_food", 6 ],
+        [ "can_drink", 6 ],
+        [ "scrap", 12 ]
+      ],
       [ [ "clay_lump", 2 ], [ "pebble", 20 ], [ "material_limestone", 100 ], [ "material_sand", 100 ] ],
       [ [ "cu_pipe", 1 ], [ "pipe", 1 ], [ "clay_lump", 1 ] ]
     ]
@@ -213,6 +221,9 @@
     "tools": [
       [ [ "surface_heat", 10, "LIST" ] ],
       [
+        [ "metal_tank_little", -1 ],
+        [ "can_food_big", -1 ],
+        [ "can_medium", -1 ],
         [ "can_food", -1 ],
         [ "canister_empty", -1 ],
         [ "tinderbox", -1 ],
@@ -1493,11 +1504,7 @@
     "book_learn": [ [ "recipe_surv", 5 ] ],
     "using": [ [ "welding_standard", 10 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [
-      [ [ "forgerig", 1 ] ],
-      [ [ "veh_tools_workshop", 1 ] ],
-      [ [ "veh_tools_kitchen", 1 ] ]
-    ]
+    "components": [ [ [ "forgerig", 1 ] ], [ [ "veh_tools_workshop", 1 ] ], [ [ "veh_tools_kitchen", 1 ] ] ]
   },
   {
     "result": "goggles_welding",

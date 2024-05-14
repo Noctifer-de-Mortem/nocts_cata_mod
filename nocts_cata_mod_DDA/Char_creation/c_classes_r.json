@@ -77,7 +77,8 @@
       { "level": 4, "name": "tailor" },
       { "level": 3, "name": "cooking" },
       { "level": 3, "name": "fabrication" },
-      { "level": 2, "name": "survival" }
+      { "level": 2, "name": "survival" },
+      { "level": 1, "name": "mechanics" }
     ],
     "proficiencies": [
       "prof_handloading",
@@ -85,7 +86,8 @@
       "prof_leatherworking",
       "prof_millinery",
       "prof_furriery",
-      "prof_closures"
+      "prof_closures",
+      "prof_gun_cleaning"
     ],
     "items": {
       "both": {
@@ -183,9 +185,9 @@
     "items": {
       "both": {
         "ammo": 100,
-        "items": [ "loincloth", "footrags", "backpack", "waterskin", "flint_steel", "clay_pot" ],
+        "items": [ "loincloth", "footrags", "c_power_armor_surv", "backpack", "waterskin", "flint_steel", "clay_pot" ],
         "entries": [
-          { "item": "c_power_armor_surv", "contents-item": "lamp_oil", "charges": 2000 },
+          { "item": "lamp_oil", "container-item": "metal_tank_little" },
           { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] },
           { "item": "makeshift_knife", "container-item": "sheath" }
         ]
@@ -206,7 +208,6 @@
       "bio_alarm",
       "bio_cloak",
       "bio_atomic_battery",
-      "bio_cloak",
       "bio_fingerhack",
       "bio_lockpick",
       "bio_metabolics",

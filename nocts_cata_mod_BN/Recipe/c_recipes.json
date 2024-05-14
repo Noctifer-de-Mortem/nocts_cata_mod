@@ -111,6 +111,8 @@
     "components": [
       [
         [ "metal_tank_little", 1 ],
+        [ "can_food_big_unsealed", 1 ],
+        [ "can_medium_unsealed", 3 ],
         [ "sheet_metal_small", 4 ],
         [ "can_food_unsealed", 6 ],
         [ "can_drink_unsealed", 6 ],
@@ -206,6 +208,9 @@
     "tools": [
       [ [ "surface_heat", 10, "LIST" ] ],
       [
+        [ "metal_tank_little", -1 ],
+        [ "can_food_big_unsealed", -1 ],
+        [ "can_medium_unsealed", -1 ],
         [ "can_food_unsealed", -1 ],
         [ "canister_empty", -1 ],
         [ "tinderbox", -1 ],
