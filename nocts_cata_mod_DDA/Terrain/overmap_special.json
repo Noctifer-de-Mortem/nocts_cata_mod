@@ -117,7 +117,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 50, 100 ],
+    "occurrences": [ 100, 100 ],
     "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
@@ -132,7 +132,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 50, 100 ],
+    "occurrences": [ 100, 100 ],
     "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
