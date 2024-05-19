@@ -114,11 +114,11 @@
       { "point": [ 1, 1, -1 ], "overmap": "Unknown_Lab_b4_north" }
     ],
     "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "wilderness", "swamp", "forest_thick", "forest", "field" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
+    "occurrences": [ 100, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -129,11 +129,11 @@
       { "point": [ 0, 1, -1 ], "overmap": "makeshift_command_center_b_north" }
     ],
     "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
-    "locations": [ "wilderness" ],
+    "locations": [ "wilderness", "swamp", "forest_thick", "forest", "field" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
+    "occurrences": [ 100, 100 ],
+    "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
