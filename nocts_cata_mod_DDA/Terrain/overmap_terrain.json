@@ -6,8 +6,7 @@
     "sym": "H",
     "color": "i_red",
     "looks_like": "campsite",
-    "see_cost": 5,
-    "extras": "build"
+    "see_cost": 5
   },
   {
     "id": "surv_camp",
@@ -214,18 +213,6 @@
     "see_cost": 5
   },
   {
-    "id": "b_field",
-    "type": "overmap_terrain",
-    "name": "field",
-    "sym": ".",
-    "color": "brown",
-    "see_cost": 2,
-    "looks_like": "field",
-    "mondensity": 0,
-    "extras": "field",
-    "flags": [ "NO_ROTATE" ]
-  },
-  {
     "id": "sketchy_cabin_1",
     "type": "overmap_terrain",
     "name": "Sketchy Cabin",
@@ -297,7 +284,28 @@
     "//": "Designed to look like a normal plain tile.",
     "sym": ".",
     "color": "brown",
-    "looks_like": "plain",
+    "looks_like": "field",
     "see_cost": 5
+  },
+  {
+    "id": "Survivor_Holdout_2",
+    "type": "overmap_terrain",
+    "name": "dirt road",
+    "sym": "│",
+    "color": "brown",
+    "looks_like": "dirt_road_forest",
+    "see_cost": 2
+  },
+  {
+    "id": "Survivor_Encampment_Lot_Preppers",
+    "copy-from": "Survivor_Holdout_2",
+    "type": "overmap_terrain",
+    "name": "dirt lot",
+    "sym": "0"
+  },
+  {
+    "id": "Survivor_Encampment_Lot_Generic",
+    "copy-from": "Survivor_Encampment_Lot_Preppers",
+    "type": "overmap_terrain"
   }
 ]

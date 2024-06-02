@@ -36,13 +36,13 @@
         "$": "t_palisade",
         "+": "t_palisade_gate",
         ".": [ [ "t_region_groundcover", 8 ], "t_region_shrub_fruit", "t_region_tree_shade" ],
-        ",": "t_region_groundcover",
+        ",": "t_region_groundcover_barren",
         "'": "t_concrete",
         "b": "t_concrete",
         "j": "t_concrete",
         "R": "t_concrete",
         "s": "t_concrete",
-        "=": "t_region_groundcover",
+        "=": "t_floor_primitive",
         "C": "t_water_pump",
         "F": "t_floor_primitive",
         "O": "t_floor_primitive",
@@ -50,7 +50,6 @@
         "U": "t_floor_primitive",
         "^": "t_floor_primitive",
         "a": "t_floor_primitive",
-        "b": "t_region_groundcover",
         "c": "t_floor_primitive",
         "e": "t_floor_primitive",
         "f": "t_region_groundcover",
@@ -64,7 +63,7 @@
       "furniture": {
         "b": "f_battery",
         "j": "f_cable_connector",
-        "s": "f_rack",
+        "R": "f_rack",
         "s": "f_solar_unit",
         "=": "f_smoking_rack",
         "F": "f_forge",
@@ -89,11 +88,51 @@
         { "item": "recipe_surv", "x": 19, "y": 9 },
         { "item": "semap", "x": 19, "y": 9 }
       ],
-      "place_npcs": [ { "class": "bff", "x": 11, "y": 13 } ],
+      "place_npcs": [ { "class": "bff", "x": 16, "y": 12 } ],
       "place_vehicles": [
-        { "vehicle": "bicycle_dirt", "x": 7, "y": 5, "status": -1, "rotation": 270 },
-        { "vehicle": "c_surv_rv_military", "x": 10, "y": 6, "fuel": 1, "status": -1, "rotation": 270 }
+        { "vehicle": "bicycle_dirt", "x": 7, "y": 5, "chance": 100, "status": -1, "rotation": 270 },
+        { "vehicle": "c_surv_rv_military", "x": 10, "y": 6, "chance": 100, "fuel": 1, "status": -1, "rotation": 270 }
       ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Holdout_2" ],
+    "//": "Road connection for survivor holdouts, also used to spawn players outside them in the relevant scenario.",
+    "weight": 1000,
+    "object": {
+      "rows": [
+        ".........??????.........",
+        "........????????........",
+        ".......??????????.......",
+        ".......??????????.......",
+        ".......??????????.......",
+        ".......??????????.......",
+        ".......??,,,,,,??.......",
+        ".......?,,,,,,,,?.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,.......",
+        ".......,,,,,,,,,,......."
+      ],
+      "terrain": {
+        ".": [ [ "t_region_groundcover", 12 ], [ "t_region_shrub_fruit", 2 ], "t_region_tree_shade" ],
+        ",": "t_region_groundcover_barren",
+        "?": [ "t_region_groundcover_barren", "t_region_groundcover" ]
+      }
     }
   }
 ]

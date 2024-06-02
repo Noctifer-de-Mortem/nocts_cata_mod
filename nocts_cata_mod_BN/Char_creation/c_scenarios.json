@@ -48,8 +48,8 @@
     "allowed_locs": [
       "sloc_house_boarded",
       "surv_camp_l",
-      "surv_holdout_1",
-      "surv_encampment_1",
+      "sloc_surv_holdout",
+      "sloc_surv_encampment",
       "sloc_cabin",
       "sloc_hermit_shack",
       "sloc_farm_survivalist",

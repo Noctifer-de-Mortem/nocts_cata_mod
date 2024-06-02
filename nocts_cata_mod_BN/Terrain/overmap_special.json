@@ -2,8 +2,8 @@
   {
     "type": "overmap_special",
     "id": "Survivor_Holdout_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Holdout_1_north" } ],
-    "connections": [ { "point": [ 0, -1, 0 ], "connection": "local_road", "existing": true } ],
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Holdout_1_north" }, { "point": [ 0, -1, 0 ], "overmap": "Survivor_Holdout_2_north" } ],
+    "connections": [ { "point": [ 0, -2, 0 ], "connection": "local_road", "existing": true } ],
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 1, 16 ],
@@ -25,6 +25,7 @@
     "id": "Survivor_Encampment",
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Encampment_Lot_Generic_north" },
       { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_roof_north" }
     ],
     "locations": [ "wilderness" ],
@@ -38,6 +39,7 @@
     "id": "Survivor_Encampment_robotics",
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_robotics_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Encampment_Lot_Generic_north" },
       { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_robotics_roof_north" }
     ],
     "locations": [ "wilderness" ],
@@ -51,6 +53,7 @@
     "id": "Survivor_Encampment_overrun",
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_overrun_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Encampment_Lot_Generic_north" },
       { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_overrun_roof_north" }
     ],
     "locations": [ "wilderness" ],
@@ -64,6 +67,7 @@
     "id": "Survivor_Encampment_bandits",
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_bandits_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Encampment_Lot_Generic_north" },
       { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_bandits_roof_north" }
     ],
     "locations": [ "wilderness" ],
@@ -77,6 +81,7 @@
     "id": "Survivor_Encampment_2",
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Survivor_Encampment_2_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Encampment_Lot_Preppers_north" },
       { "point": [ 0, 0, 1 ], "overmap": "Survivor_Encampment_2_roof_north" }
     ],
     "locations": [ "wilderness" ],
