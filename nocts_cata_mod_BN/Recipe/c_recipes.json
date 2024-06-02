@@ -244,7 +244,7 @@
     "skills_required": [ [ "gun", 4 ], [ "fabrication", 5 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_rifle", 8 ], [ "textbook_anarch", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "manual_rifle", 8 ], [ "textbook_anarch", 6 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -271,7 +271,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -296,7 +296,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -321,7 +321,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -332,7 +332,7 @@
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
       [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "308_casing", -1 ] ]
+      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
     ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
@@ -346,7 +346,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -371,7 +371,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -396,7 +396,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -421,7 +421,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -446,7 +446,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -471,7 +471,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "decomp_learn": 5,
-    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -591,7 +591,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -613,7 +613,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -635,7 +635,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -657,7 +657,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -679,7 +679,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_shotgun", 5 ], [ "mag_shotgun", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_shotgun", 5 ], [ "mag_shotgun", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -701,7 +701,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -723,7 +723,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -745,7 +745,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -767,7 +767,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "tools": [
@@ -787,14 +787,14 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
       [ [ "swage", -1 ] ],
-      [ [ "308_casing", -1 ] ]
+      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
@@ -807,7 +807,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "tools": [
@@ -827,7 +827,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
     "tools": [
@@ -847,7 +847,7 @@
     "difficulty": 4,
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
-    "book_learn": [ [ "recipe_surv", 3 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -1049,7 +1049,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_luty", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1070,7 +1070,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1091,7 +1091,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1112,7 +1112,7 @@
     "difficulty": 5,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
     "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1133,7 +1133,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_luty", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1154,7 +1154,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_luty", 6 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1175,7 +1175,7 @@
     "difficulty": 6,
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
-    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_shotgun", 6 ], [ "mag_shotgun", 7 ] ],
+    "book_learn": [ [ "recipe_surv", 5 ], [ "manual_luty", 6 ], [ "manual_shotgun", 6 ], [ "mag_shotgun", 7 ] ],
     "using": [ [ "steel_tiny", 5 ], [ "welding_standard", 25 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1196,7 +1196,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
-    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_luty", 7 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1217,7 +1217,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
-    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_luty", 7 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1238,7 +1238,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
-    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_luty", 7 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
@@ -1259,7 +1259,7 @@
     "difficulty": 7,
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
-    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
+    "book_learn": [ [ "recipe_surv", 6 ], [ "manual_luty", 7 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
     "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
