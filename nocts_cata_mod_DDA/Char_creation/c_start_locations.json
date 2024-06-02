@@ -3,7 +3,22 @@
     "type": "start_location",
     "id": "surv_camp_l",
     "name": "Survivor Camp Site",
-    "terrain": [ "surv_camp" ]
+    "terrain": [ "surv_camp" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "id": "surv_holdout_1",
+    "name": "Survivor Holdout",
+    "terrain": [ "Survivor_Holdout_1" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "id": "surv_encampment_1",
+    "name": "Survivor Encampment",
+    "terrain": [ "Survivor_Encampment_2" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
   },
   {
     "type": "start_location",

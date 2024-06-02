@@ -45,7 +45,16 @@
     "id": "prep_house",
     "points": 2,
     "start_name": "Safehouse",
-    "allowed_locs": [ "sloc_house_boarded", "surv_camp_l", "surv_holdout_1", "surv_encampment_1", "sloc_lmoe" ],
+    "allowed_locs": [
+      "sloc_house_boarded",
+      "surv_camp_l",
+      "surv_holdout_1",
+      "surv_encampment_1",
+      "sloc_cabin",
+      "sloc_hermit_shack",
+      "sloc_farm_survivalist",
+      "sloc_lmoe"
+    ],
     "professions": [
       "survivalist",
       "jr_survivalist",
@@ -56,6 +65,9 @@
       "groundskeeper",
       "blacksmith",
       "gyro_pilot",
+      "hardened_survivor",
+      "road_warrior",
+      "waste_ranger",
       "bionic_silencer",
       "surv_drifter",
       "surv_knight_errant",

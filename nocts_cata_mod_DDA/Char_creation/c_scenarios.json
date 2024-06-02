@@ -53,12 +53,21 @@
   },
   {
     "type": "scenario",
-    "name": "Prepper Household",
-    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, it's time to put your plan into action.",
+    "name": "Prepper Safehouse",
+    "description": "You knew something was coming, so you made connections with like-minded survivors beforehand to establish safe refuge.  You've made your plans, now it's time to put them into action.",
     "id": "prep_house",
     "points": 2,
-    "start_name": "Boarded Up House",
-    "allowed_locs": [ "sloc_house_boarded" ],
+    "start_name": "Safehouse",
+    "allowed_locs": [
+      "sloc_house_boarded",
+      "surv_camp_l",
+      "surv_holdout_1",
+      "surv_encampment_1",
+      "sloc_cabin",
+      "sloc_hermit_shack",
+      "sloc_farm_survivalist",
+      "sloc_lmoe"
+    ],
     "professions": [
       "survivalist",
       "jr_survivalist",
@@ -72,7 +81,9 @@
       "surv_knight_errant",
       "surv_techno_barbarian"
     ],
-    "traits": [ "MARTIAL_ARTS_SURV_COM" ]
+    "traits": [ "MARTIAL_ARTS_SURV_COM" ],
+    "forced_traits": [ "PROF_PREPPER_HOLDOUT" ],
+    "flags": [ "CITY_START", "LONE_START" ]
   },
   {
     "type": "scenario",

@@ -2,56 +2,56 @@
   {
     "id": "TALK_BFF",
     "type": "talk_topic",
-    "//": "Excludes most professions, at least in vanilla and Cata++, that don't deserve friends.  :3",
     "dynamic_line": {
-      "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ],
-      "yes": "Greetings.  Damn, I was hoping to run into somebody else… at least we're both still in one piece, I guess.",
-      "no": {
-        "u_male": true,
-        "yes": "Holy shit man, you are still alive?!  I'm glad, I thought I was going to have to deal with all this alone.  We got this place far away and are safe for now.  It's now you and me, just like old times!",
-        "no": "Holy shit girl, you are still alive?!  I'm glad, I thought I was going to have to deal with all this alone. We got this place far away and are safe for now.  It's now you and me, just like old times!"
-      }
+      "u_has_trait": "PROF_PREPPER_HOLDOUT",
+      "yes": {
+        "npc_has_var": "c_var_prepper_met",
+        "type": "flag",
+        "context": "dialogue",
+        "value": "yes",
+        "yes": "What's up?  Whenever you feel like hitting the road, I'm with you.",
+        "no": {
+          "u_male": true,
+          "yes": "Holy shit man, you're still alive?!  I'm glad, I thought I was going to have to deal with all this alone.  We've got shelter and supplies at least.  Whenever you want to head out, I'll follow your lead.",
+          "no": "Holy shit girl, you're still alive?!  I'm glad, I thought I was going to have to deal with all this alone.  We've got shelter and supplies at least.  Whenever you want to head out, I'll follow your lead."
+        }
+      },
+      "no": "Greetings.  Damn, I was hoping to run into somebody else… at least we're both still in one piece, I guess."
+    },
+    "speaker_effect": {
+      "condition": {
+        "and": [
+          { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
+          { "not": { "npc_has_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" } }
+        ]
+      },
+      "effect": { "npc_add_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" },
+      "opinion": { "trust": 8, "value": 8, "anger": -4, "fear": -4 }
     },
     "responses": [
       {
         "text": "Another survivor!  We should travel together.",
-        "condition": {
-          "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ]
-        },
+        "condition": { "not": { "u_has_trait": "PROF_PREPPER_HOLDOUT" } },
         "topic": "TALK_SUGGEST_FOLLOW"
       },
       {
         "text": "What are you doing?",
-        "condition": {
-          "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ]
-        },
+        "condition": { "not": { "u_has_trait": "PROF_PREPPER_HOLDOUT" } },
         "topic": "TALK_DESCRIBE_MISSION"
       },
       {
         "text": "Care to trade?",
         "topic": "TALK_DONE",
-        "condition": {
-          "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ]
-        },
+        "condition": { "not": { "u_has_trait": "PROF_PREPPER_HOLDOUT" } },
         "effect": "start_trade"
       },
       {
-        "text": "Glad to see you too buddy, let's go now!",
-        "trial": { "type": "NONE" },
-        "condition": {
-          "not": {
-            "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ]
-          }
-        },
-        "success": { "effect": "follow", "opinion": { "trust": 8, "fear": 0, "value": 8, "anger": -2 }, "topic": "TALK_DONE" }
-      },
-      {
-        "text": "Bye.",
-        "condition": {
-          "u_has_any_trait": [ "PROF_CHURL", "BIO_WEAPON_ALPHA", "BIO_WEAPON_BETA", "BIO_WEAPON_GAMMA", "BIO_WEAPON_DELTA", "BIO_WEAPON_FAILED" ]
-        },
+        "text": "Sure, let's head out!",
+        "condition": { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
+        "effect": "follow",
         "topic": "TALK_DONE"
-      }
+      },
+      { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   }
 ]

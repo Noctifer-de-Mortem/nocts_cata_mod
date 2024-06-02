@@ -5,7 +5,7 @@
     "dynamic_line": {
       "u_has_trait": "PROF_PREPPER_HOLDOUT",
       "yes": {
-        "u_has_var": "c_var_prepper_met",
+        "npc_has_var": "c_var_prepper_met",
         "type": "flag",
         "context": "dialogue",
         "value": "yes",
@@ -19,9 +19,14 @@
       "no": "Greetings.  Damn, I was hoping to run into somebody else… at least we're both still in one piece, I guess."
     },
     "speaker_effect": {
-      "condition": { "and": [ { "u_has_trait": "PROF_PREPPER_HOLDOUT" }, { "not": { "npc_has_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" } } ] },
+      "condition": {
+        "and": [
+          { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
+          { "not": { "npc_has_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" } }
+        ]
+      },
       "effect": { "npc_add_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" },
-      "opinion": { "trust": 4, "value": 4, "anger": -2 }
+      "opinion": { "trust": 8, "value": 8, "anger": -4, "fear": -4 }
     },
     "responses": [
       {
@@ -41,15 +46,12 @@
         "effect": "start_trade"
       },
       {
-        "text": "Glad to see you too buddy, let's go now!",
+        "text": "Sure, let's head out!",
         "condition": { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
-        "success": { "effect": "follow", "opinion": { "trust": 8, "value": 8, "anger": -2 }, "topic": "TALK_DONE" }
-      },
-      {
-        "text": "Bye.",
-        "condition": { "not": { "u_has_trait": "PROF_PREPPER_HOLDOUT" } },
+        "effect": "follow",
         "topic": "TALK_DONE"
-      }
+      },
+      { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   }
 ]
