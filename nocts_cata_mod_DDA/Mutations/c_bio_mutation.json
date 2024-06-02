@@ -419,5 +419,15 @@
     "valid": false,
     "purifiable": false,
     "profession": true
+  },
+  {
+    "type": "mutation",
+    "id": "PROF_PREPPER_HOLDOUT",
+    "name": { "str": "Prepper Holdout" },
+    "points": 0,
+    "description": "Before the Cataclysm, you were a member of a local community of like-minded survivalists, occasionally meeting to contribute to preparing and stocking safehouses.  Now that the world's ended, you might be able to count on any of your friends out there, if they're still alive.",
+    "valid": false,
+    "purifiable": false,
+    "profession": true
   }
 ]

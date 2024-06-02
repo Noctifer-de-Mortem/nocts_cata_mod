@@ -3,29 +3,51 @@
     "id": "c_surv_rv_military",
     "type": "vehicle",
     "name": "Survivor's Militarized RV",
+    "blueprint": [
+      [ "|''-++++-+|" ],
+      [ "t#TV&F##|t'" ],
+      [ "+==+====+H'" ],
+      [ "|==|====|H'" ],
+      [ "t=#V#W#=|t'" ],
+      [ "|''-'''+-+|" ]
+    ],
     "parts": [
-      { "x": 1, "y": -1, "parts": [ "hdframe_nw", "reinforced_windshield", "omnicam", "plating_hard" ] },
+      { "x": -9, "y": -1, "parts": [ "hdframe_sw", "hdboard_sw", "omnicam", "plating_hard" ] },
       {
-        "x": 1,
-        "y": 0,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield", "storage_battery", "headlight_reinforced", "plating_hard" ]
+        "x": -8,
+        "y": -1,
+        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
       },
       {
-        "x": 1,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield", "storage_battery", "plating_hard" ]
+        "x": -7,
+        "y": -1,
+        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
       },
       {
-        "x": 1,
-        "y": 2,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield", "storage_battery", "plating_hard" ]
+        "x": -6,
+        "y": -1,
+        "parts": [
+          "hdframe_vertical",
+          "hdboard_vertical",
+          "storage_battery_mount",
+          "storage_battery_removable",
+          "floodlight",
+          "plating_hard"
+        ]
       },
       {
-        "x": 1,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "reinforced_windshield", "storage_battery", "headlight_reinforced", "plating_hard" ]
+        "x": -5,
+        "y": -1,
+        "parts": [ "hdframe_vertical", "hdhatch_opaque_left", "omnicam", "plating_hard", "door_motor" ]
       },
-      { "x": 1, "y": 4, "parts": [ "hdframe_ne", "reinforced_windshield", "omnicam", "plating_hard" ] },
+      { "x": -4, "y": -1, "parts": [ "hdframe_vertical", "hdhatch_opaque_left", "plating_hard", "door_motor" ] },
+      { "x": -3, "y": -1, "parts": [ "hdframe_vertical", "hdhatch_opaque_left", "plating_hard", "door_motor" ] },
+      { "x": -2, "y": -1, "parts": [ "hdframe_vertical", "hdhatch_opaque_left", "plating_hard", "door_motor" ] },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "omnicam", "plating_hard" ]
+      },
       {
         "x": 0,
         "y": -1,
@@ -38,6 +60,45 @@
           "plating_hard",
           "door_motor"
         ]
+      },
+      { "x": 1, "y": -1, "parts": [ "hdframe_nw", "hdhalfboard_nw", "headlight_reinforced", "plating_hard" ] },
+      {
+        "x": -9,
+        "y": 0,
+        "parts": [
+          "hdframe_horizontal",
+          "hdstowboard_horizontal",
+          "turret_mount",
+          "ups_rifle_t",
+          "controls_turret",
+          "bike_rack",
+          "muffler",
+          "plating_hard"
+        ]
+      },
+      {
+        "x": -8,
+        "y": 0,
+        "parts": [ "hdframe_vertical_2", "seat_wood", "cam_control", "controls_electronic", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": [ "hdframe_vertical_2", "veh_table_wood", "atomic_lamp", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station", "tank", "funnel", "water_faucet" ]
+      },
+      { "x": -5, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "surv_station_t", "tank" ] },
+      { "x": -4, "y": 0, "parts": [ "hdframe_vertical_2", "minifreezer", "hdroof" ] },
+      { "x": -3, "y": 0, "parts": [ "hdframe_vertical_2", "cargo_space", "hdroof" ] },
+      { "x": -2, "y": 0, "parts": [ "hdframe_vertical_2", "cargo_space", "hdroof" ] },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "minireactor", "engine_electric_enhanced" ]
       },
       {
         "x": 0,
@@ -46,27 +107,152 @@
           "hdframe_vertical_2",
           "turret_mount",
           "ups_rifle_t",
+          "controls_turret",
           "hdroof",
           "seat",
           "seatbelt_heavyduty",
+          "storage_battery",
           "cam_control",
           "controls",
           "dashboard",
           "vehicle_clock",
           "vehicle_alarm",
-          "stereo"
+          "stereo",
+          "horn_big"
         ]
       },
+      { "x": 1, "y": 0, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_hard" ] },
+      {
+        "x": -9,
+        "y": 1,
+        "parts": [ "hdframe_horizontal", "hddoor_opaque", "bike_rack", "floodlight", "plating_hard" ]
+      },
+      {
+        "x": -8,
+        "y": 1,
+        "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      { "x": -6, "y": 1, "parts": [ "hdframe_vertical_2", "hdroof", "door_internal" ] },
+      { "x": -5, "y": 1, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
+      { "x": -4, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -3, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -2, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -1, "y": 1, "parts": [ "hdframe_vertical_2", "hdroof", "door_internal", "door_motor" ] },
       {
         "x": 0,
         "y": 1,
-        "parts": [ "hdframe_vertical_2", "tracker", "inboard_mirror", "horn_big", "trunk_floor", "hdroof" ]
+        "parts": [ "hdframe_vertical_2", "trunk_floor", "storage_battery", "inboard_mirror", "hdroof" ]
       },
-      { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "tracker", "trunk_floor", "hdroof" ] },
+      { "x": 1, "y": 1, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_hard" ] },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [ "hdframe_horizontal", "hdstowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ]
+      },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      { "x": -6, "y": 2, "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station" ] },
+      { "x": -5, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -4, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -3, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -2, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
+      { "x": -1, "y": 2, "parts": [ "hdframe_vertical_2", "stowboard_horizontal" ] },
+      { "x": 0, "y": 2, "parts": [ "hdframe_vertical_2", "trunk_floor", "storage_battery", "hdroof" ] },
+      { "x": 1, "y": 2, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_hard" ] },
+      {
+        "x": -9,
+        "y": 3,
+        "parts": [
+          "hdframe_horizontal",
+          "hdstowboard_horizontal",
+          "turret_mount",
+          "ups_rifle_t",
+          "controls_turret",
+          "bike_rack",
+          "muffler",
+          "plating_hard"
+        ]
+      },
+      { "x": -8, "y": 3, "parts": [ "hdframe_vertical_2", "bed", "hdroof", "reinforced_solar_panel_v2" ] },
+      {
+        "x": -7,
+        "y": 3,
+        "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof", "reinforced_solar_panel_v2" ]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station", "tank", "funnel", "water_faucet" ]
+      },
+      { "x": -5, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "seat_wood" ] },
+      { "x": -4, "y": 3, "parts": [ "hdframe_vertical_2", "workbench", "hdroof" ] },
+      { "x": -3, "y": 3, "parts": [ "hdframe_vertical_2", "seat_wood", "hdroof" ] },
+      { "x": -2, "y": 3, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "minireactor", "engine_electric_enhanced" ]
+      },
       {
         "x": 0,
         "y": 3,
-        "parts": [ "hdframe_vertical_2", "turret_mount", "ups_rifle_t", "hdroof", "seat", "seatbelt_heavyduty" ]
+        "parts": [
+          "hdframe_vertical_2",
+          "seat",
+          "seatbelt_heavyduty",
+          "storage_battery",
+          "turret_mount",
+          "ups_rifle_t",
+          "controls_turret",
+          "hdroof"
+        ]
+      },
+      { "x": 1, "y": 3, "parts": [ "hdframe_horizontal", "reinforced_windshield", "plating_hard" ] },
+      { "x": -9, "y": 4, "parts": [ "hdframe_se", "hdboard_se", "omnicam", "plating_hard" ] },
+      {
+        "x": -8,
+        "y": 4,
+        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
+      },
+      {
+        "x": -7,
+        "y": 4,
+        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
+      },
+      { "x": -6, "y": 4, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
+      {
+        "x": -5,
+        "y": 4,
+        "parts": [
+          "hdframe_vertical",
+          "storage_battery_mount",
+          "storage_battery_removable",
+          "omnicam",
+          "reinforced_windshield",
+          "v_curtain",
+          "plating_hard"
+        ]
+      },
+      { "x": -4, "y": 4, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
+      { "x": -3, "y": 4, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
+      { "x": -2, "y": 4, "parts": [ "hdframe_vertical", "hddoor_opaque_right", "plating_hard", "door_motor" ] },
+      {
+        "x": -1,
+        "y": 4,
+        "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "omnicam", "plating_hard" ]
       },
       {
         "x": 0,
@@ -81,164 +267,26 @@
           "door_motor"
         ]
       },
-      { "x": -1, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
-      {
-        "x": -1,
-        "y": 0,
-        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "minireactor", "engine_electric_enhanced" ]
-      },
-      { "x": -1, "y": 1, "parts": [ "hdframe_vertical_2", "hdroof", "door_internal", "door_motor" ] },
-      { "x": -1, "y": 2, "parts": [ "hdframe_vertical_2", "stowboard_horizontal" ] },
-      {
-        "x": -1,
-        "y": 3,
-        "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "minireactor", "engine_electric_enhanced" ]
-      },
-      { "x": -1, "y": 4, "parts": [ "hdframe_vertical", "hdboard_vertical", "floodlight", "plating_hard" ] },
-      { "x": -2, "y": -1, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
-      { "x": -2, "y": 0, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 3, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
-      { "x": -2, "y": 4, "parts": [ "hdframe_vertical", "door_opaque", "plating_hard", "door_motor" ] },
-      { "x": -3, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "plating_hard" ] },
-      { "x": -3, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "minifreezer" ] },
-      { "x": -3, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -3, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -3, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "aisle_horizontal" ] },
-      { "x": -3, "y": 4, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
-      { "x": -4, "y": -1, "parts": [ "hdframe_vertical", "floodlight", "hdboard_vertical", "plating_hard" ] },
-      { "x": -4, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "minifridge" ] },
-      { "x": -4, "y": 1, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -4, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -4, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "veh_table_wood" ] },
-      {
-        "x": -4,
-        "y": 4,
-        "parts": [ "hdframe_vertical", "floodlight", "reinforced_windshield", "v_curtain", "plating_hard" ]
-      },
-      { "x": -5, "y": -1, "parts": [ "hdframe_vertical", "omnicam", "hdboard_vertical", "plating_hard" ] },
-      { "x": -5, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "surv_station_t", "tank" ] },
-      { "x": -5, "y": 1, "parts": [ "hdframe_vertical_2", "lit_aisle_horizontal", "hdroof" ] },
-      { "x": -5, "y": 2, "parts": [ "hdframe_vertical_2", "aisle_horizontal", "hdroof" ] },
-      { "x": -5, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "seat_wood" ] },
-      {
-        "x": -5,
-        "y": 4,
-        "parts": [ "hdframe_vertical", "omnicam", "reinforced_windshield", "v_curtain", "plating_hard" ]
-      },
-      { "x": -6, "y": -1, "parts": [ "hdframe_vertical", "hdboard_vertical", "funnel", "tank", "plating_hard" ] },
-      { "x": -6, "y": 0, "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station" ] },
-      { "x": -6, "y": 1, "parts": [ "hdframe_vertical_2", "hdroof", "door_internal" ] },
-      { "x": -6, "y": 2, "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station" ] },
-      { "x": -6, "y": 3, "parts": [ "hdframe_vertical_2", "stowboard_horizontal", "recharge_station" ] },
-      { "x": -6, "y": 4, "parts": [ "hdframe_vertical", "hdboard_vertical", "funnel", "tank", "plating_hard" ] },
-      { "x": -7, "y": -1, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
-      { "x": -7, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "cargo_space" ] },
-      {
-        "x": -7,
-        "y": 1,
-        "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ]
-      },
-      {
-        "x": -7,
-        "y": 2,
-        "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ]
-      },
-      {
-        "x": -7,
-        "y": 3,
-        "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "veh_table_wood", "atomic_lamp" ]
-      },
-      { "x": -7, "y": 4, "parts": [ "hdframe_vertical", "reinforced_windshield", "v_curtain", "plating_hard" ] },
-      {
-        "x": -8,
-        "y": -1,
-        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
-      },
-      { "x": -8, "y": 0, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "cargo_space" ] },
-      {
-        "x": -8,
-        "y": 1,
-        "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ]
-      },
-      {
-        "x": -8,
-        "y": 2,
-        "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "aisle_horizontal" ]
-      },
-      { "x": -8, "y": 3, "parts": [ "hdframe_vertical_2", "hdroof", "reinforced_solar_panel_v2", "bed" ] },
-      {
-        "x": -8,
-        "y": 4,
-        "parts": [ "hdframe_vertical", "wheel_mount_heavy", "wheel_armor", "reinforced_windshield", "v_curtain", "plating_hard" ]
-      },
-      {
-        "x": -9,
-        "y": -1,
-        "parts": [
-          "hdframe_sw",
-          "wheel_mount_heavy",
-          "wheel_armor",
-          "hdboard_sw",
-          "omnicam",
-          "storage_battery_mount",
-          "storage_battery_removable",
-          "plating_hard"
-        ]
-      },
-      {
-        "x": -9,
-        "y": 0,
-        "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ]
-      },
-      {
-        "x": -9,
-        "y": 1,
-        "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ]
-      },
-      {
-        "x": -9,
-        "y": 2,
-        "parts": [ "hdframe_horizontal", "stowboard_horizontal", "bike_rack", "floodlight", "plating_hard" ]
-      },
-      {
-        "x": -9,
-        "y": 3,
-        "parts": [ "hdframe_horizontal", "stowboard_horizontal", "turret_mount", "ups_rifle_t", "bike_rack", "muffler", "plating_hard" ]
-      },
-      {
-        "x": -9,
-        "y": 4,
-        "parts": [
-          "hdframe_se",
-          "wheel_mount_heavy",
-          "wheel_armor",
-          "hdboard_se",
-          "omnicam",
-          "storage_battery_mount",
-          "storage_battery_removable",
-          "plating_hard"
-        ]
-      }
+      { "x": 1, "y": 4, "parts": [ "hdframe_ne", "hdhalfboard_ne", "headlight_reinforced", "plating_hard" ] }
     ],
     "items": [
       { "x": -9, "y": 0, "chance": 50, "items": [ "folding_bicycle" ] },
-      { "x": -9, "y": 1, "chance": 99, "items": [ "jack" ] },
-      { "x": -9, "y": 2, "chance": 70, "items": [ "wheel_armor" ] },
-      { "x": -9, "y": 3, "chance": 99, "items": [ "jerrycan_big" ] },
-      { "x": -9, "y": 3, "chance": 99, "items": [ "hose" ] },
-      { "x": -8, "y": 3, "chance": 99, "items": [ "gown" ] },
-      { "x": -8, "y": 3, "chance": 99, "items": [ "ear_plugs" ] },
-      { "x": -8, "y": 3, "chance": 99, "items": [ "blindfold" ] },
-      { "x": -7, "y": 3, "chance": 50, "items": [ "survivormap" ] },
-      {
-        "x": -7,
-        "y": 0,
-        "chance": 50,
-        "items": [ "surv_lmg_223", "surv_belt_223", "reloaded_223", "reloaded_223", "reloaded_223" ]
-      },
-      { "x": -6, "y": 0, "chance": 99, "items": [ "goggles_welding" ] },
+      { "x": -9, "y": 2, "chance": 75, "items": [ "jack" ] },
+      { "x": -9, "y": 2, "chance": 75, "items": [ "wheel_armor" ] },
+      { "x": -9, "y": 3, "chance": 75, "items": [ "jerrycan_big" ] },
+      { "x": -9, "y": 3, "chance": 75, "items": [ "hose" ] },
+      { "x": -8, "y": 3, "chance": 75, "items": [ "gown" ] },
+      { "x": -8, "y": 3, "chance": 75, "items": [ "ear_plugs" ] },
+      { "x": -8, "y": 3, "chance": 75, "items": [ "blindfold" ] },
+      { "x": -7, "y": 0, "chance": 50, "items": [ "survivormap" ] },
+      { "x": -7, "y": 0, "chance": 25, "item_groups": [ "encylopedias_rare" ] },
+      { "x": -2, "y": 0, "chance": 75, "item_groups": [ "supplies_metal", "supplies_metal" ] },
+      { "x": -2, "y": 0, "chance": 50, "item_groups": [ "supplies_electronics", "supplies_electronics" ] },
+      { "x": -2, "y": 0, "chance": 25, "item_groups": [ "supplies_spares_vehicle", "supplies_spares_vehicle" ] },
+      { "x": -3, "y": 0, "chance": 50, "items": [ "surv_lmg_223", "surv_belt_223", "223", "223", "223" ] },
+      { "x": -3, "y": 0, "chance": 75, "item_groups": [ "drugs_heal_simple" ] },
+      { "x": -3, "y": 0, "chance": 50, "item_groups": [ "drugs_heal_simple" ] },
+      { "x": -4, "y": 3, "chance": 75, "items": [ "goggles_welding" ] },
       { "x": -4, "y": 0, "chance": 75, "item_groups": [ "stash_food" ] },
       { "x": -4, "y": 0, "chance": 50, "item_groups": [ "stash_food" ] },
       { "x": -4, "y": 0, "chance": 25, "item_groups": [ "stash_food" ] }

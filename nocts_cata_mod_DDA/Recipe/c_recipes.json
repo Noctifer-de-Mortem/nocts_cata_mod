@@ -350,7 +350,7 @@
     "tools": [
       [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
       [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "308_casing", -1 ] ]
+      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
     ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
@@ -802,7 +802,7 @@
       [ [ "welder", 20 ], [ "welding_kit", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
       [ [ "swage", -1 ] ],
-      [ [ "308_casing", -1 ] ]
+      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
   },

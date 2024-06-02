@@ -686,9 +686,9 @@
     "//": "Prepper NPCs variant.",
     "weight": 1000,
     "object": {
-      "faction_owner": [ { "id": "preppers", "x": [ 2, 22 ], "y": [ 3, 22 ] } ],
+      "faction_owner": [ { "id": "preppers", "x": [ 10, 13 ], "y": [ 3, 22 ] }, { "id": "preppers", "x": [ 16, 20 ], "y": [ 4, 16 ] } ],
       "rows": [
-        ".........&..............",
+        ".........&,,,,..........",
         "##########====##########",
         "#........&,,,,.........#",
         "#.|||||||.,,,,.||w|w||.#",
@@ -714,8 +714,8 @@
         "########################"
       ],
       "terrain": {
-        ".": [ [ "t_grass", 4 ], [ "t_grass_long", 2 ], [ "t_dirt", 1 ] ],
-        ",": "t_dirt",
+        ".": "t_region_groundcover",
+        ",": "t_region_groundcover_barren",
         "#": "t_palisade",
         "|": "t_wall_log",
         "+": "t_rdoor_c",
@@ -774,6 +774,7 @@
         "t": "f_table",
         "v": "f_woodstove"
       },
+      "place_zones": [ { "type": "NPC_NO_INVESTIGATE", "faction": "preppers", "x": [ 1, 22 ], "y": [ 2, 22 ] } ],
       "place_toilets": [ { "x": 16, "y": 20 }, { "x": 18, "y": 20 }, { "x": 20, "y": 20 } ],
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 75 } },
@@ -826,7 +827,6 @@
         { "vehicle": "bicycle_electric", "x": 13, "y": 15, "chance": 90, "fuel": 25, "status": -1, "rotation": 270 },
         { "vehicle": "surv_tachanka", "x": 12, "y": 8, "chance": 75, "status": -1, "rotation": 270 }
       ],
-      "place_monster": [ { "monster": "mon_horse", "x": 4, "y": 4 }, { "monster": "mon_horse", "x": 6, "y": 6 } ],
       "place_npcs": [
         { "class": "survn", "x": 9, "y": 4 },
         { "class": "survn", "x": 18, "y": 6 },
@@ -873,6 +873,86 @@
       ],
       "palettes": [ "roof_palette" ],
       "terrain": { ",": "t_thatch_roof", "=": "t_flat_roof" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Encampment_Lot_Preppers" ],
+    "//": "Buffer space for inhabited survivor encampment, used to spawn players outside them in the relevant scenario.",
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "...........??...........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        ".??????????,,??????????.",
+        "??????????,,,,??????????",
+        "??????????,,,,??????????",
+        ".?????????,,,,?????????.",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,.........."
+      ],
+      "terrain": {
+        ".": [ [ "t_region_groundcover", 12 ], [ "t_region_shrub_fruit", 2 ], "t_region_tree_shade" ],
+        ",": "t_region_groundcover_barren",
+        "?": [ "t_region_groundcover_barren", "t_region_groundcover" ]
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Survivor_Encampment_Lot_Generic" ],
+    "//": "Used for all other encampment variants to ensure that players in the relevant scenario never spawn at a hostile camp.",
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "...........??...........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        "..........????..........",
+        ".??????????,,??????????.",
+        "??????????,,,,??????????",
+        "??????????,,,,??????????",
+        ".?????????,,,,?????????.",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,..........",
+        "..........,,,,.........."
+      ],
+      "terrain": {
+        ".": [ [ "t_region_groundcover", 12 ], [ "t_region_shrub_fruit", 2 ], "t_region_tree_shade" ],
+        ",": "t_region_groundcover_barren",
+        "?": [ [ "t_region_groundcover_barren", 10 ], [ "t_region_groundcover", 8 ], "t_region_shrub_fruit", "t_region_tree_shade" ]
+      }
     }
   }
 ]

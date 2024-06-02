@@ -2,8 +2,8 @@
   {
     "type": "npc",
     "id": "bff",
-    "//": "Your best friend found in the survivor's holdout.",
-    "name_suffix": "Best Friend",
+    "//": "Travel companion found in the survivor's holdout, who will auto-recruit if you selected the relevant scenario.",
+    "name_suffix": "Prepper",
     "gender": "male",
     "class": "NC_SCAVENGER",
     "attitude": 0,
