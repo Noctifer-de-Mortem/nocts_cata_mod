@@ -2164,6 +2164,27 @@
   },
   {
     "type": "recipe",
+    "result": "c_hydrogen_gas",
+    "id_suffix": "from_bugs",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 3,
+    "time": "5 m",
+    "autolearn": [ [ "cooking", 5 ], [ "survival", 3 ] ],
+    "book_learn": [
+      [ "adv_chemistry", 3 ],
+      [ "textbook_chemistry", 3 ],
+      [ "recipe_labchem", 3 ],
+      [ "textbook_gaswarfare", 4 ],
+      [ "atomic_survival", 4 ]
+    ],
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "PRESSURIZATION", "level": 1 } ],
+    "components": [ [ [ "mutant_bug_hydrogen_sacs", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
     "result": "thermal_lance_makeshift",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
