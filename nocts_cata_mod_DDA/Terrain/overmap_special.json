@@ -8,7 +8,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 1, 16 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -32,7 +32,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -46,7 +46,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -60,7 +60,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -74,7 +74,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -88,7 +88,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -103,7 +103,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -123,7 +123,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 100, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -138,7 +138,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 100, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -155,7 +155,7 @@
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
