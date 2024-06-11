@@ -89,7 +89,7 @@
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": { "message": "The %s's body leaks acid.", "effect": { "id": "death_acid", "hit_self": true } },
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "BASHES", "PUSH_VEH", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "BASHES", "PUSH_VEH", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "hulk_weapon",
@@ -163,7 +163,7 @@
       "ELECTRIC",
       "GRABS",
       "BASHES",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "PRIORITIZE_TARGETS"
     ]
   },
@@ -314,7 +314,7 @@
     "special_attacks": [ { "id": "grab", "cooldown": 10 }, { "id": "bio_op_takedown", "cooldown": 30 }, [ "LUNGE", 20 ] ],
     "death_drops": "mon_zombie_bio_knife_death_drops",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ],
+    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ],
     "delete": { "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" } }
   },
   {
@@ -381,7 +381,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_rifle",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
@@ -447,7 +447,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_infantry_shotgun",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
@@ -643,7 +643,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_scout_sniper",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
@@ -671,7 +671,7 @@
     "armor": { "bash": 5, "cut": 10, "stab": 10, "bullet": 15, "acid": 5, "heat": 10 },
     "vision_day": 40,
     "vision_night": 15,
-    "path_settings": { "max_dist": 30 },
+    "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_dangerous_fields": true },
     "luminance": 2,
     "regenerates": 3,
     "regeneration_modifiers": [ [ "onfire", -2 ], [ "corroding", -2 ] ],
@@ -708,7 +708,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_pistol",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "mon_zombie_bio_tool_smg",
@@ -736,7 +736,7 @@
     "armor": { "bash": 5, "cut": 10, "stab": 10, "bullet": 15, "acid": 5, "heat": 10 },
     "vision_day": 40,
     "vision_night": 15,
-    "path_settings": { "max_dist": 30 },
+    "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_dangerous_fields": true },
     "luminance": 2,
     "regenerates": 3,
     "regeneration_modifiers": [ [ "onfire", -2 ], [ "corroding", -2 ] ],
@@ -773,7 +773,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "wild_bio_tool_smg",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "FILTHY", "PATH_AVOID_DANGER" ]
   },
   {
     "id": "mon_zombie_bio_reanimated",
@@ -827,7 +827,7 @@
       "FILTHY",
       "STUMBLES",
       "BASHES",
-      "PATH_AVOID_DANGER_1"
+      "PATH_AVOID_DANGER"
     ]
   }
 ]
