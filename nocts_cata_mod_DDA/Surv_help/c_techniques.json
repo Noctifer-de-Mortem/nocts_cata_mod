@@ -27,7 +27,7 @@
       { "stat": "damage", "type": "stab", "scale": 0.5 }
     ],
     "down_dur": 1,
-    "attack_vectors": [ "WEAPON", "HAND" ]
+    "attack_vectors": [ "vector_null", "vector_punch" ]
   },
   {
     "type": "technique",
@@ -47,7 +47,7 @@
     ],
     "knockback_dist": 1,
     "stun_dur": 1,
-    "attack_vectors": [ "WEAPON", "HAND" ]
+    "attack_vectors": [ "vector_null", "vector_punch" ]
   },
   {
     "type": "technique",
@@ -69,7 +69,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "disarms": true,
-    "attack_vectors": [ "WEAPON", "HAND" ]
+    "attack_vectors": [ "vector_null", "vector_punch" ]
   },
   {
     "type": "technique",
@@ -83,7 +83,7 @@
     "crit_tec": true,
     "stun_dur": 2,
     "knockback_dist": 4,
-    "attack_vectors": [ "WEAPON", "HAND" ]
+    "attack_vectors": [ "vector_null", "vector_punch" ]
   },
   {
     "type": "technique",
@@ -96,7 +96,7 @@
     "crit_tec": true,
     "down_dur": 2,
     "mult_bonuses": [ { "stat": "movecost", "scale": 0.9 } ],
-    "attack_vectors": [ "WEAPON", "HAND" ]
+    "attack_vectors": [ "vector_null", "vector_punch" ]
   },
   {
     "type": "technique",
@@ -120,7 +120,7 @@
       { "stat": "damage", "type": "cut", "scale": 1.15 },
       { "stat": "damage", "type": "stab", "scale": 1.15 }
     ],
-    "attack_vectors": [ "HAND" ]
+    "attack_vectors": [ "vector_punch" ]
   },
   {
     "type": "technique",
