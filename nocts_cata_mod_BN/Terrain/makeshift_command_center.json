@@ -142,7 +142,7 @@
         "-": "t_metal_floor",
         ".": "t_metal_floor",
         "/": "t_door_metal_locked",
-        "4": "t_plut_generator",
+        "4": "t_metal_floor",
         "6": "t_metal_floor",
         "<": "t_stairs_up",
         ">": "t_wall",
@@ -184,6 +184,7 @@
       "furniture": {
         "#": "f_table",
         "&": "f_trashcan",
+        "4": "f_grid_plut_generator",
         "6": "f_arcade_machine",
         "=": "f_smoking_rack",
         "B": "f_bathtub",
