@@ -762,5 +762,21 @@
     "id": "bunker_basement_drugs",
     "copy-from": "bunker_basement_drugs",
     "extend": { "items": [ { "item": "iv_mutagen_super_soldier", "prob": 10 } ] }
+  },
+  {
+    "id": "museum_guns",
+    "type": "item_group",
+    "extend": { "items": [ [ "flintlock_ammo_mine", 20 ] ] }
+  },
+  {
+    "id": "antique_ammo",
+    "type": "item_group",
+    "extend": { "items": [ [ "flintlock_ammo_mine", 20 ] ] }
+  },
+  {
+    "id": "on_hand_flintlock",
+    "type": "item_group",
+    "subtype": "distribution",
+    "extend": { "entries": [ { "item": "flintlock_ammo_mine", "prob": 50, "charges": [ 15, 30 ] } ] }
   }
 ]
