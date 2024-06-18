@@ -42,16 +42,16 @@
     "to_hit": -3,
     "bashing": 6,
     "phase": "solid",
-    "material": [ "leather", "kevlar" ],
+    "material": [ "kevlar" ],
     "symbol": "[",
     "looks_like": "anbc_suit",
     "color": "brown",
     "covers": [ "legs", "torso", "arms", "hands", "feet", "head" ],
     "coverage": 100,
     "encumbrance": 35,
-    "storage": "20 L",
+    "storage": "30 L",
     "warmth": 25,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "environmental_protection": 15,
     "valid_mods": [ "steel_padded", "alloy_padded" ],
     "use_action": {
@@ -62,7 +62,7 @@
       "max_volume": "2500 ml",
       "draw_cost": 80,
       "multi": 2,
-      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ],
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP" ],
       "//": "Allows most blades to be sheathed."
     },
     "flags": [
@@ -98,10 +98,10 @@
     "color": "brown",
     "covers": [ "legs", "torso", "arms", "hands", "feet", "head" ],
     "coverage": 100,
-    "encumbrance": 45,
-    "storage": "20 L",
+    "encumbrance": 40,
+    "storage": "30 L",
     "warmth": 25,
-    "material_thickness": 5,
+    "material_thickness": 6,
     "environmental_protection": 15,
     "valid_mods": [ "steel_padded", "alloy_padded" ],
     "use_action": {
@@ -112,7 +112,7 @@
       "max_volume": "2500 ml",
       "draw_cost": 80,
       "multi": 2,
-      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP" ]
     },
     "flags": [
       "VARSIZE",
@@ -137,7 +137,7 @@
     "material": [ "kevlar", "superalloy" ],
     "color": "light_cyan",
     "//": "Superalloy armor uses 5 less encumbrance than base item",
-    "encumbrance": 40,
+    "encumbrance": 35,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -154,8 +154,8 @@
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
-    "environmental_protection": 3,
-    "material_thickness": 5,
+    "environmental_protection": 5,
+    "material_thickness": 6,
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -182,8 +182,8 @@
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
-    "environmental_protection": 3,
-    "material_thickness": 5,
+    "environmental_protection": 5,
+    "material_thickness": 6,
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -210,8 +210,8 @@
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
-    "environmental_protection": 3,
-    "material_thickness": 5,
+    "environmental_protection": 5,
+    "material_thickness": 6,
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -238,8 +238,8 @@
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
-    "environmental_protection": 3,
-    "material_thickness": 5,
+    "environmental_protection": 5,
+    "material_thickness": 6,
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -265,7 +265,7 @@
     "material": [ "steel", "kevlar", "leather" ],
     "encumbrance": 35,
     "warmth": 20,
-    "environmental_protection": 3,
+    "environmental_protection": 5,
     "material_thickness": 6,
     "qualities": [ [ "GLARE", 1 ] ],
     "extend": { "flags": [ "WATERPROOF", "SUN_GLASSES" ] }
@@ -293,8 +293,8 @@
     "material": [ "steel", "kevlar", "leather" ],
     "encumbrance": 25,
     "warmth": 25,
-    "material_thickness": 5,
-    "environmental_protection": 3,
+    "material_thickness": 6,
+    "environmental_protection": 5,
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -320,8 +320,8 @@
     "material": [ "steel", "kevlar", "leather" ],
     "encumbrance": 30,
     "warmth": 25,
-    "material_thickness": 5,
-    "environmental_protection": 3
+    "material_thickness": 6,
+    "environmental_protection": 5
   },
   {
     "id": "boots_plate_surv_superalloy",
