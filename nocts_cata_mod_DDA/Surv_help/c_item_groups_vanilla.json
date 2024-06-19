@@ -21,27 +21,13 @@
     "id": "gunmod_common",
     "copy-from": "gunmod_common",
     "type": "item_group",
-    "extend": { "items": [ [ "auto_case", 10 ] ] }
+    "extend": { "items": [ [ "auto_case", 10 ], [ "22aux", 10 ], [ "9mmaux", 5 ], [ "45aux", 5 ] ] }
   },
   {
     "id": "gunmod_rare",
     "copy-from": "gunmod_rare",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "auto_case", 20 ],
-        [ "fr_22", 2 ],
-        [ "fr_223", 2 ],
-        [ "fr_308", 2 ],
-        [ "fr_9mm", 2 ],
-        [ "fr_12", 2 ],
-        [ "fr_762", 2 ],
-        [ "fr_762R", 2 ],
-        [ "22aux", 1 ],
-        [ "9mmaux", 1 ],
-        [ "45aux", 1 ]
-      ]
-    }
+    "extend": { "items": [ { "group": "survivor_autocases_cataplus", "prob": 30 }, [ "22aux", 1 ], [ "9mmaux", 1 ], [ "45aux", 1 ] ] }
   },
   {
     "id": "metal_workshop",
@@ -55,13 +41,7 @@
     "type": "item_group",
     "extend": {
       "items": [
-        [ "auto_case", 10 ],
-        [ "fr_22", 2 ],
-        [ "fr_223", 2 ],
-        [ "fr_308", 2 ],
-        [ "fr_9mm", 2 ],
-        [ "fr_12", 2 ],
-        [ "fr_762", 2 ],
+        { "group": "survivor_autocases_cataplus", "prob": 25 },
         [ "22aux", 1 ],
         [ "9mmaux", 1 ],
         [ "45aux", 1 ],
@@ -75,13 +55,7 @@
     "type": "item_group",
     "extend": {
       "items": [
-        [ "auto_case", 10 ],
-        [ "fr_22", 2 ],
-        [ "fr_223", 2 ],
-        [ "fr_308", 2 ],
-        [ "fr_9mm", 2 ],
-        [ "fr_12", 2 ],
-        [ "fr_762", 2 ],
+        { "group": "survivor_autocases_cataplus", "prob": 25 },
         [ "22aux", 1 ],
         [ "9mmaux", 1 ],
         [ "45aux", 1 ],
@@ -93,20 +67,7 @@
     "id": "lmoe_guns",
     "copy-from": "lmoe_guns",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "auto_case", 10 ],
-        [ "fr_22", 2 ],
-        [ "fr_223", 2 ],
-        [ "fr_308", 2 ],
-        [ "fr_9mm", 2 ],
-        [ "fr_12", 2 ],
-        [ "fr_762", 2 ],
-        [ "22aux", 1 ],
-        [ "9mmaux", 1 ],
-        [ "45aux", 1 ]
-      ]
-    }
+    "extend": { "items": [ { "group": "survivor_autocases_cataplus", "prob": 20 }, [ "22aux", 1 ], [ "9mmaux", 1 ], [ "45aux", 1 ] ] }
   },
   {
     "id": "vault",
@@ -114,13 +75,7 @@
     "type": "item_group",
     "extend": {
       "items": [
-        [ "auto_case", 10 ],
-        [ "fr_22", 2 ],
-        [ "fr_223", 2 ],
-        [ "fr_308", 2 ],
-        [ "fr_9mm", 2 ],
-        [ "fr_12", 2 ],
-        [ "fr_762", 2 ],
+        { "group": "survivor_autocases_cataplus", "prob": 20 },
         [ "22aux", 1 ],
         [ "9mmaux", 1 ],
         [ "45aux", 1 ],
@@ -161,16 +116,7 @@
     "type": "item_group",
     "extend": {
       "items": [
-        [ "auto_case", 30 ],
-        [ "fr_22", 6 ],
-        [ "fr_223", 6 ],
-        [ "fr_308", 6 ],
-        [ "fr_9mm", 6 ],
-        [ "fr_12", 6 ],
-        [ "fr_762", 6 ],
-        [ "22aux", 2 ],
-        [ "9mmaux", 2 ],
-        [ "45aux", 2 ],
+        { "group": "survivor_autocases_cataplus", "prob": 50 },
         [ "sur_pnu_lmg", 2 ],
         [ "survbow", 2 ],
         [ "surv_sniper", 2 ],
@@ -606,9 +552,9 @@
     "type": "item_group",
     "extend": {
       "items": [
-        { "item": "surv_full_22", "prob": 25, "charges-min": 0, "charges-max": 30 },
-        { "item": "surv_full_9mm", "prob": 25, "charges-min": 0, "charges-max": 30 },
-        { "item": "surv_full_45", "prob": 25, "charges-min": 0, "charges-max": 30 }
+        { "item": "surv_full_22", "prob": 20, "charges-min": 0, "charges-max": 30 },
+        { "item": "surv_full_9mm", "prob": 20, "charges-min": 0, "charges-max": 30 },
+        { "item": "surv_full_45", "prob": 20, "charges-min": 0, "charges-max": 30 }
       ]
     }
   },
@@ -618,16 +564,19 @@
     "type": "item_group",
     "extend": {
       "items": [
-        [ "unbio_chain_lightning", 1 ],
-        { "item": "surv_battery_rifle", "prob": 5, "charges-min": 0, "charges-max": 100 },
-        { "item": "surv_full_223", "prob": 15, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_full_308", "prob": 15, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_full_762", "prob": 10, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_full_762R", "prob": 5, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_lmg_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_lmg_308", "prob": 5, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_lmg_762", "prob": 5, "charges-min": 0, "charges-max": 20 },
-        { "item": "surv_lmg_762R", "prob": 5, "charges-min": 0, "charges-max": 20 }
+      [ "unbio_chain_lightning", 1 ],
+      { "item": "surv_battery_rifle", "prob": 5, "charges-min": 0, "charges-max": 100 },
+      { "item": "surv_full_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_308", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_762", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_762R", "prob": 3, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_3006", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_308", "prob": 3, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_762", "prob": 2, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_762R", "prob": 2, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_lmg_3006", "prob": 3, "charges-min": 0, "charges-max": 20 },
+      { "item": "surv_full_50", "prob": 2, "charges-min": 0, "charges-max": 20 }
       ]
     }
   },
@@ -635,7 +584,7 @@
     "id": "guns_shotgun_improvised",
     "copy-from": "guns_shotgun_improvised",
     "type": "item_group",
-    "extend": { "items": [ { "item": "surv_full_12", "prob": 50, "charges-min": 0, "charges-max": 10 } ] }
+    "extend": { "items": [ { "item": "surv_full_12", "prob": 25, "charges-min": 0, "charges-max": 10 } ] }
   },
   {
     "id": "guns_energy",

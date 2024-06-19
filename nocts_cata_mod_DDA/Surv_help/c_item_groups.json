@@ -542,5 +542,22 @@
       [ "bootsheath", 8 ],
       [ "sheath", 5 ]
     ]
+  },
+  {
+    "id": "survivor_autocases_cataplus",
+    "type": "item_group",
+    "items": [
+      [ "auto_case", 50 ],
+      [ "fr_9mm", 5 ],
+      [ "fr_22", 5 ],
+      [ "fr_45", 5 ],
+      [ "fr_223", 5 ],
+      [ "fr_308", 5 ],
+      [ "fr_762", 5 ],
+      [ "fr_762R", 5 ],
+      [ "fr_3006", 5 ],
+      [ "fr_12", 5 ],
+      [ "fr_50", 5 ]
+    ]
   }
 ]

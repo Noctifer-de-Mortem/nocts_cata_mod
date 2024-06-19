@@ -349,6 +349,22 @@
     "to_hit": -1
   },
   {
+    "id": "fr_3006",
+    "category": "spare_parts",
+    "type": "TOOL",
+    "color": "light_gray",
+    "symbol": ",",
+    "looks_like": "llink",
+    "name": { "str": ".30-06 full auto receiver" },
+    "description": "A custom-made receiver fitted for .30-06, that could be used to craft an automatic firearm.",
+    "price": "200 USD",
+    "price_postapoc": "250 cent",
+    "material": [ "steel" ],
+    "weight": "620 g",
+    "volume": "1 L",
+    "to_hit": -1
+  },
+  {
     "id": "fr_50",
     "category": "spare_parts",
     "type": "TOOL",
