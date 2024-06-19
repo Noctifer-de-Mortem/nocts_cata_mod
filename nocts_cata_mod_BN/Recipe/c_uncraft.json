@@ -339,5 +339,105 @@
       [ [ "plut_cell", 3 ] ],
       [ [ "burnt_out_bionic", 1 ] ]
     ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_22",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_223",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_308",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_9mm",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_45",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_12",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_762",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_762R",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_3006",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "fr_50",
+    "skill_used": "mechanics",
+    "difficulty": 4,
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "time": "30 m",
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "auto_case", 1 ] ] ]
   }
 ]
