@@ -999,7 +999,7 @@
   {
     "type": "mutation",
     "id": "C_MOVE_NOISE",
-    "name": { "str": "Makeshift Power Armor Noise" },
+    "name": { "str": "makeshift hydraulic armor Noise" },
     "points": 99,
     "valid": false,
     "description": "This is used to make the player a lot less stealthy, but also punch harder on top of the armor's strength bonus.",
@@ -1016,7 +1016,7 @@
     "symbol": "[",
     "color": "dark_gray",
     "looks_like": "rm13_armor",
-    "name": { "str": "makeshift power armor" },
+    "name": { "str": "makeshift hydraulic armor" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
     "flags": [ "OVERSIZE", "STURDY", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
     "price": "500 USD",
@@ -1032,7 +1032,7 @@
         {
           "has": "WORN",
           "condition": "ACTIVE",
-          "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "SPEED", "add": 25 } ],
+          "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "SPEED", "add": 10 } ],
           "mutations": [ "C_MOVE_NOISE" ]
         }
       ]
@@ -1044,13 +1044,13 @@
       "moves": 100,
       "noise": 60,
       "success_chance": 2,
-      "success_message": "Your makeshift power armor roars to life, servos kicking into gear!",
+      "success_message": "Your makeshift hydraulic armor roars to life, servos kicking into gear!",
       "failure_message": "Your armor sputters but fails to start up.",
       "lacks_fuel_message": "You work your armor's starter, but nothing happens."
     },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 15,
-    "environmental_protection": 5,
+    "environmental_protection": 3,
     "encumbrance": 45,
     "coverage": 90,
     "material_thickness": 8
@@ -1060,7 +1060,7 @@
     "copy-from": "c_power_armor_surv",
     "repairs_like": "c_power_armor_surv",
     "type": "TOOL_ARMOR",
-    "name": { "str": "makeshift power armor (on)", "str_pl": "makeshift power armors (on)" },
+    "name": { "str": "makeshift hydraulic armor (on)", "str_pl": "makeshift hydraulic armors (on)" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
     "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
@@ -1072,8 +1072,8 @@
         "noise": 30,
         "noise_chance": 5,
         "noise_message": "Your armor whirs with activity.",
-        "voluntary_extinguish_message": "You shut the makeshift power armor off.",
-        "charges_extinguish_message": "Your makeshift power armor sputters and dies!",
+        "voluntary_extinguish_message": "You shut the makeshift hydraulic armor off.",
+        "charges_extinguish_message": "Your makeshift hydraulic armor sputters and dies!",
         "water_extinguish_message": "Your armor's engine floods and cuts out!"
       }
     ],
@@ -1085,7 +1085,7 @@
     "id": "c_power_armor_surv_superalloy",
     "copy-from": "c_power_armor_surv",
     "type": "ARMOR",
-    "name": { "str": "makeshift superalloy power armor" },
+    "name": { "str": "makeshift superalloy hydraulic armor" },
     "description": "A heavy suit of superalloy and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
     "material": [ "superalloy", "kevlar_rigid" ],
     "color": "light_cyan",
@@ -1097,7 +1097,7 @@
       "moves": 100,
       "noise": 60,
       "success_chance": 2,
-      "success_message": "Your makeshift superalloy power armor roars to life, servos kicking into gear!",
+      "success_message": "Your makeshift superalloy hydraulic armor roars to life, servos kicking into gear!",
       "failure_message": "Your armor sputters but fails to start up.",
       "lacks_fuel_message": "You work your armor's starter, but nothing happens."
     }
@@ -1107,7 +1107,7 @@
     "copy-from": "c_power_armor_surv_superalloy",
     "repairs_like": "c_power_armor_surv_superalloy",
     "type": "TOOL_ARMOR",
-    "name": { "str": "makeshift superalloy power armor (on)", "str_pl": "makeshift superalloy power armors (on)" },
+    "name": { "str": "makeshift superalloy hydraulic armor (on)", "str_pl": "makeshift superalloy hydraulic armors (on)" },
     "description": "A heavy suit of superalloy and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
     "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
     "//": "turns_per_charge increased over standard version since lighter suit takes less effort to power.",
@@ -1119,8 +1119,8 @@
         "noise": 30,
         "noise_chance": 5,
         "noise_message": "Your armor whirs with activity.",
-        "voluntary_extinguish_message": "You shut the makeshift power armor off.",
-        "charges_extinguish_message": "Your makeshift superalloy power armor sputters and dies!",
+        "voluntary_extinguish_message": "You shut the makeshift hydraulic armor off.",
+        "charges_extinguish_message": "Your makeshift superalloy hydraulic armor sputters and dies!",
         "water_extinguish_message": "Your armor's engine floods and cuts out!"
       }
     ],
