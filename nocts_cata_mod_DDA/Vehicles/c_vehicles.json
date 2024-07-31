@@ -377,7 +377,7 @@
           "frame_wood#cross",
           "seat_wood",
           "turret_mount",
-          { "ammo_types": [ "reloaded_762_54R" ], "part": "turret_surv_lmg_762R", "ammo": 60, "ammo_qty": [ 5, 75 ] }
+          { "ammo_types": [ "reloaded_762_54R", "bp_762_54R" ], "part": "turret_surv_lmg_762R", "ammo": 60, "ammo_qty": [ 5, 75 ] }
         ]
       },
       {
