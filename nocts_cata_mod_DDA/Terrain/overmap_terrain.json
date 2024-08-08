@@ -6,7 +6,7 @@
     "sym": "H",
     "color": "i_red",
     "looks_like": "campsite",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "surv_camp",
@@ -16,7 +16,7 @@
     "sym": "F",
     "color": "green",
     "looks_like": "forest",
-    "see_cost": 5,
+    "see_cost": "high",
     "mondensity": 0,
     "extras": "build",
     "flags": [ "NO_ROTATE" ]
@@ -28,7 +28,7 @@
     "sym": "C",
     "color": "light_green",
     "looks_like": "campsite",
-    "see_cost": 5,
+    "see_cost": "high",
     "extras": "surv_encamp"
   },
   {
@@ -48,7 +48,7 @@
     "sym": "C",
     "color": "light_green",
     "looks_like": "campsite",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Survivor_Encampment_bandits",
@@ -88,7 +88,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "s_lot",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "field"
   },
   {
@@ -98,7 +98,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "bunker",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Bio_Weapon_Lab_b",
@@ -107,7 +107,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "bunker_basement",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Unknown_Lab_1",
@@ -116,7 +116,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "s_lot",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "field"
   },
   {
@@ -126,7 +126,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "s_lot",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "field"
   },
   {
@@ -135,7 +135,7 @@
     "name": "dormitories",
     "sym": "L",
     "color": "light_blue",
-    "see_cost": 5,
+    "see_cost": "high",
     "looks_like": "bunker",
     "extras": "build"
   },
@@ -146,7 +146,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "bunker",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Unknown_Lab_b1",
@@ -155,7 +155,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "microlab_generic_edge",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Unknown_Lab_b2",
@@ -164,7 +164,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "microlab_generic_edge",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Unknown_Lab_b3",
@@ -173,7 +173,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "microlab_generic_edge",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Unknown_Lab_b4",
@@ -182,7 +182,7 @@
     "sym": "L",
     "color": "light_blue",
     "looks_like": "microlab_generic_edge",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "makeshift_command_center_1",
@@ -191,7 +191,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "s_lot",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "field"
   },
   {
@@ -201,7 +201,7 @@
     "sym": "C",
     "color": "blue",
     "looks_like": "bunker",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "makeshift_command_center_b",
@@ -210,7 +210,7 @@
     "sym": "C",
     "color": "blue",
     "looks_like": "bunker_basement",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "sketchy_cabin_1",
@@ -219,7 +219,7 @@
     "sym": "C",
     "color": "i_red",
     "looks_like": "cabin",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "sketchy_cabin_1_roof",
@@ -235,7 +235,7 @@
     "sym": "B",
     "color": "brown",
     "looks_like": "desolatebarn",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "sketchy_cabin_2_roof",
@@ -251,7 +251,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "bunker_basement",
-    "see_cost": 5,
+    "see_cost": "high",
     "flags": [ "KNOWN_UP" ]
   },
   {
@@ -261,7 +261,7 @@
     "sym": "O",
     "color": "dark_gray",
     "looks_like": "bunker_basement",
-    "see_cost": 5,
+    "see_cost": "high",
     "flags": [ "KNOWN_UP" ]
   },
   {
@@ -272,7 +272,7 @@
     "sym": "F",
     "color": "green",
     "looks_like": "forest",
-    "see_cost": 5,
+    "see_cost": "high",
     "mondensity": 0,
     "extras": "build",
     "flags": [ "NO_ROTATE" ]
@@ -285,7 +285,7 @@
     "sym": ".",
     "color": "brown",
     "looks_like": "field",
-    "see_cost": 5
+    "see_cost": "high"
   },
   {
     "id": "Survivor_Holdout_2",
@@ -294,7 +294,7 @@
     "sym": "│",
     "color": "brown",
     "looks_like": "dirt_road_forest",
-    "see_cost": 2
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_Lot_Preppers",

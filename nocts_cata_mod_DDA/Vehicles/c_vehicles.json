@@ -95,11 +95,7 @@
       { "x": -4, "y": 0, "parts": [ "hdframe#vertical_2", "minifreezer", "hdroof" ] },
       { "x": -3, "y": 0, "parts": [ "hdframe#vertical_2", "cargo_space", "hdroof" ] },
       { "x": -2, "y": 0, "parts": [ "hdframe#vertical_2", "cargo_space", "hdroof" ] },
-      {
-        "x": -1,
-        "y": 0,
-        "parts": [ "hdframe#vertical_2", "stowboard#horizontal", "minireactor", "engine_electric_enhanced" ]
-      },
+      { "x": -1, "y": 0, "parts": [ "hdframe#vertical_2", "stowboard#horizontal", "engine_electric_enhanced" ] },
       {
         "x": 0,
         "y": 0,
@@ -201,11 +197,7 @@
       { "x": -4, "y": 3, "parts": [ "hdframe#vertical_2", "workbench", "hdroof" ] },
       { "x": -3, "y": 3, "parts": [ "hdframe#vertical_2", "seat_wood", "hdroof" ] },
       { "x": -2, "y": 3, "parts": [ "hdframe#vertical_2", "aisle#horizontal", "aisle_lights", "hdroof" ] },
-      {
-        "x": -1,
-        "y": 3,
-        "parts": [ "hdframe#vertical_2", "stowboard#horizontal", "minireactor", "engine_electric_enhanced" ]
-      },
+      { "x": -1, "y": 3, "parts": [ "hdframe#vertical_2", "stowboard#horizontal", "engine_electric_enhanced" ] },
       {
         "x": 0,
         "y": 3,
@@ -377,7 +369,12 @@
           "frame_wood#cross",
           "seat_wood",
           "turret_mount",
-          { "ammo_types": [ "reloaded_762_54R", "bp_762_54R" ], "part": "turret_surv_lmg_762R", "ammo": 60, "ammo_qty": [ 5, 75 ] }
+          {
+            "ammo_types": [ "reloaded_762_54R", "bp_762_54R" ],
+            "part": "turret_surv_lmg_762R",
+            "ammo": 60,
+            "ammo_qty": [ 5, 75 ]
+          }
         ]
       },
       {
