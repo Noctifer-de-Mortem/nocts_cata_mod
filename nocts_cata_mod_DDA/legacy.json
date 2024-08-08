@@ -1206,7 +1206,7 @@
     "name": "field",
     "sym": ".",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "looks_like": "field",
     "mondensity": 0,
     "extras": "field",
