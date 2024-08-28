@@ -93,8 +93,7 @@
       { "item": "gasoline", "charges": [ 1, 2000 ], "container-item": "metal_tank_little", "prob": 15 },
       { "item": "c_hydrogen_gas", "charges": [ 1, 20 ], "container-item": "metal_tank_little", "prob": 10 },
       { "item": "plasma", "charges": [ 1, 4 ], "prob": 5 },
-      { "group": "ammo_any_batteries", "prob": 25 },
-      { "group": "ammo_atomic_batteries", "prob": 15 }
+      { "group": "ammo_any_batteries", "prob": 25 }
     ]
   },
   {
@@ -124,10 +123,9 @@
             "collection": [
               { "item": "arc_laser_rifle", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
               {
-                "distribution": [
-                  { "item": "medium_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 },
-                  { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 }
-                ],
+                "item": "medium_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 5000 ],
                 "prob": 25
               }
             ],
@@ -171,10 +169,9 @@
             "collection": [
               { "item": "xarm_laser_shotgun", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
               {
-                "distribution": [
-                  { "item": "medium_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 },
-                  { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 }
-                ],
+                "item": "medium_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 5000 ],
                 "prob": 25
               }
             ],
@@ -222,10 +219,9 @@
             "collection": [
               { "item": "mx_laser_sniper", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
               {
-                "distribution": [
-                  { "item": "medium_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 },
-                  { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 50 }
-                ],
+                "item": "medium_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 5000 ],
                 "prob": 25
               }
             ],
@@ -273,10 +269,9 @@
             "collection": [
               { "item": "krx_laser_lmg", "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
               {
-                "distribution": [
-                  { "item": "heavy_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "prob": 50 },
-                  { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "prob": 50 }
-                ],
+                "item": "heavy_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 10000 ],
                 "prob": 25
               }
             ],
@@ -346,11 +341,9 @@
             "collection": [
               { "item": "neo_laser_pistol", "damage": [ 0, 3 ], "charges": [ 0, 250 ] },
               {
-                "distribution": [
-                  { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
-                  { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
-                ],
+                "item": "light_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 1000 ],
                 "prob": 25
               }
             ],
@@ -400,11 +393,9 @@
             "collection": [
               { "item": "akro_laser_smg", "damage": [ 0, 3 ], "charges": [ 0, 500 ] },
               {
-                "distribution": [
-                  { "item": "light_atomic_battery_cell_rechargeable", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
-                  { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 25 },
-                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 25 }
-                ],
+                "item": "light_atomic_battery_cell_rechargeable",
+                "damage": [ 0, 1 ],
+                "charges": [ 0, 1000 ],
                 "prob": 25
               }
             ],
