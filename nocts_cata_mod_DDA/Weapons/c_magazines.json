@@ -287,28 +287,67 @@
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "RECHARGE", "MAG_COMPACT" ]
   },
+
+
   {
     "id": "light_atomic_battery_cell_rechargeable",
-    "copy-from": "light_atomic_battery_cell",
+    "//": "Can no longer streamline these with copy-from because DDA is not allowed to have nice things, they deleted the item this and medium cells used to inherit from.",
     "type": "MAGAZINE",
+    "category": "tool_magazine",
     "name": { "str": "light rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
-    "extend": { "flags": [ "RECHARGE", "MAG_COMPACT" ] }
+    "weight": "160 g",
+    "volume": "35 ml",
+    "price": "500 USD",
+    "price_postapoc": "4 USD",
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "green",
+    "ammo_type": [ "battery" ],
+    "count": 1000,
+    "capacity": 1000,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "RADIOACTIVE", "BATTERY_LIGHT", "RECHARGE", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 1000 } } ]
   },
   {
     "id": "medium_atomic_battery_cell_rechargeable",
-    "copy-from": "medium_atomic_battery_cell",
     "type": "MAGAZINE",
-    "name": { "str": "medium rechargeable plutonium cell" },
+    "category": "tool_magazine",
+    "name": { "str": "light rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
-    "extend": { "flags": [ "RECHARGE", "MAG_COMPACT" ] }
+    "weight": "1000 g",
+    "volume": "525 ml",
+    "price": "1 kUSD",
+    "price_postapoc": "10 USD",
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "green",
+    "ammo_type": [ "battery" ],
+    "count": 5000,
+    "capacity": 5000,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "RADIOACTIVE", "BATTERY_MEDIUM", "RECHARGE", "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 5000 } } ]
   },
   {
     "id": "heavy_atomic_battery_cell_rechargeable",
-    "copy-from": "heavy_atomic_battery_cell",
     "type": "MAGAZINE",
+    "category": "tool_magazine",
     "name": { "str": "heavy rechargeable plutonium cell" },
     "description": "This battery uses a thin plutonium-244 rod to stabilize multiple proprietary exotic compounds.  Designed by Omnitech for a military contract, this modified plutonium battery is rechargeable, but as it made for military purposes there is very little this is compatible with.",
-    "extend": { "flags": [ "RECHARGE", "MAG_BULKY" ] }
+    "weight": "1600 g",
+    "volume": "1500 ml",
+    "price": "1 kUSD",
+    "price_postapoc": "15 USD",
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "green",
+    "ammo_type": [ "battery" ],
+    "count": 10000,
+    "capacity": 10000,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "RADIOACTIVE", "BATTERY_HEAVY", "RECHARGE", "MAG_BULKY" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 10000 } } ]
   }
 ]

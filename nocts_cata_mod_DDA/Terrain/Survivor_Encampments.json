@@ -296,7 +296,6 @@
       },
       "place_loot": [
         { "group": "tools_gunsmith", "x": 20, "y": [ 12, 13 ], "chance": 90, "repeat": 2 },
-        { "group": "ammo_atomic_batteries", "x": 20, "y": [ 12, 13 ], "chance": 50, "repeat": 2 },
         { "group": "tools_robotics", "x": 20, "y": [ 18, 20 ], "chance": 90, "repeat": 2 },
         { "group": "supplies_electronics", "x": 20, "y": [ 18, 20 ], "chance": 75, "repeat": 3 },
         { "item": "recipe_surv", "x": 5, "y": 11 }
@@ -816,7 +815,6 @@
         { "group": "drugs_heal_simple", "x": [ 16, 17 ], "y": 14, "chance": 50, "repeat": 6 },
         { "group": "survivor_weapons", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
         { "group": "ammo_reloaded", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
-        { "group": "mags_makeshift", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
         { "group": "tools_electronics", "x": 20, "y": [ 14, 16 ], "chance": 75, "repeat": 3 },
         { "group": "supplies_electronics", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 6 },
         { "group": "bionics_failed_bio", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 2 },

@@ -44,12 +44,7 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      {
-        "distribution": [
-          { "item": "medium_atomic_battery_cell", "prob": 50 },
-          { "item": "medium_atomic_battery_cell_rechargeable", "prob": 50 }
-        ]
-      },
+      { "item": "medium_atomic_battery_cell_rechargeable", "prob": 50 },
       { "group": "mre_full_pack" },
       { "group": "everyday_gear" },
       { "group": "drugs_soldier", "prob": 50 },

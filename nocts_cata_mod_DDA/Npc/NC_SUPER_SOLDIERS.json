@@ -31,19 +31,8 @@
     "entries": [
       { "item": "protein_bar_evac", "count": [ 4, 8 ] },
       { "item": "id_military" },
-      {
-        "distribution": [
-          { "item": "medium_atomic_battery_cell", "prob": 50 },
-          { "item": "medium_atomic_battery_cell_rechargeable", "prob": 50 }
-        ]
-      },
-      {
-        "distribution": [
-          { "item": "medium_atomic_battery_cell", "prob": 50 },
-          { "item": "medium_atomic_battery_cell_rechargeable", "prob": 50 }
-        ],
-        "prob": 50
-      }
+      { "item": "medium_atomic_battery_cell_rechargeable" },
+      { "item": "medium_atomic_battery_cell_rechargeable", "prob": 50 }
     ]
   },
   {
@@ -100,7 +89,7 @@
     "type": "item_group",
     "subtype": "distribution",
     "entries": [
-      { "item": "light_atomic_battery_cell", "prob": 50 },
+      { "item": "light_atomic_battery_cell_rechargeable", "prob": 50 },
       { "item": "light_atomic_battery_cell_rechargeable", "prob": 50 }
     ]
   },
