@@ -24,7 +24,6 @@
     "encumbrance": 4,
     "max_encumbrance": 16,
     "storage": "16 L",
-    "warmth": 10,
     "material_thickness": 2,
     "use_action": { "type": "bandolier", "capacity": 50, "ammo": [ "arrow", "bolt" ], "draw_cost": 3 },
     "valid_mods": [ "resized_large" ],
@@ -818,7 +817,7 @@
           "mutations": [ "C_MIGO_HEAT_BONUS" ]
         }
       ],
-      "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ]
+      "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ]
     },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
@@ -878,7 +877,7 @@
           "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
         }
       ],
-      "recharge_scheme": [ { "type": "solar", "interval": "10 m", "rate": 1 } ]
+      "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ]
     },
     "covers": [ "torso" ],
     "encumbrance": 10,

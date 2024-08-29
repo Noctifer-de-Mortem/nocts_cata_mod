@@ -22,7 +22,6 @@
       { "ammo_restriction": { "arrow": 50, "bolt": 50 }, "moves": 20 },
       { "pocket_type": "CONTAINER", "max_contains_volume": "16 L", "max_contains_weight": "32 kg", "moves": 300 }
     ],
-    "warmth": 10,
     "material_thickness": 2,
     "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED" ],
     "armor": [ { "encumbrance": [ 4, 16 ], "coverage": 35, "covers": [ "torso" ] } ]
@@ -765,7 +764,7 @@
       "need_charges_msg": "The carapace suit doesn't respond, evidently out of energy."
     },
     "relic_data": {
-      "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true },
+      "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
       "passive_effects": [
         {
           "has": "WORN",
@@ -847,7 +846,7 @@
       "need_charges_msg": "The exo-wings don't respond, evidently out of energy."
     },
     "relic_data": {
-      "charge_info": { "recharge_type": "solar_sunny", "time": "10 m", "regenerate_ammo": true },
+      "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
       "passive_effects": [
         {
           "has": "WORN",

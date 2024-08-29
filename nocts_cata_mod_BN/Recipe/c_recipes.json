@@ -960,6 +960,7 @@
     "result": "bag_plastic",
     "type": "recipe",
     "id_suffix": "simple bag_plastic",
+    "result_mult": 10,
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
     "skill_used": "fabrication",
