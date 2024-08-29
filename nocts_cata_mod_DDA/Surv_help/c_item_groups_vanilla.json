@@ -110,20 +110,22 @@
     "extend": { "items": [ [ "mil_surp_pack_1", 1 ], [ "mil_surp_pack_2", 1 ], [ "mil_surp_pack_3", 1 ] ] }
   },
   {
+    "id": "survivorzed_suits",
+    "copy-from": "survivorzed_suits",
+    "type": "item_group",
+    "extend": { "items": [ [ "surv_suit", 4 ], [ "surv_armor_suit", 2 ], [ "c_power_armor_surv", 1 ] ] }
+  },
+  {
+    "id": "survivorzed_head",
+    "copy-from": "survivorzed_head",
+    "type": "item_group",
+    "extend": { "items": [ [ "cowboy_hat_surv", 10 ] ] }
+  },
+  {
     "id": "survivorzed_extra",
     "copy-from": "survivorzed_extra",
     "type": "item_group",
-    "extend": {
-      "items": [
-        { "group": "survivor_autocases_cataplus", "prob": 50 },
-        [ "sur_pnu_lmg", 2 ],
-        [ "survbow", 2 ],
-        [ "surv_sniper", 2 ],
-        [ "elc_bld", 2 ],
-        [ "recipe_surv", 2 ],
-        { "group": "survivor_combative_books", "prob": 2 }
-      ]
-    }
+    "extend": { "items": [ [ "survbowpack", 4 ], [ "legrig_surv", 4 ], [ "shield_riot_surv", 2 ], [ "shield_welded_surv", 1 ] ] }
   },
   {
     "id": "mansion_bookcase",
@@ -560,19 +562,19 @@
     "type": "item_group",
     "extend": {
       "items": [
-      [ "unbio_chain_lightning", 1 ],
-      { "item": "surv_battery_rifle", "prob": 5, "charges-min": 0, "charges-max": 100 },
-      { "item": "surv_full_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_308", "prob": 5, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_762", "prob": 10, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_762R", "prob": 3, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_3006", "prob": 5, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_lmg_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_lmg_308", "prob": 3, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_lmg_762", "prob": 2, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_lmg_762R", "prob": 2, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_lmg_3006", "prob": 3, "charges-min": 0, "charges-max": 20 },
-      { "item": "surv_full_50", "prob": 2, "charges-min": 0, "charges-max": 20 }
+        [ "unbio_chain_lightning", 1 ],
+        { "item": "surv_battery_rifle", "prob": 5, "charges-min": 0, "charges-max": 100 },
+        { "item": "surv_full_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_full_308", "prob": 5, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_full_762", "prob": 10, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_full_762R", "prob": 3, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_full_3006", "prob": 5, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_lmg_223", "prob": 10, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_lmg_308", "prob": 3, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_lmg_762", "prob": 2, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_lmg_762R", "prob": 2, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_lmg_3006", "prob": 3, "charges-min": 0, "charges-max": 20 },
+        { "item": "surv_full_50", "prob": 2, "charges-min": 0, "charges-max": 20 }
       ]
     }
   },

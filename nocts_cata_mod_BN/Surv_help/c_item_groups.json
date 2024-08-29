@@ -116,17 +116,19 @@
     "items": [ [ "mil_surp_pack_1", 1 ], [ "mil_surp_pack_2", 1 ], [ "mil_surp_pack_3", 1 ] ]
   },
   {
+    "id": "survivorzed_suits",
+    "type": "item_group",
+    "items": [ [ "surv_suit", 4 ], [ "surv_armor_suit", 2 ], [ "c_power_armor_surv", 1 ] ]
+  },
+  {
+    "id": "survivorzed_head",
+    "type": "item_group",
+    "items": [ [ "cowboy_hat_surv", 10 ] ]
+  },
+  {
     "id": "survivorzed_extra",
     "type": "item_group",
-    "items": [
-      { "group": "survivor_autocases_cataplus", "prob": 50 },
-      [ "sur_pnu_lmg", 2 ],
-      [ "survbow", 2 ],
-      [ "surv_sniper", 2 ],
-      [ "elc_bld", 2 ],
-      [ "recipe_surv", 2 ],
-      { "group": "survivor_combative_books", "prob": 2 }
-    ]
+    "items": [ [ "survbowpack", 4 ], [ "legrig_surv", 4 ], [ "shield_riot_surv", 2 ], [ "shield_welded_surv", 1 ] ]
   },
   {
     "id": "mansion_bookcase",
