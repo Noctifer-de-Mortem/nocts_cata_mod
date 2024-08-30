@@ -125,7 +125,7 @@
     "id": "survivorzed_extra",
     "copy-from": "survivorzed_extra",
     "type": "item_group",
-    "extend": { "items": [ [ "survbowpack", 4 ], [ "legrig_surv", 4 ], [ "shield_riot_surv", 2 ], [ "shield_welded_surv", 1 ] ] }
+    "extend": { "items": [ [ "survbowpack", 4 ], [ "legrig_surv", 4 ] ] }
   },
   {
     "id": "mansion_bookcase",
