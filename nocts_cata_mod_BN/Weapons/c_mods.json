@@ -28,6 +28,7 @@
       "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "motor_oil", "jp8", "avgas" ],
       "skill": "launcher",
       "ranged_damage": { "damage_type": "heat", "amount": -1 },
+      "gun_sound_type": "FIRE",
       "dispersion": 600,
       "range": 2,
       "durability": 7,
