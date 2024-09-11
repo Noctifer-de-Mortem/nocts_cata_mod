@@ -79,6 +79,7 @@
   },
   {
     "id": "bio_laser_minigun_monster",
+    "weapon_category": [ "ENERGY_WEAPONS" ],
     "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster laser gatling" },
@@ -91,7 +92,6 @@
     "dispersion": 5000,
     "sight_dispersion": 1000,
     "modes": [ [ "DEFAULT", "auto", 3 ] ],
-    "ranged_damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 15 },
-    "gun_sound_type": "ENERGY_WEAPON"
+    "ranged_damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 15 }
   }
 ]
