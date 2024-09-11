@@ -1,6 +1,7 @@
 [
   {
     "id": "aux_flamer_diesel",
+    "weapon_category": [ "FLAMETHROWERS" ],
     "type": "GUNMOD",
     "name": { "str": "survivor's auxiliary flamethrower" },
     "description": "A miniature, custom-built flamethrower that can be attached to all sorts of weapons.  It can use a wide range of fuels and is relatively fuel-efficient.  It is less effective than a proper flamethrower however, and pressurizing the integral tank takes time.",

@@ -79,6 +79,7 @@
   },
   {
     "id": "bio_laser_minigun_monster",
+    "weapon_category": [ "ENERGY_WEAPONS" ],
     "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster laser gatling" },
