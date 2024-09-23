@@ -52,6 +52,15 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "sur_pnu_lmg_t_manual",
+    "//": "In general, only allow this with weapons that don't require a UPS cost and don't draw from vehicle tanks.",
+    "copy-from": "sur_pnu_lmg_t",
+    "type": "vehicle_part",
+    "name": { "str": "pneumatic LMG (manual)" },
+    "looks_like": "sur_pnu_lmg_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_battery_rifle_t",
@@ -68,6 +77,14 @@
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
+  },
+  {
+    "id": "surv_battery_rifle_t_manual",
+    "copy-from": "surv_battery_rifle_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's battery rifle (manual)" },
+    "looks_like": "surv_battery_rifle_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "GENERIC",
@@ -133,6 +150,14 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "surv_full_223_t_manual",
+    "copy-from": "surv_full_223_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's .223 assault rifle (manual)" },
+    "looks_like": "surv_full_223_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "id": "surv_full_308_t",
     "copy-from": "turret",
@@ -144,6 +169,14 @@
     "item": "surv_full_308",
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "surv_full_308_t_manual",
+    "copy-from": "surv_full_308_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's .308 battle rifle (manual)" },
+    "looks_like": "surv_full_308_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -159,6 +192,14 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "surv_full_762_t_manual",
+    "copy-from": "surv_full_762_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's 7.62x39 assault rifle (manual)" },
+    "looks_like": "surv_full_762_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_full_762R_t",
@@ -170,6 +211,14 @@
     "item": "surv_full_762R",
     "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "surv_full_762R_t_manual",
+    "copy-from": "surv_full_762R_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's 7.62x54 battle rifle (manual)" },
+    "looks_like": "surv_full_762R_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -185,6 +234,14 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "shotgun", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "surv_full_12_t_manual",
+    "copy-from": "surv_full_12_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's full-auto shotgun (manual)" },
+    "looks_like": "surv_full_12_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_308_t",
@@ -196,6 +253,14 @@
     "item": "surv_lmg_308",
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "surv_lmg_308_t_manual",
+    "copy-from": "surv_lmg_308_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's .308 GPMG (manual)" },
+    "looks_like": "surv_lmg_308_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -211,6 +276,14 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "surv_lmg_223_t_manual",
+    "copy-from": "surv_lmg_223_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's .223 LMG (manual)" },
+    "looks_like": "surv_lmg_223_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_762_t",
@@ -222,6 +295,14 @@
     "item": "surv_lmg_762",
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "surv_lmg_762_t_manual",
+    "copy-from": "surv_lmg_762_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's 7.62x39 LMG (manual)" },
+    "looks_like": "surv_lmg_762_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -237,6 +318,14 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
+    "id": "surv_lmg_762R_t_manual",
+    "copy-from": "surv_lmg_762R_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's 7.62x54 GPMG (manual)" },
+    "looks_like": "surv_lmg_762R_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_full_50_t",
@@ -248,6 +337,14 @@
     "item": "surv_full_50",
     "breaks_into": [ { "item": "surv_full_50", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "surv_full_50_t_manual",
+    "copy-from": "surv_full_50_t",
+    "type": "vehicle_part",
+    "name": { "str": "survivor's .50 automatic AMR (manual)" },
+    "looks_like": "surv_full_50_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -264,6 +361,15 @@
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
     }
+  },
+  {
+    "id": "laser_arc_carbine_t_manual",
+    "//": "As noted, no manual version of the UPS-fed E1 models, but the magazine-loading standard versions are acceptable to mount.",
+    "copy-from": "laser_arc_carbine_t",
+    "type": "vehicle_part",
+    "name": { "str": "ARC-314 laser rifle (manual)" },
+    "looks_like": "laser_arc_carbine_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -298,6 +404,14 @@
     }
   },
   {
+    "id": "laser_lmg_t_manual",
+    "copy-from": "laser_lmg_t",
+    "type": "vehicle_part",
+    "name": { "str": "KRX-108 laser LMG (manual)" },
+    "looks_like": "laser_lmg_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "laser_lmg_t_ups",
@@ -330,6 +444,14 @@
     }
   },
   {
+    "id": "laser_mx_sniper_t_manual",
+    "copy-from": "laser_mx_sniper_t",
+    "type": "vehicle_part",
+    "name": { "str": "MX-84 laser sniper (manual)" },
+    "looks_like": "laser_mx_sniper_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "laser_mx_sniper_t_ups",
@@ -360,6 +482,14 @@
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
     }
+  },
+  {
+    "id": "xarm_laser_shotgun_t_manual",
+    "copy-from": "xarm_laser_shotgun_t",
+    "type": "vehicle_part",
+    "name": { "str": "XARM-37 pulse scattergun (manual)" },
+    "looks_like": "xarm_laser_shotgun_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -408,6 +538,53 @@
       "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 5 ] ] }
     }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "mk_ionic_cannon_plut_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted MK-2N1 Atomic Cannon",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mk_ionic_cannon_plut",
+    "breaks_into": [ { "item": "mk_ionic_cannon_plut", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
+  },
+  {
+    "id": "mk_ionic_cannon_plut_t_manual",
+    "//": "With this one, it's the standard version that uses UPS and the conversion that doesn't, so allow this one.",
+    "copy-from": "mk_ionic_cannon_plut_t",
+    "type": "vehicle_part",
+    "name": { "str": "MK-2N1 Atomic Cannon (manual)" },
+    "looks_like": "mk_ionic_cannon_plut_t",
+    "flags": [ "TURRET_MANUAL" ]
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "c_mi_go_rifle_salvaged_t",
+    "looks_like": "mounted_bigun",
+    "name": "mounted salvaged resin rifle",
+    "color": "green",
+    "broken_symbol": "#",
+    "broken_color": "green",
+    "item": "c_mi_go_rifle_salvaged",
+    "breaks_into": [ { "item": "c_mi_go_rifle_salvaged", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "id": "c_mi_go_rifle_salvaged_t_manual",
+    "//": "With this one, it's the standard version that uses UPS and the conversion that doesn't, so allow this one.",
+    "copy-from": "c_mi_go_rifle_salvaged_t",
+    "type": "vehicle_part",
+    "name": { "str": "salvaged resin rifle (manual)" },
+    "looks_like": "c_mi_go_rifle_salvaged_t",
+    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "id": "flamethrower_surv_t",
