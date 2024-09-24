@@ -52,15 +52,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "sur_pnu_lmg_t_manual",
-    "//": "In general, only allow this with weapons that don't require a UPS cost and don't draw from vehicle tanks.",
-    "copy-from": "sur_pnu_lmg_t",
-    "type": "vehicle_part",
-    "name": { "str": "pneumatic LMG (manual)" },
-    "looks_like": "sur_pnu_lmg_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_battery_rifle_t",
@@ -77,14 +68,6 @@
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
     }
-  },
-  {
-    "id": "surv_battery_rifle_t_manual",
-    "copy-from": "surv_battery_rifle_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's battery rifle (manual)" },
-    "looks_like": "surv_battery_rifle_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "GENERIC",
@@ -150,14 +133,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "surv_full_223_t_manual",
-    "copy-from": "surv_full_223_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's .223 assault rifle (manual)" },
-    "looks_like": "surv_full_223_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "id": "surv_full_308_t",
     "copy-from": "turret",
@@ -169,14 +144,6 @@
     "item": "surv_full_308",
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
-  },
-  {
-    "id": "surv_full_308_t_manual",
-    "copy-from": "surv_full_308_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's .308 battle rifle (manual)" },
-    "looks_like": "surv_full_308_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -192,14 +159,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "surv_full_762_t_manual",
-    "copy-from": "surv_full_762_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's 7.62x39 assault rifle (manual)" },
-    "looks_like": "surv_full_762_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_full_762R_t",
@@ -211,14 +170,6 @@
     "item": "surv_full_762R",
     "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
-  },
-  {
-    "id": "surv_full_762R_t_manual",
-    "copy-from": "surv_full_762R_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's 7.62x54 battle rifle (manual)" },
-    "looks_like": "surv_full_762R_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -234,14 +185,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "shotgun", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "surv_full_12_t_manual",
-    "copy-from": "surv_full_12_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's full-auto shotgun (manual)" },
-    "looks_like": "surv_full_12_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_308_t",
@@ -253,14 +196,6 @@
     "item": "surv_lmg_308",
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
-  },
-  {
-    "id": "surv_lmg_308_t_manual",
-    "copy-from": "surv_lmg_308_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's .308 GPMG (manual)" },
-    "looks_like": "surv_lmg_308_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -276,14 +211,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "surv_lmg_223_t_manual",
-    "copy-from": "surv_lmg_223_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's .223 LMG (manual)" },
-    "looks_like": "surv_lmg_223_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_lmg_762_t",
@@ -295,14 +222,6 @@
     "item": "surv_lmg_762",
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
-  },
-  {
-    "id": "surv_lmg_762_t_manual",
-    "copy-from": "surv_lmg_762_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's 7.62x39 LMG (manual)" },
-    "looks_like": "surv_lmg_762_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -318,14 +237,6 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "surv_lmg_762R_t_manual",
-    "copy-from": "surv_lmg_762R_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's 7.62x54 GPMG (manual)" },
-    "looks_like": "surv_lmg_762R_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "surv_full_50_t",
@@ -337,14 +248,6 @@
     "item": "surv_full_50",
     "breaks_into": [ { "item": "surv_full_50", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
-  },
-  {
-    "id": "surv_full_50_t_manual",
-    "copy-from": "surv_full_50_t",
-    "type": "vehicle_part",
-    "name": { "str": "survivor's .50 automatic AMR (manual)" },
-    "looks_like": "surv_full_50_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -361,15 +264,6 @@
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
     }
-  },
-  {
-    "id": "laser_arc_carbine_t_manual",
-    "//": "As noted, no manual version of the UPS-fed E1 models, but the magazine-loading standard versions are acceptable to mount.",
-    "copy-from": "laser_arc_carbine_t",
-    "type": "vehicle_part",
-    "name": { "str": "ARC-314 laser rifle (manual)" },
-    "looks_like": "laser_arc_carbine_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -404,14 +298,6 @@
     }
   },
   {
-    "id": "laser_lmg_t_manual",
-    "copy-from": "laser_lmg_t",
-    "type": "vehicle_part",
-    "name": { "str": "KRX-108 laser LMG (manual)" },
-    "looks_like": "laser_lmg_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "laser_lmg_t_ups",
@@ -444,14 +330,6 @@
     }
   },
   {
-    "id": "laser_mx_sniper_t_manual",
-    "copy-from": "laser_mx_sniper_t",
-    "type": "vehicle_part",
-    "name": { "str": "MX-84 laser sniper (manual)" },
-    "looks_like": "laser_mx_sniper_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "laser_mx_sniper_t_ups",
@@ -482,14 +360,6 @@
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
     }
-  },
-  {
-    "id": "xarm_laser_shotgun_t_manual",
-    "copy-from": "xarm_laser_shotgun_t",
-    "type": "vehicle_part",
-    "name": { "str": "XARM-37 pulse scattergun (manual)" },
-    "looks_like": "xarm_laser_shotgun_t",
-    "flags": [ "TURRET_MANUAL" ]
   },
   {
     "type": "vehicle_part",
@@ -556,15 +426,6 @@
     }
   },
   {
-    "id": "mk_ionic_cannon_plut_t_manual",
-    "//": "With this one, it's the standard version that uses UPS and the conversion that doesn't, so allow this one.",
-    "copy-from": "mk_ionic_cannon_plut_t",
-    "type": "vehicle_part",
-    "name": { "str": "MK-2N1 Atomic Cannon (manual)" },
-    "looks_like": "mk_ionic_cannon_plut_t",
-    "flags": [ "TURRET_MANUAL" ]
-  },
-  {
     "type": "vehicle_part",
     "copy-from": "turret",
     "id": "c_mi_go_rifle_salvaged_t",
@@ -578,13 +439,637 @@
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "c_mi_go_rifle_salvaged_t_manual",
-    "//": "With this one, it's the standard version that uses UPS and the conversion that doesn't, so allow this one.",
-    "copy-from": "c_mi_go_rifle_salvaged_t",
+    "id": "flamethrower_surv_t",
+    "copy-from": "turret",
     "type": "vehicle_part",
-    "name": { "str": "salvaged resin rifle (manual)" },
-    "looks_like": "c_mi_go_rifle_salvaged_t",
-    "flags": [ "TURRET_MANUAL" ]
+    "name": { "str": "mounted survivor's flamethrower" },
+    "item": "flamethrower_surv",
+    "default_ammo": "diesel",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "breaks_into": [ { "item": "scrap", "count": 3 }, { "item": "steel_chunk", "count": 1 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } },
+    "extend": { "flags": [ "USE_TANKS" ] }
+  },
+  {
+    "id": "generator_electric_tiny",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "tiny electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Much less efficient compared to its normal application as a motor.",
+    "item": "motor_tiny",
+    "folded_volume": 1,
+    "durability": 80,
+    "power": -800,
+    "epower": 320,
+    "//": "All improvised electric dynamos set to use input matching their motor counterpart's power output, and an output offering half their normal efficiency.",
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "plastic_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 1, 3 ] }
+    ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "adhesive", 1 ], [ "vehicle_repair_electronics", 1 ] ]
+      }
+    }
+  },
+  {
+    "id": "generator_electric_small",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "small electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Much less efficient compared to its normal application as a motor.",
+    "item": "motor_small",
+    "durability": 120,
+    "power": -7040,
+    "epower": 3098,
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 1, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 2 ] },
+      { "item": "cable", "charges": [ 3, 6 ] }
+    ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "damage_reduction": { "all": 6 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_screw", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "adhesive", 1 ], [ "vehicle_repair_electronics", 1 ] ]
+      }
+    }
+  },
+  {
+    "id": "generator_electric",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Much less efficient compared to its normal application as a motor.",
+    "item": "motor",
+    "durability": 200,
+    "power": -36000,
+    "epower": 16200,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "damage_reduction": { "all": 32 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    }
+  },
+  {
+    "id": "generator_electric_large",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "large electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It would need a fairly powerful engine to effectively generate power, and it's much less efficient compared to its normal application as a motor.",
+    "item": "motor_large",
+    "durability": 400,
+    "power": -150000,
+    "epower": 69018,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "damage_reduction": { "all": 43 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    }
+  },
+  {
+    "id": "generator_electric_enhanced",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "enhanced electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  It requires a rather powerful engine to operate, at reduced efficiency compared to its normal application as a motor.",
+    "item": "motor_enhanced",
+    "durability": 200,
+    "power": -282000,
+    "epower": 132540,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 3, 5 ] },
+      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "scrap", "count": [ 3, 5 ] },
+      { "item": "cable", "charges": [ 10, 15 ] }
+    ],
+    "damage_reduction": { "all": 50 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    }
+  },
+  {
+    "id": "generator_electric_super",
+    "copy-from": "vehicle_alternator",
+    "type": "vehicle_part",
+    "name": "super electric dynamo",
+    "description": "An electric motor improvised to serve as an electric generator, to be attached to an internal combustion engine.  Even being less effective like this, its power output is immense.  You would need one hell of an engine to use this as a generator!",
+    "item": "motor_super",
+    "durability": 400,
+    "power": -475000,
+    "epower": 225625,
+    "damage_modifier": 80,
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 6, 10 ] },
+      { "item": "steel_chunk", "count": [ 6, 10 ] },
+      { "item": "scrap", "count": [ 6, 10 ] },
+      { "item": "cable", "charges": [ 20, 30 ] }
+    ],
+    "damage_reduction": { "all": 60 },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    }
+  }
+]
+[
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "ups_rifle_t",
+    "name": "mounted UPS rifle",
+    "looks_like": "laser_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "ups_rifle",
+    "folded_volume": 8,
+    "//": "Haven't figured out the breaks_into...",
+    "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "unbio_chain_lightning_t",
+    "name": "chain lightning rifle",
+    "looks_like": "laser_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "unbio_chain_lightning",
+    "folded_volume": 14,
+    "breaks_into": [ { "item": "unbio_chain_lightning", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "sur_pnu_lmg_t",
+    "name": "mounted pneumatic LMG",
+    "looks_like": "mounted_bigun",
+    "color": "dark_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "item": "sur_pnu_lmg",
+    "folded_volume": 8,
+    "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_battery_rifle_t",
+    "name": "mounted survivor's battery rifle",
+    "looks_like": "laser_rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "surv_battery_rifle",
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "surv_battery_rifle", "prob": 50 } ],
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "GENERIC",
+    "id": "surv_station",
+    "//": "Actual item",
+    "name": "survivor's station",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Has no cargo space due to all the components it is made out of.",
+    "weight": "123134 g",
+    "to_hit": -2,
+    "color": "light_red",
+    "symbol": "&",
+    "looks_like": "craftrig",
+    "material": [ "steel" ],
+    "volume": "30 L",
+    "category": "veh_parts",
+    "price": "800 USD"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_station_t",
+    "//": "Almost all utilities in one!",
+    "name": "survivor's station unit",
+    "description": "A makeshift vehicle mountable station comprised of many utilities, all compressed into a single unit.  Combines the functionality of a vehicle kitchen unit, forge, welder, chemistry set, and all of the myriad functions of the FOODCO kitchen buddy.  As a consequence, it leaves no space left for storage.",
+    "looks_like": "craft_rig",
+    "symbol": "&",
+    "color": "light_red",
+    "broken_symbol": "x",
+    "broken_color": "light_red",
+    "damage_modifier": 80,
+    "durability": 100,
+    "item": "surv_station",
+    "location": "center",
+    "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 30, 40 ] },
+      { "item": "steel_chunk", "count": [ 30, 40 ] },
+      { "item": "scrap", "count": [ 30, 40 ] },
+      { "item": "circuit", "count": [ 30, 40 ] },
+      { "item": "e_scrap", "count": [ 30, 40 ] },
+      { "item": "amplifier", "count": [ 30, 40 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 7 ] ],
+        "time": "60 m",
+        "using": [ [ "welding_standard", 5 ], [ "vehicle_repair_electronics", 2 ] ]
+      }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_223_t",
+    "copy-from": "turret",
+    "name": "mounted survivor's .223 assault rifle",
+    "looks_like": "mounted_m1918",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_223",
+    "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "surv_full_308_t",
+    "copy-from": "turret",
+    "name": "mounted survivor's .308 battle rifle",
+    "looks_like": "mounted_m1918",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_308",
+    "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_full_762_t",
+    "name": "mounted survivor's 7.62x39 assault rifle",
+    "looks_like": "mounted_m1918",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_762",
+    "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_full_762R_t",
+    "name": "mounted survivor's 7.62x54 battle rifle",
+    "looks_like": "mounted_m1918",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_762R",
+    "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_full_12_t",
+    "name": "mounted survivor's full-auto shotgun",
+    "looks_like": "mounted_bigun",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_12",
+    "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "shotgun", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_lmg_308_t",
+    "name": "mounted survivor's .308 GPMG",
+    "looks_like": "mounted_m240",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_308",
+    "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_lmg_223_t",
+    "name": "mounted survivor's .223 LMG",
+    "looks_like": "m249",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_223",
+    "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_lmg_762_t",
+    "name": "mounted survivor's 7.62x39 LMG",
+    "looks_like": "m249",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_762",
+    "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_lmg_762R_t",
+    "name": "mounted survivor's 7.62x54 GPMG",
+    "looks_like": "surv_lmg_308_t",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_762R",
+    "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "surv_full_50_t",
+    "name": "mounted survivor's .50 automatic AMR",
+    "looks_like": "mounted_browning",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_full_50",
+    "breaks_into": [ { "item": "surv_full_50", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_arc_carbine_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted ARC-314 laser rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "arc_laser_rifle",
+    "breaks_into": [ { "item": "arc_laser_rifle", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_arc_carbine_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted ARC-314E1 laser rifle (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "arc_laser_rifle_ups",
+    "breaks_into": [ { "item": "arc_laser_rifle_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_lmg_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted KRX-108 laser LMG",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "krx_laser_lmg",
+    "breaks_into": [ { "item": "krx_laser_lmg", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_lmg_t_ups",
+    "looks_like": "laser_lmg_t",
+    "name": "mounted KRX-108E1 laser LMG (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "krx_laser_lmg_ups",
+    "breaks_into": [ { "item": "krx_laser_lmg_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_mx_sniper_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted MX-84 laser sniper",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mx_laser_sniper",
+    "breaks_into": [ { "item": "mx_laser_sniper", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_mx_sniper_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted MX-84E1 laser sniper (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mx_laser_sniper_ups",
+    "breaks_into": [ { "item": "mx_laser_sniper_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "xarm_laser_shotgun_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted XARM-37 pulse scattergun",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "xarm_laser_shotgun",
+    "breaks_into": [ { "item": "xarm_laser_shotgun", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "xarm_laser_shotgun_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted XARM-37E1 pulse scattergun (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "xarm_laser_shotgun_ups",
+    "breaks_into": [ { "item": "xarm_laser_shotgun_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "br_bolt_rifle_elec_t",
+    "looks_like": "mounted_coilgun",
+    "name": "mounted BR-96 bolt rifle",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "br_bolt_rifle_elec",
+    "breaks_into": [ { "item": "br_bolt_rifle_elec", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "mk_ionic_cannon_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted MK-2 Ionic Cannon",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mk_ionic_cannon",
+    "breaks_into": [ { "item": "mk_ionic_cannon", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "mk_ionic_cannon_plut_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted MK-2N1 Atomic Cannon",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mk_ionic_cannon_plut",
+    "breaks_into": [ { "item": "mk_ionic_cannon_plut", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "c_mi_go_rifle_salvaged_t",
+    "looks_like": "mounted_bigun",
+    "name": "mounted salvaged resin rifle",
+    "color": "green",
+    "broken_symbol": "#",
+    "broken_color": "green",
+    "item": "c_mi_go_rifle_salvaged",
+    "breaks_into": [ { "item": "c_mi_go_rifle_salvaged", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
     "id": "flamethrower_surv_t",
