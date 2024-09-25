@@ -10,7 +10,7 @@
     "price": "25 USD",
     "price_postapoc": "15 USD",
     "damage": { "damage_type": "bullet", "armor_penetration": 12 },
-    "proportional": { "range": 4.0, "dispersion": 0.89, "recoil": 2.0 },
+    "proportional": { "range": 2.0, "dispersion": 0.89, "recoil": 2.0 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {

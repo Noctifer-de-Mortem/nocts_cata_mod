@@ -1546,7 +1546,9 @@
     "time": "90 s",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "manual_rifle", 3 ], [ "manual_pistol", 3 ], [ "recipe_bullets", 3 ], [ "recipe_surv", 3 ] ],
+    "autolearn": true,
     "charges": 1,
+    "reversible": true,
     "using": [ [ "bullet_forming", 20 ], [ "ammo_bullet", 15 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "gunpowder", 5 ], [ "chem_black_powder", 8 ], [ "chem_match_head_powder", 8 ] ], [ [ "paper", 1 ] ] ]

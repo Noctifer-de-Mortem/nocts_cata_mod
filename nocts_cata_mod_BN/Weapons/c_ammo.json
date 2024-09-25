@@ -9,7 +9,7 @@
     "weight": "55 g",
     "price": "25 USD",
     "price_postapoc": "15 USD",
-    "proportional": { "damage": { "damage_type": "bullet", "armor_penetration": 1.25 }, "range": 4.0, "dispersion": 0.89, "recoil": 2.0 },
+    "proportional": { "damage": { "damage_type": "bullet", "armor_penetration": 1.25 }, "range": 2.0, "dispersion": 0.89, "recoil": 2.0 },
     "extend": { "effects": [ "RECYCLED" ] }
   },
   {
