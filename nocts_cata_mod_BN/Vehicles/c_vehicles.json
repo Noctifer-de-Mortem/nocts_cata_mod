@@ -376,7 +376,7 @@
         "parts": [
           "frame_wood_cross",
           "seat_wood",
-          "turret_mount",
+          "turret_mount_manual_wood",
           { "ammo_types": [ "762_54R", "bp_762_54R" ], "part": "surv_lmg_762R_t", "ammo": 60, "ammo_qty": [ 5, 75 ] }
         ]
       },

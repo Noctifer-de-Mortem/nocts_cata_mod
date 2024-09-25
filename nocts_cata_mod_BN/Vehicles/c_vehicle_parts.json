@@ -410,6 +410,35 @@
     }
   },
   {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "mk_ionic_cannon_plut_t",
+    "looks_like": "laser_cannon",
+    "name": "mounted MK-2N1 Atomic Cannon",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "mk_ionic_cannon_plut",
+    "breaks_into": [ { "item": "mk_ionic_cannon_plut", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "c_mi_go_rifle_salvaged_t",
+    "looks_like": "mounted_bigun",
+    "name": "mounted salvaged resin rifle",
+    "color": "green",
+    "broken_symbol": "#",
+    "broken_color": "green",
+    "item": "c_mi_go_rifle_salvaged",
+    "breaks_into": [ { "item": "c_mi_go_rifle_salvaged", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
     "id": "flamethrower_surv_t",
     "copy-from": "turret",
     "type": "vehicle_part",
