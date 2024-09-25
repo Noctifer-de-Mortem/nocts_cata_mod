@@ -9,10 +9,9 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "ups_rifle",
-    "folded_volume": 8,
+    "folded_volume": "3500 ml",
     "//": "Haven't figured out the breaks_into...",
     "breaks_into": [ { "item": "ups_rifle", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -28,9 +27,8 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "unbio_chain_lightning",
-    "folded_volume": 14,
+    "folded_volume": "3500 ml",
     "breaks_into": [ { "item": "unbio_chain_lightning", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
@@ -46,9 +44,8 @@
     "broken_symbol": "#",
     "broken_color": "dark_gray",
     "item": "sur_pnu_lmg",
-    "folded_volume": 8,
+    "folded_volume": "4250 ml",
     "breaks_into": [ { "item": "sur_pnu_lmg", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] },
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
@@ -61,9 +58,8 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "surv_battery_rifle",
-    "folded_volume": 12,
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "surv_battery_rifle", "prob": 50 } ],
-    "extend": { "flags": [ "FOLDABLE" ] },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ] }
@@ -129,6 +125,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_223",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "surv_full_223", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -142,6 +139,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_308",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "surv_full_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -155,6 +153,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "surv_full_762", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -168,6 +167,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_762R",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "surv_full_762R", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -181,6 +181,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_12",
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "surv_full_12", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "shotgun", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -194,6 +195,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_308",
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "surv_lmg_308", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -207,6 +209,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_223",
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "surv_lmg_223", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -220,6 +223,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762",
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "surv_lmg_762", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -233,6 +237,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_lmg_762R",
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "surv_lmg_762R", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -246,6 +251,7 @@
     "broken_symbol": "#",
     "broken_color": "brown",
     "item": "surv_full_50",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "surv_full_50", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
@@ -259,6 +265,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "arc_laser_rifle",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "arc_laser_rifle", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -275,6 +282,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "arc_laser_rifle_ups",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "arc_laser_rifle_ups", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -291,6 +299,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "krx_laser_lmg",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "krx_laser_lmg", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -307,6 +316,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "krx_laser_lmg_ups",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "krx_laser_lmg_ups", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -323,6 +333,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "mx_laser_sniper",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "mx_laser_sniper", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -339,6 +350,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "mx_laser_sniper_ups",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "mx_laser_sniper_ups", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -355,6 +367,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "xarm_laser_shotgun",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "xarm_laser_shotgun", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -371,6 +384,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "xarm_laser_shotgun_ups",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "xarm_laser_shotgun_ups", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
@@ -387,6 +401,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "br_bolt_rifle_elec",
+    "folded_volume": "2 L",
     "breaks_into": [ { "item": "br_bolt_rifle_elec", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
@@ -403,6 +418,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "mk_ionic_cannon",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "mk_ionic_cannon", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
@@ -419,6 +435,7 @@
     "broken_symbol": "#",
     "broken_color": "yellow",
     "item": "mk_ionic_cannon_plut",
+    "folded_volume": "3 L",
     "breaks_into": [ { "item": "mk_ionic_cannon_plut", "prob": 50 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 5 ] ] },
@@ -434,6 +451,7 @@
     "color": "green",
     "broken_symbol": "#",
     "broken_color": "green",
+    "folded_volume": "3 L",
     "item": "c_mi_go_rifle_salvaged",
     "breaks_into": [ { "item": "c_mi_go_rifle_salvaged", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
