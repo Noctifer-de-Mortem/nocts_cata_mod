@@ -1059,10 +1059,7 @@
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 1 } ],
     "tools": [ [ [ "welder", 10 ], [ "welding_kit", 10 ], [ "welder_crude", 10 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
     "components": [
-      [
-        [ "light_battery_cell", 6 ],
-        [ "light_minus_battery_cell", 12 ]
-      ],
+      [ [ "light_battery_cell", 6 ], [ "light_minus_battery_cell", 12 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "e_scrap", 1 ] ],
       [ [ "cable", 10 ] ],
@@ -1581,7 +1578,9 @@
     "time": "90 s",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "manual_rifle", 3 ], [ "manual_pistol", 3 ], [ "recipe_bullets", 3 ], [ "recipe_surv", 3 ] ],
+    "autolearn": true,
     "charges": 1,
+    "reversible": true,
     "using": [ [ "bullet_forming", 20 ], [ "ammo_bullet", 15 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "gunpowder", 5 ], [ "chem_black_powder", 8 ] ], [ [ "paper", 1 ] ] ]
