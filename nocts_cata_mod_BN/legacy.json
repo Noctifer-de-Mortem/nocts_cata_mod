@@ -893,5 +893,23 @@
       ],
       "terrain": { ",": "t_grass", ".": "t_dirt" }
     }
+  },
+  {
+    "type": "recipe",
+    "result": "charcoal",
+    "id_suffix": "simple",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "bag_plastic",
+    "id_suffix": "simple bag_plastic",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "c_hydrogen_gas",
+    "id_suffix": "from_tanks",
+    "obsolete": true
   }
 ]

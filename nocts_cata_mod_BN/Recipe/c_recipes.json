@@ -194,33 +194,6 @@
     "tools": [ [ [ "pot_makeshift", -1 ], [ "pot_makeshift_copper", -1 ] ] ]
   },
   {
-    "result": "charcoal",
-    "type": "recipe",
-    "id_suffix": "simple",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "difficulty": 2,
-    "time": "20 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 1 ] ],
-    "charges": 10,
-    "tools": [
-      [ [ "surface_heat", 10, "LIST" ] ],
-      [
-        [ "metal_tank_little", -1 ],
-        [ "can_food_big_unsealed", -1 ],
-        [ "can_medium_unsealed", -1 ],
-        [ "can_food_unsealed", -1 ],
-        [ "canister_empty", -1 ],
-        [ "tinderbox", -1 ],
-        [ "can_drink_unsealed", -1 ],
-        [ "clay_canister", -1 ]
-      ]
-    ],
-    "components": [ [ [ "splinter", 2 ], [ "bone_human", 2 ], [ "bone_tainted", 2 ], [ "pine_bough", 10 ] ] ]
-  },
-  {
     "result": "fishing_string",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -957,21 +930,6 @@
     "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 4 ] ], [ [ "spring", 1 ] ] ]
   },
   {
-    "result": "bag_plastic",
-    "type": "recipe",
-    "id_suffix": "simple bag_plastic",
-    "result_mult": 10,
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "time": "20 m",
-    "autolearn": true,
-    "book_learn": [ [ "recipe_surv", 2 ] ],
-    "tools": [ [ [ "hotplate", 5 ], [ "toolset", 5 ], [ "fire", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
-    "components": [ [ [ "plastic_chunk", 1 ] ] ]
-  },
-  {
     "result": "sur_pnu_lmg",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -1637,24 +1595,6 @@
     "components": [ [ [ "kitchen_unit", 1 ] ], [ [ "forgerig", 1 ] ], [ [ "weldrig", 1 ] ], [ [ "craftrig", 1 ] ], [ [ "chemlab", 1 ] ] ]
   },
   {
-    "result": "goggles_welding",
-    "type": "recipe",
-    "id_suffix": "alt_creation",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "mechanics",
-    "difficulty": 2,
-    "skills_required": [ "fabrication", 1 ],
-    "time": "30 m",
-    "autolearn": true,
-    "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 3 ] ],
-    "tools": [ [ [ "spray_can", 1 ], [ "char_smoker", 25 ] ] ],
-    "components": [
-      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
-      [ [ "duct_tape", 40 ], [ "medical_tape", 40 ] ]
-    ]
-  },
-  {
     "result": "unbio_sword_weapon",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -2309,64 +2249,6 @@
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ],
     "flags": [ "SECRET" ]
-  },
-  {
-    "type": "recipe",
-    "result": "c_hydrogen_gas",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_CHEMICALS",
-    "skill_used": "cooking",
-    "skills_required": [ "electronics", 2 ],
-    "difficulty": 3,
-    "time": "25 m",
-    "batch_time_factors": [ 90, 4 ],
-    "//": "Low-temperature electrolysis of water to gather hydrogen.  Efficiency range is about 50-60% for this method, figures here are fitting for about 57% or so.",
-    "autolearn": [ [ "cooking", 5 ], [ "electronics", 3 ] ],
-    "book_learn": [
-      [ "adv_chemistry", 3 ],
-      [ "textbook_chemistry", 3 ],
-      [ "recipe_labchem", 3 ],
-      [ "textbook_gaswarfare", 4 ],
-      [ "atomic_survival", 4 ],
-      [ "reference_fabrication1", 3 ],
-      [ "reference_cooking", 4 ]
-    ],
-    "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "PRESSURIZATION", "level": 1 } ],
-    "tools": [ [ [ "electrolysis_kit", 1750 ] ] ],
-    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "c_hydrogen_gas",
-    "id_suffix": "from_tanks",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_CHEMICALS",
-    "time": "1 m",
-    "batch_time_factors": [ 90, 4 ],
-    "autolearn": true,
-    "qualities": [ { "id": "PRESSURIZATION", "level": 1 } ],
-    "tools": [ [ [ "hydrogen_tank", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "c_hydrogen_gas",
-    "id_suffix": "from_bugs",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_CHEMICALS",
-    "skill_used": "cooking",
-    "skills_required": [ "survival", 2 ],
-    "difficulty": 3,
-    "time": "5 m",
-    "autolearn": [ [ "cooking", 5 ], [ "survival", 3 ] ],
-    "book_learn": [
-      [ "adv_chemistry", 3 ],
-      [ "textbook_chemistry", 3 ],
-      [ "recipe_labchem", 3 ],
-      [ "textbook_gaswarfare", 4 ],
-      [ "atomic_survival", 4 ]
-    ],
-    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "PRESSURIZATION", "level": 1 } ],
-    "components": [ [ [ "mutant_bug_hydrogen_sacs", 5 ] ] ]
   },
   {
     "type": "recipe",
