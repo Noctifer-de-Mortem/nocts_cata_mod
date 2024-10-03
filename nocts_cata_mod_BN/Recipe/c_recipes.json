@@ -2438,38 +2438,6 @@
   },
   {
     "type": "recipe",
-    "result": "shot_crafted_suppressor",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MODS",
-    "skill_used": "mechanics",
-    "skills_required": [ "gun", 2 ],
-    "difficulty": 4,
-    "time": "20 m",
-    "autolearn": true,
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
-    "using": [ [ "soldering_standard", 5 ] ],
-    "components": [
-      [ [ "rag", 4 ], [ "plastic_chunk", 4 ], [ "felt_patch", 4 ], [ "leather", 4 ] ],
-      [ [ "pipe", 1 ] ],
-      [ [ "scrap", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "shot_suppressor",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MODS",
-    "skill_used": "mechanics",
-    "skills_required": [ "gun", 2 ],
-    "difficulty": 9,
-    "time": "1 h",
-    "book_learn": [ [ "manual_shotgun", 4 ] ],
-    "using": [ [ "soldering_standard", 5 ] ],
-    "tools": [ [ [ "small_repairkit", 150 ], [ "large_repairkit", 150 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ], [ [ "pipe", 2 ] ], [ [ "wire", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "autoclave_makeshift",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_TOOLS",
@@ -2495,26 +2463,6 @@
       [ [ "cu_pipe", 4 ] ],
       [ [ "thermometer", 1 ] ]
     ]
-  },
-  {
-    "type": "recipe",
-    "result": "pouch_autoclave",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MEDICAL",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "firstaid", 5 ] ],
-    "difficulty": 5,
-    "time": "30 m",
-    "batch_time_factors": [ 20, 5 ],
-    "book_learn": [
-      [ "textbook_fabrication", 6 ],
-      [ "recipe_augs", 5 ],
-      [ "recipe_mil_augs", 5 ],
-      [ "recipe_lab_elec", 4 ],
-      [ "reference_firstaid1", 6 ]
-    ],
-    "tools": [ [ [ "vac_sealer", 15 ], [ "makeshift_sealer", 30 ] ] ],
-    "components": [ [ [ "bag_plastic", 1 ] ], [ [ "paper", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -3008,25 +2956,6 @@
       [ [ "cable", 50 ] ],
       [ [ "plastic_chunk", 2 ] ],
       [ [ "canister_empty", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "wire_saw_makeshift",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "skills_required": [ [ "survival", 3 ] ],
-    "time": "50 m",
-    "autolearn": true,
-    "book_learn": [ [ "manual_mechanics", 2 ], [ "manual_fabrication", 2 ], [ "recipe_surv", 2 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "plastic_chunk", 1 ], [ "2x4", 1 ], [ "stick", 1 ] ],
-      [ [ "cable", 10 ], [ "wire", 1 ], [ "string_floss", 1 ] ],
-      [ [ "material_sand", 10 ], [ "salt", 20 ] ],
-      [ [ "superglue", 1 ], [ "bone_glue", 1 ] ]
     ]
   },
   {
