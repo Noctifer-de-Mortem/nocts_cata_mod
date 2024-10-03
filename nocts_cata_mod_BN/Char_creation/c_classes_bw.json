@@ -366,6 +366,7 @@
       "bio_power_storage_mkII",
       "bio_power_armor_interface_mkII",
       "bio_fuel_cell_gasoline",
+      "bio_fuel_cell_hydrogen",
       "bio_plasma_cell"
     ],
     "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
