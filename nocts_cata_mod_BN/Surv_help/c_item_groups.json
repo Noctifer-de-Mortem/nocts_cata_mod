@@ -793,7 +793,8 @@
       [ "bio_metabolics", 7 ],
       [ "bio_nanobots", 5 ],
       [ "bio_painkiller", 7 ],
-      [ "bio_plasma_cell", 3 ],
+      [ "bio_fuel_cell_hydrogen", 2 ],
+      [ "bio_plasma_cell", 1 ],
       [ "bio_razors", 7 ],
       [ "bio_shock", 6 ],
       [ "bio_torsionratchet", 7 ]
@@ -837,7 +838,13 @@
     "type": "item_group",
     "id": "bionics_apophis_util",
     "subtype": "distribution",
-    "items": [ [ "bio_metabolics", 7 ], [ "bio_plasma_cell", 3 ], [ "bio_torsionratchet", 7 ], [ "bio_weight", 8 ] ]
+    "items": [
+      [ "bio_metabolics", 7 ],
+      [ "bio_fuel_cell_hydrogen", 2 ],
+      [ "bio_plasma_cell", 1 ],
+      [ "bio_torsionratchet", 7 ],
+      [ "bio_weight", 8 ]
+    ]
   },
   {
     "type": "item_group",
