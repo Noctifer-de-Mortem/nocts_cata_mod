@@ -973,7 +973,7 @@
     "items": [ { "item": "flamethrower_surv", "prob": 15 } ]
   },
   {
-    "id": "drugdealer",
+    "id": "auto_sears",
     "type": "item_group",
     "items": [ [ "auto_case", 50 ] ]
   },
