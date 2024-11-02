@@ -13,7 +13,8 @@
       { "group": "NC_GLADIATOR_LIGHT_hands", "prob": 75 },
       { "group": "clothing_outdoor_pants" },
       { "group": "NC_GLADIATOR_LIGHT_legs", "prob": 50 },
-      { "group": "NC_GLADIATOR_LIGHT_feet", "prob": 50 }
+      { "group": "NC_GLADIATOR_LIGHT_feet", "prob": 50 },
+      { "group": "NC_GLADIATOR_LIGHT_shields", "prob": 25 }
     ]
   },
   {
@@ -31,7 +32,8 @@
       { "group": "NC_GLADIATOR_HEAVY_hands", "prob": 75 },
       { "group": "clothing_outdoor_pants", "prob": 50 },
       { "group": "NC_GLADIATOR_HEAVY_legs" },
-      { "group": "NC_GLADIATOR_HEAVY_feet" }
+      { "group": "NC_GLADIATOR_HEAVY_feet" },
+      { "group": "NC_GLADIATOR_HEAVY_shields", "prob": 25 }
     ]
   },
   {
@@ -43,13 +45,19 @@
   {
     "id": "NC_GLADIATOR_LIGHT_arms",
     "type": "item_group",
-    "items": [ [ "armguard_hard", 30 ], [ "2byarm_guard", 15 ], [ "armguard_paper", 15 ], [ "armguard_larmor", 10 ] ]
+    "items": [
+      [ "armguard_hard", 30 ],
+      [ "2byarm_guard", 15 ],
+      [ "armguard_paper", 15 ],
+      [ "armguard_larmor", 10 ],
+      [ "armguard_scute", 5 ]
+    ]
   },
   {
     "id": "NC_GLADIATOR_LIGHT_hands",
     "type": "item_group",
     "//": "Get an item 75% of the time.",
-    "items": [ [ "gloves_work", 20 ], [ "gloves_wraps", 15 ], [ "gauntlets_larmor", 10 ] ]
+    "items": [ [ "gloves_work", 20 ], [ "gloves_wraps", 15 ], [ "gauntlets_larmor", 10 ], [ "gauntlets_scute", 5 ] ]
   },
   {
     "id": "NC_GLADIATOR_LIGHT_legs",
@@ -61,14 +69,15 @@
     "id": "NC_GLADIATOR_LIGHT_feet",
     "type": "item_group",
     "//": "Blue Team only gets an item half the time.",
-    "items": [ [ "sneakers", 40 ], [ "boots", 30 ], [ "boots_larmor", 10 ], [ "motorbike_boots", 5 ] ]
+    "items": [ [ "sneakers", 40 ], [ "boots", 30 ], [ "boots_larmor", 10 ], [ "boots_scute", 5 ], [ "motorbike_boots", 5 ] ]
   },
   {
     "id": "NC_GLADIATOR_HEAVY_head",
     "type": "item_group",
     "//": "Helms for Red Team.",
     "items": [
-      [ "helmet_chitin", 15 ],
+      [ "helmet_bone", 5 ],
+      [ "helmet_chitin", 10 ],
       [ "helmet_acidchitin", 10 ],
       [ "pot_helmet", 25 ],
       [ "helmet_football", 15 ],
@@ -81,12 +90,13 @@
   {
     "id": "NC_GLADIATOR_HEAVY_torso",
     "type": "item_group",
-    "//": "As with historical gladiators, torso is often left vulnerable.  25% odds of actual armor for heavies.",
+    "//": "As with historical gladiators, torso is often left vulnerable.  ~25% odds of actual armor for heavies.",
     "items": [
       [ "trenchcoat", 10 ],
       [ "tunic_rag", 25 ],
       [ "vest_leather", 10 ],
       [ "bookplate", 5 ],
+      [ "cuirass_bone", 5 ],
       [ "vest_leather_mod", 5 ],
       [ "football_armor", 5 ],
       [ "motorbike_armor", 5 ],
@@ -99,9 +109,10 @@
     "items": [
       [ "armguard_hard", 20 ],
       [ "2byarm_guard", 15 ],
+      [ "armguard_bone", 5 ],
       [ "armguard_acidchitin", 10 ],
       [ "armguard_chitin", 20 ],
-      [ "armguard_scrap", 10 ]
+      [ "armguard_scrap", 15 ]
     ]
   },
   {
@@ -113,12 +124,46 @@
   {
     "id": "NC_GLADIATOR_HEAVY_legs",
     "type": "item_group",
-    "items": [ [ "legguard_hard", 10 ], [ "2byshin_guard", 10 ], [ "legguard_scrap", 10 ] ]
+    "items": [ [ "legguard_hard", 10 ], [ "2byshin_guard", 10 ], [ "greaves_bone", 5 ], [ "legguard_scrap", 10 ] ]
   },
   {
     "id": "NC_GLADIATOR_HEAVY_feet",
     "type": "item_group",
     "items": [ [ "boots_acidchitin", 10 ], [ "boots_chitin", 30 ], [ "boots_steel", 30 ], [ "motorbike_boots", 25 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_shields",
+    "type": "item_group",
+    "items": [
+      [ "shield_wooden", 40 ],
+      [ "shield_wooden_large", 20 ],
+      [ "shield_leather", 20 ],
+      [ "shield_leather_large", 10 ],
+      [ "shield_buckler", 5 ],
+      [ "shield_riot", 10 ],
+      [ "shield_riot_surv", 5 ]
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_shields",
+    "type": "item_group",
+    "items": [
+      [ "shield_wooden", 40 ],
+      [ "shield_wooden_large", 20 ],
+      [ "shield_leather", 20 ],
+      [ "shield_leather_large", 10 ],
+      [ "shield_leather", 20 ],
+      [ "shield_leather_large", 10 ],
+      [ "shield_banded", 20 ],
+      [ "shield_banded_large", 10 ],
+      [ "shield_spiked", 20 ],
+      [ "shield_spiked_large", 10 ],
+      [ "shield_welded", 5 ],
+      [ "shield_riot", 10 ],
+      [ "shield_ballistic", 5 ],
+      [ "shield_riot_surv", 5 ],
+      [ "shield_welded_surv", 5 ]
+    ]
   },
   {
     "id": "NC_GLADIATOR_LIGHT_weapon",
@@ -131,14 +176,21 @@
       [ "spear_rebar", 10 ],
       [ "spear_pipe", 10 ],
       [ "spear_survivor", 5 ],
+      [ "glaive_bone", 5 ],
       [ "machete", 30 ],
       [ "makeshift_machete", 25 ],
+      [ "sword_bone", 5 ],
       [ "sword_crude", 20 ],
       [ "glass_macuahuitl", 15 ],
+      [ "razor_macuahuitl", 5 ],
+      [ "tooth_leiomano", 5 ],
       [ "survivor_machete", 5 ],
       [ "greatsword_makeshift", 5 ],
       [ "unbio_sword_weapon", 1 ],
       [ "knuckle_brass", 15 ],
+      [ "cestus", 10 ],
+      [ "cestus_tooth", 5 ],
+      [ "spiked_boxing", 5 ],
       [ "knuckle_nail", 10 ],
       [ "knuckle_steel", 10 ],
       [ "knuckle_katar", 5 ]
@@ -151,12 +203,18 @@
     "items": [
       [ "machete", 30 ],
       [ "makeshift_machete", 25 ],
+      [ "sword_bone", 5 ],
       [ "sword_crude", 20 ],
       [ "glass_macuahuitl", 15 ],
+      [ "razor_macuahuitl", 5 ],
+      [ "tooth_leiomano", 5 ],
       [ "survivor_machete", 5 ],
       [ "greatsword_makeshift", 5 ],
       [ "unbio_sword_weapon", 1 ],
       [ "knuckle_brass", 15 ],
+      [ "cestus", 10 ],
+      [ "cestus_tooth", 5 ],
+      [ "spiked_boxing", 5 ],
       [ "knuckle_nail", 10 ],
       [ "knuckle_steel", 10 ],
       [ "knuckle_katar", 5 ]
