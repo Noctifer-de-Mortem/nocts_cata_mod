@@ -83,7 +83,7 @@
     ],
     "traits": [ "MARTIAL_ARTS_SURV_COM" ],
     "forced_traits": [ "PROF_PREPPER_HOLDOUT" ],
-    "flags": [ "CITY_START", "LONE_START" ]
+    "flags": [ "CITY_START", "LONE_START" ],
     "start_of_game": { "season": "autumn" }
   },
   {
