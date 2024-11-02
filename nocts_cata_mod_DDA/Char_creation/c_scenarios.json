@@ -54,7 +54,7 @@
   {
     "type": "scenario",
     "name": "Prepper Safehouse",
-    "description": "You knew something was coming, so you made connections with like-minded survivors beforehand to establish safe refuge.  You've made your plans, now it's time to put them into action.",
+    "description": "You knew something was coming, so you made connections with like-minded survivors beforehand to establish safe refuge.  You've made your plans, now that you've weathered the first few months it's time for the next steps.",
     "id": "prep_house",
     "points": 2,
     "start_name": "Safehouse",
@@ -83,7 +83,8 @@
     ],
     "traits": [ "MARTIAL_ARTS_SURV_COM" ],
     "forced_traits": [ "PROF_PREPPER_HOLDOUT" ],
-    "flags": [ "CITY_START", "LONE_START" ]
+    "flags": [ "CITY_START", "LONE_START" ],
+    "start_of_game": { "season": "autumn" }
   },
   {
     "type": "scenario",
