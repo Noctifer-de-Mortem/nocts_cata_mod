@@ -37,7 +37,7 @@
         "+": "t_chaingate_l",
         "=": "t_chaingate_o",
         ",": "t_floor",
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         "/": "t_concrete_wall",
         "0": "t_window",
         "6": "t_card_military",
@@ -45,7 +45,7 @@
         "D": "t_door_metal_locked",
         "I": "t_ballistic_glass",
         "M": "t_wall_metal",
-        "|": "t_chainfence_v"
+        "|": "t_chainfence"
       },
       "furniture": { "#": "f_table" },
       "place_monster": [
