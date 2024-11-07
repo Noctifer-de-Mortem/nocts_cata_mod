@@ -34,8 +34,8 @@
         " ": "t_null",
         ",": "t_grass",
         ".": "t_dirt",
-        "|": "t_chainfence_v",
-        "-": "t_chainfence_h",
+        "|": "t_chainfence",
+        "-": "t_chainfence",
         "&": "t_chainfence_posts"
       },
       "place_loot": [
@@ -93,8 +93,8 @@
         ",.,,,,,,,.,,,,.,,,,,,,.,"
       ],
       "terrain": {
-        "|": "t_chainfence_v",
-        "-": "t_chainfence_h",
+        "|": "t_chainfence",
+        "-": "t_chainfence",
         "&": "t_chainfence_posts",
         ",": "t_grass",
         ".": "t_dirt",
@@ -171,7 +171,7 @@
         "C": "t_card_reader_broken",
         "D": [ "t_door_o", "t_door_b", "t_door_frame" ],
         "E": "t_elevator_control_off",
-        "F": "t_chainfence_v",
+        "F": "t_chainfence",
         "L": "t_metal_floor",
         "S": "t_station_disc",
         "T": "t_metal_floor",

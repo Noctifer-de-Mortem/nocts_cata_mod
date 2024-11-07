@@ -36,7 +36,7 @@
         "#": [ "t_shrub", "t_underbrush", "t_grass" ],
         "|": "t_concrete_wall",
         "+": "t_door_c",
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         ".": "t_dirt",
         "6": "t_floor",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
@@ -44,7 +44,7 @@
         "_": "t_floor",
         "c": "t_floor",
         "d": "t_floor",
-        "f": "t_chainfence_v",
+        "f": "t_chainfence",
         "w": "t_floor",
         "x": "t_chaingate_l"
       },
@@ -106,12 +106,12 @@
       "terrain": {
         " ": [ "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "#": [ "t_shrub", "t_underbrush", "t_grass" ],
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         ".": "t_dirt",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
         "_": "t_pavement",
         "e": "t_pavement_y",
-        "f": "t_chainfence_v"
+        "f": "t_chainfence"
       },
       "place_loot": [ { "group": "map_extra_science", "x": 14, "y": 8, "chance": 75 } ],
       "place_fields": [
@@ -168,7 +168,7 @@
         "#": [ "t_shrub" ],
         "+": "t_door_c",
         "=": "t_door_o",
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         ".": "t_dirt",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
         "B": "t_floor",
@@ -183,7 +183,7 @@
         "c": "t_floor",
         "d": "t_floor",
         "e": "t_floor",
-        "f": "t_chainfence_v",
+        "f": "t_chainfence",
         "o": "t_floor",
         "s": "t_floor",
         "t": "t_floor",
@@ -283,7 +283,7 @@
         " ": [ "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "#": [ "t_shrub", "t_underbrush", "t_grass" ],
         "+": "t_door_metal_c",
-        "-": "t_chainfence_h",
+        "-": "t_chainfence",
         ".": "t_dirt",
         "6": "t_metal_floor",
         "1": "t_radio_controls",
@@ -293,7 +293,7 @@
         "C": "t_card_reader_broken",
         "_": "t_grass",
         "c": "t_metal_floor",
-        "f": "t_chainfence_v",
+        "f": "t_chainfence",
         "m": "t_metal_floor",
         "|": "t_wall_metal"
       },
