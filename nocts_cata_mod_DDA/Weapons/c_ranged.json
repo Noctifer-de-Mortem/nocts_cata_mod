@@ -414,7 +414,7 @@
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
-    "ammo_to_fire": 20,
+    "ammo_to_fire": 10,
     "ammo": [ "battery" ],
     "pocket_data": [
       {
@@ -423,7 +423,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "light_minus_battery_cell", "light_minus_disposable_cell", "light_battery_cell", "light_cell_rechargeable" ]
+        "item_restriction": [ "medium_battery_cell" ]
       }
     ],
     "skill": "pistol",
@@ -453,16 +453,16 @@
     "to_hit": -1,
     "ammo_effects": [ "LIGHTNING" ],
     "flags": [ "NON_FOULING", "NEEDS_NO_LUBE" ],
-    "ammo_to_fire": 50,
+    "ammo_to_fire": 20,
     "ammo": [ "battery" ],
     "pocket_data": [
       {
-        "magazine_well": "300 ml",
+        "magazine_well": "400 ml",
         "pocket_type": "MAGAZINE_WELL",
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "medium_battery_cell" ]
+        "item_restriction": [ "heavy_battery_cell" ]
       }
     ],
     "skill": "rifle",
