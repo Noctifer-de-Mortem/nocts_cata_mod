@@ -616,7 +616,7 @@
     "snippet_category": "note_apophis",
     "description": "A scrap of paper.  Something's been printed on it.",
     "material": [ "paper" ],
-    "flags": [ "TRADER_AVOID" "SNIPPET_NEEDS_LITERACY" ],
+    "flags": [ "TRADER_AVOID", "SNIPPET_NEEDS_LITERACY" ],
     "weight": "3 g",
     "volume": "1 ml"
   },
@@ -631,7 +631,7 @@
     "snippet_category": "note_sketchy_cabin",
     "description": "A scrap of paper, hastily folded up.  Something's been scribbled on it.",
     "material": [ "paper" ],
-    "flags": [ "TRADER_AVOID" "SNIPPET_NEEDS_LITERACY" ],
+    "flags": [ "TRADER_AVOID", "SNIPPET_NEEDS_LITERACY" ],
     "weight": "3 g",
     "volume": "1 ml"
   }
