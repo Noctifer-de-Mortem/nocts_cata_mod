@@ -1013,9 +1013,9 @@
     "player_display": false,
     "scent_intensity": 1200,
     "enchantments": [
+      { "melee_damage_bonus": [ { "type": "bash", "add": 4.5 } ] },
       {
         "values": [
-          { "value": "ITEM_DAMAGE_BASH", "add": 4.5 },
           { "value": "STEALTH_MODIFIER", "add": -10 },
           { "value": "FOOTSTEP_NOISE", "multiply": 4.0 }
         ]
