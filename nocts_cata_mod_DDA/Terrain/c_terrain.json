@@ -4,7 +4,7 @@
     "id": "t_thconc_glass_port",
     "name": "concrete wall with glass port",
     "description": "A plain, utilitarian concrete wall, with windows made of incredibly thick glass set in to allow viewing through.  Easily two or more inches thick and only a couple feet tall, breaking your way through this would not be easy.",
-    "symbol": "LINE_OXOX",
+    "symbol": "#",
     "looks_like": "t_reinforced_glass",
     "color": "light_gray",
     "move_cost": 0,
