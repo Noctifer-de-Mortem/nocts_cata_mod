@@ -6,8 +6,8 @@
       "u_has_trait": "PROF_PREPPER_HOLDOUT",
       "yes": {
         "npc_has_var": "c_var_prepper_met",
-        "type": "flag",
-        "context": "dialogue",
+
+
         "value": "yes",
         "yes": "What's up?  Whenever you feel like hitting the road, I'm with you.",
         "no": {
@@ -22,10 +22,10 @@
       "condition": {
         "and": [
           { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
-          { "not": { "npc_has_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" } }
+          { "not": { "npc_has_var": "c_var_prepper_met", "value": "yes" } }
         ]
       },
-      "effect": { "npc_add_var": "c_var_prepper_met", "type": "flag", "context": "dialogue", "value": "yes" },
+      "effect": { "npc_add_var": "c_var_prepper_met", "value": "yes" },
       "opinion": { "trust": 8, "value": 8, "anger": -4, "fear": -4 }
     },
     "responses": [

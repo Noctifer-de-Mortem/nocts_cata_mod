@@ -15,8 +15,8 @@
         "text": "So now what are you going to do?",
         "condition": {
           "and": [
-            { "npc_has_var": "apophis_dead", "type": "dialogue", "context": "router", "value": "yes" },
-            { "u_has_var": "apophis_dead", "type": "dialogue", "context": "router", "value": "yes" }
+            { "npc_has_var": "c_var_apophis_dead", "value": "yes" },
+            { "u_has_var": "c_var_apophis_dead", "value": "yes" }
           ]
         },
         "switch": true,
@@ -24,13 +24,13 @@
       },
       {
         "text": "Anything I can help with?",
-        "condition": { "npc_has_var": "apophis_dead", "type": "dialogue", "context": "router", "value": "yes" },
+        "condition": { "npc_has_var": "c_var_apophis_dead", "value": "yes" },
         "switch": true,
         "topic": "TALK_MSCI_NOWWHAT_NEW"
       },
       {
         "text": "So, what can I help you with?",
-        "condition": { "u_has_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" },
+        "condition": { "u_has_var": "c_var_proven_worthy", "value": "yes" },
         "switch": true,
         "topic": "TALK_MISSION_LIST"
       },
@@ -104,7 +104,7 @@
       {
         "text": "Security breach at a Bio-Weapon lab… that might've been Evelynn actually, not just the creatures that were there.",
         "switch": true,
-        "condition": { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" },
+        "condition": { "u_has_var": "c_searching_for_msci", "value": "yes" },
         "topic": "TALK_MSCI_PROOF_EVY"
       },
       {
@@ -140,7 +140,7 @@
       {
         "text": "We'll see.",
         "topic": "TALK_MSCI",
-        "effect": { "u_add_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" }
+        "effect": { "u_add_var": "c_var_proven_worthy", "value": "yes" }
       }
     ]
   },
@@ -156,7 +156,7 @@
       {
         "text": "Alright then.",
         "topic": "TALK_MSCI",
-        "effect": { "u_add_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" }
+        "effect": { "u_add_var": "c_var_proven_worthy", "value": "yes" }
       }
     ]
   },
@@ -168,7 +168,7 @@
       {
         "text": "We'll see.",
         "topic": "TALK_MSCI",
-        "effect": { "u_add_var": "proven_worthy", "type": "dialogue", "context": "router", "value": "yes" }
+        "effect": { "u_add_var": "c_var_proven_worthy", "value": "yes" }
       }
     ]
   },

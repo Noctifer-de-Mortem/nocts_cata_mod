@@ -14,7 +14,7 @@
         "switch": true,
         "condition": {
           "and": [
-            { "not": { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" } },
+            { "not": { "u_has_var": "c_searching_for_msci", "value": "yes" } },
             { "u_has_mission": "MISSION_LOOT_BIO_LAB" }
           ]
         }
@@ -34,7 +34,7 @@
       {
         "text": "What are you doing here?",
         "topic": "TALK_BHUNTER_ASK_DOING",
-        "condition": { "not": { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" } }
+        "condition": { "not": { "u_has_var": "c_searching_for_msci", "value": "yes" } }
       },
       { "text": "What should we do?", "topic": "TALK_BHUNTER_ASK_DO" },
       { "text": "Anything I can do for you?", "switch": true, "default": true, "topic": "TALK_MISSION_LIST" },
@@ -310,7 +310,7 @@
         "switch": true,
         "condition": {
           "and": [
-            { "not": { "u_has_var": "searching_for_msci", "type": "dialogue", "context": "evelynn", "value": "yes" } },
+            { "not": { "u_has_var": "c_searching_for_msci", "value": "yes" } },
             { "u_has_mission": "MISSION_LOOT_BIO_LAB" }
           ]
         }
@@ -341,8 +341,8 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_has_var": "searching_for_msci",
-      "type": "dialogue",
-      "context": "evelynn",
+
+
       "value": "yes",
       "yes": "Now that you've told me where to look, we should probably get out of this place and get going soon.  Search the area if you need any supplies or gear, but be careful.  Might still be some of the things that attacked us nearby.",
       "no": "I'm trying to reach a hideout built by former scientists who worked on the Bio-Weapon Project.  Rumor has it they live somewhere in the woods.  Maybe you could help me find it…"
