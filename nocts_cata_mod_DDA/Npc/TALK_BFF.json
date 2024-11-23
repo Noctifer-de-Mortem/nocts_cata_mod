@@ -5,10 +5,7 @@
     "dynamic_line": {
       "u_has_trait": "PROF_PREPPER_HOLDOUT",
       "yes": {
-        "npc_has_var": "c_var_prepper_met",
-
-
-        "value": "yes",
+        "compare_string": [ "yes", { "npc_val": "c_var_prepper_met" } ],
         "yes": "What's up?  Whenever you feel like hitting the road, I'm with you.",
         "no": {
           "u_male": true,
@@ -22,7 +19,7 @@
       "condition": {
         "and": [
           { "u_has_trait": "PROF_PREPPER_HOLDOUT" },
-          { "not": { "npc_has_var": "c_var_prepper_met", "value": "yes" } }
+          { "not": { "compare_string": [ "yes", { "npc_val": "c_var_prepper_met" } ] } }
         ]
       },
       "effect": { "npc_add_var": "c_var_prepper_met", "value": "yes" },
