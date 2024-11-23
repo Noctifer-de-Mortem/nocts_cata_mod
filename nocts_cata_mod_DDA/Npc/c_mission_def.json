@@ -8,7 +8,7 @@
     "goal_condition": {
       "or": [
         { "u_has_item": "badge_bio_weapon_evy" },
-        { "u_has_var": "c_searching_for_msci", "value": "yes" }
+        { "compare_string": [ "yes", { "u_val": "c_searching_for_msci" } ] }
       ]
     },
     "difficulty": 6,

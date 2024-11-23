@@ -15,8 +15,8 @@
         "text": "So now what are you going to do?",
         "condition": {
           "and": [
-            { "npc_has_var": "c_var_apophis_dead", "value": "yes" },
-            { "u_has_var": "c_var_apophis_dead", "value": "yes" }
+            { "compare_string": [ "yes", { "npc_val": "c_var_apophis_dead" } ] },
+            { "compare_string": [ "yes", { "u_val": "c_var_apophis_dead" } ] }
           ]
         },
         "switch": true,
@@ -24,13 +24,13 @@
       },
       {
         "text": "Anything I can help with?",
-        "condition": { "npc_has_var": "c_var_apophis_dead", "value": "yes" },
+        "condition": { "compare_string": [ "yes", { "npc_val": "c_var_apophis_dead" } ] },
         "switch": true,
         "topic": "TALK_MSCI_NOWWHAT_NEW"
       },
       {
         "text": "So, what can I help you with?",
-        "condition": { "u_has_var": "c_var_proven_worthy", "value": "yes" },
+        "condition": { "compare_string": [ "yes", { "u_val": "c_var_proven_worthy" } ] },
         "switch": true,
         "topic": "TALK_MISSION_LIST"
       },
@@ -104,7 +104,7 @@
       {
         "text": "Security breach at a Bio-Weapon lab… that might've been Evelynn actually, not just the creatures that were there.",
         "switch": true,
-        "condition": { "u_has_var": "c_searching_for_msci", "value": "yes" },
+        "condition": { "compare_string": [ "yes", { "u_val": "c_searching_for_msci" } ] },
         "topic": "TALK_MSCI_PROOF_EVY"
       },
       {
