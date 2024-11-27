@@ -424,7 +424,7 @@
       [ "stim", 5 ],
       [ "megamap", 2 ],
       [ "boots_stealth", 2 ],
-      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "acs_74_stealth_cloak", 1 ],
       [ "iv_mutagen_super_soldier", 10 ]
     ]
   },

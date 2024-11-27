@@ -106,7 +106,7 @@
       [ "stim", 5 ],
       [ "megamap", 2 ],
       [ "boots_stealth", 2 ],
-      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "acs_74_stealth_cloak", 1 ],
       [ "iv_mutagen_super_soldier", 10 ]
     ]
   },
@@ -344,7 +344,7 @@
       [ "megamap", 2 ],
       [ "stim", 5 ],
       [ "boots_stealth", 2 ],
-      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "acs_74_stealth_cloak", 1 ],
       [ "goggles_nv_clairvoyance", 2 ],
       [ "flesh_knife", 2 ],
       [ "flesh_pistol", 2 ],
@@ -391,7 +391,7 @@
       [ "megamap", 2 ],
       [ "stim", 2 ],
       [ "boots_stealth", 2 ],
-      [ "acs_74_stealth_cloak_on", 2 ],
+      [ "acs_74_stealth_cloak", 2 ],
       [ "goggles_nv_clairvoyance", 2 ],
       [ "blood_m", 1 ],
       [ "blood_p", 1 ],
@@ -1158,7 +1158,7 @@
     "items": [
       [ "megamap", 1 ],
       [ "boots_stealth", 1 ],
-      [ "acs_74_stealth_cloak_on", 1 ],
+      [ "acs_74_stealth_cloak", 1 ],
       [ "goggles_nv_clairvoyance", 1 ],
       [ "cbm_rtg_inductor", 1 ]
     ]
