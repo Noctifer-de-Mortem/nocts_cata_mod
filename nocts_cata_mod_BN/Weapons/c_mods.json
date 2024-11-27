@@ -32,7 +32,7 @@
       "dispersion": 600,
       "range": 2,
       "durability": 7,
-      "reload": 4,
+      "reload": 150,
       "clip_size": 250
     },
     "min_skills": [ [ "weapon", 2 ], [ "launcher", 1 ] ],
