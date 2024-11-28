@@ -23,7 +23,7 @@
         { "group": "lmil_armor_collection", "prob": 5 },
         { "group": "mil_armor_collection", "prob": 5 },
         { "group": "hmil_armor_collection", "prob": 5 },
-        [ "acs_74_stealth_cloak_on", 1 ]
+        [ "acs_74_stealth_cloak", 1 ]
       ]
     }
   },
