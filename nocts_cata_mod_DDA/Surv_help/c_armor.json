@@ -790,11 +790,13 @@
         {
           "has": "WORN",
           "condition": "ACTIVE",
+          "incoming_damage_mod": [
+            { "type": "electric", "multiply": 0.5 }
+          ],
           "values": [
             { "value": "STRENGTH", "add": 2 },
             { "value": "DEXTERITY", "add": 1 },
             { "value": "ATTACK_SPEED", "multiply": -0.25 },
-            { "value": "ARMOR_ELEC", "multiply": 0.5 },
             { "value": "CARRY_WEIGHT", "multiply": 1.5 },
             { "value": "CLIMATE_CONTROL_HEAT", "add": 50 },
             { "value": "CLIMATE_CONTROL_CHILL", "add": 50 }
