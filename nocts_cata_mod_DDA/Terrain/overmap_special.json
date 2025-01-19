@@ -8,7 +8,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 1, 16 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -102,8 +102,8 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "OVERMAP_UNIQUE" ]
+    "occurrences": [ 75, 100 ],
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -122,8 +122,8 @@
     "locations": [ "wilderness", "swamp", "forest", "field" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 100, 100 ],
-    "flags": [ "CLASSIC", "OVERMAP_UNIQUE", "GLOBALLY_UNIQUE" ]
+    "occurrences": [ 75, 100 ],
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -137,8 +137,8 @@
     "locations": [ "wilderness", "swamp", "forest", "field" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 100, 100 ],
-    "flags": [ "CLASSIC", "OVERMAP_UNIQUE", "GLOBALLY_UNIQUE" ]
+    "occurrences": [ 75, 100 ],
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE" ]
   },
   {
     "type": "overmap_special",
