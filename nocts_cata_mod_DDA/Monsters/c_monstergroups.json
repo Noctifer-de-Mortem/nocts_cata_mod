@@ -1,6 +1,6 @@
 [
   {
-    "name": "GROUP_SMALL_STATION",
+    "id": "GROUP_SMALL_STATION",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "name": "GROUP_LARGE_STATION",
+    "id": "GROUP_LARGE_STATION",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "name": "GROUP_LAB",
+    "id": "GROUP_LAB",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "name": "GROUP_MICROLAB",
+    "id": "GROUP_MICROLAB",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "name": "GROUP_CENTRAL_LAB",
+    "id": "GROUP_CENTRAL_LAB",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "GROUP_ZOMBIE",
+    "id": "GROUP_ZOMBIE",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -62,7 +62,7 @@
     ]
   },
   {
-    "name": "GROUP_LAB_SURFACE",
+    "id": "GROUP_LAB_SURFACE",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "name": "GROUP_LAB_SECURITY",
+    "id": "GROUP_LAB_SECURITY",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "name": "GROUP_MAYBE_MIL",
+    "id": "GROUP_MAYBE_MIL",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "name": "GROUP_MIL_BASE",
+    "id": "GROUP_MIL_BASE",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "name": "GROUP_MIL_BASE_CIVILIAN",
+    "id": "GROUP_MIL_BASE_CIVILIAN",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "name": "GROUP_MIL_BASE_HOSPITAL",
+    "id": "GROUP_MIL_BASE_HOSPITAL",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "name": "GROUP_MIL_WEAK",
+    "id": "GROUP_MIL_WEAK",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "name": "GROUP_MIL_STRONG",
+    "id": "GROUP_MIL_STRONG",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "name": "GROUP_HOSPITAL",
+    "id": "GROUP_HOSPITAL",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "name": "GROUP_STEEL_MILL",
+    "id": "GROUP_STEEL_MILL",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -162,21 +162,21 @@
     ]
   },
   {
-    "name": "GROUP_FUNGI",
+    "id": "GROUP_FUNGI",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 168 } ]
   },
   {
-    "name": "GROUP_FUNGI_TOWER",
+    "id": "GROUP_FUNGI_TOWER",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
     "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 168 } ]
   },
   {
-    "name": "GROUP_FUNGI_FLOWERS",
+    "id": "GROUP_FUNGI_FLOWERS",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
@@ -184,7 +184,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_SUPER_SOLDIER_RANDOM",
+    "id": "GROUP_ZOMBIE_SUPER_SOLDIER_RANDOM",
     "//": "Picks an unevolved super soldier at random.",
     "monsters": [
       { "monster": "mon_zombie_bio_dormant_armed", "weight": 400, "cost_multiplier": 0 },
@@ -193,7 +193,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE",
+    "id": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE",
     "//": "Upgrade group for the armed variant of zombie super soldiers.",
     "monsters": [
       { "monster": "mon_zombie_bio_infantry_shotgun", "weight": 200, "cost_multiplier": 25 },
