@@ -1,6 +1,6 @@
 [
   {
-    "name": "GROUP_ZOMBIE_MID",
+    "id": "GROUP_ZOMBIE_MID",
     "type": "monstergroup",
     "//": "This is obsolete in standard Cataclysm but used in PK's Rebalancing for some things.",
     "auto_total": true,

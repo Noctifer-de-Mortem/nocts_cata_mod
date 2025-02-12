@@ -224,7 +224,7 @@
       },
       "furniture": {
         "]": "f_bookcase",
-        "&": "f_arc_furnace",
+        "&": "f_arcfurnace_empty",
         "6": "f_console_broken",
         "B": "f_bed",
         "C": "f_counter",
