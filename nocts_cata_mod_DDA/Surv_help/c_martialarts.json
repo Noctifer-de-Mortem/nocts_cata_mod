@@ -139,6 +139,21 @@
           { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 0.15 },
           { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.15 }
         ]
+      },
+      {
+        "id": "buff_mut_com_onmove2",
+        "name": "Hit and Run",
+        "description": "Get in, hit hard, get back out.\n\nMovement speed increased by 30% of strength, armor penetration increased by 20% of strength.  Enables \"Foe-Tossing Charge\" technique.\nLasts 3 turns, stacks 3 times.",
+        "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 3,
+        "max_stacks": 3,
+        "flat_bonuses": [
+          { "stat": "speed", "scaling-stat": "str", "scale": 0.45 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.2 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 0.2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "str", "scale": 0.2 }
+        ]
       }
     ],
     "onhit_buffs": [
@@ -159,7 +174,14 @@
         ]
       }
     ],
-    "techniques": [ "tec_mut_com_battering_ram", "tec_mut_com_overrun", "tec_mut_com_stampeding_strike", "tec_mut_com_feint" ],
+    "techniques": [
+      "tec_mut_com_battering_ram",
+      "tec_mut_com_foe_tossing_charge",
+      "tec_mut_com_overrun",
+      "tec_mut_com_stampeding_strike",
+      "tec_mut_com_taste_the_ground",
+      "tec_mut_com_feint"
+    ],
     "weapon_category": [ "FLAILS", "MACES", "LONG_SWORDS", "HOOKING_WEAPONRY", "POLEARMS", "GREAT_SWORDS", "GREAT_HAMMERS", "GREAT_AXES" ],
     "weapons": [
       "chainsaw_off",
