@@ -84,6 +84,19 @@
   },
   {
     "type": "technique",
+    "id": "tec_mut_com_foe_tossing_charge",
+    "name": "Foe-Tossing Charge",
+    "messages": [ "You toss %s aside using your momentum", "<npcname>'s tosses %s aside" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 6 } ],
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "req_buffs": [ "buff_mut_com_onmove2" ],
+    "crit_tec": true,
+    "stun_dur": 3,
+    "side_switch": true
+  },
+  {
+    "type": "technique",
     "id": "tec_mut_com_overrun",
     "name": "Overrun",
     "messages": [ "You swiftly slam into and bowl over %s", "<npcname> swiftly slams into and bowls over %s" ],
@@ -100,7 +113,6 @@
     "name": "Stampeding Strike",
     "messages": [ "You bear down on %s with terrible force", "<npcname> bears down on %s with terrible force" ],
     "skill_requirements": [ { "name": "melee", "level": 7 } ],
-    "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_tec": true,
     "downed_target": true,
@@ -114,6 +126,28 @@
       { "stat": "damage", "type": "bash", "scale": 1.15 },
       { "stat": "damage", "type": "cut", "scale": 1.15 },
       { "stat": "damage", "type": "stab", "scale": 1.15 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_mut_com_taste_the_ground",
+    "name": "Taste The Ground",
+    "messages": [ "You heft %s and slam them into the ground", "<npcname> hefts and slams %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 7 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "stunned_target": true,
+    "down_dur": 3,
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.75 },
+      { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 0.75 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "str", "scale": 0.75 }
+    ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 1.25 },
+      { "stat": "damage", "type": "bash", "scale": 1.1 },
+      { "stat": "damage", "type": "cut", "scale": 1.1 },
+      { "stat": "damage", "type": "stab", "scale": 1.1 }
     ]
   },
   {

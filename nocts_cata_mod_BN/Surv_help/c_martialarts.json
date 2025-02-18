@@ -129,7 +129,6 @@
         "name": "Bull Rush",
         "description": "When you get enough momentum going, they're going to feel it.\n\nMovement speed increased by 45% of strength, damage increased by 15% of strength.  Enables \"Battering Ram\" technique.\nLasts 3 turns, stacks 3 times.",
         "skill_requirements": [ { "name": "melee", "level": 4 } ],
-        "unarmed_allowed": true,
         "melee_allowed": true,
         "buff_duration": 3,
         "max_stacks": 3,
@@ -138,6 +137,21 @@
           { "stat": "damage", "type": "bash", "scaling-stat": "str", "scale": 0.15 },
           { "stat": "damage", "type": "cut", "scaling-stat": "str", "scale": 0.15 },
           { "stat": "damage", "type": "stab", "scaling-stat": "str", "scale": 0.15 }
+        ]
+      },
+      {
+        "id": "buff_mut_com_onmove2",
+        "name": "Hit and Run",
+        "description": "Get in, hit hard, get back out.\n\nMovement speed increased by 30% of strength, armor penetration increased by 20% of strength.  Enables \"Foe-Tossing Charge\" technique.\nLasts 3 turns, stacks 3 times.",
+        "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+        "unarmed_allowed": true,
+        "buff_duration": 3,
+        "max_stacks": 3,
+        "flat_bonuses": [
+          { "stat": "speed", "scaling-stat": "str", "scale": 0.45 },
+          { "stat": "arpen", "type": "bash", "scaling-stat": "str", "scale": 0.2 },
+          { "stat": "arpen", "type": "cut", "scaling-stat": "str", "scale": 0.2 },
+          { "stat": "arpen", "type": "stab", "scaling-stat": "str", "scale": 0.2 }
         ]
       }
     ],
@@ -159,7 +173,14 @@
         ]
       }
     ],
-    "techniques": [ "tec_mut_com_battering_ram", "tec_mut_com_overrun", "tec_mut_com_stampeding_strike", "tec_mut_com_feint" ],
+    "techniques": [
+      "tec_mut_com_battering_ram",
+      "tec_mut_com_foe_tossing_charge",
+      "tec_mut_com_overrun",
+      "tec_mut_com_stampeding_strike",
+      "tec_mut_com_taste_the_ground",
+      "tec_mut_com_feint"
+    ],
     "weapon_category": [
       "2H_SWORDS",
       "CLUBS",
@@ -168,7 +189,6 @@
       "FLAILS",
       "1H_HAMMERS",
       "2H_HAMMERS",
-      "1H_AXES",
       "2H_AXES",
       "HOOKED_POLES",
       "PIKES",
