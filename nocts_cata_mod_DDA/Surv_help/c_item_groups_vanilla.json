@@ -356,8 +356,6 @@
         [ "biomap", 1 ],
         [ "dress_skirt", 25 ],
         [ "microskirt", 10 ],
-        [ "fancy_bra", 10 ],
-        [ "fancy_panties", 10 ],
         [ "thong", 5 ]
       ]
     }
@@ -434,22 +432,10 @@
     }
   },
   {
-    "id": "female_underwear_top",
-    "copy-from": "female_underwear_top",
-    "type": "item_group",
-    "extend": { "items": [ [ "fancy_bra", 10 ] ] }
-  },
-  {
     "id": "female_underwear_bottom",
     "copy-from": "female_underwear_bottom",
     "type": "item_group",
-    "extend": { "items": [ [ "fancy_panties", 20 ], [ "thong", 10 ], [ "bikini_bottom_fur", 3 ], [ "bikini_bottom_leather", 3 ] ] }
-  },
-  {
-    "type": "item_group",
-    "id": "male_underwear_bottom",
-    "copy-from": "male_underwear_bottom",
-    "extend": { "items": [ [ "fancy_boxer_shorts", 10 ], [ "fancy_briefs", 10 ], [ "fancy_boxer_briefs", 10 ] ] }
+    "extend": { "items": [ [ "thong", 10 ], [ "bikini_bottom_fur", 3 ], [ "bikini_bottom_leather", 3 ] ] }
   },
   {
     "id": "allclothes",
@@ -459,13 +445,7 @@
       "items": [
         [ "dress_skirt", 25 ],
         [ "microskirt", 10 ],
-        [ "fancy_bra", 10 ],
-        [ "fancy_panties", 10 ],
-        [ "thong", 10 ],
-        { "item": "fancy_briefs", "prob": 5 },
-        { "item": "fancy_boxer_briefs", "prob": 10 },
-        { "item": "fancy_panties", "prob": 10 },
-        { "item": "fancy_house_coat", "prob": 10 }
+        [ "thong", 10 ]
       ]
     }
   },
@@ -492,23 +472,7 @@
         { "item": "bikini_bottom", "prob": 15 },
         { "item": "bikini_bottom_fur", "prob": 5 },
         { "item": "bikini_bottom_leather", "prob": 5 },
-        { "item": "fancy_bra", "prob": 30 },
-        { "item": "fancy_panties", "prob": 30 },
         { "item": "thong", "prob": 20 }
-      ]
-    }
-  },
-  {
-    "id": "underwear_mens",
-    "copy-from": "underwear_mens",
-    "type": "item_group",
-    "//": "mens underwear.",
-    "subtype": "distribution",
-    "extend": {
-      "items": [
-        { "item": "fancy_boxer_briefs", "prob": 10 },
-        { "item": "fancy_boxer_shorts", "prob": 10 },
-        { "item": "fancy_briefs", "prob": 10 }
       ]
     }
   },

@@ -236,8 +236,8 @@
         "items": [ "socks", "dress_shoes", "kevlar", "dress_shirt", "knit_scarf", "mbag", "multitool", "bottle_metal" ],
         "entries": [ { "group": "charged_smart_phone" }, { "group": "charged_matches" } ]
       },
-      "male": [ "fancy_briefs", "pants" ],
-      "female": [ "fancy_bra", "fancy_panties", "dress_skirt" ]
+      "male": [ "briefs", "pants" ],
+      "female": [ "bra", "panties", "dress_skirt" ]
     }
   }
 ]

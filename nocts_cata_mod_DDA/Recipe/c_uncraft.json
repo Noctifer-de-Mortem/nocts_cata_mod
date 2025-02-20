@@ -223,51 +223,6 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
-    "result": "fancy_bra",
-    "type": "uncraft",
-    "time": "30 s",
-    "activity_level": "LIGHT_EXERCISE",
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ], [ [ "wire", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "fancy_panties",
-    "type": "uncraft",
-    "time": "30 s",
-    "activity_level": "LIGHT_EXERCISE",
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "fancy_briefs",
-    "type": "uncraft",
-    "time": "30 s",
-    "activity_level": "LIGHT_EXERCISE",
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "fancy_boxer_shorts",
-    "type": "uncraft",
-    "time": "30 s",
-    "activity_level": "LIGHT_EXERCISE",
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "fancy_boxer_briefs",
-    "type": "uncraft",
-    "time": "30 s",
-    "activity_level": "LIGHT_EXERCISE",
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
     "result": "bikini_bottom_leather",
     "type": "uncraft",
     "time": "30 s",
