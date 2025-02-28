@@ -624,12 +624,6 @@
     "extend": { "items": [ [ "manual_mut_com", 1 ] ] }
   },
   {
-    "id": "trash",
-    "copy-from": "trash",
-    "type": "item_group",
-    "extend": { "items": [ [ "manual_mut_com", 1 ] ] }
-  },
-  {
     "id": "book_martial",
     "copy-from": "book_martial",
     "type": "item_group",
