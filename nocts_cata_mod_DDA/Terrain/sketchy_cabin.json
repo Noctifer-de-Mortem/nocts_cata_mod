@@ -84,7 +84,7 @@
       "place_loot": [
         { "group": "office", "x": [ 7, 9 ], "y": 20, "repeat": [ 2, 4 ] },
         { "group": "sketchy_cabin_guard_weapons", "x": 9, "y": 21, "chance": 90 },
-        { "group": "trash", "x": 15, "y": 13, "repeat": [ 1, 3 ] },
+        { "group": "SUS_trash_floor_light", "x": 15, "y": 13, "repeat": [ 1, 3 ] },
         { "group": "bed", "x": [ 2, 3 ], "y": [ 20, 21 ], "chance": 80, "repeat": 5 },
         { "group": "dresser", "x": 2, "y": 19, "chance": 90, "repeat": 4 },
         { "group": "cannedfood", "x": 2, "y": [ 10, 12 ], "chance": 75, "repeat": 8 },
@@ -267,7 +267,7 @@
         { "group": "oven", "x": 5, "y": 18, "chance": 75, "repeat": 3 },
         { "group": "cannedfood", "x": 6, "y": 18, "chance": 50, "repeat": 5 },
         { "group": "fridge", "x": 3, "y": [ 20, 21 ], "chance": 50, "repeat": 10 },
-        { "group": "trash", "x": 6, "y": 21, "repeat": [ 1, 3 ] },
+        { "group": "SUS_trash_floor_light", "x": 6, "y": 21, "repeat": [ 1, 3 ] },
         { "group": "dojo_manuals", "x": 13, "y": [ 17, 18 ], "chance": 50, "repeat": 4 }
       ],
       "place_zones": [
@@ -362,7 +362,7 @@
       "place_loot": [
         { "item": "note_sketchy_cabin", "x": 4, "y": 13 },
         { "group": "sketchy_cabin_guard_weapons", "x": 5, "y": 13, "chance": 60 },
-        { "group": "trash", "x": 18, "y": 18, "repeat": [ 1, 3 ] },
+        { "group": "SUS_trash_floor_light", "x": 18, "y": 18, "repeat": [ 1, 3 ] },
         { "group": "vending_food_items", "x": 18, "y": 5, "chance": 50, "repeat": 10 },
         { "group": "vending_drink_items", "x": 21, "y": 5, "chance": 50, "repeat": 10 }
       ],
