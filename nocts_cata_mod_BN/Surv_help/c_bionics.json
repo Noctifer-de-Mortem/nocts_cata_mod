@@ -247,7 +247,7 @@
   },
   {
     "id": "bio_cutting_torch_item",
-    "sub": "oxy_torch",
+    "sub": "welder",
     "type": "TOOL",
     "name": { "str": "extended bionic cutting torch" },
     "description": "A bionic plasma cutter, deployed and taking up your hand.  Activate it to destroy metal barriers, as you would a cutting torch.",
