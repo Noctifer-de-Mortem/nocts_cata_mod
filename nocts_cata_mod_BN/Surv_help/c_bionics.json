@@ -257,7 +257,7 @@
     "bashing": 3,
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "USES_BIONIC_POWER" ],
     "max_charges": 1000,
-    "charges_per_use": 6,
+    "charges_per_use": 10,
     "use_action": [ "OXYTORCH" ],
     "qualities": [ [ "WELD", 2 ] ]
   },
