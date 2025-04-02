@@ -814,7 +814,7 @@
         { "group": "surgery", "x": [ 16, 17 ], "y": 14, "chance": 25, "repeat": 5 },
         { "group": "drugs_heal_simple", "x": [ 16, 17 ], "y": 14, "chance": 50, "repeat": 6 },
         { "group": "survivor_weapons", "x": [ 16, 18 ], "y": 16, "chance": 75, "repeat": 3 },
-        { "group": "ammo_reloaded", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
+        { "group": "ammo_shotgun_reloaded", "x": [ 16, 18 ], "y": 16, "chance": 50, "repeat": 6 },
         { "group": "tools_electronics", "x": 20, "y": [ 14, 16 ], "chance": 75, "repeat": 3 },
         { "group": "supplies_electronics", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 6 },
         { "group": "bionics_failed_bio", "x": 20, "y": [ 14, 16 ], "chance": 50, "repeat": 2 },
