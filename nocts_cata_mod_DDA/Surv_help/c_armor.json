@@ -430,8 +430,8 @@
     "id": "lmil_armor",
     "type": "ARMOR",
     "category": "armor",
-    "name": { "str_sp": "light military armor" },
-    "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.  It also has two pouches for various sizes of small and medium magazines.",
+    "name": { "str_sp": "light sentinel armor" },
+    "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.  It also has two adjustable pouches for various sizes of magazines.",
     "weight": "9045 g",
     "volume": "10250 ml",
     "price": "1600 USD",
@@ -445,12 +445,12 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "//": "Designed to be able to hold military atomic cells.",
     "pocket_data": [
       {
         "moves": 40,
         "min_volume": "35 ml",
-        "max_contains_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
         "flag_restriction": [ "MAG_COMPACT" ]
@@ -458,7 +458,7 @@
       {
         "moves": 40,
         "min_volume": "35 ml",
-        "max_contains_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
         "flag_restriction": [ "MAG_COMPACT" ]
@@ -478,8 +478,8 @@
     "id": "mil_armor",
     "type": "ARMOR",
     "category": "armor",
-    "name": { "str_sp": "military armor" },
-    "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.  It also has two pouches for various sizes of small and medium magazines.",
+    "name": { "str_sp": "sentinel armor" },
+    "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.  It also has two adjustable pouches for various sizes of magazines.",
     "weight": "11700 g",
     "volume": "11250 ml",
     "price": "1750 USD",
@@ -493,12 +493,12 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "//": "Designed to be able to hold military light and medium atomic cells.",
+    "//": "Designed to be able to hold military atomic cells.",
     "pocket_data": [
       {
         "moves": 40,
         "min_volume": "35 ml",
-        "max_contains_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
         "flag_restriction": [ "MAG_COMPACT" ]
@@ -506,7 +506,7 @@
       {
         "moves": 40,
         "min_volume": "35 ml",
-        "max_contains_volume": "525 ml",
+        "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
         "flag_restriction": [ "MAG_COMPACT" ]
@@ -526,8 +526,8 @@
     "id": "hmil_armor",
     "type": "ARMOR",
     "category": "armor",
-    "name": { "str_sp": "heavy military armor" },
-    "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.  It also has two pouches for various sizes of medium and large magazines.",
+    "name": { "str_sp": "heavy sentinel armor" },
+    "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.  It also has two adjustable pouches for various sizes of magazines.",
     "weight": "20250 g",
     "volume": "13500 ml",
     "price": "2000 USD",
@@ -541,11 +541,11 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "//": "Designed to be able to hold military medium and heavy atomic cells.",
+    "//": "Designed to be able to hold military atomic cells.",
     "pocket_data": [
       {
         "moves": 40,
-        "min_volume": "525 ml",
+        "min_volume": "35 ml",
         "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,
@@ -553,7 +553,7 @@
       },
       {
         "moves": 40,
-        "min_volume": "525 ml",
+        "min_volume": "35 ml",
         "max_contains_volume": "1500 ml",
         "max_contains_weight": "5 kg",
         "holster": true,

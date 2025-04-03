@@ -780,7 +780,11 @@
     "charges_per_use": 1,
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_infusion", "no_fail": true, "level": 0 }
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject the organic infusion set's contents.",
+      "vitamins": [ [ "mutagen", 450, 550 ] ]
+    }
   },
   {
     "id": "blood_p",
@@ -801,7 +805,12 @@
     "charges_per_use": 1,
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
-    "use_action": { "type": "cast_spell", "spell_id": "c_defusion", "no_fail": true, "level": 0 }
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject the organic diffusion set's contents.",
+      "tools_needed": { "syringe": -1 },
+      "vitamins": [ [ "mutagen_human", 450, 550 ], [ "mutagen", 125 ] ]
+    }
   },
   {
     "id": "ulmap",

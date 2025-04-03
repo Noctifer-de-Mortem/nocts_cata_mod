@@ -18,55 +18,6 @@
     "fun": -10
   },
   {
-    "id": "mutagenic_ampoule",
-    "type": "COMESTIBLE",
-    "name": { "str": "mutagenic hemoampoule" },
-    "description": "A resinous capsule filled with what looks like congealed blood, mixed with mutagenic compounds.  Not as strong as mutagenic serum, but will require a syringe to use.",
-    "price": "1000 USD",
-    "price_postapoc": "50 cent",
-    "comestible_type": "MED",
-    "category": "mutagen",
-    "weight": "250 g",
-    "volume": "100 ml",
-    "symbol": "!",
-    "color": "red",
-    "healthy": -2,
-    "addiction_potential": 6,
-    "addiction_type": "mutagen",
-    "flags": [ "NO_INGEST" ],
-    "use_action": {
-      "type": "consume_drug",
-      "activation_message": "You inject the mutagenic hemoampoule's contents.",
-      "tools_needed": { "syringe": -1 },
-      "vitamins": [ [ "mutagen", 450, 550 ] ]
-    }
-  },
-  {
-    "id": "purified_ampoule",
-    "type": "COMESTIBLE",
-    "name": { "str": "purified hemoampoule" },
-    "description": "A resinous capsule filled with what looks like congealed blood, mixed with stabilizing compounds.  Mimics the effects of purifier, but requires a syringe to use.",
-    "price": "6000 USD",
-    "price_postapoc": "5 USD",
-    "comestible_type": "MED",
-    "category": "mutagen",
-    "weight": "250 g",
-    "volume": "100 ml",
-    "symbol": "!",
-    "color": "red",
-    "healthy": 5,
-    "addiction_potential": 8,
-    "addiction_type": "mutagen",
-    "tool": "syringe",
-    "flags": [ "NO_INGEST" ],
-    "use_action": {
-      "type": "consume_drug",
-      "activation_message": "You inject the purified hemoampoule's contents.",
-      "tools_needed": { "syringe": -1 },
-      "vitamins": [ [ "mutagen_human", 450, 550 ], [ "mutagen", 125 ] ]
-    }
-  },
-  {
     "id": "iv_mutagen_super_soldier",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
