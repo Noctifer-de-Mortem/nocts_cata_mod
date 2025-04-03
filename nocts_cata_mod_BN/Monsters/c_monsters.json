@@ -39,6 +39,7 @@
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
+    "fungalize_into": "mon_fungus_failed_weapon",
     "flags": [
       "REVIVES",
       "SEES",
@@ -97,6 +98,8 @@
     "fear_triggers": [ "FIRE" ],
     "death_drops": "wild_bio_weapom_item",
     "death_function": [ "ACID", "NORMAL" ],
+    "zombify_into": "mon_zombie_failed_weapon",
+    "fungalize_into": "mon_fungus_failed_weapon",
     "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "BASHES", "PUSH_VEH", "PATH_AVOID_DANGER_1" ]
   },
   {
@@ -175,7 +178,8 @@
       "GRABS",
       "BASHES",
       "PATH_AVOID_DANGER_1",
-      "PRIORITIZE_TARGETS"
+      "PRIORITIZE_TARGETS",
+      "NO_FUNG_DMG"
     ]
   },
   {
