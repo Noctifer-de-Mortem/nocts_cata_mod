@@ -135,8 +135,8 @@
     "description": "This is a makeshift mold made from plastic.  It could be shaped and used to craft items made of metal.",
     "price": "10 USD",
     "material": "plastic",
-    "weight": 4,
-    "volume": 15
+    "weight": "4g",
+    "volume": "15ml"
   },
   {
     "id": "encyclopedia_barter",
@@ -152,12 +152,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "speech",
+    "read_skill": "speech",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "c_mutagen_super_soldier",
@@ -206,12 +206,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "mechanics",
+    "read_skill": "mechanics",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_fabrication_advance",
@@ -227,12 +227,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "fabrication",
+    "read_skill": "fabrication",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_archery_advance",
@@ -248,12 +248,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "archery",
+    "read_skill": "archery",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_barter_advance",
@@ -269,12 +269,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "speech",
+    "read_skill": "speech",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_bashing_advance",
@@ -290,12 +290,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "bashing",
+    "read_skill": "bashing",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_computer_advance",
@@ -311,12 +311,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "computer",
+    "read_skill": "computer",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_cooking_advance",
@@ -332,12 +332,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "cooking",
+    "read_skill": "cooking",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_cutting_advance",
@@ -353,12 +353,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "cutting",
+    "read_skill": "cutting",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_dodge_advance",
@@ -374,12 +374,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "dodge",
+    "read_skill": "dodge",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_driving_advance",
@@ -395,12 +395,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "driving",
+    "read_skill": "driving",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_electronics_advance",
@@ -416,12 +416,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "electronics",
+    "read_skill": "electronics",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_firstaid_advance",
@@ -437,12 +437,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "firstaid",
+    "read_skill": "firstaid",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_gun_advance",
@@ -458,12 +458,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "gun",
+    "read_skill": "gun",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_launcher_advance",
@@ -479,12 +479,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "launcher",
+    "read_skill": "launcher",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_melee_advance",
@@ -500,12 +500,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "melee",
+    "read_skill": "melee",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_pistol_advance",
@@ -521,12 +521,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "pistol",
+    "read_skill": "pistol",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_rifle_advance",
@@ -542,12 +542,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "rifle",
+    "read_skill": "rifle",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_shotgun_advance",
@@ -563,12 +563,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "shotgun",
+    "read_skill": "shotgun",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_smg_advance",
@@ -584,12 +584,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "smg",
+    "read_skill": "smg",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_speech_advance",
@@ -605,12 +605,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "speech",
+    "read_skill": "speech",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_stabbing_advance",
@@ -626,12 +626,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "stabbing",
+    "read_skill": "stabbing",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_survival_advance",
@@ -647,12 +647,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "survival",
+    "read_skill": "survival",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_swimming_advance",
@@ -668,12 +668,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "swimming",
+    "read_skill": "swimming",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_tailor_advance",
@@ -689,12 +689,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "tailor",
+    "read_skill": "tailor",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_throw_advance",
@@ -710,12 +710,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "throw",
+    "read_skill": "throw",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_traps_advance",
@@ -731,12 +731,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "traps",
+    "read_skill": "traps",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "encyclopedia_unarmed_advance",
@@ -752,12 +752,12 @@
     "material": [ "paper" ],
     "symbol": "?",
     "color": "blue",
-    "skill": "unarmed",
+    "read_skill": "unarmed",
     "required_level": 0,
     "max_level": 10,
     "intelligence": 12,
     "time": "180 m",
-    "fun": -5
+    "read_fun": -5
   },
   {
     "id": "c_flesh_pistol_regen",
