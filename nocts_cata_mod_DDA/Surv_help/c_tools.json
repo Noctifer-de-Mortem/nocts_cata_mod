@@ -562,7 +562,7 @@
     "material": [ "iron" ],
     "//": "Get a further discount in weight because we're already getting crazy poundage here.",
     "weight": "9800 g",
-    "volume": 14,
+    "volume": "1400 ml",
     "to_hit": 3,
     "melee_damage": { "bash": 16, "cut": 1 },
     "qualities": [ [ "DIG", 3 ], [ "COOK", 1 ], [ "BUTCHER", -70 ] ],

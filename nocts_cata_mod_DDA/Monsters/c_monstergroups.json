@@ -5,8 +5,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 15, "cost_multiplier": 20, "starts": 72 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 20, "cost_multiplier": 20, "starts": 336 }
+      { "monster": "mon_failed_weapon", "weight": 15, "cost_multiplier": 20, "starts": "72 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 20, "cost_multiplier": 20, "starts": "336 hours" }
     ]
   },
   {
@@ -15,8 +15,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 20, "cost_multiplier": 20, "starts": 72 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 336 }
+      { "monster": "mon_failed_weapon", "weight": 20, "cost_multiplier": 20, "starts": "72 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": "336 hours" }
     ]
   },
   {
@@ -25,8 +25,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 2, "cost_multiplier": 25, "starts": 168 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 3, "cost_multiplier": 25, "starts": 720 }
+      { "monster": "mon_failed_weapon", "weight": 2, "cost_multiplier": 25, "starts": "168 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 3, "cost_multiplier": 25, "starts": "72 hours" }
     ]
   },
   {
@@ -35,8 +35,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 4, "cost_multiplier": 25, "starts": 168 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 6, "cost_multiplier": 25, "starts": 720 }
+      { "monster": "mon_failed_weapon", "weight": 4, "cost_multiplier": 25, "starts": "168 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 6, "cost_multiplier": 25, "starts": "72 hours" }
     ]
   },
   {
@@ -45,8 +45,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 4, "cost_multiplier": 25, "starts": 168 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 6, "cost_multiplier": 25, "starts": 720 }
+      { "monster": "mon_failed_weapon", "weight": 4, "cost_multiplier": 25, "starts": "168 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 6, "cost_multiplier": 25, "starts": "72 hours" }
     ]
   },
   {
@@ -55,10 +55,10 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_failed_weapon", "weight": 2, "cost_multiplier": 50, "starts": 72 },
-      { "monster": "mon_zombie_failed_weapon", "weight": 3, "cost_multiplier": 30, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 5, "cost_multiplier": 15, "starts": 336 }
+      { "monster": "mon_failed_weapon", "weight": 2, "cost_multiplier": 50, "starts": "72 hours" },
+      { "monster": "mon_zombie_failed_weapon", "weight": 3, "cost_multiplier": 30, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 5, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -67,8 +67,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": 72 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": 72 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": "72 hours" }
     ]
   },
   {
@@ -77,8 +77,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": 168 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": 168 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": "168 hours" }
     ]
   },
   {
@@ -87,8 +87,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": 72 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": 72 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": "72 hours" }
     ]
   },
   {
@@ -107,8 +107,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": 168 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": 168 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": "168 hours" }
     ]
   },
   {
@@ -117,8 +117,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": 336 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -127,8 +127,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": 336 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": 336 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -147,8 +147,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": 240 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 10, "cost_multiplier": 15, "starts": 240 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 10, "cost_multiplier": 15, "starts": "240 hours" }
     ]
   },
   {
@@ -157,8 +157,8 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 25, "cost_multiplier": 15, "starts": 240 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 25, "cost_multiplier": 15, "starts": 240 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 25, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 25, "cost_multiplier": 15, "starts": "240 hours" }
     ]
   },
   {
@@ -166,21 +166,21 @@
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 168 } ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": "168 hours" } ]
   },
   {
     "id": "GROUP_FUNGI_TOWER",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 168 } ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": "168 hours" } ]
   },
   {
     "id": "GROUP_FUNGI_FLOWERS",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,
-    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": 168 } ]
+    "monsters": [ { "monster": "mon_fungus_failed_weapon", "weight": 25, "cost_multiplier": 20, "starts": "168 hours" } ]
   },
   {
     "type": "monstergroup",
