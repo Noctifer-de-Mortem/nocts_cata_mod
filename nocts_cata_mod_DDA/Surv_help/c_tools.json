@@ -1,7 +1,8 @@
 [
   {
     "id": "solar_flashlight",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ";",
     "color": "blue",
@@ -16,9 +17,9 @@
     "volume": "500 ml",
     "melee_damage": { "bash": 1 },
     "to_hit": 2,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
@@ -31,7 +32,8 @@
   },
   {
     "id": "solar_flashlight_on",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ";",
     "color": "blue",
@@ -46,8 +48,8 @@
     "volume": "500 ml",
     "melee_damage": { "bash": 1 },
     "to_hit": 2,
-    "ammo": [ "battery" ],
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "tool_ammo": "battery",
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "turns_per_charge": 15,
     "revert_to": "solar_flashlight",
@@ -61,7 +63,8 @@
   },
   {
     "id": "wear_solar_flashlight",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "category": "clothing",
     "symbol": ";",
     "color": "blue",
@@ -76,9 +79,9 @@
     "volume": "500 ml",
     "melee_damage": { "bash": 1 },
     "to_hit": 2,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
@@ -100,7 +103,8 @@
   },
   {
     "id": "wear_solar_flashlight_on",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "category": "clothing",
     "symbol": ";",
     "color": "blue",
@@ -115,8 +119,8 @@
     "volume": "500 ml",
     "melee_damage": { "bash": 1 },
     "to_hit": 2,
-    "ammo": [ "battery" ],
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "tool_ammo": "battery",
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "turns_per_charge": 15,
     "revert_to": "wear_solar_flashlight",
@@ -139,7 +143,8 @@
   },
   {
     "id": "solar_crude_firestarter",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ",",
     "color": "light_gray",
@@ -152,15 +157,16 @@
     "flags": [ "RECHARGE", "NO_UNLOAD", "NO_RELOAD", "FIRESTARTER" ],
     "weight": "14 g",
     "volume": "500 ml",
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "charges_per_use": 5,
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": { "type": "firestarter" }
   },
   {
     "id": "solar_torch",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "sub": "torch",
     "symbol": "/",
     "color": "brown",
@@ -174,9 +180,9 @@
     "volume": "1 L",
     "melee_damage": { "bash": 8 },
     "to_hit": 1,
-    "ammo": [ "gasoline" ],
+    "tool_ammo": [ "gasoline" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 25 } } ],
     "use_action": {
       "type": "transform",
@@ -190,7 +196,8 @@
   },
   {
     "id": "solar_torch_lit",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "sub": "torch_lit",
     "symbol": "/",
     "color": "brown",
@@ -204,8 +211,8 @@
     "volume": "1 L",
     "melee_damage": { "bash": 8 },
     "to_hit": 1,
-    "ammo": [ "gasoline" ],
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "tool_ammo": [ "gasoline" ],
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "gasoline": 25 } } ],
     "turns_per_charge": 60,
     "revert_to": "solar_torch",
@@ -223,7 +230,8 @@
   {
     "id": "fr_22",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -239,7 +247,8 @@
   {
     "id": "fr_223",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -255,7 +264,8 @@
   {
     "id": "fr_308",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -271,7 +281,8 @@
   {
     "id": "fr_9mm",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -287,7 +298,8 @@
   {
     "id": "fr_45",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -303,7 +315,8 @@
   {
     "id": "fr_12",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -319,7 +332,8 @@
   {
     "id": "fr_762",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -335,7 +349,8 @@
   {
     "id": "fr_762R",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -351,7 +366,8 @@
   {
     "id": "fr_3006",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -367,7 +383,8 @@
   {
     "id": "fr_50",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -382,7 +399,8 @@
   },
   {
     "id": "elc_bld",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "dark_gray",
     "weapon_category": [ "KNIVES" ],
@@ -397,7 +415,7 @@
     "melee_damage": { "bash": 8, "stab": 6 },
     "to_hit": -1,
     "charges_per_use": 10,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "category": "weapons",
     "use_action": "TAZER",
     "pocket_data": [
@@ -414,7 +432,8 @@
   },
   {
     "id": "elc_blds",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "dark_gray",
     "weapon_category": [ "KNIVES" ],
@@ -430,7 +449,7 @@
     "to_hit": -1,
     "//": "Tazer use action can't really be tweaked to justify power consumption changing, since no dual-tazing.  Plus, battery amounts mean keeping it an even 100 is sanest.",
     "charges_per_use": 10,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "category": "weapons",
     "use_action": "TAZER",
     "pocket_data": [
@@ -447,7 +466,8 @@
   },
   {
     "id": "can_forge",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "light_gray",
     "looks_like": "hobo_stove",
@@ -462,7 +482,7 @@
     "melee_damage": { "bash": 1 },
     "to_hit": -2,
     "charges_per_use": 1,
-    "ammo": [ "charcoal" ],
+    "tool_ammo": [ "charcoal" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "charcoal": 60 } } ],
     "use_action": [
       "HOTPLATE",
@@ -495,7 +515,8 @@
   },
   {
     "id": "molded_hammer",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "light_gray",
     "weapon_category": [ "BATONS" ],
@@ -512,7 +533,8 @@
   },
   {
     "id": "molded_knife",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "light_gray",
     "looks_like": "makeshift_knife",
@@ -529,7 +551,7 @@
     "flags": [ "FRAGILE_MELEE", "SHEATH_KNIFE" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "molded_pot",
     "category": "tools",
     "symbol": ";",
@@ -551,7 +573,8 @@
   },
   {
     "id": "molded_shovel",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": "/",
     "color": "brown",
     "looks_like": "shovel",
@@ -570,7 +593,8 @@
   },
   {
     "id": "molded_axe",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": "/",
     "color": "light_gray",
     "looks_like": "ax",
@@ -587,7 +611,8 @@
     "flags": [ "FRAGILE_MELEE", "SHEATH_AXE" ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "fishing_string",
     "symbol": "/",
     "color": "white",
@@ -599,14 +624,15 @@
     "volume": "250 ml",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "fish_bait": 1 } } ],
     "charges_per_use": 1,
-    "ammo": [ "fish_bait" ],
+    "tool_ammo": [ "fish_bait" ],
     "qualities": [ [ "FISHING_ROD", 1 ] ],
     "to_hit": -1
   },
   {
     "id": "auto_case",
     "category": "spare_parts",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "light_gray",
     "symbol": ",",
     "looks_like": "llink",
@@ -619,7 +645,8 @@
   },
   {
     "id": "survbowstored",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "brown",
     "symbol": "{",
     "name": { "str": "collapsed fighting bow" },
@@ -642,7 +669,7 @@
   {
     "id": "semap",
     "category": "maps",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ";",
     "color": "blue",
     "looks_like": "survivormap",
@@ -668,7 +695,8 @@
   {
     "//": "The hammer multi-tool is a disassembler",
     "id": "hammer_multitool",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "symbol": ";",
     "color": "brown",
     "weapon_category": [ "MACES" ],
@@ -696,7 +724,9 @@
     ]
   },
   {
-    "type": "BOOK",
+    "type": "ITEM",
+    "subtypes": [ "BOOK" ],
+	"category": "manuals",
     "id": "recipe_surv",
     "name": { "str": "Survivor's Cookbook" },
     "description": "A notebook filed with ideas for lots of makeshift gadgets and gizmos.  Once the ideas of mad-man with too much free time, now invaluable knowledge.",
@@ -704,7 +734,7 @@
     "volume": "500 ml",
     "price": "500 USD",
     "price_postapoc": "10 USD",
-    "skill": "fabrication",
+    "read_skill": "fabrication",
     "max_level": 8,
     "required_level": 5,
     "intelligence": 10,
@@ -714,11 +744,12 @@
     "material": [ "paper" ],
     "to_hit": -2,
     "time": "40 m",
-    "fun": -1
+    "read_fun": -1
   },
   {
     "id": "megamap",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "symbol": ";",
     "color": "green",
     "name": { "str": "scout's tool" },
@@ -730,10 +761,10 @@
     "volume": "500 ml",
     "melee_damage": { "bash": 1 },
     "to_hit": -1,
-    "ammo": "battery",
+    "tool_ammo": "battery",
     "charges_per_use": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
-    "relic_data": { "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 250 } } ],
     "flags": [ "BELTED", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_UNLOAD", "NO_RELOAD" ],
     "phase": "solid",
@@ -742,7 +773,8 @@
   },
   {
     "id": "stim",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ">",
     "color": "red",
@@ -755,15 +787,16 @@
     "weight": "150 g",
     "volume": "250 ml",
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
-    "ammo": [ "c_bioampoule_type" ],
+    "tool_ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "c_biostim", "no_fail": true, "level": 0 }
   },
   {
     "id": "blood_m",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ">",
     "color": "red",
@@ -776,9 +809,9 @@
     "weight": "150 g",
     "volume": "750 ml",
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
-    "ammo": [ "c_bioampoule_type" ],
+    "tool_ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": {
       "type": "consume_drug",
@@ -788,7 +821,8 @@
   },
   {
     "id": "blood_p",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT" ],
     "category": "tools",
     "symbol": ">",
     "color": "blue",
@@ -801,9 +835,9 @@
     "weight": "150 g",
     "volume": "750 ml",
     "flags": [ "NO_RELOAD", "NO_UNLOAD" ],
-    "ammo": [ "c_bioampoule_type" ],
+    "tool_ammo": [ "c_bioampoule_type" ],
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "c_bioampoule_type": 1 } } ],
     "use_action": {
       "type": "consume_drug",
@@ -815,7 +849,7 @@
   {
     "id": "ulmap",
     "category": "maps",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ";",
     "color": "blue",
     "looks_like": "survivormap",
@@ -835,7 +869,7 @@
   {
     "id": "mccmap",
     "category": "maps",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ";",
     "color": "blue",
     "looks_like": "survivormap",
@@ -855,7 +889,7 @@
   {
     "id": "biomap",
     "category": "maps",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ";",
     "color": "blue",
     "looks_like": "survivormap",
@@ -874,7 +908,7 @@
   },
   {
     "id": "mil_surp_pack_1",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ")",
     "color": "brown",
     "name": { "str": "mil-surp weapons pack" },
@@ -889,7 +923,7 @@
   },
   {
     "id": "mil_surp_pack_2",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ")",
     "color": "brown",
     "name": { "str": "mil-surp weapons pack" },
@@ -904,7 +938,7 @@
   },
   {
     "id": "mil_surp_pack_3",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ")",
     "color": "brown",
     "name": { "str": "mil-surp weapons pack" },
@@ -919,7 +953,8 @@
   },
   {
     "id": "parawatch",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "paracord survival watch", "str_pl": "paracord survival watches" },
     "description": "A simple wristwatch on a plastic band, wrapped with a paracord bracelet with a thermometer attached.  Tells the time and has an alarm clock feature.",
     "weight": "100 g",
@@ -937,7 +972,8 @@
   },
   {
     "id": "parabracelets",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "paracord bracelet" },
     "description": "A simple bracelet made out of paracord.  Disassemble for some string.",
     "weight": "50 g",
@@ -955,7 +991,7 @@
   },
   {
     "id": "flesh_weapon_kit",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ")",
     "color": "red",
     "name": { "str": "biological weapon conversion kit" },
@@ -978,7 +1014,7 @@
   },
   {
     "id": "omnitech_weapon_ups_kit",
-    "type": "GENERIC",
+    "type": "ITEM",
     "symbol": ")",
     "color": "blue",
     "name": { "str": "Omnitech UPS conversion kit" },
@@ -1002,7 +1038,8 @@
   },
   {
     "id": "cbm_rtg_inductor",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "category": "tools",
     "symbol": ";",
     "color": "light_green",
@@ -1017,9 +1054,9 @@
     "volume": "3 L",
     "melee_damage": { "bash": 4 },
     "warmth": 20,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "charges_per_use": 1,
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 25 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "c_cbm_rtg_induction", "no_fail": true, "level": 0 },
     "armor": [
@@ -1035,7 +1072,8 @@
   },
   {
     "id": "thermal_lance_makeshift",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "makeshift thermal lance" },
     "description": "An improvised welding tool that relies on the pyrophoric nature of steel, plus a supply of oxygen, to create a cutting tool hot enough to melt metal.  It can be used as an improvised and inefficient metalworking tool, or you can activate it to destroy metal barriers.",
     "looks_like": "oxy_torch",
@@ -1057,7 +1095,8 @@
   {
     "id": "molded_crowbar",
     "looks_like": "crowbar",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "weapon_category": [ "MACES" ],
     "name": { "str": "molded crowbar" },
     "description": "This is a hefty prying tool, molded from cast iron.  A bit brittle and heavy to be extensively used as a weapon, but adequate for prying open locked doors.  Not exactly ideal, but it's an improvement over makeshift tools.",
@@ -1075,7 +1114,7 @@
     "flags": [ "BELT_CLIP", "FRAGILE_MELEE" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_claw_broken",
     "symbol": ";",
     "color": "green",
@@ -1091,7 +1130,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 5 ] ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_beam_broken",
     "symbol": ";",
     "color": "green",
@@ -1104,7 +1143,7 @@
     "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_rifle_broken",
     "symbol": ";",
     "color": "green",
@@ -1117,7 +1156,7 @@
     "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_carapace_broken",
     "symbol": ";",
     "color": "green",
@@ -1130,7 +1169,7 @@
     "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_extruder_broken",
     "symbol": ";",
     "color": "green",
@@ -1143,7 +1182,7 @@
     "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_wings_broken",
     "symbol": ";",
     "color": "green",
@@ -1157,7 +1196,8 @@
   },
   {
     "id": "c_mi_go_extruder_salvaged",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARTIFACT"],
     "symbol": "/",
     "color": "green",
     "name": { "str": "salvaged resin extruder" },
@@ -1166,8 +1206,8 @@
     "material": [ "alien_resin", "flesh", "steel" ],
     "weight": "300 g",
     "volume": "250 ml",
-    "ammo": [ "battery" ],
-    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
+    "tool_ammo": "battery",
+    "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "charges_per_use": 25,
     "use_action": [
@@ -1184,7 +1224,8 @@
   {
     "id": "c_mi_go_extruder_salvaged_alt",
     "copy-from": "c_mi_go_extruder_salvaged",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "color": "green",
     "name": { "str": "salvaged resin extruder (alternate mode)", "str_pl": "salvaged resin extruders (alternate mode)" },
     "description": "A strange device made of alien flesh blended with technology.  Three thin spines of synthetic ivory surround some sort of nozzle, its contents steadily regenerating.  It's currently set to apply resin more slowly, letting it be used for repairing salvaged mi-go biotechnlogy.  Activate it to switch back to its normal mode, for creating larger shards of resin for other purposes.",
@@ -1210,7 +1251,8 @@
   },
   {
     "id": "ups_rifle_crank_charge",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str": "survivor's crank rifle (charge mode)", "str_pl": "survivor's crank rifle (charge mode)" },
     "description": "Further building on the developments that went into the UPS rifle, this integrates a hand crank and capacitors to charge a custom-made power cell.  Activate it to recharge a loaded capacitor bank, or to ready it for firing.",
@@ -1224,7 +1266,7 @@
     "volume": "4250 ml",
     "melee_damage": { "bash": 8 },
     "to_hit": -1,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "use_action": [
       "HAND_CRANK",
       {
@@ -1248,7 +1290,7 @@
   },
   {
     "id": "wire_saw_makeshift",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "tools",
     "name": { "str": "makeshift wire saw" },
     "description": "This is a flexible saw made from thin wire and added abrasive, with makeshift handles on either end.  It should suffice for light metal and wood sawing.",

@@ -5,7 +5,8 @@
   },
   {
     "id": "survbowpack",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor's archer backpack" },
     "//": "This adds the quiver function.",
     "description": "A custom-built backpack modified further to be an archer's best friend.  Lots of storage, manageable encumbrance and a built in quiver.",
@@ -28,7 +29,8 @@
   },
   {
     "id": "surv_suit",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str": "survivor's scout suit" },
     "description": "A home-made suit built to live off the land.  Comes with ample storage, fur lining, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection.",
@@ -94,7 +96,8 @@
   },
   {
     "id": "surv_armor_suit",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str": "survivor's armored scout suit" },
     "//": "Harder to repair but more durable.",
@@ -163,7 +166,8 @@
     "id": "armor_lightplate_surv",
     "copy-from": "armor_qt_lightplate",
     "//": "No storage or other amenities, but a modest increase in protection relative to the added encumbrance.",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor plate armor" },
     "description": "A suit of Gothic plate armor modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements.",
     "weight": "12100 g",
@@ -179,7 +183,8 @@
   {
     "id": "cuirass_lightplate_surv",
     "copy-from": "armor_qt_light_chestplate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor cuirass", "str_pl": "survivor cuirasses" },
     "description": "A medieval steel breastplate, modified with kevlar and leather to better protect from the elements.",
     "weight": "4620 g",
@@ -195,7 +200,8 @@
   {
     "id": "armguard_lightplate_surv",
     "copy-from": "armor_qt_lightarmguard",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor steel arm guards", "str_pl": "survivor steel arm guards" },
     "description": "A full assembly of medieval arm protection.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.",
     "weight": "2992 g",
@@ -211,7 +217,8 @@
   {
     "id": "legguard_lightplate_surv",
     "copy-from": "legguard_lightplate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor steel leg guards", "str_pl": "survivor steel leg guards" },
     "description": "A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.",
     "weight": "4488 g",
@@ -227,7 +234,8 @@
   {
     "id": "helmet_plate_surv",
     "copy-from": "helmet_plate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor great helm" },
     "description": "A medieval helmet that has been heavily modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.",
     "weight": "2395 g",
@@ -243,7 +251,8 @@
   {
     "id": "gloves_plate_surv",
     "copy-from": "gloves_plate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "pair of survivor armored gauntlets", "str_pl": "pairs of survivor armored gauntlets" },
     "description": "A heavy set of medieval gauntlets, modified with kevlar reinforcements to increase protection from the elements.",
     "weight": "1080 g",
@@ -259,7 +268,8 @@
   {
     "id": "boots_plate_surv",
     "copy-from": "boots_plate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "pair of survivor armored boots", "str_pl": "pairs of survivor armored boots" },
     "description": "A heavy set of armor plated boots, modified with kevlar to better protect from the elements.",
     "weight": "2080 g",
@@ -273,7 +283,8 @@
   },
   {
     "id": "badge_bio_weapon",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "Bio-Weapon badge" },
     "description": "A round silver medallion that identifies the wearer as a part of the Bio-Weapon project.",
     "weight": "60 g",
@@ -288,7 +299,8 @@
   },
   {
     "id": "badge_bio_weapon_apophis",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "Bio-Weapon Apophis badge" },
     "description": "A round silver medallion that identifies the wearer as a part of the Bio-Weapon project.  This one has the name 'Apophis' inscribed on the front.",
     "weight": "60 g",
@@ -303,7 +315,8 @@
   },
   {
     "id": "badge_bio_weapon_evy",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "RFID access badge" },
     "description": "A round silver medallion with a RFID chip embedded in the front.  The markings seem to identify the wearer as a part of the Bio-Weapon project.",
     "weight": "60 g",
@@ -316,9 +329,10 @@
     "color": "red",
     "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
   },
-  {
+  {  
     "id": "acs_74_stealth_cloak",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "name": { "str": "ACS-74 stealth cloak" },
     "description": "An experimental cloak with a destructive interference system that will create pitch-black darkness around you when powered and worn.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  Activate to turn it on.",
     "weight": "1556 g",
@@ -334,8 +348,10 @@
     "warmth": 15,
     "material_thickness": 1,
     "environmental_protection": 4,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
+	"flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "PADDED" ],
+    "armor": [ { "encumbrance": 15, "coverage": 75, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "head" ] } ],
     "use_action": {
       "type": "transform",
       "msg": "The cloak shimmers and emits an intense light-disrupting field.",
@@ -345,22 +361,25 @@
       "need_charges": 1,
       "need_charges_msg": "The cloak is out of power."
     },
-    "relic_data": {
-      "charge_info": { "recharge_type": "periodic", "time": "1 m", "regenerate_ammo": true },
-      "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "emitter": "emit_shadow_field" } ]
-    },
-    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "PADDED" ],
-    "armor": [ { "encumbrance": 15, "coverage": 75, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "head" ] } ]
+    "charge_info": { "recharge_type": "periodic", "time": "1 m", "regenerate_ammo": true },
+    "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "emitter": "emit_shadow_field" } ]
   },
   {
     "id": "acs_74_stealth_cloak_on",
     "copy-from": "acs_74_stealth_cloak",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "ACS-74 stealth cloak (on)", "str_pl": "ACS-74 stealth cloaks (on)" },
     "description": "An experimental cloak with a destructive interference system, creating pitch-black darkness around you.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  It's currently on, activate to turn it back off.",
-    "turns_per_charge": 1,
+	"turns_per_charge": 1,
     "revert_to": "acs_74_stealth_cloak",
-    "use_action": { "target": "acs_74_stealth_cloak", "msg": "The cloak flickers and powers down.", "type": "transform" }
+    "use_action": {
+	  "ammo_scale": 0,
+      "type": "transform",
+      "menu_text": "Turn off",
+	  "msg": "The cloak flickers and powers down.",
+	  "target": "acs_74_stealth_cloak"
+	}
   },
   {
     "type": "mutation",
@@ -374,7 +393,8 @@
   },
   {
     "id": "boots_stealth",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "category": "armor",
     "name": { "str": "pair of mute boots", "str_pl": "pairs of mute boots" },
     "description": "Experimental reinforced boots that completely silence your steps, but also slow your movement.",
@@ -392,7 +412,7 @@
     "warmth": 25,
     "material_thickness": 3,
     "environmental_protection": 2,
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ] },
+	"passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
     "armor": [ { "encumbrance": 18, "coverage": 100, "covers": [ "foot_l", "foot_r" ] } ]
   },
@@ -408,7 +428,8 @@
   },
   {
     "id": "goggles_nv_clairvoyance",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "name": { "str": "pair of radiogenic goggles", "str_pl": "pairs of radiogenic goggles" },
     "description": "Experimental goggles that use gamma radiation emitters, allowing the user to see through walls and in the dark.  Prolonged use is not recommended due to danger of radiation poisoning.",
     "weight": "158 g",
@@ -422,13 +443,14 @@
     "warmth": 10,
     "material_thickness": 4,
     "environmental_protection": 5,
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_RADIOGENIC_GOGGLES" ] } ] },
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_RADIOGENIC_GOGGLES" ] } ],
     "flags": [ "GNV_EFFECT", "WATERPROOF", "STURDY", "RADIOACTIVE", "LIGHT_25", "PADDED" ],
     "armor": [ { "encumbrance": 30, "coverage": 100, "covers": [ "eyes" ] } ]
   },
   {
     "id": "lmil_armor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "light sentinel armor" },
     "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.  It also has two adjustable pouches for various sizes of magazines.",
@@ -476,7 +498,8 @@
   },
   {
     "id": "mil_armor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "sentinel armor" },
     "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.  It also has two adjustable pouches for various sizes of magazines.",
@@ -524,7 +547,8 @@
   },
   {
     "id": "hmil_armor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "heavy sentinel armor" },
     "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.  It also has two adjustable pouches for various sizes of magazines.",
@@ -572,7 +596,8 @@
   },
   {
     "id": "lmil_helm",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "light military helmet" },
     "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.",
@@ -594,7 +619,8 @@
   },
   {
     "id": "mil_helm",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "military helmet" },
     "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.",
@@ -616,7 +642,8 @@
   },
   {
     "id": "hmil_helm",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "armor",
     "name": { "str_sp": "heavy military helmet" },
     "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.",
@@ -640,7 +667,8 @@
     "id": "bikini_bottom_leather",
     "copy-from": "bikini_bottom",
     "repairs_like": "bikini_bottom",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "leather bikini bottom" },
     "description": "A simple leather bikini bottom.",
     "material": [ "leather" ],
@@ -651,7 +679,8 @@
     "id": "bikini_bottom_fur",
     "copy-from": "bikini_bottom",
     "repairs_like": "bikini_bottom",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "fur bikini bottom" },
     "description": "A simple fur bikini bottom.",
     "material": [ "fur" ],
@@ -662,7 +691,8 @@
     "id": "thong",
     "copy-from": "panties",
     "repairs_like": "panties",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "thong" },
     "description": "Women's underwear that covers a little less than normal in exchange for stares.",
     "warmth": 0,
@@ -672,7 +702,8 @@
     "id": "dress_skirt",
     "copy-from": "skirt",
     "repairs_like": "jeans",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "dress skirt" },
     "description": "A short yet professional looking cotton skirt.  Somewhat easy to move in, but has no pockets.",
     "pocket_data": [  ]
@@ -681,7 +712,8 @@
     "id": "microskirt",
     "copy-from": "skirt",
     "repairs_like": "jeans",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "microskirt" },
     "description": "A skirt that is on the short side.  No pockets but it is comfortable to wear.",
     "pocket_data": [  ],
@@ -700,8 +732,8 @@
   {
     "id": "c_mi_go_carapace_salvaged",
     "looks_like": "rm13_armor",
-    "type": "TOOL_ARMOR",
-    "category": "armor",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "symbol": "[",
     "color": "green",
     "name": { "str": "salvaged carapace armor" },
@@ -713,7 +745,7 @@
     "weight": "20 kg",
     "volume": "25 L",
     "to_hit": -3,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
@@ -724,26 +756,24 @@
       "need_charges": 1,
       "need_charges_msg": "The carapace suit doesn't respond, evidently out of energy."
     },
-    "relic_data": {
-      "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ACTIVE",
-          "incoming_damage_mod": [ { "type": "electric", "multiply": 0.5 } ],
-          "values": [
-            { "value": "STRENGTH", "add": 2 },
-            { "value": "DEXTERITY", "add": 1 },
-            { "value": "ATTACK_SPEED", "multiply": -0.25 },
-            { "value": "CARRY_WEIGHT", "multiply": 1.5 },
-            { "value": "CLIMATE_CONTROL_HEAT", "add": 50 },
-            { "value": "CLIMATE_CONTROL_CHILL", "add": 50 }
-          ],
-          "ench_effects": [ { "effect": "c_mi_go_carapace_stamina", "intensity": 1 } ],
-          "mutations": [ "C_MIGO_HEAT_BONUS" ]
-        }
-      ]
-    },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ACTIVE",
+        "incoming_damage_mod": [ { "type": "electric", "multiply": 0.5 } ],
+        "values": [
+          { "value": "STRENGTH", "add": 2 },
+          { "value": "DEXTERITY", "add": 1 },
+          { "value": "ATTACK_SPEED", "multiply": -0.25 },
+          { "value": "CARRY_WEIGHT", "multiply": 1.5 },
+          { "value": "CLIMATE_CONTROL_HEAT", "add": 50 },
+          { "value": "CLIMATE_CONTROL_CHILL", "add": 50 }
+        ],
+        "ench_effects": [ { "effect": "c_mi_go_carapace_stamina", "intensity": 1 } ],
+        "mutations": [ "C_MIGO_HEAT_BONUS" ]
+      }
+    ],
     "warmth": 10,
     "material_thickness": 4,
     "environmental_protection": 5,
@@ -758,7 +788,8 @@
   {
     "id": "c_mi_go_carapace_salvaged_on",
     "copy-from": "c_mi_go_carapace_salvaged",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "salvaged carapace armor (on)", "str_pl": "salvaged carapace armors (on)" },
     "description": "A second skin of alien sinew and steel support, covered in armor plates made of resin.  Salvaged using pre-cataclysm research into other living weaponry, it's been practically mutilated to fit a human (or mutant) wearer.  Currently active, it enhances strength and dexterity, make your attacks faster, protects the wearer from toxic gas, serves as a rebreather, enhances stamina and carry capacity, and provides some protection from outside temperature.  Recharges in sunlight, being active also gradually fatigues the user and affects healthiness, plus renders them more vulnerable to electric shocks.",
     "turns_per_charge": 150,
@@ -784,7 +815,8 @@
   },
   {
     "id": "c_mi_go_wings_salvaged",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "symbol": "[",
     "color": "green",
     "name": { "str": "set of salvaged exo-wings", "str_pl": "sets of salvaged exo-wings" },
@@ -796,7 +828,7 @@
     "weight": "2 kg",
     "volume": "5 L",
     "to_hit": -3,
-    "ammo": [ "battery" ],
+    "tool_ammo": "battery",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
     "use_action": {
       "type": "transform",
@@ -807,24 +839,23 @@
       "need_charges": 1,
       "need_charges_msg": "The exo-wings don't respond, evidently out of energy."
     },
-    "relic_data": {
-      "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ACTIVE",
-          "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
-          "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
-        }
-      ]
-    },
+    "charge_info": { "recharge_type": "solar_sunny", "time": "1 m", "regenerate_ammo": true },
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ACTIVE",
+        "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
+        "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
+      }
+    ],
     "material_thickness": 2,
     "armor": [ { "encumbrance": 10, "coverage": 40, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
     "id": "c_mi_go_wings_salvaged_on",
     "copy-from": "c_mi_go_wings_salvaged",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "set of salvaged exo-wings (on)", "str_pl": "sets of salvaged exo-wings (on)" },
     "description": "A set of thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  They are currently buzzing with life, greatly speeding up movement and enhancing dodge as well as granting immunity to falling damage, in exchange for increased fatigue gain.",
     "turns_per_charge": 75,
@@ -841,7 +872,8 @@
   {
     "id": "cowboy_hat_surv",
     "copy-from": "cowboy_hat",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "survivor cowboy hat" },
     "description": "A wide-brimmed hat that's been modified with kevlar padding, and bandolier loops sewn onto the hat band.  Perfect for holding a few cartridges somewhere out of the way, its adjustable loops fitting a wide variety of ammunition.",
     "weight": "420 g",
@@ -901,7 +933,8 @@
     "extend": { "effects": [ "STURDY" ] }
   },
   {
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "id": "legrig_surv",
     "name": { "str": "survivor leg rig" },
     "description": "A custom set of low-slung adjustable straps and rings, designed to secure a variety of equipment strapped to the legs.  Its straps can handle a wide range of short blades, firearms, magazines, and most items that would fit on a tool belt.  Activate it to store up to 4 items.",
@@ -980,7 +1013,8 @@
   },
   {
     "id": "c_power_armor_surv",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "category": "clothing",
     "symbol": "[",
     "color": "dark_gray",
@@ -994,7 +1028,7 @@
     "weight": "50 kg",
     "volume": "40 L",
     "to_hit": -3,
-    "ammo": [ "diesel", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8" ],
+    "tool_ammo": [ "diesel", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
@@ -1003,16 +1037,14 @@
         "ammo_restriction": { "diesel": 2000, "lamp_oil": 2000, "crude_lamp_oil": 2000, "motor_oil": 2000, "jp8": 2000 }
       }
     ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ACTIVE",
-          "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "SPEED", "add": 10 }, { "value": "CARRY_WEIGHT", "multiply": 2.0 } ],
-          "mutations": [ "C_MOVE_NOISE" ]
-        }
-      ]
-    },
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ACTIVE",
+        "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "SPEED", "add": 10 }, { "value": "CARRY_WEIGHT", "multiply": 2.0 } ],
+        "mutations": [ "C_MOVE_NOISE" ]
+      }
+    ],
     "charges_per_use": 1,
     "use_action": {
       "type": "fireweapon_off",
@@ -1038,7 +1070,8 @@
     "id": "c_power_armor_surv_on",
     "copy-from": "c_power_armor_surv",
     "repairs_like": "c_power_armor_surv",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "makeshift hydraulic armor (on)", "str_pl": "makeshift hydraulic armors (on)" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
     "extend": { "effects": [ "TRADER_AVOID" ] },
