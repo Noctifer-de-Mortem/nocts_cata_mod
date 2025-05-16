@@ -2,7 +2,8 @@
   {
     "id": "rep_crossbow",
     "copy-from": "rep_crossbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "repeating crossbow" },
     "skill": "rifle",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ]
@@ -11,7 +12,8 @@
     "id": "laser_cannon",
     "//": "Preserved here because DDA removed it and Cata++ makes some use of it.",
     "looks_like": "ar15",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "reload_noise_volume": 10,
     "name": { "str": "handheld laser cannon" },
     "description": "This is a laser cannon stripped from the barrel of a TX-5LR Cerberus laser turret that has been modified to use UPS power for firing.",

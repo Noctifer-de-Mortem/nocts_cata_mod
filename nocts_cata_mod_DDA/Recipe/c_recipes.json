@@ -99,7 +99,7 @@
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 2 ], [ "recipe_surv", 2 ] ],
-    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 2 ], [ "forging_standard", 2 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_chunk_any", 2 ], [ "forging_standard", 2 ] ],
     "tools": [ [ [ "bearing", -1 ], [ "marble", -1 ] ] ]
   },
   {
@@ -1153,7 +1153,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
+    "using": [ [ "steel_chunk_any", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1175,7 +1175,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
-    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
+    "using": [ [ "steel_chunk_any", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1197,7 +1197,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
-    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
+    "using": [ [ "steel_chunk_any", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1219,7 +1219,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
-    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
+    "using": [ [ "steel_chunk_any", 3 ], [ "welding_standard", 15 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1241,7 +1241,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
+    "using": [ [ "steel_chunk_any", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1263,7 +1263,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
+    "using": [ [ "steel_chunk_any", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1285,7 +1285,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
+    "using": [ [ "steel_chunk_any", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1307,7 +1307,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "steel_tiny", 4 ], [ "welding_standard", 20 ] ],
+    "using": [ [ "steel_chunk_any", 4 ], [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1329,7 +1329,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "40 m",
     "book_learn": [ [ "recipe_surv", 5 ], [ "manual_shotgun", 6 ], [ "mag_shotgun", 7 ] ],
-    "using": [ [ "steel_tiny", 5 ], [ "welding_standard", 25 ] ],
+    "using": [ [ "steel_chunk_any", 5 ], [ "welding_standard", 25 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1351,7 +1351,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1373,7 +1373,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1395,7 +1395,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1417,7 +1417,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1439,7 +1439,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1461,7 +1461,7 @@
     "skills_required": [ [ "gun", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 7 ], [ "mag_rifle", 8 ] ],
-    "using": [ [ "steel_tiny", 6 ], [ "welding_standard", 30 ] ],
+    "using": [ [ "steel_chunk_any", 6 ], [ "welding_standard", 30 ] ],
     "qualities": [
       { "id": "HAMMER_FINE", "level": 1 },
       { "id": "SAW_M_FINE", "level": 1 },
@@ -1516,7 +1516,7 @@
     "components": [
       [ [ "stick", 4 ], [ "2x4", 3 ] ],
       [ [ "blade", 2 ], [ "spike", 2 ] ],
-      [ [ "steel_tiny", 1, "LIST" ] ],
+      [ [ "steel_chunk_any", 1, "LIST" ] ],
       [ [ "bone", 3 ], [ "bone_human", 3 ] ],
       [ [ "cordage", 2, "LIST" ], [ "filament", 200, "LIST" ] ]
     ]
@@ -1596,7 +1596,7 @@
     "skills_required": [ "fabrication", 3, "melee", 2 ],
     "time": "30 m",
     "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_mil_augs", 5 ], [ "recipe_augs", 5 ] ],
-    "using": [ [ "welding_standard", 20 ], [ "steel_tiny", 2 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "steel_chunk_any", 2 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "bio_blade", 1 ] ] ]
   },
@@ -1611,7 +1611,7 @@
     "skills_required": [ "fabrication", 3, "melee", 2 ],
     "time": "30 m",
     "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_mil_augs", 5 ], [ "recipe_augs", 5 ] ],
-    "using": [ [ "welding_standard", 20 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "steel_chunk_any", 1 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "bio_claws", 1 ] ] ]
   },
@@ -1703,7 +1703,7 @@
     "skills_required": [ "fabrication", 3, "melee", 2 ],
     "time": "30 m",
     "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_mil_augs", 5 ], [ "recipe_augs", 5 ] ],
-    "using": [ [ "welding_standard", 20 ], [ "steel_tiny", 3 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "steel_chunk_any", 3 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
     "components": [ [ [ "bio_sword", 1 ] ] ]
   },
@@ -2342,7 +2342,7 @@
     "book_learn": [ [ "recipe_surv", 6 ], [ "manual_rifle", 8 ], [ "mag_rifle", 9 ] ],
     "using": [ [ "welding_standard", 50 ] ],
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "pipe", 1 ], [ "steel_tiny", 2, "LIST" ] ], [ [ "spring", 1 ] ], [ [ "plastic_chunk", 3 ] ] ]
+    "components": [ [ [ "pipe", 1 ], [ "steel_chunk_any", 2, "LIST" ] ], [ [ "spring", 1 ] ], [ [ "plastic_chunk", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -2355,7 +2355,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
-    "using": [ [ "steel_tiny", 2 ] ],
+    "using": [ [ "steel_chunk_any", 2 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -2376,7 +2376,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
-    "using": [ [ "steel_tiny", 2 ] ],
+    "using": [ [ "steel_chunk_any", 2 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -2397,7 +2397,7 @@
     "skills_required": [ [ "gun", 3 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_pistol", 6 ], [ "mag_pistol", 7 ] ],
-    "using": [ [ "steel_tiny", 2 ] ],
+    "using": [ [ "steel_chunk_any", 2 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -2420,7 +2420,7 @@
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 2 ], [ "recipe_surv", 2 ] ],
-    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_chunk_any", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "rebar", -1 ], [ "pipe", -1 ] ] ]
   },
   {
@@ -2436,7 +2436,7 @@
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
-    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_chunk_any", 1 ], [ "forging_standard", 4 ] ],
     "tools": [ [ [ "nail", -1 ] ] ]
   },
   {
@@ -2451,7 +2451,7 @@
     "time": "30 h",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ], [ "recipe_surv", 1 ] ],
-    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_tiny", 1 ], [ "forging_standard", 4 ] ],
+    "using": [ [ "c_metal_molding_standard", 1 ], [ "steel_chunk_any", 1 ], [ "forging_standard", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ]
   },
   {
@@ -2618,7 +2618,7 @@
     "skills_required": [ [ "firstaid", 4 ], [ "electronics", 3 ], [ "cooking", 5 ] ],
     "time": "30 m",
     "book_learn": [ [ "evil_invitation", 6 ], [ "recipe_lab_elec", 7 ], [ "recipe_creepy", 7 ], [ "recipe_labchem", 8 ] ],
-    "using": [ [ "c_resin_molding_standard", 2 ], [ "soldering_standard", 20 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "c_resin_molding_standard", 2 ], [ "soldering_standard", 20 ], [ "steel_chunk_any", 1 ] ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "components": [ [ [ "c_mi_go_beam_broken", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "amplifier", 1 ] ], [ [ "cable", 20 ] ] ]
   },
@@ -2633,7 +2633,7 @@
     "skills_required": [ [ "firstaid", 4 ], [ "mechanics", 3 ], [ "cooking", 5 ] ],
     "time": "60 m",
     "book_learn": [ [ "evil_invitation", 6 ], [ "recipe_lab_elec", 7 ], [ "recipe_creepy", 7 ], [ "recipe_labchem", 8 ] ],
-    "using": [ [ "c_resin_molding_standard", 4 ], [ "welding_standard", 40 ], [ "steel_tiny", 4 ] ],
+    "using": [ [ "c_resin_molding_standard", 4 ], [ "welding_standard", 40 ], [ "steel_chunk_any", 4 ] ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "components": [ [ [ "c_mi_go_rifle_broken", 1 ] ], [ [ "metal_tank_little", 1 ] ], [ [ "cu_pipe", 2 ] ], [ [ "pump_complex", 1 ] ] ]
   },
@@ -2672,7 +2672,7 @@
     "skills_required": [ [ "firstaid", 4 ], [ "mechanics", 3 ], [ "cooking", 5 ] ],
     "time": "25 m",
     "book_learn": [ [ "evil_invitation", 4 ], [ "recipe_lab_elec", 5 ], [ "recipe_creepy", 5 ], [ "recipe_labchem", 6 ] ],
-    "using": [ [ "c_resin_molding_standard", 1 ], [ "welding_standard", 10 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "c_resin_molding_standard", 1 ], [ "welding_standard", 10 ], [ "steel_chunk_any", 1 ] ],
     "qualities": [ { "id": "CUT_FINE", "level": 2 } ],
     "components": [ [ [ "c_mi_go_extruder_broken", 1 ] ], [ [ "canister_empty", 1 ] ], [ [ "meat_tainted", 5 ], [ "slime_scrap", 1 ] ] ]
   },
@@ -2844,7 +2844,7 @@
     "time": "1 h 20 m",
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 5 ] ],
-    "using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "sewing_standard", 100 ], [ "steel_chunk_any", 1 ] ],
     "proficiencies": [ { "proficiency": "prof_leatherworking_basic" }, { "proficiency": "prof_leatherworking" } ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "components": [
