@@ -1,0 +1,164 @@
+[
+  {
+    "id": "NC_GLADIATOR_LIGHT_worn",
+    "type": "item_group",
+    "//": "Equipment for the Blue Team.",
+    "subtype": "collection",
+    "entries": [
+      { "distribution": [ { "item": "boxer_shorts", "prob": 50 }, { "item": "loincloth", "prob": 50 } ] },
+      { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "footrags", "prob": 50 } ] },
+      { "distribution": [ { "item": "tank_top", "prob": 50 }, { "item": "chestwrap", "prob": 50 } ] },
+      { "group": "NC_GLADIATOR_LIGHT_torso", "prob": 50, "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_LIGHT_arms", "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_LIGHT_hands", "prob": 75, "damage": [ 0, 2 ] },
+      { "group": "clothing_outdoor_pants" },
+      { "group": "NC_GLADIATOR_LIGHT_legs", "prob": 50, "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_LIGHT_feet", "prob": 50, "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_worn",
+    "type": "item_group",
+    "//": "Equipment for the Red Team.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "chestwrap" },
+      { "group": "NC_GLADIATOR_HEAVY_head", "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_HEAVY_torso", "prob": 50, "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_HEAVY_arms", "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_HEAVY_hands", "prob": 75, "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_HEAVY_legs", "damage": [ 0, 2 ] },
+      { "group": "NC_GLADIATOR_HEAVY_feet", "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_torso",
+    "type": "item_group",
+    "//": "As with historical gladiators, torso is often left vulnerable.",
+    "items": [ [ "tshirt", 35 ], [ "tunic_rag", 30 ], [ "trenchcoat", 25 ], [ "vest_leather", 10 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_arms",
+    "type": "item_group",
+    "items": [ [ "armguard_hard", 30 ], [ "2byarm_guard", 15 ], [ "armguard_paper", 15 ], [ "armguard_larmor", 10 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_hands",
+    "type": "item_group",
+    "//": "Get an item 75% of the time.",
+    "items": [ [ "gloves_work", 20 ], [ "gloves_wraps", 15 ], [ "gauntlets_larmor", 10 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_legs",
+    "type": "item_group",
+    "//": "Blue Team only gets an item half the time.",
+    "items": [ [ "legguard_hard", 20 ], [ "2byshin_guard", 10 ], [ "legguard_paper", 10 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_feet",
+    "type": "item_group",
+    "//": "Blue Team only gets an item half the time.",
+    "items": [ [ "sneakers", 40 ], [ "boots", 30 ], [ "boots_larmor", 10 ], [ "motorbike_boots", 5 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_head",
+    "type": "item_group",
+    "//": "Helms for Red Team.",
+    "items": [
+      [ "helmet_chitin", 15 ],
+      [ "helmet_acidchitin", 10 ],
+      [ "pot_helmet", 25 ],
+      [ "helmet_football", 15 ],
+      [ "helmet_motor", 15 ],
+      [ "firehelmet", 10 ],
+      [ "helmet_scrap", 10 ],
+      [ "depowered_helmet", 1 ]
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_torso",
+    "type": "item_group",
+    "//": "As with historical gladiators, torso is often left vulnerable.  25% odds of actual armor for heavies.",
+    "items": [
+      [ "trenchcoat", 10 ],
+      [ "tunic_rag", 25 ],
+      [ "vest_leather", 10 ],
+      [ "bookplate", 5 ],
+      [ "vest_leather_mod", 5 ],
+      [ "football_armor", 5 ],
+      [ "motorbike_armor", 5 ],
+      [ "cuirass_scrap", 5 ]
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_arms",
+    "type": "item_group",
+    "items": [
+      [ "armguard_hard", 20 ],
+      [ "2byarm_guard", 15 ],
+      [ "armguard_acidchitin", 10 ],
+      [ "armguard_chitin", 20 ],
+      [ "armguard_scrap", 10 ]
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_hands",
+    "type": "item_group",
+    "//": "Get an item 75% of the time.",
+    "items": [ [ "gauntlets_acidchitin", 10 ], [ "gauntlets_chitin", 20 ], [ "gloves_fingerless_mod", 15 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_legs",
+    "type": "item_group",
+    "items": [ [ "legguard_hard", 10 ], [ "2byshin_guard", 10 ], [ "armguard_scrap", 10 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_feet",
+    "type": "item_group",
+    "items": [ [ "boots_acidchitin", 10 ], [ "boots_chitin", 30 ], [ "boots_steel", 30 ], [ "motorbike_boots", 25 ] ]
+  },
+  {
+    "id": "NC_GLADIATOR_LIGHT_weapon",
+    "type": "item_group",
+    "//": "Focuses on spears, plus swords and unarmed weapons.",
+    "items": [
+      { "item": "pitchfork", "prob": 30, "damage": [ 0, 2 ] },
+      { "item": "spear_knife", "prob": 25, "damage": [ 0, 2 ] },
+      { "item": "spear_forked", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "spear_rebar", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "spear_pipe", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "spear_survivor", "prob": 5, "damage": [ 0, 2 ] },
+      { "item": "machete", "prob": 30, "damage": [ 0, 2 ] },
+      { "item": "makeshift_machete", "prob": 25, "damage": [ 0, 2 ] },
+      { "item": "sword_crude", "prob": 20, "damage": [ 0, 2 ] },
+      { "item": "glass_macuahuitl", "prob": 15, "damage": [ 0, 2 ] },
+      { "item": "survivor_machete", "prob": 5, "damage": [ 0, 2 ] },
+      { "item": "greatsword_makeshift", "prob": 5, "damage": [ 0, 2 ] },
+      { "item": "unbio_sword_weapon", "prob": 1, "damage": [ 0, 2 ] },
+      { "item": "knuckle_brass", "prob": 15, "damage": [ 0, 2 ] },
+      { "item": "knuckle_nail", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "knuckle_steel", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "knuckle_katar", "prob": 5, "damage": [ 0, 2 ] }
+    ]
+  },
+  {
+    "id": "NC_GLADIATOR_HEAVY_weapon",
+    "type": "item_group",
+    "//": "Focuses on swords with some unarmed weapons.",
+    "items": [
+      { "item": "machete", "prob": 30, "damage": [ 0, 2 ] },
+      { "item": "makeshift_machete", "prob": 25, "damage": [ 0, 2 ] },
+      { "item": "sword_crude", "prob": 20, "damage": [ 0, 2 ] },
+      { "item": "glass_macuahuitl", "prob": 15, "damage": [ 0, 2 ] },
+      { "item": "survivor_machete", "prob": 5, "damage": [ 0, 2 ] },
+      { "item": "greatsword_makeshift", "prob": 5, "damage": [ 0, 2 ] },
+      { "item": "unbio_sword_weapon", "prob": 1, "damage": [ 0, 2 ] },
+      { "item": "knuckle_brass", "prob": 15, "damage": [ 0, 2 ] },
+      { "item": "knuckle_nail", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "knuckle_steel", "prob": 10, "damage": [ 0, 2 ] },
+      { "item": "knuckle_katar", "prob": 5, "damage": [ 0, 2 ] }
+    ]
+  }
+]
