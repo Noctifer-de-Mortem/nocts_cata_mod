@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "gas_slime_scrap",
     "category": "other",
     "name": { "str": "gasoline synthesizing blob glob" },
@@ -20,7 +21,8 @@
   {
     "id": "iv_mutagen_super_soldier",
     "copy-from": "iv_mutagen_flavor",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "name": { "str_sp": "nano-mutagenic serum" },
     "description": "A experimental, super-concentrated cocktail of mutagen and nanomachines.  Vanishingly rare and potentially quite potent in effect.  You need a syringe to inject it… if you really want to?",
     "price": "20000 USD",

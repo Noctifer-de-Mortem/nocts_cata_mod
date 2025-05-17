@@ -1,7 +1,8 @@
 [
   {
     "id": "aux_flamer_diesel",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUN", "GUNMOD" ],
     "name": { "str": "survivor's auxiliary flamethrower" },
     "description": "A miniature, custom-built flamethrower that can be attached to all sorts of weapons.  It can use a wide range of fuels and is relatively fuel-efficient.  It is less effective than a proper flamethrower however, and pressurizing the integral tank takes time.",
     "weight": "1820 g",
@@ -14,17 +15,15 @@
     "color": "light_red",
     "location": "underbarrel",
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
-    "gun_data": {
-      "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8", "avgas" ],
-      "skill": "launcher",
-      "ranged_damage": { "damage_type": "heat", "amount": -1 },
-      "dispersion": 600,
-      "range": 2,
-      "durability": 7,
-      "reload": 150,
-      "clip_size": 250,
-      "ammo_to_fire": 50
-    },
+    "ammo": [ "diesel", "gasoline", "flammable", "lamp_oil", "crude_lamp_oil", "motor_oil", "jp8", "avgas" ],
+    "skill": "launcher",
+    "ranged_damage": { "damage_type": "heat", "amount": -1 },
+    "dispersion": 600,
+    "range": 2,
+    "durability": 7,
+    "reload": 150,
+    "clip_size": 250,
+    "ammo_to_fire": 50,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
@@ -47,7 +46,8 @@
     "flags": [ "STR_RELOAD", "PUMP_RAIL_COMPATIBLE", "NON_FOULING" ]
   },
   {
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUN", "GUNMOD" ],
     "//": "Stats are overall a hybrid of all the pistols you can use to craft it, with 10% higher dispersion (rounded up) and increased reload time.",
     "id": "22aux",
     "name": { "str": "survivor's auxiliary .22 pistol" },
@@ -64,15 +64,13 @@
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "melee_damage": { "bash": 9 },
-    "gun_data": {
-      "skill": "pistol",
-      "ammo": "22",
-      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
-      "dispersion": 530,
-      "min_cycle_recoil": 39,
-      "durability": 6,
-      "reload": 200
-    },
+    "skill": "pistol",
+    "ammo": "22",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 530,
+    "min_cycle_recoil": 39,
+    "durability": 6,
+    "reload": 200,
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
     "install_time": "20 m",
     "pocket_data": [
@@ -87,7 +85,8 @@
     ]
   },
   {
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUN", "GUNMOD" ],
     "id": "9mmaux",
     "name": { "str": "survivor's auxiliary 9mm pistol" },
     "location": "underbarrel",
@@ -103,15 +102,13 @@
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "melee_damage": { "bash": 8 },
-    "gun_data": {
-      "skill": "pistol",
-      "ammo": "9mm",
-      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
-      "dispersion": 530,
-      "min_cycle_recoil": 450,
-      "durability": 5,
-      "reload": 200
-    },
+    "skill": "pistol",
+    "ammo": "9mm",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 530,
+    "min_cycle_recoil": 450,
+    "durability": 5,
+    "reload": 200,
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
     "install_time": "20 m",
     "pocket_data": [
@@ -126,7 +123,8 @@
     ]
   },
   {
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUN", "GUNMOD" ],
     "id": "45aux",
     "name": { "str": "survivor's auxiliary .45 pistol" },
     "location": "underbarrel",
@@ -142,15 +140,13 @@
     "material": [ "steel", "plastic" ],
     "mod_targets": [ "rifle", "shotgun", "smg", "crossbow", "launcher" ],
     "melee_damage": { "bash": 8 },
-    "gun_data": {
-      "skill": "pistol",
-      "ammo": "45",
-      "ranged_damage": { "damage_type": "bullet", "amount": -1 },
-      "dispersion": 530,
-      "min_cycle_recoil": 540,
-      "durability": 6,
-      "reload": 200
-    },
+    "skill": "pistol",
+    "ammo": "45",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 530,
+    "min_cycle_recoil": 540,
+    "durability": 6,
+    "reload": 200,
     "min_skills": [ [ "weapon", 2 ], [ "pistol", 1 ] ],
     "install_time": "20 m",
     "pocket_data": [
@@ -165,7 +161,8 @@
     ]
   },
   {
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "id": "surv_laser_sight",
     "name": { "str": "survivor's laser sight" },
     "location": "sights",
@@ -188,7 +185,8 @@
     "flags": [ "DISABLE_SIGHTS" ]
   },
   {
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "id": "lmg_handle",
     "name": { "str": "survivor's LMG recoil handle" },
     "location": "grip",
@@ -209,7 +207,8 @@
   },
   {
     "id": "shot_crafted_suppressor",
-    "type": "GUNMOD",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
     "name": { "str": "makeshift shotgun suppressor" },
     "description": "A homemade suppressor made from a pipe and improvised baffles.  It's a lot more complex than a suppressor for a pistol or rifle, and will deteriorate quickly with use.  This suppressor is large and, when attached, will interfere with your ability to aim down the base sights of the gun.",
     "weight": "920 g",

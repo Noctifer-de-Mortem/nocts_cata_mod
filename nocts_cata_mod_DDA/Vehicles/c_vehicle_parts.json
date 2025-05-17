@@ -1,6 +1,6 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "surv_station",
     "//": "Actual item",
     "name": "survivor's station",

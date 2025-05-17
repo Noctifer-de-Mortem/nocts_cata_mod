@@ -1,7 +1,8 @@
 [
   {
-    "type": "TOOL",
     "id": "unbio_bladed_weapon",
+	"type": "ITEM",
+	"subtypes": [ "GUNMOD" ],
     "name": { "str": "repurposed monomolecular knife" },
     "category": "weapons",
     "weapon_category": [ "KNIVES", "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
@@ -20,15 +21,14 @@
     "to_hit": 2,
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 22 ] ],
-    "gunmod_data": {
-      "location": "underbarrel",
-      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
-      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
-      "install_time": "20 m"
-    }
+    "location": "underbarrel",
+    "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+    "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
+    "install_time": "20 m"
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtypes": [ "GUNMOD" ],
     "id": "unbio_sword_weapon",
     "name": { "str": "repurposed monomolecular sword" },
     "category": "weapons",
@@ -48,15 +48,13 @@
     "to_hit": 2,
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_SWORD" ],
     "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 20 ] ],
-    "gunmod_data": {
-      "location": "underbarrel",
-      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
-      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
-      "install_time": "20 m"
-    }
+    "location": "underbarrel",
+    "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+    "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
+    "install_time": "20 m"
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
     "id": "unbio_claws_weapon",
     "category": "weapons",
     "weapon_category": [ "CLAWS", "BIONIC_WEAPONRY" ],
@@ -76,7 +74,8 @@
     "qualities": [ [ "CUT", 2 ], [ "BUTCHER", 12 ] ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtypes": [ "ARTIFACT" ],
     "id": "flesh_knife",
     "category": "weapons",
     "weapon_category": [ "KNIVES", "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
@@ -96,26 +95,25 @@
     "to_hit": 3,
     "flags": [ "UNBREAKABLE_MELEE", "MAGIC_FOCUS", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ],
-          "hit_you_effect": [
-            {
-              "id": "c_lifedrain_1",
-              "once_in": 10,
-              "message": "A strange mist covers %2$s in the wake of your swing.",
-              "npc_message": "A strange mist covers %2$s as %1$s swings at them."
-            }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "mutations": [ "SCHIZOPHRENIC", "ROT1", "PRED1" ],
+        "hit_you_effect": [
+          {
+            "id": "c_lifedrain_1",
+            "once_in": 10,
+            "message": "A strange mist covers %2$s in the wake of your swing.",
+            "npc_message": "A strange mist covers %2$s as %1$s swings at them."
+          }
+        ]
+      }
+    ]
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+	"subtypes": [ "ARTIFACT" ],
     "id": "flesh_blade",
     "category": "weapons",
     "name": { "str": "biological sword" },
@@ -135,39 +133,37 @@
     "to_hit": 2,
     "flags": [ "UNBREAKABLE_MELEE", "MAGIC_FOCUS", "SHEATH_SWORD" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "STRENGTH", "add": 2 },
-            { "value": "DEXTERITY", "add": 2 },
-            { "value": "INTELLIGENCE", "add": -2 },
-            { "value": "PERCEPTION", "add": -2 },
-            { "value": "SPEED", "add": 20 }
-          ],
-          "mutations": [ "SCHIZOPHRENIC", "ROT3", "KILLER", "PRED2", "HUNGER2", "CHAOTIC" ],
-          "hit_you_effect": [
-            {
-              "id": "c_lifedrain_1",
-              "once_in": 3,
-              "message": "A strange mist covers %2$s in the wake of your swing.",
-              "npc_message": "A strange mist covers %2$s as %1$s swings at them."
-            },
-            {
-              "id": "c_flesh_hit_effect",
-              "once_in": 3,
-              "message": "A surge of energy courses from your weapon, empowering you further!",
-              "npc_message": "A jolt of strange energy envelops %1$s!"
-            }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WIELD",
+        "condition": "ALWAYS",
+        "values": [
+          { "value": "STRENGTH", "add": 2 },
+          { "value": "DEXTERITY", "add": 2 },
+          { "value": "INTELLIGENCE", "add": -2 },
+          { "value": "PERCEPTION", "add": -2 },
+          { "value": "SPEED", "add": 20 }
+        ],
+        "mutations": [ "SCHIZOPHRENIC", "ROT3", "KILLER", "PRED2", "HUNGER2", "CHAOTIC" ],
+        "hit_you_effect": [
+          {
+            "id": "c_lifedrain_1",
+            "once_in": 3,
+            "message": "A strange mist covers %2$s in the wake of your swing.",
+            "npc_message": "A strange mist covers %2$s as %1$s swings at them."
+          },
+          {
+            "id": "c_flesh_hit_effect",
+            "once_in": 3,
+            "message": "A surge of energy courses from your weapon, empowering you further!",
+            "npc_message": "A jolt of strange energy envelops %1$s!"
+          }
+        ]
+      }
+    ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "c_mi_go_claw_salvaged",
     "looks_like": "unbio_blade_weapon",
     "symbol": ";",
@@ -189,7 +185,7 @@
   {
     "id": "greatsword_makeshift",
     "looks_like": "zweihander",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "weapons",
     "weapon_category": [ "MEDIEVAL_SWORDS", "GREAT_SWORDS" ],
     "name": { "str": "makeshift greatsword" },

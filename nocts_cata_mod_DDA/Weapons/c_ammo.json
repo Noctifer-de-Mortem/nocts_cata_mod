@@ -2,7 +2,8 @@
   {
     "id": "flintlock_ammo_mine",
     "copy-from": "flintlock_ammo",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str": "paper Minie ball cartridge" },
     "//": "meant as a companion to the Survivor's Flintlock Sniper.",
     "description": "A paper cartridge containing black powder and a Minie ball.  A paper enclosed version of the historic projectile of the USA Civil war.  The Minie ball is still as deadly and accurate as ever.",
@@ -15,7 +16,8 @@
   },
   {
     "id": "c_hydrogen_gas",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str_sp": "hydrogen gas" },
     "category": "chems",
     "description": "A light, flammable gas compressed for use as fuel.  Quite energy dense, but also requiring a lot of energy to produce, even moreso without pre-cataclysm industry.",
@@ -37,7 +39,8 @@
     "flags": [ "NO_DROP", "IRREMOVABLE" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "c_bioampoule",
     "category": "other",
     "name": { "str": "bio-ampoule" },
@@ -49,7 +52,8 @@
     "ammo_type": "c_bioampoule_type"
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "c_alien_resin_bullet",
     "price_postapoc": "20 cent",
     "name": { "str": "resin bullet" },
@@ -67,7 +71,8 @@
     "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_10" ]
   },
   {
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "id": "c_alien_resin_bullet_makeshift",
     "copy-from": "c_alien_resin_bullet",
     "name": { "str": "molded projector bullet" },
@@ -82,7 +87,8 @@
   {
     "id": "36navy_makeshift_magnum",
     "copy-from": "36navy",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str": ".36 paper overpressure cartridge" },
     "description": "A paper cartridge containing an increased measure of any available powder, and a .36 projectile for the Colt M1861 Navy.  A bit more powerful but less accurate, and potentially unreliable.",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 1.25 }, "range": 1.1, "dispersion": 1.5, "recoil": 2.0 },
@@ -91,7 +97,8 @@
   {
     "id": "44army_makeshift_magnum",
     "copy-from": "44army",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str": ".44 paper overpressure cartridge" },
     "description": "A paper cartridge containing an increased measure of any available powder, and a .44 projectile for the Colt M1860 Army.  A bit more powerful but less accurate, and potentially unreliable.",
     "proportional": { "damage": { "damage_type": "bullet", "amount": 1.25 }, "range": 1.1, "dispersion": 1.5, "recoil": 2.0 },
