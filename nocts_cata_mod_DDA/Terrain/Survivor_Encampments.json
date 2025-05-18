@@ -459,7 +459,7 @@
         "b": { "items": { "item": "mansion_bookcase", "chance": 100 } }
       },
       "place_loot": [
-        { "group": "oven", "x": [ 19, 20 ], "y": 8, "chance": 90, "repeat": 2 },
+        { "group": "SUS_oven", "x": [ 19, 20 ], "y": 8, "chance": 90, "repeat": 2 },
         { "group": "power_tools", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "supplies_reagents_lab", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
