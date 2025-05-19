@@ -85,9 +85,9 @@
       "place_toilets": [ { "x": 19, "y": 19 } ],
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 75 } },
-        "F": { "items": [ { "item": "fridge", "chance": 75 }, { "item": "fridgesnacks", "chance": 75 } ] },
+        "F": { "items": [ { "item": "SUS_fridge", "chance": 75 }, { "item": "SUS_fridge_snacks", "chance": 75 } ] },
         "b": { "items": { "item": "mansion_bookcase", "chance": 100 } },
-        "o": { "items": { "item": "oven", "chance": 50 } },
+        "o": { "items": { "item": "SUS_oven", "chance": 50 } },
         "t": { "items": { "item": "kitchen", "chance": 25 } },
         "d": { "items": { "item": "dresser", "chance": 90 } },
         "n": {
@@ -273,7 +273,7 @@
             { "item": "survival_armor", "chance": 50 }
           ]
         },
-        "F": { "items": [ { "item": "fridge", "chance": 75 }, { "item": "fridgesnacks", "chance": 75 } ] },
+        "F": { "items": [ { "item": "SUS_fridge", "chance": 75 }, { "item": "SUS_fridge_snacks", "chance": 75 } ] },
         "R": { "items": { "item": "gas_charging_rack", "chance": 75 } },
         "W": { "items": [ { "item": "energy_weapon_armory", "chance": 75 }, { "item": "energy_weapon_armory", "chance": 50 } ] },
         "b": { "items": { "item": "mansion_bookcase", "chance": 100 } },
@@ -284,7 +284,7 @@
             { "item": "bionic_power_storage_mil", "chance": 50 }
           ]
         },
-        "o": { "items": { "item": "oven", "chance": 50 } },
+        "o": { "items": { "item": "SUS_oven", "chance": 50 } },
         "n": {
           "items": [
             { "item": "cannedfood", "chance": 50 },
@@ -459,7 +459,7 @@
         "b": { "items": { "item": "mansion_bookcase", "chance": 100 } }
       },
       "place_loot": [
-        { "group": "oven", "x": [ 19, 20 ], "y": 8, "chance": 90, "repeat": 2 },
+        { "group": "SUS_oven", "x": [ 19, 20 ], "y": 8, "chance": 90, "repeat": 2 },
         { "group": "power_tools", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "supplies_reagents_lab", "x": [ 17, 19 ], "y": 10, "chance": 75, "repeat": 3 },
         { "group": "tools_gunsmith", "x": [ 16, 18 ], "y": 14, "chance": 75, "repeat": 3 },
@@ -613,7 +613,7 @@
       "mapping": {
         "~": { "item": [ { "item": "ash", "chance": 30, "amount": [ 25, 50 ] }, { "item": "bone_human", "chance": 10 } ] },
         "B": { "items": { "item": "bed", "chance": 75 } },
-        "C": { "items": [ { "item": "oven", "chance": 50 } ] },
+        "C": { "items": [ { "item": "SUS_oven", "chance": 50 } ] },
         "D": {
           "items": [
             { "item": "dresser", "chance": 90 },
@@ -788,7 +788,7 @@
       "place_toilets": [ { "x": 16, "y": 20 }, { "x": 18, "y": 20 }, { "x": 20, "y": 20 } ],
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 75 } },
-        "C": { "items": [ { "item": "oven", "chance": 90 } ] },
+        "C": { "items": [ { "item": "SUS_oven", "chance": 90 } ] },
         "D": {
           "items": [
             { "item": "dresser", "chance": 90 },
