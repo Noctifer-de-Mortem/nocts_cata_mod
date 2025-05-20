@@ -655,6 +655,7 @@
       [ "SAW_M", 1 ],
       [ "WRENCH", 1 ],
       [ "PULL", 1 ],
+      [ "PULL_FINE", 1 ],
       [ "SCREW", 1 ],
       [ "SCREW_FINE", 1 ],
       [ "BUTCHER", 8 ],
