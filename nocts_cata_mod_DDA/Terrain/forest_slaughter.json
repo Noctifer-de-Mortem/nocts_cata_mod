@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "forest_slaghter" ],
     "weight": 1000,
     "object": {

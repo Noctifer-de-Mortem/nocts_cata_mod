@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "makeshift_command_center_1" ],
     "object": {
       "rows": [
@@ -36,7 +35,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "makeshift_command_center_2" ],
     "object": {
       "rows": [
@@ -106,7 +104,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "makeshift_command_center_b" ],
     "object": {
       "rows": [
@@ -222,7 +219,7 @@
         { "item": "surgery", "x": 22, "y": [ 18, 20 ], "chance": 75, "repeat": 7 },
         { "item": "sketchy_cabin_weapons", "x": 20, "y": 14, "chance": 50, "repeat": 10 }
       ],
-      "add": [
+      "place_item": [
         { "item": "ulmap", "x": 22, "y": 20 },
         { "item": "recipe_surv", "x": 10, "y": 6 },
         { "item": "broken_manhack", "x": 1, "y": 12 },

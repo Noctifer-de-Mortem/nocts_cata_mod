@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_1" ],
     "weight": 1000,
     "object": {
@@ -104,7 +103,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_2" ],
     "weight": 1000,
     "object": {
@@ -162,7 +160,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_b1" ],
     "weight": 1000,
     "object": {
@@ -285,7 +282,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_b2" ],
     "weight": 1000,
     "object": {
@@ -381,7 +377,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_1_roof" ],
     "weight": 1000,
     "object": {
@@ -422,7 +417,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "sketchy_cabin_2_roof" ],
     "weight": 1000,
     "object": {

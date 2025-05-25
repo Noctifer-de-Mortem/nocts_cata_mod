@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Bio_Weapon_Lab_1" ],
     "object": {
       "rows": [
@@ -63,7 +62,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Bio_Weapon_Lab_2" ],
     "object": {
       "rows": [
@@ -129,7 +127,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Bio_Weapon_Lab_b" ],
     "object": {
       "rows": [
@@ -230,7 +227,7 @@
         { "item": "map_extra_science", "x": [ 4, 8 ], "y": [ 2, 4 ], "chance": 50 },
         { "item": "map_extra_science", "x": [ 15, 19 ], "y": [ 2, 4 ], "chance": 50 }
       ],
-      "add": [
+      "place_item": [
         { "item": "mccmap", "x": 12, "y": 12 },
         { "item": "laser_rifle", "x": 1, "y": 8 },
         { "item": "goggles_welding", "x": 1, "y": 9 },
