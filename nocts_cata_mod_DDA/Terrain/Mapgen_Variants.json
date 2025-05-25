@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "bunker" ],
     "object": {
       "rows": [
@@ -68,7 +67,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "mil_base_5e" ],
     "weight": 250,
     "object": {

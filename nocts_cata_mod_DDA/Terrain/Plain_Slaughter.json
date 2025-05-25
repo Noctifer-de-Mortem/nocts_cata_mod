@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Plain_Slaughter" ],
     "weight": 1000,
     "object": {
@@ -54,7 +53,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Plain_Slaughter" ],
     "weight": 500,
     "object": {

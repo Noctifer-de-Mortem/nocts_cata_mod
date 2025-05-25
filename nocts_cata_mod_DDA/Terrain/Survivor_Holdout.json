@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Survivor_Holdout_1" ],
     "weight": 1000,
     "object": {
@@ -88,7 +87,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Survivor_Holdout_2" ],
     "//": "Road connection for survivor holdouts, also used to spawn players outside them in the relevant scenario.",
     "weight": 1000,
