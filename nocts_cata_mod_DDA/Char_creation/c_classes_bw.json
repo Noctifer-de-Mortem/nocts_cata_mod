@@ -67,9 +67,8 @@
       "bio_armor_eyes"
     ],
     "items": {
-      "both": {
-        "items": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ],
-        "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "hat_noise_cancelling" } ]
       },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -127,9 +126,8 @@
       "bio_armor_eyes"
     ],
     "items": {
-      "both": {
-        "items": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ],
-        "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "hat_noise_cancelling" } ]
       },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -186,19 +184,9 @@
       "bio_armor_eyes"
     ],
     "items": {
-      "both": [
-        "badge_bio_weapon",
-        "jumpsuit_pocketless", "variant": "orange",
-        "footrags",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit",
-        "mycus_fruit"
-      ],
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" } ]
+      },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
     },
@@ -247,7 +235,13 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": {
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -307,7 +301,13 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": {
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -363,7 +363,13 @@
       "bio_fuel_cell_gasoline",
       "bio_plasma_cell"
     ],
-    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": {
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -412,7 +418,13 @@
       "bio_ups",
       "bio_sunglasses"
     ],
-    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": {
+       "both": {
+        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    },
     "flags": [ "SCEN_ONLY" ]
   },
   {
