@@ -68,7 +68,7 @@
     ],
     "items": {
       "both": {
-        "items": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
+        "items": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ],
         "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
       },
       "male": [ "briefs" ],
@@ -128,7 +128,7 @@
     ],
     "items": {
       "both": {
-        "items": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
+        "items": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ],
         "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
       },
       "male": [ "briefs" ],
@@ -188,7 +188,7 @@
     "items": {
       "both": [
         "badge_bio_weapon",
-        "subsuit_xl",
+        "jumpsuit_pocketless", "variant": "orange",
         "footrags",
         "mycus_fruit",
         "mycus_fruit",
@@ -247,7 +247,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -307,7 +307,7 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -363,7 +363,7 @@
       "bio_fuel_cell_gasoline",
       "bio_plasma_cell"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
@@ -412,7 +412,7 @@
       "bio_ups",
       "bio_sunglasses"
     ],
-    "items": { "both": [ "badge_bio_weapon", "subsuit_xl", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
+    "items": { "both": [ "badge_bio_weapon", "jumpsuit_pocketless", "variant": "orange", "footrags" ], "male": [ "briefs" ], "female": [ "bra", "panties" ] },
     "flags": [ "SCEN_ONLY" ]
   },
   {
