@@ -1,4 +1,4 @@
-Personal copy for my current game on CDDA Experimental 2025-05-27-1230
+Personal copy for my current game on CDDA Experimental 2025-05-27-0430.
 
 # Expansion mod for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights
 
