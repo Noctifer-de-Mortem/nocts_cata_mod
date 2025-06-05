@@ -70,7 +70,7 @@
   {
     "id": "weapon_suit",
     "type": "item_group",
-    "items": [ [ "subsuit_xl", 50 ] ]
+    "items": [ { "item": "jumpsuit_pocketless", "variant": "orange", "prob": 50 } ]
   },
   {
     "id": "weapom_feet",
