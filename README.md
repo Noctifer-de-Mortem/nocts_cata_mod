@@ -1,5 +1,3 @@
-Personal copy for my current game on CDDA Experimental 2025-05-27-0430.
-
 # Expansion mod for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights
 
 This is the gigantic jabberwock of a mod that adds a lot of content to the game. It adds new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.
