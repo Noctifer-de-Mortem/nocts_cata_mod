@@ -244,8 +244,8 @@
       },
       "place_toilets": [ { "x": 18, "y": 2 }, { "x": 22, "y": 2 }, { "x": 20, "y": 14 }, { "x": 18, "y": 21 }, { "x": 22, "y": 21 } ],
       "place_loot": [
-        { "item": "steel_lump", "x": [ 16, 22 ], "y": [ 11, 12 ], "chance": 25 },
-        { "item": "steel_chunk", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 1, 4 ] },
+        { "item": "lc_steel_lump", "x": [ 16, 22 ], "y": [ 11, 12 ], "chance": 25 },
+        { "item": "lc_steel_chunk", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 1, 4 ] },
         { "item": "scrap", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 1, 5 ] },
         { "item": "cu_pipe", "x": [ 16, 22 ], "y": [ 11, 12 ], "chance": 50 },
         { "item": "ceramic_shard", "x": [ 16, 22 ], "y": [ 11, 12 ], "repeat": [ 2, 8 ] },

@@ -47,8 +47,8 @@
       { "id": "soldering_iron", "hotkey": "s" }
     ],
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 30, 40 ] },
-      { "item": "steel_chunk", "count": [ 30, 40 ] },
+      { "item": "lc_steel_lump", "count": [ 30, 40 ] },
+      { "item": "lc_steel_chunk", "count": [ 30, 40 ] },
       { "item": "scrap", "count": [ 30, 40 ] },
       { "item": "circuit", "count": [ 30, 40 ] },
       { "item": "e_scrap", "count": [ 30, 40 ] },
@@ -97,8 +97,8 @@
     "damage_modifier": 80,
     "folded_volume": "250 ml",
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 1, 2 ] },
-      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "lc_steel_lump", "count": [ 1, 2 ] },
+      { "item": "lc_steel_chunk", "count": [ 1, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
       { "item": "cable", "charges": [ 3, 6 ] }
     ],
@@ -121,8 +121,8 @@
     "epower": "16200 W",
     "damage_modifier": 80,
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 3, 5 ] },
-      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "lc_steel_lump", "count": [ 3, 5 ] },
+      { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
@@ -145,8 +145,8 @@
     "epower": "69018 W",
     "damage_modifier": 80,
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 3, 5 ] },
-      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "lc_steel_lump", "count": [ 3, 5 ] },
+      { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
@@ -169,8 +169,8 @@
     "epower": "132540 W",
     "damage_modifier": 80,
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 3, 5 ] },
-      { "item": "steel_chunk", "count": [ 3, 5 ] },
+      { "item": "lc_steel_lump", "count": [ 3, 5 ] },
+      { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
       { "item": "cable", "charges": [ 10, 15 ] }
     ],
@@ -193,8 +193,8 @@
     "epower": "225625 W",
     "damage_modifier": 80,
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 6, 10 ] },
-      { "item": "steel_chunk", "count": [ 6, 10 ] },
+      { "item": "lc_steel_lump", "count": [ 6, 10 ] },
+      { "item": "lc_steel_chunk", "count": [ 6, 10 ] },
       { "item": "scrap", "count": [ 6, 10 ] },
       { "item": "cable", "charges": [ 20, 30 ] }
     ],

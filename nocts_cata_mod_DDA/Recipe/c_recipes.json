@@ -269,7 +269,7 @@
     "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
     "components": [
       [ [ "sheet_metal", 1 ] ],
-      [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
+      [ [ "scrap", 3 ], [ "steel_chunk_any", 1, "LIST" ] ],
       [ [ "spring", 2 ] ],
       [ [ "wire", 1 ] ],
       [ [ "nail", 10 ] ]
@@ -987,7 +987,7 @@
       [ [ "pipe", 4 ] ],
       [ [ "2x4", 2 ], [ "stick", 2 ] ],
       [ [ "metal_tank", 1 ], [ "metal_tank_little", 2 ] ],
-      [ [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
+      [ [ "steel_chunk_any", 8, "LIST" ], [ "scrap", 24 ] ],
       [ [ "hand_pump", 1 ] ],
       [ [ "foot_crank", 1 ] ]
     ]
@@ -1012,7 +1012,7 @@
       [ [ "power_supply", 1 ] ],
       [ [ "cable", 100 ] ],
       [ [ "pipe", 1 ] ],
-      [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 9 ], [ "steel_chunk_any", 3, "LIST" ] ],
       [ [ "lens", 2 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ]
     ]
@@ -1042,7 +1042,7 @@
       [ [ "power_supply", 1 ] ],
       [ [ "e_scrap", 2 ] ],
       [ [ "cable", 50 ] ],
-      [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ]
+      [ [ "scrap", 3 ], [ "steel_chunk_any", 1, "LIST" ] ]
     ]
   },
   {
@@ -1084,7 +1084,7 @@
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 4 ] ],
       [ [ "amplifier", 4 ] ],
-      [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
+      [ [ "scrap", 3 ], [ "steel_chunk_any", 1, "LIST" ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ]
     ]
   },
@@ -1106,7 +1106,7 @@
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 6 ] ],
       [ [ "amplifier", 6 ] ],
-      [ [ "scrap", 6 ], [ "steel_chunk", 2 ] ],
+      [ [ "scrap", 6 ], [ "steel_chunk_any", 2, "LIST" ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ]
     ]
   },
@@ -2319,7 +2319,7 @@
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "2x4", 2 ], [ "stick", 2 ] ],
-      [ [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
+      [ [ "steel_chunk_any", 8, "LIST" ], [ "scrap", 24 ] ],
       [ [ "duct_tape", 50 ] ],
       [ [ "pilot_light", 1 ] ],
       [ [ "pipe", 1 ] ],
@@ -2730,7 +2730,7 @@
     "type": "recipe",
     "result": "greatsword_makeshift",
     "activity_level": "MODERATE_EXERCISE",
-    "byproducts": [ [ "steel_chunk", 40 ] ],
+    "byproducts": [ [ "lc_steel_chunk", 40 ] ],
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -2750,7 +2750,7 @@
     "type": "recipe",
     "result": "greatbow_makeshift",
     "activity_level": "MODERATE_EXERCISE",
-    "byproducts": [ [ "steel_chunk", 35 ] ],
+    "byproducts": [ [ "lc_steel_chunk", 35 ] ],
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
