@@ -814,13 +814,23 @@
     ]
   },
   {
+    "type": "mutation",
+    "id": "C_EXO_WING_FLIGHT",
+    "name": { "str": "Artificial Wings" },
+    "points": 99,
+    "valid": false,
+    "description": "Your equipment currently grants you the ability to fly.",
+    "player_display": false,
+    "flags": [ "WINGS_2", "WING_GLIDE" ]
+  },
+  {
     "id": "c_mi_go_wings_salvaged",
     "type": "ITEM",
     "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
     "symbol": "[",
     "color": "green",
     "name": { "str": "set of salvaged exo-wings", "str_pl": "sets of salvaged exo-wings" },
-    "description": "A harness from which jut thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  Salvaged using pre-cataclysm research into other living weaponry, it's been heavily altered to fit a human (or mutant) wearer.  Activating it will grant immunity to falling damage and vastly speed up movement.  It seems to recharge from sunlight, and being active will also gradually fatigue the user.",
+    "description": "A harness from which jut thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  Salvaged using pre-cataclysm research into other living weaponry, it's been heavily altered to fit a human (or mutant) wearer.  Activating it will grant immunity to falling damage, ability to glide, and vastly speed up movement.  It seems to recharge from sunlight, and being active will also gradually fatigue the user.",
     "flags": [ "OVERSIZE", "STURDY", "BELTED", "PADDED" ],
     "max_worn": 1,
     "price_postapoc": "40 USD",
@@ -845,7 +855,8 @@
         "has": "WORN",
         "condition": "ACTIVE",
         "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
-        "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
+        "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ],
+          "mutations": [ "C_EXO_WING_FLIGHT" ]
       }
     ],
     "material_thickness": 2,
@@ -857,7 +868,7 @@
     "type": "ITEM",
     "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "set of salvaged exo-wings (on)", "str_pl": "sets of salvaged exo-wings (on)" },
-    "description": "A set of thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  They are currently buzzing with life, greatly speeding up movement and enhancing dodge as well as granting immunity to falling damage, in exchange for increased fatigue gain.",
+    "description": "A set of thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  They are currently buzzing with life, greatly speeding up movement and enhancing dodge as well as letting you glide through the air, in exchange for increased fatigue gain.",
     "turns_per_charge": 75,
     "revert_to": "c_mi_go_wings_salvaged",
     "use_action": {
