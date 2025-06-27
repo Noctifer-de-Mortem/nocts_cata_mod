@@ -866,16 +866,6 @@
     "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] }
   },
   {
-    "type": "mutation",
-    "id": "C_EXO_WING_FLIGHT",
-    "name": { "str": "Artificial Wings" },
-    "points": 99,
-    "valid": false,
-    "description": "Your equipment currently grants you the ability to fly.",
-    "player_display": false,
-    "flags": [ "MUTATION_FLIGHT" ]
-  },
-  {
     "id": "c_mi_go_wings_salvaged",
     "type": "TOOL_ARMOR",
     "symbol": "[",
@@ -904,8 +894,7 @@
           "has": "WORN",
           "condition": "ACTIVE",
           "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
-          "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ],
-          "mutations": [ "C_EXO_WING_FLIGHT" ]
+          "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ]
         }
       ],
       "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ]
@@ -925,7 +914,7 @@
     "revert_to": "c_mi_go_wings_salvaged",
     "use_action": { "target": "c_mi_go_wings_salvaged", "msg": "The exo-wings go limp as they shut down.", "type": "transform" },
     "encumbrance": 0,
-    "extend": { "flags": [ "NO_TAKEOFF" ] }
+    "extend": { "flags": [ "NO_TAKEOFF", "ALWAYS_ALLOWS_FLIGHT" ] }
   },
   {
     "id": "cowboy_hat_surv",
