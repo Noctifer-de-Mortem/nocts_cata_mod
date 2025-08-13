@@ -89,7 +89,7 @@
     "color": "dark_gray",
     "looks_like": "s_lot",
     "see_cost": "low",
-    "extras": "field"
+    "extras": "build"
   },
   {
     "id": "Bio_Weapon_Lab_2",
@@ -117,7 +117,7 @@
     "color": "dark_gray",
     "looks_like": "s_lot",
     "see_cost": "low",
-    "extras": "field"
+    "extras": "build"
   },
   {
     "id": "Unknown_Lab_2",
@@ -127,7 +127,7 @@
     "color": "dark_gray",
     "looks_like": "s_lot",
     "see_cost": "low",
-    "extras": "field"
+    "extras": "build"
   },
   {
     "id": "Unknown_Lab_3",
@@ -192,7 +192,7 @@
     "color": "dark_gray",
     "looks_like": "s_lot",
     "see_cost": "low",
-    "extras": "field"
+    "extras": "build"
   },
   {
     "id": "makeshift_command_center_2",
