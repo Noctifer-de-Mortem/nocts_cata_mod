@@ -182,11 +182,17 @@
     "name": { "str": "solar torch (lit)", "str_pl": "solar torches (lit)" },
     "description": "A mysterious torch that uses the power of the sun (and blob goo) to light itself.  Somehow, the gasoline synthesized goo produces gasoline when in the sun continuously soaking the rag making it \"rechargeable\" in a sense.  It is burning, producing plenty of light until it runs out of fuel.",
     "material": [ "wood" ],
-    "flags": [ "FIRE", "LIGHT_310", "CHARGEDIM", "FLAMING", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [ "FIRE", "LIGHT_310", "CHARGEDIM", "NO_UNLOAD", "NO_RELOAD" ],
     "weight": "942 g",
     "volume": "1 L",
-    "bashing": 8,
-    "to_hit": 1,
+    "//": "Roughly +25% fire damage",
+    "attacks": [
+      {
+        "id": "BASH",
+        "to_hit": 1,
+        "damage": { "values": [ { "damage_type": "bash", "amount": 8 }, { "damage_type": "heat", "amount": 2 } ] }
+      }
+    ],
     "ammo": [ "gasoline" ],
     "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ] },
     "max_charges": 25,
@@ -362,7 +368,7 @@
     "color": "dark_gray",
     "weapon_category": [ "KNIVES" ],
     "name": { "str": "survivor's tazer blade" },
-    "description": "A makeshift blade with a knuckle guard that doubles as a tazer.  Has a wrap on the handle to prevent self shock.",
+    "description": "A makeshift blade with a knuckle guard that doubles as a tazer, or can be activated to electrify your attacks.",
     "price": "180 USD",
     "price_postapoc": "18 USD",
     "material": [ "steel", "plastic" ],
@@ -375,13 +381,50 @@
     "charges_per_use": 100,
     "ammo": [ "battery" ],
     "category": "weapons",
-    "use_action": "TAZER",
+    "use_action": [
+      "TAZER",
+      {
+        "type": "transform",
+        "msg": "You press a button and the blade crackles with electricity.",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The %s's batteries are dead.",
+        "target": "elc_bld_on"
+      }
+    ],
     "magazines": [
       [
         "battery",
         [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       ]
-    ]
+    ],
+    "magazine_well": "500 ml"
+  },
+  {
+    "id": "elc_bld_on",
+    "copy-from": "elc_bld",
+    "type": "TOOL",
+    "name": { "str": "survivor's tazer blade (on)", "str_pl": "survivor's tazer blade (on)" },
+    "description": "A makeshift blade with a knuckle guard that doubles as a tazer, or can be activated to electrify your attacks.  It's currently on, crackling with electricity.",
+    "revert_to": "elc_bld",
+    "revert_msg": "The %s's batteries run dry.",
+    "use_action": { "type": "transform", "msg": "You press a button and the blade turns off.", "target": "elc_bld" },
+    "//": "Roughly +25% electric damage",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": -1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 8 },
+            { "damage_type": "stab", "amount": 6 },
+            { "damage_type": "electric", "amount": 4 }
+          ]
+        }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID" ] },
+    "power_draw": 500000
   },
   {
     "id": "elc_blds",
@@ -390,7 +433,7 @@
     "color": "dark_gray",
     "weapon_category": [ "KNIVES" ],
     "name": { "str_sp": "survivor's tazer dual blades" },
-    "description": "Two makeshift blades with knuckle guards that double as a tazer.  Has a wrap on the handle to prevent self shock.",
+    "description": "Two makeshift blades with knuckle guards that double as a tazer, or can be activated to electrify your attacks",
     "price": "360 USD",
     "price_postapoc": "36 USD",
     "material": [ "steel", "plastic" ],
@@ -404,13 +447,50 @@
     "charges_per_use": 100,
     "ammo": [ "battery" ],
     "category": "weapons",
-    "use_action": "TAZER",
+    "use_action": [
+      "TAZER",
+      {
+        "type": "transform",
+        "msg": "You press a button and the blades crackle with electricity.",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The %s's batteries are dead.",
+        "target": "elc_blds_on"
+      }
+    ],
     "magazines": [
       [
         "battery",
         [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       ]
-    ]
+    ],
+    "magazine_well": "500 ml"
+  },
+  {
+    "id": "elc_blds_on",
+    "copy-from": "elc_blds",
+    "type": "TOOL",
+    "name": { "str": "survivor's tazer dual blades (on)", "str_pl": "survivor's tazer dual blades (on)" },
+    "description": "Two makeshift blades with knuckle guards that double as a tazer, or can be activated to electrify your attacks.  They're currently on, crackling with electricity.",
+    "revert_to": "elc_blds",
+    "revert_msg": "The %s's batteries run dry.",
+    "use_action": { "type": "transform", "msg": "You press a button and the blades turns off.", "target": "elc_blds" },
+    "//": "Roughly +25% electric damage",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": -1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 16 },
+            { "damage_type": "stab", "amount": 12 },
+            { "damage_type": "electric", "amount": 7 }
+          ]
+        }
+      }
+    ],
+    "extend": { "flags": [ "TRADER_AVOID" ] },
+    "power_draw": 500000
   },
   {
     "id": "can_forge",
@@ -728,7 +808,18 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "relic_data": { "recharge_scheme": [ { "type": "pain", "interval": "1 h", "rate": 1, "int_min": 1, "int_max": 5, "message": "The device draws a sample of your blood." } ] },
+    "relic_data": {
+      "recharge_scheme": [
+        {
+          "type": "pain",
+          "interval": "1 h",
+          "rate": 1,
+          "int_min": 1,
+          "int_max": 5,
+          "message": "The device draws a sample of your blood."
+        }
+      ]
+    },
     "use_action": { "type": "cast_spell", "spell_id": "c_biostim", "no_fail": true, "level": 0 }
   },
   {
@@ -749,7 +840,18 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "relic_data": { "recharge_scheme": [ { "type": "pain", "interval": "1 h", "rate": 1, "int_min": 1, "int_max": 5, "message": "The device draws a sample of your blood." } ] },
+    "relic_data": {
+      "recharge_scheme": [
+        {
+          "type": "pain",
+          "interval": "1 h",
+          "rate": 1,
+          "int_min": 1,
+          "int_max": 5,
+          "message": "The device draws a sample of your blood."
+        }
+      ]
+    },
     "use_action": { "type": "mutagen", "is_strong": true }
   },
   {
@@ -770,7 +872,18 @@
     "ammo": [ "c_bioampoule_type" ],
     "max_charges": 1,
     "charges_per_use": 1,
-    "relic_data": { "recharge_scheme": [ { "type": "pain", "interval": "1 h", "rate": 1, "int_min": 1, "int_max": 5, "message": "The device draws a sample of your blood." } ] },
+    "relic_data": {
+      "recharge_scheme": [
+        {
+          "type": "pain",
+          "interval": "1 h",
+          "rate": 1,
+          "int_min": 1,
+          "int_max": 5,
+          "message": "The device draws a sample of your blood."
+        }
+      ]
+    },
     "use_action": [ "PURIFIER" ]
   },
   {
