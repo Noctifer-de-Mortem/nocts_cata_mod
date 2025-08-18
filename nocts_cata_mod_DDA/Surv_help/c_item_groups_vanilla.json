@@ -330,16 +330,10 @@
     "extend": { "items": [ [ "biomap", 4 ], [ "iv_mutagen_super_soldier", 1 ] ] }
   },
   {
-    "id": "mutagens",
-    "copy-from": "mutagens",
+    "id": "mut_lab",
+    "copy-from": "mut_lab",
     "type": "item_group",
-    "extend": { "items": [ [ "iv_mutagen_super_soldier", 1 ] ] }
-  },
-  {
-    "id": "mut_iv",
-    "copy-from": "mut_iv",
-    "type": "item_group",
-    "extend": { "items": [ [ "iv_mutagen_super_soldier", 1 ] ] }
+    "extend": { "items": [ [ "iv_mutagen_super_soldier", 2 ] ] }
   },
   {
     "id": "traveler",
