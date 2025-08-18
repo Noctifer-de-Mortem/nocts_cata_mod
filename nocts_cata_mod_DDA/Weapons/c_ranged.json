@@ -304,7 +304,6 @@
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "barrel", 1 ],
       [ "muzzle", 1 ],
       [ "rail", 1 ],
@@ -340,15 +339,7 @@
     "durability": 7,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "loudness": 12,
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "sling", 1 ],
-      [ "grip", 1 ],
-      [ "rail", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "sling", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   },
   {
     "id": "ups_rifle_crank",
@@ -478,7 +469,6 @@
     "valid_mod_locations": [
       [ "accessories", 3 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "barrel", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
@@ -981,7 +971,6 @@
       [ "muzzle", 1 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
-      [ "grip", 1 ],
       [ "muzzle", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
@@ -1103,11 +1092,10 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ], [ "AUTO", "auto", 10 ] ],
     "reload": 200,
-    "built_in_mods": [ "rail_laser_sight", "grip" ],
+    "built_in_mods": [ "rail_laser_sight" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -1152,11 +1140,10 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ], [ "AUTO", "auto", 10 ] ],
     "energy_drain": "25 kJ",
-    "built_in_mods": [ "rail_laser_sight", "grip" ],
+    "built_in_mods": [ "rail_laser_sight" ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -1193,11 +1180,9 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
     "reload": 200,
-    "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -1242,11 +1227,9 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
     "energy_drain": "50 kJ",
-    "built_in_mods": [ "grip" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -1373,7 +1356,6 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 2 ],
       [ "stock", 1 ],
@@ -1421,7 +1403,6 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 2 ],
       [ "stock", 1 ],
@@ -1463,7 +1444,6 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "sights", 1 ],
       [ "rail", 1 ],
       [ "stock", 1 ],
@@ -1513,7 +1493,6 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "sights", 1 ],
       [ "rail", 1 ],
       [ "stock", 1 ],
@@ -1556,7 +1535,6 @@
       [ "dampening", 1 ],
       [ "mechanism", 4 ],
       [ "sling", 1 ],
-      [ "grip", 1 ],
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
@@ -1668,7 +1646,6 @@
     "reload": 1000,
     "valid_mod_locations": [
       [ "accessories", 1 ],
-      [ "grip", 1 ],
       [ "sling", 1 ],
       [ "rail mount", 1 ],
       [ "stock mount", 1 ],
@@ -1772,6 +1749,6 @@
       }
     ],
     "reload": 450,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
   }
 ]
