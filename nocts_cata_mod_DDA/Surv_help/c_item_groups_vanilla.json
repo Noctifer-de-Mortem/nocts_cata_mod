@@ -376,43 +376,6 @@
     }
   },
   {
-    "type": "item_group",
-    "id": "bionics_op",
-    "copy-from": "bionics_op",
-    "subtype": "distribution",
-    "//": "What the commandos get.",
-    "extend": {
-      "items": [
-        [ "bio_laser_armgun", 5 ],
-        [ "bio_sword", 5 ],
-        [ "bio_flamethrower", 5 ],
-        [ "bio_plasma_cell", 20 ],
-        [ "bio_atomic_battery", 5 ],
-        [ "bio_hazard_shield", 5 ],
-        [ "bio_animal_empathy", 10 ],
-        [ "bio_cutting_torch", 5 ]
-      ]
-    }
-  },
-  {
-    "type": "item_group",
-    "id": "bionics_tech",
-    "copy-from": "bionics_tech",
-    "subtype": "distribution",
-    "//": "Bionics used by technicians.",
-    "extend": { "items": [ [ "bio_atomic_battery", 10 ], [ "bio_cutting_torch", 20 ] ] }
-  },
-  {
-    "type": "item_group",
-    "id": "bionics_subs",
-    "copy-from": "bionics_subs",
-    "subtype": "distribution",
-    "//": "Bionics dropped by substation mini-boss.",
-    "extend": {
-      "items": [ [ "bio_atomic_battery", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
-    }
-  },
-  {
     "id": "female_underwear_bottom",
     "copy-from": "female_underwear_bottom",
     "type": "item_group",
