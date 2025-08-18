@@ -86,21 +86,16 @@
     }
   },
   {
-    "id": "mil_hw",
-    "copy-from": "mil_hw",
+    "id": "guns_milspec",
+    "copy-from": "guns_milspec",
     "type": "item_group",
-    "extend": {
-      "items": [
-        { "group": "lmil_armor_collection", "prob": 2 },
-        { "group": "mil_armor_collection", "prob": 2 },
-        { "group": "hmil_armor_collection", "prob": 2 }
-      ]
-    }
+    "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 125 } ] }
   },
   {
-    "id": "military",
-    "copy-from": "military",
+    "id": "clothing_soldier_set",
+    "copy-from": "clothing_soldier_set",
     "type": "item_group",
+    "subtype": "collection",
     "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 250 } ] }
   },
   {
@@ -286,79 +281,22 @@
     }
   },
   {
-    "id": "rare",
-    "copy-from": "rare",
-    "type": "item_group",
-    "extend": {
-      "items": [
-        {
-          "distribution": [ { "item": "neo_laser_pistol", "prob": 50 }, { "item": "neo_laser_pistol_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        {
-          "distribution": [ { "item": "akro_laser_smg", "prob": 50 }, { "item": "akro_laser_smg_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        {
-          "distribution": [ { "item": "arc_laser_rifle", "prob": 50 }, { "item": "arc_laser_rifle_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        {
-          "distribution": [ { "item": "krx_laser_lmg", "prob": 50 }, { "item": "krx_laser_lmg_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        {
-          "distribution": [ { "item": "mx_laser_sniper", "prob": 50 }, { "item": "mx_laser_sniper_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        {
-          "distribution": [ { "item": "xarm_laser_shotgun", "prob": 50 }, { "item": "xarm_laser_shotgun_ups", "prob": 50 } ],
-          "prob": 2
-        },
-        [ "br_bolt_rifle_elec", 2 ],
-        [ "mk_ionic_cannon", 2 ],
-        [ "omnitech_plasma_pistol", 1 ],
-        [ "megamap", 2 ],
-        [ "stim", 2 ],
-        [ "boots_stealth", 2 ],
-        [ "acs_74_stealth_cloak", 2 ],
-        [ "goggles_nv_clairvoyance", 2 ],
-        [ "blood_m", 1 ],
-        [ "blood_p", 1 ],
-        [ "cbm_rtg_inductor", 1 ]
-      ]
-    }
-  },
-  {
     "id": "mut_lab",
     "copy-from": "mut_lab",
     "type": "item_group",
     "extend": { "items": [ [ "biomap", 4 ], [ "iv_mutagen_super_soldier", 1 ] ] }
   },
   {
-    "id": "mutagens",
-    "copy-from": "mutagens",
+    "id": "mut_lab",
+    "copy-from": "mut_lab",
     "type": "item_group",
-    "extend": { "items": [ [ "iv_mutagen_super_soldier", 1 ] ] }
-  },
-  {
-    "id": "mut_iv",
-    "copy-from": "mut_iv",
-    "type": "item_group",
-    "extend": { "items": [ [ "iv_mutagen_super_soldier", 1 ] ] }
+    "extend": { "items": [ [ "iv_mutagen_super_soldier", 2 ] ] }
   },
   {
     "id": "traveler",
     "copy-from": "traveler",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "biomap", 1 ],
-        [ "dress_skirt", 25 ],
-        [ "microskirt", 10 ],
-        [ "thong", 5 ]
-      ]
-    }
+    "extend": { "items": [ [ "biomap", 1 ], [ "dress_skirt", 25 ], [ "microskirt", 10 ], [ "thong", 5 ] ] }
   },
   {
     "id": "bionics",
@@ -395,43 +333,6 @@
     }
   },
   {
-    "type": "item_group",
-    "id": "bionics_op",
-    "copy-from": "bionics_op",
-    "subtype": "distribution",
-    "//": "What the commandos get.",
-    "extend": {
-      "items": [
-        [ "bio_laser_armgun", 5 ],
-        [ "bio_sword", 5 ],
-        [ "bio_flamethrower", 5 ],
-        [ "bio_plasma_cell", 20 ],
-        [ "bio_atomic_battery", 5 ],
-        [ "bio_hazard_shield", 5 ],
-        [ "bio_animal_empathy", 10 ],
-        [ "bio_cutting_torch", 5 ]
-      ]
-    }
-  },
-  {
-    "type": "item_group",
-    "id": "bionics_tech",
-    "copy-from": "bionics_tech",
-    "subtype": "distribution",
-    "//": "Bionics used by technicians.",
-    "extend": { "items": [ [ "bio_atomic_battery", 10 ], [ "bio_cutting_torch", 20 ] ] }
-  },
-  {
-    "type": "item_group",
-    "id": "bionics_subs",
-    "copy-from": "bionics_subs",
-    "subtype": "distribution",
-    "//": "Bionics dropped by substation mini-boss.",
-    "extend": {
-      "items": [ [ "bio_atomic_battery", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
-    }
-  },
-  {
     "id": "female_underwear_bottom",
     "copy-from": "female_underwear_bottom",
     "type": "item_group",
@@ -441,13 +342,7 @@
     "id": "allclothes",
     "copy-from": "allclothes",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "dress_skirt", 25 ],
-        [ "microskirt", 10 ],
-        [ "thong", 10 ]
-      ]
-    }
+    "extend": { "items": [ [ "dress_skirt", 25 ], [ "microskirt", 10 ], [ "thong", 10 ] ] }
   },
   {
     "type": "item_group",
@@ -501,14 +396,6 @@
     "extend": { "items": [ [ "greatsword_makeshift", 5 ] ] }
   },
   {
-    "id": "guns_pistol_improvised",
-    "copy-from": "guns_pistol_improvised",
-    "type": "item_group",
-    "extend": {
-      "items": [ [ "unbio_laser_gun", 5 ], { "item": "surv_battery_pistol", "prob": 25, "charges-min": 0, "charges-max": 50 } ]
-    }
-  },
-  {
     "id": "guns_smg_improvised",
     "copy-from": "guns_smg_improvised",
     "type": "item_group",
@@ -541,12 +428,6 @@
         { "item": "surv_full_50", "prob": 2, "charges-min": 0, "charges-max": 20 }
       ]
     }
-  },
-  {
-    "id": "guns_shotgun_improvised",
-    "copy-from": "guns_shotgun_improvised",
-    "type": "item_group",
-    "extend": { "items": [ { "item": "surv_full_12", "prob": 25, "charges-min": 0, "charges-max": 10 } ] }
   },
   {
     "id": "guns_energy",
@@ -585,12 +466,6 @@
         }
       ]
     }
-  },
-  {
-    "type": "item_group",
-    "id": "guns_launcher_improvised",
-    "copy-from": "guns_launcher_improvised",
-    "extend": { "items": [ { "item": "flamethrower_surv", "prob": 15 } ] }
   },
   {
     "id": "drugdealer",
@@ -636,8 +511,8 @@
     "extend": { "items": [ { "group": "survivor_combative_books", "prob": 10 }, { "group": "encylopedias_military", "prob": 10 } ] }
   },
   {
-    "id": "rare_martial_arts_books",
-    "copy-from": "rare_martial_arts_books",
+    "id": "book_martial_rare",
+    "copy-from": "book_martial_rare",
     "type": "item_group",
     "extend": { "items": [ { "group": "survivor_combative_books", "prob": 1 } ] }
   },

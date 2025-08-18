@@ -8,7 +8,7 @@
     "known_by_u": false,
     "size": 30,
     "power": 60,
-    "fac_food_supply": { "calories": 100000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } },
+    "fac_food_supply": [ [ 0, { "calories": 100000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } } ] ],
     "wealth": 10000000,
     "relations": {
       "commandeers": {
@@ -50,7 +50,7 @@
     "known_by_u": false,
     "size": 10,
     "power": 100,
-    "fac_food_supply": { "calories": 40000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } },
+    "fac_food_supply": [ [ 0, { "calories": 40000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } } ] ],
     "wealth": 1000,
     "relations": {
       "super_soldiers": {
@@ -85,7 +85,7 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
-    "fac_food_supply": { "calories": 500000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } },
+    "fac_food_supply": [ [ 0, { "calories": 500000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } } ] ],
     "wealth": 10000000,
     "relations": {
       "preppers": {
@@ -109,7 +109,7 @@
     "known_by_u": false,
     "size": 10,
     "power": 100,
-    "fac_food_supply": { "calories": 40000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } },
+    "fac_food_supply": [ [ 0, { "calories": 40000, "vitamins": { "iron": 800, "calcium": 800, "vitC": 600 } } ] ],
     "wealth": 1000,
     "relations": {
       "bio_weapons": {
@@ -144,7 +144,7 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
-    "fac_food_supply": { "calories": 0, "vitamins": { } },
+    "fac_food_supply": [ [ 0, { "calories": 0, "vitamins": {  } } ] ],
     "wealth": 0,
     "relations": {
       "slave_fighter_allied": {
@@ -169,7 +169,7 @@
     "known_by_u": false,
     "size": 50,
     "power": 100,
-    "fac_food_supply": { "calories": 0, "vitamins": { } },
+    "fac_food_supply": [ [ 0, { "calories": 0, "vitamins": {  } } ] ],
     "wealth": 0,
     "relations": {
       "slave_fighter": { "watch your back": true },

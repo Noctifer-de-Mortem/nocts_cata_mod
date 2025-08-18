@@ -329,7 +329,7 @@
     "color": "red",
     "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
   },
-  {  
+  {
     "id": "acs_74_stealth_cloak",
     "type": "ITEM",
     "subtypes": [ "TOOL", "ARMOR", "ARTIFACT" ],
@@ -350,7 +350,7 @@
     "environmental_protection": 4,
     "tool_ammo": "battery",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100 } } ],
-	"flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "PADDED" ],
+    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "PADDED" ],
     "armor": [ { "encumbrance": 15, "coverage": 75, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "head" ] } ],
     "use_action": {
       "type": "transform",
@@ -371,15 +371,15 @@
     "subtypes": [ "TOOL", "ARMOR" ],
     "name": { "str": "ACS-74 stealth cloak (on)", "str_pl": "ACS-74 stealth cloaks (on)" },
     "description": "An experimental cloak with a destructive interference system, creating pitch-black darkness around you.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  It's currently on, activate to turn it back off.",
-	"turns_per_charge": 1,
+    "turns_per_charge": 1,
     "revert_to": "acs_74_stealth_cloak",
     "use_action": {
-	  "ammo_scale": 0,
+      "ammo_scale": 0,
       "type": "transform",
       "menu_text": "Turn off",
-	  "msg": "The cloak flickers and powers down.",
-	  "target": "acs_74_stealth_cloak"
-	}
+      "msg": "The cloak flickers and powers down.",
+      "target": "acs_74_stealth_cloak"
+    }
   },
   {
     "type": "mutation",
@@ -412,7 +412,7 @@
     "warmth": 25,
     "material_thickness": 3,
     "environmental_protection": 2,
-	"passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ],
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "C_MUTE_BOOTS" ] } ],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
     "armor": [ { "encumbrance": 18, "coverage": 100, "covers": [ "foot_l", "foot_r" ] } ]
   },
@@ -856,7 +856,7 @@
         "condition": "ACTIVE",
         "values": [ { "value": "MOVE_COST", "multiply": -0.5 }, { "value": "BONUS_DODGE", "add": 5 } ],
         "ench_effects": [ { "effect": "c_mi_go_wings_immunity", "intensity": 1 } ],
-          "mutations": [ "C_EXO_WING_FLIGHT" ]
+        "mutations": [ "C_EXO_WING_FLIGHT" ]
       }
     ],
     "material_thickness": 2,
@@ -908,7 +908,7 @@
           "44": 12,
           "45": 12,
           "45colt": 12,
-          "46": 12,
+          "460sw": 12,
           "57": 12,
           "9x18": 12,
           "9mm": 12,
