@@ -95,6 +95,7 @@
     "id": "clothing_soldier_set",
     "copy-from": "clothing_soldier_set",
     "type": "item_group",
+    "subtype": "collection",
     "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 250 } ] }
   },
   {
@@ -509,12 +510,6 @@
         }
       ]
     }
-  },
-  {
-    "type": "item_group",
-    "id": "guns_launcher_improvised",
-    "copy-from": "guns_launcher_improvised",
-    "extend": { "items": [ { "item": "flamethrower_surv", "prob": 15 } ] }
   },
   {
     "id": "drugdealer",
