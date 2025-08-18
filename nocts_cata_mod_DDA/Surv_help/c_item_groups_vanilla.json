@@ -86,18 +86,6 @@
     }
   },
   {
-    "id": "mil_hw",
-    "copy-from": "mil_hw",
-    "type": "item_group",
-    "extend": {
-      "items": [
-        { "group": "lmil_armor_collection", "prob": 2 },
-        { "group": "mil_armor_collection", "prob": 2 },
-        { "group": "hmil_armor_collection", "prob": 2 }
-      ]
-    }
-  },
-  {
     "id": "military",
     "copy-from": "military",
     "type": "item_group",
@@ -351,14 +339,7 @@
     "id": "traveler",
     "copy-from": "traveler",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "biomap", 1 ],
-        [ "dress_skirt", 25 ],
-        [ "microskirt", 10 ],
-        [ "thong", 5 ]
-      ]
-    }
+    "extend": { "items": [ [ "biomap", 1 ], [ "dress_skirt", 25 ], [ "microskirt", 10 ], [ "thong", 5 ] ] }
   },
   {
     "id": "bionics",
@@ -441,13 +422,7 @@
     "id": "allclothes",
     "copy-from": "allclothes",
     "type": "item_group",
-    "extend": {
-      "items": [
-        [ "dress_skirt", 25 ],
-        [ "microskirt", 10 ],
-        [ "thong", 10 ]
-      ]
-    }
+    "extend": { "items": [ [ "dress_skirt", 25 ], [ "microskirt", 10 ], [ "thong", 10 ] ] }
   },
   {
     "type": "item_group",
