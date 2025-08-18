@@ -86,8 +86,14 @@
     }
   },
   {
-    "id": "military",
-    "copy-from": "military",
+    "id": "guns_milspec",
+    "copy-from": "guns_milspec",
+    "type": "item_group",
+    "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 125 } ] }
+  },
+  {
+    "id": "clothing_soldier_set",
+    "copy-from": "clothing_soldier_set",
     "type": "item_group",
     "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 250 } ] }
   },
