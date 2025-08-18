@@ -1,11 +1,5 @@
 [
   {
-    "id": "pk_melee",
-    "copy-from": "pk_melee",
-    "type": "item_group",
-    "extend": { "items": [ [ "elc_bld", 2 ], [ "elc_blds", 1 ] ] }
-  },
-  {
     "id": "doom_stimpack",
     "copy-from": "doom_stimpack",
     "type": "item_group",
