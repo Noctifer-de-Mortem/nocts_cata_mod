@@ -439,14 +439,6 @@
     "extend": { "items": [ [ "greatsword_makeshift", 5 ] ] }
   },
   {
-    "id": "guns_pistol_improvised",
-    "copy-from": "guns_pistol_improvised",
-    "type": "item_group",
-    "extend": {
-      "items": [ [ "unbio_laser_gun", 5 ], { "item": "surv_battery_pistol", "prob": 25, "charges-min": 0, "charges-max": 50 } ]
-    }
-  },
-  {
     "id": "guns_smg_improvised",
     "copy-from": "guns_smg_improvised",
     "type": "item_group",
@@ -479,12 +471,6 @@
         { "item": "surv_full_50", "prob": 2, "charges-min": 0, "charges-max": 20 }
       ]
     }
-  },
-  {
-    "id": "guns_shotgun_improvised",
-    "copy-from": "guns_shotgun_improvised",
-    "type": "item_group",
-    "extend": { "items": [ { "item": "surv_full_12", "prob": 25, "charges-min": 0, "charges-max": 10 } ] }
   },
   {
     "id": "guns_energy",
@@ -574,8 +560,8 @@
     "extend": { "items": [ { "group": "survivor_combative_books", "prob": 10 }, { "group": "encylopedias_military", "prob": 10 } ] }
   },
   {
-    "id": "rare_martial_arts_books",
-    "copy-from": "rare_martial_arts_books",
+    "id": "book_martial_rare",
+    "copy-from": "book_martial_rare",
     "type": "item_group",
     "extend": { "items": [ { "group": "survivor_combative_books", "prob": 1 } ] }
   },
