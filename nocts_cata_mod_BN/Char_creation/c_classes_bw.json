@@ -861,15 +861,11 @@
     ],
     "items": {
       "both": {
-        "items": [ "badge_bio_weapon" ],
-        "entries": [
-          { "item": "footrags", "damage": [ 0, 3 ] },
-          { "item": "subsuit_xl", "damage": [ 0, 3 ] },
-          { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] }
-        ]
+        "items": [ "badge_bio_weapon", "subsuit_xl", "footrags" ],
+        "entries": [ { "item": "hat_noise_cancelling", "custom-flags": [ "no_auto_equip" ] } ]
       },
-      "male": { "entries": [ { "item": "briefs", "damage": [ 0, 3 ] } ] },
-      "female": { "entries": [ { "item": "bra", "damage": [ 0, 3 ] }, { "item": "panties", "damage": [ 0, 3 ] } ] }
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
     }
   },
   {
@@ -920,25 +916,19 @@
     ],
     "items": {
       "both": {
+        "items": [ "helmet_liner", "thermal_shirt", "gloves_liner", "under_armor_shorts", "socks", "mil_helm", "molle_pack" ],
         "entries": [
-          { "item": "under_armor_shorts", "damage": [ 0, 3 ] },
-          { "item": "thermal_shirt", "damage": [ 0, 3 ] },
-          { "item": "socks", "damage": [ 0, 3 ] },
-          { "item": "gloves_liner", "damage": [ 0, 3 ] },
-          { "item": "mil_armor", "damage": [ 0, 3 ] },
-          { "item": "helmet_liner", "damage": [ 0, 3 ] },
-          { "item": "mil_helm", "damage": [ 0, 3 ] },
-          { "item": "molle_pack", "damage": [ 0, 3 ] },
+          { "item": "mil_armor", "contents-group": "c_plut_medium" },
           { "item": "two_way_radio", "contents-item": [ "battery_ups" ] },
-          { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" },
           {
             "item": "xarm_laser_shotgun",
             "ammo-item": "battery",
-            "charges": [ 1, 5000 ],
+            "charges": 5000,
             "contents-item": "shoulder_strap",
             "custom-flags": [ "auto_wield" ]
-          }
+          },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "neo_laser_pistol_ups", "container-item": "XL_holster" }
         ]
       }
     }
@@ -964,17 +954,10 @@
     "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
     "items": {
       "both": {
-        "entries": [
-          { "item": "loincloth", "damage": [ 0, 3 ] },
-          { "item": "pants_leather", "damage": [ 0, 3 ] },
-          { "item": "armguard_scrap", "damage": [ 0, 3 ] },
-          { "item": "footrags", "damage": [ 0, 3 ] },
-          { "item": "boots_steel", "damage": [ 0, 3 ] },
-          { "item": "helmet_scrap", "damage": [ 0, 3 ] },
-          { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] }
-        ]
+        "items": [ "loincloth", "pants_leather", "armguard_scrap", "footrags", "socks", "boots_steel", "helmet_scrap" ],
+        "entries": [ { "item": "greatsword_makeshift", "custom-flags": [ "auto_wield" ] } ]
       },
-      "female": { "entries": [ { "item": "chestwrap", "damage": [ 0, 3 ] } ] }
+      "female": [ "chestwrap" ]
     }
   }
 ]
