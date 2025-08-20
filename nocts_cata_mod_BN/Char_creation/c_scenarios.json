@@ -25,17 +25,7 @@
     "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "mycus_weapon" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [
-      "GOURMAND",
-      "PARKOUR",
-      "SPIRITUAL",
-      "STYLISH",
-      "HOARDER",
-      "NOMAD",
-      "PACIFIST",
-      "TABLEMANNERS",
-      "WAYFARER"
-    ]
+    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "TABLEMANNERS", "WAYFARER" ]
   },
   {
     "type": "scenario",
@@ -61,6 +51,7 @@
       "prepper",
       "fisher",
       "camper",
+      "rv_camper",
       "groundskeeper",
       "blacksmith",
       "gyro_pilot",
@@ -144,6 +135,8 @@
     ],
     "professions": [
       "power_armor_soldier",
+      "combat_mech_pilot",
+      "recon_mech_pilot",
       "bionic_spy",
       "bio_soldier",
       "bio_sniper",
