@@ -1,13 +1,5 @@
 [
   {
-    "id": "rep_crossbow",
-    "copy-from": "rep_crossbow",
-    "type": "GUN",
-    "name": { "str": "repeating crossbow" },
-    "skill": "rifle",
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ]
-  },
-  {
     "id": "acr",
     "copy-from": "acr",
     "name": { "str": "Remington ACR" },
