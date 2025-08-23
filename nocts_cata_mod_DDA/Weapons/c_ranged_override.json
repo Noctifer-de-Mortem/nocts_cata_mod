@@ -1,14 +1,5 @@
 [
   {
-    "id": "rep_crossbow",
-    "copy-from": "rep_crossbow",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
-    "name": { "str": "repeating crossbow" },
-    "skill": "rifle",
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ]
-  },
-  {
     "id": "laser_cannon",
     "//": "Preserved here because DDA removed it and Cata++ makes some use of it.",
     "looks_like": "ar15",
