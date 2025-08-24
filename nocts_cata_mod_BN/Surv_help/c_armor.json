@@ -420,6 +420,7 @@
     "description": "An experimental cloak with a destructive interference system, creating pitch-black darkness around you.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  It's currently on, activate to turn it back off.",
     "turns_per_charge": 1,
     "revert_to": "acs_74_stealth_cloak",
+    "extend": { "flags": [ "COMBAT_NPC_ON" ] },
     "use_action": { "target": "acs_74_stealth_cloak", "msg": "The cloak flickers and powers down.", "type": "transform" }
   },
   {
@@ -866,7 +867,7 @@
     "color": "green",
     "name": { "str": "set of salvaged exo-wings", "str_pl": "sets of salvaged exo-wings" },
     "description": "A harness from which jut thin, green iridescent wings, steel wires and joints meshed with thick alien nervous cords.  Salvaged using pre-cataclysm research into other living weaponry, it's been heavily altered to fit a human (or mutant) wearer.  Activating it will grant limited flight and vastly speed up movement.  It seems to recharge from sunlight, and being active will also gradually fatigue the user.",
-    "flags": [ "OVERSIZE", "STURDY", "WAIST", "COMPACT", "ONLY_ONE", "COMBAT_NPC_USE" ],
+    "flags": [ "OVERSIZE", "STURDY", "WAIST", "COMPACT", "ONLY_ONE", "COMBAT_NPC_USE", "COMBAT_NPC_ON" ],
     "price_postapoc": "40 USD",
     "material": [ "alien_resin", "flesh", "steel" ],
     "weight": "2 kg",
@@ -1075,7 +1076,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift hydraulic armor (on)", "str_pl": "makeshift hydraulic armors (on)" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
-    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
+    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT", "COMBAT_NPC_ON" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
     "turns_per_charge": 6,
     "revert_to": "c_power_armor_surv",
