@@ -423,7 +423,7 @@
         }
       }
     ],
-    "extend": { "flags": [ "TRADER_AVOID" ] },
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON" ] },
     "power_draw": 500000
   },
   {
@@ -489,7 +489,7 @@
         }
       }
     ],
-    "extend": { "flags": [ "TRADER_AVOID" ] },
+    "extend": { "flags": [ "TRADER_AVOID", "COMBAT_NPC_ON" ] },
     "power_draw": 500000
   },
   {
