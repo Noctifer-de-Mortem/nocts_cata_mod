@@ -33,7 +33,7 @@
   },
   {
     "id": "bio_laser_armgun",
-    "copy-from": "bionic_general_npc_usable_npc_usable",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Laser Gatling Arm CBM" },
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
@@ -70,7 +70,7 @@
   },
   {
     "id": "bio_sword",
-    "copy-from": "bionic_general_npc_usable_npc_usable",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Monomolecular Sword CBM" },
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
@@ -110,7 +110,7 @@
   },
   {
     "id": "bio_flamethrower",
-    "copy-from": "bionic_general_npc_usable_npc_usable",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Dual-Hand Flamethrower CBM" },
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
@@ -321,7 +321,7 @@
   },
   {
     "id": "bio_power_storage_sentinel",
-    "copy-from": "bionic_general_npc_usable_npc_usable",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str_sp": "Sentinel Power Storage CBM" },
     "looks_like": "bio_power_storage_mkII",
