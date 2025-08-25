@@ -34,7 +34,7 @@
   },
   {
     "id": "bio_laser_armgun",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "ITEM",
     "subtypes": [ "BIONIC_ITEM" ],
     "name": { "str": "Laser Gatling Arm CBM" },
@@ -72,7 +72,7 @@
   },
   {
     "id": "bio_sword",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "ITEM",
     "subtypes": [ "BIONIC_ITEM" ],
     "name": { "str": "Monomolecular Sword CBM" },
@@ -114,7 +114,7 @@
   },
   {
     "id": "bio_flamethrower",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "ITEM",
     "subtypes": [ "BIONIC_ITEM" ],
     "name": { "str": "Dual-Hand Flamethrower CBM" },
@@ -202,7 +202,7 @@
   },
   {
     "id": "bio_plasma_cell",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "ITEM",
     "subtypes": [ "BIONIC_ITEM" ],
     "name": { "str": "Plasma Pulse Cell CBM" },
@@ -223,7 +223,7 @@
   },
   {
     "id": "bio_atomic_battery",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "ITEM",
     "subtypes": [ "BIONIC_ITEM" ],
     "name": { "str": "Atomic Battery CBM" },
