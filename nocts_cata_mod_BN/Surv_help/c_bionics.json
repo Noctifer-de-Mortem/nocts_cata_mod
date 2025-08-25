@@ -33,7 +33,7 @@
   },
   {
     "id": "bio_laser_armgun",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Laser Gatling Arm CBM" },
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
@@ -70,7 +70,7 @@
   },
   {
     "id": "bio_sword",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Monomolecular Sword CBM" },
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
@@ -110,7 +110,7 @@
   },
   {
     "id": "bio_flamethrower",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Dual-Hand Flamethrower CBM" },
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
@@ -133,7 +133,7 @@
   },
   {
     "id": "bio_plasma_cell",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Plasma Pulse Cell CBM" },
     "looks_like": "bio_fuel_cell_gasoline",
@@ -168,7 +168,7 @@
   },
   {
     "id": "bio_atomic_battery",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Atomic Battery CBM" },
     "description": "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it also provides a continuous source of power, making it a good supplement to a more intensive power generation method.",
@@ -177,7 +177,7 @@
   },
   {
     "id": "bio_hazard_shield",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Hazard Stabilizer System CBM" },
     "looks_like": "bio_faraday",
@@ -203,7 +203,7 @@
       [ "foot_l", 1 ],
       [ "foot_r", 1 ]
     ],
-    "flags": [ "BIONIC_TOGGLED" ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE", "COMBAT_NPC_USE" ],
     "enchantments": [ "C_ENCH_HAZARD_SHIELD" ],
     "act_cost": "1 kJ",
     "react_cost": "1 kJ",
@@ -263,7 +263,7 @@
   },
   {
     "id": "bio_animal_empathy",
-    "copy-from": "bionic_general",
+    "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str": "Biopattern Distortion CBM" },
     "looks_like": "bio_face_mask",
@@ -278,7 +278,7 @@
     "name": { "str": "Biopattern Distortion" },
     "description": "An advanced network of implants subtly alters your scent, disguises the sound of your heartbeat, and disrupts other subtle cues.  It won't work on the undead or other unnatural threats, but it will allow you to approach most wildlife unhindered, including mutant animals.",
     "occupied_bodyparts": [ [ "torso", 5 ], [ "head", 3 ] ],
-    "flags": [ "BIONIC_TOGGLED" ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE", "COMBAT_NPC_USE" ],
     "enchantments": [ "C_ENCH_BIOPATTERN_DISTORTION" ],
     "act_cost": "1250 J",
     "react_cost": "1250 J",
@@ -321,7 +321,7 @@
   },
   {
     "id": "bio_power_storage_sentinel",
-    "copy-from": "bionic_general_npc_usable",
+    "copy-from": "bionic_general_npc_usable_npc_usable",
     "type": "BIONIC_ITEM",
     "name": { "str_sp": "Sentinel Power Storage CBM" },
     "looks_like": "bio_power_storage_mkII",
