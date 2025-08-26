@@ -410,7 +410,7 @@
       "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "emitter": "emit_shadow_field" } ],
       "recharge_scheme": [ { "type": "time", "interval": "1 m", "rate": 1 } ]
     },
-    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "COMBAT_NPC_USE" ]
+    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "COMBAT_NPC_USE", "ALLOWS_TAIL_SNAKE" ]
   },
   {
     "id": "acs_74_stealth_cloak_on",
@@ -1008,7 +1008,7 @@
       "skills": [ "pistol", "smg", "shotgun", "rifle" ],
       "flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
     },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "COMPACT", "OVERSIZE", "NO_QUICKDRAW" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "COMPACT", "OVERSIZE", "NO_QUICKDRAW", "ALLOWS_TAIL_SNAKE" ]
   },
   {
     "type": "mutation",
@@ -1176,7 +1176,15 @@
     "encumbrance": 45,
     "material_thickness": 8,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "ONLY_ONE", "BLOCK_WHILE_WORN", "HEAVY_WEAPON_SUPPORT", "POWERARMOR_COMPATIBLE" ]
+    "flags": [
+      "OVERSIZE",
+      "BELTED",
+      "ONLY_ONE",
+      "BLOCK_WHILE_WORN",
+      "HEAVY_WEAPON_SUPPORT",
+      "POWERARMOR_COMPATIBLE",
+      "ALLOWS_TAIL_SNAKE"
+    ]
   },
   {
     "id": "shield_welded_surv_superalloy",
