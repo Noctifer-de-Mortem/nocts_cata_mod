@@ -11,31 +11,20 @@
     "base_casting_time": 200,
     "effect": "recover_energy",
     "effect_str": "BIONIC",
-    "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true }, { "id": "c_cbm_rtg_induction_3", "hit_self": true } ]
+    "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true } ]
   },
   {
     "id": "c_cbm_rtg_induction_2",
     "type": "SPELL",
     "name": { "str": "CBM Induction Heat" },
     "description": "Vented waste heat.",
+    "flags": [ "NO_EXPLOSION_VFX", "SILENT", "NO_HANDS", "NO_LEGS" ],
     "valid_targets": [ "self" ],
     "effect": "target_attack",
     "field_id": "fd_hot_air3",
     "min_field_intensity": 2,
     "max_field_intensity": 2,
     "field_chance": 1
-  },
-  {
-    "id": "c_cbm_rtg_induction_3",
-    "type": "SPELL",
-    "name": { "str": "CBM Induction Rads" },
-    "description": "Radiation!",
-    "valid_targets": [ "self" ],
-    "flags": [ "NO_EXPLOSION_VFX", "RANDOM_DURATION" ],
-    "effect": "target_attack",
-    "effect_str": "rtg_induction_radiation",
-    "min_duration": 500,
-    "max_duration": 1000
   },
   {
     "id": "c_flesh_hit_effect",
