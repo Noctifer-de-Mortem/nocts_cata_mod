@@ -1086,7 +1086,7 @@
     "color": "light_green",
     "looks_like": "adv_UPS_off",
     "name": { "str": "inductive CBM charger" },
-    "description": "A prototype device giving off noticeable heat, housing a compact radioisotope thermoelectric generator.  Capable of serving as a UPS, but its main purpose is its inductive charging system designed specifically for CBM power storage.  Activating it will dump 50 kJ of power directly into your bionic power reserves, producing a burst of waste heat.",
+    "description": "A prototype device giving off noticeable heat, housing a compact radioisotope thermoelectric generator.  Capable of serving as a UPS, but its main purpose is its inductive charging system designed specifically for CBM power storage.  Activating it will dump 50 kJ of power directly into your bionic power reserves, producing a burst of waste heat and radiation.",
     "price": "12000 USD",
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],

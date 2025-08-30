@@ -11,7 +11,7 @@
     "base_casting_time": 200,
     "effect": "recover_energy",
     "effect_str": "BIONIC",
-    "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true } ]
+    "extra_effects": [ { "id": "c_cbm_rtg_induction_2", "hit_self": true }, { "id": "c_cbm_rtg_induction_3", "hit_self": true } ]
   },
   {
     "id": "c_cbm_rtg_induction_2",
@@ -25,6 +25,18 @@
     "min_field_intensity": 2,
     "max_field_intensity": 2,
     "field_chance": 1
+  },
+  {
+    "id": "c_cbm_rtg_induction_3",
+    "type": "SPELL",
+    "name": { "str": "CBM Induction Rads" },
+    "description": "Radiation!",
+    "valid_targets": [ "self" ],
+    "flags": [ "NO_EXPLOSION_VFX", "SILENT", "RANDOM_DURATION" ],
+    "effect": "target_attack",
+    "effect_str": "rtg_induction_radiation",
+    "min_duration": 500,
+    "max_duration": 1000
   },
   {
     "id": "c_flesh_hit_effect",
