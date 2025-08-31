@@ -593,7 +593,7 @@
     "id": "surv_full_3006",
     "copy-from": "surv_full_223",
     "type": "GUN",
-    "name": { "str": "survivor's .30-60 battle rifle" },
+    "name": { "str": "survivor's .30-06 battle rifle" },
     "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the .30-06 cartridge via its custom-made magazine, and can accept magazines from the BAR of comparable capacity.",
     "ammo": [ "3006" ],
     "min_cycle_recoil": 2000,
