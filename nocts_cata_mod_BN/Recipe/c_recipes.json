@@ -2489,7 +2489,7 @@
         [ "RTG_coffee", -1 ]
       ]
     ],
-    "components": [ [ [ "iv_mutagen_alpha", 1 ] ], [ [ "iv_mutagen_medical", 1 ] ], [ [ "nanomaterial", 1 ], [ "bio_nanobots", 1 ] ] ],
+    "components": [ [ [ "iv_mutagen_alpha", 1 ], [ "iv_mutagen_medical", 1 ], [ "iv_mutagen", 2 ] ], [ [ "nanomaterial", 1 ] ] ],
     "flags": [ "SECRET" ]
   },
   {
