@@ -96,7 +96,22 @@
     "durability": 100,
     "item": "surv_station",
     "location": "center",
-    "flags": [ "OBSTACLE", "KITCHEN", "CHEMLAB", "CRAFTRIG", "FORGE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
+    "integrated_tools": [
+      "pot",
+      "pan",
+      "hotplate",
+      "chemistry_set",
+      "electrolysis_kit",
+      "dehydrator",
+      "vac_sealer",
+      "food_processor",
+      "press",
+      "forge",
+      "soldering_iron",
+      "welder",
+      "water_purifier"
+    ],
+    "flags": [ "OBSTACLE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 30, 40 ] },
       { "item": "steel_chunk", "count": [ 30, 40 ] },
