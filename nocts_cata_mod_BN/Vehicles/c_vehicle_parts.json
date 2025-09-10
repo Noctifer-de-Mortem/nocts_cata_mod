@@ -111,7 +111,7 @@
       "welder",
       "water_purifier"
     ],
-    "flags": [ "OBSTACLE", "WELDRIG", "WATER_PURIFIER", "FAUCET" ],
+    "flags": [ "OBSTACLE", "WELDRIG", "WATER_PURIFIER", "FAUCET", "CRAFTER" ],
     "breaks_into": [
       { "item": "steel_lump", "count": [ 30, 40 ] },
       { "item": "steel_chunk", "count": [ 30, 40 ] },
