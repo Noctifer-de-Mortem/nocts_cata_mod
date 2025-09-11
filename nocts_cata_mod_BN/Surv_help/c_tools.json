@@ -784,7 +784,7 @@
     "max_charges": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
     "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ] },
-    "flags": [ "BELTED", "COMPACT", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD" ],
+    "flags": [ "BELTED", "COMPACT", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_CLAWS" ],
     "covers": [ "hand_either" ],
     "encumbrance": 5,
     "coverage": 10,
@@ -1017,7 +1017,7 @@
       "ALLOWS_NATURAL_ATTACKS",
       "FIRESTARTER",
       "THERMOMETER",
-      "POWERARMOR_COMPATIBLE"
+      "POWERARMOR_COMPATIBLE", "ALLOWS_CLAWS"
     ]
   },
   {
@@ -1036,7 +1036,7 @@
     "covers": [ "hand_either" ],
     "encumbrance": 1,
     "coverage": 5,
-    "flags": [ "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATIBLE" ],
+    "flags": [ "BELTED", "COMPACT", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "POWERARMOR_COMPATIBLE", "ALLOWS_CLAWS" ],
     "use_action": "DISASSEMBLE"
   },
   {
