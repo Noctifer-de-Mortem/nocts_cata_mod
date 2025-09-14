@@ -27,7 +27,7 @@
     "material_thickness": 2,
     "use_action": { "type": "bandolier", "capacity": 50, "ammo": [ "arrow", "bolt" ], "draw_cost": 3 },
     "valid_mods": [ "resized_large" ],
-    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED" ]
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "ALLOWS_WINGS" ]
   },
   {
     "id": "surv_suit",
@@ -75,7 +75,8 @@
       "ALLOWS_NATURAL_ATTACKS",
       "WATCH",
       "NONCONDUCTIVE",
-      "ALARMCLOCK"
+      "ALARMCLOCK",
+      "ALLOWS_HOOVES"
     ]
   },
   {
@@ -124,7 +125,8 @@
       "ALLOWS_NATURAL_ATTACKS",
       "WATCH",
       "NONCONDUCTIVE",
-      "ALARMCLOCK"
+      "ALARMCLOCK",
+      "ALLOWS_HOOVES"
     ]
   },
   {
@@ -801,7 +803,17 @@
     "color": "green",
     "name": { "str": "salvaged carapace armor" },
     "description": "A second skin of alien sinew and steel support, covered in armor plates made of resin.  Salvaged using pre-cataclysm research into other living weaponry, it's been practically mutilated to fit a human (or mutant) wearer.  Activating it will reduce the suit's encumbrance, make your attacks faster, enhance strength and dexterity, protect the wearer from toxic gas, serve as a rebreather, enhance stamina and carry capacity, and provide some protection from outside temperature.  Recharges in sunlight, being active will also gradually fatigue the user and affect healthiness, plus render them more vulnerable to electric shocks.",
-    "flags": [ "OVERSIZE", "STURDY", "SKINTIGHT", "HELMET_COMPAT", "SWIM_GOGGLES", "SUN_GLASSES", "ONLY_ONE", "COMBAT_NPC_USE" ],
+    "flags": [
+      "OVERSIZE",
+      "STURDY",
+      "SKINTIGHT",
+      "HELMET_COMPAT",
+      "SWIM_GOGGLES",
+      "SUN_GLASSES",
+      "ONLY_ONE",
+      "COMBAT_NPC_USE",
+      "ALLOWS_HOOVES"
+    ],
     "price_postapoc": "80 USD",
     "material": [ "alien_resin", "flesh", "steel" ],
     "weight": "20 kg",
@@ -1032,7 +1044,7 @@
     "looks_like": "rm13_armor",
     "name": { "str": "makeshift hydraulic armor" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
-    "flags": [ "OVERSIZE", "STURDY", "OUTER", "ALLOWS_NATURAL_ATTACKS", "COMBAT_NPC_USE" ],
+    "flags": [ "OVERSIZE", "STURDY", "OUTER", "ALLOWS_NATURAL_ATTACKS", "COMBAT_NPC_USE", "ALLOWS_HOOVES" ],
     "price": "500 USD",
     "price_postapoc": "50 USD",
     "material": [ "steel", "kevlar_rigid" ],

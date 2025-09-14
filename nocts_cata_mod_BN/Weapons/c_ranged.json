@@ -759,7 +759,7 @@
     "name": { "str": "makeshift greatbow" },
     "description": "A massive steel longbow made from part of a vehicle frame sawed and bent into shape.  While extremely powerful, its immense draw weight requires superhuman strength to use, plus it suffers in efficiency and accuracy.",
     "material": [ "steel" ],
-    "extend": { "flags": [ "STR_DRAW" ] },
+    "extend": { "flags": [ "STR_DRAW", "ALLOWS_WINGS" ] },
     "min_strength": 20,
     "weight": "7 kg",
     "volume": "5 L",
