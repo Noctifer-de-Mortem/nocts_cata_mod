@@ -818,11 +818,10 @@
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
       [ [ "223_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
@@ -838,11 +837,10 @@
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
       [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
@@ -858,11 +856,10 @@
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
       [ [ "762_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
@@ -878,11 +875,10 @@
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
       [ [ "762R_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
@@ -898,11 +894,10 @@
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
     "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
     "tools": [
       [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
       [ [ "3006_casing", -1 ] ]
     ],
     "components": [ [ [ "wire", 2 ] ] ]
@@ -1111,9 +1106,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1132,9 +1128,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_22", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1153,9 +1150,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_9mm", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1174,9 +1172,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_45", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1195,9 +1194,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1216,9 +1216,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1237,9 +1238,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762R", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1258,9 +1260,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_3006", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 1 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1279,9 +1282,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_12", 1 ] ], [ [ "spring", 1 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1300,9 +1304,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_308", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1321,9 +1326,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1342,9 +1348,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_762R", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1363,9 +1370,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_3006", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1384,9 +1392,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_223", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -1405,9 +1414,10 @@
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "ANVIL", "level": 2 },
-      { "id": "DRILL", "level": 2 }
+      { "id": "DRILL", "level": 2 },
+      { "id": "SWAGING", "level": 1 }
     ],
-    "tools": [ [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "fr_50", 1 ] ], [ [ "spring", 2 ] ], [ [ "sheet_metal", 2 ] ], [ [ "2x4", 1 ] ] ]
   },
   {
@@ -2529,8 +2539,7 @@
       [ "recipe_labchem", 7 ],
       [ "reference_cooking", 7 ]
     ],
-    "using": [ [ "c_resin_molding_standard", 1 ] ],
-    "tools": [ [ [ "press", -1 ] ] ]
+    "using": [ [ "c_resin_molding_standard", 1 ] ]
   },
   {
     "result": "c_alien_resin_bullet",
