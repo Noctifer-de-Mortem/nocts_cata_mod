@@ -148,7 +148,7 @@
             { "value": "PERCEPTION", "add": -2 },
             { "value": "SPEED", "add": 20 }
           ],
-          "mutations": [ "SCHIZOPHRENIC", "ROT3", "KILLER", "PRED2", "HUNGER2", "CHAOTIC" ],
+          "mutations": [ "SCHIZOPHRENIC", "ROT2", "KILLER", "PRED2", "HUNGER2" ],
           "hit_you_effect": [
             {
               "id": "c_lifedrain_1",
