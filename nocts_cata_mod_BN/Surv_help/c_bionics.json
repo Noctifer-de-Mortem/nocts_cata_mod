@@ -164,7 +164,7 @@
     "fuel_efficiency": 0.005,
     "time": 1,
     "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF", "INITIALLY_ACTIVATE" ]
   },
   {
     "id": "bio_atomic_battery",
@@ -317,7 +317,7 @@
     "name": { "str": "Sentinel Power Storage" },
     "capacity": "1000 kJ",
     "description": "An experimental and rare Compact Bionics Module that increases your power capacity by 1000 kJ.",
-    "flags": [ "BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL" ]
   },
   {
     "id": "bio_power_storage_sentinel",

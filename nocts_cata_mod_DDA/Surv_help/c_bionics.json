@@ -401,6 +401,7 @@
     "type": "bionic",
     "name": { "str": "Sentinel Power Storage" },
     "capacity": "1000 kJ",
+    "dupes_allowed": true,
     "description": "An experimental and rare Compact Bionics Module that increases your power capacity by 1000 kJ.",
     "flags": [ "BIONIC_NPC_USABLE" ]
   },
