@@ -870,7 +870,7 @@
     "environmental_protection": 15,
     "encumbrance": 10,
     "weight_capacity_modifier": 1.5,
-    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF" ] }
+    "extend": { "flags": [ "WATERPROOF", "RAINPROOF", "CLIMATE_CONTROL", "GAS_PROOF", "REBREATHER", "NO_TAKEOFF", "COMBAT_NPC_ON" ] }
   },
   {
     "id": "c_mi_go_wings_salvaged",
