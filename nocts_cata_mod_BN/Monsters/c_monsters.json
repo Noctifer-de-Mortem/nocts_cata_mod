@@ -99,7 +99,7 @@
     "death_function": [ "ACID", "NORMAL" ],
     "zombify_into": "mon_zombie_failed_weapon",
     "fungalize_into": "mon_fungus_failed_weapon",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "BASHES", "PUSH_VEH", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "HUMAN", "ELECTRIC", "BASHES", "PUSH_VEH", "PATH_AVOID_DANGER_1", "CANT_CLONE" ]
   },
   {
     "id": "hulk_weapon",
@@ -178,7 +178,8 @@
       "BASHES",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
-      "NO_FUNG_DMG"
+      "NO_FUNG_DMG",
+      "CANT_CLONE"
     ]
   },
   {
@@ -230,7 +231,7 @@
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_drops": "mon_fungus_failed_weapon_death_drops",
     "death_function": [ "ACID", "FUNGUS", "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "PUSH_MON", "PUSH_VEH" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "ELECTRIC", "ATTACKMON", "BASHES", "PUSH_MON", "PUSH_VEH", "CANT_CLONE" ]
   },
   {
     "id": "mon_zombie_bio_dormant_unarmed",
@@ -275,7 +276,7 @@
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" },
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "STUMBLES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES" ]
   },
   {
     "id": "mon_zombie_bio_dormant_armed",
@@ -320,7 +321,7 @@
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE" },
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "STUMBLES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES" ]
   },
   {
     "id": "mon_zombie_bio_knife",
@@ -338,7 +339,7 @@
     "special_attacks": [ [ "GRAB", 10 ], [ "BIO_OP_TAKEDOWN", 30 ], [ "LUNGE", 20 ] ],
     "death_drops": "mon_zombie_bio_knife_death_drops",
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_1", "BLEED" ],
+    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "BLEED" ],
     "delete": { "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" } }
   },
   {
@@ -411,7 +412,7 @@
     "death_drops": "wild_bio_infantry_rifle",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
@@ -483,7 +484,7 @@
     "death_drops": "wild_bio_infantry_shotgun",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
@@ -553,7 +554,7 @@
     "death_drops": "wild_bio_knight_lmg",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
   },
   {
     "id": "mon_zombie_bio_knight_lauhcher",
@@ -624,7 +625,7 @@
     "death_drops": "wild_bio_knight_launcher",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
   },
   {
     "id": "mon_zombie_bio_scout_sniper",
@@ -697,7 +698,7 @@
     "death_drops": "wild_bio_scout_sniper",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
@@ -768,7 +769,7 @@
     "death_drops": "wild_bio_tool_pistol",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_zombie_bio_tool_smg",
@@ -839,7 +840,7 @@
     "death_drops": "wild_bio_tool_smg",
     "death_function": [ "NORMAL" ],
     "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE",  "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_zombie_bio_reanimated",
