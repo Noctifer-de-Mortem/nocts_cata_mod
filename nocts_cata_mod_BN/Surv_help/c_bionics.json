@@ -29,7 +29,8 @@
     "act_cost": "40 kJ",
     "fake_item": "bio_laser_minigun",
     "description": "Your left arm has been outfitted with a complex array of rotating laser projectors.  Or in layman's terms, a laser gatling gun!  You may use your energy banks to fire a barrage of lasers.",
-    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ],
+    "points": 4
   },
   {
     "id": "bio_laser_armgun",
@@ -66,7 +67,8 @@
     "act_cost": "150 J",
     "fake_item": "bio_sword_weapon",
     "description": "A deadly yard-long blade made of advanced material now resides inside your forearm, capable of being extended through the back of your wrist at the cost of a small amount of power.  Though exceptionally sharp, it will prevent you from holding anything else while extended.",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ],
+    "points": 3
   },
   {
     "id": "bio_sword",
@@ -106,7 +108,8 @@
     "act_cost": "50 kJ",
     "fake_item": "bio_flamethrower_gun",
     "description": "Implanted in the palms of your hands lie a compact flamethrower system that uses bionic power and oxygen in the air as ignition, use as any other gun.",
-    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_GUN", "BIONIC_NPC_USABLE" ],
+    "points": 2
   },
   {
     "id": "bio_flamethrower",
@@ -129,7 +132,8 @@
     "fuel_efficiency": 0.5,
     "exothermic_power_gen": true,
     "time": 1,
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE" ],
+    "points": 2
   },
   {
     "id": "bio_plasma_cell",
@@ -164,7 +168,8 @@
     "fuel_efficiency": 0.005,
     "time": 1,
     "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF", "INITIALLY_ACTIVATE" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF", "INITIALLY_ACTIVATE" ],
+    "points": 2
   },
   {
     "id": "bio_atomic_battery",
@@ -207,7 +212,8 @@
     "enchantments": [ "C_ENCH_HAZARD_SHIELD" ],
     "act_cost": "1 kJ",
     "react_cost": "1 kJ",
-    "time": 1
+    "time": 1,
+    "points": 1
   },
   {
     "type": "enchantment",
@@ -233,7 +239,8 @@
     "occupied_bodyparts": [ [ "arm_r", 5 ] ],
     "act_cost": "50 J",
     "fake_item": "bio_cutting_torch_item",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ],
+    "points": 2
   },
   {
     "id": "bio_cutting_torch",
@@ -282,7 +289,8 @@
     "enchantments": [ "C_ENCH_BIOPATTERN_DISTORTION" ],
     "act_cost": "1250 J",
     "react_cost": "1250 J",
-    "time": 1
+    "time": 1,
+    "points": 1
   },
   {
     "type": "enchantment",
@@ -317,7 +325,8 @@
     "name": { "str": "Sentinel Power Storage" },
     "capacity": "1000 kJ",
     "description": "An experimental and rare Compact Bionics Module that increases your power capacity by 1000 kJ.",
-    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL" ]
+    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL" ],
+    "points": 4
   },
   {
     "id": "bio_power_storage_sentinel",

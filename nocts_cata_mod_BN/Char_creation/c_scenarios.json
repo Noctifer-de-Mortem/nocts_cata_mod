@@ -11,7 +11,18 @@
     "allowed_locs": [ "Bio_Weapon_Lab_l" ],
     "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d", "failed_weapon_scen" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "WAYFARER" ]
+    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "WAYFARER" ],
+    "bionics": [
+      "bio_laser_armgun",
+      "bio_sword",
+      "bio_flamethrower",
+      "bio_plasma_cell",
+      "bio_atomic_battery",
+      "bio_hazard_shield",
+      "bio_cutting_torch",
+      "bio_animal_empathy",
+      "bio_power_storage_sentinel"
+    ]
   },
   {
     "type": "scenario",
@@ -25,7 +36,18 @@
     "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "mycus_weapon" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "TABLEMANNERS", "WAYFARER" ]
+    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "TABLEMANNERS", "WAYFARER" ],
+    "bionics": [
+      "bio_laser_armgun",
+      "bio_sword",
+      "bio_flamethrower",
+      "bio_plasma_cell",
+      "bio_atomic_battery",
+      "bio_hazard_shield",
+      "bio_cutting_torch",
+      "bio_animal_empathy",
+      "bio_power_storage_sentinel"
+    ]
   },
   {
     "type": "scenario",
@@ -116,7 +138,8 @@
       "LARGE",
       "MARTIAL_ARTS_MUT_COM"
     ],
-    "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ]
+    "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ],
+    "bionics": [ "bio_laser_armgun", "bio_sword", "bio_flamethrower", "bio_hazard_shield" ]
   },
   {
     "type": "scenario",
@@ -145,7 +168,18 @@
       "bio_knight",
       "bio_tool"
     ],
-    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ]
+    "traits": [ "MARTIAL_ARTS_BIOJUTSU" ],
+    "bionics": [
+      "bio_laser_armgun",
+      "bio_sword",
+      "bio_flamethrower",
+      "bio_plasma_cell",
+      "bio_atomic_battery",
+      "bio_hazard_shield",
+      "bio_cutting_torch",
+      "bio_animal_empathy",
+      "bio_power_storage_sentinel"
+    ]
   },
   {
     "copy-from": "alone",
@@ -199,7 +233,11 @@
     "copy-from": "cyberpunk",
     "type": "scenario",
     "id": "cyberpunk",
-    "extend": { "traits": [ "MARTIAL_ARTS_BIOJUTSU" ], "professions": [ "bionic_silencer" ] }
+    "extend": {
+      "traits": [ "MARTIAL_ARTS_BIOJUTSU" ],
+      "professions": [ "bionic_silencer" ],
+      "bionics": [ "bio_flamethrower", "bio_atomic_battery", "bio_hazard_shield", "bio_cutting_torch", "bio_animal_empathy" ]
+    }
   },
   {
     "copy-from": "wilderness",
@@ -236,7 +274,20 @@
     "copy-from": "lab_staff",
     "type": "scenario",
     "id": "lab_staff",
-    "extend": { "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "bionic_silencer" ] }
+    "extend": {
+      "professions": [ "bio_infantry", "bio_scout", "bio_knight", "bio_tool", "bionic_silencer" ],
+      "bionics": [
+        "bio_laser_armgun",
+        "bio_sword",
+        "bio_flamethrower",
+        "bio_plasma_cell",
+        "bio_atomic_battery",
+        "bio_hazard_shield",
+        "bio_cutting_torch",
+        "bio_animal_empathy",
+        "bio_power_storage_sentinel"
+      ]
+    }
   },
   {
     "copy-from": "heli_crash",
