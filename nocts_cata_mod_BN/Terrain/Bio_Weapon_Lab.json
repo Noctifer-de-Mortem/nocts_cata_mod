@@ -186,7 +186,7 @@
         "r": "t_metal_floor",
         "s": "t_switchgear_s",
         "t": "t_metal_floor",
-        "v": "t_vat",
+        "v": "t_metal_floor",
         "{": "t_metal_floor",
         "|": "t_wall_metal",
         "-": "t_wall",
@@ -204,6 +204,7 @@
         "o": "f_oven",
         "r": "f_rack",
         "t": "f_table",
+        "v": "f_cloning_vat",
         "{": "f_fridge"
       },
       "place_toilets": [ { "x": 1, "y": 12 }, { "x": 22, "y": 12 } ],

@@ -370,7 +370,7 @@
         "c": "t_metal_floor",
         "h": "t_metal_floor",
         "r": "t_metal_floor",
-        "v": "t_vat"
+        "v": "t_metal_floor"
       },
       "furniture": {
         "{": "f_locker",
@@ -380,7 +380,8 @@
         "U": "f_kiln_metal_empty",
         "c": "f_chair",
         "h": "f_clay_kiln",
-        "r": "f_rack"
+        "r": "f_rack",
+        "v": "f_cloning_vat"
       },
       "place_loot": [
         { "item": "UPS_off", "x": 13, "y": 12, "chance": 90 },
@@ -462,7 +463,7 @@
         "i": "t_metal_floor",
         "j": "t_metal_floor",
         "r": "t_metal_floor",
-        "v": "t_vat"
+        "v": "t_metal_floor"
       },
       "furniture": {
         "{": "f_locker",
@@ -474,7 +475,8 @@
         "g": "f_still",
         "i": "f_autodoc",
         "j": "f_autodoc_couch",
-        "r": "f_rack"
+        "r": "f_rack",
+        "v": "f_cloning_vat"
       },
       "place_loot": [
         { "item": "flesh_pistol", "x": 1, "y": 12 },
@@ -582,7 +584,7 @@
         "r": "t_metal_floor",
         "s": "t_metal_floor",
         "t": "t_metal_floor",
-        "v": "t_vat"
+        "v": "t_metal_floor"
       },
       "furniture": {
         "{": "f_locker",
@@ -598,7 +600,8 @@
         "o": "f_oven",
         "r": "f_rack",
         "s": "f_sink",
-        "t": "f_toilet"
+        "t": "f_toilet",
+        "v": "f_cloning_vat"
       },
       "toilets": { "t": {  } },
       "place_loot": [
