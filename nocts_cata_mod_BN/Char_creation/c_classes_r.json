@@ -61,6 +61,7 @@
     "description": "With the end of the world, you found yourself wandering from town to town, scavenging and learning as you go.  Sleeping under the stars, scraping by one meal and one bullet at a time, you've taken to this new life like a duck takes to water.",
     "points": 8,
     "skills": [
+      { "level": 1, "name": "swimming" },
       { "level": 4, "name": "gun" },
       { "level": 3, "name": "pistol" },
       { "level": 3, "name": "melee" },
@@ -115,6 +116,7 @@
     "description": "When the world ended, you decided you would live by the sword.  By good fortune or by dedication, you lived long enough to earn your steel.",
     "points": 9,
     "skills": [
+      { "level": 2, "name": "swimming" },
       { "level": 5, "name": "fabrication" },
       { "level": 4, "name": "tailor" },
       { "level": 3, "name": "survival" },
@@ -154,6 +156,7 @@
     "description": "The end of the world brings out the best and worst in everyone.  For you, it was a chance to channel your pre-Cataclysm expertise into something more primal.  Whether you have the might to use such armament remains to be seen.",
     "points": 12,
     "skills": [
+      { "level": 2, "name": "swimming" },
       { "level": 6, "name": "fabrication" },
       { "level": 4, "name": "mechanics" },
       { "level": 2, "name": "electronics" },
@@ -200,6 +203,7 @@
       "bio_power_storage_mkII"
     ],
     "skills": [
+      { "level": 1, "name": "swimming" },
       { "level": 2, "name": "cooking" },
       { "level": 2, "name": "computer" },
       { "level": 3, "name": "dodge" },
