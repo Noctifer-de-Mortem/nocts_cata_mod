@@ -224,7 +224,12 @@
       "NEURO_BAD_BIOWEAPON",
       "BIO_WEAPON_ALPHA"
     ],
-    "skills": [ { "level": 5, "name": "dodge" }, { "level": 5, "name": "melee" }, { "level": 5, "name": "unarmed" } ],
+    "skills": [
+      { "level": 2, "name": "swimming" },
+      { "level": 5, "name": "dodge" },
+      { "level": 5, "name": "melee" },
+      { "level": 5, "name": "unarmed" }
+    ],
     "CBMs": [
       "bio_dex_enhancer",
       "bio_eye_enhancer",
@@ -330,6 +335,7 @@
       "BIO_WEAPON_BETA"
     ],
     "skills": [
+      { "level": 2, "name": "swimming" },
       { "level": 5, "name": "dodge" },
       { "level": 5, "name": "melee" },
       { "level": 5, "name": "cutting" },
@@ -457,6 +463,8 @@
       "PROF_MILITARY"
     ],
     "skills": [
+      { "level": 2, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "rifle" },
       { "level": 3, "name": "pistol" },
@@ -510,6 +518,7 @@
     ],
     "traits": [ "SUPER_SOLDIER_MARKER", "THRESH_SUPER_SOLDIER", "SENTINEL_PERK_DEX_2", "SENTINEL_PERK_PER_2", "PROF_MILITARY" ],
     "skills": [
+      { "level": 1, "name": "firstaid" },
       { "level": 5, "name": "gun" },
       { "level": 4, "name": "rifle" },
       { "level": 3, "name": "survival" },
@@ -580,6 +589,7 @@
     ],
     "traits": [ "SUPER_SOLDIER_MARKER", "THRESH_SUPER_SOLDIER", "SENTINEL_PERK_PER_2", "SENTINEL_PERK_INT_2", "PROF_MILITARY" ],
     "skills": [
+      { "level": 2, "name": "swimming" },
       { "level": 5, "name": "electronics" },
       { "level": 5, "name": "cooking" },
       { "level": 4, "name": "mechanics" },
@@ -650,6 +660,8 @@
     ],
     "traits": [ "SUPER_SOLDIER_MARKER", "THRESH_SUPER_SOLDIER", "SENTINEL_PERK_STR_2", "SENTINEL_PERK_DEX_2", "PROF_MILITARY" ],
     "skills": [
+      { "level": 2, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "rifle" },
       { "level": 2, "name": "shotgun" },
@@ -698,7 +710,12 @@
       "bio_power_storage_mkII"
     ],
     "traits": [ "PROF_GLADIATOR" ],
-    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
+    "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "cutting" },
+      { "level": 2, "name": "dodge" }
+    ],
     "items": {
       "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
@@ -725,6 +742,7 @@
     ],
     "traits": [ "PROF_GLADIATOR" ],
     "skills": [
+      { "level": 1, "name": "swimming" },
       { "level": 2, "name": "melee" },
       { "level": 2, "name": "unarmed" },
       { "level": 2, "name": "dodge" },
@@ -756,7 +774,12 @@
       "bio_power_storage_mkII"
     ],
     "traits": [ "PROF_GLADIATOR" ],
-    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "rifle" }, { "level": 2, "name": "dodge" } ],
+    "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "dodge" }
+    ],
     "items": {
       "both": [ "socks", "hat_cotton", "armguard_hard", "gloves_fingerless", "tank_top", "jeans", "legguard_hard", "boots" ],
       "male": [ "briefs" ],
@@ -787,6 +810,7 @@
       "bio_power_storage_mkII"
     ],
     "skills": [
+      { "level": 1, "name": "swimming" },
       { "level": 2, "name": "melee" },
       { "level": 2, "name": "unarmed" },
       { "level": 2, "name": "stabbing" },
@@ -905,6 +929,8 @@
       "PROF_FERAL"
     ],
     "skills": [
+      { "level": 2, "name": "swimming" },
+      { "level": 1, "name": "firstaid" },
       { "level": 3, "name": "gun" },
       { "level": 3, "name": "shotgun" },
       { "level": 3, "name": "pistol" },
@@ -951,7 +977,12 @@
       "bio_power_storage_mkII"
     ],
     "traits": [ "LARGE", "COLDBLOOD", "GROWL", "PROF_GLADIATOR", "PROF_FERAL" ],
-    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "cutting" }, { "level": 2, "name": "dodge" } ],
+    "skills": [
+      { "level": 1, "name": "swimming" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "cutting" },
+      { "level": 2, "name": "dodge" }
+    ],
     "items": {
       "both": {
         "items": [ "loincloth", "pants_leather", "armguard_scrap", "footrags", "socks", "boots_steel", "helmet_scrap" ],
