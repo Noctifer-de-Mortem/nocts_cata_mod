@@ -87,7 +87,7 @@
     "price_postapoc": "20 USD",
     "extend": { "flags": [ "BELT_CLIP" ] },
     "delete": { "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE" ] }
-  }
+  },
   {
     "type": "TOOL",
     "id": "flesh_knife",
