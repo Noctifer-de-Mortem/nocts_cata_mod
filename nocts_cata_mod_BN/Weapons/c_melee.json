@@ -32,7 +32,7 @@
     "id": "unbio_sword_weapon",
     "name": { "str": "repurposed monomolecular sword" },
     "category": "weapons",
-    "weapon_category": [ "1H_SWORDS", "MEDIEVAL_SWORDS", "DUELING_SWORDS", "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
+    "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS", "1H_SWORDS" ],
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals, salvaged from a CBM.  A welded metal handle and handguard allow you to hold it without slicing your hand open.",
     "weight": "450 g",
     "volume": "2500 ml",
@@ -77,6 +77,18 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 12 ] ]
   },
   {
+    "id": "unbio_wire_weapon",
+    "copy-from": "bio_wire_weapon",
+    "type": "GENERIC",
+    "name": { "str": "repurposed bionic whip" },
+    "description": "A long, sharp thread of high-tech material with a small counterweight at the end, salvaged from a CBM.  A metal handle has been welded on to make it actually feasible to use without being more of a danger to the wielder.",
+    "relative": { "weight": "150 g", "to_hit": -1, "bashing": 4, "cutting": -4 },
+    "price": "60 USD",
+    "price_postapoc": "20 USD",
+    "extend": { "flags": [ "BELT_CLIP" ] },
+    "delete": { "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE" ] }
+  }
+  {
     "type": "TOOL",
     "id": "flesh_knife",
     "category": "weapons",
@@ -119,7 +131,7 @@
     "type": "TOOL",
     "id": "flesh_blade",
     "category": "weapons",
-    "weapon_category": [ "1H_SWORDS", "MEDIEVAL_SWORDS", "DUELING_SWORDS", "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
+    "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS", "1H_SWORDS" ],
     "name": { "str": "biological sword" },
     "description": "A yard-long sword of metal, enclosed in flesh and bone, including a protective hilt framed with tough sinews.  Grown from a smaller sample, holding it brings a strange sense of power beyond what it used to.  It feels almost like a living being with a mind of its own, one that lusts for blood.",
     "weight": "680 g",

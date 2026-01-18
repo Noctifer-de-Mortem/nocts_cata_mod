@@ -3,6 +3,7 @@
     "id": "bio_laser_minigun",
     "type": "GUN",
     "name": { "str": "laser gatling arm" },
+    "weapon_category": [ "ENERGY_WEAPONS" ],
     "description": "Your left arm is currently transformed into a ups powered laser gatling gun.  Fire it as if it was any other gun.",
     "volume": "3 L",
     "weight": "3 kg",
@@ -44,7 +45,7 @@
   {
     "type": "GENERIC",
     "id": "bio_sword_weapon",
-    "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS" ],
+    "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS", "1H_SWORDS" ],
     "name": { "str": "monomolecular sword" },
     "description": "A yard-long sword made from high-tech alloy and edged with bonded nanocrystals.",
     "weight": "300 g",
