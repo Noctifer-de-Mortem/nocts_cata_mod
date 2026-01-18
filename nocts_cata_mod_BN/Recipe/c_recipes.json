@@ -1550,6 +1550,20 @@
     "components": [ [ [ "bio_claws", 1 ] ] ]
   },
   {
+    "result": "unbio_wire_weapon",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3, "melee", 2 ],
+    "time": "30 m",
+    "book_learn": [ [ "recipe_lab_elec", 4 ], [ "recipe_mil_augs", 5 ], [ "recipe_augs", 5 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "steel_tiny", 2 ] ],
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "bio_monowire", 1 ] ] ]
+  },
+  {
     "result": "unbio_laser_gun",
     "type": "recipe",
     "category": "CC_WEAPON",
