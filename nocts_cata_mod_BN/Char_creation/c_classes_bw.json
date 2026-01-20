@@ -3,19 +3,19 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "c_plut_light",
-    "entries": [ { "item": "light_atomic_battery_cell_rechargeable", "ammo-item": "battery", "charges": [ 500, 1000 ] } ]
+    "entries": [ { "item": "light_atomic_battery_cell", "ammo-item": "battery", "charges": [ 500, 1000 ] } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "c_plut_medium",
-    "entries": [ { "item": "medium_atomic_battery_cell_rechargeable", "ammo-item": "battery", "charges": [ 2500, 5000 ] } ]
+    "entries": [ { "item": "medium_atomic_battery_cell", "ammo-item": "battery", "charges": [ 2500, 5000 ] } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "c_plut_heavy",
-    "entries": [ { "item": "heavy_atomic_battery_cell_rechargeable", "ammo-item": "battery", "charges": [ 5000, 10000 ] } ]
+    "entries": [ { "item": "heavy_atomic_battery_cell", "ammo-item": "battery", "charges": [ 5000, 10000 ] } ]
   },
   {
     "type": "profession",
