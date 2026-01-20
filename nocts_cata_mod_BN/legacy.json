@@ -1015,5 +1015,20 @@
     "extra_effects": [ { "id": "c_biostim_pain", "hit_self": true }, { "id": "c_hemo_damage", "hit_self": true } ],
     "min_duration": 1,
     "max_duration": 1
+  },
+  {
+    "id": "light_atomic_battery_cell_rechargeable",
+    "type": "MIGRATION",
+    "replace": "light_atomic_battery_cell"
+  },
+  {
+    "id": "medium_atomic_battery_cell_rechargeable",
+    "type": "MIGRATION",
+    "replace": "medium_atomic_battery_cell"
+  },
+  {
+    "id": "heavy_atomic_battery_cell_rechargeable",
+    "type": "MIGRATION",
+    "replace": "heavy_atomic_battery_cell"
   }
 ]

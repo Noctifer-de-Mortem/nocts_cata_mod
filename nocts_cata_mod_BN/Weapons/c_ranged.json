@@ -826,7 +826,7 @@
     "color": "dark_gray",
     "weapon_category": [ "PISTOLS", "ENERGY_WEAPONS" ],
     "name": { "str": "NEO-33 laser pistol" },
-    "description": "A relatively small laser pistol, boxy design having just enough concessions to ergonomics to fit well in the hand.  Its manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "A relatively small laser pistol, boxy design having just enough concessions to ergonomics to fit well in the hand.  Its manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -857,12 +857,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "50 ml",
-    "magazines": [
-      [
-        "battery",
-        [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell", "light_atomic_battery_cell_rechargeable" ]
-      ]
-    ]
+    "magazines": [ [ "battery", [ "light_minus_atomic_battery_cell", "light_atomic_battery_cell" ] ] ]
   },
   {
     "id": "neo_laser_pistol_ups",
@@ -909,7 +904,7 @@
     "color": "dark_gray",
     "weapon_category": [ "SUBMACHINE_GUNS", "ENERGY_WEAPONS" ],
     "name": { "str": "AKRO-388 laser SMG" },
-    "description": "Based on the design of the NEO-33, the AKRO-388 balances energy efficiency with rate of fire, offering decent firepower and handling like common submachineguns in active service.  Its manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "Based on the design of the NEO-33, the AKRO-388 balances energy efficiency with rate of fire, offering decent firepower and handling like common submachineguns in active service.  Its manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -942,12 +937,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "50 ml",
-    "magazines": [
-      [
-        "battery",
-        [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell", "light_atomic_battery_cell_rechargeable" ]
-      ]
-    ]
+    "magazines": [ [ "battery", [ "light_atomic_battery_cell", "light_minus_atomic_battery_cell" ] ] ]
   },
   {
     "id": "akro_laser_smg_ups",
@@ -996,7 +986,7 @@
     "looks_like": "laser_rifle",
     "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
     "name": { "str": "ARC-314 laser rifle" },
-    "description": "An experimental laser rifle based on the A7 and AKRO-388, offering the handling of a modern combat rifle with the efficiency of a laser weapon, in a relatively compact package.  The manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "An experimental laser rifle based on the A7 and AKRO-388, offering the handling of a modern combat rifle with the efficiency of a laser weapon, in a relatively compact package.  The manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -1029,7 +1019,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "arc_laser_rifle_ups",
@@ -1078,7 +1068,7 @@
     "color": "dark_gray",
     "weapon_category": [ "MACHINE_GUNS", "ENERGY_WEAPONS" ],
     "name": { "str": "KRX-108 laser LMG" },
-    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While not very energy-efficient, this behemoth can deal a devastating blow to large groups of enemies.  The manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "With the power per shot of the ARC and the firerate of the AKRO, Omnitech Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While not very energy-efficient, this behemoth can deal a devastating blow to large groups of enemies.  The manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -1110,7 +1100,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "600 ml",
-    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell", "heavy_atomic_battery_cell_rechargeable" ] ] ]
+    "magazines": [ [ "battery", [ "heavy_atomic_battery_cell" ] ] ]
   },
   {
     "id": "krx_laser_lmg_ups",
@@ -1157,7 +1147,7 @@
     "color": "dark_gray",
     "weapon_category": [ "RIFLES", "ENERGY_WEAPONS" ],
     "name": { "str": "MX-84 laser sniper" },
-    "description": "An accurized, long-range laser rifle, designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Requires an insane amount of energy to fire a single powerful laser, additionally providing EMP effects.  The manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "An accurized, long-range laser rifle, designed to deal massive damage to a single target.  Intended to be used as a long-range support weapon by modern special forces.  Requires an insane amount of energy to fire a single powerful laser, additionally providing EMP effects.  The manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -1189,17 +1179,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [
-      [
-        "battery",
-        [
-          "medium_atomic_battery_cell",
-          "heavy_atomic_battery_cell",
-          "medium_atomic_battery_cell_rechargeable",
-          "heavy_atomic_battery_cell_rechargeable"
-        ]
-      ]
-    ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell", "heavy_atomic_battery_cell" ] ] ]
   },
   {
     "id": "mx_laser_sniper_ups",
@@ -1247,7 +1227,7 @@
     "color": "dark_gray",
     "weapon_category": [ "SHOTGUNS", "ENERGY_WEAPONS" ],
     "name": { "str": "XARM-37 pulse scattergun" },
-    "description": "This is an ARC rifle modified into something resembling a double-barrel shotgun.  It fires short-range EMP pulses; still decent against conventional threats but best against electronics.  The manufacturer is listed as Omnitech Labs.  Powered by atomic power cells or an experimental rechargeable version, for heavy use where a UPS would not be sustainable in the short term.",
+    "description": "This is an ARC rifle modified into something resembling a double-barrel shotgun.  It fires short-range EMP pulses; still decent against conventional threats but best against electronics.  The manufacturer is listed as Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use where a UPS would not be sustainable in the short term.",
     "price": "18000 USD",
     "price_postapoc": "60 USD",
     "material": [ "superalloy", "steel" ],
@@ -1281,7 +1261,7 @@
       [ "lens", 1 ]
     ],
     "magazine_well": "300 ml",
-    "magazines": [ [ "battery", [ "medium_atomic_battery_cell", "medium_atomic_battery_cell_rechargeable" ] ] ]
+    "magazines": [ [ "battery", [ "medium_atomic_battery_cell" ] ] ]
   },
   {
     "id": "xarm_laser_shotgun_ups",
