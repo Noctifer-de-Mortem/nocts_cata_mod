@@ -57,8 +57,12 @@
     "monsters": [
       { "monster": "mon_failed_weapon", "weight": 2, "cost_multiplier": 50, "starts": "72 hours" },
       { "monster": "mon_zombie_failed_weapon", "weight": 3, "cost_multiplier": 30, "starts": "336 hours" },
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": "336 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 5, "cost_multiplier": 15, "starts": "336 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -67,8 +71,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": "72 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": "72 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 8, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 8, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 4, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 8, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 8, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 4, "cost_multiplier": 15, "starts": "72 hours" }
     ]
   },
   {
@@ -77,8 +85,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 20, "cost_multiplier": 15, "starts": "168 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 20, "cost_multiplier": 15, "starts": "168 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 8, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 8, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 4, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 8, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 8, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 4, "cost_multiplier": 15, "starts": "168 hours" }
     ]
   },
   {
@@ -87,8 +99,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": "72 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": "72 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 5, "cost_multiplier": 15, "starts": "72 hours" }
     ]
   },
   {
@@ -97,8 +113,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 10, "cost_multiplier": 15 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 4, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 4, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 2, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 4, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 4, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 2, "cost_multiplier": 15 }
     ]
   },
   {
@@ -107,8 +127,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": "168 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": "168 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "168 hours" }
     ]
   },
   {
@@ -117,8 +141,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 3, "cost_multiplier": 15, "starts": "336 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 2, "cost_multiplier": 15, "starts": "336 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 1, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -127,8 +155,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15, "starts": "336 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 15, "cost_multiplier": 15, "starts": "336 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 4, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 3, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 3, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 5, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 5, "cost_multiplier": 15, "starts": "336 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 5, "cost_multiplier": 15, "starts": "336 hours" }
     ]
   },
   {
@@ -137,8 +169,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 25, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 25, "cost_multiplier": 15 }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 10, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 8, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 7, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 10, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 8, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 7, "cost_multiplier": 15 }
     ]
   },
   {
@@ -147,8 +183,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 15, "cost_multiplier": 15, "starts": "240 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 10, "cost_multiplier": 15, "starts": "240 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 2, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 2, "cost_multiplier": 15, "starts": "240 hours" }
     ]
   },
   {
@@ -157,8 +197,12 @@
     "override": false,
     "auto_total": true,
     "monsters": [
-      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 25, "cost_multiplier": 15, "starts": "240 hours" },
-      { "monster": "mon_zombie_bio_dormant_armed", "weight": 25, "cost_multiplier": 15, "starts": "240 hours" }
+      { "monster": "mon_zombie_bio_dormant_unarmed", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_light", "weight": 4, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_unarmed_heavy", "weight": 2, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed", "weight": 6, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_light", "weight": 6, "cost_multiplier": 15, "starts": "240 hours" },
+      { "monster": "mon_zombie_bio_dormant_armed_heavy", "weight": 3, "cost_multiplier": 15, "starts": "240 hours" }
     ]
   },
   {
@@ -194,15 +238,29 @@
   {
     "type": "monstergroup",
     "id": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE",
-    "//": "Upgrade group for the armed variant of zombie super soldiers.",
+    "//": "Upgrade group for medium armed variant of zombie super soldiers.",
     "monsters": [
-      { "monster": "mon_zombie_bio_infantry_shotgun", "weight": 200, "cost_multiplier": 25 },
-      { "monster": "mon_zombie_bio_knight_lmg", "weight": 150, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_bio_knight_lauhcher", "weight": 50, "cost_multiplier": 50 },
-      { "monster": "mon_zombie_bio_scout_sniper", "weight": 100, "cost_multiplier": 40 },
-      { "monster": "mon_zombie_bio_tool_pistol", "weight": 200, "cost_multiplier": 10 },
-      { "monster": "mon_zombie_bio_tool_smg", "weight": 100, "cost_multiplier": 15 },
-      { "monster": "mon_zombie_bio_infantry_rifle", "weight": 200 }
+      { "monster": "mon_zombie_bio_infantry_rifle", "weight": 500, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_bio_infantry_shotgun", "weight": 500, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "id": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE_LIGHT",
+    "//": "Upgrade group for light armed variant of zombie super soldiers.",
+    "monsters": [
+      { "monster": "mon_zombie_bio_scout_sniper", "weight": 500, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_bio_tool_pistol", "weight": 250, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_bio_tool_smg", "weight": 250, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "id": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE_HEAVY",
+    "//": "Upgrade group for heavy armed variant of zombie super soldiers.",
+    "monsters": [
+      { "monster": "mon_zombie_bio_infantry_rifle", "weight": 500, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_bio_knight_lauhcher", "weight": 500, "cost_multiplier": 0 }
     ]
   }
 ]

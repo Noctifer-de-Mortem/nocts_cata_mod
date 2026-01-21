@@ -8,7 +8,7 @@
     "specific_heat_solid": 0.75,
     "soft": true,
     "latent_heat": 303,
-    "resist": { "bash": 9, "cut": 19, "bullet": 49, "acid": 5, "heat": 20, "electric": 5 },
+    "resist": { "bash": 9, "cut": 19, "bullet": 79, "acid": 7, "heat": 20, "electric": 5 },
     "chip_resist": 20,
     "repaired_with": "alloy_sheet",
     "breathability": "GOOD",
@@ -21,14 +21,14 @@
     "id": "c_superalloy_composite_medium",
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
-    "resist": { "bash": 19, "cut": 37, "bullet": 98, "acid": 5, "heat": 38, "electric": 5 }
+    "resist": { "bash": 19, "cut": 37, "bullet": 118, "acid": 16, "heat": 38, "electric": 5 }
   },
   {
     "type": "material",
     "id": "c_superalloy_composite_heavy",
     "name": "Superalloy Composite",
     "copy-from": "c_superalloy_composite",
-    "resist": { "bash": 24, "cut": 54, "bullet": 147, "acid": 5, "heat": 57, "electric": 5 }
+    "resist": { "bash": 24, "cut": 54, "bullet": 157, "acid": 23, "heat": 57, "electric": 5 }
   },
   {
     "type": "material",

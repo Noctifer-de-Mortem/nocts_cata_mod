@@ -10,7 +10,7 @@
     "bash_resist": 9,
     "cut_resist": 19,
     "bullet_resist": 79,
-    "acid_resist": 5,
+    "acid_resist": 16,
     "fire_resist": 39,
     "elec_resist": 5,
     "chip_resist": 20,
@@ -27,6 +27,7 @@
     "bash_resist": 18,
     "cut_resist": 38,
     "bullet_resist": 118,
+    "acid_resist": 36,
     "fire_resist": 76
   },
   {
@@ -37,6 +38,7 @@
     "bash_resist": 24,
     "cut_resist": 54,
     "bullet_resist": 155,
+    "acid_resist": 51,
     "fire_resist": 115
   }
 ]
