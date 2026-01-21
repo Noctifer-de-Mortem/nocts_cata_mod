@@ -40,56 +40,6 @@
     ]
   },
   {
-    "id": "CBM_SOLDAT_ZOMBIE_GENERIC",
-    "type": "harvest",
-    "entries": [
-      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
-      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
-      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
-    ]
-  },
-  {
-    "id": "CBM_SOLDAT_ZOMBIE",
-    "type": "harvest",
-    "entries": [
-      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
-      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
-      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
-    ]
-  },
-  {
-    "id": "CBM_SOLDAT_KNIGHT_ZOMBIE",
-    "type": "harvest",
-    "entries": [
-      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
-      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
-      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
-    ]
-  },
-  {
-    "id": "CBM_SOLDAT_SNIPER_ZOMBIE",
-    "type": "harvest",
-    "entries": [
-      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
-      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
-      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
-    ]
-  },
-  {
-    "id": "CBM_SOLDAT_TOOL_ZOMBIE",
-    "type": "harvest",
-    "entries": [
-      { "drop": "blood_tainted", "type": "blood", "mass_ratio": 0.1 },
-      { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
-      { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
-      { "drop": "bone_tainted", "type": "bone", "mass_ratio": 0.1 }
-    ]
-  },
-  {
     "id": "c_mi_go_multi_worker",
     "type": "harvest",
     "entries": [

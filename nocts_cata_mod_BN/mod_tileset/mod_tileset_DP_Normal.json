@@ -15,26 +15,43 @@
           { "id": "mon_zombie_bio_dormant_unarmed", "fg": 7 },
           { "id": "mon_zombie_bio_dormant_armed", "fg": 8 },
           { "id": "mon_zombie_bio_knife", "fg": 9 },
+          { "id": "corpse_mon_zombie_bio_reanimated", "fg": 10 },
+          { "id": "mon_zombie_bio_infantry_rifle", "fg": 11 },
+          { "id": "mon_zombie_bio_infantry_shotgun", "fg": 12 },
           {
             "id": [
               "corpse_mon_zombie_bio_dormant_unarmed",
               "corpse_mon_zombie_bio_dormant_armed",
               "corpse_mon_zombie_bio_knife",
-              "mon_zombie_bio_reanimated"
+              "corpse_mon_zombie_bio_infantry_rifle",
+              "corpse_mon_zombie_bio_infantry_shotgun"
             ],
-            "fg": 10
+            "fg": 13
           },
-          { "id": "mon_zombie_bio_infantry_rifle", "fg": 11 },
-          { "id": "mon_zombie_bio_infantry_shotgun", "fg": 12 },
-          { "id": [ "corpse_mon_zombie_bio_infantry_rifle", "corpse_mon_zombie_bio_infantry_shotgun" ], "fg": 13 },
           { "id": "mon_zombie_bio_knight_lmg", "fg": 14 },
           { "id": "mon_zombie_bio_knight_lauhcher", "fg": 15 },
-          { "id": [ "corpse_mon_zombie_bio_knight_lmg", "corpse_mon_zombie_bio_knight_lauhcher" ], "fg": 16 },
+          {
+            "id": [
+              "corpse_mon_zombie_bio_dormant_unarmed_heavy",
+              "corpse_mon_zombie_bio_dormant_armed_heavy",
+              "corpse_mon_zombie_bio_knife_heavy",
+              "corpse_mon_zombie_bio_knight_lmg",
+              "corpse_mon_zombie_bio_knight_lauhcher"
+            ],
+            "fg": 16
+          },
           { "id": "mon_zombie_bio_scout_sniper", "fg": 17 },
           { "id": "mon_zombie_bio_tool_pistol", "fg": 18 },
           { "id": "mon_zombie_bio_tool_smg", "fg": 19 },
           {
-            "id": [ "corpse_mon_zombie_bio_scout_sniper", "corpse_mon_zombie_bio_tool_pistol", "corpse_mon_zombie_bio_tool_smg" ],
+            "id": [
+              "corpse_mon_zombie_bio_dormant_unarmed_light",
+              "corpse_mon_zombie_bio_dormant_armed_light",
+              "corpse_mon_zombie_bio_knife_light",
+              "corpse_mon_zombie_bio_scout_sniper",
+              "corpse_mon_zombie_bio_tool_pistol",
+              "corpse_mon_zombie_bio_tool_smg"
+            ],
             "fg": 20
           },
           { "id": "survbowpack", "fg": 21 },
@@ -163,7 +180,13 @@
             "fg": 75
           },
           { "id": [ "overlay_worn_c_power_armor_surv", "overlay_worn_c_power_armor_surv_on" ], "fg": 76 },
-          { "id": "mon_zombie_bio_reanimated", "fg": 77 }
+          { "id": "mon_zombie_bio_reanimated", "fg": 77 },
+          { "id": "mon_zombie_bio_dormant_unarmed_light", "fg": 78 },
+          { "id": "mon_zombie_bio_dormant_armed_light", "fg": 79 },
+          { "id": "mon_zombie_bio_knife_light", "fg": 80 },
+          { "id": "mon_zombie_bio_dormant_armed_heavy", "fg": 81 },
+          { "id": "mon_zombie_bio_dormant_armed_heavy", "fg": 82 },
+          { "id": "mon_zombie_bio_knife_heavy", "fg": 83 }
         ],
         "sprite_width": 32,
         "sprite_height": 32
