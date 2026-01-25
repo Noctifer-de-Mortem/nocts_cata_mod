@@ -153,10 +153,8 @@
     "price_postapoc": "130 USD",
     "material": [ "steel", "kevlar" ],
     "coverage": 100,
-    "encumbrance": 25,
-    "warmth": 30,
     "environmental_protection": 5,
-    "material_thickness": 6,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -167,7 +165,7 @@
     "description": "A suit of Gothic plate armor, made from superalloy plates further modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements.",
     "material": [ "superalloy", "kevlar", "leather" ],
     "color": "light_cyan",
-    "encumbrance": 20,
+    "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -193,7 +191,7 @@
     "description": "A medieval breastplate remade in cutting-edge superalloy, modified with kevlar and leather to better protect from the elements.",
     "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
-    "encumbrance": 20,
+    "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -219,7 +217,7 @@
     "description": "A full assembly of medieval arm protection, made from modern superalloy.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.",
     "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
-    "encumbrance": 20,
+    "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -245,7 +243,7 @@
     "description": "A full assembly of medieval leg protection, made from modern superalloy.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.",
     "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
-    "encumbrance": 20,
+    "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -260,7 +258,7 @@
     "material": [ "steel", "kevlar" ],
     "environmental_protection": 5,
     "//": "Lower encumbrance instead of raising it in this case",
-    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": -5 },
+    "relative": { "material_thickness": 2, "warmth": 10, "encumbrance": -5 },
     "qualities": [ [ "GLARE", 1 ] ],
     "extend": { "flags": [ "WATERPROOF", "SUN_GLASSES" ] }
   },
@@ -272,7 +270,7 @@
     "description": "A modernized medieval helmet that has been further modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.",
     "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
-    "encumbrance": 30,
+    "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
   },
   {
@@ -284,7 +282,7 @@
     "weight": "1080 g",
     "price": "500 USD",
     "price_postapoc": "50 USD",
-    "material": [ "steel", "kevlar" ],
+    "material": [ "steel", "leather", "kevlar" ],
     "environmental_protection": 5,
     "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
@@ -295,7 +293,7 @@
     "type": "ARMOR",
     "name": { "str": "pair of survivor superalloy armored gauntlets", "str_pl": "pairs of survivor superalloy armored gauntlets" },
     "description": "A set of medieval gauntlets plated with superalloy, then further modified with kevlar reinforcements to increase protection from the elements.",
-    "material": [ "superalloy", "kevlar" ],
+    "material": [ "superalloy", "leather", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 20,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -309,7 +307,7 @@
     "weight": "2080 g",
     "price": "600 USD",
     "price_postapoc": "50 USD",
-    "material": [ "steel", "kevlar" ],
+    "material": [ "steel", "leather", "kevlar" ],
     "environmental_protection": 5,
     "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 }
   },
@@ -319,7 +317,7 @@
     "type": "ARMOR",
     "name": { "str": "pair of survivor superalloy armored boots", "str_pl": "pairs of survivor superalloy armored boots" },
     "description": "A set of superalloy plated boots, modified with kevlar to better protect from the elements.",
-    "material": [ "superalloy", "kevlar" ],
+    "material": [ "superalloy", "leather", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 25,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
