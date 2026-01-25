@@ -151,7 +151,7 @@
     "weight": "12100 g",
     "price": "900 USD",
     "price_postapoc": "130 USD",
-    "material": [ "steel", "kevlar", "leather" ],
+    "material": [ "steel", "kevlar" ],
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 30,
@@ -179,12 +179,10 @@
     "weight": "4620 g",
     "price": "300 USD",
     "price_postapoc": "45 USD",
-    "material": [ "steel", "kevlar", "leather" ],
+    "material": [ "steel", "kevlar" ],
     "coverage": 100,
-    "encumbrance": 25,
-    "warmth": 30,
     "environmental_protection": 5,
-    "material_thickness": 6,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -193,7 +191,7 @@
     "type": "ARMOR",
     "name": { "str": "survivor superalloy cuirass", "str_pl": "survivor superalloy cuirasses" },
     "description": "A medieval breastplate remade in cutting-edge superalloy, modified with kevlar and leather to better protect from the elements.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 20,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -207,12 +205,10 @@
     "weight": "2992 g",
     "price": "300 USD",
     "price_postapoc": "130 USD",
-    "material": [ "steel", "kevlar", "leather" ],
+    "material": [ "steel", "kevlar" ],
     "coverage": 100,
-    "encumbrance": 25,
-    "warmth": 30,
     "environmental_protection": 5,
-    "material_thickness": 6,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -221,7 +217,7 @@
     "type": "ARMOR",
     "name": { "str": "survivor superalloy arm guards", "str_pl": "survivor superalloy arm guards" },
     "description": "A full assembly of medieval arm protection, made from modern superalloy.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 20,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -235,12 +231,10 @@
     "weight": "4488 g",
     "price": "300 USD",
     "price_postapoc": "45 USD",
-    "material": [ "steel", "kevlar", "leather" ],
+    "material": [ "steel", "kevlar" ],
     "coverage": 100,
-    "encumbrance": 25,
-    "warmth": 30,
     "environmental_protection": 5,
-    "material_thickness": 6,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -249,7 +243,7 @@
     "type": "ARMOR",
     "name": { "str": "survivor superalloy leg guards", "str_pl": "survivor superalloy leg guards" },
     "description": "A full assembly of medieval leg protection, made from modern superalloy.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 20,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -263,11 +257,10 @@
     "weight": "2395 g",
     "price": "500 USD",
     "price_postapoc": "50 USD",
-    "material": [ "steel", "kevlar", "leather" ],
-    "encumbrance": 35,
-    "warmth": 20,
+    "material": [ "steel", "kevlar" ],
     "environmental_protection": 5,
-    "material_thickness": 6,
+    "//": "Lower encumbrance instead of raising it in this case",
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": -5 },
     "qualities": [ [ "GLARE", 1 ] ],
     "extend": { "flags": [ "WATERPROOF", "SUN_GLASSES" ] }
   },
@@ -277,7 +270,7 @@
     "type": "ARMOR",
     "name": { "str": "survivor superalloy great helm" },
     "description": "A modernized medieval helmet that has been further modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 30,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -291,11 +284,9 @@
     "weight": "1080 g",
     "price": "500 USD",
     "price_postapoc": "50 USD",
-    "material": [ "steel", "kevlar", "leather" ],
-    "encumbrance": 25,
-    "warmth": 25,
-    "material_thickness": 6,
+    "material": [ "steel", "kevlar" ],
     "environmental_protection": 5,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 },
     "extend": { "flags": [ "WATERPROOF" ] }
   },
   {
@@ -304,7 +295,7 @@
     "type": "ARMOR",
     "name": { "str": "pair of survivor superalloy armored gauntlets", "str_pl": "pairs of survivor superalloy armored gauntlets" },
     "description": "A set of medieval gauntlets plated with superalloy, then further modified with kevlar reinforcements to increase protection from the elements.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 20,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
@@ -318,11 +309,9 @@
     "weight": "2080 g",
     "price": "600 USD",
     "price_postapoc": "50 USD",
-    "material": [ "steel", "kevlar", "leather" ],
-    "encumbrance": 30,
-    "warmth": 25,
-    "material_thickness": 6,
-    "environmental_protection": 5
+    "material": [ "steel", "kevlar" ],
+    "environmental_protection": 5,
+    "relative": { "material_thickness": 1, "warmth": 10, "encumbrance": 5 }
   },
   {
     "id": "boots_plate_surv_superalloy",
@@ -330,7 +319,7 @@
     "type": "ARMOR",
     "name": { "str": "pair of survivor superalloy armored boots", "str_pl": "pairs of survivor superalloy armored boots" },
     "description": "A set of superalloy plated boots, modified with kevlar to better protect from the elements.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "encumbrance": 25,
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
