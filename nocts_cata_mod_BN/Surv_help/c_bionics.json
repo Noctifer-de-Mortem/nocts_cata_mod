@@ -148,40 +148,6 @@
     "difficulty": 11
   },
   {
-    "type": "GENERIC",
-    "//": "pseudo item, used as fuel type for atomic battery CBM",
-    "id": "c_atomic_battery_power",
-    "symbol": "?",
-    "color": "white",
-    "name": { "str": "Alphavoltaic Power", "str_pl": "none" },
-    "description": "seeing this is a bug",
-    "stackable": true,
-    "volume": "0 ml",
-    "flags": [ "PSEUDO", "PERPETUAL" ],
-    "fuel": { "energy": 1 }
-  },
-  {
-    "id": "bio_atomic_battery",
-    "type": "bionic",
-    "name": { "str": "Atomic Battery" },
-    "description": "Your body has been implanted with a compact, advanced plutonium-cell generator for military use.  A true atomic battery, using advanced materials to create a practical alphavoltaic power source.  While its power output is still very low, it's also consistent with negligible waste heat, making it a useful backup to another power generation method.",
-    "fuel_options": [ "c_atomic_battery_power" ],
-    "fuel_efficiency": 0.005,
-    "time": 1,
-    "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF", "INITIALLY_ACTIVATE" ],
-    "points": 2
-  },
-  {
-    "id": "bio_atomic_battery",
-    "copy-from": "bionic_general_npc_usable",
-    "type": "BIONIC_ITEM",
-    "name": { "str": "Atomic Battery CBM" },
-    "description": "An old form of non-thermal radioisotope generator, given new life and military applications using cutting-edge plutonium-catalyst developments.  Effectively a plutonium fuel cell converted into an alphavoltaic battery, with greater power output and longevity than older implants.  Its output is still very low at only 5 watts, but it also provides a continuous source of power, making it a good supplement to a more intensive power generation method.",
-    "price": "8000 USD",
-    "difficulty": 8
-  },
-  {
     "id": "bio_hazard_shield",
     "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",

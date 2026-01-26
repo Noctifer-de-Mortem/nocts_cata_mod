@@ -434,7 +434,6 @@
       [ "bio_sword", 5 ],
       [ "bio_flamethrower", 5 ],
       [ "bio_plasma_cell", 5 ],
-      [ "bio_atomic_battery", 10 ],
       [ "bio_hazard_shield", 5 ],
       [ "bio_animal_empathy", 5 ],
       [ "bio_cutting_torch", 10 ]
@@ -448,7 +447,6 @@
       [ "bio_sword", 2 ],
       [ "bio_flamethrower", 5 ],
       [ "bio_plasma_cell", 10 ],
-      [ "bio_atomic_battery", 5 ],
       [ "bio_hazard_shield", 10 ],
       [ "bio_animal_empathy", 5 ],
       [ "bio_cutting_torch", 5 ]
@@ -457,7 +455,7 @@
   {
     "id": "bionics_heavy_mil",
     "type": "item_group",
-    "items": [ [ "bio_plasma_cell", 10 ], [ "bio_atomic_battery", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
+    "items": [ [ "bio_plasma_cell", 10 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
   },
   {
     "id": "bionic_power_storage_mil",
@@ -472,7 +470,6 @@
       [ "bio_sword", 5 ],
       [ "bio_flamethrower", 5 ],
       [ "bio_plasma_cell", 20 ],
-      [ "bio_atomic_battery", 5 ],
       [ "bio_hazard_shield", 5 ],
       [ "bio_animal_empathy", 10 ],
       [ "bio_cutting_torch", 5 ]
@@ -481,17 +478,17 @@
   {
     "id": "bionics_tech",
     "type": "item_group",
-    "items": [ [ "bio_atomic_battery", 10 ], [ "bio_cutting_torch", 20 ] ]
+    "items": [ [ "bio_cutting_torch", 20 ] ]
   },
   {
     "id": "bionics_subs",
     "type": "item_group",
-    "items": [ [ "bio_atomic_battery", 5 ], [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
+    "items": [ [ "bio_plasma_cell", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_cutting_torch", 10 ] ]
   },
   {
     "id": "bionics_survivalist",
     "type": "item_group",
-    "items": [ [ "bio_atomic_battery", 5 ], [ "bio_hazard_shield", 5 ], [ "bio_animal_empathy", 5 ], [ "bio_cutting_torch", 10 ] ]
+    "items": [ [ "bio_hazard_shield", 5 ], [ "bio_animal_empathy", 5 ], [ "bio_cutting_torch", 10 ] ]
   },
   {
     "id": "female_underwear_top",
@@ -786,7 +783,7 @@
       [ "bio_armor_head", 6 ],
       [ "bio_armor_legs", 8 ],
       [ "bio_armor_torso", 6 ],
-      [ "bio_atomic_battery", 2 ],
+      [ "bio_reactor", 2 ],
       [ "bio_carbon", 7 ],
       [ "bio_chain_lightning", 7 ],
       [ "bio_cqb", 3 ],
@@ -990,13 +987,12 @@
     "id": "bionics_experimental_cataplus",
     "type": "item_group",
     "items": [
-      [ "bio_laser_armgun", 10 ],
-      [ "bio_sword", 15 ],
+      [ "bio_laser_armgun", 15 ],
+      [ "bio_sword", 20 ],
       [ "bio_flamethrower", 10 ],
       [ "bio_plasma_cell", 25 ],
-      [ "bio_atomic_battery", 20 ],
-      [ "bio_hazard_shield", 5 ],
-      [ "bio_animal_empathy", 5 ],
+      [ "bio_hazard_shield", 10 ],
+      [ "bio_animal_empathy", 10 ],
       [ "bio_cutting_torch", 10 ]
     ]
   },

@@ -17,7 +17,6 @@
       "bio_sword",
       "bio_flamethrower",
       "bio_plasma_cell",
-      "bio_atomic_battery",
       "bio_hazard_shield",
       "bio_cutting_torch",
       "bio_animal_empathy",
@@ -42,7 +41,6 @@
       "bio_sword",
       "bio_flamethrower",
       "bio_plasma_cell",
-      "bio_atomic_battery",
       "bio_hazard_shield",
       "bio_cutting_torch",
       "bio_animal_empathy",
@@ -174,7 +172,6 @@
       "bio_sword",
       "bio_flamethrower",
       "bio_plasma_cell",
-      "bio_atomic_battery",
       "bio_hazard_shield",
       "bio_cutting_torch",
       "bio_animal_empathy",
@@ -236,7 +233,7 @@
     "extend": {
       "traits": [ "MARTIAL_ARTS_BIOJUTSU" ],
       "professions": [ "bionic_silencer" ],
-      "bionics": [ "bio_flamethrower", "bio_atomic_battery", "bio_hazard_shield", "bio_cutting_torch", "bio_animal_empathy" ]
+      "bionics": [ "bio_flamethrower", "bio_hazard_shield", "bio_cutting_torch", "bio_animal_empathy" ]
     }
   },
   {
@@ -281,7 +278,6 @@
         "bio_sword",
         "bio_flamethrower",
         "bio_plasma_cell",
-        "bio_atomic_battery",
         "bio_hazard_shield",
         "bio_cutting_torch",
         "bio_animal_empathy",
