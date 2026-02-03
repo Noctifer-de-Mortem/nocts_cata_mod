@@ -289,7 +289,7 @@
       { "level": 3, "name": "speech" }
     ],
     "CBMs": [
-      "bio_reactor",
+      "bio_atomic_battery",
       "bio_int_enhancer",
       "bio_eye_enhancer",
       "bio_animal_empathy",
