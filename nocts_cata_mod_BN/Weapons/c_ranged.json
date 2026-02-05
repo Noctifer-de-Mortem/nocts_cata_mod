@@ -387,7 +387,19 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
     "reload": 0,
     "loudness": 16,
-    "use_action": "HAND_CRANK",
+    "use_action": {
+      "type": "HAND_CRANK",
+      "charge_interval": "144 seconds",
+      "charge_amount": 2,
+      "fatigue_per_interval": 1,
+      "ammo_type": "battery",
+      "start_message": "You start cranking the %s to charge its %s.",
+      "already_charged_message": "You could use the %s to charge its %s, but it's already charged.",
+      "need_battery_message": "You need a capacitor bank loaded to charge.",
+      "underwater_message": "It's not waterproof enough to work underwater.",
+      "exhausted_message": "You're too exhausted to keep cranking.",
+      "fully_charged_message": "You've charged the capacitor bank completely."
+    },
     "magazine_well": "300 ml",
     "magazines": [ [ "battery", [ "rifle_crank_battery_cell" ] ] ],
     "valid_mod_locations": [
