@@ -147,13 +147,7 @@
     "points": -4,
     "flags": [ "LONE_START", "CITY_START", "HELI_CRASH" ],
     "start_name": "Priority Site",
-    "allowed_locs": [
-      "lab_surface_brick_blockC0",
-      "robofachq_surface_parking",
-      "makeshift_command_center_1",
-      "Bio_Weapon_Lab",
-      "haz_sar_1_2"
-    ],
+    "allowed_locs": [ "lab_surface_brick_blockC0", "sloc_hub_01", "makeshift_command_center_1", "Bio_Weapon_Lab", "haz_sar_1_2" ],
     "professions": [
       "power_armor_soldier",
       "combat_mech_pilot",
@@ -177,6 +171,12 @@
       "bio_animal_empathy",
       "bio_power_storage_sentinel"
     ]
+  },
+  {
+    "copy-from": "survivor_holdout",
+    "type": "scenario",
+    "id": "survivor_holdout",
+    "extend": { "allowed_locs": [ "surv_camp_l", "sloc_surv_holdout", "sloc_surv_encampment", "makeshift_command_center_1" ] }
   },
   {
     "copy-from": "alone",
@@ -307,7 +307,7 @@
     "copy-from": "surrounded",
     "type": "scenario",
     "add_professions": true,
-    "extend": { "allowed_locs": [ "sloc_mansion" ], "professions": [ "surv_drifter", "surv_knight_errant", "surv_techno_barbarian" ] },
+    "extend": { "professions": [ "surv_drifter", "surv_knight_errant", "surv_techno_barbarian" ] },
     "id": "surrounded"
   },
   {
