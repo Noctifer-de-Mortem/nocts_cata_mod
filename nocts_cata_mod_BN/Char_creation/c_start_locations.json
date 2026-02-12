@@ -41,13 +41,6 @@
   },
   {
     "type": "start_location",
-    "id": "robofachq_surface_parking",
-    "name": "Hub 01",
-    "terrain": [ "robofachq_surface_parking" ],
-    "flags": [ "ALLOW_OUTSIDE" ]
-  },
-  {
-    "type": "start_location",
     "id": "makeshift_command_center_1",
     "name": "Makeshift Command Center",
     "terrain": [ "makeshift_command_center_1" ],
