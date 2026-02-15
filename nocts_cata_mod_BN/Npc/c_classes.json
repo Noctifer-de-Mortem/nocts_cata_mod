@@ -245,7 +245,8 @@
     "weapon_override": "NC_BIO_WEAPON_S_weapon",
     "//": "Generic mutation and bionic setup, modeled after a mix of Beta and Delta.",
     "traits": [
-      [ "hair_black_crewcut", 100 ],
+      [ "hair_black", 100 ],
+      [ "hair_crewcut", 100 ],
       [ "eye_brown", 100 ],
       [ "SKIN_TAN", 100 ],
       [ "BIO_WEAPON_GENERIC", 100 ],
@@ -317,7 +318,8 @@
     "weapon_override": "NC_BIO_WEAPON_L_weapon",
     "//": "Generic mutation and CBM setup, modeled after a mix of Alpha and Gamma.",
     "traits": [
-      [ "hair_blond_medium", 100 ],
+      [ "hair_blond", 100 ],
+      [ "hair_medium", 100 ],
       [ "eye_red", 100 ],
       [ "SKIN_LIGHT", 100 ],
       [ "BIO_WEAPON_GENERIC", 100 ],
@@ -364,8 +366,13 @@
       { "skill": "mechanics", "level": { "rng": [ 3, 3 ] } },
       { "skill": "speech", "level": { "rng": [ 2, 2 ] } }
     ],
-    "//": "Will need to reimplement beard, figuring out what style it's meant to be, when beards stop being broken.",
-    "traits": [ [ "hair_white_short", 100 ], [ "eye_blue", 100 ], [ "SKIN_MEDIUM", 100 ] ]
+    "traits": [
+      [ "hair_white", 100 ],
+      [ "hair_short", 100 ],
+      [ "FACIAL_HAIR_CIRCLE", 100 ],
+      [ "eye_blue", 100 ],
+      [ "SKIN_MEDIUM", 100 ]
+    ]
   },
   {
     "type": "npc_class",
@@ -404,7 +411,8 @@
     "weapon_override": "NC_BIO_HUNTER_E_weapon",
     "//": "ACBM setup is a balanced setup mixing Super Scout and Bio-Engineer, as much as is NPC-usable.  Also fairly broad Sentinel mutation selection, closer to an upgraded Super Soldier.",
     "traits": [
-      [ "hair_red_long", 100 ],
+      [ "hair_red", 100 ],
+      [ "hair_long", 100 ],
       [ "eye_green", 100 ],
       [ "SKIN_LIGHT", 100 ],
       [ "BGSS_BHunter", 100 ],
