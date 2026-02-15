@@ -311,7 +311,7 @@
     "symbol": "[",
     "looks_like": "badge_cybercop",
     "color": "red",
-    "flags": [ "TRADER_AVOID", "NO_SALVAGE" ]
+    "flags": [ "TRADER_AVOID", "NO_SALVAGE", "MISSION_ITEM" ]
   },
   {
     "id": "badge_bio_weapon_evy",
