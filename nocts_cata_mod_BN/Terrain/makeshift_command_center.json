@@ -247,5 +247,41 @@
       ],
       "place_vehicles": [ { "vehicle": "autoclave_cart", "x": 15, "y": 21, "chance": 99, "fuel": 85, "status": -1, "rotation": 90 } ]
     }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "makeshift_command_center_roof" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "         ......         ",
+        "        ........        ",
+        "        ........        ",
+        "        .2....2.        ",
+        "        .2....2.        ",
+        "        ........        ",
+        "        ........        ",
+        "         ......         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_metal_flat_roof", "2": "t_radio_tower" }
+    }
   }
 ]

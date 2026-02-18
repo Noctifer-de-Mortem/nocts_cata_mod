@@ -252,5 +252,41 @@
       ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "super_soldiers", "x": [ 10, 13 ], "y": [ 1, 5 ] } ]
     }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Bio_Weapon_Lab_roof" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "         ......         ",
+        "        ........        ",
+        "        ........        ",
+        "        .2....2.        ",
+        "        .2....2.        ",
+        "        ........        ",
+        "        ........        ",
+        "         ......         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_metal_flat_roof", "2": "t_radio_tower" }
+    }
   }
 ]

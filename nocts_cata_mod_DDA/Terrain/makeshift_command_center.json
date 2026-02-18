@@ -86,20 +86,12 @@
         "_": "t_metal_floor",
         ">": "t_stairs_down"
       },
-      "furniture": {
-        "6": "f_console_broken",
-        "=": "f_smoking_rack",
-        "S": "f_solar_unit",
-        "c": "f_counter",
-        "l": "f_locker"
-      },
+      "furniture": { "6": "f_console_broken", "=": "f_smoking_rack", "S": "f_solar_unit", "c": "f_counter", "l": "f_locker" },
       "place_items": [
         { "item": "farming_seeds", "x": 19, "y": 11, "chance": 75, "repeat": 8 },
         { "item": "farming_tools", "x": 19, "y": 12, "chance": 50, "repeat": 4 }
       ],
-      "place_npcs": [
-        { "class": "cmnd_guard_2", "x": 14, "y": 5 }
-      ]
+      "place_npcs": [ { "class": "cmnd_guard_2", "x": 14, "y": 5 } ]
     }
   },
   {
@@ -248,6 +240,42 @@
         { "class": "cmnd_guard_1", "x": 15, "y": 6 }
       ],
       "place_vehicles": [ { "vehicle": "autoclave_cart", "x": 15, "y": 21, "chance": 99, "fuel": 85, "status": -1, "rotation": 90 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "makeshift_command_center_roof" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "         ......         ",
+        "        ........        ",
+        "        ........        ",
+        "        .2....2.        ",
+        "        .2....2.        ",
+        "        ........        ",
+        "        ........        ",
+        "         ......         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_metal_flat_roof", "2": "t_radio_tower" }
     }
   }
 ]
