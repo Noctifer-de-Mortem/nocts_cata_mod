@@ -2,7 +2,10 @@
   {
     "type": "overmap_special",
     "id": "Survivor_Holdout_s",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "Survivor_Holdout_1_north" }, { "point": [ 0, -1, 0 ], "overmap": "Survivor_Holdout_2_north" } ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "Survivor_Holdout_1_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "Survivor_Holdout_2_north" }
+    ],
     "connections": [ { "point": [ 0, -2, 0 ], "connection": "local_road", "existing": true } ],
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
@@ -32,7 +35,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -46,7 +49,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -60,7 +63,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 25, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -74,7 +77,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -88,7 +91,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -96,6 +99,7 @@
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "Bio_Weapon_Lab_1_north" },
       { "point": [ 0, 1, 0 ], "overmap": "Bio_Weapon_Lab_2_north" },
+      { "point": [ 0, 1, 1 ], "overmap": "Bio_Weapon_Lab_roof_north" },
       { "point": [ 0, 1, -1 ], "overmap": "Bio_Weapon_Lab_b_north" }
     ],
     "connections": [ { "point": [ 0, -1, 0 ], "connection": "local_road" } ],
@@ -103,7 +107,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID" ]
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -116,14 +120,17 @@
       { "point": [ 0, 0, -1 ], "overmap": "Unknown_Lab_b1_north" },
       { "point": [ 1, 0, -1 ], "overmap": "Unknown_Lab_b2_north" },
       { "point": [ 0, 1, -1 ], "overmap": "Unknown_Lab_b3_north" },
-      { "point": [ 1, 1, -1 ], "overmap": "Unknown_Lab_b4_north" }
+      { "point": [ 1, 1, -1 ], "overmap": "Unknown_Lab_b4_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "Unknown_Lab_roof_1_north" },
+      { "point": [ 0, 1, 1 ], "overmap": "Unknown_Lab_roof_3_north" },
+      { "point": [ 1, 1, 1 ], "overmap": "Unknown_Lab_roof_4_north" }
     ],
     "connections": [ { "point": [ 0, -1, 0 ], "connection": "local_road" } ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID" ]
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -131,6 +138,7 @@
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "makeshift_command_center_1_north" },
       { "point": [ 0, 1, 0 ], "overmap": "makeshift_command_center_2_north" },
+      { "point": [ 0, 1, 1 ], "overmap": "makeshift_command_center_roof_north" },
       { "point": [ 0, 1, -1 ], "overmap": "makeshift_command_center_b_north" }
     ],
     "connections": [ { "point": [ 0, -1, 0 ], "connection": "local_road" } ],
@@ -138,7 +146,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID" ]
+    "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",
@@ -155,7 +163,7 @@
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 0, 16 ],
     "occurrences": [ 50, 100 ],
-    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID" ]
+    "flags": [ "CLASSIC", "UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
     "type": "overmap_special",

@@ -10,7 +10,7 @@
         "f   #   ........   #    ",
         "f #   7 ........  #     ",
         "f 7     ........    7 # ",
-        "f   #   ........|II|    ",
+        "f   #   ........|II|G   ",
         "f#    7 ........Id_+.   ",
         "f  7    ........I6c|. 7 ",
         "f7# #   ........|Iw|.#  ",
@@ -40,6 +40,7 @@
         ".": "t_dirt",
         "6": "t_console_broken",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
+        "G": "t_gutter_downspout",
         "I": "t_reinforced_glass",
         "_": "t_floor",
         "c": "t_floor",
@@ -158,7 +159,7 @@
         "f ..||||_|b_b___b_bW..  ",
         "f#..|S_+_|bdbBBBbdb|.. 7",
         "f7..||||W|||||||||||..  ",
-        "f#....................# ",
+        "f#................G...# ",
         "f 7..................#  ",
         "f # 7 7#  # 7   # 7    #",
         "------------------------"
@@ -175,6 +176,7 @@
         "C": "t_floor",
         "D": "t_reinforced_door_glass_c",
         "F": "t_floor",
+        "G": "t_gutter_downspout",
         "S": "t_floor",
         "T": "t_floor",
         "W": "t_reinforced_glass_shutter_open",
@@ -287,7 +289,7 @@
         ".": "t_dirt",
         "6": "t_console_broken",
         "1": "t_radio_controls",
-        "2": "t_radio_tower",
+        "2": "t_metal_floor",
         "7": [ "t_tree", "t_tree_dead", "t_tree_deadpine", "t_tree_hickory_dead", "t_tree_cottonwood", "t_tree_young", "t_grass" ],
         ">": "t_stairs_down",
         "C": "t_card_reader_broken",
@@ -297,7 +299,7 @@
         "m": "t_metal_floor",
         "|": "t_wall_metal"
       },
-      "furniture": { "c": "f_chair" },
+      "furniture": { "c": "f_chair", "2": "f_server" },
       "place_loot": [ { "group": "map_extra_science", "x": 10, "y": 13, "chance": 75 } ],
       "place_fields": [
         { "field": "fd_blood", "x": 10, "y": 13 },
@@ -737,6 +739,132 @@
         { "monster": "mon_failed_weapon", "x": 1, "y": 15 },
         { "monster": "mon_failed_weapon", "x": 7, "y": 20 }
       ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Unknown_Lab_roof_1" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                |||o    ",
+        "                |..|    ",
+        "                |..|    ",
+        "                ||||    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_flat_roof", "|": "t_gutter", "o": "t_gutter_drop" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Unknown_Lab_roof_3" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    ||||||||||||||||    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    ||||||||||||||o|    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_flat_roof", "|": "t_gutter", "o": "t_gutter_drop" },
+      "place_nested": [
+        {
+          "chunks": [
+            [ "null", 20 ],
+            [ "roof_2x2_utilities_b", 15 ],
+            [ "roof_2x2_utilities_c", 5 ],
+            [ "roof_2x2_utilities_d", 40 ],
+            [ "roof_2x2_utilities", 50 ]
+          ],
+          "x": [ 5, 8 ],
+          "y": [ 5, 8 ]
+        },
+        {
+          "chunks": [ [ "null", 20 ], [ "roof_4x4_utility", 40 ], [ "roof_6x6_utility", 20 ] ],
+          "x": [ 5, 12 ],
+          "y": [ 10, 12 ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Unknown_Lab_roof_4" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "         ......         ",
+        "        ...22...        ",
+        "        ........        ",
+        "        ........        ",
+        "        ........        ",
+        "        ........        ",
+        "        ...22...        ",
+        "         ......         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_metal_flat_roof", "2": "t_radio_tower" }
     }
   }
 ]

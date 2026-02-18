@@ -29,14 +29,7 @@
         "|,,..,,,,,,,,,,,,,,,,,,|",
         "|,,.,,,,.,,,,,,,,,,,,,,|"
       ],
-      "terrain": {
-        " ": "t_null",
-        ",": "t_grass",
-        ".": "t_dirt",
-        "|": "t_chainfence",
-        "-": "t_chainfence",
-        "&": "t_chainfence_posts"
-      },
+      "terrain": { " ": "t_null", ",": "t_grass", ".": "t_dirt", "|": "t_chainfence", "-": "t_chainfence", "&": "t_chainfence_posts" },
       "place_loot": [
         { "item": "pipe", "x": [ 3, 21 ], "y": [ 0, 2 ], "repeat": [ 2, 6 ] },
         { "item": "wire", "x": [ 3, 21 ], "y": [ 0, 2 ], "repeat": [ 4, 10 ] },
@@ -252,6 +245,42 @@
         { "vehicle": "autoclave_cart", "x": 5, "y": 17, "chance": 99, "fuel": 25, "status": 25, "rotation": 0 }
       ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "super_soldiers", "x": [ 10, 13 ], "y": [ 1, 5 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "Bio_Weapon_Lab_roof" ],
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "         ......         ",
+        "        ........        ",
+        "        ........        ",
+        "        .2....2.        ",
+        "        .2....2.        ",
+        "        ........        ",
+        "        ........        ",
+        "         ......         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_metal_flat_roof", "2": "t_radio_tower" }
     }
   }
 ]
