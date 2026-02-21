@@ -8,7 +8,7 @@
     "difficulty": 2,
     "time": "30 m",
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
-    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
+    "tools": [ [ [ "soldering_standard", 25, "LIST" ] ] ],
     "components": [ [ [ "flashlight", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
@@ -43,7 +43,7 @@
     "difficulty": 2,
     "time": "15 m",
     "book_learn": [ [ "manual_electronics", 2 ], [ "mag_electronics", 2 ], [ "manual_electronics", 2 ], [ "recipe_surv", 1 ] ],
-    "tools": [ [ [ "soldering_iron", 25 ], [ "toolset", 25 ] ] ],
+    "tools": [ [ [ "soldering_standard", 25, "LIST" ] ] ],
     "components": [ [ [ "crude_firestarter", 1 ] ], [ [ "medium_battery_cell", 1 ] ], [ [ "solar_cell", 2 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
@@ -224,6 +224,7 @@
       [ "textbook_anarch", 6 ],
       [ "reference_fabrication1", 7 ]
     ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -231,7 +232,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ] ],
     "components": [
       [ [ "sheet_metal", 1 ] ],
       [ [ "scrap", 3 ], [ "steel_chunk", 1 ] ],
@@ -250,6 +251,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -257,11 +259,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "22_casing_new", -1 ], [ "22_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -274,6 +272,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -281,11 +280,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "223_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "223_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -298,6 +293,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -305,11 +301,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -322,6 +314,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -329,11 +322,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "9mm_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "9mm_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -346,6 +335,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -353,11 +343,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "45_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "45_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -370,6 +356,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -377,11 +364,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "shot_hull", 1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "shot_hull", 1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -394,6 +377,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -401,11 +385,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "762_casing", 1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "762_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -418,6 +398,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -425,11 +406,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "762R_casing", 1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "762R_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -442,6 +419,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -449,11 +427,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "3006_casing", 1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "3006_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -466,6 +440,7 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 3 ] ],
     "time": "55 m",
     "book_learn": [ [ "textbook_mechanics", 4 ], [ "recipe_surv", 3 ], [ "manual_luty", 4 ] ],
+    "using": [ [ "soldering_standard", 100 ] ],
     "qualities": [
       { "id": "CUT", "level": 1 },
       { "id": "WRENCH_FINE", "level": 1 },
@@ -473,11 +448,7 @@
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 }
     ],
-    "tools": [
-      [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ],
-      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
-      [ [ "50_casing", 1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", -1 ], [ "large_repairkit", -1 ] ], [ [ "50_casing", -1 ] ] ],
     "components": [ [ [ "auto_case", 1 ] ], [ [ "scrap", 2 ] ] ]
   },
   {
@@ -506,7 +477,7 @@
     "time": "500 m",
     "book_learn": [ [ "recipe_surv", 7 ] ],
     "using": [ [ "sewing_standard", 100 ] ],
-    "tools": [ [ [ "welder", 28 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "tools": [ [ [ "soldering_standard", 50, "LIST" ], [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "survivor_suit", 1 ] ],
       [ [ "gloves_survivor", 1 ] ],
@@ -544,7 +515,7 @@
     "book_learn": [ [ "recipe_surv", 8 ] ],
     "using": [ [ "sewing_standard", 100 ], [ "steel_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "tools": [ [ [ "welder", 50 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "tools": [ [ [ "soldering_standard", 100, "LIST" ], [ "surface_heat", 100, "LIST" ] ] ],
     "components": [
       [ [ "hsurvivor_suit", 1 ] ],
       [ [ "gloves_hsurvivor", 1 ] ],
@@ -583,7 +554,7 @@
     "book_learn": [ [ "recipe_surv", 10 ] ],
     "using": [ [ "sewing_standard", 100 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "tools": [ [ [ "welder", 50 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+    "tools": [ [ [ "soldering_standard", 100, "LIST" ], [ "surface_heat", 100, "LIST" ] ] ],
     "components": [
       [ [ "sasurvivor_suit", 1 ] ],
       [ [ "gloves_sasurvivor", 1 ] ],
@@ -619,16 +590,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -641,16 +610,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -663,16 +630,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -685,16 +650,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -707,16 +670,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -729,16 +690,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_shotgun", 5 ], [ "mag_shotgun", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 4 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -751,16 +710,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -773,16 +730,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -795,16 +750,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_smg", 5 ], [ "mag_smg", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "scrap", 2 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -817,13 +770,9 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
-    "tools": [
-      [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "223_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ], [ [ "223_casing", -1 ] ] ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
   {
@@ -836,13 +785,9 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
-    "tools": [
-      [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ], [ [ "308_casing", -1 ], [ "762_51_casing", -1 ] ] ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
   {
@@ -855,13 +800,9 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
-    "tools": [
-      [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "762_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ], [ [ "762_casing", -1 ] ] ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
   {
@@ -874,13 +815,9 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
-    "tools": [
-      [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "762R_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ], [ [ "762R_casing", -1 ] ] ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
   {
@@ -893,13 +830,9 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "30 m",
     "book_learn": [ [ "recipe_surv", 4 ], [ "manual_luty", 5 ], [ "recipe_bullets", 5 ], [ "manual_rifle", 6 ], [ "mag_rifle", 7 ] ],
-    "using": [ [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 120 ], [ "fabric_standard", 6 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "HAMMER_FINE", "level": 1 }, { "id": "SWAGING", "level": 1 } ],
-    "tools": [
-      [ [ "welder", 20 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
-      [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "3006_casing", -1 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ], [ [ "3006_casing", -1 ] ] ],
     "components": [ [ [ "wire", 2 ] ] ]
   },
   {
@@ -912,16 +845,14 @@
     "skills_required": [ [ "gun", 2 ] ],
     "time": "20 m",
     "book_learn": [ [ "recipe_surv", 3 ], [ "manual_luty", 4 ], [ "recipe_bullets", 4 ], [ "manual_rifle", 5 ], [ "mag_rifle", 6 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "HAMMER", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "DRILL", "level": 2 }
     ],
-    "tools": [
-      [ [ "welder", 10 ], [ "soldering_iron", 20 ], [ "toolset", 20 ] ],
-      [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ]
-    ],
+    "tools": [ [ [ "small_repairkit", 40 ], [ "large_repairkit", 40 ] ] ],
     "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 2 ] ], [ [ "scrap", 4 ] ], [ [ "spring", 1 ] ] ]
   },
   {
@@ -959,7 +890,7 @@
     "decomp_learn": 2,
     "book_learn": [ [ "advanced_electronics", 6 ], [ "textbook_electronics", 6 ], [ "manual_electronics", 6 ], [ "recipe_surv", 5 ] ],
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
-    "tools": [ [ [ "welder", 30 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
     "components": [
       [ [ "battery_ups", 1 ] ],
       [ [ "amplifier", 4 ] ],
@@ -981,13 +912,13 @@
     "skills_required": [ [ "gun", 3 ], [ "fabrication", 5 ], [ "mechanics", 4 ] ],
     "time": "55 m",
     "book_learn": [ [ "advanced_electronics", 8 ], [ "textbook_electronics", 8 ], [ "manual_electronics", 8 ], [ "recipe_surv", 7 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
     "qualities": [
       { "id": "SAW_M_FINE", "level": 1 },
       { "id": "SCREW", "level": 1 },
       { "id": "SCREW_FINE", "level": 1 },
       { "id": "GLARE", "level": 2 }
     ],
-    "tools": [ [ [ "welder", 30 ], [ "soldering_iron", 60 ], [ "toolset", 60 ] ] ],
     "components": [
       [ [ "ups_rifle", 1 ] ],
       [ [ "hand_crank_charger", 1 ] ],
@@ -1008,8 +939,8 @@
     "skills_required": [ [ "gun", 2 ], [ "fabrication", 4 ], [ "mechanics", 3 ] ],
     "time": "25 m",
     "book_learn": [ [ "advanced_electronics", 7 ], [ "textbook_electronics", 7 ], [ "manual_electronics", 7 ], [ "recipe_surv", 6 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
-    "tools": [ [ [ "welder", 10 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "light_plus_battery_cell", 4 ], [ "light_battery_cell", 6 ], [ "light_minus_battery_cell", 12 ] ],
       [ [ "amplifier", 2 ] ],
@@ -1029,8 +960,8 @@
     "time": "25 m",
     "decomp_learn": 2,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ], [ "manual_electronics", 3 ], [ "recipe_surv", 2 ] ],
+    "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 5 ] ] ],
     "components": [
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 4 ] ],
@@ -1050,8 +981,8 @@
     "time": "47 m",
     "decomp_learn": 2,
     "book_learn": [ [ "advanced_electronics", 4 ], [ "textbook_electronics", 4 ], [ "manual_electronics", 4 ], [ "recipe_surv", 3 ] ],
+    "using": [ [ "soldering_standard", 60 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "GLARE", "level": 2 } ],
-    "tools": [ [ [ "soldering_iron", 60 ], [ "toolset", 10 ] ] ],
     "components": [
       [ [ "antenna", 1 ] ],
       [ [ "power_supply", 6 ] ],
@@ -1645,7 +1576,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
       [ [ "flesh_weapon_kit", -1 ] ],
-      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
     "components": [
@@ -1672,7 +1603,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
       [ [ "flesh_weapon_kit", -1 ] ],
-      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
     "components": [
@@ -1699,7 +1630,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
       [ [ "flesh_weapon_kit", -1 ] ],
-      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
     "components": [
@@ -1726,7 +1657,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [
       [ [ "flesh_weapon_kit", -1 ] ],
-      [ [ "soldering_iron", 50 ], [ "toolset", 50 ], [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
+      [ [ "small_repairkit", 50 ], [ "large_repairkit", 50 ] ],
       [ [ "surface_heat", 50, "LIST" ] ]
     ],
     "components": [
@@ -1750,8 +1681,9 @@
     "skills_required": [ [ "firstaid", 4 ], [ "cooking", 4 ] ],
     "time": "12 m",
     "book_learn": [ [ "evil_invitation", 8 ] ],
+    "using": [ [ "soldering_standard", 50 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "tools": [ [ [ "flesh_weapon_kit", -1 ] ], [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
+    "tools": [ [ [ "toolset", 50 ] ], [ [ "surface_heat", 50, "LIST" ] ] ],
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ],
@@ -2826,7 +2758,7 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 3 ] ],
     "using": [ [ "sewing_standard", 40 ] ],
-    "tools": [ [ [ "welder", 16 ], [ "soldering_iron", 24 ], [ "toolset", 24 ] ] ],
+    "tools": [ [ [ "soldering_standard", 25, "LIST" ], [ "surface_heat", 25, "LIST" ] ] ],
     "components": [
       [ [ "cowboy_hat", 1 ], [ "hat_boonie", 1 ], [ "straw_hat", 1 ] ],
       [ [ "kevlar_plate", 3 ] ],
@@ -2992,12 +2924,12 @@
     "autolearn": true,
     "book_learn": [ [ "recipe_surv", 4 ], [ "recipe_melee", 4 ] ],
     "tools": [
-      [ [ "welder", 14 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ],
+      [ [ "soldering_standard", 25, "LIST" ], [ "surface_heat", 25, "LIST" ] ],
       [ [ "mold_plastic", -1 ] ],
       [ [ "surface_heat", 15, "LIST" ] ]
     ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "shield_riot", 1 ], [ "plastic_chunk", 50 ] ], [ [ "kevlar_plate", 10 ] ] ]
+    "components": [ [ [ "shield_riot", 1 ] ], [ [ "kevlar_plate", 10 ] ] ]
   },
   {
     "type": "recipe",
