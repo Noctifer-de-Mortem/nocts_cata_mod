@@ -8,7 +8,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -19,7 +20,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -30,7 +32,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -41,7 +44,8 @@
     "valid": false,
     "purifiable": false,
     "profession": true,
-    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_SERIES_1", "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -51,7 +55,8 @@
     "description": "This DNA marker serves as a reminder of what you are - a Bio-Weapon.  This is for NPCs, if you have this it's a bug to pester Noctifer about!",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -63,7 +68,8 @@
     "purifiable": false,
     "profession": true,
     "anger_relations": [ [ "FBIO-WEAPON", -25 ] ],
-    "flags": [ "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -76,7 +82,8 @@
     "purifiable": false,
     "profession": true,
     "anger_relations": [ [ "FBIO-WEAPON", -25 ] ],
-    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_ANY" ]
+    "flags": [ "BIO_WEAPON_SCEN", "BIO_WEAPON_ANY" ],
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -87,7 +94,8 @@
     "initial_ma_styles": [ "style_krav_maga" ],
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",
@@ -426,7 +434,8 @@
     "description": "You were kidnapped and forced into an underground blood sport, augmented and forced to fight others like you for the amusement of wealthy clients.  You may not be the only one lucky enough to have survived that without being broken.",
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "cancels": [ "NO_CBM_INSTALLATION" ]
   },
   {
     "type": "mutation",

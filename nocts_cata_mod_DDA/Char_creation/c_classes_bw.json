@@ -67,8 +67,13 @@
       "bio_armor_eyes"
     ],
     "items": {
-       "both": {
-        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "hat_noise_cancelling" } ]
+      "both": {
+        "entries": [
+          { "item": "badge_bio_weapon" },
+          { "item": "jumpsuit_pocketless", "variant": "orange" },
+          { "item": "footrags" },
+          { "item": "hat_noise_cancelling" }
+        ]
       },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -126,8 +131,13 @@
       "bio_armor_eyes"
     ],
     "items": {
-       "both": {
-        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "hat_noise_cancelling" } ]
+      "both": {
+        "entries": [
+          { "item": "badge_bio_weapon" },
+          { "item": "jumpsuit_pocketless", "variant": "orange" },
+          { "item": "footrags" },
+          { "item": "hat_noise_cancelling" }
+        ]
       },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -184,8 +194,19 @@
       "bio_armor_eyes"
     ],
     "items": {
-       "both": {
-        "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" }, { "item": "mycus_fruit" } ]
+      "both": {
+        "entries": [
+          { "item": "badge_bio_weapon" },
+          { "item": "jumpsuit_pocketless", "variant": "orange" },
+          { "item": "footrags" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" },
+          { "item": "mycus_fruit" }
+        ]
       },
       "male": [ "briefs" ],
       "female": [ "bra", "panties" ]
@@ -236,7 +257,7 @@
       "bio_power_storage_mkII"
     ],
     "items": {
-       "both": {
+      "both": {
         "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
       },
       "male": [ "briefs" ],
@@ -302,7 +323,7 @@
       "bio_power_storage_mkII"
     ],
     "items": {
-       "both": {
+      "both": {
         "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
       },
       "male": [ "briefs" ],
@@ -364,7 +385,7 @@
       "bio_plasma_cell"
     ],
     "items": {
-       "both": {
+      "both": {
         "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
       },
       "male": [ "briefs" ],
@@ -419,7 +440,7 @@
       "bio_sunglasses"
     ],
     "items": {
-       "both": {
+      "both": {
         "entries": [ { "item": "badge_bio_weapon" }, { "item": "jumpsuit_pocketless", "variant": "orange" }, { "item": "footrags" } ]
       },
       "male": [ "briefs" ],
