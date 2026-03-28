@@ -1116,48 +1116,8 @@
   },
   {
     "type": "vehicle_part_migration",
-    "from": "surv_full_223_t",
-    "to": "turret_surv_full_223"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_full_308_t",
-    "to": "turret_surv_full_308"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_full_762_t",
-    "to": "turret_surv_full_762"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_full_762R_t",
-    "to": "turret_surv_full_762R"
-  },
-  {
-    "type": "vehicle_part_migration",
     "from": "surv_full_12_t",
     "to": "turret_surv_full_12"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_lmg_308_t",
-    "to": "turret_surv_lmg_308"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_lmg_223_t",
-    "to": "turret_surv_lmg_223"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_lmg_762_t",
-    "to": "turret_surv_lmg_762"
-  },
-  {
-    "type": "vehicle_part_migration",
-    "from": "surv_lmg_762R_t",
-    "to": "turret_surv_lmg_762R"
   },
   {
     "type": "vehicle_part_migration",
