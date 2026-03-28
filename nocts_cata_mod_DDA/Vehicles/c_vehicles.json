@@ -84,7 +84,7 @@
       {
         "x": -7,
         "y": 0,
-        "parts": [ "hdframe#vertical_2", "veh_table_wood", "atomic_lamp", "hdroof", "reinforced_solar_panel_v2" ]
+        "parts": [ "hdframe#vertical_2", "veh_table_wood", "aisle_lights", "hdroof", "reinforced_solar_panel_v2" ]
       },
       {
         "x": -6,
@@ -369,12 +369,7 @@
           "frame_wood#cross",
           "seat_wood",
           "turret_mount",
-          {
-            "ammo_types": [ "reloaded_762_54R", "bp_762_54R" ],
-            "part": "turret_surv_lmg_762R",
-            "ammo": 60,
-            "ammo_qty": [ 5, 75 ]
-          }
+          { "ammo_types": [ "308" ], "part": "turret_m134", "ammo": 60, "ammo_qty": [ 5, 75 ] }
         ]
       },
       {
