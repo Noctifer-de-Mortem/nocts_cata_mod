@@ -741,7 +741,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_1" ],
     "weight": 1000,
     "object": {
@@ -777,7 +776,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_3" ],
     "weight": 1000,
     "object": {
@@ -831,7 +829,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_4" ],
     "weight": 1000,
     "object": {
