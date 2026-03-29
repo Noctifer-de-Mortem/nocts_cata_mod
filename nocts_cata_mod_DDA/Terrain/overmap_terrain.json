@@ -34,12 +34,14 @@
   {
     "id": "Survivor_Encampment_robotics",
     "copy-from": "Survivor_Encampment",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_overrun",
     "copy-from": "Survivor_Encampment",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_2",
@@ -53,33 +55,39 @@
   {
     "id": "Survivor_Encampment_bandits",
     "copy-from": "Survivor_Encampment_2",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_roof",
     "copy-from": "Survivor_Encampment_2",
     "type": "overmap_terrain",
-    "name": "Survivor Encampment roof"
+    "name": "Survivor Encampment roof",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_robotics_roof",
     "copy-from": "Survivor_Encampment_roof",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_bandits_roof",
     "copy-from": "Survivor_Encampment_roof",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_overrun_roof",
     "copy-from": "Survivor_Encampment_roof",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Survivor_Encampment_2_roof",
     "copy-from": "Survivor_Encampment_roof",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "low"
   },
   {
     "id": "Bio_Weapon_Lab_1",
@@ -104,7 +112,8 @@
     "id": "Bio_Weapon_Lab_roof",
     "copy-from": "Bio_Weapon_Lab_2",
     "type": "overmap_terrain",
-    "name": "Bio-Weapon Lab roof"
+    "name": "Bio-Weapon Lab roof",
+    "see_cost": "low"
   },
   {
     "id": "Bio_Weapon_Lab_b",
@@ -160,19 +169,22 @@
     "name": "open air",
     "sym": ".",
     "color": "blue",
-    "looks_like": "open_air"
+    "looks_like": "open_air",
+    "see_cost": "all_clear"
   },
   {
     "id": "Unknown_Lab_roof_3",
     "copy-from": "Unknown_Lab_3",
     "type": "overmap_terrain",
-    "name": "dormitory roof"
+    "name": "dormitory roof",
+    "see_cost": "none"
   },
   {
     "id": "Unknown_Lab_roof_4",
     "copy-from": "Unknown_Lab_4",
     "type": "overmap_terrain",
-    "name": "Unknown Bunker roof"
+    "name": "Unknown Bunker roof",
+    "see_cost": "none"
   },
   {
     "id": "Unknown_Lab_b1",
@@ -233,7 +245,8 @@
     "id": "makeshift_command_center_roof",
     "copy-from": "makeshift_command_center_2",
     "type": "overmap_terrain",
-    "name": "Makeshift Command Center roof"
+    "name": "Makeshift Command Center roof",
+    "see_cost": "none"
   },
   {
     "id": "makeshift_command_center_b",
@@ -258,7 +271,8 @@
     "copy-from": "sketchy_cabin_1",
     "type": "overmap_terrain",
     "name": "Sketchy Cabin roof",
-    "looks_like": "cabin_roof"
+    "looks_like": "cabin_roof",
+    "see_cost": "none"
   },
   {
     "id": "sketchy_cabin_2",
@@ -274,7 +288,8 @@
     "copy-from": "sketchy_cabin_2",
     "type": "overmap_terrain",
     "name": "abandoned barn roof",
-    "looks_like": "farm_3_roof"
+    "looks_like": "farm_3_roof",
+    "see_cost": "none"
   },
   {
     "type": "overmap_terrain",
@@ -333,11 +348,13 @@
     "copy-from": "Survivor_Holdout_2",
     "type": "overmap_terrain",
     "name": "dirt lot",
-    "sym": "0"
+    "sym": "0",
+    "see_cost": "none"
   },
   {
     "id": "Survivor_Encampment_Lot_Generic",
     "copy-from": "Survivor_Encampment_Lot_Preppers",
-    "type": "overmap_terrain"
+    "type": "overmap_terrain",
+    "see_cost": "none"
   }
 ]

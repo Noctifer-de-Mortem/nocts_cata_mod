@@ -646,8 +646,8 @@
         "                        ",
         "                        ",
         "|||||||||||             ",
-        "D...rr{{{{|             ",
-        "E.........||            ",
+        "....rr{{{{|             ",
+        "..........||            ",
         "6c...212..P|            ",
         "......_...P|            ",
         ".....343..P|            ",
@@ -681,8 +681,6 @@
         "4": "t_station_disc",
         "6": "t_metal_floor",
         "C": "t_metal_floor",
-        "D": "t_cvdbody",
-        "E": "t_cvdmachine",
         "F": "t_metal_floor",
         "I": "t_reinforced_glass",
         "P": "t_metal_floor",
@@ -741,7 +739,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_1" ],
     "weight": 1000,
     "object": {
@@ -777,7 +774,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_3" ],
     "weight": 1000,
     "object": {
@@ -831,7 +827,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Unknown_Lab_roof_4" ],
     "weight": 1000,
     "object": {

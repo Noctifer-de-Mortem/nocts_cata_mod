@@ -49,12 +49,7 @@
         "entries": [
           { "item": "tank_top", "variant": "tank_top_camo" },
           { "item": "knife_rambo", "container-item": "scabbard" },
-          {
-            "item": "medium_battery_cell",
-            "ammo-item": "battery",
-            "charges": 56,
-            "container-item": "wearable_light"
-          },
+          { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 56, "container-item": "wearable_light" },
           { "group": "charged_ref_lighter" }
         ]
       },
@@ -219,6 +214,7 @@
       "bio_watch",
       "bio_power_storage_mkII"
     ],
+    "traits": [ "CBM_Interface" ],
     "skills": [
       { "level": 2, "name": "cooking" },
       { "level": 2, "name": "computer" },

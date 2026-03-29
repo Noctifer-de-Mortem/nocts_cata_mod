@@ -249,7 +249,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "Bio_Weapon_Lab_roof" ],
     "weight": 1000,
     "object": {

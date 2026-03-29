@@ -478,7 +478,7 @@
   },
   {
     "id": "surv_full_223",
-    "copy-from": "rifle_base",
+    "copy-from": "gun_base_rifle_manual",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "looks_like": "surv_carbine_223",
@@ -512,7 +512,7 @@
   },
   {
     "id": "surv_full_22",
-    "copy-from": "smg_base",
+    "copy-from": "mac_10",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "looks_like": "sten",
@@ -666,7 +666,6 @@
   },
   {
     "id": "surv_full_12",
-    "copy-from": "shotgun_base",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "looks_like": "saiga_12",
@@ -676,9 +675,13 @@
     "price_postapoc": "120 USD",
     "material": [ "steel", "wood" ],
     "ammo": [ "shot" ],
+    "color": "light_gray",
+    "symbol": "⨽",
     "weight": "3500 g",
     "volume": "2500 ml",
     "longest_side": "1000 mm",
+    "skill": "shotgun",
+    "handling": 20,
     "barrel_volume": "500 ml",
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 500,
@@ -1605,7 +1608,6 @@
   },
   {
     "id": "flamethrower_surv",
-    "copy-from": "flamethrower_base",
     "looks_like": "flamethrower",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
@@ -1625,6 +1627,13 @@
     "dispersion": 450,
     "durability": 7,
     "clip_size": 1500,
+    "skill": "launcher",
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo_effects": [ "FLARE" ],
+    "flags": [ "NEVER_JAMS", "FIRESTARTER", "BELTED", "PRIMITIVE_RANGED_WEAPON", "IS_ARMOR" ],
+    "faults": [  ],
+    "use_action": { "type": "firestarter" },
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
