@@ -16,6 +16,8 @@ If you are using Dark Days Ahead, place the included nocts_cata_mod_DDA folder i
 
 Launcher users are advised to update this mod via deleting and re-installing in the launcher's mods section after updating their game, as the `update game` function does not touch third-party mods.
 
+Also included in the Patchmods folder is a secondary mod for those using Arcana and Magic Items mod in Bright Nights, which expands on the interactions between the two mods' respective content. This is option and both mods function together without this mod, but adding it will add additional interactions such as professions from one mod being selectable in the other mod's scenarios, ability to disassemble anomalous items from Cata++ into dull essence, etc.
+
 Feedback is welcome! Hope it's fun.
 
 ## Special Thanks
