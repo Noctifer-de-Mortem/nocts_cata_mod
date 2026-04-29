@@ -163,7 +163,7 @@
     "type": "ARMOR",
     "name": { "str": "survivor superalloy plate armor" },
     "description": "A suit of Gothic plate armor, made from superalloy plates further modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements.",
-    "material": [ "superalloy", "kevlar", "leather" ],
+    "material": [ "superalloy", "kevlar" ],
     "color": "light_cyan",
     "relative": { "encumbrance": -5 },
     "proportional": { "weight": 0.6, "price": 2, "price_postapoc": 2 }
