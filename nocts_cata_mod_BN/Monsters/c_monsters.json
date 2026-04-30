@@ -348,6 +348,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [ [ "GRAB", 10 ] ],
     "special_when_hit": [ "ZAPBACK", 60 ],
@@ -488,7 +489,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 100 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -560,7 +561,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 100 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -632,7 +633,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 200 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -703,7 +704,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 5 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -850,7 +851,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 25 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
