@@ -275,8 +275,7 @@
     "death_drops": "mon_zombie_bio_dormant_unarmed_death_drops",
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" },
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_dormant_unarmed_light",
@@ -349,6 +348,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [ [ "GRAB", 10 ] ],
     "special_when_hit": [ "ZAPBACK", 60 ],
@@ -357,8 +357,7 @@
     "death_drops": "mon_zombie_bio_dormant_armed_death_drops",
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_SUPER_SOLDIER_UPGRADE" },
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "STUMBLES", "BASHES", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_dormant_armed_light",
@@ -411,9 +410,9 @@
     "path_settings": { "max_dist": 20 },
     "vision_night": 20,
     "special_attacks": [ [ "GRAB", 10 ], [ "BIO_OP_TAKEDOWN", 30 ], { "type": "leap", "cooldown": 10, "max_range": 5 }, [ "scratch", 20 ] ],
+    "monster_weapon": "mon_zombie_bio_knife_monster_weapon",
     "death_drops": "mon_zombie_bio_knife_death_drops",
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "BLEED" ],
+    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "BLEED", "REVIVES" ],
     "delete": { "upgrades": { "half_life": 28, "into": "mon_zombie_bio_knife" } }
   },
   {
@@ -490,7 +489,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 100 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -521,10 +520,10 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
+    "monster_weapon": "mon_zombie_bio_infantry_rifle_monster_weapon",
     "death_drops": "wild_bio_infantry_rifle",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_infantry_shotgun",
@@ -562,7 +561,7 @@
     "regenerates": 1,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 100 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_ZOMBIE",
     "special_attacks": [
       {
@@ -593,10 +592,10 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
+    "monster_weapon": "mon_zombie_bio_infantry_shotgun_monster_weapon",
     "death_drops": "wild_bio_infantry_shotgun",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_knight_lmg",
@@ -634,7 +633,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 200 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -664,10 +663,10 @@
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
+    "monster_weapon": "mon_zombie_bio_knight_lmg_monster_weapon",
     "death_drops": "wild_bio_knight_lmg",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_knight_lauhcher",
@@ -705,7 +704,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 5 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE",
     "special_attacks": [
       {
@@ -736,10 +735,10 @@
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
+    "monster_weapon": "mon_zombie_bio_knight_lauhcher_monster_weapon",
     "death_drops": "wild_bio_knight_launcher",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "BASHES", "PUSH_MON", "PUSH_VEH", "PATH_AVOID_FIRE", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_scout_sniper",
@@ -810,10 +809,10 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "STALK" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
+    "monster_weapon": "mon_zombie_bio_scout_sniper_monster_weapon",
     "death_drops": "wild_bio_scout_sniper",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_1", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_tool_pistol",
@@ -852,7 +851,7 @@
     "regenerates": 3,
     "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -0.5, "scaling_mod": -0.25 }, { "effect": "corroding", "base_mod": -0.5 } ],
     "regen_morale": true,
-    "starting_ammo": { "battery": 25 },
+    "starting_ammo": { "battery": 50 },
     "harvest": "CBM_SOLDAT_TOOL_ZOMBIE",
     "special_attacks": [
       {
@@ -882,10 +881,10 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
+    "monster_weapon": "mon_zombie_bio_tool_pistol_monster_weapon",
     "death_drops": "wild_bio_tool_pistol",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2", "REVIVES" ]
   },
   {
     "id": "mon_zombie_bio_tool_smg",
@@ -954,66 +953,9 @@
     "special_when_hit": [ "ZAPBACK", 60 ],
     "anger_triggers": [ "FRIEND_DIED", "FRIEND_ATTACKED", "HURT", "STALK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
+    "monster_weapon": "mon_zombie_bio_tool_smg_monster_weapon",
     "death_drops": "wild_bio_tool_smg",
     "death_function": [ "NORMAL" ],
-    "zombify_into": "mon_zombie_bio_reanimated",
-    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2" ]
-  },
-  {
-    "id": "mon_zombie_bio_reanimated",
-    "type": "MONSTER",
-    "looks_like": "mon_zombie_bio_dormant_unarmed",
-    "name": { "str": "reanimated augmented soldier" },
-    "description": "An advanced, well-equipped member of the military that still succumbed to the cataclysm.  This one has no sign of its signature weaponry and its armor is in tatters, yet it still marches on with unnerving confidence and speed.",
-    "default_faction": "super_soldat",
-    "species": [ "ZOMBIE" ],
-    "volume": "62500 ml",
-    "weight": "81500 g",
-    "hp": 90,
-    "speed": 110,
-    "material": [ "flesh" ],
-    "symbol": "Z",
-    "color": "red_cyan",
-    "//": "It has long since been aggro'd at this point.",
-    "aggression": 100,
-    "morale": 100,
-    "melee_skill": 5,
-    "melee_dice": 2,
-    "melee_dice_sides": 6,
-    "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
-    "path_settings": { "max_dist": 20 },
-    "dodge": 5,
-    "armor_cut": 5,
-    "armor_stab": 4,
-    "armor_bullet": 20,
-    "armor_fire": 5,
-    "vision_day": 40,
-    "vision_night": 15,
-    "luminance": 2,
-    "regenerates": 1,
-    "regeneration_modifiers": [ { "effect": "onfire", "base_mod": -1.0 }, { "effect": "corroding", "base_mod": -1.0 } ],
-    "regen_morale": true,
-    "harvest": "CBM_SOLDAT_ZOMBIE_GENERIC",
-    "special_attacks": [
-      { "type": "leap", "cooldown": 10, "max_range": 5 },
-      [ "GRAB", 5 ],
-      [ "BIO_OP_TAKEDOWN", 20 ],
-      [ "scratch", 15 ],
-      { "type": "bite", "cooldown": 5 }
-    ],
-    "special_when_hit": [ "ZAPBACK", 60 ],
-    "death_function": [ "NORMAL" ],
-    "flags": [
-      "HARDTOSHOOT",
-      "REVIVES",
-      "SEES",
-      "HEARS",
-      "SMELLS",
-      "POISON",
-      "NO_BREATHE",
-      "STUMBLES",
-      "BASHES",
-      "PATH_AVOID_DANGER_1"
-    ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "PATH_AVOID_DANGER_2", "REVIVES" ]
   }
 ]
