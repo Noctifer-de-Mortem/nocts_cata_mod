@@ -121,28 +121,21 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "arc_laser_rifle", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
-              { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 25 }
-            ],
-            "prob": 80
-          },
-          {
-            "collection": [
-              { "item": "arc_laser_rifle_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 20
-          }
-        ]
+          { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 80 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       }
+    ]
+  },
+  {
+    "id": "mon_zombie_bio_infantry_rifle_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "arc_laser_rifle", "prob": 80, "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "arc_laser_rifle_ups", "prob": 20, "damage": [ 0, 3 ] }
     ]
   },
   {
@@ -169,28 +162,21 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "xarm_laser_shotgun", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
-              { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 25 }
-            ],
-            "prob": 80
-          },
-          {
-            "collection": [
-              { "item": "xarm_laser_shotgun_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 20
-          }
-        ]
+          { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 80 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       }
+    ]
+  },
+  {
+    "id": "mon_zombie_bio_infantry_shotgun_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "xarm_laser_shotgun", "prob": 80, "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "xarm_laser_shotgun_ups", "prob": 20, "damage": [ 0, 3 ] }
     ]
   },
   {
@@ -220,32 +206,25 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "mx_laser_sniper", "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
-              { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 25 }
-            ],
-            "prob": 75
-          },
-          {
-            "collection": [
-              { "item": "mx_laser_sniper_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 25
-          }
-        ]
+          { "item": "medium_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 80 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       },
       { "item": "e_tool", "damage": [ 0, 3 ], "prob": 50 },
       { "item": "mre_beef_box", "damage": [ 0, 3 ], "prob": 75 },
       { "item": "large_tent_kit", "damage": [ 0, 3 ], "prob": 25 },
       { "item": "rollmat", "damage": [ 0, 3 ], "prob": 50 }
+    ]
+  },
+  {
+    "id": "mon_zombie_bio_scout_sniper_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "mx_laser_sniper", "prob": 80, "damage": [ 0, 3 ], "charges": [ 0, 2500 ] },
+      { "item": "mx_laser_sniper_ups", "prob": 20, "damage": [ 0, 3 ] }
     ]
   },
   {
@@ -272,28 +251,21 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "krx_laser_lmg", "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
-              { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 5000 ], "prob": 25 }
-            ],
-            "prob": 95
-          },
-          {
-            "collection": [
-              { "item": "krx_laser_lmg_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 5
-          }
-        ]
+          { "item": "heavy_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 10000 ], "prob": 80 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       }
+    ]
+  },
+  {
+    "id": "mon_zombie_bio_knight_lmg_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "krx_laser_lmg", "prob": 80, "damage": [ 0, 3 ], "charges": [ 0, 5000 ] },
+      { "item": "krx_laser_lmg_ups", "prob": 10, "damage": [ 0, 3 ] }
     ]
   },
   {
@@ -317,7 +289,6 @@
         ],
         "prob": 80
       },
-      { "item": "mk_ionic_cannon", "damage": [ 0, 3 ], "charges": [ 0, 1 ] },
       { "item": "plasma", "damage": [ 0, 1 ], "charges": [ 1, 2 ], "prob": 50 },
       {
         "distribution": [
@@ -327,6 +298,12 @@
         "prob": 10
       }
     ]
+  },
+  {
+    "id": "mon_zombie_bio_knight_lauhcher_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ { "item": "mk_ionic_cannon", "prob": 100, "damage": [ 0, 3 ], "charges": [ 0, 1 ] } ]
   },
   {
     "id": "wild_bio_tool_pistol",
@@ -352,33 +329,12 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "neo_laser_pistol", "damage": [ 0, 3 ], "charges": [ 0, 250 ] },
-              {
-                "distribution": [
-                  { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
-                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 50 }
-                ],
-                "prob": 25
-              }
-            ],
-            "prob": 50
-          },
-          {
-            "collection": [
-              { "item": "neo_laser_pistol_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 50
-          }
-        ]
+          { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 30 },
+          { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 60 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       },
       { "item": "chemistry_set", "damage": [ 0, 1 ], "prob": 90 },
       { "item": "id_science", "damage": [ 0, 1 ], "prob": 25 },
@@ -386,6 +342,15 @@
         "distribution": [ { "item": "omnitech_weapon_ups_manual", "prob": 25 }, { "item": "omnitech_weapon_ups_kit", "prob": 75 } ],
         "prob": 25
       }
+    ]
+  },
+  {
+    "id": "mon_zombie_bio_tool_pistol_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "neo_laser_pistol", "prob": 80, "damage": [ 0, 3 ], "charges": [ 0, 250 ] },
+      { "item": "neo_laser_pistol_ups", "prob": 20, "damage": [ 0, 3 ] }
     ]
   },
   {
@@ -411,33 +376,12 @@
       },
       {
         "distribution": [
-          {
-            "collection": [
-              { "item": "akro_laser_smg", "damage": [ 0, 3 ], "charges": [ 0, 500 ] },
-              {
-                "distribution": [
-                  { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 50 },
-                  { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 50 }
-                ],
-                "prob": 25
-              }
-            ],
-            "prob": 50
-          },
-          {
-            "collection": [
-              { "item": "akro_laser_smg_ups", "damage": [ 0, 3 ] },
-              {
-                "distribution": [
-                  { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 50 },
-                  { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 50 }
-                ],
-                "prob": 10
-              }
-            ],
-            "prob": 50
-          }
-        ]
+          { "item": "light_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 1000 ], "prob": 60 },
+          { "item": "light_minus_atomic_battery_cell", "damage": [ 0, 1 ], "charges": [ 0, 500 ], "prob": 30 },
+          { "item": "UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 1250 ], "prob": 10 },
+          { "item": "adv_UPS_off", "damage": [ 0, 1 ], "charges": [ 0, 2500 ], "prob": 10 }
+        ],
+        "prob": 25
       },
       { "item": "chemistry_set", "damage": [ 0, 1 ], "prob": 90 },
       { "item": "id_science", "damage": [ 0, 1 ], "prob": 25 },
@@ -448,35 +392,34 @@
     ]
   },
   {
+    "id": "mon_zombie_bio_tool_smg_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "akro_laser_smg", "damage": [ 0, 3 ], "prob": 80, "charges": [ 0, 500 ] },
+      { "item": "akro_laser_smg_ups", "prob": 20, "damage": [ 0, 3 ] }
+    ]
+  },
+  {
     "type": "item_group",
     "subtype": "distribution",
     "//": "Picks the normal death drops for a super soldier at random.",
     "id": "mon_zombie_bio_dormant_armed_death_drops",
-    "groups": [
-      [ "wild_bio_infantry_rifle", 50 ],
-      [ "wild_bio_infantry_shotgun", 50 ]
-    ]
+    "groups": [ [ "wild_bio_infantry_rifle", 50 ], [ "wild_bio_infantry_shotgun", 50 ] ]
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "//": "Picks the normal death drops for a super soldier at random.",
     "id": "mon_zombie_bio_dormant_armed_light_death_drops",
-    "groups": [
-      [ "wild_bio_knight_lmg", 50 ],
-      [ "wild_bio_knight_launcher", 50 ]
-    ]
+    "groups": [ [ "wild_bio_knight_lmg", 50 ], [ "wild_bio_knight_launcher", 50 ] ]
   },
   {
     "type": "item_group",
     "subtype": "distribution",
     "//": "Picks the normal death drops for a super soldier at random.",
     "id": "mon_zombie_bio_dormant_armed_heavy_death_drops",
-    "groups": [
-      [ "wild_bio_scout_sniper", 50 ],
-      [ "wild_bio_tool_pistol", 25 ],
-      [ "wild_bio_tool_smg", 25 ]
-    ]
+    "groups": [ [ "wild_bio_scout_sniper", 50 ], [ "wild_bio_tool_pistol", 25 ], [ "wild_bio_tool_smg", 25 ] ]
   },
   {
     "id": "mon_zombie_bio_dormant_unarmed_death_drops",
@@ -521,16 +464,16 @@
     ]
   },
   {
+    "id": "mon_zombie_bio_knife_monster_weapon",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [ { "item": "knife_combat", "damage": [ 0, 3 ], "prob": 75 }, { "item": "knife_rm42", "damage": [ 0, 3 ], "prob": 25 } ]
+  },
+  {
     "id": "mon_zombie_bio_knife_death_drops",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [
-      { "group": "mon_zombie_bio_unarmed_generic" },
-      {
-        "distribution": [ { "item": "knife_combat", "damage": [ 0, 3 ], "prob": 75 }, { "item": "knife_rm42", "damage": [ 0, 3 ], "prob": 25 } ]
-      },
-      { "item": "sheath", "damage": [ 0, 3 ] }
-    ]
+    "entries": [ { "group": "mon_zombie_bio_unarmed_generic" }, { "item": "sheath", "damage": [ 0, 3 ] } ]
   },
   {
     "id": "mon_zombie_bio_knife_light_death_drops",
