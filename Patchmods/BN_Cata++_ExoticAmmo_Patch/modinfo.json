@@ -1,7 +1,7 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "Arcana_Cata++_Patch",
+    "id": "Cata++_Exotic_Ammo_Patch",
     "name": "<color_light_green>Cata++</color>/Exotic ammo types Patchmod",
     "authors": [ "Chaosvolt" ],
     "description": "Optional patch mod that allows content in Cataclysm++ and Exotic ammo types to interact with each other.",
