@@ -923,7 +923,7 @@
     "name": { "str": "survivor cowboy hat" },
     "description": "A wide-brimmed hat that's been modified with kevlar padding, and bandolier loops sewn onto the hat band.  Perfect for holding a few cartridges somewhere out of the way, its adjustable loops fitting a wide variety of ammunition.",
     "weight": "420 g",
-    "price_postapoc": 500,
+    "price_postapoc": "5 USD",
     "material": [ "leather", "cotton", "kevlar" ],
     "coverage": 75,
     "encumbrance": 20,
