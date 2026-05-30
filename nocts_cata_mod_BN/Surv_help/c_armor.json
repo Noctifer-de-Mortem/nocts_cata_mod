@@ -756,7 +756,7 @@
     "type": "ARMOR",
     "name": { "str": "dress skirt" },
     "description": "A short yet professional looking cotton skirt.  Somewhat easy to move in, but has no pockets.",
-    "storage": 0,
+    "storage": "0 L",
     "extend": { "flags": [ "FANCY" ] }
   },
   {
@@ -766,7 +766,7 @@
     "type": "ARMOR",
     "name": { "str": "microskirt" },
     "description": "A skirt that is on the short side.  No pockets but it is comfortable to wear.",
-    "storage": 0,
+    "storage": "0 L",
     "coverage": 30
   },
   {
