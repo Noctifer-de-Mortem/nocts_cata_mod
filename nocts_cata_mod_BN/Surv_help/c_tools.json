@@ -588,7 +588,7 @@
     "volume": "2005 ml",
     "bashing": 8,
     "to_hit": -1,
-    "container_data": { "contains": 8, "watertight": true },
+    "container_data": { "contains": "2 L", "watertight": true },
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
     "//": "In the unlikely event some lunatic mistakes this for the frying pan of doom.",
     "flags": [ "ALLOWS_REMOTE_USE", "FRAGILE_MELEE" ]
@@ -606,7 +606,7 @@
     "material": [ "iron" ],
     "//": "Get a further discount in weight because we're already getting crazy poundage here.",
     "weight": "9800 g",
-    "volume": 14,
+    "volume": "3500 ml",
     "to_hit": 3,
     "bashing": 16,
     "cutting": 1,
