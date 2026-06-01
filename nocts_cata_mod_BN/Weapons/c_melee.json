@@ -15,9 +15,15 @@
     "looks_like": "bio_blade_weapon",
     "material": [ "superalloy", "steel" ],
     "techniques": [ "WBLOCK_2" ],
-    "bashing": 4,
-    "cutting": 32,
-    "to_hit": 2,
+    "attacks": [
+      {
+        "id": "STRIKE",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 4 }, { "damage_type": "cut", "amount": 32, "armor_penetration": 16 } ]
+        }
+      }
+    ],
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_KNIFE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 22 ] ],
     "gunmod_data": {
@@ -43,9 +49,15 @@
     "looks_like": "bio_sword_weapon",
     "material": [ "superalloy", "steel" ],
     "techniques": [ "RAPID", "WBLOCK_2" ],
-    "bashing": 4,
-    "cutting": 44,
-    "to_hit": 2,
+    "attacks": [
+      {
+        "id": "STRIKE",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 4 }, { "damage_type": "cut", "amount": 44, "armor_penetration": 32 } ]
+        }
+      }
+    ],
     "flags": [ "UNBREAKABLE_MELEE", "SHEATH_SWORD" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 20 ] ],
     "gunmod_data": {
@@ -62,7 +74,6 @@
     "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
     "name": { "str_sp": "repurposed bionic claws" },
     "description": "Short and sharp claws made from a high-tech metal edged with bonded nanocrystals, salvaged from a CBM and welded to metal knuckles.  Lightweight and fast, wielding them feels as if you were bare-handed.",
-    "to_hit": 2,
     "weight": "200 g",
     "volume": "500 ml",
     "price": "400 USD",
@@ -71,8 +82,15 @@
     "symbol": "{",
     "looks_like": "bio_claws_weapon",
     "material": [ "superalloy", "steel" ],
-    "bashing": 14,
-    "cutting": 18,
+    "attacks": [
+      {
+        "id": "STRIKE",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 4 }, { "damage_type": "stab", "amount": 18, "armor_penetration": 19 } ]
+        }
+      }
+    ],
     "flags": [ "STAB", "UNARMED_WEAPON", "UNBREAKABLE_MELEE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 12 ] ]
   },
@@ -82,7 +100,16 @@
     "type": "GENERIC",
     "name": { "str": "repurposed bionic whip" },
     "description": "A long, sharp thread of high-tech material with a small counterweight at the end, salvaged from a CBM.  A metal handle has been welded on to make it actually feasible to use without being more of a danger to the wielder.",
-    "relative": { "weight": "150 g", "to_hit": -1, "bashing": 4, "cutting": -4 },
+    "relative": { "weight": "150 g" },
+    "attacks": [
+      {
+        "id": "STRIKE",
+        "to_hit": 2,
+        "damage": {
+          "values": [ { "damage_type": "bash", "amount": 4 }, { "damage_type": "cut", "amount": 24, "armor_penetration": 22 } ]
+        }
+      }
+    ],
     "price": "60 USD",
     "price_postapoc": "20 USD",
     "extend": { "flags": [ "BELT_CLIP" ] },
