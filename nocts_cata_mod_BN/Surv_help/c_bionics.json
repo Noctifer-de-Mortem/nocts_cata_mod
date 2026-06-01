@@ -57,6 +57,15 @@
     "techniques": [ "RAPID", "WBLOCK_2" ],
     "volume": "2250 ml",
     "cutting": 48,
+    "attacks": [
+      {
+        "id": "STRIKE",
+        "to_hit": 3,
+        "damage": {
+          "values": [ { "damage_type": "cut", "amount": 48, "armor_penetration": 34 } ]
+        }
+      }
+    ],
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 20 ] ]
   },
