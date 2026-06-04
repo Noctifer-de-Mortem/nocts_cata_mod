@@ -402,24 +402,55 @@
   },
   {
     "type": "item_group",
-    "subtype": "distribution",
     "//": "Picks the normal death drops for a super soldier at random.",
     "id": "mon_zombie_bio_dormant_armed_death_drops",
-    "groups": [ [ "wild_bio_infantry_rifle", 50 ], [ "wild_bio_infantry_shotgun", 50 ] ]
+    "subtype": "distribution",
+    "entries": [
+      {
+        "collection": [ { "group": "wild_bio_infantry_rifle" }, { "group": "mon_zombie_bio_infantry_rifle_monster_weapon" } ],
+        "prob": 50
+      },
+      {
+        "collection": [ { "group": "wild_bio_infantry_shotgun" }, { "group": "mon_zombie_bio_infantry_shotgun_monster_weapon" } ],
+        "prob": 50
+      }
+    ]
   },
   {
     "type": "item_group",
-    "subtype": "distribution",
-    "//": "Picks the normal death drops for a super soldier at random.",
-    "id": "mon_zombie_bio_dormant_armed_light_death_drops",
-    "groups": [ [ "wild_bio_knight_lmg", 50 ], [ "wild_bio_knight_launcher", 50 ] ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "distribution",
     "//": "Picks the normal death drops for a super soldier at random.",
     "id": "mon_zombie_bio_dormant_armed_heavy_death_drops",
-    "groups": [ [ "wild_bio_scout_sniper", 50 ], [ "wild_bio_tool_pistol", 25 ], [ "wild_bio_tool_smg", 25 ] ]
+    "subtype": "distribution",
+    "entries": [
+      {
+        "collection": [ { "group": "wild_bio_knight_lmg" }, { "group": "mon_zombie_bio_knight_lmg_monster_weapon" } ],
+        "prob": 50
+      },
+      {
+        "collection": [ { "group": "wild_bio_knight_launcher" }, { "group": "mon_zombie_bio_knight_lauhcher_monster_weapon" } ],
+        "prob": 50
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "//": "Picks the normal death drops for a super soldier at random.",
+    "id": "mon_zombie_bio_dormant_armed_light_death_drops",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "collection": [ { "group": "wild_bio_scout_sniper" }, { "group": "mon_zombie_bio_scout_sniper_monster_weapon" } ],
+        "prob": 50
+      },
+      {
+        "collection": [ { "group": "wild_bio_tool_pistol" }, { "group": "mon_zombie_bio_tool_pistol_monster_weapon" } ],
+        "prob": 25
+      },
+      {
+        "collection": [ { "group": "wild_bio_tool_smg" }, { "group": "mon_zombie_bio_tool_smg_monster_weapon" } ],
+        "prob": 25
+      }
+    ]
   },
   {
     "id": "mon_zombie_bio_dormant_unarmed_death_drops",
