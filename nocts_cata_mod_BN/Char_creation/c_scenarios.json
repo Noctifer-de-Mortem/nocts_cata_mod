@@ -35,7 +35,18 @@
     "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "mycus_weapon" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "TABLEMANNERS", "WAYFARER", "CARRY_PERMIT" ],
+    "forbidden_traits": [
+      "GOURMAND",
+      "PARKOUR",
+      "SPIRITUAL",
+      "STYLISH",
+      "HOARDER",
+      "NOMAD",
+      "PACIFIST",
+      "TABLEMANNERS",
+      "WAYFARER",
+      "CARRY_PERMIT"
+    ],
     "bionics": [
       "bio_laser_armgun",
       "bio_sword",
