@@ -972,7 +972,7 @@
       ],
       "draw_cost": 30
     },
-    "extend": { "effects": [ "STURDY" ] }
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "type": "ARMOR",
@@ -1071,7 +1071,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift hydraulic armor (on)", "str_pl": "makeshift hydraulic armors (on)" },
     "description": "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
-    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT", "COMBAT_NPC_ON" ] },
+    "extend": { "flags": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT", "COMBAT_NPC_ON" ] },
     "//": "power_draw does not actually work sanely for non-battery items, so value fits for roughly how many turns one unit of the weakest allowed fuel would last at twice the power draw of vanilla power armor, rounded down.",
     "turns_per_charge": 6,
     "revert_to": "c_power_armor_surv",
@@ -1118,7 +1118,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "makeshift superalloy hydraulic armor (on)", "str_pl": "makeshift superalloy hydraulic armors (on)" },
     "description": "A heavy suit of superalloy and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer's movements.  It's currently active, strengthening the wearer, allowing you to fire heavy weapons unsupported, increasing raw speed and making the armor less encumbering, but also being warmer and making stealth more difficult.",
-    "extend": { "effects": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
+    "extend": { "flags": [ "TRADER_AVOID", "HEAVY_WEAPON_SUPPORT" ] },
     "//": "turns_per_charge increased over standard version since lighter suit takes less effort to power.",
     "turns_per_charge": 10,
     "revert_to": "c_power_armor_surv_superalloy",
