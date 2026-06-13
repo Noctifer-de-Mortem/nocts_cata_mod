@@ -707,7 +707,7 @@
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "looks_like": "m60",
-    "weapon_category": [ "MACHINE_GUNS", "AUTOLOADING" ],
+    "weapon_category": [ "AUTOMATIC_RIFLES", "AUTOLOADING" ],
     "name": { "str": "survivor's .308 GPMG" },
     "description": "A (mostly) homemade GPMG built from a full auto receiver.  Although well-made, its high volume of fire makes reliability and accuracy an issue.  Takes the .308 cartridge via a belt feed.",
     "price": "1500 USD",
