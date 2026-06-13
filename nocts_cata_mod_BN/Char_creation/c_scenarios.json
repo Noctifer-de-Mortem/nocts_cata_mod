@@ -11,7 +11,7 @@
     "allowed_locs": [ "Bio_Weapon_Lab_l" ],
     "professions": [ "bio_weapon_a", "bio_weapon_b", "bio_weapon_g", "bio_weapon_d", "failed_weapon_scen" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "WAYFARER" ],
+    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "WAYFARER", "CARRY_PERMIT" ],
     "bionics": [
       "bio_laser_armgun",
       "bio_sword",
@@ -35,7 +35,18 @@
     "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "mycus_weapon" ],
     "traits": [ "MARTIAL_ARTS_MUT_COM", "MARTIAL_ARTS_BIOJUTSU" ],
-    "forbidden_traits": [ "GOURMAND", "PARKOUR", "SPIRITUAL", "STYLISH", "HOARDER", "NOMAD", "PACIFIST", "TABLEMANNERS", "WAYFARER" ],
+    "forbidden_traits": [
+      "GOURMAND",
+      "PARKOUR",
+      "SPIRITUAL",
+      "STYLISH",
+      "HOARDER",
+      "NOMAD",
+      "PACIFIST",
+      "TABLEMANNERS",
+      "WAYFARER",
+      "CARRY_PERMIT"
+    ],
     "bionics": [
       "bio_laser_armgun",
       "bio_sword",
@@ -136,6 +147,8 @@
       "LARGE",
       "MARTIAL_ARTS_MUT_COM"
     ],
+    "//": "You'll to scramble for a half-loaded gun off the arena floor like a good little gladiator.",
+    "forbidden_traits": [ "CARRY_PERMIT" ],
     "professions": [ "sf_blade", "sf_claw", "sf_shock", "sf_weapon" ],
     "bionics": [ "bio_laser_armgun", "bio_sword", "bio_flamethrower", "bio_hazard_shield" ]
   },
