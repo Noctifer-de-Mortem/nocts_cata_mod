@@ -831,7 +831,7 @@
             { "value": "STRENGTH", "add": 2 },
             { "value": "DEXTERITY", "add": 1 },
             { "value": "ATTACK_COST", "multiply": -0.25 },
-            { "value": "ARMOR_ELEC", "multiply": 0.5 }
+            { "value": "ARMOR_ELECTRIC", "multiply": 0.5 }
           ],
           "ench_effects": [ { "effect": "c_mi_go_carapace_stamina", "intensity": 1 } ],
           "mutations": [ "C_MIGO_HEAT_BONUS" ]
