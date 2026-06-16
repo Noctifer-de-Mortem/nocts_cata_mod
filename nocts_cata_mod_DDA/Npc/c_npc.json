@@ -7,7 +7,7 @@
     "gender": "male",
     "class": "NC_SCAVENGER",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_BFF",
     "faction": "preppers"
   },
@@ -18,7 +18,7 @@
     "name_suffix": "Prepper",
     "class": "NC_PREPPER",
     "attitude": 0,
-    "mission": 3,
+    "mission": "SHOPKEEP",
     "chat": "TALK_STRANGER_NEUTRAL",
     "faction": "preppers"
   },
@@ -29,7 +29,7 @@
     "name_suffix": "Prepper",
     "class": "NC_PREPPER",
     "attitude": 1,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_STRANGER_NEUTRAL",
     "faction": "preppers"
   },
@@ -42,7 +42,7 @@
     "gender": "female",
     "class": "NC_BIO_HUNTER_E",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_BHUNTER",
     "faction": "super_soldiers",
     "mission_offered": "MISSION_FIND_COMMAND_CENTER"
@@ -56,7 +56,7 @@
     "gender": "male",
     "class": "NC_SCIENTIST_ROUTER",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_MSCI",
     "faction": "commandeers",
     "mission_offered": "MISSION_PROOF_APOPHIS_DEAD"
@@ -70,7 +70,7 @@
     "gender": "male",
     "class": "NC_BIO_WEAPON_SIGMA",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_BIO_1",
     "faction": "bio_weapons"
   },
@@ -83,7 +83,7 @@
     "gender": "female",
     "class": "NC_BIO_WEAPON_LAMBDA",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_BIO_2",
     "faction": "bio_weapons"
   },
@@ -95,7 +95,7 @@
     "gender": "female",
     "class": "NC_SUPER_SOLDIER",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_CGUARD1",
     "faction": "commandeers"
   },
@@ -107,7 +107,7 @@
     "gender": "male",
     "class": "NC_SUPER_SOLDIER",
     "attitude": 0,
-    "mission": 7,
+    "mission": "GUARD",
     "chat": "TALK_CGUARD2",
     "faction": "commandeers"
   },
@@ -118,7 +118,7 @@
     "name_suffix": "Red Team Slave Fighter",
     "class": "NC_SLAVE_FIGHTER_RED",
     "attitude": 0,
-    "mission": 8,
+    "mission": "GUARD_PATROL",
     "chat": "TALK_DONE",
     "faction": "slave_fighter"
   },
@@ -129,7 +129,7 @@
     "name_suffix": "Blue Team Slave Fighter",
     "class": "NC_SLAVE_FIGHTER_BLUE",
     "attitude": 0,
-    "mission": 8,
+    "mission": "GUARD_PATROL",
     "chat": "TALK_GLADIATOR",
     "faction": "slave_fighter_allied"
   }
