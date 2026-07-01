@@ -2929,7 +2929,7 @@
       [ [ "surface_heat", 15, "LIST" ] ]
     ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "shield_riot", 1 ] ], [ [ "kevlar_plate", 10 ] ] ]
+    "components": [ [ [ "shield_riot", 1 ] ], [ [ "kevlar_plate", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -2944,7 +2944,7 @@
     "book_learn": [ [ "recipe_surv", 5 ], [ "recipe_melee", 5 ] ],
     "using": [ [ "welding_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "frame", 1 ] ], [ [ "steel_plate", 1 ] ], [ [ "kevlar_plate", 15 ] ] ]
+    "components": [ [ [ "frame", 1 ] ], [ [ "steel_plate", 1 ] ], [ [ "kevlar_plate", 30 ] ] ]
   },
   {
     "type": "recipe",
@@ -2960,6 +2960,6 @@
     "book_learn": [ [ "recipe_surv", 7 ], [ "recipe_melee", 7 ] ],
     "using": [ [ "welding_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "frame", 1 ] ], [ [ "alloy_plate", 1 ] ], [ [ "kevlar_plate", 15 ] ] ]
+    "components": [ [ [ "frame", 1 ] ], [ [ "alloy_plate", 1 ] ], [ [ "kevlar_plate", 30 ] ] ]
   }
 ]
