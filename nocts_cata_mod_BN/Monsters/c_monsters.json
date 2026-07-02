@@ -156,7 +156,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 50,
         "targeting_sound": "chunk…whirr!",
-        "targeting_volume": 30,
+        "targeting_volume": "50 dB",
         "description": "Apophis fires its gatling laser!",
         "no_ammo_sound": "clickclickclick!"
       }
@@ -509,7 +509,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its ARC rifle!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -581,7 +581,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its XARM scattergun!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -652,7 +652,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its LMG!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -724,7 +724,7 @@
         "laser_lock": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its launcher!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -797,7 +797,7 @@
         "laser_lock": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super scout fires its rifle!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -870,7 +870,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its pistol!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
@@ -942,7 +942,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 200,
         "targeting_sound": "argh!",
-        "targeting_volume": 20,
+        "targeting_volume": "56 dB",
         "description": "The super soldier fires its smg!",
         "no_ammo_sound": "beep-beep-beep!",
         "no_crits": true
