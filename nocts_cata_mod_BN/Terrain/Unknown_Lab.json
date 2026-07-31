@@ -686,7 +686,7 @@
         "6": "t_console_broken",
         "C": "t_metal_floor",
         "D": "t_cvdbody",
-        "E": "t_cvdmachine",
+        "E": "t_metal_floor",
         "F": "t_metal_floor",
         "I": "t_reinforced_glass",
         "P": "t_plut_generator",
@@ -703,6 +703,7 @@
       "furniture": {
         "{": "f_locker",
         "C": "f_counter",
+        "E": "t_cvdmachine",
         "F": "f_fridge",
         "T": "f_trashcan",
         "c": "f_chair",
