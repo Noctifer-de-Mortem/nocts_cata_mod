@@ -703,7 +703,7 @@
       "furniture": {
         "{": "f_locker",
         "C": "f_counter",
-        "E": "t_cvdmachine",
+        "E": "f_cvdmachine",
         "F": "f_fridge",
         "T": "f_trashcan",
         "c": "f_chair",
