@@ -19,9 +19,9 @@
     "skills": [
       { "level": 3, "name": "magic" },
       { "level": 3, "name": "survival" },
-      { "level": 5, "name": "dodge" },
-      { "level": 5, "name": "pistol" },
-      { "level": 5, "name": "gun" }
+      { "level": 6, "name": "dodge" },
+      { "level": 6, "name": "pistol" },
+      { "level": 6, "name": "gun" }
     ],
     "CBMs": [
       "bio_dex_enhancer",
