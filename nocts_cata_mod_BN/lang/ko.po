@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2025-11-13 13:45+0900\n"
+"POT-Creation-Date: 2026-08-12 15:13+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: .\c_achievements.json
 msgid "<color_light_green>(Cataclysm++)</color> Paper Trail"
@@ -564,7 +564,7 @@ msgstr ""
 #: .\legacy.json .\Surv_help\c_books.json
 msgid "Rebuilding Civilization: Swimming"
 msgid_plural "Rebuilding Civilization: Swimming"
-msgstr[0] "문명 재건: 체력"
+msgstr[0] "문명 재건: 수영"
 
 #. ~ Description for {'str_sp': 'Rebuilding Civilization: Swimming'}
 #: .\legacy.json .\Surv_help\c_books.json
@@ -577,7 +577,7 @@ msgid ""
 "are missing specific information then this is a good substitute until you "
 "find something better."
 msgstr ""
-"문명 재건 체력 백과사전입니다. 너무 전문적이고 장황하다 못해 딱딱해보일 정도"
+"문명 재건 수영 백과사전입니다. 너무 전문적이고 장황하다 못해 딱딱해보일 정도"
 "의 어휘로 쓰여져 있어 책벌레나 독해력이 뛰어난 독자도 읽기 어려우며, 이 책에"
 "는 레크리에이션 수영부터 강 건너기까지 모든 것이 매우 상세하게 기록되어 있습"
 "니다. 이 주제에 대한 다른 어떤 책이라도 더 효율적으로 학습할 수 있겠지만, 더 "
@@ -817,7 +817,7 @@ msgstr ""
 #: .\legacy.json
 msgid "Obsolete CBM"
 msgid_plural "Obsolete CBMs"
-msgstr[0] "미사용 CBM"
+msgstr[0] "구식화된 CBM"
 
 #. ~ Description for {'str': 'Obsolete CBM'}
 #: .\legacy.json
@@ -927,6 +927,22 @@ msgid ""
 "Creates a bio-ampoule filled with purifer, adds additional side effects."
 msgstr "정화제가 담긴 생명공학 앰플을 생성하며, 추가적인 부작용이 발생합니다."
 
+#: .\legacy.json
+msgid "reanimated augmented soldier"
+msgid_plural "reanimated augmented soldiers"
+msgstr[0] "되살아난 초인 병사"
+
+#. ~ Description for {'str': 'reanimated augmented soldier'}
+#: .\legacy.json
+msgid ""
+"An advanced, well-equipped member of the military that still succumbed to "
+"the cataclysm.  This one has no sign of its signature weaponry and its armor "
+"is in tatters, yet it still marches on with unnerving confidence and speed."
+msgstr ""
+"대격변에서 살아남지 못한, 고도로 훈련되었고 장비를 완비하고 있던 군인입니다. "
+"이 개체는 특이한 무기가 전혀 보이지 않고, 방어구는 너덜너덜하지만, 여전히 섬"
+"뜩할 정도의 자신감과 속도로 움직입니다."
+
 #: .\modinfo.json
 msgid "<color_light_green>Cataclysm++</color>"
 msgstr "<color_light_green>대격변++</color>"
@@ -953,8 +969,8 @@ msgstr ""
 "물 등을 포함하고 있습니다. 또한 기존의 제작법부터 시나리오까지 많은 요소를 재"
 "구성하고 대안을 추가하며, 게임 분위기에 맞는 이야기와 설정을 제공합니다.\n"
 "\n"
-"세계에 생체병기, 초인 병사, 지휘 센터, 노예 전사, 재앙대비자 NPC 세력이 추가"
-"됩니다.\n"
+"세계에 생체병기, 초인 병사, 사령부, 노예 전사, 재앙대비자 NPC 세력이 추가됩니"
+"다.\n"
 "\n"
 "생체병기를 발견하고, 전리품을 얻고, 새로운 괴물을 처치하며, 새롭게 제작 가능"
 "한 물품을 위한 기술에 투자하세요."
@@ -1568,12 +1584,12 @@ msgstr ""
 #: .\Char_creation\c_classes_r.json
 msgctxt "profession_male"
 msgid "Prepper"
-msgstr "재앙대비자"
+msgstr "생존주의자"
 
 #: .\Char_creation\c_classes_r.json
 msgctxt "profession_female"
 msgid "Prepper"
-msgstr "재앙대비자"
+msgstr "생존주의자"
 
 #. ~ Profession (male Prepper) description
 #: .\Char_creation\c_classes_r.json
@@ -1819,13 +1835,13 @@ msgstr "균사체 영역"
 #: .\Char_creation\c_scenarios.json
 msgctxt "scenario_male"
 msgid "Prepper Safehouse"
-msgstr "재앙대비자 안전가옥"
+msgstr "생존주의자 안전가옥"
 
 #. ~ Name for scenario 'Prepper Safehouse' for a female character
 #: .\Char_creation\c_scenarios.json
 msgctxt "scenario_female"
 msgid "Prepper Safehouse"
-msgstr "재앙대비자 안전가옥"
+msgstr "생존주의자 안전가옥"
 
 #. ~ Description for scenario 'Prepper Safehouse' for a male character.
 #: .\Char_creation\c_scenarios.json
@@ -1978,13 +1994,9 @@ msgstr "지하 경기장"
 msgid "Research Facility"
 msgstr "연구 시설"
 
-#: .\Char_creation\c_start_locations.json
-msgid "Hub 01"
-msgstr "허브 01"
-
 #: .\Char_creation\c_start_locations.json .\Terrain\overmap_terrain.json
 msgid "Makeshift Command Center"
-msgstr "급조 지휘 센터"
+msgstr "급조 사령부"
 
 #: .\Char_creation\c_start_locations.json
 msgid "Hazardous Waste Sarcophagus"
@@ -2009,7 +2021,7 @@ msgstr ""
 #: .\Monsters\c_monsters.json
 msgid "zombie augmented abomination"
 msgid_plural "zombie augmented abominations"
-msgstr[0] "증강된 혐오체 좀비"
+msgstr[0] "초인 혐오체 좀비"
 
 #. ~ Description for {'str': 'zombie augmented abomination'}
 #: .\Monsters\c_monsters.json
@@ -2241,22 +2253,6 @@ msgstr ""
 msgid "The super soldier fires its smg!"
 msgstr "초인 병사가 기관단총으로 사격했습니다!"
 
-#: .\Monsters\c_monsters.json
-msgid "reanimated augmented soldier"
-msgid_plural "reanimated augmented soldiers"
-msgstr[0] "되살아난 초인 병사"
-
-#. ~ Description for {'str': 'reanimated augmented soldier'}
-#: .\Monsters\c_monsters.json
-msgid ""
-"An advanced, well-equipped member of the military that still succumbed to "
-"the cataclysm.  This one has no sign of its signature weaponry and its armor "
-"is in tatters, yet it still marches on with unnerving confidence and speed."
-msgstr ""
-"대격변에서 살아남지 못한, 고도로 훈련되었고 장비를 완비하고 있던 군인입니다. "
-"이 개체는 특이한 무기가 전혀 보이지 않고, 방어구는 너덜너덜하지만, 여전히 섬"
-"뜩할 정도의 자신감과 속도로 움직입니다."
-
 #: .\Monsters\c_ranged_monster.json
 msgid "zombie super soldier pistol"
 msgid_plural "zombie super soldier pistols"
@@ -2447,7 +2443,7 @@ msgstr "\"우리는… 성장해야 해.\""
 
 #: .\Monsters\c_speech.json
 msgid "\"Mycus must grow…\""
-msgstr "\"마이커스는 성장해야 해…\""
+msgstr "\"마이커스는 자라야 한다…\""
 
 #: .\Mutations\c_bio_mutation.json
 msgid "Bio-Weapon Alpha"
@@ -2689,8 +2685,8 @@ msgid ""
 "regenerates much more slowly, and you heal slower too."
 msgstr ""
 "당신의 몸은 에너지를 절약하기 위해 훨씬 느린 속도로 움직이도록 조정되었습니"
-"다. 평범한 사람보다 음식, 물, 수면이 덜 필요하지만, 체력 회복속도와 치유속도"
-"도 느려집니다."
+"다. 평범한 사람보다 음식, 물, 수면이 덜 필요하지만, 지구력 회복속도와 치유속"
+"도도 느려집니다."
 
 #: .\Mutations\c_bio_mutation.json
 msgid "Hunter-Killer"
@@ -2719,7 +2715,7 @@ msgid ""
 "You find it easier than normal to recover from physical exertion, gaining "
 "increased stamina regeneration."
 msgstr ""
-"평소보다 신체적 피로에서 회복하기 더 쉬워지며, 체력 회복속도가 증가합니다."
+"평소보다 신체적 피로에서 회복하기 더 쉬워지며, 지구력 회복속도가 증가합니다."
 
 #: .\Mutations\c_bio_mutation.json
 msgid "Subtlety"
@@ -2749,8 +2745,8 @@ msgid ""
 "regeneration is 30% higher than normal."
 msgstr ""
 "당신의 내구성과 회복력은 평범한 사람을 훨씬 뛰어넘었으며, 체격도 다른 사람보"
-"다 큽니다. 모든 체력에 +50의 고정 보너스를 얻고, 최대 휴대 중량이 +15% 증가하"
-"며, 최대 체력과 체력 회복속도가 다른 사람보다 30% 높아집니다."
+"다 큽니다. 모든 부위 체력에 +50의 고정 보너스를 얻고, 최대 휴대 중량이 +15% "
+"증가하며, 최대 지구력과 지구력 회복속도가 다른 사람보다 30% 높아집니다."
 
 #: .\Mutations\c_bio_mutation.json
 msgid "Vulnerable"
@@ -2936,9 +2932,9 @@ msgid ""
 "greater, and you heal slightly faster.  In exchange, your metabolism and "
 "thirst is slightly increased, and your body runs a bit warm."
 msgstr ""
-"표적 돌연변이 처치로 근육 발달이 개선되었습니다. 최대 체력, 체력 회복 속도, "
-"최대 휴대 중량이 25% 증가하고, 회복 속도도 약간 빨라집니다. 그 대신 신진대사"
-"와 갈증이 약간 증가하며, 체온도 조금 높아집니다."
+"표적 돌연변이 처치로 근육 발달이 개선되었습니다. 최대 지구력, 지구력 회복 속"
+"도, 최대 휴대 중량이 25% 증가하고, 회복 속도도 약간 빨라집니다. 그 대신 신진"
+"대사와 갈증이 약간 증가하며, 체온도 조금 높아집니다."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Physicality II"
@@ -2952,9 +2948,9 @@ msgid ""
 "greater, and you heal faster.  In exchange, your metabolism and thirst is "
 "increased, and your body runs slightly hotter."
 msgstr ""
-"표적 돌연변이 처치로 근육 발달이 개선되었습니다. 최대 체력, 체력 회복 속도, "
-"최대 휴대 중량이 50% 증가하고, 회복 속도도 빨라집니다. 그 대신 신진대사와 갈"
-"증이 증가하며, 체온도 약간 더 높아집니다."
+"표적 돌연변이 처치로 근육 발달이 개선되었습니다. 최대 지구력, 지구력 회복 속"
+"도, 최대 휴대 중량이 50% 증가하고, 회복 속도도 빨라집니다. 그 대신 신진대사"
+"와 갈증이 증가하며, 체온도 약간 더 높아집니다."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Physicality III"
@@ -2968,9 +2964,9 @@ msgid ""
 "doubled, and you heal much faster.  In exchange, your metabolism and thirst "
 "is further increased, and your body runs hotter."
 msgstr ""
-"표적 돌연변이 처치로 근육 발달이 크게 개선되었습니다. 최대 체력, 체력 회복 속"
-"도, 최대 휴대 중량이 두 배로 증가하고, 회복 속도도 훨씬 빨라집니다. 그 대신 "
-"신진대사와 갈증이 보다 증가하며, 체온도 더 높아집니다."
+"표적 돌연변이 처치로 근육 발달이 크게 개선되었습니다. 최대 지구력, 지구력 회"
+"복 속도, 최대 휴대 중량이 두 배로 증가하고, 회복 속도도 훨씬 빨라집니다. 그 "
+"대신 신진대사와 갈증이 보다 증가하며, 체온도 더 높아집니다."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Strength I"
@@ -2981,7 +2977,7 @@ msgstr "센티널 근력 증강 I"
 msgid ""
 "Your strength has been increased slightly by your physical alterations, "
 "relative to your natural physique.  Strength +2."
-msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 약간 개선됐습니다. 힘 +2."
+msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 약간 개선됐습니다. 근력 +2."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Strength II"
@@ -2992,7 +2988,7 @@ msgstr "센티널 근력 증강 II"
 msgid ""
 "Your strength has been increased somewhat by your physical alterations, "
 "relative to your natural physique.  Strength +4."
-msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 다소 개선됐습니다. 힘 +4."
+msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 다소 개선됐습니다. 근력 +4."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Strength III"
@@ -3003,7 +2999,7 @@ msgstr "센티널 근력 증강 III"
 msgid ""
 "Your strength has been increased by your physical alterations, relative to "
 "your natural physique.  Strength +6."
-msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 개선됐습니다. 힘 +6."
+msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 개선됐습니다. 근력 +6."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Strength IV"
@@ -3014,7 +3010,7 @@ msgstr "센티널 근력 증강 IV"
 msgid ""
 "Your strength has been greatly increased by your physical alterations, "
 "relative to your natural physique.  Strength +8."
-msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 크게 개선됐습니다. 힘 +8."
+msgstr "변형된 신체로 인해 본래 체격에 비해 근력이 크게 개선됐습니다. 근력 +8."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Strength V"
@@ -3026,7 +3022,7 @@ msgid ""
 "Your strength has been massively increased by your physical alterations, "
 "relative to your natural physique.  Strength +10."
 msgstr ""
-"변형된 신체로 인해 본래 체격에 비해 근력이 엄청나게 개선됐습니다. 힘 +10."
+"변형된 신체로 인해 본래 체격에 비해 근력이 엄청나게 개선됐습니다. 근력 +10."
 
 #: .\Mutations\c_bio_mutation_super_soldier.json
 msgid "Sentinel Reflexes I"
@@ -4715,7 +4711,7 @@ msgstr "배지 달고 있네, 그렇지? 듣고 있어."
 
 #: .\Npc\TALK_MSCI.json
 msgid "Hey there!  Welcome to the Command Center."
-msgstr "안녕! 지휘 센터에 온 걸 환영해."
+msgstr "안녕! 사령부에 온 걸 환영해."
 
 #: .\Npc\TALK_MSCI.json
 msgid "Who are you?"
@@ -5380,7 +5376,7 @@ msgstr "난 답을 찾아 여기에 왔어…"
 
 #: .\Npc\c_factions.json
 msgid "Command Center Members"
-msgstr "지휘 센터 인원"
+msgstr "사령부 인원"
 
 #. ~ Description for Command Center Members
 #: .\Npc\c_factions.json
@@ -5388,8 +5384,8 @@ msgid ""
 "Members of the Command Center seeking refuge from ...something.  They have "
 "intel and some connections to the Old Guard."
 msgstr ""
-"무언가로부터 도망치는 중인 지휘 센터 소속 인원입니다. 그들은 정보와 올드 가드"
-"와의 몇몇 연줄을 가지고 있습니다."
+"무언가로부터 도망치는 중인 사령부 인원입니다. 그들은 정보와 올드 가드와의 몇"
+"몇 연줄을 가지고 있습니다."
 
 #: .\Npc\c_factions.json
 msgid "Super Soldiers"
@@ -5401,8 +5397,8 @@ msgid ""
 "Ragtag branch of the military that survived the initial cataclysm.   Allied "
 "to the command center, they seek leadership in this new world."
 msgstr ""
-"대격변 초기에 살아남은 잔존병 무리입니다. 지휘 센터와 동맹을 맺고 있으며, 이 "
-"새로운 세상에서 지도자를 찾고 있습니다."
+"대격변 초기에 살아남은 잔존병 무리입니다. 사령부와 동맹을 맺고 있으며, 이 새"
+"로운 세상에서 지도자를 찾고 있습니다."
 
 #: .\Npc\c_factions.json
 msgid "Preppers"
@@ -5427,8 +5423,8 @@ msgid ""
 "Creations of an unknown project with links to the cataclysm.  Allied to the "
 "command center since they are their creation."
 msgstr ""
-"대격변과 관련된 알 수 없는 프로젝트의 산물입니다. 그들은 창조주인 지휘 센터"
-"와 동맹을 맺고 있습니다."
+"대격변과 관련된 알 수 없는 프로젝트의 산물입니다. 그들은 창조주인 사령부와 동"
+"맹을 맺고 있습니다."
 
 #: .\Npc\c_factions.json
 msgid "Slave Fighters (Blue Team)"
@@ -5601,7 +5597,7 @@ msgstr ""
 
 #: .\Npc\c_mission_def.json
 msgid "Reach Command Center"
-msgstr "지휘 센터 도달"
+msgstr "사령부 도달"
 
 #: .\Npc\c_mission_def.json
 msgid ""
@@ -5783,10 +5779,10 @@ msgstr[0] "생존자의 판금 갑옷"
 msgid ""
 "A suit of Gothic plate armor modified with kevlar and leather, altered to "
 "better protect the gaps between plates and provide better protection from "
-"the elements."
+"the elements, while also increasing ballistic resistance."
 msgstr ""
-"고딕 판금 갑옷에 케블라와 가죽을 덧대어 개조한 장비로, 판금 사이의 틈새를 보"
-"다 잘 보호하여 외부 환경으로부터의 방호력을 높이도록 개조되었습니다."
+"케블라와 가죽을 장갑판 틈에 덧대 덧대 원소 및 총탄 방어력을 높인 고딕풍 판금 "
+"갑옷입니다."
 
 #: .\Surv_help\c_armor.json
 msgid "survivor superalloy plate armor"
@@ -5798,11 +5794,11 @@ msgstr[0] "생존자의 초합금 판금 갑옷"
 msgid ""
 "A suit of Gothic plate armor, made from superalloy plates further modified "
 "with kevlar and leather, altered to better protect the gaps between plates "
-"and provide better protection from the elements."
+"and provide better protection from the elements, while also increasing "
+"ballistic resistance."
 msgstr ""
-"초합금으로 제작된 고딕 판금 갑옷에 케블라와 가죽을 덧대어 개조한 장비로, 판"
-"금 사이의 틈새를 보다 잘 보호하여 외부 환경으로부터의 방호력을 높이도록 개조"
-"되었습니다."
+"케블라와 가죽을 장갑판 틈에 덧대 덧대 원소 및 총탄 방어력을 높인 고딕풍 초합"
+"금 판금 갑옷입니다."
 
 #: .\Surv_help\c_armor.json
 msgid "survivor cuirass"
@@ -5814,10 +5810,9 @@ msgstr[0] "생존자의 흉갑"
 #: .\Surv_help\c_armor.json
 msgid ""
 "A medieval steel breastplate, modified with kevlar and leather to better "
-"protect from the elements."
+"protect from the elements and improve ballistic resistance."
 msgstr ""
-"중세식 강철 흉갑에 케블라와 가죽을 덧대어 외부 환경에 대한 방호력을 강화한 장"
-"비입니다."
+"케블라와 가죽을 덧대 원소 및 총탄 방호력을 높인 중세식 강철 흉갑입니다."
 
 #: .\Surv_help\c_armor.json
 msgid "survivor superalloy cuirass"
@@ -6168,13 +6163,14 @@ msgid ""
 "A fairly light full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from a fabric bodysuit with advanced composite "
 "plates, it is relatively easy to move in but protection is minimal, only "
-"rated for pistol-caliber rounds and fragmentation.  It also has two "
-"adjustable pouches for various sizes of magazines."
+"rated for fragmentation and pistol-caliber rounds up to .357 Magnum.  It "
+"also has two adjustable pouches for various sizes of magazines."
 msgstr ""
-"회색 전신 경량 방탄복으로, 대부분의 체형에 맞는 프리 사이즈이며 헬멧은 분리되"
-"어 있습니다. 직물과 고급 복합재 판으로 제작된 슈트로, 비교적 움직이기 편하지"
-"만 방호력은 최소 수준으로 권총탄과 파편 정도만 막아낼 수 있습니다. 다양한 크"
-"기의 탄창을 수납할 수 있도록 조정 가능한 파우치 두 개도 달려 있습니다."
+"회색 경량형 전신 방탄복입니다. 대부분의 체형에 맞는 프리 사이즈이며, 헬멧이 "
+"따로 존재합니다. 직물 수트에 첨단 복합물질판을 더해 만들었으며, 착용한 상태"
+"로 움직이기 무척 편하지만 방어력은 .357 매그넘탄 이하의 권총탄과 파편만 막아"
+"낼 수 있는 최소 수준입니다. 다양한 크기의 탄창을 보관할 수 있는 조절식 주머"
+"니 두 개가 달려있습니다."
 
 #: .\Surv_help\c_armor.json
 msgid "sentinel armor"
@@ -6186,14 +6182,14 @@ msgstr[0] "센티널 갑옷"
 msgid ""
 "A full-body suit of gray ballistic armor, one size fits most, with separate "
 "helmet.  Made with leather lining and advanced composite plates, it provides "
-"adequate protection against anything up to intermediate caliber ammunition, "
-"but may fail against full-power rifle rounds.  It also has two adjustable "
-"pouches for various sizes of magazines."
+"adequate protection against anything up to 5.56x45mm, but may fail against "
+"full-power rifle rounds.  It also has two adjustable pouches for various "
+"sizes of magazines."
 msgstr ""
-"회색 전신 방탄복으로, 대부분의 체형에 맞는 프리 사이즈이며 헬멧은 분리되어 있"
-"습니다. 가죽 안감과 고급 복합재 판으로 제작된 슈트로, 중구경탄까지는 충분한 "
-"방호력을 제공하지만, 대구경 소총탄에는 버티지 못할 수도 있습니다. 다양한 크기"
-"의 탄창을 수납할 수 있도록 조정 가능한 파우치 두 개도 달려 있습니다."
+"회색 전신 방탄복입니다. 대부분의 체형에 맞는 프리 사이즈이며, 헬멧이 따로 존"
+"재합니다. 가죽 안감에 첨단 복합물질판을 더해 만들었으며, 5.56x45mm 탄 이하의 "
+"모든 것을 막아낼 수 있지만 소총의 최대출력은 막아내지 못할 수 있습니다. 다양"
+"한 크기의 탄창을 보관할 수 있는 조절식 주머니 두 개가 달려있습니다."
 
 #: .\Surv_help\c_armor.json
 msgid "heavy sentinel armor"
@@ -6205,15 +6201,15 @@ msgstr[0] "중량 센티널 갑옷"
 msgid ""
 "A heavy-duty full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from heavy-duty lining with advanced plating, it "
-"protects the body rather well against most rifle rounds, but may be too "
-"cumbersome for most situations.  It also has two adjustable pouches for "
-"various sizes of magazines."
+"protects the body rather well against rifle rounds up to 7.62x51mm, but may "
+"be too cumbersome for most situations.  It also has two adjustable pouches "
+"for various sizes of magazines."
 msgstr ""
-"회색 전신 중량 방탄복으로, 대부분의 체형에 맞는 프리 사이즈이며 헬멧은 분리되"
-"어 있습니다. 고강도 안감과 고급 복합재 판으로 제작된 슈트로 대부분의 소총탄"
-"에 대해 제법 우수한 방호력을 제공하지만, 대부분의 상황에서는 지나치게 거추장"
-"스러울 수 있습니다. 다양한 크기의 탄창을 수납할 수 있도록 조정 가능한 파우치 "
-"두 개도 달려 있습니다."
+"회색 전신 중량 방탄복입니다. 대부분의 체형에 맞는 프리 사이즈이며, 헬멧이 따"
+"로 존재합니다. 고강도 안감에 첨단 장갑판을 더해 만들었으며, 착용자의 신체를 "
+"7.62x51mm 탄 이하의 모든 것으로부터 보호하지만 대부분의 경우에 너무 거치적거"
+"릴 것입니다. 다양한 크기의 탄창을 보관할 수 있는 조절식 주머니 두 개가 달려있"
+"습니다."
 
 #: .\Surv_help\c_armor.json
 msgid "light sentinel helmet"
@@ -6224,12 +6220,12 @@ msgstr[0] "경량 센티널 헬멧"
 #: .\Surv_help\c_armor.json
 msgid ""
 "A fairly light full-face ballistic helmet, one size fits most.  Made from a "
-"fabric lining with advanced composite plates, it is only rated for pistol-"
-"caliber rounds and fragmentation."
+"fabric lining with advanced composite plates, it is only rated for "
+"fragmentation and pistol-caliber rounds up to .357 Magnum."
 msgstr ""
-"비교적 가벼운 전면 방탄 헬멧으로, 대부분의 체형에 맞는 프리 사이즈입니다. 직"
-"물 안감과 고급 복합재 판으로 제작되었으며, 권총탄과 파편 정도만 방어할 수 있"
-"습니다."
+"경량형 전면 방탄 헬멧입니다. 대부분의 체형에 맞는 프리 사이즈입니다. 직물 안"
+"감에 첨단 복합물질판을 더해 만들었으며, 방어력은 .357 매그넘탄 이하의 권총탄"
+"과 파편만 막아낼 수 있는 최소 수준입니다."
 
 #: .\Surv_help\c_armor.json
 msgid "sentinel helmet"
@@ -6241,11 +6237,11 @@ msgstr[0] "센티널 헬멧"
 msgid ""
 "A full-face ballistic helmet, one size fits most.  Made with leather lining "
 "and advanced composite plates, it provides adequate protection against "
-"anything up to intermediate caliber ammunition."
+"anything up to 5.56x45mm."
 msgstr ""
-"전면 방탄 헬멧으로, 대부분의 체형에 맞는 프리 사이즈입니다. 가죽 안감과 고급 "
-"복합재 판으로 제작되었으며, 중구경탄까지는 충분한 방호력을 제공하지만, 대구"
-"경 소총탄에는 버티지 못할 수도 있습니다."
+"전면 방탄 헬멧입니다. 대부분의 체형에 맞는 프리 사이즈입니다. 가죽 안감에 첨"
+"단 복합물질 판을 더해 만들었으며, 5.56x45mm 탄 이하에 대해 충분한 방어력을 제"
+"공합니다."
 
 #: .\Surv_help\c_armor.json
 msgid "heavy sentinel helmet"
@@ -6257,11 +6253,11 @@ msgstr[0] "중량 센티널 헬멧"
 msgid ""
 "A heavy-duty full-face ballistic helmet, one size fits most.  Made from "
 "heavy-duty lining with advanced plating, it protects the head rather well "
-"against most rifle rounds."
+"against rifle rounds up to 7.62x51mm."
 msgstr ""
-"전면 중량 방탄 헬멧으로, 대부분의 체형에 맞는 프리 사이즈입니다. 고강도 안감"
-"과 고급 복합재 판으로 제작되었으며, 대부분의 소총탄에 대해 제법 우수한 방호력"
-"을 제공합니다."
+"전면 중량 방탄 헬멧입니다. 대부분의 체형에 맞는 프리 사이즈입니다. 고강도 안"
+"감에 첨단 장갑판을 더해 만들었으며, 착용자의 머리에 7.62x51mm 탄 이하의 소총"
+"탄까지 막아내기 충분한 방어력을 제공합니다."
 
 #: .\Surv_help\c_armor.json
 msgid "designer bathrobe"
@@ -6457,11 +6453,11 @@ msgstr ""
 "외계 근섬유와 강철 지지대로 구성된 두 번째 피부로, 수지로 만든 장갑판으로 덮"
 "여 있습니다. 대격변 이전의 다른 생체병기 연구를 활용해 분리한 것으로, 인간 "
 "(또는 돌연변이) 착용자에게 적합하도록 훼손된 상태입니다. 활성화하면 방어구의 "
-"부담을 줄이고, 공격 속도를 높이며, 힘과 민첩성을 증가시키고, 착용자를 유독성 "
-"가스로부터 보호하며, 호흡기 기능을 제공하고, 체력과 휴대 용량을 증가시키며, "
-"외부 온도로부터 어느 정도 보호합니다. 햇빛을 통해 재충전되며, 활성화 상태에서"
-"는 사용자에게 점진적인 피로와 함께 건강에 악영향을 주고, 전기 충격에 더 취약"
-"하게 만듭니다."
+"부담을 줄이고, 공격 속도를 높이며, 근력과 민첩성을 증가시키고, 착용자를 유독"
+"성 가스로부터 보호하며, 호흡기 기능을 제공하고, 지구력과 휴대 용량을 증가시키"
+"며, 외부 온도로부터 어느 정도 보호합니다. 햇빛을 통해 재충전되며, 활성화 상태"
+"에서는 사용자에게 점진적인 피로와 함께 건강에 악영향을 주고, 전기 충격에 더 "
+"취약하게 만듭니다."
 
 #: .\Surv_help\c_armor.json
 msgid "salvaged carapace armor (on)"
@@ -6491,11 +6487,11 @@ msgstr ""
 "외계 근섬유와 강철 지지대로 구성된 두 번째 피부로, 수지로 만든 장갑판으로 덮"
 "여 있습니다. 대격변 이전의 다른 생체병기 연구를 활용해 분리한 것으로, 인간 "
 "(또는 돌연변이) 착용자에게 적합하도록 훼손된 상태입니다. 현재 활성화되어 있으"
-"며, 방어구의 부담을 줄이고, 공격 속도를 높이며, 힘과 민첩성을 증가시키고, 착"
-"용자를 유독성 가스로부터 보호하며, 호흡기 기능을 제공하고, 체력과 휴대 용량"
-"을 증가시키며, 외부 온도로부터 어느 정도 보호합니다. 햇빛을 통해 재충전되며, "
-"활성화 상태에서는 사용자에게 점진적인 피로와 함께 건강에 악영향을 주고, 전기 "
-"충격에 더 취약하게 만듭니다."
+"며, 방어구의 부담을 줄이고, 공격 속도를 높이며, 근력과 민첩성을 증가시키고, "
+"착용자를 유독성 가스로부터 보호하며, 호흡기 기능을 제공하고, 지구력과 휴대 용"
+"량을 증가시키며, 외부 온도로부터 어느 정도 보호합니다. 햇빛을 통해 재충전되"
+"며, 활성화 상태에서는 사용자에게 점진적인 피로와 함께 건강에 악영향을 주고, "
+"전기 충격에 더 취약하게 만듭니다."
 
 #: .\Surv_help\c_armor.json
 msgid "set of salvaged exo-wings"
@@ -6614,7 +6610,7 @@ msgid ""
 "This is used to make the player a lot less stealthy, but also punch harder "
 "on top of the armor's strength bonus."
 msgstr ""
-"이것은 플레이어의 은신 능력을 크게 떨어트리는 대신, 방어구의 힘 보너스에 더"
+"이것은 플레이어의 은신 능력을 크게 떨어트리는 대신, 방어구의 근력 보너스에 더"
 "해 더 강한 타격을 가할 수 있도록 해줍니다."
 
 #: .\Surv_help\c_armor.json
@@ -6646,15 +6642,16 @@ msgstr "급조 유압식 갑옷이 굉음을 내며 기동하고는 서보에 �
 msgid ""
 "An incredibly heavy suit of steel and kevlar plates covering a network of "
 "hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to "
-"assist the wearer's movements.  When running it will increase your strength "
-"and raw speed, allowing you to fire heavy weapons unsupported, plus make it "
-"less encumbering to wear, but the motors make things warm and make stealth "
-"harder."
+"assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  When "
+"running it will increase your strength and raw speed, allowing you to fire "
+"heavy weapons unsupported, plus make it less encumbering to wear, but the "
+"motors make things warm and make stealth harder."
 msgstr ""
-"강철과 케블라 판으로 구성된 고중량 슈트로, 유압 장치 연결망으로 뒤덮여 있으"
-"며, 착용자의 움직임을 보조하도록 개조된 경유 엔진 부품으로 구동됩니다. 활성화"
-"할 경우 힘과 기본 속도가 증가하고 설치 없이 중화기를 발사할 수 있으며, 착용 "
-"부담도 줄어들지만, 모터 때문에 열이 발생하고 은신이 어려워집니다."
+"유압 신경망으로 덮인 끔찍하게 무거운 수트입니다. 착용자의 움직임을 보조하도"
+"록 개조된 경유 엔진으로 작동합니다. 강철 및 케블라판으로 만들었으며, "
+"5.56x45mm 탄 이하의 모든 것을 튕겨낼 수 있습니다. 작동 중일 때 착용자의 근력 "
+"및 기본 속도를 향상시키고 중화기를 지지대 없이 사용할 수 있도록 만들며 방어구"
+"가 보다 덜 거치적거리게 되지만, 체온이 상승하고 은신이 어려워집니다."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift hydraulic armor (on)"
@@ -6699,15 +6696,16 @@ msgstr "갑옷의 엔진이 침수되어 꺼집니다!"
 msgid ""
 "An incredibly heavy suit of steel and kevlar plates covering a network of "
 "hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to "
-"assist the wearer's movements.  It's currently active, strengthening the "
-"wearer, allowing you to fire heavy weapons unsupported, increasing raw speed "
-"and making the armor less encumbering, but also being warmer and making "
-"stealth more difficult."
+"assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  It's "
+"currently active, strengthening the wearer, allowing you to fire heavy "
+"weapons unsupported, increasing raw speed and making the armor less "
+"encumbering, but also being warmer and making stealth more difficult."
 msgstr ""
-"강철과 케블라 판으로 구성된 고중량 슈트로, 유압 장치 연결망으로 뒤덮여 있으"
-"며, 착용자의 움직임을 보조하도록 개조된 경유 엔진 부품으로 구동됩니다. 현재 "
-"활성화되어 있으며, 힘과 기본 속도가 증가하고 설치 없이 중화기를 발사할 수 있"
-"으며, 착용 부담도 줄어들지만, 모터 때문에 열이 발생하고 은신이 어려워집니다."
+"유압 신경망으로 덮인 끔찍하게 무거운 수트입니다. 착용자의 움직임을 보조하도"
+"록 개조된 경유 엔진으로 작동합니다. 강철 및 케블라판으로 만들었으며, "
+"5.56x45mm 탄 이하의 모든 것을 튕겨낼 수 있습니다. 현재 작동 중으로, 착용자의 "
+"근력 및 기본 속도를 향상시키고 중화기를 지지대 없이 사용할 수 있도록 만들며 "
+"방어구가 보다 덜 거치적거리게 되지만, 체온이 상승하고 은신이 어려워집니다."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift superalloy hydraulic armor"
@@ -6728,15 +6726,16 @@ msgstr ""
 msgid ""
 "A heavy suit of superalloy and kevlar plates covering a network of "
 "hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to "
-"assist the wearer's movements.  When running it will increase your strength "
-"and raw speed, allowing you to fire heavy weapons unsupported, plus make it "
-"less encumbering to wear, but the motors make things warm and make stealth "
-"harder."
+"assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  When "
+"running it will increase your strength and raw speed, allowing you to fire "
+"heavy weapons unsupported, plus make it less encumbering to wear, but the "
+"motors make things warm and make stealth harder."
 msgstr ""
-"초합금과 케블라 판으로 구성된 중량 슈트로, 유압 장치 연결망으로 뒤덮여 있으"
-"며, 착용자의 움직임을 보조하도록 개조된 경유 엔진 부품으로 구동됩니다. 활성화"
-"할 경우 힘과 기본 속도가 증가하고 설치 없이 중화기를 발사할 수 있으며, 착용 "
-"부담도 줄어들지만, 모터 때문에 열이 발생하고 은신이 어려워집니다."
+"유압 신경망으로 덮인 묵직한 수트입니다. 착용자의 움직임을 보조하도록 개조된 "
+"경유 엔진으로 작동합니다. 초합금 및 케블라판으로 만들었으며, 5.56x45mm 탄 이"
+"하의 모든 것을 튕겨낼 수 있습니다. 작동 중일 때 착용자의 근력 및 기본 속도를 "
+"향상시키고 중화기를 지지대 없이 사용할 수 있도록 만들며 방어구가 보다 덜 거치"
+"적거리게 되지만, 체온이 상승하고 은신이 어려워집니다."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift superalloy hydraulic armor (on)"
@@ -6756,15 +6755,16 @@ msgstr "급조 초합금 유압식 갑옷이 덜컹거린 후 조용해집니다
 msgid ""
 "A heavy suit of superalloy and kevlar plates covering a network of "
 "hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to "
-"assist the wearer's movements.  It's currently active, strengthening the "
-"wearer, allowing you to fire heavy weapons unsupported, increasing raw speed "
-"and making the armor less encumbering, but also being warmer and making "
-"stealth more difficult."
+"assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  It's "
+"currently active, strengthening the wearer, allowing you to fire heavy "
+"weapons unsupported, increasing raw speed and making the armor less "
+"encumbering, but also being warmer and making stealth more difficult."
 msgstr ""
-"초합금과 케블라 판으로 구성된 중량 슈트로, 유압 장치 연결망으로 뒤덮여 있으"
-"며, 착용자의 움직임을 보조하도록 개조된 경유 엔진 부품으로 구동됩니다. 현재 "
-"활성화되어 있으며, 힘과 기본 속도가 증가하고 설치 없이 중화기를 발사할 수 있"
-"으며, 착용 부담도 줄어들지만, 모터 때문에 열이 발생하고 은신이 어려워집니다."
+"유압 신경망으로 덮인 묵직한 수트입니다. 착용자의 움직임을 보조하도록 개조된 "
+"경유 엔진으로 작동합니다. 초합금 및 케블라판으로 만들었으며, 5.56x45mm 탄 이"
+"하의 모든 것을 튕겨낼 수 있습니다. 현재 작동 중으로, 착용자의 근력 및 기본 속"
+"도를 향상시키고 중화기를 지지대 없이 사용할 수 있도록 만들며 방어구가 보다 "
+"덜 거치적거리게 되지만, 체온이 상승하고 은신이 어려워집니다."
 
 #: .\Surv_help\c_armor.json
 msgid "survivor's tactical shield"
@@ -6775,12 +6775,12 @@ msgstr[0] "생존자의 전술 방패"
 #: .\Surv_help\c_armor.json
 msgid ""
 "A large but fairly light plastic shield, layered with kevlar to better "
-"protect the user.  It's still not very effective against bullets, but also "
-"less encumbering than a proper ballistic shield."
+"protect the user.  Less encumbering than a proper ballistic shield, but "
+"won't fully stop anything stronger than .38 Special."
 msgstr ""
-"크지만 비교적 가벼운 플라스틱 방패로, 사용자의 방호력을 높이기 위해 여러 겹"
-"의 케블라로 덧대어져 있습니다. 총탄에는 여전히 별로 효과적이지 않지만, 제대"
-"로 된 방탄 방패보다 훨씬 사용하기 편합니다."
+"큰 크기에 비해 비교적 가벼운 플라스틱 방패입니다. 사용자를 보다 수월하게 보호"
+"할 수 있도록 여러 겹의 케블라가 덧대어졌습니다. 제대로 된 방탄 방패에 비해 보"
+"다 덜 거치적거리지만, .38 스페셜 탄보다 강한 총탄은 제대로 막아내지 못합니다."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift ballistic pavise"
@@ -6790,14 +6790,15 @@ msgstr[0] "급조 방탄 파비스"
 #. ~ Description for {'str': 'makeshift ballistic pavise'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A heavy shield made from armor plates and kevlar lining, welded to a "
-"framework that helps distribute the weight.  It leaves you free to operate "
-"two-handed weapons, even letting you brace heavy weapons to fire without "
-"mounting terrain, but is still absurdly heavy and encumbering."
+"A heavy shield made from armor plates and kevlar lining rated for 5.56x45mm, "
+"welded to a framework that helps distribute the weight.  It leaves you free "
+"to operate two-handed weapons, even letting you brace heavy weapons to fire "
+"without mounting terrain, but is still absurdly heavy and encumbering."
 msgstr ""
-"장갑판과 케블라 안감로 제작된 중량 방패로, 무게를 분산시키는 구조물이 용접되"
-"어 있습니다. 양손 무기를 사용할 수 있도록 해주며, 중화기를 지면에 설치하지 않"
-"고도 발사할 수 있게 만들어주지만, 여전히 매우 무거운 데다가 부담스럽습니다."
+"장갑판 및 케블라 안감을 통해 5.56x45mm 탄까지 막아낼 수 있는 묵직한 방패입니"
+"다. 무게를 분산시킬 수 있도록 프레임이 용접되었습니다. 사용 중에 별도의 지지"
+"대 없이도 중화기를 발사할 수 있지만, 그 자체로도 대단히 무겁고 거치적거립니"
+"다."
 
 #: .\Surv_help\c_armor.json
 msgid "makeshift superalloy ballistic pavise"
@@ -6807,14 +6808,15 @@ msgstr[0] "급조 초합금 방탄 파비스"
 #. ~ Description for {'str': 'makeshift superalloy ballistic pavise'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A shield made from superalloy plates and kevlar lining, welded to a "
-"framework that helps distribute the weight.  It leaves you free to operate "
-"two-handed weapons, even letting you brace heavy weapons to fire without "
-"mounting terrain, but is still very heavy and encumbering."
+"A shield made from superalloy plates and kevlar lining rated for 5.56x45mm, "
+"welded to a framework that helps distribute the weight.  It leaves you free "
+"to operate two-handed weapons, even letting you brace heavy weapons to fire "
+"without mounting terrain, but is still very heavy and encumbering."
 msgstr ""
-"초합금판과 케블라 안감로 제작된 방패로, 무게를 분산시키는 구조물이 용접되어 "
-"있습니다. 양손 무기를 사용할 수 있도록 해주며, 중화기를 지면에 설치하지 않고"
-"도 발사할 수 있게 만들어주지만, 여전히 매우 무거운 데다가 부담스럽습니다."
+"초합금 장갑판 및 케블라 안감을 통해 5.56x45mm 탄까지 막아낼 수 있는 방패입니"
+"다. 무게를 분산시킬 수 있도록 프레임이 용접되었습니다. 사용 중에 별도의 지지"
+"대 없이도 중화기를 발사할 수 있지만, 그 자체로도 대단히 무겁고 거치적거립니"
+"다."
 
 #: .\Surv_help\c_bionics.json
 msgid "laser gatling arm"
@@ -6950,56 +6952,6 @@ msgstr ""
 "하고 있습니다."
 
 #: .\Surv_help\c_bionics.json
-msgid "Alphavoltaic Power"
-msgid_plural "none"
-msgstr[0] "알파볼타 전력"
-
-#. ~ Description for {'str': 'Alphavoltaic Power', 'str_pl': 'none'}
-#: .\Surv_help\c_bionics.json
-msgid "seeing this is a bug"
-msgstr "이것을 봤다면 버그입니다"
-
-#: .\Surv_help\c_bionics.json
-msgid "Atomic Battery"
-msgstr "원자력 배터리"
-
-#. ~ Description for {'str': 'Atomic Battery'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"Your body has been implanted with a compact, advanced plutonium-cell "
-"generator for military use.  A true atomic battery, using advanced materials "
-"to create a practical alphavoltaic power source.  While its power output is "
-"still very low, it's also consistent with negligible waste heat, making it a "
-"useful backup to another power generation method."
-msgstr ""
-"당신의 몸에는 군사용으로 설계된 소형 고급 플루토늄 연료 전지 발전기가 설치되"
-"어 있습니다. 최첨단 소재를 사용해 실용적인 알파볼타 전력을 생성하는, 말 그대"
-"로 원자력 배터리입니다. 출력은 아직 매우 낮지만 폐열이 거의 없어 안정적으로 "
-"전력을 공급하므로, 다른 발전 수단과 함께 예비 전력으로 유용합니다."
-
-#: .\Surv_help\c_bionics.json
-msgid "Atomic Battery CBM"
-msgid_plural "Atomic Battery CBMs"
-msgstr[0] "CBM:원자력 배터리"
-
-#. ~ Description for {'str': 'Atomic Battery CBM'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"An old form of non-thermal radioisotope generator, given new life and "
-"military applications using cutting-edge plutonium-catalyst developments.  "
-"Effectively a plutonium fuel cell converted into an alphavoltaic battery, "
-"with greater power output and longevity than older implants.  Its output is "
-"still very low at only 5 watts, but it also provides a continuous source of "
-"power, making it a good supplement to a more intensive power generation "
-"method."
-msgstr ""
-"구식 비열원 방사성 동위원소 발전기를, 최첨단 플루토늄 촉매 기술을 적용해 군사"
-"용으로 재탄생시킨 장치입니다. 사실상 플루토늄 연료 전지를 알파볼타 배터리로 "
-"전환한 것으로, 이전 세대의 이식물보다 출력과 수명이 향상되었습니다. 출력은 여"
-"전히 5와트 정도로 매우 낮지만, 지속적인 전력 공급이 가능해 고출력 발전 이식물"
-"을 사용할 때 훌륭한 예비 전력으로 사용할 수 있습니다."
-
-#: .\Surv_help\c_bionics.json
 msgid "Hazard Stabilizer System CBM"
 msgid_plural "Hazard Stabilizer System CBMs"
 msgstr[0] "CBM:위험 안정화 시스템"
@@ -7062,15 +7014,14 @@ msgstr "내장형 절단 용접기"
 #. ~ Description for {'str': 'Integrated Cutting Torch'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A deployable plasma cutter now resides in your right arm, that can be "
-"deployed for a small amount of bionic power.  Once extended, it can then be "
-"activated to use as a cutting torch and destroy metal barriers.  More energy "
-"intensive than a conventional welder, but can be used for welding if needed."
+"A deployable plasma cutter now resides in your right arm.  Activate it from "
+"your inventory to use it as a cutting torch and destroy metal barriers.  "
+"More energy intensive than a conventional welder, but can be used for "
+"welding if needed."
 msgstr ""
-"당신의 오른팔에는 수납식 플라즈마 커터가 설치되어 있으며, 약간의 전력을 소모"
-"하면 꺼낼 수 있습니다. 꺼낸 후에는 절단 용접기처럼 활성화하여 금속 장벽을 파"
-"괴할 수 있으며, 일반 용접기보다 에너지 소모가 크지만, 필요할 경우 용접에도 사"
-"용할 수 있습니다."
+"당신의 오른팔에 수납식 플라즈마 절단기가 설치되었습니다. 인벤토리에서 사용하"
+"여 절단용 토치처럼 금속 방벽을 파괴할 수 있습니다. 일반 용접기보다 전력 소모"
+"량이 높지만, 원한다면 용접 용도로도 사용할 수 있습니다."
 
 #: .\Surv_help\c_bionics.json
 msgid "Integrated Cutting Torch CBM"
@@ -7080,28 +7031,25 @@ msgstr[0] "CBM:내장형 절단 용접기"
 #. ~ Description for {'str': 'Integrated Cutting Torch CBM'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A deployable plasma cutter implanted in the right arm, that can be deployed "
-"for a small amount of bionic power.  It can then be used to destroy metal "
-"barriers.  More energy intensive than a conventional welder, but can be used "
-"for welding if needed."
+"A deployable plasma cutter implanted in the right arm, that can be used to "
+"destroy metal barriers.  Can also be used for welding if needed."
 msgstr ""
-"오른팔에 설치하는 수납식 플라즈마 커터로, 약간의 전력을 소모하면 꺼낼 수 있습"
-"니다. 꺼낸 후에는 절단 용접기처럼 활성화하여 금속 장벽을 파괴할 수 있으며, 일"
-"반 용접기보다 에너지 소모가 크지만, 필요할 경우 용접에도 사용할 수 있습니다."
+"오른팔에 설치하는 수납식 플라즈마 절단기입니다. 금속 방벽을 파괴할 수 있으"
+"며, 원한다면 용접 용도로도 사용할 수 있습니다."
 
 #: .\Surv_help\c_bionics.json
-msgid "extended bionic cutting torch"
-msgid_plural "extended bionic cutting torchs"
-msgstr[0] "확장 절단 용접기"
+msgid "integrated cutting torch"
+msgid_plural "integrated cutting torchs"
+msgstr[0] "내장형 절단용 토치"
 
-#. ~ Description for {'str': 'extended bionic cutting torch'}
+#. ~ Description for {'str': 'integrated cutting torch'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A bionic plasma cutter, deployed and taking up your hand.  Activate it to "
-"destroy metal barriers, as you would a cutting torch."
+"A bionic plasma cutter.  Activate it to destroy metal barriers, as you would "
+"a cutting torch."
 msgstr ""
-"절단 용접기를 체외로 꺼내 금속 장벽 파괴, 용접 등의 기능을 추가합니다. 활성화"
-"되어 있는 동안 손을 완전히 차지합니다."
+"바이오닉 플라즈마 절단기입니다. 사용하여 절단용 토치처럼 금속 방벽을 파괴할 "
+"수 있습니다."
 
 #: .\Surv_help\c_bionics.json
 msgid "Biopattern Distortion CBM"
@@ -7479,7 +7427,7 @@ msgid ""
 msgstr ""
 "한 번의 강력한 일격은 이어지는 공격을 훨씬 수월하게 만듭니다.\n"
 "\n"
-"명중률 +2, 힘의 25%만큼 방어 관통 증가.\n"
+"명중률 +2, 근력의 25%만큼 방어 관통 증가.\n"
 "2턴 동안 지속. 최대 2회 중첩."
 
 #: .\Surv_help\c_martialarts.json
@@ -7494,7 +7442,7 @@ msgid ""
 "Accuracy increased by 15% of strength, -10% move cost."
 msgstr ""
 "발놀림이 좋지 않아도, 당신의 자세는 힘을 더 효율적으로 활용하도록 만듭니다.\n"
-"힘의 15%만큼 명중률 증가, 이동력 소모 -10%."
+"근력의 15%만큼 명중률 증가, 이동력 소모 -10%."
 
 #: .\Surv_help\c_martialarts.json
 msgid "Bull Rush"
@@ -7512,7 +7460,7 @@ msgid ""
 msgstr ""
 "충분한 관성을 얻으면, 적은 그것을 뼈저리게 느낄 것입니다.\n"
 "\n"
-"힘의 45%만큼 이동속도 증가, 힘의 15%만큼 피해 증가.\n"
+"근력의 45%만큼 이동속도 증가, 근력의 15%만큼 피해 증가.\n"
 "\"공성 망치\" 테크닉 사용 가능.\n"
 "3턴 동안 지속. 최대 3회 중첩."
 
@@ -7532,8 +7480,8 @@ msgid ""
 msgstr ""
 "들어가서 강하게 치고 빠지세요.\n"
 "\n"
-"힘의 30%만큼 이동속도 증가, 힘의 20%만큼 방어 관통 증가. \"휩쓰는 돌진\" 테크"
-"닉 사용 가능.\n"
+"근력의 30%만큼 이동속도 증가, 근력의 20%만큼 방어 관통 증가. \"휩쓰는 돌진\" "
+"테크닉 사용 가능.\n"
 "3턴 동안 지속. 최대 3회 중첩."
 
 #: .\Surv_help\c_martialartsbook.json
@@ -8697,12 +8645,14 @@ msgstr[0] "정찰병의 도구"
 msgid ""
 "This is a bulky electronic wrist mounted tool, designed to provide an "
 "accurate topographical map of your surroundings when used.  It also comes "
-"with digital clock and alarm features.  The battery is integral to the "
-"device, and requires sunlight or a recharging station to charge."
+"with digital clock and alarm features, and can receive targeting data from "
+"friendly drones.  The battery is integral to the device, and requires "
+"sunlight or a recharging station to charge."
 msgstr ""
-"손목에 착용하는 큰 부피의 전자장비입니다. 사용 시 정확한 주변 지형 지도를 제"
-"공하며, 디지털 시계와 알람 기능도 포함되어 있습니다. 배터리는 기기에 내장되"
-"어 있으며, 충전하려면 햇빛이나 충전소가 필요합니다."
+"손목에 착용해 사용하는 커다란 전자장치입니다. 사용하면 주변 지형에 대한 정확"
+"한 지형도를 제공합니다. 이에 더해 디지털 시계 및 알람 기능이 있으며, 우호적"
+"인 드론으로부터 조준 정보를 제공받을 수 있습니다. 배터리가 기기에 내장되어 있"
+"으며, 햇빛 또는 충전소가 있어야 충전할 수 있습니다."
 
 #: .\Surv_help\c_tools.json
 msgid "bioinjector"
@@ -9270,6 +9220,10 @@ msgid "Bio-Weapon Lab"
 msgstr "생체병기 연구소"
 
 #: .\Terrain\overmap_terrain.json
+msgid "Bio-Weapon Lab roof"
+msgstr "생체병기 연구소 지붕"
+
+#: .\Terrain\overmap_terrain.json
 msgid "dormitories"
 msgstr "기숙사"
 
@@ -9278,8 +9232,24 @@ msgid "Unknown Bunker"
 msgstr "알 수 없는 벙커"
 
 #: .\Terrain\overmap_terrain.json
+msgid "open air"
+msgstr "허공"
+
+#: .\Terrain\overmap_terrain.json
+msgid "dormitory roof"
+msgstr "기숙사 지붕"
+
+#: .\Terrain\overmap_terrain.json
+msgid "Unknown Bunker roof"
+msgstr "알 수 없는 벙커 지붕"
+
+#: .\Terrain\overmap_terrain.json
 msgid "Unknown Lab"
 msgstr "알 수 없는 연구소"
+
+#: .\Terrain\overmap_terrain.json
+msgid "Makeshift Command Center roof"
+msgstr "급조 사령부 지붕"
 
 #: .\Terrain\overmap_terrain.json
 msgid "Sketchy Cabin"
@@ -9878,35 +9848,6 @@ msgstr ""
 "하여 생존자의 크랭크 소총에 보다 효율적으로 전력을 공급하도록 설계되었습니"
 "다. 감전 위험이 없는 것이 신기할 정도입니다."
 
-#: .\Weapons\c_magazines.json
-msgid "light rechargeable plutonium cell"
-msgid_plural "light rechargeable plutonium cells"
-msgstr[0] "경량 재충전 플루토늄 연료 전지"
-
-#. ~ Description for {'str': 'light rechargeable plutonium cell'}
-#. ~ Description for {'str': 'medium rechargeable plutonium cell'}
-#. ~ Description for {'str': 'heavy rechargeable plutonium cell'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"This battery uses a thin plutonium-244 rod to stabilize multiple proprietary "
-"exotic compounds.  Designed by Omnitech for a military contract, this "
-"modified plutonium battery is rechargeable, but as it made for military "
-"purposes there is very little this is compatible with."
-msgstr ""
-"얇은 플루토늄‑244 막대를 이용하여 여러 독특한 이종 화합물을 안정화하는 배터리"
-"입니다. 옴니텍에서 군 납품을 위해 설계한 것으로, 충전이 가능한 개량형 플루토"
-"늄 배터리지만 군용으로 제작된 탓에 호환되는 장비가 거의 없습니다."
-
-#: .\Weapons\c_magazines.json
-msgid "medium rechargeable plutonium cell"
-msgid_plural "medium rechargeable plutonium cells"
-msgstr[0] "중형 재충전 플루토늄 연료 전지"
-
-#: .\Weapons\c_magazines.json
-msgid "heavy rechargeable plutonium cell"
-msgid_plural "heavy rechargeable plutonium cells"
-msgstr[0] "중량 재충전 플루토늄 연료 전지"
-
 #: .\Weapons\c_melee.json
 msgid "repurposed monomolecular knife"
 msgid_plural "repurposed monomolecular knifes"
@@ -9954,6 +9895,22 @@ msgstr ""
 "최첨단 금속으로 만들고 전용 나노크리스털로 날을 세운 짧고 날카로운 발톱으로, "
 "바이오닉에서 분리하여 금속 너클에 용접한 것입니다. 가볍고 민첩하며, 마치 맨손"
 "으로 싸우는 듯한 느낌이 들게 만듭니다."
+
+#: .\Weapons\c_melee.json
+msgid "repurposed bionic whip"
+msgid_plural "repurposed bionic whips"
+msgstr[0] "재활용 바이오닉 채찍"
+
+#. ~ Description for {'str': 'repurposed bionic whip'}
+#: .\Weapons\c_melee.json
+msgid ""
+"A long, sharp thread of high-tech material with a small counterweight at the "
+"end, salvaged from a CBM.  A metal handle has been welded on to make it "
+"actually feasible to use without being more of a danger to the wielder."
+msgstr ""
+"바이오닉을 재활용해 만든 길고 예리한 첨단물질 실타래입니다. 끄트머리에 작은 "
+"평형추가 달려있습니다. 금속 손잡이를 용접해 붙인 덕분에 사용자가 피해입을 걱"
+"정없이 사용할 수 있습니다."
 
 #: .\Weapons\c_melee.json
 msgid "biological blade"
@@ -10691,14 +10648,13 @@ msgstr[0] "NEO-33 레이저 권총"
 msgid ""
 "A relatively small laser pistol, boxy design having just enough concessions "
 "to ergonomics to fit well in the hand.  Its manufacturer is listed as "
-"Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use "
+"where a UPS would not be sustainable in the short term."
 msgstr ""
-"비교적 작은 레이저 권총입니다. 박스형 설계에 인체공학을 최소한으로 고려하여 "
-"그럭저럭 손에 쥘 수 있으며, 제조사는 옴니텍 연구소로 표시되어 있습니다. 원자"
-"력 배터리나 실험적인 충전식 배터리를 사용하며, 단기적으로 UPS를 사용하기 어려"
-"운 환경에서도 사용할 수 있도록 만드는 데 초점을 두고 설계되었습니다."
+"소형 레이저 권총입니다. 최소한의 인체공학적 고려를 통해 손에 그럭저럭 맞게 만"
+"들어진 박스형 외관이 눈에 띕니다. 옴니텍 연구소에서 제조되었다고 적혀있습니"
+"다. UPS만으로 유지할 수 없는 단기간의 집중적인 사용 상황을 고려하여 자체 충전"
+"이 가능한 원자력 배터리를 통해 작동하도록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "NEO-33E1 laser pistol"
@@ -10730,15 +10686,14 @@ msgid ""
 "Based on the design of the NEO-33, the AKRO-388 balances energy efficiency "
 "with rate of fire, offering decent firepower and handling like common "
 "submachineguns in active service.  Its manufacturer is listed as Omnitech "
-"Labs.  Powered by atomic power cells or an experimental rechargeable "
-"version, for heavy use where a UPS would not be sustainable in the short "
-"term."
+"Labs.  Powered by self-charging atomic power cells, for heavy use where a "
+"UPS would not be sustainable in the short term."
 msgstr ""
-"NEO-33의 설계를 기반으로 제작된 AKRO-388은 에너지 효율과 연사력의 균형을 맞추"
-"는 데 초점을 두었으며, 일반적인 현용 기관단총과 비슷한 수준의 준수한 화력과 "
-"조작성을 제공합니다. 제조사는 옴니텍 연구소로 표시되어 있습니다. 원자력 배터"
-"리나 실험적인 충전식 배터리를 사용하며, 단기적으로 UPS를 사용하기 어려운 환경"
-"에서도 사용할 수 있도록 만드는 데 초점을 두고 설계되었습니다."
+"NEO-33을 기반으로 설계된 AKRO-388은 연사율 및 에너지 효율 간의 균형을 맞췄으"
+"며, 일반적인 현용 기관단총과 비슷한 수준의 준수한 화력 및 조작성을 제공합니"
+"다. 옴니텍 연구소에서 제조되었다고 적혀있습니다. UPS만으로 유지할 수 없는 단"
+"기간의 집중적인 사용 상황을 고려하여 자체 충전이 가능한 원자력 배터리를 통해 "
+"작동하도록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "AKRO-388E1 laser SMG"
@@ -10772,14 +10727,14 @@ msgid ""
 "An experimental laser rifle based on the A7 and AKRO-388, offering the "
 "handling of a modern combat rifle with the efficiency of a laser weapon, in "
 "a relatively compact package.  The manufacturer is listed as Omnitech Labs.  "
-"Powered by atomic power cells or an experimental rechargeable version, for "
-"heavy use where a UPS would not be sustainable in the short term."
+"Powered by self-charging atomic power cells, for heavy use where a UPS would "
+"not be sustainable in the short term."
 msgstr ""
-"A7과 AKRO-388을 기반으로 한 실험적인 레이저 소총으로, 비교적 소형 설계로 현"
-"대 전투소총의 조작성과 레이저 무기의 효율성을 동시에 제공합니다. 제조사는 옴"
-"니텍 연구소로 표시되어 있습니다. 원자력 배터리나 실험적인 충전식 배터리를 사"
-"용하며, 단기적으로 UPS를 사용하기 어려운 환경에서도 사용할 수 있도록 만드는 "
-"데 초점을 두고 설계되었습니다."
+"A7 및 AKRO-388을 기반으로 설계된 실험적 레이저 소총입니다. 소형 크기를 유지하"
+"면서 현대 전투 소총의 조작성과 레이저 무기의 효율을 동시에 제공합니다. 옴니"
+"텍 연구소에서 제조되었다고 적혀있습니다. UPS만으로 유지할 수 없는 단기간의 집"
+"중적인 사용 상황을 고려하여 자체 충전이 가능한 원자력 배터리를 통해 작동하도"
+"록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "ARC-314E1 laser rifle"
@@ -10810,15 +10765,15 @@ msgid ""
 "Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While "
 "not very energy-efficient, this behemoth can deal a devastating blow to "
 "large groups of enemies.  The manufacturer is listed as Omnitech Labs.  "
-"Powered by atomic power cells or an experimental rechargeable version, for "
-"heavy use where a UPS would not be sustainable in the short term."
+"Powered by self-charging atomic power cells, for heavy use where a UPS would "
+"not be sustainable in the short term."
 msgstr ""
-"ARC의 단발 화력과 AKRO의 연사력을 결합한 옴니텍 연구소의 KRX-108은 압도적인 "
-"화력으로 적을 제압하기 위해 제작되었습니다. 에너지 효율은 별로 좋지 않지만, "
-"이 거대한 무기는 대규모 적 무리에게 치명적인 타격을 가할 수 있습니다. 제조사"
-"는 옴니텍 연구소로 표시되어 있습니다. 원자력 배터리나 실험적인 충전식 배터리"
-"를 사용하며, 단기적으로 UPS를 사용하기 어려운 환경에서도 사용할 수 있도록 만"
-"드는 데 초점을 두고 설계되었습니다."
+"ARC 소총의 단발 화력 및 AKRO의 연사력을 결합해 만든 옴니텍 연구소제 KRX-108"
+"은 압도적인 화력을 통해 적을 제압하는 것을 목표로 만들어졌습니다. 에너지 효율"
+"은 대단히 나쁘지만, 이 괴수는 대규모 적 무리에게 파괴적인 일격을 가할 수 있습"
+"니다. 옴니텍 연구소에서 제조되었다고 적혀있습니다. UPS만으로 유지할 수 없는 "
+"단기간의 집중적인 사용 상황을 고려하여 자체 충전이 가능한 원자력 배터리를 통"
+"해 작동하도록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "KRX-108E1 laser LMG"
@@ -10851,17 +10806,15 @@ msgid ""
 "single target.  Intended to be used as a long-range support weapon by modern "
 "special forces.  Requires an insane amount of energy to fire a single "
 "powerful laser, additionally providing EMP effects.  The manufacturer is "
-"listed as Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"listed as Omnitech Labs.  Powered by self-charging atomic power cells, for "
+"heavy use where a UPS would not be sustainable in the short term."
 msgstr ""
-"명중률이 개선된 장거리 레이저 소총으로, 단일 표적에 막대한 피해를 가하기 위"
-"해 설계되었으며, 현대 특수부대의 장거리 지원 화기로 운용하는 것을 전제로 하"
-"고 있습니다. 강력한 단발 레이저를 발사하는 데는 엄청난 에너지를 필요로 하지"
-"만, 추가적으로 EMP 효과를 제공합니다. 제조사는 옴니텍 연구소로 표시되어 있습"
-"니다. 원자력 배터리나 실험적인 충전식 배터리를 사용하며, 단기적으로 UPS를 사"
-"용하기 어려운 환경에서도 사용할 수 있도록 만드는 데 초점을 두고 설계되었습니"
-"다."
+"고정밀 장거리용 레이저 소총입니다. 단일 표적에 거대한 피해를 입힐 수 있도록 "
+"설계되었으며, 현대 특수부대에서 장거리 지원 화기로 운용하도록 만들어졌습니"
+"다. 강력한 단발 레이저를 발사하는 과정에서 정신나간 수준의 전력이 소모되지"
+"만, 이 과정에서 EMP 효과를 발생시킵니다. 옴니텍 연구소에서 제조되었다고 적혀"
+"있습니다. UPS만으로 유지할 수 없는 단기간의 집중적인 사용 상황을 고려하여 자"
+"체 충전이 가능한 원자력 배터리를 통해 작동하도록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "MX-84E1 laser sniper"
@@ -10895,15 +10848,14 @@ msgid ""
 "This is an ARC rifle modified into something resembling a double-barrel "
 "shotgun.  It fires short-range EMP pulses; still decent against conventional "
 "threats but best against electronics.  The manufacturer is listed as "
-"Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use "
+"where a UPS would not be sustainable in the short term."
 msgstr ""
-"ARC 소총을 개조하여 쌍총열 산탄총과 유사한 형태로 만든 무기입니다. 근거리 "
-"EMP 펄스를 발사하며, 일반적인 표적에도 어느 정도 효과가 있지만 전자장비에 특"
-"히 강력합니다. 제조사는 옴니텍 연구소로 표시되어 있습니다. 원자력 배터리나 실"
-"험적인 충전식 배터리를 사용하며, 단기적으로 UPS를 사용하기 어려운 환경에서도 "
-"사용할 수 있도록 만드는 데 초점을 두고 설계되었습니다."
+"개조를 통해 쌍총열 산탄총을 연상케 하는 형태로 만든 ARC 소총입니다. 근거리 "
+"EMP 펄스를 발사할 수 있으며, 일반 표적에 대해서도 어느 정도 위력적이지만 전자"
+"장비를 상대할 때 가장 효율적입니다. 옴니텍 연구소에서 제조되었다고 적혀있습니"
+"다. UPS만으로 유지할 수 없는 단기간의 집중적인 사용 상황을 고려하여 자체 충전"
+"이 가능한 원자력 배터리를 통해 작동하도록 설계되었습니다."
 
 #: .\Weapons\c_ranged.json
 msgid "XARM-37E1 pulse scattergun"
@@ -11048,132 +11000,176 @@ msgstr ""
 "지녔지만 사거리가 짧으며, 가변 압력 설계를 통해 일반 수소 및 군용 플라즈마 연"
 "료 전지를 모두 사용할 수 있습니다."
 
-#: .\Weapons\c_ranged_override.json
-msgid "Remington ACR"
-msgid_plural "Remington ACRs"
-msgstr[0] "레밍턴 ACR"
+#~ msgid "Hub 01"
+#~ msgstr "허브 01"
 
-#: .\Weapons\c_ranged_override.json
-msgid "AR-15"
-msgid_plural "AR-15s"
-msgstr[0] "AR-15"
+#~ msgid "Alphavoltaic Power"
+#~ msgid_plural "none"
+#~ msgstr[0] "알파볼타 전력"
 
-#: .\Weapons\c_ranged_override.json
-msgid "AR pistol"
-msgid_plural "AR pistols"
-msgstr[0] "AR 권총"
+#~ msgid "seeing this is a bug"
+#~ msgstr "이것을 봤다면 버그입니다"
 
-#: .\Weapons\c_ranged_override.json
-msgid "H&K416 A5"
-msgid_plural "H&K416 A5s"
-msgstr[0] "H&K416 A5"
+#~ msgid "Atomic Battery"
+#~ msgstr "원자력 배터리"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M249"
-msgid_plural "M249s"
-msgstr[0] "M249"
+#~ msgid ""
+#~ "Your body has been implanted with a compact, advanced plutonium-cell "
+#~ "generator for military use.  A true atomic battery, using advanced "
+#~ "materials to create a practical alphavoltaic power source.  While its "
+#~ "power output is still very low, it's also consistent with negligible "
+#~ "waste heat, making it a useful backup to another power generation method."
+#~ msgstr ""
+#~ "당신의 몸에는 군사용으로 설계된 소형 고급 플루토늄 연료 전지 발전기가 설치"
+#~ "되어 있습니다. 최첨단 소재를 사용해 실용적인 알파볼타 전력을 생성하는, 말 "
+#~ "그대로 원자력 배터리입니다. 출력은 아직 매우 낮지만 폐열이 거의 없어 안정"
+#~ "적으로 전력을 공급하므로, 다른 발전 수단과 함께 예비 전력으로 유용합니다."
 
-#: .\Weapons\c_ranged_override.json
-msgid "M27 IAR"
-msgid_plural "M27 IARs"
-msgstr[0] "M27 IAR"
+#~ msgid "Atomic Battery CBM"
+#~ msgid_plural "Atomic Battery CBMs"
+#~ msgstr[0] "CBM:원자력 배터리"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M4A1"
-msgid_plural "M4A1s"
-msgstr[0] "M4A1"
+#~ msgid ""
+#~ "An old form of non-thermal radioisotope generator, given new life and "
+#~ "military applications using cutting-edge plutonium-catalyst "
+#~ "developments.  Effectively a plutonium fuel cell converted into an "
+#~ "alphavoltaic battery, with greater power output and longevity than older "
+#~ "implants.  Its output is still very low at only 5 watts, but it also "
+#~ "provides a continuous source of power, making it a good supplement to a "
+#~ "more intensive power generation method."
+#~ msgstr ""
+#~ "구식 비열원 방사성 동위원소 발전기를, 최첨단 플루토늄 촉매 기술을 적용해 "
+#~ "군사용으로 재탄생시킨 장치입니다. 사실상 플루토늄 연료 전지를 알파볼타 배"
+#~ "터리로 전환한 것으로, 이전 세대의 이식물보다 출력과 수명이 향상되었습니"
+#~ "다. 출력은 여전히 5와트 정도로 매우 낮지만, 지속적인 전력 공급이 가능해 고"
+#~ "출력 발전 이식물을 사용할 때 훌륭한 예비 전력으로 사용할 수 있습니다."
 
-#: .\Weapons\c_ranged_override.json
-msgid "M16A4"
-msgid_plural "M16A4s"
-msgstr[0] "M16A4"
+#~ msgid "extended bionic cutting torch"
+#~ msgid_plural "extended bionic cutting torchs"
+#~ msgstr[0] "확장 절단 용접기"
 
-#: .\Weapons\c_ranged_override.json
-msgid "OA-93"
-msgid_plural "OA-93s"
-msgstr[0] "OA-93"
+#~ msgid "light rechargeable plutonium cell"
+#~ msgid_plural "light rechargeable plutonium cells"
+#~ msgstr[0] "경량 재충전 플루토늄 연료 전지"
 
-#: .\Weapons\c_ranged_override.json
-msgid "FN SCAR-L"
-msgid_plural "FN SCAR-Ls"
-msgstr[0] "FN SCAR-L"
+#~ msgid ""
+#~ "This battery uses a thin plutonium-244 rod to stabilize multiple "
+#~ "proprietary exotic compounds.  Designed by Omnitech for a military "
+#~ "contract, this modified plutonium battery is rechargeable, but as it made "
+#~ "for military purposes there is very little this is compatible with."
+#~ msgstr ""
+#~ "얇은 플루토늄‑244 막대를 이용하여 여러 독특한 이종 화합물을 안정화하는 배"
+#~ "터리입니다. 옴니텍에서 군 납품을 위해 설계한 것으로, 충전이 가능한 개량형 "
+#~ "플루토늄 배터리지만 군용으로 제작된 탓에 호환되는 장비가 거의 없습니다."
 
-#: .\Weapons\c_ranged_override.json
-msgid "SIG 552"
-msgid_plural "SIG 552s"
-msgstr[0] "SIG 552"
+#~ msgid "medium rechargeable plutonium cell"
+#~ msgid_plural "medium rechargeable plutonium cells"
+#~ msgstr[0] "중형 재충전 플루토늄 연료 전지"
 
-#: .\Weapons\c_ranged_override.json
-msgid "handmade carbine"
-msgid_plural "handmade carbines"
-msgstr[0] "수제 카빈"
+#~ msgid "heavy rechargeable plutonium cell"
+#~ msgid_plural "heavy rechargeable plutonium cells"
+#~ msgstr[0] "중량 재충전 플루토늄 연료 전지"
 
-#: .\Weapons\c_ranged_override.json
-msgid "AKM"
-msgid_plural "AKMs"
-msgstr[0] "AKM"
+#~ msgid "Remington ACR"
+#~ msgid_plural "Remington ACRs"
+#~ msgstr[0] "레밍턴 ACR"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Beretta ARX-160"
-msgid_plural "Beretta ARX-160"
-msgstr[0] "베레타 ARX-160"
+#~ msgid "AR-15"
+#~ msgid_plural "AR-15s"
+#~ msgstr[0] "AR-15"
 
-#: .\Weapons\c_ranged_override.json
-msgid "AK-47"
-msgid_plural "AK-47s"
-msgstr[0] "AK-47"
+#~ msgid "AR pistol"
+#~ msgid_plural "AR pistols"
+#~ msgstr[0] "AR 권총"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Mini Draco"
-msgid_plural "Mini Dracos"
-msgstr[0] "미니 드라코"
+#~ msgid "H&K416 A5"
+#~ msgid_plural "H&K416 A5s"
+#~ msgstr[0] "H&K416 A5"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M14 EBR-RI"
-msgid_plural "M14 EBR-RI"
-msgstr[0] "M14 EBR-RI"
+#~ msgid "M249"
+#~ msgid_plural "M249s"
+#~ msgstr[0] "M249"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M1A"
-msgid_plural "M1A"
-msgstr[0] "M1A"
+#~ msgid "M27 IAR"
+#~ msgid_plural "M27 IARs"
+#~ msgstr[0] "M27 IAR"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M240"
-msgid_plural "M240s"
-msgstr[0] "M240"
+#~ msgid "M4A1"
+#~ msgid_plural "M4A1s"
+#~ msgstr[0] "M4A1"
 
-#: .\Weapons\c_ranged_override.json
-msgid "M60"
-msgid_plural "M60s"
-msgstr[0] "M60"
+#~ msgid "M16A4"
+#~ msgid_plural "M16A4s"
+#~ msgstr[0] "M16A4"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Saiga-12"
-msgid_plural "Saiga-12s"
-msgstr[0] "사이가-12"
+#~ msgid "OA-93"
+#~ msgid_plural "OA-93s"
+#~ msgstr[0] "OA-93"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Luty SMG: 9x19mm"
-msgid_plural "Luty SMGs: 9x19mm"
-msgstr[0] "루티식 기관단총: 9x19mm"
+#~ msgid "FN SCAR-L"
+#~ msgid_plural "FN SCAR-Ls"
+#~ msgstr[0] "FN SCAR-L"
 
-#: .\Weapons\c_ranged_override.json
-msgid "STEN"
-msgid_plural "STENs"
-msgstr[0] "스텐 기관단총"
+#~ msgid "SIG 552"
+#~ msgid_plural "SIG 552s"
+#~ msgstr[0] "SIG 552"
 
-#: .\Weapons\c_ranged_override.json
-msgid "MAC-10"
-msgid_plural "MAC-10s"
-msgstr[0] "MAC-10"
+#~ msgid "handmade carbine"
+#~ msgid_plural "handmade carbines"
+#~ msgstr[0] "수제 카빈"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Luty SMG: .45"
-msgid_plural "Luty SMGs: .45"
-msgstr[0] "루티식 기관단총: .45"
+#~ msgid "AKM"
+#~ msgid_plural "AKMs"
+#~ msgstr[0] "AKM"
 
-#: .\Weapons\c_ranged_override.json
-msgid "Barrett M107A1"
-msgid_plural "Barrett M107A1"
-msgstr[0] "바렛 M107A1"
+#~ msgid "Beretta ARX-160"
+#~ msgid_plural "Beretta ARX-160"
+#~ msgstr[0] "베레타 ARX-160"
+
+#~ msgid "AK-47"
+#~ msgid_plural "AK-47s"
+#~ msgstr[0] "AK-47"
+
+#~ msgid "Mini Draco"
+#~ msgid_plural "Mini Dracos"
+#~ msgstr[0] "미니 드라코"
+
+#~ msgid "M14 EBR-RI"
+#~ msgid_plural "M14 EBR-RI"
+#~ msgstr[0] "M14 EBR-RI"
+
+#~ msgid "M1A"
+#~ msgid_plural "M1A"
+#~ msgstr[0] "M1A"
+
+#~ msgid "M240"
+#~ msgid_plural "M240s"
+#~ msgstr[0] "M240"
+
+#~ msgid "M60"
+#~ msgid_plural "M60s"
+#~ msgstr[0] "M60"
+
+#~ msgid "Saiga-12"
+#~ msgid_plural "Saiga-12s"
+#~ msgstr[0] "사이가-12"
+
+#~ msgid "Luty SMG: 9x19mm"
+#~ msgid_plural "Luty SMGs: 9x19mm"
+#~ msgstr[0] "루티식 기관단총: 9x19mm"
+
+#~ msgid "STEN"
+#~ msgid_plural "STENs"
+#~ msgstr[0] "스텐 기관단총"
+
+#~ msgid "MAC-10"
+#~ msgid_plural "MAC-10s"
+#~ msgstr[0] "MAC-10"
+
+#~ msgid "Luty SMG: .45"
+#~ msgid_plural "Luty SMGs: .45"
+#~ msgstr[0] "루티식 기관단총: .45"
+
+#~ msgid "Barrett M107A1"
+#~ msgid_plural "Barrett M107A1"
+#~ msgstr[0] "바렛 M107A1"
