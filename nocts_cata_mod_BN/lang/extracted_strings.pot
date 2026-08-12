@@ -2,11 +2,65 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2023-02-22 12:37+0600\n"
+"POT-Creation-Date: 2026-08-12 15:13+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: .\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Paper Trail"
+msgstr ""
+
+#. ~ Description for {'str': '<color_light_green>(Cataclysm++)</color> Paper
+#. Trail'}
+#: .\c_achievements.json
+msgid ""
+"Assist Evelynn Rose in tracking down the researchers fleeing a mysterious "
+"threat."
+msgstr ""
+
+#: .\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Secret Hunter"
+msgstr ""
+
+#. ~ Description for {'str': '<color_light_green>(Cataclysm++)</color> Secret
+#. Hunter'}
+#: .\c_achievements.json
+msgid "Talk Evelynn Rose into revealing she's more than a mere hacker."
+msgstr ""
+
+#: .\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Unforeseen Consequences"
+msgstr ""
+
+#. ~ Description for {'str': '<color_light_green>(Cataclysm++)</color>
+#. Unforeseen Consequences'}
+#: .\c_achievements.json
+msgid ""
+"Take on a dangerous mission from Router, in pursuit of a fearsome bionic "
+"mutant."
+msgstr ""
+
+#: .\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Sunrise"
+msgstr ""
+
+#. ~ Description for {'str': '<color_light_green>(Cataclysm++)</color>
+#. Sunrise'}
+#: .\c_achievements.json
+msgid "Slay Bio-Weapon Apophis."
+msgstr ""
+
+#: .\c_achievements.json
+msgid "<color_light_green>(Cataclysm++)</color> Defender"
+msgstr ""
+
+#. ~ Description for {'str': '<color_light_green>(Cataclysm++)</color>
+#. Defender'}
+#: .\c_achievements.json
+msgid "Sworn to avenge, you have become more than human."
+msgstr ""
 
 #: .\legacy.json .\Surv_help\c_books.json
 msgid "Rebuilding Civilization: Mechanics"
@@ -624,11 +678,131 @@ msgid ""
 "some sort of liquid.  It was grown for use with the biological scattergun."
 msgstr ""
 
-#: .\modinfo.json
-msgid "Cataclysm++"
+#: .\legacy.json
+msgid "Obsolete CBM"
+msgid_plural "Obsolete CBMs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'Obsolete CBM'}
+#: .\legacy.json
+msgid ""
+"This is a now-unneeded holdover from back when Atomic Battery had to work "
+"around code bugs and would only generate power when turned off instead of "
+"when turned on."
 msgstr ""
 
-#. ~ Description for Cataclysm++
+#: .\legacy.json
+msgid "Bugout Location Directions"
+msgid_plural "Bugout Location Directions"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action message for {'str_sp': 'Bugout Location Directions'}.
+#: .\legacy.json
+msgid "Thoroughly poring over the map, you memorize the location."
+msgstr ""
+
+#. ~ Description for {'str_sp': 'Bugout Location Directions'}
+#: .\legacy.json
+msgid ""
+"A map and set of directions, leading to somebody's rendezvous point.  The "
+"name scribbled in one corner seems faintly familiar."
+msgstr ""
+
+#: .\legacy.json .\Terrain\overmap_terrain.json
+msgid "field"
+msgstr ""
+
+#: .\legacy.json
+msgid "Hydrogen Pulse Cell"
+msgstr ""
+
+#. ~ Description for {'str': 'Hydrogen Pulse Cell'}
+#: .\legacy.json
+msgid ""
+"A small, advanced form of hydrogen fuel cell, designed to produce a spike of"
+" power production for cutting-edge military cybernetics.  This is the "
+"separate chamber for burning lower-pressure hydrogen, for less intense "
+"bursts of bionic energy."
+msgstr ""
+
+#: .\legacy.json
+msgid "mutagenic hemoampoule"
+msgid_plural "mutagenic hemoampoules"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'mutagenic hemoampoule'}
+#: .\legacy.json
+msgid ""
+"A resinous capsule filled with what looks like congealed blood, mixed with "
+"mutagenic compounds.  Not as strong as mutagenic serum, but will require a "
+"syringe to use."
+msgstr ""
+
+#: .\legacy.json
+msgid "purified hemoampoule"
+msgid_plural "purified hemoampoules"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'purified hemoampoule'}
+#: .\legacy.json
+msgid ""
+"A resinous capsule filled with what looks like congealed blood, mixed with "
+"stabilizing compounds.  Mimics the effects of purifier, but requires a "
+"syringe to use."
+msgstr ""
+
+#: .\legacy.json
+msgid "Hemocatalyzed Infusion"
+msgstr ""
+
+#. ~ Description for {'str': 'Hemocatalyzed Infusion'}
+#: .\legacy.json
+msgid ""
+"Creates a bio-ampoule filled with mutagen, adds additional side effects."
+msgstr ""
+
+#: .\legacy.json
+msgid "Hemocatalyst Damage"
+msgstr ""
+
+#. ~ Description for {'str': 'Hemocatalyst Damage'}
+#: .\legacy.json
+msgid "Adds the damaging side effect to the infuser and defuser."
+msgstr ""
+
+#: .\legacy.json
+msgid "Hemocatalyzed Defusion"
+msgstr ""
+
+#. ~ Description for {'str': 'Hemocatalyzed Defusion'}
+#: .\legacy.json
+msgid ""
+"Creates a bio-ampoule filled with purifer, adds additional side effects."
+msgstr ""
+
+#: .\legacy.json
+msgid "reanimated augmented soldier"
+msgid_plural "reanimated augmented soldiers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'reanimated augmented soldier'}
+#: .\legacy.json
+msgid ""
+"An advanced, well-equipped member of the military that still succumbed to "
+"the cataclysm.  This one has no sign of its signature weaponry and its armor"
+" is in tatters, yet it still marches on with unnerving confidence and speed."
+msgstr ""
+
+#: .\modinfo.json
+msgid "<color_light_green>Cataclysm++</color>"
+msgstr ""
+
+#. ~ Description for <color_light_green>Cataclysm++</color>
 #: .\modinfo.json
 msgid ""
 "The unofficial expansion mod for Cataclysm: Bright Nights.\n"
@@ -948,16 +1122,20 @@ msgstr ""
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
-"You were augmented with a blade, and enhancements to your speed and reaction"
-" time. You can hit an opponent multiple times before they land a blow."
+"You were kidnapped for some sort of underground bloodsport, augmented with a"
+" blade and enhancements to your speed and reaction time.  Forced through "
+"rudimentary training as a novelty fighter, you were expected to be able to "
+"be down opponents with ease."
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Blade)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_female"
 msgid ""
-"You were augmented with a blade, and enhancements to your speed and reaction"
-" time. You can hit an opponent multiple times before they land a blow."
+"You were kidnapped for some sort of underground bloodsport, augmented with a"
+" blade and enhancements to your speed and reaction time.  Forced through "
+"rudimentary training as a novelty fighter, you were expected to be able to "
+"be down opponents with ease."
 msgstr ""
 
 #: .\Char_creation\c_classes_bw.json
@@ -974,16 +1152,20 @@ msgstr ""
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
-"You were augmented with some claws, and enhancements to your reflexes. You "
-"deliver a powerful strike that neutralizes foes in few hits."
+"You were kidnapped for some sort of underground bloodsport, augmented with "
+"bionic claws and enhancements to your reflexes.  Forced through rudimentary "
+"training as a novelty fighter, you were expected to tear your foes apart "
+"like an animal."
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Claws)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_female"
 msgid ""
-"You were augmented with some claws, and enhancements to your reflexes. You "
-"deliver a powerful strike that neutralizes foes in few hits."
+"You were kidnapped for some sort of underground bloodsport, augmented with "
+"bionic claws and enhancements to your reflexes.  Forced through rudimentary "
+"training as a novelty fighter, you were expected to tear your foes apart "
+"like an animal."
 msgstr ""
 
 #: .\Char_creation\c_classes_bw.json
@@ -1000,18 +1182,20 @@ msgstr ""
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
-"You were augmented with electrical generators and protection from them. You "
-"hit multiple foes with electricity, frying them until their nervous system "
-"gives up."
+"You were kidnapped for some sort of underground bloodsport, augmented with "
+"electrical generation and protection bionics.  It was expected that you'd be"
+" a living tesla coil in the ring, frying victims until they roll over and "
+"die."
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Shocker)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_female"
 msgid ""
-"You were augmented with electrical generators and protection from them. You "
-"hit multiple foes with electricity, frying them until their nervous system "
-"gives up."
+"You were kidnapped for some sort of underground bloodsport, augmented with "
+"electrical generation and protection bionics.  It was expected that you'd be"
+" a living tesla coil in the ring, frying victims until they roll over and "
+"die."
 msgstr ""
 
 #: .\Char_creation\c_classes_bw.json
@@ -1028,46 +1212,108 @@ msgstr ""
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
-"You have been augmented with many 'passive' combat bionics, they merely aid "
-"you but are not weapons in and of themselves. You have been trained to use "
-"all sorts of different weapons, including your fists. You can pretty much "
-"weaponize a sock."
+"You were kidnapped for some sort of underground bloodsport.  Augmented with "
+"a mish-mash of support bionics and put through hellish training, you were "
+"intended to be a wild card to spice up matches, able to weaponize whatever "
+"you could get your hands on."
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Weapon Master)) description
 #: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_female"
 msgid ""
-"You have been augmented with many 'passive' combat bionics, they merely aid "
-"you but are not weapons in and of themselves. You have been trained to use "
-"all sorts of different weapons, including your fists. You can pretty much "
-"weaponize a sock."
+"You were kidnapped for some sort of underground bloodsport.  Augmented with "
+"a mish-mash of support bionics and put through hellish training, you were "
+"intended to be a wild card to spice up matches, able to weaponize whatever "
+"you could get your hands on."
 msgstr ""
 
-#: .\Char_creation\c_classes_r.json
+#: .\Char_creation\c_classes_bw.json
 msgctxt "profession_male"
-msgid "Canned Survivor"
+msgid "Feral Bio-Weapon"
 msgstr ""
 
-#: .\Char_creation\c_classes_r.json
+#: .\Char_creation\c_classes_bw.json
 msgctxt "profession_female"
-msgid "Canned Survivor"
+msgid "Feral Bio-Weapon"
 msgstr ""
 
-#. ~ Profession (male Canned Survivor) description
-#: .\Char_creation\c_classes_r.json
+#. ~ Profession (male Feral Bio-Weapon) description
+#: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_male"
 msgid ""
-"You were a very busy person.  That's why you bought a can of survival items "
-"and called it a day.  Now it's the only thing you have."
+"From the moment you opened your eyes you knew you were a failure, a reject."
+"  Destined to be something great but many a mistake took that away from you."
+"  You awoke in a world of monsters, so only fitting that you're a monster "
+"yourself."
 msgstr ""
 
-#. ~ Profession (female Canned Survivor) description
-#: .\Char_creation\c_classes_r.json
+#. ~ Profession (female Feral Bio-Weapon) description
+#: .\Char_creation\c_classes_bw.json
 msgctxt "prof_desc_female"
 msgid ""
-"You were a very busy person.  That's why you bought a can of survival items "
-"and called it a day.  Now it's the only thing you have."
+"From the moment you opened your eyes you knew you were a failure, a reject."
+"  Destined to be something great but many a mistake took that away from you."
+"  You awoke in a world of monsters, so only fitting that you're a monster "
+"yourself."
+msgstr ""
+
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_male"
+msgid "Feral Super Soldier"
+msgstr ""
+
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Feral Super Soldier"
+msgstr ""
+
+#. ~ Profession (male Feral Super Soldier) description
+#: .\Char_creation\c_classes_bw.json
+msgctxt "prof_desc_male"
+msgid ""
+"You were one of many augmented soldiers to be deployed into a battle field "
+"to ensure victory, as part of the of the Super Soldier project.  Now there's"
+" nothing left but more targets to be put down."
+msgstr ""
+
+#. ~ Profession (female Feral Super Soldier) description
+#: .\Char_creation\c_classes_bw.json
+msgctxt "prof_desc_female"
+msgid ""
+"You were one of many augmented soldiers to be deployed into a battle field "
+"to ensure victory, as part of the of the Super Soldier project.  Now there's"
+" nothing left but more targets to be put down."
+msgstr ""
+
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_male"
+msgid "Feral Slave Fighter"
+msgstr ""
+
+#: .\Char_creation\c_classes_bw.json
+msgctxt "profession_female"
+msgid "Feral Slave Fighter"
+msgstr ""
+
+#. ~ Profession (male Feral Slave Fighter) description
+#: .\Char_creation\c_classes_bw.json
+msgctxt "prof_desc_male"
+msgid ""
+"You were augmented and used as part of an underground blood sport.  You "
+"survived, a lot of fresh meat didn't.  Your handlers didn't either, and now "
+"you've free once more, free and a lot hungrier than before you were "
+"kidnapped."
+msgstr ""
+
+#. ~ Profession (female Feral Slave Fighter) description
+#: .\Char_creation\c_classes_bw.json
+msgctxt "prof_desc_female"
+msgid ""
+"You were augmented and used as part of an underground blood sport.  You "
+"survived, a lot of fresh meat didn't.  Your handlers didn't either, and now "
+"you've free once more, free and a lot hungrier than before you were "
+"kidnapped."
 msgstr ""
 
 #: .\Char_creation\c_classes_r.json
@@ -1156,6 +1402,34 @@ msgstr ""
 
 #: .\Char_creation\c_classes_r.json
 msgctxt "profession_male"
+msgid "Wasteland Techno-Barbarian"
+msgstr ""
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_female"
+msgid "Wasteland Techno-Barbarian"
+msgstr ""
+
+#. ~ Profession (male Wasteland Techno-Barbarian) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_male"
+msgid ""
+"The end of the world brings out the best and worst in everyone.  For you, it"
+" was a chance to channel your pre-Cataclysm expertise into something more "
+"primal.  Whether you have the might to use such armament remains to be seen."
+msgstr ""
+
+#. ~ Profession (female Wasteland Techno-Barbarian) description
+#: .\Char_creation\c_classes_r.json
+msgctxt "prof_desc_female"
+msgid ""
+"The end of the world brings out the best and worst in everyone.  For you, it"
+" was a chance to channel your pre-Cataclysm expertise into something more "
+"primal.  Whether you have the might to use such armament remains to be seen."
+msgstr ""
+
+#: .\Char_creation\c_classes_r.json
+msgctxt "profession_male"
 msgid "Bionic Silencer"
 msgstr ""
 
@@ -1201,7 +1475,7 @@ msgstr ""
 msgctxt "scen_desc_male"
 msgid ""
 "You woke up, where are you?  Who are you?  What are you?!  That doesn't "
-"matter right now... you have a bad feeling..."
+"matter right now… you have a bad feeling…"
 msgstr ""
 
 #. ~ Description for scenario 'Bio-Weapon Lab' for a female character.
@@ -1209,7 +1483,7 @@ msgstr ""
 msgctxt "scen_desc_female"
 msgid ""
 "You woke up, where are you?  Who are you?  What are you?!  That doesn't "
-"matter right now... you have a bad feeling..."
+"matter right now… you have a bad feeling…"
 msgstr ""
 
 #. ~ Starting location for scenario 'Bio-Weapon Lab'.
@@ -1254,40 +1528,40 @@ msgctxt "start_name"
 msgid "Fungal Territory"
 msgstr ""
 
-#. ~ Name for scenario 'Prepper Household' for a male character
+#. ~ Name for scenario 'Prepper Safehouse' for a male character
 #: .\Char_creation\c_scenarios.json
 msgctxt "scenario_male"
-msgid "Prepper Household"
+msgid "Prepper Safehouse"
 msgstr ""
 
-#. ~ Name for scenario 'Prepper Household' for a female character
+#. ~ Name for scenario 'Prepper Safehouse' for a female character
 #: .\Char_creation\c_scenarios.json
 msgctxt "scenario_female"
-msgid "Prepper Household"
+msgid "Prepper Safehouse"
 msgstr ""
 
-#. ~ Description for scenario 'Prepper Household' for a male character.
+#. ~ Description for scenario 'Prepper Safehouse' for a male character.
 #: .\Char_creation\c_scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
-"You knew something was coming, you prepared, when the dead rose, you knew "
-"what to do. With your house now barricaded, it's time to put your plan into "
-"action."
+"You knew something was coming, so you made connections with like-minded "
+"survivors beforehand to establish safe refuge.  You've made your plans, now "
+"that you've weathered the first few months it's time for the next steps."
 msgstr ""
 
-#. ~ Description for scenario 'Prepper Household' for a female character.
+#. ~ Description for scenario 'Prepper Safehouse' for a female character.
 #: .\Char_creation\c_scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
-"You knew something was coming, you prepared, when the dead rose, you knew "
-"what to do. With your house now barricaded, it's time to put your plan into "
-"action."
+"You knew something was coming, so you made connections with like-minded "
+"survivors beforehand to establish safe refuge.  You've made your plans, now "
+"that you've weathered the first few months it's time for the next steps."
 msgstr ""
 
-#. ~ Starting location for scenario 'Prepper Household'.
+#. ~ Starting location for scenario 'Prepper Safehouse'.
 #: .\Char_creation\c_scenarios.json
 msgctxt "start_name"
-msgid "Boarded Up House"
+msgid "Safehouse"
 msgstr ""
 
 #. ~ Name for scenario 'Slave Fighter's Freedom' for a male character
@@ -1306,10 +1580,10 @@ msgstr ""
 #: .\Char_creation\c_scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
-"All your life you have been experimented on and forced to fight others for "
-"the amusement of your masters. Never having seen the sun or the outside the "
-"cataclysm gave you a chance at freedom. Now you just have to escape from "
-"your fellow combatants..."
+"All your life, you have been experimented on and forced to fight others for "
+"the amusement of your masters.  Never having seen the sun or the outside, "
+"the cataclysm gave you a chance at freedom.  Now you just have to escape "
+"from your fellow combatants…"
 msgstr ""
 
 #. ~ Description for scenario 'Slave Fighter's Freedom' for a female
@@ -1317,10 +1591,10 @@ msgstr ""
 #: .\Char_creation\c_scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
-"All your life you have been experimented on and forced to fight others for "
-"the amusement of your masters. Never having seen the sun or the outside the "
-"cataclysm gave you a chance at freedom. Now you just have to escape from "
-"your fellow combatants..."
+"All your life, you have been experimented on and forced to fight others for "
+"the amusement of your masters.  Never having seen the sun or the outside, "
+"the cataclysm gave you a chance at freedom.  Now you just have to escape "
+"from your fellow combatants…"
 msgstr ""
 
 #. ~ Starting location for scenario 'Slave Fighter's Freedom'.
@@ -1375,6 +1649,14 @@ msgstr ""
 msgid "Survivor Camp Site"
 msgstr ""
 
+#: .\Char_creation\c_start_locations.json .\Terrain\overmap_terrain.json
+msgid "Survivor Holdout"
+msgstr ""
+
+#: .\Char_creation\c_start_locations.json .\Terrain\overmap_terrain.json
+msgid "Survivor Encampment"
+msgstr ""
+
 #: .\Char_creation\c_start_locations.json
 msgid "Bio Weapon Lab"
 msgstr ""
@@ -1385,10 +1667,6 @@ msgstr ""
 
 #: .\Char_creation\c_start_locations.json
 msgid "Research Facility"
-msgstr ""
-
-#: .\Char_creation\c_start_locations.json
-msgid "Hub 01"
 msgstr ""
 
 #: .\Char_creation\c_start_locations.json .\Terrain\overmap_terrain.json
@@ -1620,20 +1898,6 @@ msgstr ""
 msgid "The super soldier fires its smg!"
 msgstr ""
 
-#: .\Monsters\c_monsters.json
-msgid "reanimated augmented soldier"
-msgid_plural "reanimated augmented soldiers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'reanimated augmented soldier'}
-#: .\Monsters\c_monsters.json
-msgid ""
-"An advanced, well-equipped member of the military that still succumbed to "
-"the cataclysm.  This one has no sign of its signature weaponry and its armor"
-" is in tatters, yet it still marches on with unnerving confidence and speed."
-msgstr ""
-
 #: .\Monsters\c_ranged_monster.json
 msgid "zombie super soldier pistol"
 msgid_plural "zombie super soldier pistols"
@@ -1642,9 +1906,8 @@ msgstr[1] ""
 
 #: .\Monsters\c_ranged_monster.json
 msgid ""
-"Version of the NEO-33 for use by monsters, with explicit overrides to ensure"
-" that it won't light players on fire.  This is a bug if you find one of "
-"these!"
+"Version of the NEO-33 for use by monsters.  This is a bug if you find one of"
+" these!"
 msgstr ""
 
 #: .\Monsters\c_ranged_monster.json
@@ -1708,17 +1971,20 @@ msgid ""
 msgstr ""
 
 #: .\Monsters\c_ranged_monster.json
+msgid "zombie super soldier cannon"
+msgid_plural "zombie super soldier cannons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Monsters\c_ranged_monster.json
 msgid ""
 "Version of the MK-2 for use by monsters, to account for increased accuracy "
 "of ranged attacks.  Copies from MX-84 instead because for some wacky reason "
-"the MK2 itself doesn't work right in the hands of monsters.  Unlike the "
-"others, overriding the damage type doesn't matter because it you take a "
-"direct heat, being lit on fire from heat damagetype is the least of your "
-"worries.  This is a bug if you find one of these!"
+"the MK2 itself doesn't work right in the hands of monsters.  This is a bug "
+"if you find one of these!"
 msgstr ""
 
-#: .\Monsters\c_ranged_monster.json .\Weapons\c_mods.json
-#: .\Weapons\c_ranged.json
+#: .\Monsters\c_ranged_monster.json .\Weapons\c_ranged.json
 msgctxt "gun_type_type"
 msgid "launcher"
 msgstr ""
@@ -1731,9 +1997,8 @@ msgstr[1] ""
 
 #: .\Monsters\c_ranged_monster.json
 msgid ""
-"Used to give Bio-Weapon Apophis a mockup of the laser gatling, minus setting"
-" targets on fire and a shorter burst size.  This is a bug if you find one of"
-" these!"
+"Used to give Bio-Weapon Apophis a mockup of the laser gatling with a shorter"
+" burst size.  This is a bug if you find one of these!"
 msgstr ""
 
 #: .\Monsters\c_ranged_monster.json .\Surv_help\c_bionics.json
@@ -1742,11 +2007,16 @@ msgid "auto"
 msgstr ""
 
 #: .\Monsters\c_ranged_monster.json .\Surv_help\c_bionics.json
-#: .\Weapons\c_mods.json .\Weapons\c_ranged.json
-#: .\Weapons\c_ranged_override.json
+#: .\Weapons\c_ranged.json
 msgctxt "gun_type_type"
 msgid "rifle"
 msgstr ""
+
+#: .\Monsters\c_species.json
+msgid "bio-weapon"
+msgid_plural "bio-weapons"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\Monsters\c_speech.json
 msgid "a pained groan."
@@ -2065,8 +2335,8 @@ msgstr ""
 msgid ""
 "Your durability and resilience are overall far beyond normal humans, and "
 "your form is larger than a normal human.  You gain a flat +50 to all hit "
-"points, plus your maximum stamina and stamina regeneration is 30% higher "
-"than normal."
+"points, +15% carry weight, plus your maximum stamina and stamina "
+"regeneration is 30% higher than normal."
 msgstr ""
 
 #: .\Mutations\c_bio_mutation.json
@@ -2093,7 +2363,7 @@ msgid ""
 "highest priority."
 msgstr ""
 
-#: .\Mutations\c_bio_mutation.json .\Surv_help\c_martialarts.json
+#: .\Mutations\c_bio_mutation.json
 msgid "Bionic Combatives"
 msgstr ""
 
@@ -2139,6 +2409,20 @@ msgid ""
 " forced to fight others like you for the amusement of wealthy clients.  You "
 "may not be the only one lucky enough to have survived that without being "
 "broken."
+msgstr ""
+
+#: .\Mutations\c_bio_mutation.json
+msgid "Prepper Holdout"
+msgstr ""
+
+#. ~ Description for {'str': 'Prepper Holdout'}
+#: .\Mutations\c_bio_mutation.json
+msgid ""
+"Before the Cataclysm, you had been a member of a local community of like-"
+"minded survivalists, occasionally meeting to discuss preparations and "
+"contribute to preparing and stocking safehouses.  Now that the world's "
+"ended, you might be able to count on any of your friends out there who are "
+"still alive."
 msgstr ""
 
 #. ~ Mutation class: Bio-Weapon mutagen_message
@@ -2610,23 +2894,27 @@ msgid ""
 msgstr ""
 
 #: .\Npc\TALK_BFF.json
+msgid "What's up?  Whenever you feel like hitting the road, I'm with you."
+msgstr ""
+
+#: .\Npc\TALK_BFF.json
+msgid ""
+"Holy shit man, you're still alive?!  I'm glad, I thought I was going to have"
+" to deal with all this alone.  We've got shelter and supplies at least.  "
+"Whenever you want to head out, I'll follow your lead."
+msgstr ""
+
+#: .\Npc\TALK_BFF.json
+msgid ""
+"Holy shit girl, you're still alive?!  I'm glad, I thought I was going to "
+"have to deal with all this alone.  We've got shelter and supplies at least."
+"  Whenever you want to head out, I'll follow your lead."
+msgstr ""
+
+#: .\Npc\TALK_BFF.json
 msgid ""
 "Greetings.  Damn, I was hoping to run into somebody else… at least we're "
 "both still in one piece, I guess."
-msgstr ""
-
-#: .\Npc\TALK_BFF.json
-msgid ""
-"Holy shit man, you are still alive?!  I'm glad, I thought I was going to "
-"have to deal with all this alone.  We got this place far away and are safe "
-"for now.  It's now you and me, just like old times!"
-msgstr ""
-
-#: .\Npc\TALK_BFF.json
-msgid ""
-"Holy shit girl, you are still alive?!  I'm glad, I thought I was going to "
-"have to deal with all this alone. We got this place far away and are safe "
-"for now.  It's now you and me, just like old times!"
 msgstr ""
 
 #: .\Npc\TALK_BFF.json
@@ -2642,11 +2930,11 @@ msgid "Care to trade?"
 msgstr ""
 
 #: .\Npc\TALK_BFF.json
-msgid "Glad to see you too buddy, let's go now!"
+msgid "Sure, let's head out!"
 msgstr ""
 
-#: .\Npc\TALK_BFF.json .\Npc\TALK_CGUARD2.json .\Npc\TALK_GLADIATOR.json
-msgid "Bye."
+#: .\Npc\TALK_BFF.json
+msgid "See you later."
 msgstr ""
 
 #: .\Npc\TALK_BHUNTER.json
@@ -3470,6 +3758,10 @@ msgstr ""
 
 #: .\Npc\TALK_CGUARD2.json
 msgid "Welcome.  Try not to cause any trouble and things will be just fine."
+msgstr ""
+
+#: .\Npc\TALK_CGUARD2.json .\Npc\TALK_GLADIATOR.json
+msgid "Bye."
 msgstr ""
 
 #: .\Npc\TALK_CGUARD2.json
@@ -4443,10 +4735,6 @@ msgid "It's all for nothing, isn't it?"
 msgstr ""
 
 #: .\Npc\c_npc.json
-msgid "Best Friend"
-msgstr ""
-
-#: .\Npc\c_npc.json
 msgid "Bio Hunter"
 msgstr ""
 
@@ -4537,6 +4825,22 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "survivor's superalloy scout suit"
+msgid_plural "survivor's superalloy scout suits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "survivor's superalloy scout suit"}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A home-made suit built to live off the land.  Comes with ample storage, warm"
+" fur lining, environmental and physical protection, a built in watch, and a "
+"makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and "
+"reinforced with superalloy.  It requires a separate gas mask for full "
+"protection."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "survivor plate armor"
 msgid_plural "survivor plate armors"
 msgstr[0] ""
@@ -4547,7 +4851,22 @@ msgstr[1] ""
 msgid ""
 "A suit of Gothic plate armor modified with kevlar and leather, altered to "
 "better protect the gaps between plates and provide better protection from "
-"the elements."
+"the elements, while also increasing ballistic resistance."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor superalloy plate armor"
+msgid_plural "survivor superalloy plate armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor superalloy plate armor'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A suit of Gothic plate armor, made from superalloy plates further modified "
+"with kevlar and leather, altered to better protect the gaps between plates "
+"and provide better protection from the elements, while also increasing "
+"ballistic resistance."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4561,7 +4880,21 @@ msgstr[1] ""
 #: .\Surv_help\c_armor.json
 msgid ""
 "A medieval steel breastplate, modified with kevlar and leather to better "
-"protect from the elements."
+"protect from the elements and improve ballistic resistance."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor superalloy cuirass"
+msgid_plural "survivor superalloy cuirasses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor superalloy cuirass', 'str_pl':
+#. 'survivor superalloy cuirasses'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A medieval breastplate remade in cutting-edge superalloy, modified with "
+"kevlar and leather to better protect from the elements."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4580,6 +4913,21 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "survivor superalloy arm guards"
+msgid_plural "survivor superalloy arm guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor superalloy arm guards', 'str_pl':
+#. 'survivor superalloy arm guards'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A full assembly of medieval arm protection, made from modern superalloy.  "
+"Rerebraces, couters, and vambraces, subsequently modified with kevlar and "
+"leather to better protect the joints."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "survivor steel leg guards"
 msgid_plural "survivor steel leg guards"
 msgstr[0] ""
@@ -4591,6 +4939,21 @@ msgstr[1] ""
 msgid ""
 "A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, "
 "subsequently modified with kevlar and leather to better protect the joints."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor superalloy leg guards"
+msgid_plural "survivor superalloy leg guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor superalloy leg guards', 'str_pl':
+#. 'survivor superalloy leg guards'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A full assembly of medieval leg protection, made from modern superalloy.  "
+"Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather"
+" to better protect the joints."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4608,6 +4971,20 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "survivor superalloy great helm"
+msgid_plural "survivor superalloy great helms"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'survivor superalloy great helm'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A modernized medieval helmet that has been further modified, widening the "
+"eye slits and breaths, with ballistic lenses and a kevlar aventail helping "
+"make up for the increased vulnerability."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "pair of survivor armored gauntlets"
 msgid_plural "pairs of survivor armored gauntlets"
 msgstr[0] ""
@@ -4622,6 +4999,20 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "pair of survivor superalloy armored gauntlets"
+msgid_plural "pairs of survivor superalloy armored gauntlets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of survivor superalloy armored gauntlets',
+#. 'str_pl': 'pairs of survivor superalloy armored gauntlets'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A set of medieval gauntlets plated with superalloy, then further modified "
+"with kevlar reinforcements to increase protection from the elements."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "pair of survivor armored boots"
 msgid_plural "pairs of survivor armored boots"
 msgstr[0] ""
@@ -4632,6 +5023,20 @@ msgstr[1] ""
 #: .\Surv_help\c_armor.json
 msgid ""
 "A heavy set of armor plated boots, modified with kevlar to better protect "
+"from the elements."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "pair of survivor superalloy armored boots"
+msgid_plural "pairs of survivor superalloy armored boots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of survivor superalloy armored boots',
+#. 'str_pl': 'pairs of survivor superalloy armored boots'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A set of superalloy plated boots, modified with kevlar to better protect "
 "from the elements."
 msgstr ""
 
@@ -4680,14 +5085,47 @@ msgid_plural "ACS-74 stealth cloaks"
 msgstr[0] ""
 msgstr[1] ""
 
+#. ~ Use action msg for {'str': 'ACS-74 stealth cloak'}.
+#: .\Surv_help\c_armor.json
+msgid "The cloak shimmers and emits an intense light-disrupting field."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'ACS-74 stealth cloak'}.
+#: .\Surv_help\c_armor.json
+msgid "The cloak is out of power."
+msgstr ""
+
 #. ~ Description for {'str': 'ACS-74 stealth cloak'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"An experimental cloak that uses a highly sophisticated network of cameras "
-"and LEDs to render the user fully invisible.  It is powered by built-in "
-"torsion ratchets.  Due to particularities of its construction, it is very "
-"difficult to move in, hampering wearer's strength, dexterity and movement "
-"speed."
+"An experimental cloak with a destructive interference system that will "
+"create pitch-black darkness around you when powered and worn.  Creatures "
+"that can see in the dark will still spot you, but it will fool most things."
+"  A network of miniature alphavolatics make it self-charging but only able "
+"to sustain short bursts of use.  Activate to turn it on."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "ACS-74 stealth cloak (on)"
+msgid_plural "ACS-74 stealth cloaks (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'ACS-74 stealth cloak (on)', 'str_pl': 'ACS-74
+#. stealth cloaks (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "The cloak flickers and powers down."
+msgstr ""
+
+#. ~ Description for {'str': 'ACS-74 stealth cloak (on)', 'str_pl': 'ACS-74
+#. stealth cloaks (on)'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"An experimental cloak with a destructive interference system, creating "
+"pitch-black darkness around you.  Creatures that can see in the dark will "
+"still spot you, but it will fool most things.  A network of miniature "
+"alphavolatics make it self-charging but only able to sustain short bursts of"
+" use.  It's currently on, activate to turn it back off."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4740,108 +5178,108 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "light military armor"
-msgid_plural "light military armor"
+msgid "light sentinel armor"
+msgid_plural "light sentinel armor"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action holster_msg for {'str_sp': 'light military armor'}.
-#. ~ Use action holster_msg for {'str_sp': 'military armor'}.
-#. ~ Use action holster_msg for {'str_sp': 'heavy military armor'}.
+#. ~ Use action holster_msg for {'str_sp': 'light sentinel armor'}.
+#. ~ Use action holster_msg for {'str_sp': 'sentinel armor'}.
+#. ~ Use action holster_msg for {'str_sp': 'heavy sentinel armor'}.
 #. ~ Use action holster_msg for {'str': 'survivor leg rig'}.
 #: .\Surv_help\c_armor.json
 msgid "You stash your %s."
 msgstr ""
 
-#. ~ Use action holster_prompt for {'str_sp': 'light military armor'}.
-#. ~ Use action holster_prompt for {'str_sp': 'military armor'}.
-#. ~ Use action holster_prompt for {'str_sp': 'heavy military armor'}.
+#. ~ Use action holster_prompt for {'str_sp': 'light sentinel armor'}.
+#. ~ Use action holster_prompt for {'str_sp': 'sentinel armor'}.
+#. ~ Use action holster_prompt for {'str_sp': 'heavy sentinel armor'}.
 #: .\Surv_help\c_armor.json
 msgid "Stash magazine"
 msgstr ""
 
-#. ~ Description for {'str_sp': 'light military armor'}
+#. ~ Description for {'str_sp': 'light sentinel armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A fairly light full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from a fabric bodysuit with advanced composite "
 "plates, it is relatively easy to move in but protection is minimal, only "
-"rated for pistol-caliber rounds and fragmentation.  It also has two pouches "
-"for various sizes of small and medium magazines."
+"rated for fragmentation and pistol-caliber rounds up to .357 Magnum.  It "
+"also has two adjustable pouches for various sizes of magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "military armor"
-msgid_plural "military armor"
+msgid "sentinel armor"
+msgid_plural "sentinel armor"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'military armor'}
+#. ~ Description for {'str_sp': 'sentinel armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A full-body suit of gray ballistic armor, one size fits most, with separate "
 "helmet.  Made with leather lining and advanced composite plates, it provides"
-" adequate protection against anything up to intermediate caliber ammunition,"
-" but may fail against full-power rifle rounds.  It also has two pouches for "
-"various sizes of small and medium magazines."
+" adequate protection against anything up to 5.56x45mm, but may fail against "
+"full-power rifle rounds.  It also has two adjustable pouches for various "
+"sizes of magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "heavy military armor"
-msgid_plural "heavy military armor"
+msgid "heavy sentinel armor"
+msgid_plural "heavy sentinel armor"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'heavy military armor'}
+#. ~ Description for {'str_sp': 'heavy sentinel armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A heavy-duty full-body suit of gray ballistic armor, one size fits most, "
 "with separate helmet.  Made from heavy-duty lining with advanced plating, it"
-" protects the body rather well against most rifle rounds, but may be too "
-"cumbersome for most situations.  It also has two pouches for various sizes "
-"of medium and large magazines."
+" protects the body rather well against rifle rounds up to 7.62x51mm, but may"
+" be too cumbersome for most situations.  It also has two adjustable pouches "
+"for various sizes of magazines."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "light military helmet"
-msgid_plural "light military helmet"
+msgid "light sentinel helmet"
+msgid_plural "light sentinel helmet"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'light military helmet'}
+#. ~ Description for {'str_sp': 'light sentinel helmet'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A fairly light full-face ballistic helmet, one size fits most.  Made from a "
-"fabric lining with advanced composite plates, it is only rated for pistol-"
-"caliber rounds and fragmentation."
+"fabric lining with advanced composite plates, it is only rated for "
+"fragmentation and pistol-caliber rounds up to .357 Magnum."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "military helmet"
-msgid_plural "military helmet"
+msgid "sentinel helmet"
+msgid_plural "sentinel helmet"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'military helmet'}
+#. ~ Description for {'str_sp': 'sentinel helmet'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A full-face ballistic helmet, one size fits most.  Made with leather lining "
 "and advanced composite plates, it provides adequate protection against "
-"anything up to intermediate caliber ammunition."
+"anything up to 5.56x45mm."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "heavy military helmet"
-msgid_plural "heavy military helmet"
+msgid "heavy sentinel helmet"
+msgid_plural "heavy sentinel helmet"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str_sp': 'heavy military helmet'}
+#. ~ Description for {'str_sp': 'heavy sentinel helmet'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "A heavy-duty full-face ballistic helmet, one size fits most.  Made from "
 "heavy-duty lining with advanced plating, it protects the head rather well "
-"against most rifle rounds."
+"against rifle rounds up to 7.62x51mm."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4867,7 +5305,7 @@ msgstr[1] ""
 
 #. ~ Description for {'str': 'designer bra'}
 #: .\Surv_help\c_armor.json
-msgid "A luxurious designer bra.  Serves its purpose and looks good on you."
+msgid "A luxurious designer bra.  Serves its purpose and feels good on you."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -4879,7 +5317,7 @@ msgstr[1] ""
 #. ~ Description for {'str_sp': 'designer panties'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A luxurious set of designer panties. Preserves your modesty and looks good "
+"A luxurious set of designer panties. Preserves your modesty and feels good "
 "on you."
 msgstr ""
 
@@ -4892,7 +5330,7 @@ msgstr[1] ""
 #. ~ Description for {'str_sp': 'designer briefs'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A pair of designer briefs.  Comfortable and good looking underwear worn by "
+"A pair of designer briefs.  Comfortable and fashionable underwear worn by "
 "men."
 msgstr ""
 
@@ -4983,6 +5421,19 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
+msgid "dress pants"
+msgid_plural "dress pantss"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'dress pants'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A pair of khaki pants.  Slightly warmer than jeans and much more "
+"professional than normal pants."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
 msgid "Carapace Armor Cooling"
 msgstr ""
 
@@ -5013,15 +5464,15 @@ msgstr ""
 #. ~ Description for {'str': 'salvaged carapace armor'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A vaguely human-shaped second skin of alien sinew and steel support, covered"
-" in armor plates made of resin.  Salvaged using pre-cataclysm research into "
-"other living weaponry, it's been practically mutilated to fit a human (or "
-"mutant) wearer.  Activating it will reduce the suit's encumbrance, enhance "
-"strength and dexterity, protect the wearer from toxic gas, serve as a "
-"rebreather, enhance stamina and carry capacity, and provide some protection "
-"from outside temperature.  It seems to recharge from sunlight, and being "
-"active will also gradually fatigue the user and affect healthiness, plus "
-"render them more vulnerable to electric shocks."
+"A second skin of alien sinew and steel support, covered in armor plates made"
+" of resin.  Salvaged using pre-cataclysm research into other living "
+"weaponry, it's been practically mutilated to fit a human (or mutant) wearer."
+"  Activating it will reduce the suit's encumbrance, make your attacks "
+"faster, enhance strength and dexterity, protect the wearer from toxic gas, "
+"serve as a rebreather, enhance stamina and carry capacity, and provide some "
+"protection from outside temperature.  Recharges in sunlight, being active "
+"will also gradually fatigue the user and affect healthiness, plus render "
+"them more vulnerable to electric shocks."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -5040,12 +5491,15 @@ msgstr ""
 #. 'salvaged carapace armors (on)'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"A vaguely human-shaped shell of alien sinew and steel support, covered in "
-"armor plates made of resin.  Currently active, it can protect the wearer "
-"from toxic gas, serve as a rebreather, enhance strength and dexterity, "
-"enhance stamina and carry capacity, and provide some protection from outside"
-" temperature.  In exchange, being active will steadily fatigue the user and "
-"affect healthiness, plus render them more vulnerable to electric shocks."
+"A second skin of alien sinew and steel support, covered in armor plates made"
+" of resin.  Salvaged using pre-cataclysm research into other living "
+"weaponry, it's been practically mutilated to fit a human (or mutant) wearer."
+"  Currently active, it enhances strength and dexterity, make your attacks "
+"faster, protects the wearer from toxic gas, serves as a rebreather, enhances"
+" stamina and carry capacity, and provides some protection from outside "
+"temperature.  Recharges in sunlight, being active also gradually fatigues "
+"the user and affects healthiness, plus renders them more vulnerable to "
+"electric shocks."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -5074,9 +5528,9 @@ msgid ""
 "A harness from which jut thin, green iridescent wings, steel wires and "
 "joints meshed with thick alien nervous cords.  Salvaged using pre-cataclysm "
 "research into other living weaponry, it's been heavily altered to fit a "
-"human (or mutant) wearer.  Activating it will grant immunity to falling "
-"damage and vastly speed up movement.  It seems to recharge from sunlight, "
-"and being active will also gradually fatigue the user."
+"human (or mutant) wearer.  Activating it will grant limited flight and "
+"vastly speed up movement.  It seems to recharge from sunlight, and being "
+"active will also gradually fatigue the user."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -5097,8 +5551,8 @@ msgstr ""
 msgid ""
 "A set of thin, green iridescent wings, steel wires and joints meshed with "
 "thick alien nervous cords.  They are currently buzzing with life, greatly "
-"speeding up movement and enhancing dodge as well as granting immunity to "
-"falling damage, in exchange for increased fatigue gain."
+"speeding up movement and enhancing dodge as well as allowing you to fly, in "
+"exchange for increased fatigue gain."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
@@ -5137,10 +5591,10 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "Makeshift Power Armor Noise"
+msgid "makeshift hydraulic armor Noise"
 msgstr ""
 
-#. ~ Description for {'str': 'Makeshift Power Armor Noise'}
+#. ~ Description for {'str': 'makeshift hydraulic armor Noise'}
 #: .\Surv_help\c_armor.json
 msgid ""
 "This is used to make the player a lot less stealthy, but also punch harder "
@@ -5148,62 +5602,184 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "makeshift power armor"
-msgid_plural "makeshift power armors"
+msgid "makeshift hydraulic armor"
+msgid_plural "makeshift hydraulic armors"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action msg for {'str': 'makeshift power armor'}.
+#. ~ Use action failure_message for {'str': 'makeshift hydraulic armor'}.
+#. ~ Use action failure_message for {'str': 'makeshift superalloy hydraulic
+#. armor'}.
 #: .\Surv_help\c_armor.json
-msgid "Your makeshift power armor roars to life, servos kicking into gear!"
+msgid "Your armor sputters but fails to start up."
 msgstr ""
 
-#. ~ Use action need_charges_msg for {'str': 'makeshift power armor'}.
+#. ~ Use action lacks_fuel_message for {'str': 'makeshift hydraulic armor'}.
+#. ~ Use action lacks_fuel_message for {'str': 'makeshift superalloy hydraulic
+#. armor'}.
 #: .\Surv_help\c_armor.json
-msgid "There's no fuel in the makeshift power armor's tank."
+msgid "You work your armor's starter, but nothing happens."
 msgstr ""
 
-#. ~ Description for {'str': 'makeshift power armor'}
+#. ~ Use action success_message for {'str': 'makeshift hydraulic armor'}.
 #: .\Surv_help\c_armor.json
 msgid ""
-"An incredibly heavy suit of steel plates covering a network of hydraulics, "
-"driven by pieces of a stripped-down diesel engine jury-rigged to assist the "
-"wearer's movements.  When running it will increase your strength and make it"
-" less encumbering to wear, but the motors make things warm and make stealth "
-"harder."
+"Your makeshift hydraulic armor roars to life, servos kicking into gear!"
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift hydraulic armor'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"An incredibly heavy suit of steel and kevlar plates covering a network of "
+"hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to"
+" assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  When "
+"running it will increase your strength and raw speed, allowing you to fire "
+"heavy weapons unsupported, plus make it less encumbering to wear, but the "
+"motors make things warm and make stealth harder."
 msgstr ""
 
 #: .\Surv_help\c_armor.json
-msgid "makeshift power armor (on)"
-msgid_plural "makeshift power armors (on)"
+msgid "makeshift hydraulic armor (on)"
+msgid_plural "makeshift hydraulic armors (on)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action menu_text for {'str': 'makeshift power armor (on)', 'str_pl':
-#. 'makeshift power armors (on)'}.
-#. ~ Use action menu_text for {'str': 'solar flashlight (on)', 'str_pl':
-#. 'solar flashlights (on)'}.
-#. ~ Use action menu_text for {'str': 'wearable solar flashlight (on)',
-#. 'str_pl': 'wearable solar flashlights (on)'}.
-#: .\Surv_help\c_armor.json .\Surv_help\c_tools.json
-msgid "Turn off"
-msgstr ""
-
-#. ~ Use action msg for {'str': 'makeshift power armor (on)', 'str_pl':
-#. 'makeshift power armors (on)'}.
+#. ~ Use action charges_extinguish_message for {'str': 'makeshift hydraulic
+#. armor (on)', 'str_pl': 'makeshift hydraulic armors (on)'}.
 #: .\Surv_help\c_armor.json
-msgid "You shut the makeshift power armor off."
+msgid "Your makeshift hydraulic armor sputters and dies!"
 msgstr ""
 
-#. ~ Description for {'str': 'makeshift power armor (on)', 'str_pl':
-#. 'makeshift power armors (on)'}
+#. ~ Use action noise_message for {'str': 'makeshift hydraulic armor (on)',
+#. 'str_pl': 'makeshift hydraulic armors (on)'}.
+#. ~ Use action noise_message for {'str': 'makeshift superalloy hydraulic
+#. armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "Your armor whirs with activity."
+msgstr ""
+
+#. ~ Use action voluntary_extinguish_message for {'str': 'makeshift hydraulic
+#. armor (on)', 'str_pl': 'makeshift hydraulic armors (on)'}.
+#. ~ Use action voluntary_extinguish_message for {'str': 'makeshift superalloy
+#. hydraulic armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors
+#. (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "You shut the makeshift hydraulic armor off."
+msgstr ""
+
+#. ~ Use action water_extinguish_message for {'str': 'makeshift hydraulic
+#. armor (on)', 'str_pl': 'makeshift hydraulic armors (on)'}.
+#. ~ Use action water_extinguish_message for {'str': 'makeshift superalloy
+#. hydraulic armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors
+#. (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "Your armor's engine floods and cuts out!"
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift hydraulic armor (on)', 'str_pl':
+#. 'makeshift hydraulic armors (on)'}
 #: .\Surv_help\c_armor.json
 msgid ""
-"An incredibly heavy suit of steel plates covering a network of hydraulics, "
-"driven by pieces of a stripped-down diesel engine jury-rigged to assist the "
-"wearer's movements.  It's currently active, strengthening the wearer and "
-"making the armor less encumbering, but also being warmer and making stealth "
-"more difficult."
+"An incredibly heavy suit of steel and kevlar plates covering a network of "
+"hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to"
+" assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  It's "
+"currently active, strengthening the wearer, allowing you to fire heavy "
+"weapons unsupported, increasing raw speed and making the armor less "
+"encumbering, but also being warmer and making stealth more difficult."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift superalloy hydraulic armor"
+msgid_plural "makeshift superalloy hydraulic armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action success_message for {'str': 'makeshift superalloy hydraulic
+#. armor'}.
+#: .\Surv_help\c_armor.json
+msgid ""
+"Your makeshift superalloy hydraulic armor roars to life, servos kicking into"
+" gear!"
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift superalloy hydraulic armor'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A heavy suit of superalloy and kevlar plates covering a network of "
+"hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to"
+" assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  When "
+"running it will increase your strength and raw speed, allowing you to fire "
+"heavy weapons unsupported, plus make it less encumbering to wear, but the "
+"motors make things warm and make stealth harder."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift superalloy hydraulic armor (on)"
+msgid_plural "makeshift superalloy hydraulic armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action charges_extinguish_message for {'str': 'makeshift superalloy
+#. hydraulic armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors
+#. (on)'}.
+#: .\Surv_help\c_armor.json
+msgid "Your makeshift superalloy hydraulic armor sputters and dies!"
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift superalloy hydraulic armor (on)',
+#. 'str_pl': 'makeshift superalloy hydraulic armors (on)'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A heavy suit of superalloy and kevlar plates covering a network of "
+"hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to"
+" assist the wearer's movements.  Shrugs off anything up to 5.56x45mm.  It's "
+"currently active, strengthening the wearer, allowing you to fire heavy "
+"weapons unsupported, increasing raw speed and making the armor less "
+"encumbering, but also being warmer and making stealth more difficult."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "survivor's tactical shield"
+msgid_plural "survivor's tactical shields"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "survivor's tactical shield"}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A large but fairly light plastic shield, layered with kevlar to better "
+"protect the user.  Less encumbering than a proper ballistic shield, but "
+"won't fully stop anything stronger than .38 Special."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift ballistic pavise"
+msgid_plural "makeshift ballistic pavises"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift ballistic pavise'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A heavy shield made from armor plates and kevlar lining rated for 5.56x45mm,"
+" welded to a framework that helps distribute the weight.  It leaves you free"
+" to operate two-handed weapons, even letting you brace heavy weapons to fire"
+" without mounting terrain, but is still absurdly heavy and encumbering."
+msgstr ""
+
+#: .\Surv_help\c_armor.json
+msgid "makeshift superalloy ballistic pavise"
+msgid_plural "makeshift superalloy ballistic pavises"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift superalloy ballistic pavise'}
+#: .\Surv_help\c_armor.json
+msgid ""
+"A shield made from superalloy plates and kevlar lining rated for 5.56x45mm, "
+"welded to a framework that helps distribute the weight.  It leaves you free "
+"to operate two-handed weapons, even letting you brace heavy weapons to fire "
+"without mounting terrain, but is still very heavy and encumbering."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -5302,25 +5878,11 @@ msgstr ""
 #. ~ Description for {'str': 'Plasma Pulse Cell'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"Implanted in your chest is a small, advanced form of hydrogen fuel cell.  "
-"Designed to produce a spike of power production for cutting-edge military "
-"cybernetics, it is significantly less efficient than a traditional hydrogen "
-"fuel cell, but each pulse still puts out a lot of power.  Each pulse vents a"
-" jet of intense heat, making it dangerous in confined spaces.  It has two "
-"chambers, this one is configured for military-grade hydrogen canisters."
-msgstr ""
-
-#: .\Surv_help\c_bionics.json
-msgid "Hydrogen Pulse Cell"
-msgstr ""
-
-#. ~ Description for {'str': 'Hydrogen Pulse Cell'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"A small, advanced form of hydrogen fuel cell, designed to produce a spike of"
-" power production for cutting-edge military cybernetics.  This is the "
-"separate chamber for burning lower-pressure hydrogen, for less intense "
-"bursts of bionic energy."
+"Implanted in your chest is a small, advanced hydrogen fuel cell.  Designed "
+"to produce a spike of power production for cutting-edge military "
+"cybernetics, it burns compressed hydrogen canisters normally used by plasma "
+"weapons.  Each pulse vents a jet of intense heat, making it dangerous in "
+"confined spaces."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -5333,77 +5895,10 @@ msgstr[1] ""
 #: .\Surv_help\c_bionics.json
 msgid ""
 "This implant provides an experimental military hydrogen cell, able to "
-"produce large spikes of power for intense usage.  Its network of pressurized"
-" storage has two chambers, one can hold 500 ml of hydrogen gas, the other 5 "
-"rounds of denser hydrogen canisters used in plasma weaponry.  The label "
+"produce large spikes of power for intense usage.  Able to load up to 10 "
+"rounds of dense hydrogen canisters used in plasma weaponry.  The label "
 "advises not to use it in confined spaces, and to keep moving if used during "
 "a military operation, due to hazardous levels of waste heat."
-msgstr ""
-
-#: .\Surv_help\c_bionics.json
-msgid "Alphavoltaic Power"
-msgid_plural "none"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Alphavoltaic Power', 'str_pl': 'none'}
-#: .\Surv_help\c_bionics.json
-msgid "seeing this is a bug"
-msgstr ""
-
-#: .\Surv_help\c_bionics.json
-msgid "Atomic Battery"
-msgstr ""
-
-#. ~ Description for {'str': 'Atomic Battery'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"Your body has been implanted with a compact, advanced plutonium-cell "
-"generator for military use.  A true atomic battery, using advanced materials"
-" to create a practical alphavoltaic power source.  While its power output is"
-" still very low, it's also consistent with negligible waste heat, making it "
-"a useful backup to another power generation method.  It will produce power "
-"continuously unless interrupted by the integral disconnect switch."
-msgstr ""
-
-#: .\Surv_help\c_bionics.json
-msgid "Atomic Battery Interrupter"
-msgid_plural "Atomic Battery Interrupters"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Atomic Battery Interrupter'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"An integrated safety mechanism allowing one to shut down power production at"
-" will.  Works via angling plutonium catalysts to manipulate how much alpha "
-"decay hits the advanced nanocompounds that produce power.  Turn it on to "
-"halt power production, in the unlikely event that it becomes necessary."
-msgstr ""
-
-#: .\Surv_help\c_bionics.json
-msgid "Atomic Battery CBM"
-msgid_plural "Atomic Battery CBMs"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Atomic Battery CBM'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"An old form of non-thermal radioisotope generator, given new life and "
-"military applications using cutting-edge plutonium-catalyst developments.  "
-"Effectively a plutonium fuel cell converted into an alphavoltaic battery, "
-"with greater power output and longevity than older implants.  Its output is "
-"still very low at only 5 watts, but it is continuous unless deliberately "
-"interrupted by the provided disconnect system, making it a good supplement "
-"to a more intensive power generation method."
-msgstr ""
-
-#. ~ Description for {'str': 'Atomic Battery Interrupter'}
-#: .\Surv_help\c_bionics.json
-msgid ""
-"A system of power control and safety mechanisms normally built into an "
-"Atomic Battery system.  Removing it is almost certainly a bad idea."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -5458,11 +5953,10 @@ msgstr ""
 #. ~ Description for {'str': 'Integrated Cutting Torch'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A deployable plasma cutter now resides in your right arm, that can be "
-"deployed for a small amount of bionic power.  Once extended, it can then be "
-"activated to use as a cutting torch and destroy metal barriers.  More energy"
-" intensive than a conventional welder, but can be used for welding if "
-"needed."
+"A deployable plasma cutter now resides in your right arm.  Activate it from "
+"your inventory to use it as a cutting torch and destroy metal barriers.  "
+"More energy intensive than a conventional welder, but can be used for "
+"welding if needed."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -5474,23 +5968,21 @@ msgstr[1] ""
 #. ~ Description for {'str': 'Integrated Cutting Torch CBM'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A deployable plasma cutter implanted in the right arm, that can be deployed "
-"for a small amount of bionic power.  It can then be used to destroy metal "
-"barriers.  More energy intensive than a conventional welder, but can be used"
-" for welding if needed."
+"A deployable plasma cutter implanted in the right arm, that can be used to "
+"destroy metal barriers.  Can also be used for welding if needed."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
-msgid "extended bionic cutting torch"
-msgid_plural "extended bionic cutting torchs"
+msgid "integrated cutting torch"
+msgid_plural "integrated cutting torchs"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'extended bionic cutting torch'}
+#. ~ Description for {'str': 'integrated cutting torch'}
 #: .\Surv_help\c_bionics.json
 msgid ""
-"A bionic plasma cutter, deployed and taking up your hand.  Activate it to "
-"destroy metal barriers, as you would a cutting torch."
+"A bionic plasma cutter.  Activate it to destroy metal barriers, as you would"
+" a cutting torch."
 msgstr ""
 
 #: .\Surv_help\c_bionics.json
@@ -5587,9 +6079,9 @@ msgstr[1] ""
 #: .\Surv_help\c_books.json
 msgid ""
 "This is a journal with what seems to be an invitation of some sort from some"
-" unknown organization.  While its contents rather boring to read, some bits "
-"offer promises of 'forbidden knowledge' and that said contents are 'just a "
-"taste of true power'…  Science has definitely gone too far…"
+" unknown organization.  While its contents are rather boring to read, some "
+"bits offer promises of 'forbidden knowledge' and that said contents are "
+"'just a taste of true power'…  Science has definitely gone too far…"
 msgstr ""
 
 #: .\Surv_help\c_books.json
@@ -5641,34 +6133,6 @@ msgid ""
 "A piece of glob that has begun to create gasoline when exposed to the sun.  "
 "The gasoline it creates is too mixed up with the glob to be extracted but is"
 " still flammable."
-msgstr ""
-
-#: .\Surv_help\c_comestibles.json
-msgid "mutagenic hemoampoule"
-msgid_plural "mutagenic hemoampoules"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'mutagenic hemoampoule'}
-#: .\Surv_help\c_comestibles.json
-msgid ""
-"A resinous capsule filled with what looks like congealed blood, mixed with "
-"mutagenic compounds.  Not as strong as mutagenic serum, but will require a "
-"syringe to use."
-msgstr ""
-
-#: .\Surv_help\c_comestibles.json
-msgid "purified hemoampoule"
-msgid_plural "purified hemoampoules"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'purified hemoampoule'}
-#: .\Surv_help\c_comestibles.json
-msgid ""
-"A resinous capsule filled with what looks like congealed blood, mixed with "
-"stabilizing compounds.  Mimics the effects of purifier, but requires a "
-"syringe to use."
 msgstr ""
 
 #: .\Surv_help\c_comestibles.json
@@ -5846,7 +6310,7 @@ msgstr ""
 msgid ""
 "One powerful blow makes the follow-up that much easier.\n"
 "\n"
-"+2 Accuracy, bash armor penetration increased by 30% of strength.\n"
+"+2 Accuracy, armor penetration increased by 25% of strength.\n"
 "Lasts 2 turns, stacks 2 times."
 msgstr ""
 
@@ -5872,48 +6336,22 @@ msgstr ""
 msgid ""
 "When you get enough momentum going, they're going to feel it.\n"
 "\n"
-"Movement speed increased by 45% of strength, bash damage increased by 15% of strength.  Enables \"Battering Ram\" technique.\n"
+"Movement speed increased by 45% of strength, damage increased by 15% of strength.  Enables \"Battering Ram\" technique.\n"
 "Lasts 3 turns, stacks 3 times."
 msgstr ""
 
 #: .\Surv_help\c_martialarts.json
-msgid "Aikido"
+msgid "Hit and Run"
 msgstr ""
 
+#. ~ Description of buff 'Hit and Run' for martial art '{'str': 'Post-Human
+#. Combatives'}'
 #: .\Surv_help\c_martialarts.json
-msgid "Judo"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Silat"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Eskrima"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Krav Maga"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Fencing"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Barbaran Montante"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Medieval Swordsmanship"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Ninjutsu"
-msgstr ""
-
-#: .\Surv_help\c_martialarts.json
-msgid "Fior Di Battaglia"
+msgid ""
+"Get in, hit hard, get back out.\n"
+"\n"
+"Movement speed increased by 30% of strength, armor penetration increased by 20% of strength.  Enables \"Foe-Tossing Charge\" technique.\n"
+"Lasts 3 turns, stacks 3 times."
 msgstr ""
 
 #: .\Surv_help\c_martialartsbook.json
@@ -6266,35 +6704,6 @@ msgid "Similar to AEA_PAIN except message is suppressed."
 msgstr ""
 
 #: .\Surv_help\c_spells.json
-msgid "Hemocatalyzed Infusion"
-msgstr ""
-
-#. ~ Description for {'str': 'Hemocatalyzed Infusion'}
-#: .\Surv_help\c_spells.json
-msgid ""
-"Creates a bio-ampoule filled with mutagen, adds additional side effects."
-msgstr ""
-
-#: .\Surv_help\c_spells.json
-msgid "Hemocatalyst Damage"
-msgstr ""
-
-#. ~ Description for {'str': 'Hemocatalyst Damage'}
-#: .\Surv_help\c_spells.json
-msgid "Adds the damaging side effect to the infuser and defuser."
-msgstr ""
-
-#: .\Surv_help\c_spells.json
-msgid "Hemocatalyzed Defusion"
-msgstr ""
-
-#. ~ Description for {'str': 'Hemocatalyzed Defusion'}
-#: .\Surv_help\c_spells.json
-msgid ""
-"Creates a bio-ampoule filled with purifer, adds additional side effects."
-msgstr ""
-
-#: .\Surv_help\c_spells.json
 msgid "Life Drain Shell"
 msgstr ""
 
@@ -6406,6 +6815,20 @@ msgid "<npcname>'s sends %s flying with a mighty blow"
 msgstr ""
 
 #: .\Surv_help\c_techniques.json
+msgid "Foe-Tossing Charge"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "You toss %s aside using your momentum"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "<npcname>'s tosses %s aside"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
 msgid "Overrun"
 msgstr ""
 
@@ -6431,6 +6854,20 @@ msgstr ""
 #: .\Surv_help\c_techniques.json
 #, c-format
 msgid "<npcname> bears down on %s with terrible force"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+msgid "Taste The Ground"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "You heft %s and slam them into the ground"
+msgstr ""
+
+#: .\Surv_help\c_techniques.json
+#, c-format
+msgid "<npcname> hefts and slams %s"
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6469,6 +6906,14 @@ msgid "solar flashlight (on)"
 msgid_plural "solar flashlights (on)"
 msgstr[0] ""
 msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'solar flashlight (on)', 'str_pl':
+#. 'solar flashlights (on)'}.
+#. ~ Use action menu_text for {'str': 'wearable solar flashlight (on)',
+#. 'str_pl': 'wearable solar flashlights (on)'}.
+#: .\Surv_help\c_tools.json
+msgid "Turn off"
+msgstr ""
 
 #. ~ Use action msg for {'str': 'solar flashlight (on)', 'str_pl': 'solar
 #. flashlights (on)'}.
@@ -6678,8 +7123,8 @@ msgstr[1] ""
 #. ~ Description for {'str': '7.62x39 full auto receiver'}
 #: .\Surv_help\c_tools.json
 msgid ""
-"A custom-made receiver fitted for .7.62x39mm, that could be used to craft an"
-" automatic firearm."
+"A custom-made receiver fitted for 7.62x39mm, that could be used to craft an "
+"automatic firearm."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6691,8 +7136,21 @@ msgstr[1] ""
 #. ~ Description for {'str': '7.62x54 full auto receiver'}
 #: .\Surv_help\c_tools.json
 msgid ""
-"A custom-made receiver fitted for .7.62x54mmR, that could be used to craft "
-"an automatic firearm."
+"A custom-made receiver fitted for 7.62x54mmR, that could be used to craft an"
+" automatic firearm."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid ".30-06 full auto receiver"
+msgid_plural ".30-06 full auto receivers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '.30-06 full auto receiver'}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A custom-made receiver fitted for .30-06, that could be used to craft an "
+"automatic firearm."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6709,32 +7167,49 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_tools.json
-msgid "survival kit in a can"
-msgid_plural "survival kits in cans"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'survival kit in a can', 'str_pl': 'survival kits
-#. in cans'}
-#: .\Surv_help\c_tools.json
-msgid ""
-"A large tin can held together by a tab and seal.  Remove the seal to split "
-"the container into two smaller cans and reveal its contents.  It contains "
-"carefully packed survival items with a list of them on the side of the can."
-"  You could not possibly put its contents back together."
-msgstr ""
-
-#: .\Surv_help\c_tools.json
 msgid "survivor's tazer blade"
 msgid_plural "survivor's tazer blades"
 msgstr[0] ""
 msgstr[1] ""
 
+#. ~ Use action msg for {'str': "survivor's tazer blade"}.
+#: .\Surv_help\c_tools.json
+msgid "You press a button and the blade crackles with electricity."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': "survivor's tazer blade"}.
+#. ~ Use action need_charges_msg for {'str_sp': "survivor's tazer dual
+#. blades"}.
+#: .\Surv_help\c_tools.json
+msgid "The %s's batteries are dead."
+msgstr ""
+
 #. ~ Description for {'str': "survivor's tazer blade"}
 #: .\Surv_help\c_tools.json
 msgid ""
-"A makeshift blade with a knuckle guard that doubles as a tazer.  Has a wrap "
-"on the handle to prevent self shock."
+"A makeshift blade with a knuckle guard that doubles as a tazer, or can be "
+"activated to electrify your attacks."
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "survivor's tazer blade (on)"
+msgid_plural "survivor's tazer blade (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': "survivor's tazer blade (on)", 'str_pl':
+#. "survivor's tazer blade (on)"}.
+#: .\Surv_help\c_tools.json
+msgid "You press a button and the blade turns off."
+msgstr ""
+
+#. ~ Description for {'str': "survivor's tazer blade (on)", 'str_pl':
+#. "survivor's tazer blade (on)"}
+#: .\Surv_help\c_tools.json
+msgid ""
+"A makeshift blade with a knuckle guard that doubles as a tazer, or can be "
+"activated to electrify your attacks.  It's currently on, crackling with "
+"electricity."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6743,11 +7218,37 @@ msgid_plural "survivor's tazer dual blades"
 msgstr[0] ""
 msgstr[1] ""
 
+#. ~ Use action msg for {'str_sp': "survivor's tazer dual blades"}.
+#: .\Surv_help\c_tools.json
+msgid "You press a button and the blades crackle with electricity."
+msgstr ""
+
 #. ~ Description for {'str_sp': "survivor's tazer dual blades"}
 #: .\Surv_help\c_tools.json
 msgid ""
-"Two makeshift blades with knuckle guards that double as a tazer.  Has a wrap"
-" on the handle to prevent self shock."
+"Two makeshift blades with knuckle guards that double as a tazer, or can be "
+"activated to electrify your attacks"
+msgstr ""
+
+#: .\Surv_help\c_tools.json
+msgid "survivor's tazer dual blades (on)"
+msgid_plural "survivor's tazer dual blades (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': "survivor's tazer dual blades (on)", 'str_pl':
+#. "survivor's tazer dual blades (on)"}.
+#: .\Surv_help\c_tools.json
+msgid "You press a button and the blades turns off."
+msgstr ""
+
+#. ~ Description for {'str': "survivor's tazer dual blades (on)", 'str_pl':
+#. "survivor's tazer dual blades (on)"}
+#: .\Surv_help\c_tools.json
+msgid ""
+"Two makeshift blades with knuckle guards that double as a tazer, or can be "
+"activated to electrify your attacks.  They're currently on, crackling with "
+"electricity."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6843,24 +7344,6 @@ msgid ""
 msgstr ""
 
 #: .\Surv_help\c_tools.json
-msgid "Bugout Location Directions"
-msgid_plural "Bugout Location Directions"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Use action message for {'str_sp': 'Bugout Location Directions'}.
-#: .\Surv_help\c_tools.json
-msgid "Throughly poring over the map, you memorize the location."
-msgstr ""
-
-#. ~ Description for {'str_sp': 'Bugout Location Directions'}
-#: .\Surv_help\c_tools.json
-msgid ""
-"A map and set of directions, leading to somebody's rendezvous point.  The "
-"name scribbled in one corner seems faintly familiar."
-msgstr ""
-
-#: .\Surv_help\c_tools.json
 msgid "full auto receiver case"
 msgid_plural "full auto receiver cases"
 msgstr[0] ""
@@ -6878,6 +7361,11 @@ msgid "collapsed fighting bow"
 msgid_plural "collapsed fighting bows"
 msgstr[0] ""
 msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'collapsed fighting bow'}.
+#: .\Surv_help\c_tools.json
+msgid "Unfold"
+msgstr ""
 
 #. ~ Use action msg for {'str': 'collapsed fighting bow'}.
 #: .\Surv_help\c_tools.json
@@ -6917,8 +7405,8 @@ msgstr[1] ""
 #. ~ Description for {'str': 'hammer multi-tool'}
 #: .\Surv_help\c_tools.json
 msgid ""
-"A multi-tool combing a small hammer and pair of pliers.  Small and "
-"practical, the survivor's mini-tool-kit."
+"A multi-tool combining a small hammer and pliers with a number of other "
+"small tools.  Small and practical, the survivor's mini-tool-kit."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6945,8 +7433,9 @@ msgstr[1] ""
 msgid ""
 "This is a bulky electronic wrist mounted tool, designed to provide an "
 "accurate topographical map of your surroundings when used.  It also comes "
-"with digital clock and alarm features.  The battery is integral to the "
-"device, and requires sunlight or a recharging station to charge."
+"with digital clock and alarm features, and can receive targeting data from "
+"friendly drones.  The battery is integral to the device, and requires "
+"sunlight or a recharging station to charge."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -6963,6 +7452,13 @@ msgid ""
 " experimental stimulant that stabilizes minor wounds and increases "
 "performance at the cost of inflicting pain.  The label additionally warns "
 "against using it more than once every two hours."
+msgstr ""
+
+#. ~ Relic recharge message for TOOL '{'str': 'bioinjector'}'
+#. ~ Relic recharge message for TOOL '{'str': 'organic infusion set'}'
+#. ~ Relic recharge message for TOOL '{'str': 'organic diffusion set'}'
+#: .\Surv_help\c_tools.json
+msgid "The device draws a sample of your blood."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -7096,7 +7592,8 @@ msgstr[1] ""
 #: .\Surv_help\c_tools.json
 msgid ""
 "A simple wristwatch on a plastic band, wrapped with a paracord bracelet with"
-" a thermometer attached.  Tells the time and has an alarm clock feature."
+" a thermometer, magnifying glass, and compass attached.  Tells the time and "
+"has an alarm clock feature."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -7150,11 +7647,10 @@ msgstr[1] ""
 #: .\Surv_help\c_tools.json
 msgid ""
 "A prototype device giving off noticeable heat, housing a compact "
-"radioisotope thermoelectric generator.  It does not seem to accept batteries"
-" or even provide a UPS hookup, instead housing an inductive charging system "
-"designed specifically for CBM power storage.  Being an unfinished design, "
-"the only way to dump power into the inductor without electrocuting yourself "
-"requires opening up part of the mechanism, exposing you to radiation."
+"radioisotope thermoelectric generator.  Capable of serving as a UPS, but its"
+" main purpose is its inductive charging system designed specifically for CBM"
+" power storage.  Activating it will dump 50 kJ of power directly into your "
+"bionic power reserves, producing a burst of waste heat and radiation."
 msgstr ""
 
 #: .\Surv_help\c_tools.json
@@ -7357,20 +7853,6 @@ msgid ""
 "other purposes."
 msgstr ""
 
-#: .\Surv_help\c_tools.json
-msgid "makeshift wire saw"
-msgid_plural "makeshift wire saws"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'makeshift wire saw'}
-#: .\Surv_help\c_tools.json
-msgid ""
-"This is a flexible saw made from thin wire and added abrasive, with "
-"makeshift handles on either end.  It should suffice for light metal and wood"
-" sawing."
-msgstr ""
-
 #: .\Terrain\c_construction.json
 msgid "Place survivor's station"
 msgstr ""
@@ -7424,15 +7906,11 @@ msgid "whump!"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
-msgid "Survivor Holdout"
-msgstr ""
-
-#: .\Terrain\overmap_terrain.json
 msgid "forest"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
-msgid "Survivor Encampment"
+msgid "Survivor Encampment roof"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
@@ -7444,6 +7922,10 @@ msgid "Bio-Weapon Lab"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
+msgid "Bio-Weapon Lab roof"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
 msgid "dormitories"
 msgstr ""
 
@@ -7452,11 +7934,23 @@ msgid "Unknown Bunker"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
+msgid "open air"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
+msgid "dormitory roof"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
+msgid "Unknown Bunker roof"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
 msgid "Unknown Lab"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
-msgid "field"
+msgid "Makeshift Command Center roof"
 msgstr ""
 
 #: .\Terrain\overmap_terrain.json
@@ -7479,6 +7973,14 @@ msgstr ""
 msgid "underground arena"
 msgstr ""
 
+#: .\Terrain\overmap_terrain.json
+msgid "dirt road"
+msgstr ""
+
+#: .\Terrain\overmap_terrain.json
+msgid "dirt lot"
+msgstr ""
+
 #: .\Vehicles\c_carts.json
 msgid "Chemistry Station"
 msgstr ""
@@ -7495,8 +7997,18 @@ msgstr ""
 msgid "mounted UPS rifle"
 msgstr ""
 
+#: .\Vehicles\c_vehicle_parts.json .\Weapons\c_ranged.json
+msgid "chain lightning rifle"
+msgid_plural "chain lightning rifles"
+msgstr[0] ""
+msgstr[1] ""
+
 #: .\Vehicles\c_vehicle_parts.json
 msgid "mounted pneumatic LMG"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
+msgid "mounted survivor's battery rifle"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
@@ -7564,6 +8076,10 @@ msgid "mounted survivor's 7.62x54 GPMG"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
+msgid "mounted survivor's .50 automatic AMR"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
 msgid "mounted ARC-314 laser rifle"
 msgstr ""
 
@@ -7588,11 +8104,31 @@ msgid "mounted MX-84E1 laser sniper (UPS)"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
+msgid "mounted XARM-37 pulse scattergun"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
+msgid "mounted XARM-37E1 pulse scattergun (UPS)"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
 msgid "mounted BR-96 bolt rifle"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
 msgid "mounted MK-2 Ionic Cannon"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
+msgid "mounted MK-2N1 Atomic Cannon"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
+msgid "mounted salvaged resin rifle"
+msgstr ""
+
+#: .\Vehicles\c_vehicle_parts.json
+msgid "mounted survivor's flamethrower"
 msgstr ""
 
 #: .\Vehicles\c_vehicle_parts.json
@@ -7639,7 +8175,7 @@ msgstr ""
 msgid ""
 "An electric motor improvised to serve as an electric generator, to be "
 "attached to an internal combustion engine.  It requires a rather powerful "
-"engine to operate, at reduced efficieny compared to its normal application "
+"engine to operate, at reduced efficiency compared to its normal application "
 "as a motor."
 msgstr ""
 
@@ -7683,20 +8219,6 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ammo.json .\Weapons\c_ammo_types.json
-msgid "hydrogen gas"
-msgid_plural "hydrogen gas"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str_sp': 'hydrogen gas'}
-#: .\Weapons\c_ammo.json
-msgid ""
-"A light, flammable gas compressed for use as fuel.  Quite energy dense, but "
-"also requiring a lot of energy to produce, even moreso without pre-cataclysm"
-" industry."
-msgstr ""
-
-#: .\Weapons\c_ammo.json .\Weapons\c_ammo_types.json
 msgid "bio-ampoule"
 msgid_plural "bio-ampoules"
 msgstr[0] ""
@@ -7710,16 +8232,30 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ammo.json
-msgid "resin bullet"
-msgid_plural "resin bullets"
+msgid "resin projector bullet"
+msgid_plural "resin projector bullets"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'resin bullet'}
+#. ~ Description for {'str': 'resin projector bullet'}
 #: .\Weapons\c_ammo.json
 msgid ""
-"A glassy green pellet of alien resin, molded in a shape vaguely resembling a"
-" modern rifle bullet, albeit elongated."
+"A glassy green pellet of alien resin, molded in a shape resembling an "
+"elongated rifle bullet.  Designed for an exotic pneumatic weapon."
+msgstr ""
+
+#: .\Weapons\c_ammo.json
+msgid "molded projector bullet"
+msgid_plural "molded projector bullets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'molded projector bullet'}
+#: .\Weapons\c_ammo.json
+msgid ""
+"A molded metal projectile for an exotic pneumatic weapon, resembling an "
+"elongated rifle bullet.  Inferior to purpose-built resin bullets, but easier"
+" to make."
 msgstr ""
 
 #: .\Weapons\c_ammo.json
@@ -7763,8 +8299,8 @@ msgstr[1] ""
 #. ~ Description for {'str': "survivor's .223 magazine"}
 #: .\Weapons\c_magazines.json
 msgid ""
-"A magazine built for the survivor's .223 assault rifle.  Although well-made,"
-" it does not fit STANAG specifications."
+"A magazine built for the survivor's .223 assault rifle.  A well-made but "
+"still makeshift imitation of STANAG designs."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7777,8 +8313,7 @@ msgstr[1] ""
 #: .\Weapons\c_magazines.json
 msgid ""
 "A magazine built for the survivor's 7.62x39 assault rifle.  A rough "
-"simplification of the AKM magazine pattern, its makeshift design makes it "
-"incompatible with factory AK-pattern rifles."
+"simplification of the AKM magazine pattern."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7791,8 +8326,7 @@ msgstr[1] ""
 #: .\Weapons\c_magazines.json
 msgid ""
 "A magazine built for the survivor's .308 battle rifle.  Based on the design "
-"of the venerable M14's magazine, its makeshift design makes it incompatible "
-"with factory rifles."
+"of the venerable M14's magazine."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7810,6 +8344,19 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_magazines.json
+msgid "survivor's .30-06 magazine"
+msgid_plural "survivor's .30-06 magazines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "survivor's .30-06 magazine"}
+#: .\Weapons\c_magazines.json
+msgid ""
+"A magazine built for the survivor's .30-06 battle rifle.  A rough copy of "
+"the Browning Automatic Rifle's standard magazine."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
 msgid "survivor's 12 gauge magazine"
 msgid_plural "survivor's 12 gauge magazines"
 msgstr[0] ""
@@ -7819,8 +8366,7 @@ msgstr[1] ""
 #: .\Weapons\c_magazines.json
 msgid ""
 "A magazine built for the survivor's full auto shotgun.  A well-made "
-"simplification of the Saiga 12's variant of the AK pattern, it still won't "
-"fit to factory specifications."
+"simplification of the Saiga 12's variant of the AK pattern."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7832,9 +8378,8 @@ msgstr[1] ""
 #. ~ Description for {'str': "survivor's 9mm magazine"}
 #: .\Weapons\c_magazines.json
 msgid ""
-"A magazine built for the survivor's 9mm SMG.  Uses a similar simplification "
-"as seen by handmade magazines for the STEN submachine gun, albeit lacking in"
-" compatibility."
+"A magazine built for the survivor's 9mm SMG.  Uses a simplified design as "
+"seen by handmade magazines for the STEN submachine gun."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7847,8 +8392,7 @@ msgstr[1] ""
 #: .\Weapons\c_magazines.json
 msgid ""
 "A magazine built for the survivor's .45 SMG.  Roughly modeled after the "
-"MAC-10 magazine in design, it's decently-made but not designed for any known"
-" factory-made model of firearm."
+"MAC-10 magazine in design."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7921,6 +8465,20 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_magazines.json
+msgid "survivor's .30-06 ammo belt"
+msgid_plural "survivor's .30-06 ammo belts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': "survivor's .30-06 ammo belt"}
+#: .\Weapons\c_magazines.json
+msgid ""
+"An ammo belt for the survivor's .30-06 GPMG, using canvas and steel wire to "
+"form non-disintegrating links.  Not as effective as factory-made ammunition "
+"belts, and more awkward to reload too."
+msgstr ""
+
+#: .\Weapons\c_magazines.json
 msgid "survivor's .50 magazine"
 msgid_plural "survivor's .50 magazines"
 msgstr[0] ""
@@ -7929,9 +8487,8 @@ msgstr[1] ""
 #. ~ Description for {'str': "survivor's .50 magazine"}
 #: .\Weapons\c_magazines.json
 msgid ""
-"A magazine built for the survivor's .50 automatic AMR.  Vaguely resembling "
-"the magazine from the Barrett M107A1 but bulkier, it is clearly not designed"
-" to factory specifications."
+"A magazine built for the survivor's .50 automatic AMR.  Well-made but "
+"makeshift, vaguely resembling the magazine from the Barrett M107A1."
 msgstr ""
 
 #: .\Weapons\c_magazines.json
@@ -7948,35 +8505,6 @@ msgid ""
 "voltage to more efficiently power a survivor's crank rifle.  It's a wonder "
 "this thing isn't an electrocution hazard."
 msgstr ""
-
-#: .\Weapons\c_magazines.json
-msgid "light rechargeable plutonium cell"
-msgid_plural "light rechargeable plutonium cells"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'light rechargeable plutonium cell'}
-#. ~ Description for {'str': 'medium rechargeable plutonium cell'}
-#. ~ Description for {'str': 'heavy rechargeable plutonium cell'}
-#: .\Weapons\c_magazines.json
-msgid ""
-"This battery uses a thin plutonium-244 rod to stabilize multiple proprietary"
-" exotic compounds.  Designed by Omnitech for a military contract, this "
-"modified plutonium battery is rechargeable, but as it made for military "
-"purposes there is very little this is compatible with."
-msgstr ""
-
-#: .\Weapons\c_magazines.json
-msgid "medium rechargeable plutonium cell"
-msgid_plural "medium rechargeable plutonium cells"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\Weapons\c_magazines.json
-msgid "heavy rechargeable plutonium cell"
-msgid_plural "heavy rechargeable plutonium cells"
-msgstr[0] ""
-msgstr[1] ""
 
 #: .\Weapons\c_melee.json
 msgid "repurposed monomolecular knife"
@@ -8015,9 +8543,23 @@ msgstr[1] ""
 #. ~ Description for {'str_sp': 'repurposed bionic claws'}
 #: .\Weapons\c_melee.json
 msgid ""
-"Short and sharp claws made from a high-tech metal welded to metal knuckles, "
-"salvaged from a CBM.  Lightweight and fast, wielding them feels as if you "
-"were bare-handed."
+"Short and sharp claws made from a high-tech metal edged with bonded "
+"nanocrystals, salvaged from a CBM and welded to metal knuckles.  Lightweight"
+" and fast, wielding them feels as if you were bare-handed."
+msgstr ""
+
+#: .\Weapons\c_melee.json
+msgid "repurposed bionic whip"
+msgid_plural "repurposed bionic whips"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'repurposed bionic whip'}
+#: .\Weapons\c_melee.json
+msgid ""
+"A long, sharp thread of high-tech material with a small counterweight at the"
+" end, salvaged from a CBM.  A metal handle has been welded on to make it "
+"actually feasible to use without being more of a danger to the wielder."
 msgstr ""
 
 #: .\Weapons\c_melee.json
@@ -8102,21 +8644,6 @@ msgstr ""
 msgid "underbarrel"
 msgstr ""
 
-#: .\Weapons\c_mods.json .\Weapons\c_ranged.json
-msgctxt "gun_type_type"
-msgid "shotgun"
-msgstr ""
-
-#: .\Weapons\c_mods.json .\Weapons\c_ranged.json
-msgctxt "gun_type_type"
-msgid "smg"
-msgstr ""
-
-#: .\Weapons\c_mods.json
-msgctxt "gun_type_type"
-msgid "crossbow"
-msgstr ""
-
 #: .\Weapons\c_mods.json
 msgid "survivor's auxiliary .22 pistol"
 msgid_plural "survivor's auxiliary .22 pistols"
@@ -8181,50 +8708,21 @@ msgstr ""
 msgid "sights"
 msgstr ""
 
-#: .\Weapons\c_mods.json .\Weapons\c_ranged.json
-msgctxt "gun_type_type"
-msgid "pistol"
-msgstr ""
-
 #: .\Weapons\c_mods.json
-msgctxt "gun_type_type"
-msgid "archery"
-msgstr ""
-
-#: .\Weapons\c_mods.json
-msgid "makeshift LMG recoil handle"
-msgid_plural "makeshift LMG recoil handles"
+msgid "survivor's LMG recoil handle"
+msgid_plural "survivor's LMG recoil handles"
 msgstr[0] ""
 msgstr[1] ""
 
 #: .\Weapons\c_mods.json
 msgid ""
-"A side-mounted handle designed for a custom LMG of some sort, to help in hip"
-" fire.  Reduces target acquisition time and perceived recoil, but increases "
-"overall dispersion.  Attaching it will hinder the effective use of the "
-"weapon's default sights, as well."
+"A side-mounted handle designed for machine guns, to help in hip fire.  Makes"
+" aiming easier and greatly reduces recoil, but hinders the use of the "
+"weapon's sights and makes it slower to wield."
 msgstr ""
 
 #: .\Weapons\c_mods.json
-msgid "carry handle"
-msgstr ""
-
-#: .\Weapons\c_mods.json
-msgid "makeshift shotgun suppressor"
-msgid_plural "makeshift shotgun suppressors"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\Weapons\c_mods.json
-msgid ""
-"A homemade suppressor made from a pipe and improvised baffles.  It's a lot "
-"more complex than a suppressor for a pistol or rifle, and will deteriorate "
-"quickly with use.  This suppressor is large and, when attached, will "
-"interfere with your ability to aim down the base sights of the gun."
-msgstr ""
-
-#: .\Weapons\c_mods.json
-msgid "muzzle"
+msgid "grip"
 msgstr ""
 
 #: .\Weapons\c_mods.json
@@ -8259,10 +8757,9 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ranged.json
-msgid "chain lightning rifle"
-msgid_plural "chain lightning rifles"
-msgstr[0] ""
-msgstr[1] ""
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
 
 #: .\Weapons\c_ranged.json
 msgid ""
@@ -8285,7 +8782,7 @@ msgid ""
 "sentient."
 msgstr ""
 
-#: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
+#: .\Weapons\c_ranged.json
 msgid "semi"
 msgstr ""
 
@@ -8308,8 +8805,13 @@ msgid ""
 "sentient."
 msgstr ""
 
-#: .\Weapons\c_ranged.json .\Weapons\c_ranged_override.json
+#: .\Weapons\c_ranged.json
 msgid "burst"
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgctxt "gun_type_type"
+msgid "smg"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8363,6 +8865,11 @@ msgid ""
 "stunning and incendiary effect on targets.  Wielding it gives you a strange "
 "sense of focus, though the occasional twitch and unnerving sound from this "
 "thing leaves you uneasy.  Hopefully it's not sentient."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgctxt "gun_type_type"
+msgid "shotgun"
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8532,6 +9039,20 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ranged.json
+msgid "survivor's .30-06 battle rifle"
+msgid_plural "survivor's .30-06 battle rifles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"A (mostly) homemade automatic rifle built from a full auto receiver.  While "
+"still lower quality than most pre-cataclysm rifles, it's superior to many "
+"other homemade weapons.  Takes the .30-06 cartridge via its custom-made "
+"magazine, and can accept magazines from the BAR of comparable capacity."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
 msgid "survivor's full-auto shotgun"
 msgid_plural "survivor's full-auto shotguns"
 msgstr[0] ""
@@ -8556,8 +9077,7 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade GPMG built from a full auto receiver.  Although well-"
 "made, its high volume of fire makes reliability and accuracy an issue.  "
-"Takes the .308 cartridge via a belt feed, and can attach a custom-made carry"
-" handle for improved fire from the hip."
+"Takes the .308 cartridge via a belt feed."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8570,8 +9090,7 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade LMG built from a full auto receiver.  Although well-"
 "made, its high volume of fire makes reliability and accuracy an issue.  "
-"Takes the 7.62x39 cartridge via a belt feed, and can attach a custom-made "
-"carry handle for improved fire from the hip."
+"Takes the 7.62x39 cartridge via a belt feed."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8584,8 +9103,7 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade LMG built from a full auto receiver.  Although well-"
 "made, its high volume of fire makes reliability and accuracy an issue.  "
-"Takes the .223 cartridge via a belt feed, and can attach a custom-made carry"
-" handle for improved fire from the hip."
+"Takes the .223 cartridge via a belt feed."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8598,8 +9116,20 @@ msgstr[1] ""
 msgid ""
 "A (mostly) homemade GPMG built from a full auto receiver.  Although well-"
 "made, its high volume of fire makes reliability and accuracy an issue.  "
-"Takes the 7.62x54R cartridge via a belt feed, and can attach a custom-made "
-"carry handle for improved fire from the hip."
+"Takes the 7.62x54R cartridge via a belt feed."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "survivor's .30-06 GPMG"
+msgid_plural "survivor's .30-06 GPMGs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"A (mostly) homemade GPMG built from a full auto receiver.  Although well-"
+"made, its high volume of fire makes reliability and accuracy an issue.  "
+"Takes the .30-06 cartridge via a belt feed."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8613,8 +9143,7 @@ msgid ""
 "A beast of a (mostly) homemade anti-materiel rifle built from a full auto "
 "receiver.  While still lower quality than most pre-cataclysm rifles, it's "
 "superior to many other homemade weapons.  Takes the .50 BMG cartridge via "
-"its custom-made magazine, or can accept lower-capacity Barret magazines.  It"
-" can also attach a custom-made carry handle for improved fire from the hip."
+"its custom-made magazine, or can accept lower-capacity Barret magazines."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8629,6 +9158,19 @@ msgid ""
 "The tips of the bow have makeshift blades to make this bow an efficient "
 "melee weapon when things get close and personal.  Use it to compact the "
 "weapon for easier storage."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
+msgid "makeshift greatbow"
+msgid_plural "makeshift greatbows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"A massive steel longbow made from part of a vehicle frame sawed and bent "
+"into shape.  While extremely powerful, its immense draw weight requires "
+"superhuman strength to use, plus it suffers in efficiency and accuracy."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8654,9 +9196,8 @@ msgstr[1] ""
 msgid ""
 "A relatively small laser pistol, boxy design having just enough concessions "
 "to ergonomics to fit well in the hand.  Its manufacturer is listed as "
-"Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use "
+"where a UPS would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8686,9 +9227,8 @@ msgid ""
 "Based on the design of the NEO-33, the AKRO-388 balances energy efficiency "
 "with rate of fire, offering decent firepower and handling like common "
 "submachineguns in active service.  Its manufacturer is listed as Omnitech "
-"Labs.  Powered by atomic power cells or an experimental rechargeable "
-"version, for heavy use where a UPS would not be sustainable in the short "
-"term."
+"Labs.  Powered by self-charging atomic power cells, for heavy use where a "
+"UPS would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8721,8 +9261,8 @@ msgid ""
 "An experimental laser rifle based on the A7 and AKRO-388, offering the "
 "handling of a modern combat rifle with the efficiency of a laser weapon, in "
 "a relatively compact package.  The manufacturer is listed as Omnitech Labs."
-"  Powered by atomic power cells or an experimental rechargeable version, for"
-" heavy use where a UPS would not be sustainable in the short term."
+"  Powered by self-charging atomic power cells, for heavy use where a UPS "
+"would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8752,8 +9292,8 @@ msgid ""
 "Labs' KRX-108 was made to overwhelm enemies with supreme firepower.  While "
 "not very energy-efficient, this behemoth can deal a devastating blow to "
 "large groups of enemies.  The manufacturer is listed as Omnitech Labs.  "
-"Powered by atomic power cells or an experimental rechargeable version, for "
-"heavy use where a UPS would not be sustainable in the short term."
+"Powered by self-charging atomic power cells, for heavy use where a UPS would"
+" not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8784,9 +9324,8 @@ msgid ""
 "single target.  Intended to be used as a long-range support weapon by modern"
 " special forces.  Requires an insane amount of energy to fire a single "
 "powerful laser, additionally providing EMP effects.  The manufacturer is "
-"listed as Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"listed as Omnitech Labs.  Powered by self-charging atomic power cells, for "
+"heavy use where a UPS would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8817,9 +9356,8 @@ msgid ""
 "This is an ARC rifle modified into something resembling a double-barrel "
 "shotgun.  It fires short-range EMP pulses; still decent against conventional"
 " threats but best against electronics.  The manufacturer is listed as "
-"Omnitech Labs.  Powered by atomic power cells or an experimental "
-"rechargeable version, for heavy use where a UPS would not be sustainable in "
-"the short term."
+"Omnitech Labs.  Powered by self-charging atomic power cells, for heavy use "
+"where a UPS would not be sustainable in the short term."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8865,6 +9403,21 @@ msgid ""
 msgstr ""
 
 #: .\Weapons\c_ranged.json
+msgid "MK-2N1 atomic cannon"
+msgid_plural "MK-2N1 atomic cannons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Weapons\c_ranged.json
+msgid ""
+"It appears to be a launcher, firing powerful pulses of energy.  It has been "
+"modified to use plutonium fuel cells to generate massive blasts of nuclear "
+"plasma, supplanting both the original UPS cost and the hydrogen it used to "
+"fire.  You hope anything that warrants firepower like this won't get too "
+"close."
+msgstr ""
+
+#: .\Weapons\c_ranged.json
 msgid "survivor's flamethrower"
 msgid_plural "survivor's flamethrowers"
 msgstr[0] ""
@@ -8889,8 +9442,9 @@ msgid ""
 "A mi-go beam weapon repurposed for human use using pre-cataclysm "
 "developments in bio-technology, crudely interfacing artificial nerves with "
 "wiring and converting it into a bulky pistol.  Its strange lens fires short-"
-"ranged beams that low damage, but are highly effective at stunning targets."
-"  Having been converted for human use, it draws power from a UPS connection."
+"ranged beams that deal low damage, but are highly effective at stunning "
+"targets.  Wielding it gives a faint sense of focus, like it's almost but not"
+" quite alive."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8902,11 +9456,11 @@ msgstr[1] ""
 #: .\Weapons\c_ranged.json
 msgid ""
 "A mi-go weapon that projects pieces of hardened alien resin at high "
-"velocities, its exotic controls stripped down and interfaced with something "
-"more fitting human anatomy.  The product of pre-cataclysm biotechnology "
-"applied to solve an outside-context problem.  Although it relies on special "
-"ammunition, it is relatively easy to mold resin into compatible projectiles,"
-" and it packs a decent punch with very little noise."
+"velocities, its exotic controls stripped down it fit human anatomy.  The "
+"product of pre-cataclysm biotechnology applied to solve an outside-context "
+"problem.  Although it relies on special ammunition, it is relatively easy to"
+" mold resin or metal into compatible projectiles, and it packs a decent "
+"punch with very little noise."
 msgstr ""
 
 #: .\Weapons\c_ranged.json
@@ -8920,12 +9474,6 @@ msgid ""
 "An experimental compact plasma projector developed by Omnitech, designed to "
 "be assembled in the field.  Given the complexity of its components, they "
 "made some ambitious assumptions about the availability of parts mid-mission."
-"  Remarkably powerful though short-ranged, its varible-pressure design "
+"  Remarkably powerful though short-ranged, its variable-pressure design "
 "allows it to use commercial-grade hydrogen or military plasma cells."
 msgstr ""
-
-#: .\Weapons\c_ranged_override.json
-msgid "repeating crossbow"
-msgid_plural "repeating crossbows"
-msgstr[0] ""
-msgstr[1] ""
