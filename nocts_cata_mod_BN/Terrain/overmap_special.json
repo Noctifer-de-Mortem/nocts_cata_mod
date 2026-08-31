@@ -106,7 +106,8 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 75, 100 ],
+    "occurrences": [ 1, 1 ],
+    "absolute_spawn_loc": { "x": 0, "y": 1 },
     "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
@@ -129,7 +130,8 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 75, 100 ],
+    "occurrences": [ 1, 1 ],
+    "absolute_spawn_loc": { "x": 1, "y": 1 },
     "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {
@@ -145,7 +147,8 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 16 ],
-    "occurrences": [ 75, 100 ],
+    "occurrences": [ 1, 1 ],
+    "absolute_spawn_loc": { "x": -1, "y": 1 },
     "flags": [ "CLASSIC", "GLOBALLY_UNIQUE", "ELECTRIC_GRID", "FLUID_GRID" ]
   },
   {

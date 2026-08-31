@@ -24,7 +24,8 @@
     "type": "start_location",
     "id": "Bio_Weapon_Lab_l",
     "name": "Bio Weapon Lab",
-    "terrain": [ "Bio_Weapon_Lab_b" ]
+    "terrain": [ "Bio_Weapon_Lab_b" ],
+    "absolute_place_location": { "x": 0, "y": 1 }
   },
   {
     "type": "start_location",
@@ -44,7 +45,8 @@
     "id": "makeshift_command_center_1",
     "name": "Makeshift Command Center",
     "terrain": [ "makeshift_command_center_1" ],
-    "flags": [ "ALLOW_OUTSIDE" ]
+    "flags": [ "ALLOW_OUTSIDE" ],
+    "absolute_place_location": { "x": -1, "y": 1 }
   },
   {
     "type": "start_location",
@@ -52,7 +54,8 @@
     "//": "This versions is for the super soldier start, places them in the outdoors section.",
     "name": "Bio Weapon Lab",
     "terrain": [ "Bio_Weapon_Lab_1" ],
-    "flags": [ "ALLOW_OUTSIDE" ]
+    "flags": [ "ALLOW_OUTSIDE" ],
+    "absolute_place_location": { "x": 0, "y": 1 }
   },
   {
     "type": "start_location",
