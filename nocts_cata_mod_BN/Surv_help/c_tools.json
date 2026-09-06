@@ -784,8 +784,21 @@
     "charges_per_use": 250,
     "max_charges": 250,
     "use_action": { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
-    "relic_data": { "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ] },
-    "flags": [ "BELTED", "COMPACT", "WATCH", "ALARMCLOCK", "RECHARGE", "NO_RELOAD", "NO_UNLOAD", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_CLAWS", "DRONE_CAM" ],
+    "relic_data": {
+      "recharge_scheme": [ { "type": "solar", "interval": "1 m", "rate": 1 } ],
+      "passive_effects": [ { "id": "DRONE_CAM" } ]
+    },
+    "flags": [
+      "BELTED",
+      "COMPACT",
+      "WATCH",
+      "ALARMCLOCK",
+      "RECHARGE",
+      "NO_RELOAD",
+      "NO_UNLOAD",
+      "ALLOWS_NATURAL_ATTACKS",
+      "ALLOWS_CLAWS"
+    ],
     "covers": [ "hand_either" ],
     "encumbrance": 5,
     "coverage": 10,
@@ -1018,7 +1031,8 @@
       "ALLOWS_NATURAL_ATTACKS",
       "FIRESTARTER",
       "THERMOMETER",
-      "POWERARMOR_COMPATIBLE", "ALLOWS_CLAWS"
+      "POWERARMOR_COMPATIBLE",
+      "ALLOWS_CLAWS"
     ]
   },
   {
@@ -1092,7 +1106,17 @@
     "price_postapoc": "60 USD",
     "material": [ "plastic", "aluminum" ],
     "covers": [ "torso" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "WAIST", "COMPACT", "OVERSIZE", "NO_RELOAD", "NO_UNLOAD", "POWERARMOR_COMPATIBLE", "IS_UPS" ],
+    "flags": [
+      "LEAK_DAM",
+      "RADIOACTIVE",
+      "WAIST",
+      "COMPACT",
+      "OVERSIZE",
+      "NO_RELOAD",
+      "NO_UNLOAD",
+      "POWERARMOR_COMPATIBLE",
+      "IS_UPS"
+    ],
     "weight": "2200 g",
     "volume": "3 L",
     "bashing": 4,
