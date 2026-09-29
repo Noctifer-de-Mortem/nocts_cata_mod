@@ -79,7 +79,7 @@
     "prereqs": [ "SENTINEL_PERK_STR", "SENTINEL_PERK_STR_2", "SENTINEL_PERK_STR_3" ],
     "changes_to": [ "SENTINEL_STAT_STR_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "str_mod": 2 }
+    "mut_enchantments": [ { "values": [ { "value": "STRENGTH_PERMANENT", "add": 2 } ] } ]
   },
   {
     "type": "mutation",
@@ -93,7 +93,7 @@
     "prereqs2": [ "SENTINEL_STAT_STR" ],
     "changes_to": [ "SENTINEL_STAT_STR_3" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "str_mod": 4 }
+    "mut_enchantments": [ { "values": [ { "value": "STRENGTH_PERMANENT", "add": 4 } ] } ]
   },
   {
     "type": "mutation",
@@ -108,7 +108,7 @@
     "changes_to": [ "SENTINEL_STAT_STR_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "str_mod": 6 }
+    "mut_enchantments": [ { "values": [ { "value": "STRENGTH_PERMANENT", "add": 6 } ] } ]
   },
   {
     "type": "mutation",
@@ -123,7 +123,7 @@
     "changes_to": [ "SENTINEL_STAT_STR_5" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "str_mod": 8 }
+    "mut_enchantments": [ { "values": [ { "value": "STRENGTH_PERMANENT", "add": 8 } ] } ]
   },
   {
     "type": "mutation",
@@ -137,7 +137,7 @@
     "prereqs2": [ "SENTINEL_STAT_STR_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "str_mod": 10 }
+    "mut_enchantments": [ { "values": [ { "value": "STRENGTH_PERMANENT", "add": 10 } ] } ]
   },
   {
     "type": "mutation",
@@ -207,7 +207,7 @@
     "prereqs": [ "SENTINEL_PERK_DEX", "SENTINEL_PERK_DEX_2", "SENTINEL_PERK_DEX_3" ],
     "changes_to": [ "SENTINEL_STAT_DEX_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "dex_mod": 2 }
+    "mut_enchantments": [ { "values": [ { "value": "DEXTERITY_PERMANENT", "add": 2 } ] } ]
   },
   {
     "type": "mutation",
@@ -221,7 +221,7 @@
     "prereqs2": [ "SENTINEL_STAT_DEX" ],
     "changes_to": [ "SENTINEL_STAT_DEX_3" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "dex_mod": 4 }
+    "mut_enchantments": [ { "values": [ { "value": "DEXTERITY_PERMANENT", "add": 4 } ] } ]
   },
   {
     "type": "mutation",
@@ -236,7 +236,7 @@
     "changes_to": [ "SENTINEL_STAT_DEX_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "dex_mod": 6 }
+    "mut_enchantments": [ { "values": [ { "value": "DEXTERITY_PERMANENT", "add": 6 } ] } ]
   },
   {
     "type": "mutation",
@@ -251,7 +251,7 @@
     "changes_to": [ "SENTINEL_STAT_DEX_5" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "dex_mod": 8 }
+    "mut_enchantments": [ { "values": [ { "value": "DEXTERITY_PERMANENT", "add": 8 } ] } ]
   },
   {
     "type": "mutation",
@@ -265,7 +265,7 @@
     "prereqs2": [ "SENTINEL_STAT_DEX_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "dex_mod": 10 }
+    "mut_enchantments": [ { "values": [ { "value": "DEXTERITY_PERMANENT", "add": 10 } ] } ]
   },
   {
     "type": "mutation",
@@ -329,7 +329,7 @@
     "prereqs": [ "SENTINEL_PERK_INT", "SENTINEL_PERK_INT_2", "SENTINEL_PERK_INT_3" ],
     "changes_to": [ "SENTINEL_STAT_INT_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "int_mod": 2 }
+    "mut_enchantments": [ { "values": [ { "value": "INTELLIGENCE_PERMANENT", "add": 2 } ] } ]
   },
   {
     "type": "mutation",
@@ -343,7 +343,7 @@
     "prereqs2": [ "SENTINEL_STAT_INT" ],
     "changes_to": [ "SENTINEL_STAT_INT_3" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "int_mod": 4 }
+    "mut_enchantments": [ { "values": [ { "value": "INTELLIGENCE_PERMANENT", "add": 4 } ] } ]
   },
   {
     "type": "mutation",
@@ -358,7 +358,7 @@
     "changes_to": [ "SENTINEL_STAT_INT_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "int_mod": 6 }
+    "mut_enchantments": [ { "values": [ { "value": "INTELLIGENCE_PERMANENT", "add": 6 } ] } ]
   },
   {
     "type": "mutation",
@@ -373,7 +373,7 @@
     "changes_to": [ "SENTINEL_STAT_INT_5" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "int_mod": 8 }
+    "mut_enchantments": [ { "values": [ { "value": "INTELLIGENCE_PERMANENT", "add": 8 } ] } ]
   },
   {
     "type": "mutation",
@@ -387,7 +387,7 @@
     "prereqs2": [ "SENTINEL_STAT_INT_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "int_mod": 10 }
+    "mut_enchantments": [ { "values": [ { "value": "INTELLIGENCE_PERMANENT", "add": 10 } ] } ]
   },
   {
     "type": "mutation",
@@ -454,7 +454,7 @@
     "prereqs": [ "SENTINEL_PERK_PER", "SENTINEL_PERK_PER_2", "SENTINEL_PERK_PER_3" ],
     "changes_to": [ "SENTINEL_STAT_PER_2" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "per_mod": 2 }
+    "mut_enchantments": [ { "values": [ { "value": "PERCEPTION_PERMANENT", "add": 2 } ] } ]
   },
   {
     "type": "mutation",
@@ -468,7 +468,7 @@
     "prereqs2": [ "SENTINEL_STAT_PER" ],
     "changes_to": [ "SENTINEL_STAT_PER_3" ],
     "category": [ "SUPER_SOLDIER" ],
-    "passive_mods": { "per_mod": 4 }
+    "mut_enchantments": [ { "values": [ { "value": "PERCEPTION_PERMANENT", "add": 4 } ] } ]
   },
   {
     "type": "mutation",
@@ -483,7 +483,7 @@
     "changes_to": [ "SENTINEL_STAT_PER_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "per_mod": 6 }
+    "mut_enchantments": [ { "values": [ { "value": "PERCEPTION_PERMANENT", "add": 6 } ] } ]
   },
   {
     "type": "mutation",
@@ -498,7 +498,7 @@
     "changes_to": [ "SENTINEL_STAT_PER_5" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "per_mod": 8 }
+    "mut_enchantments": [ { "values": [ { "value": "PERCEPTION_PERMANENT", "add": 8 } ] } ]
   },
   {
     "type": "mutation",
@@ -512,7 +512,7 @@
     "prereqs2": [ "SENTINEL_STAT_PER_4" ],
     "category": [ "SUPER_SOLDIER" ],
     "threshreq": [ "THRESH_SUPER_SOLDIER" ],
-    "passive_mods": { "per_mod": 10 }
+    "mut_enchantments": [ { "values": [ { "value": "PERCEPTION_PERMANENT", "add": 10 } ] } ]
   },
   {
     "type": "mutation",
