@@ -928,6 +928,7 @@
   {
     "id": "cowboy_hat_surv",
     "copy-from": "cowboy_hat",
+    "looks_like": "cowboy_hat",
     "type": "ARMOR",
     "name": { "str": "survivor cowboy hat" },
     "description": "A wide-brimmed hat that's been modified with kevlar padding, and bandolier loops sewn onto the hat band.  Perfect for holding a few cartridges somewhere out of the way, its adjustable loops fitting a wide variety of ammunition.",

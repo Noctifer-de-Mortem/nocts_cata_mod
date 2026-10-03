@@ -2,6 +2,7 @@
   {
     "id": "cowboy_hat_surv",
     "copy-from": "cowboy_hat_surv",
+    "looks_like": "cowboy_hat",
     "type": "ARMOR",
     "name": { "str": "survivor cowboy hat" },
     "use_action": {
