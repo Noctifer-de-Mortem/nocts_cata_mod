@@ -542,6 +542,7 @@
     "volume": "1500 ml",
     "barrel_volume": "250 ml",
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "range": 5,
     "dispersion": 450,
     "blackpowder_tolerance": 30,
     "min_cycle_recoil": 25,
@@ -596,10 +597,10 @@
     "copy-from": "surv_full_223",
     "type": "GUN",
     "name": { "str": "survivor's 7.62x54 battle rifle" },
-    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made magazine.",
+    "description": "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made magazine, and can accept magazines from the SVD rifle.",
     "ammo": [ "762R" ],
     "min_cycle_recoil": 2000,
-    "magazines": [ [ "762R", [ "surv_762R_mag" ] ] ]
+    "magazines": [ [ "762R", [ "surv_762R_mag", "SVDmag" ] ] ]
   },
   {
     "id": "surv_full_3006",
@@ -1537,6 +1538,14 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
     "clip_size": 15,
     "reload": 450,
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]

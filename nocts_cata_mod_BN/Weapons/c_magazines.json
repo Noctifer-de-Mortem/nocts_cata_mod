@@ -61,7 +61,7 @@
     "id": "surv_762R_mag",
     "type": "MAGAZINE",
     "name": { "str": "survivor's 7.62x54 magazine" },
-    "description": "A magazine built for the survivor's 7.62x54 battle rifle.  Vaguely based off the magazine design used by the SVT-40, its handmade design makes it incompatible with any production firearm.",
+    "description": "A magazine built for the survivor's 7.62x54 battle rifle, based on the design of the Dragunov rifle's magazine.",
     "weight": "400 g",
     "volume": "500 ml",
     "price": "80 USD",
@@ -73,6 +73,7 @@
     "capacity": 20,
     "reliability": 6,
     "reload_time": 100,
+    "reloads_like": "SVDmag",
     "flags": [ "MAG_COMPACT" ]
   },
   {
@@ -239,6 +240,7 @@
     "reliability": 5,
     "reload_time": 200,
     "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
+    "reloads_like": "belt762R",
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {
@@ -257,6 +259,7 @@
     "reliability": 5,
     "reload_time": 200,
     "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 10 },
+    "reloads_like": "belt3006",
     "flags": [ "BELTED", "OVERSIZE" ]
   },
   {

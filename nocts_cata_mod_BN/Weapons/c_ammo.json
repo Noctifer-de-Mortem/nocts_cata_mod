@@ -55,23 +55,5 @@
     "damage": { "damage_type": "bullet", "amount": 20, "armor_penetration": 5 },
     "range": 30,
     "dispersion": 100
-  },
-  {
-    "id": "36navy_makeshift_magnum",
-    "copy-from": "36navy",
-    "type": "AMMO",
-    "name": { "str": ".36 paper overpressure cartridge" },
-    "description": "A paper cartridge containing an increased measure of any available powder, and a .36 projectile for the Colt M1861 Navy.  A bit more powerful but less accurate, and potentially unreliable.",
-    "proportional": { "damage": { "damage_type": "bullet", "amount": 1.25 }, "range": 1.1, "dispersion": 1.5, "recoil": 2.0 },
-    "extend": { "effects": [ "RECYCLED" ] }
-  },
-  {
-    "id": "44army_makeshift_magnum",
-    "copy-from": "44army",
-    "type": "AMMO",
-    "name": { "str": ".44 paper overpressure cartridge" },
-    "description": "A paper cartridge containing an increased measure of any available powder, and a .44 projectile for the Colt M1860 Army.  A bit more powerful but less accurate, and potentially unreliable.",
-    "proportional": { "damage": { "damage_type": "bullet", "amount": 1.25 }, "range": 1.1, "dispersion": 1.5, "recoil": 2.0 },
-    "extend": { "effects": [ "RECYCLED" ] }
   }
 ]

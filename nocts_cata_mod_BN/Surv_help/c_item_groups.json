@@ -608,8 +608,9 @@
     "items": [
       { "group": "nested_ak47", "prob": 20 },
       { "group": "nested_aksemi", "prob": 10 },
-      { "group": "nested_draco", "prob": 10 },
+      { "group": "nested_draco", "prob": 5 },
       { "group": "nested_sks", "prob": 10 },
+      { "group": "nested_SVD", "prob": 5 },
       { "group": "nested_shotgun_d", "prob": 20 },
       { "group": "nested_saiga_12", "prob": 20 },
       { "group": "nested_saiga_410", "prob": 10 }
