@@ -2705,48 +2705,6 @@
     "components": [ [ [ "frame", 1 ], [ "hdframe", 1 ] ], [ [ "rope_superior_short", 1, "LIST" ] ] ]
   },
   {
-    "result": "36navy_makeshift_magnum",
-    "type": "recipe",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_PISTOL",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "skills_required": [ "gun", 1 ],
-    "time": "1 m",
-    "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "manual_pistol", 3 ], [ "recipe_bullets", 3 ], [ "recipe_surv", 3 ] ],
-    "charges": 1,
-    "reversible": true,
-    "using": [ [ "ammo_bullet", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ], [ "chem_match_head_powder", 6 ] ],
-      [ [ "smpistol_primer", 1 ] ],
-      [ [ "paper", 1 ], [ "aluminum_foil", 1 ] ]
-    ]
-  },
-  {
-    "result": "44army_makeshift_magnum",
-    "type": "recipe",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_PISTOL",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "skills_required": [ "gun", 1 ],
-    "time": "1 m",
-    "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "manual_pistol", 3 ], [ "recipe_bullets", 3 ], [ "recipe_surv", 3 ] ],
-    "charges": 1,
-    "reversible": true,
-    "using": [ [ "ammo_bullet", 2 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "gunpowder", 4 ], [ "chem_black_powder", 6 ], [ "chem_match_head_powder", 6 ] ],
-      [ [ "lgpistol_primer", 1 ] ],
-      [ [ "paper", 1 ], [ "aluminum_foil", 1 ] ]
-    ]
-  },
-  {
     "result": "cowboy_hat_surv",
     "type": "recipe",
     "category": "CC_ARMOR",

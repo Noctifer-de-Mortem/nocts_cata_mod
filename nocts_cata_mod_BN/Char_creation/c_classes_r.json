@@ -3,21 +3,21 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "flintlock_pouch_surv_drifter",
-    "entries": [ { "item": "36navy_makeshift_magnum", "charges": 19 } ]
+    "entries": [ { "item": "36navy_smokeless", "charges": 19 } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "cowboy_hat_surv_surv_drifter",
-    "entries": [ { "item": "44army_makeshift_magnum", "charges": 12 } ]
+    "entries": [ { "item": "44army_smokeless", "charges": 12 } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "legrig_surv_surv_drifter",
     "entries": [
-      { "item": "colt_navy", "ammo-item": "36navy_makeshift_magnum", "charges": 6 },
-      { "item": "colt_army", "ammo-item": "44army_makeshift_magnum", "charges": 6 },
+      { "item": "colt_navy", "ammo-item": "36navy_smokeless", "charges": 6 },
+      { "item": "colt_army", "ammo-item": "44army_smokeless", "charges": 6 },
       { "item": "knife_hunting" }
     ]
   },
@@ -101,7 +101,7 @@
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "vinegar", "container-item": "bottle_plastic_small" },
           { "item": "lamp_oil", "container-item": "bottle_plastic_small" },
-          { "item": "44army_makeshift_magnum", "charges": 7 }
+          { "item": "44army_smokeless", "charges": 7 }
         ]
       },
       "male": [ "boxer_shorts" ],

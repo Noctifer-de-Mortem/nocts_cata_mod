@@ -1087,5 +1087,25 @@
       "BASHES",
       "PATH_AVOID_DANGER_1"
     ]
+  },
+  {
+    "id": "36navy_makeshift_magnum",
+    "type": "MIGRATION",
+    "replace": "36navy_smokeless"
+  },
+  {
+    "id": "44army_makeshift_magnum",
+    "type": "MIGRATION",
+    "replace": "44army_smokeless"
+  },
+  {
+    "type": "recipe",
+    "result": "36navy_makeshift_magnum",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "44army_makeshift_magnum",
+    "obsolete": true
   }
 ]
