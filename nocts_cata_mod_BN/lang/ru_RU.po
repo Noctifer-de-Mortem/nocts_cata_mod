@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2026-10-04 16:38+0300\n"
+"POT-Creation-Date: 2026-10-07 23:51+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: midgardormr <donjonn@yandex.ru>\n"
 "Language-Team: \n"
@@ -51,7 +51,7 @@ msgstr "<color_light_green>(Катаклизм++)</color> Рассвет"
 #. Sunrise'}
 #: c_achievements.json
 msgid "Slay Bio-Weapon Apophis."
-msgstr "Убить биооружие «Апофис»"
+msgstr "Убить биооружие «Апофис»."
 
 #: c_achievements.json
 msgid "<color_light_green>(Cataclysm++)</color> Defender"
@@ -1701,6 +1701,7 @@ msgstr "Биооружие «Дельта»"
 msgid "Your genome is unique to you, this is a DNA marker identifying you as Bio-Weapon Delta.  It may prove useful one day."
 msgstr "Ваш геном уникален. Этот ДНК-маркер идентифицирует вас как биооружие «Дельта». Возможно, однажды он вам пригодится."
 
+#.
 #. ~ Mutation class name
 #: Mutations/c_bio_mutation.json Mutations/c_bio_mutation_category.json Npc/c_classes.json
 msgid "Bio-Weapon"
@@ -1758,7 +1759,7 @@ msgstr "Вы страдаете от искусственно вызванног
 
 #: Mutations/c_bio_mutation.json
 msgid "Neural Augmentation"
-msgstr "Нейронная аугментация"
+msgstr "Нейронное усиление"
 
 #. ~ Description for {'str': 'Neural Augmentation'}
 #: Mutations/c_bio_mutation.json
@@ -1830,7 +1831,7 @@ msgstr "Ваши рефлексы и ловкость значительно у�
 
 #: Mutations/c_bio_mutation.json
 msgid "Cardioefficiency"
-msgstr "Усиленное кровообращение"
+msgstr "Кардиоэффективность"
 
 #. ~ Description for {'str': 'Cardioefficiency'}
 #: Mutations/c_bio_mutation.json
@@ -1903,7 +1904,7 @@ msgstr "Этот НПС может рассказать вам, как он пе
 
 #: Mutations/c_bio_mutation.json
 msgid "Gladiator"
-msgstr "Гладиатор"
+msgstr "Опыт гладиаторских боёв"
 
 #. ~ Description for {'str': 'Gladiator'}
 #: Mutations/c_bio_mutation.json
@@ -1943,6 +1944,7 @@ msgid "You are not human.  You can't even remember anymore, whether you were eve
 msgstr "Вы не человек. Вы уже даже не помните, были ли когда-нибудь человеком. Важно лишь одно: теперь вы — нечто большее."
 
 #. ~ Mutation class name
+#.
 #: Mutations/c_bio_mutation_category.json
 msgid "Sentinel"
 msgstr "Страж"
@@ -3695,7 +3697,7 @@ msgstr "Убрать нож/меч в ножны"
 #. ~ Description for {'str': "survivor's scout suit"}
 #: Surv_help/c_armor.json
 msgid "A home-made suit built to live off the land.  Comes with ample storage, fur lining, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection."
-msgstr "Кустарный костюм для автономной жизни вдали от цивилизации. В нём предусмотрено множество карманов, меховая подкладка, защита от непогоды и повреждений, встроенные часы и самодельное кольцо для крепления ножен. Для полной защиты органов дыхания необходим отдельный противогаз."
+msgstr "Кустарный костюм для выживания вдали от цивилизации. В нём предусмотрено множество карманов, меховая подкладка, защита от непогоды и повреждений, встроенные часы и самодельное кольцо для крепления ножен. Для полной защиты требуется противогаз."
 
 #: Surv_help/c_armor.json
 msgid "survivor's armored scout suit"
@@ -3707,7 +3709,7 @@ msgstr[2] "бронированных костюмов выживальщика-
 #. ~ Description for {'str': "survivor's armored scout suit"}
 #: Surv_help/c_armor.json
 msgid "A home-made suit built to live off the land.  Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, and a makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and reinforced with metal.  It requires a separate gas mask for full protection."
-msgstr "Кустарный костюм для автономной жизни вдали от цивилизации. В нём предусмотрено множество карманов, тёплая меховая подкладка, защита от непогоды и повреждений, встроенные часы и самодельное кольцо для крепления ножен. Костюм тщательно сшит из кевларовой ткани и усилен металлическими элементами. Для полной защиты органов дыхания необходим отдельный противогаз."
+msgstr "Кустарный костюм для выживания вдали от цивилизации. В нём предусмотрено множество карманов, тёплая меховая подкладка, защита от непогоды и повреждений, встроенные часы и самодельное кольцо для крепления ножен. Костюм тщательно сшит из кевларовой ткани и усилен металлическими элементами. Для полной защиты требуется противогаз."
 
 #: Surv_help/c_armor.json
 msgid "survivor's superalloy scout suit"
@@ -3719,7 +3721,7 @@ msgstr[2] "костюмов выживальщика-разведчика из �
 #. ~ Description for {'str': "survivor's superalloy scout suit"}
 #: Surv_help/c_armor.json
 msgid "A home-made suit built to live off the land.  Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, and a makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and reinforced with superalloy.  It requires a separate gas mask for full protection."
-msgstr "Кустарный костюм для автономного выживания вдали от цивилизации. Оснащён множеством карманов, тёплой меховой подкладкой, встроенными часами и самодельным креплением для ножен, а также хорошо защищает от непогоды и физических повреждений. Костюм тщательно сшит из кевларовой ткани и усилен суперсплавом. Для полной защиты органов дыхания потребуется отдельный противогаз."
+msgstr "Кустарный костюм для выживания вдали от цивилизации. В нём предусмотрено множество карманов, тёплая меховая подкладка, защита от непогоды и повреждений, встроенные часы и самодельное кольцо для крепления ножен. Костюм тщательно сшит из кевларовой ткани и усилен суперсплавом. Для полной защиты требуется противогаз."
 
 #: Surv_help/c_armor.json
 msgid "survivor plate armor"
@@ -4218,9 +4220,9 @@ msgstr "Женское бельё, которое чуть меньше прик
 #: Surv_help/c_armor.json
 msgid "dress skirt"
 msgid_plural "dress skirts"
-msgstr[0] "юбка"
-msgstr[1] "юбки"
-msgstr[2] "юбок"
+msgstr[0] "деловая юбка"
+msgstr[1] "деловые юбки"
+msgstr[2] "деловых юбок"
 
 #. ~ Description for {'str': 'dress skirt'}
 #: Surv_help/c_armor.json
@@ -4597,6 +4599,7 @@ msgstr[0] "двуручный огнемёт"
 msgstr[1] "двуручных огнемёта"
 msgstr[2] "двуручных огнемётов"
 
+#.
 #. ~ Description for {'str': 'Dual-Hand Flamethrower'}
 #. ~ Description for {'str': 'Dual-Hand Flamethrower CBM'}
 #: Surv_help/c_bionics.json
@@ -6724,30 +6727,6 @@ msgstr[2] "литых снарядов для излучателя"
 msgid "A molded metal projectile for an exotic pneumatic weapon, resembling an elongated rifle bullet.  Inferior to purpose-built resin bullets, but easier to make."
 msgstr "Литой металлический снаряд для необычного пневматического оружия, по форме напоминающий удлинённую винтовочную пулю. Уступает специально изготовленным снарядам из смолы, зато его проще сделать."
 
-#: Weapons/c_ammo.json
-msgid ".36 paper overpressure cartridge"
-msgid_plural ".36 paper overpressure cartridges"
-msgstr[0] "бумажный патрон .36 +P"
-msgstr[1] "бумажных патрона .36 +P"
-msgstr[2] "бумажных патронов .36 +P"
-
-#. ~ Description for {'str': '.36 paper overpressure cartridge'}
-#: Weapons/c_ammo.json
-msgid "A paper cartridge containing an increased measure of any available powder, and a .36 projectile for the Colt M1861 Navy.  A bit more powerful but less accurate, and potentially unreliable."
-msgstr "Бумажный патрон с увеличенным зарядом доступного пороха и пулей калибра .36 для револьвера Colt M1861 Navy. Немного мощнее обычного, но менее точен и может давать осечки."
-
-#: Weapons/c_ammo.json
-msgid ".44 paper overpressure cartridge"
-msgid_plural ".44 paper overpressure cartridges"
-msgstr[0] "бумажный патрон .44 +P"
-msgstr[1] "бумажных патрона .44 +P"
-msgstr[2] "бумажных патронов .44 +P"
-
-#. ~ Description for {'str': '.44 paper overpressure cartridge'}
-#: Weapons/c_ammo.json
-msgid "A paper cartridge containing an increased measure of any available powder, and a .44 projectile for the Colt M1860 Army.  A bit more powerful but less accurate, and potentially unreliable."
-msgstr "Бумажный патрон с увеличенным зарядом доступного пороха и пулей калибра .44 для револьвера Colt M1860 Army. Немного мощнее обычного, но менее точен и может давать осечки."
-
 #: Weapons/c_ammo_types.json
 msgid "resin pellets"
 msgstr "смоляные дробинки"
@@ -6797,8 +6776,8 @@ msgstr[2] "магазинов выживальщика 7,62x54 мм"
 
 #. ~ Description for {'str': "survivor's 7.62x54 magazine"}
 #: Weapons/c_magazines.json
-msgid "A magazine built for the survivor's 7.62x54 battle rifle.  Vaguely based off the magazine design used by the SVT-40, its handmade design makes it incompatible with any production firearm."
-msgstr "Магазин для винтовки выживальщика под патрон 7,62x54 мм. Конструкция отдалённо основана на магазине СВТ-40, но из-за кустарного изготовления он несовместим с серийным оружием."
+msgid "A magazine built for the survivor's 7.62x54 battle rifle, based on the design of the Dragunov rifle's magazine."
+msgstr "Магазин для боевой винтовки выжившего калибра 7,62x54 мм R, созданный на основе конструкции магазина винтовки Драгунова."
 
 #: Weapons/c_magazines.json
 msgid "survivor's .30-06 magazine"
@@ -7141,8 +7120,8 @@ msgstr[1] "бионических лазерных пистолета"
 msgstr[2] "бионических лазерных пистолетов"
 
 #: Weapons/c_ranged.json
-msgid "Finger Laser CBM turned into a pistol.  Still very accurate, but not particularly damaging."
-msgstr "КБМ «Лазер в пальце», переделанный в пистолет. По-прежнему очень точный, но довольно слабый."
+msgid "Finger Laser CBM turned into a pistol.  Still very accurate, but not particularly damaging and a bit less efficient than the bionic version."
+msgstr "КБМ «Лазер в пальце», переделанный в пистолет. По-прежнему очень точный, но не слишком мощный и немного менее эффективный, чем его бионическая версия."
 
 #: Weapons/c_ranged.json mod_interactions/Arcana/ranged.json
 msgctxt "gun_type_type"
@@ -7150,8 +7129,8 @@ msgid "pistol"
 msgstr "пистолеты"
 
 #: Weapons/c_ranged.json
-msgid "Rifle built with parts salvaged from a Chain Lightning CBM.  Fires bolts of electricity that jump between nearby enemies."
-msgstr "Винтовка, собранная из деталей, извлечённых из КБМ «Генератор цепных молний». Выпускает электрические разряды, которые перескакивают на ближайших противников."
+msgid "Rifle built with parts salvaged from a Chain Lightning CBM.  Fires bolts of electricity that jump between nearby enemies.  Powering it off a UPS connection makes it a bit less efficient than in bionic form."
+msgstr "Винтовка, собранная из деталей КБМ «Генератор цепных молний». Стреляет электрическими разрядами, которые перескакивают между находящимися рядом противниками. Из-за питания через УБП она немного менее эффективна, чем её бионическая версия."
 
 #: Weapons/c_ranged.json
 msgid "biological pistol"
@@ -7367,8 +7346,8 @@ msgstr[1] "боевые винтовки выживальщика 7,62x54 мм"
 msgstr[2] "боевых винтовок выживальщика 7,62x54 мм"
 
 #: Weapons/c_ranged.json
-msgid "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made magazine."
-msgstr "Почти полностью самодельная автоматическая винтовка, собранная на основе ствольной коробки с автоматическим режимом огня. По качеству она всё ещё уступает большинству винтовок, выпущенных до Катаклизма, но превосходит многие другие самодельные образцы. Использует патроны 7,62×54 мм R из нестандартного магазина."
+msgid "A (mostly) homemade automatic rifle built from a full auto receiver.  While still lower quality than most pre-cataclysm rifles, it's superior to many other homemade weapons.  Takes the 7.62x54mmR cartridge via its custom-made magazine, and can accept magazines from the SVD rifle."
+msgstr "Почти полностью самодельная автоматическая винтовка, собранная на основе ствольной коробки с автоматическим режимом огня. По качеству она всё ещё уступает большинству винтовок, выпущенных до Катаклизма, но превосходит многие другие самодельные образцы. Использует патроны 7,62x54 мм R из нестандартного магазина, а также совместима с магазинами винтовки СВД."
 
 #: Weapons/c_ranged.json
 msgid "survivor's .30-06 battle rifle"
@@ -7780,8 +7759,8 @@ msgstr[1] "трофейных дуговых пистолета"
 msgstr[2] "трофейных дуговых пистолетов"
 
 #: mod_interactions/Arcana/ranged.json
-msgid "An exotic bionic ranged weapon converted to use as a pistol, powered by UPS.  Fires bolts of exotic energy that bounces between targets, electrocuting with explosive bursts of lightning and immolating anything it hits."
-msgstr "Необычное бионическое оружие дальнего боя, переделанное в пистолет и работающее от УБП. Выпускает сгустки экзотической энергии, которые перескакивают с одной цели на другую, поражая их взрывными разрядами молний и поджигая всё, во что попадают."
+msgid "An exotic bionic ranged weapon converted to use as a pistol, powered by UPS at the cost of efficiency.  Fires bolts of exotic energy that bounces between targets, electrocuting with explosive bursts of lightning and immolating anything it hits."
+msgstr "Экзотическое бионическое оружие дальнего боя, переделанное в пистолет и ценой некоторой потери эффективности переведенное на питание от УБП. Стреляет сгустками необычной энергии, которые перескакивают между целями, поражая их взрывными разрядами молний и испепеляя все, во что попадают."
 
 #: mod_interactions/Arcana/ranged.json
 msgid "salvaged rift focus pistol"
@@ -7791,8 +7770,8 @@ msgstr[1] "трофейных пистолета фокусировки разл
 msgstr[2] "трофейный пистолетов фокусировки разломов"
 
 #: mod_interactions/Arcana/ranged.json
-msgid "An exotic bionic ranged weapon converted to use as a pistol, powered by UPS.  Capable of creating small holes in reality, focusing them into beams of supernatural energy.  Reasonably potent with good range, but utterly useless against robotic targets, and some otherworldly monsters are also immune to it."
-msgstr "Необычное бионическое оружие дальнего боя, переделанное в пистолет и работающее от УБП. Способно создавать небольшие разрывы в реальности и фокусировать их в лучи сверхъестественной энергии. Обладает неплохой мощностью и дальностью, но совершенно бесполезно против роботов, некоторые потусторонние существа также невосприимчивы к его воздействию."
+msgid "An exotic bionic ranged weapon converted to use as a pistol, powered by UPS at the cost of efficiency.  Capable of creating small holes in reality, focusing them into beams of supernatural energy.  Reasonably potent with good range, but utterly useless against robotic targets, and some otherworldly monsters are also immune to it."
+msgstr "Экзотическое бионическое оружие дальнего боя, переделанное в пистолет и ценой некоторой потери эффективности переведенное на питание от УБП. Способно создавать небольшие разрывы в реальности и фокусировать их в пучки сверхъестественной энергии. Обладает приличной мощностью и хорошей дальностью, но совершенно бесполезно против роботов, некоторые потусторонние твари также невосприимчивы к нему."
 
 #: mod_interactions/Arcana/ranged.json
 msgid "semi-auto"
