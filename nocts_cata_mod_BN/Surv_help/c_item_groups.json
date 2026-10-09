@@ -981,12 +981,6 @@
     "items": [ [ "auto_case", 50 ] ]
   },
   {
-    "type": "item_group",
-    "id": "cyborg_harvest",
-    "subtype": "distribution",
-    "entries": [ { "group": "bionics_experimental_cataplus", "prob": 1 } ]
-  },
-  {
     "id": "bionics_experimental_cataplus",
     "type": "item_group",
     "items": [
