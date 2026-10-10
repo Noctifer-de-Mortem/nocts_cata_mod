@@ -389,7 +389,7 @@
     "looks_like": "optical_cloak",
     "color": "light_gray",
     "covers": [ "torso", "head", "arms", "legs" ],
-    "coverage": 75,
+    "coverage": 90,
     "encumbrance": 15,
     "warmth": 15,
     "material_thickness": 1,
