@@ -4184,9 +4184,9 @@ msgstr "Извечный вопрос: боксёры или брифы? Ваш 
 #: Surv_help/c_armor.json
 msgid "leather bikini bottom"
 msgid_plural "leather bikini bottoms"
-msgstr[0] "кожаные трусики бикини"
-msgstr[1] "кожаных трусиков бикини"
-msgstr[2] "кожаных трусиков бикини"
+msgstr[0] "кожаные трусики от бикини"
+msgstr[1] "пары кожаных трусиков от бикини"
+msgstr[2] "пар кожаных трусиков от бикини"
 
 #. ~ Description for {'str': 'leather bikini bottom'}
 #: Surv_help/c_armor.json
@@ -4196,9 +4196,9 @@ msgstr "Простые кожаные трусики от бикини."
 #: Surv_help/c_armor.json
 msgid "fur bikini bottom"
 msgid_plural "fur bikini bottoms"
-msgstr[0] "меховые трусики бикини"
-msgstr[1] "меховых трусиков бикини"
-msgstr[2] "меховых трусиков бикини"
+msgstr[0] "меховые трусики от бикини"
+msgstr[1] "пары меховых трусиков от бикини"
+msgstr[2] "пар меховых трусиков от бикини"
 
 #. ~ Description for {'str': 'fur bikini bottom'}
 #: Surv_help/c_armor.json
@@ -5138,30 +5138,30 @@ msgstr[2] "пар ботфортов"
 #: Surv_help/c_override.json
 msgid "bikini bottom"
 msgid_plural "bikini bottoms"
-msgstr[0] "трусики бикини"
-msgstr[1] "трусиков бикини"
-msgstr[2] "трусиков бикини"
+msgstr[0] "трусики от бикини"
+msgstr[1] "пары трусиков от бикини"
+msgstr[2] "пар трусиков от бикини"
 
 #: Surv_help/c_override.json
 msgid "bikini top"
 msgid_plural "bikini tops"
-msgstr[0] "лиф бикини"
-msgstr[1] "лифа бикини"
-msgstr[2] "лифов бикини"
+msgstr[0] "лиф от бикини"
+msgstr[1] "лифа от бикини"
+msgstr[2] "лифов от бикини"
 
 #: Surv_help/c_override.json
 msgid "fur bikini top"
 msgid_plural "fur bikini tops"
-msgstr[0] "меховой лиф бикини"
-msgstr[1] "меховых лифа бикини"
-msgstr[2] "меховых лифов бикини"
+msgstr[0] "меховой лиф от бикини"
+msgstr[1] "меховых лифа от бикини"
+msgstr[2] "меховых лифов от бикини"
 
 #: Surv_help/c_override.json
 msgid "leather bikini top"
 msgid_plural "leather bikini tops"
-msgstr[0] "кожаный лиф бикини"
-msgstr[1] "кожаных лифа бикини"
-msgstr[2] "кожаных лифов бикини"
+msgstr[0] "кожаный лиф от бикини"
+msgstr[1] "кожаных лифа от бикини"
+msgstr[2] "кожаных лифов от бикини"
 
 #: Surv_help/c_override.json
 msgid "spring suit"
@@ -7693,7 +7693,7 @@ msgstr[2] "книг «Возрождение цивилизации: аркан�
 #. ~ Description for {'str_sp': 'Rebuilding Civilization: Arcana'}
 #: mod_interactions/Arcana/books.json
 msgid "The clear work of a lunatic, the arcana volume of the Rebuilding Civilization encyclopedia.  Evidently not intended for mass distribution, instead printed in limited numbers for reference purposes.  This book contains everything from fundamental anomalous materials to the properties of dimensional fatigue in extremely fine detail.  Literally any other book on the subject would be a more efficient way to learn, but this may be a good substitute until you find something better."
-msgstr "Явно плод трудов безумца — том энциклопедии «Возрождение цивилизации», посвящённый тайным искусствам. Судя по всему, он не предназначался для широкого распространения и был напечатан ограниченным тиражом исключительно как справочное издание. Здесь с мельчайшими подробностями описано всё — от основ аномальных материалов до свойств эффекта истончения реальности. Практически любая другая книга по этой теме позволит освоить материал быстрее, но за неимением лучшего этот том вполне сгодится."
+msgstr "Явно плод трудов безумца — том энциклопедии «Возрождение цивилизации», посвящённый тайным искусствам. Судя по всему, он не предназначался для широкого распространения и был напечатан ограниченным тиражом исключительно как справочное издание. Здесь с мельчайшими подробностями описано всё — от основ аномальных материалов до свойств эффекта истощения измерений. Практически любая другая книга по этой теме позволит освоить материал быстрее, но за неимением лучшего этот том вполне сгодится."
 
 #: mod_interactions/Arcana/martialarts.json
 msgid "Ritual Art"
