@@ -76,7 +76,7 @@
     "breaks_into": [
       { "item": "plastic_chunk", "count": [ 1, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
-      { "item": "cable", "charges": [ 1, 3 ] }
+      { "item": "cable", "count": [ 1, 3 ] }
     ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_screw", 1 ] ] },
@@ -100,7 +100,7 @@
       { "item": "lc_steel_lump", "count": [ 1, 2 ] },
       { "item": "lc_steel_chunk", "count": [ 1, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
-      { "item": "cable", "charges": [ 3, 6 ] }
+      { "item": "cable", "count": [ 3, 6 ] }
     ],
     "damage_reduction": { "all": 6 },
     "requirements": {
@@ -124,7 +124,7 @@
       { "item": "lc_steel_lump", "count": [ 3, 5 ] },
       { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
-      { "item": "cable", "charges": [ 10, 15 ] }
+      { "item": "cable", "count": [ 10, 15 ] }
     ],
     "damage_reduction": { "all": 32 },
     "requirements": {
@@ -148,7 +148,7 @@
       { "item": "lc_steel_lump", "count": [ 3, 5 ] },
       { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
-      { "item": "cable", "charges": [ 10, 15 ] }
+      { "item": "cable", "count": [ 10, 15 ] }
     ],
     "damage_reduction": { "all": 43 },
     "requirements": {
@@ -172,7 +172,7 @@
       { "item": "lc_steel_lump", "count": [ 3, 5 ] },
       { "item": "lc_steel_chunk", "count": [ 3, 5 ] },
       { "item": "scrap", "count": [ 3, 5 ] },
-      { "item": "cable", "charges": [ 10, 15 ] }
+      { "item": "cable", "count": [ 10, 15 ] }
     ],
     "damage_reduction": { "all": 50 },
     "requirements": {
@@ -196,7 +196,7 @@
       { "item": "lc_steel_lump", "count": [ 6, 10 ] },
       { "item": "lc_steel_chunk", "count": [ 6, 10 ] },
       { "item": "scrap", "count": [ 6, 10 ] },
-      { "item": "cable", "charges": [ 20, 30 ] }
+      { "item": "cable", "count": [ 20, 30 ] }
     ],
     "damage_reduction": { "all": 60 },
     "requirements": {

@@ -48,7 +48,7 @@
         ],
         "entries": [
           { "item": "tank_top", "variant": "tank_top_camo" },
-          { "item": "knife_rambo", "container-item": "scabbard" },
+          { "item": "knife_rambo", "container-item": "sheath" },
           { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 56, "container-item": "wearable_light" },
           { "group": "charged_ref_lighter" }
         ]
@@ -97,7 +97,7 @@
           "gloves_fingerless",
           "backpack",
           "canteen",
-          "survivor_mess_kit",
+          "mess_kit",
           "fur_rollmat",
           "press",
           "puller",
