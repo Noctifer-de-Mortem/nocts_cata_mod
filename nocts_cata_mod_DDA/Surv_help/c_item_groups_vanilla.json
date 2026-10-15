@@ -3,6 +3,7 @@
     "id": "camping",
     "copy-from": "camping",
     "type": "item_group",
+    "subtype": "collection",
     "extend": { "items": [ [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ] }
   },
   {
@@ -99,8 +100,8 @@
     "extend": { "items": [ { "group": "c_military_spawn_special", "prob": 250 } ] }
   },
   {
-    "id": "mil_surplus",
-    "copy-from": "mil_surplus",
+    "id": "mil_accessories",
+    "copy-from": "mil_accessories",
     "type": "item_group",
     "extend": { "items": [ [ "mil_surp_pack_1", 1 ], [ "mil_surp_pack_2", 1 ], [ "mil_surp_pack_3", 1 ] ] }
   },

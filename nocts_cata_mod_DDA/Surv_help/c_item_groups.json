@@ -142,7 +142,7 @@
   {
     "id": "sketchy_cabin_ashes",
     "type": "item_group",
-    "items": [ { "item": "ash", "prob": 50, "charges": [ 50, 250 ] }, { "item": "meal_bone", "prob": 50, "count": [ 5, 10 ] } ]
+    "items": [ { "item": "ash", "prob": 50, "count": [ 50, 250 ] }, { "item": "meal_bone", "prob": 50, "count": [ 5, 10 ] } ]
   },
   {
     "type": "item_group",
