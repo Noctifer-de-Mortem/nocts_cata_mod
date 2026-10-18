@@ -140,7 +140,7 @@
       [ "SHOCKSTORM", 15 ],
       [ "TAZER", 15 ],
       [ "PARROT", 80 ],
-      [ "SMASH", 20 ],
+      { "id": "smash" },
       [ "BIO_OP_TAKEDOWN", 10 ],
       {
         "type": "gun",
@@ -449,7 +449,7 @@
     "armor_acid": 15,
     "armor_fire": 30,
     "vision_night": 10,
-    "special_attacks": [ [ "GRAB_DRAG", 10 ], [ "SMASH", 30 ], { "id": "slam" } ],
+    "special_attacks": [ [ "GRAB_DRAG", 10 ], { "id": "smash", "throw_strength": 50, "cooldown": 30 }, { "id": "slam" } ],
     "death_drops": "mon_zombie_bio_knife_heavy_death_drops",
     "harvest": "CBM_SOLDAT_KNIGHT_ZOMBIE"
   },
@@ -658,7 +658,7 @@
         "no_crits": true
       },
       [ "GRAB_DRAG", 10 ],
-      [ "SMASH", 30 ],
+      { "id": "smash", "throw_strength": 50, "cooldown": 30 },
       { "id": "slam" }
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
@@ -730,7 +730,7 @@
         "no_crits": true
       },
       [ "GRAB_DRAG", 10 ],
-      [ "SMASH", 30 ],
+      { "id": "smash", "throw_strength": 50, "cooldown": 30 },
       { "id": "slam" }
     ],
     "special_when_hit": [ "ZAPBACK", 60 ],
