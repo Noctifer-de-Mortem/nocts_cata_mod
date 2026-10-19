@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: c_achievements.json
 msgid "<color_light_green>(Cataclysm++)</color> Paper Trail"
@@ -3852,15 +3852,15 @@ msgstr "Модернизированный средневековый шлем �
 #: Surv_help/c_armor.json
 msgid "pair of survivor armored gauntlets"
 msgid_plural "pairs of survivor armored gauntlets"
-msgstr[0] "бронерукавицы выживальщика"
-msgstr[1] "пары бронерукавиц выживальщика"
-msgstr[2] "пар бронерукавиц выживальщика"
+msgstr[0] "бронированные рукавицы выживальщика"
+msgstr[1] "пары бронированных рукавиц выживальщика"
+msgstr[2] "пар бронированных рукавиц выживальщика"
 
 #. ~ Description for {'str': 'pair of survivor armored gauntlets', 'str_pl':
 #. 'pairs of survivor armored gauntlets'}
 #: Surv_help/c_armor.json
 msgid "A heavy set of medieval gauntlets, modified with kevlar reinforcements to increase protection from the elements."
-msgstr "Тяжёлые средневековые латные перчатки, дополнительно усиленные кевларом для лучшей защиты от непогоды."
+msgstr "Тяжёлые средневековые боевые рукавицы, усиленные кевларом для дополнительной защиты от внешних воздействий."
 
 #: Surv_help/c_armor.json
 msgid "pair of survivor superalloy armored gauntlets"
@@ -4829,7 +4829,7 @@ msgstr[2] "наномутагенных сывороток"
 #. ~ Description for {'str_sp': 'nano-mutagenic serum'}
 #: Surv_help/c_comestibles.json
 msgid "A experimental, super-concentrated cocktail of mutagen and nanomachines.  Vanishingly rare and potentially quite potent in effect.  You need a syringe to inject it… if you really want to?"
-msgstr "Экспериментальный сверхконцентрированный коктейль из мутагена и наномашин. Встречается крайне редко и потенциально обладает чрезвычайно мощным действием. Для введения понадобится шприц… если вам действительно хочется это попробовать."
+msgstr "Экспериментальная сверхконцентрированная смесь мутагена и наномашин. Исключительно редкая и потенциально очень мощная. Требуется шприц для инъекции… Если вы, конечно, решитесь на это."
 
 #: Surv_help/c_effects.json
 msgid "Exertion"
@@ -5009,7 +5009,7 @@ msgid ""
 "Accuracy increased by 15% of strength, -10% move cost."
 msgstr ""
 "Ваша стойка позволяет лучше использовать физическую силу, компенсируя недостатки работы ног.\n"
-"Точность повышается на 15% от показателя силы, -10% стоимость хода."
+"Точность повышается на 15% от показателя силы, -10% стоимости хода."
 
 #: Surv_help/c_martialarts.json
 msgid "Bull Rush"
@@ -5380,7 +5380,7 @@ msgstr "%s пытается вас схватить, но вы разрывае�
 #: Surv_help/c_techniques.json
 #, c-format
 msgid "The %s tries to grab <npcname>, but they break free!"
-msgstr "%s пытается схватить <npcname>, но захват не удаётся!"
+msgstr "%s пытается схватить цель (<npcname>), но захват не удаётся!"
 
 #: Surv_help/c_techniques.json
 msgid "Counter Sweep"
@@ -5403,12 +5403,12 @@ msgstr "Контрудар"
 #: Surv_help/c_techniques.json
 #, c-format
 msgid "You catch %s's attack, and send them staggering back"
-msgstr "Вы перехватываете атаку, и %s отшатывается назад"
+msgstr "Вы перехватываете атаку цели (%s) и ответным ударом отбрасываете противника назад"
 
 #: Surv_help/c_techniques.json
 #, c-format
 msgid "<npcname> catches %s, and knocks them back"
-msgstr "<npcname> перехватывает атаку, и %s отшатывается назад"
+msgstr "<npcname> перехватывает атаку цели (%s) и ответным ударом отбрасывает противника назад"
 
 #: Surv_help/c_techniques.json
 msgid "Feint"
@@ -5464,7 +5464,7 @@ msgstr "Вы с разгона отбрасываете цель (%s) в сто�
 #: Surv_help/c_techniques.json
 #, c-format
 msgid "<npcname>'s tosses %s aside"
-msgstr "<npcname> отбрасывает цель (%s) в сторону"
+msgstr "<npcname> с разгона отбрасывает цель (%s) в сторону"
 
 #: Surv_help/c_techniques.json
 msgid "Overrun"
@@ -5501,7 +5501,7 @@ msgstr "Мордой в землю"
 #: Surv_help/c_techniques.json
 #, c-format
 msgid "You heft %s and slam them into the ground"
-msgstr "Вы подхватываете цель (%s) и с силой швыряете на землю."
+msgstr "Вы подхватываете цель (%s) и с силой швыряете на землю"
 
 #: Surv_help/c_techniques.json
 #, c-format
@@ -5896,14 +5896,14 @@ msgstr "Острый нож, отлитый из чугуна. Для посто
 #: Surv_help/c_tools.json
 msgid "molded pot"
 msgid_plural "molded pots"
-msgstr[0] "литой горшок"
-msgstr[1] "литых горшка"
-msgstr[2] "литых горшков"
+msgstr[0] "литая кастрюля"
+msgstr[1] "литые кастрюли"
+msgstr[2] "литых кастрюль"
 
 #. ~ Description for {'str': 'molded pot'}
 #: Surv_help/c_tools.json
 msgid "A metal molded pot.  Works as intended."
-msgstr "Литая металлическая кастрюля. Работает как положено."
+msgstr "Металлическая литая кастрюля. Справляется со своей задачей."
 
 #: Surv_help/c_tools.json
 msgid "molded shovel"
@@ -6868,7 +6868,7 @@ msgid "survivor's .308 ammo belt"
 msgid_plural "survivor's .308 ammo belts"
 msgstr[0] "патронная лента выживальщика .308"
 msgstr[1] "патронные ленты выживальщика .308"
-msgstr[2] "патронных лент выживальщика  .308"
+msgstr[2] "патронных лент выживальщика .308"
 
 #. ~ Description for {'str': "survivor's .308 ammo belt"}
 #: Weapons/c_magazines.json
@@ -6962,9 +6962,9 @@ msgstr "Короткие острые когти из высокотехноло
 #: Weapons/c_melee.json
 msgid "repurposed bionic whip"
 msgid_plural "repurposed bionic whips"
-msgstr[0] "переделанный бионический хлыст"
-msgstr[1] "переделанных бионических хлыста"
-msgstr[2] "переделанных бионических хлыстов"
+msgstr[0] "переделанный бионический кнут"
+msgstr[1] "переделанных бионических кнута"
+msgstr[2] "переделанных бионических кнутов"
 
 #. ~ Description for {'str': 'repurposed bionic whip'}
 #: Weapons/c_melee.json
