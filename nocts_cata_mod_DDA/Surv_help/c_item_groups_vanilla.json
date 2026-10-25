@@ -1,5 +1,12 @@
 [
   {
+    "id": "camping",
+    "copy-from": "camping",
+    "type": "item_group",
+    "subtype": "collection",
+    "extend": { "items": [ [ "hammer_multitool", 10 ], [ "parawatch", 10 ], [ "parabracelets", 10 ] ] }
+  },
+  {
     "id": "sports",
     "copy-from": "sports",
     "type": "item_group",
