@@ -217,6 +217,20 @@
   {
     "type": "vehicle_part",
     "copy-from": "turret",
+    "id": "surv_lmg_3006_t",
+    "name": "mounted survivor's .30-06 GPMG",
+    "looks_like": "mounted_m240",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "item": "surv_lmg_3006",
+    "folded_volume": "2500 ml",
+    "breaks_into": [ { "item": "surv_lmg_3006", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
     "id": "surv_lmg_223_t",
     "name": "mounted survivor's .223 LMG",
     "looks_like": "m249",
