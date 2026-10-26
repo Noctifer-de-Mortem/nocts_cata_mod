@@ -262,15 +262,26 @@
     "time": "50 m",
     "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [
+      [ [ "laser_source", 6 ] ],
       [ [ "lens_small", 6 ] ],
       [ [ "power_supply", 2 ] ],
       [ [ "amplifier", 2 ] ],
       [ [ "processor", 1 ] ],
       [ [ "targeting_module", 1 ] ],
+      [ [ "motor_micro", 1 ] ],
       [ [ "alloy_sheet", 1 ] ],
       [ [ "cable", 16 ] ],
       [ [ "burnt_out_bionic", 1 ] ]
     ]
+  },
+  {
+    "type": "uncraft",
+    "result": "bio_blade",
+    "skill_used": "electronics",
+    "difficulty": 6,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [ [ [ "alloy_sheet", 6 ] ], [ [ "motor_micro", 1 ] ], [ [ "cable", 2 ] ], [ [ "burnt_out_bionic", 1 ] ] ]
   },
   {
     "type": "uncraft",
@@ -287,6 +298,22 @@
       [ [ "pump_complex", 2 ] ],
       [ [ "targeting_module", 1 ] ],
       [ [ "cable", 12 ] ],
+      [ [ "burnt_out_bionic", 1 ] ]
+    ]
+  },
+  {
+    "result": "bio_plasma_cell",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "canister_empty", 1 ] ],
+      [ [ "cable", 8 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "amplifier", 2 ] ],
       [ [ "burnt_out_bionic", 1 ] ]
     ]
   },
@@ -322,6 +349,23 @@
       [ [ "pump_complex", 1 ] ],
       [ [ "alloy_sheet", 1 ] ],
       [ [ "cable", 12 ] ],
+      [ [ "burnt_out_bionic", 1 ] ]
+    ]
+  },
+  {
+    "result": "bio_animal_empathy",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [
+      [ [ "nanomaterial", 5 ] ],
+      [ [ "self_monitoring_module", 1 ] ],
+      [ [ "identification_module", 1 ] ],
+      [ [ "motor_micro", 1 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "cable", 8 ] ],
       [ [ "burnt_out_bionic", 1 ] ]
     ]
   },
