@@ -1218,8 +1218,14 @@
       { "item": "surv_lmg_762R", "prob": 10 },
       { "item": "surv_lmg_3006", "prob": 10 },
       { "item": "surv_full_50", "prob": 3 },
-      { "item": "krx_laser_lmg", "prob": 3 },
-      { "item": "mk_ionic_cannon_plut", "prob": 1 }
+      { "item": "krx_laser_lmg", "prob": 4 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BANDIT_LEADER_launcher",
+    "subtype": "distribution",
+    "ammo": 100,
+    "entries": [ { "item": "mk_ionic_cannon_plut", "prob": 5 } ]
   }
 ]
