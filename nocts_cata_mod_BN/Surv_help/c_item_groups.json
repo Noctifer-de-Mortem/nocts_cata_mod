@@ -1188,5 +1188,44 @@
       [ "fr_12", 5 ],
       [ "fr_50", 5 ]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BANDIT_LEADER_armor",
+    "subtype": "distribution",
+    "ammo": 100,
+    "entries": [
+      { "collection": [ { "item": "mil_armor", "prob": 100 }, { "item": "mil_helm", "prob": 100 } ], "prob": 3 },
+      { "collection": [ { "item": "hmil_armor", "prob": 100 }, { "item": "hmil_helm", "prob": 100 } ], "prob": 2 },
+      { "item": "c_power_armor_surv", "prob": 20, "charges": 2000 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BANDIT_LEADER_cutting",
+    "subtype": "distribution",
+    "ammo": 100,
+    "entries": [ { "item": "flesh_blade", "prob": 1 }, { "item": "greatsword_makeshift", "prob": 9 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BANDIT_LEADER_rifle",
+    "subtype": "distribution",
+    "ammo": 100,
+    "entries": [
+      { "item": "flesh_lmg", "prob": 1 },
+      { "item": "surv_lmg_308", "prob": 2 },
+      { "item": "surv_lmg_762R", "prob": 10 },
+      { "item": "surv_lmg_3006", "prob": 10 },
+      { "item": "surv_full_50", "prob": 3 },
+      { "item": "krx_laser_lmg", "prob": 4 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_BANDIT_LEADER_launcher",
+    "subtype": "distribution",
+    "ammo": 100,
+    "entries": [ { "item": "mk_ionic_cannon_plut", "prob": 5 } ]
   }
 ]
