@@ -246,7 +246,7 @@
     "type": "BIONIC_ITEM",
     "name": { "str": "Biopattern Distortion CBM" },
     "looks_like": "bio_face_mask",
-    "description": "A network of implant that can disguise subtle cues that give away a person's presence to wildlife.  While it doesn't seem effective against the undead, it's enough to fool most wildlife when activated, letting the user approach them without detection.",
+    "description": "A network of implants that can disguise subtle cues that give away a person's presence to wildlife.  While it doesn't seem effective against the undead, it's enough to fool most wildlife when activated, letting the user approach them without detection.",
     "price": "8500 USD",
     "weight": "500 g",
     "difficulty": 7
