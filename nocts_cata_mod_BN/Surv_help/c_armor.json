@@ -1132,7 +1132,7 @@
     "revert_to": "c_power_armor_surv_superalloy",
     "revert_msg": "Your makeshift superalloy hydraulic armor sputters and dies!",
     "use_action": [
-      { "type": "transform", "target": "c_power_armor_surv", "msg": "You shut the makeshift superalloy hydraulic armor off." },
+      { "type": "transform", "target": "c_power_armor_surv_superalloy", "msg": "You shut the makeshift superalloy hydraulic armor off." },
       {
         "type": "passivenoise",
         "noise": 100,
