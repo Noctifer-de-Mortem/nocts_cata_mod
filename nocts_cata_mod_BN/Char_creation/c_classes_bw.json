@@ -695,7 +695,7 @@
     "type": "profession",
     "id": "sf_blade",
     "name": "Slave Fighter (Blade)",
-    "description": "You were kidnapped for some sort of underground bloodsport, augmented with a blade and enhancements to your speed and reaction time.  Forced through rudimentary training as a novelty fighter, you were expected to be able to be down opponents with ease.",
+    "description": "You were kidnapped for some sort of underground bloodsport, augmented with a blade and enhancements to your speed and reaction time.  Forced through rudimentary training as a novelty fighter, you were expected to be able to down opponents with ease.",
     "points": 6,
     "CBMs": [
       "bio_sword",
@@ -897,7 +897,7 @@
     "id": "prof_feral_bio_infantry",
     "copy-from": "prof_feral_unemployed",
     "name": "Feral Super Soldier",
-    "description": "You were one of many augmented soldiers to be deployed into a battle field to ensure victory, as part of the of the Super Soldier project.  Now there's nothing left but more targets to be put down.",
+    "description": "You were one of many augmented soldiers to be deployed into a battle field to ensure victory, as part of the Super Soldier project.  Now there's nothing left but more targets to be put down.",
     "points": 16,
     "CBMs": [
       "bio_adrenaline",
@@ -963,7 +963,7 @@
     "id": "prof_feral_sf_blade",
     "copy-from": "prof_feral_unemployed",
     "name": "Feral Slave Fighter",
-    "description": "You were augmented and used as part of an underground blood sport.  You survived, a lot of fresh meat didn't.  Your handlers didn't either, and now you've free once more, free and a lot hungrier than before you were kidnapped.",
+    "description": "You were augmented and used as part of an underground blood sport.  You survived, a lot of fresh meat didn't.  Your handlers didn't either, and now you're free once more, free and a lot hungrier than before you were kidnapped.",
     "//": "One higher point cost since starts off geared up and mutated like a Red Team gladiator.",
     "points": 7,
     "CBMs": [
