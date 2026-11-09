@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cata++\n"
-"POT-Creation-Date: 2026-11-02 02:13+0300\n"
+"POT-Creation-Date: 2026-11-09 09:14+0300\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -460,14 +460,14 @@ msgid ""
 "find something better."
 msgstr ""
 
-#: ./legacy.json ./Surv_help/c_books.json
+#: ./legacy.json
 msgid "Rebuilding Civilization: Swimming"
 msgid_plural "Rebuilding Civilization: Swimming"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str_sp': 'Rebuilding Civilization: Swimming'}
-#: ./legacy.json ./Surv_help/c_books.json
+#: ./legacy.json
 msgid ""
 "The swimming volume of the Rebuilding Civilization encyclopedia.  This book "
 "contains everything from recreational swimming to crossing rivers in fine "
@@ -808,7 +808,7 @@ msgstr ""
 msgid ""
 "The unofficial expansion mod for Cataclysm: Bright Nights.\n"
 "\n"
-"The gigantic jabberwock of a mod that adds a lot of content to the game: new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore on the works.\n"
+"The gigantic jabberwock of a mod that adds a lot of content to the game: new items, buildings, scenarios, monsters, etc. It also reworks and adds alternatives to many things from recipes to scenarios. It also adds a pseudo-story and lore in the works.\n"
 "\n"
 "The Bio-Weapon, Super Soldier, Commandeers, Slave Fighters and the Old World Prepper NPC factions join the world.\n"
 "\n"
@@ -1126,7 +1126,7 @@ msgid ""
 "You were kidnapped for some sort of underground bloodsport, augmented with a"
 " blade and enhancements to your speed and reaction time.  Forced through "
 "rudimentary training as a novelty fighter, you were expected to be able to "
-"be down opponents with ease."
+"down opponents with ease."
 msgstr ""
 
 #. ~ Profession (female Slave Fighter (Blade)) description
@@ -1136,7 +1136,7 @@ msgid ""
 "You were kidnapped for some sort of underground bloodsport, augmented with a"
 " blade and enhancements to your speed and reaction time.  Forced through "
 "rudimentary training as a novelty fighter, you were expected to be able to "
-"be down opponents with ease."
+"down opponents with ease."
 msgstr ""
 
 #: ./Char_creation/c_classes_bw.json
@@ -1274,8 +1274,8 @@ msgstr ""
 msgctxt "prof_desc_male"
 msgid ""
 "You were one of many augmented soldiers to be deployed into a battle field "
-"to ensure victory, as part of the of the Super Soldier project.  Now there's"
-" nothing left but more targets to be put down."
+"to ensure victory, as part of the Super Soldier project.  Now there's "
+"nothing left but more targets to be put down."
 msgstr ""
 
 #. ~ Profession (female Feral Super Soldier) description
@@ -1283,8 +1283,8 @@ msgstr ""
 msgctxt "prof_desc_female"
 msgid ""
 "You were one of many augmented soldiers to be deployed into a battle field "
-"to ensure victory, as part of the of the Super Soldier project.  Now there's"
-" nothing left but more targets to be put down."
+"to ensure victory, as part of the Super Soldier project.  Now there's "
+"nothing left but more targets to be put down."
 msgstr ""
 
 #: ./Char_creation/c_classes_bw.json
@@ -1303,7 +1303,7 @@ msgctxt "prof_desc_male"
 msgid ""
 "You were augmented and used as part of an underground blood sport.  You "
 "survived, a lot of fresh meat didn't.  Your handlers didn't either, and now "
-"you've free once more, free and a lot hungrier than before you were "
+"you're free once more, free and a lot hungrier than before you were "
 "kidnapped."
 msgstr ""
 
@@ -1313,7 +1313,7 @@ msgctxt "prof_desc_female"
 msgid ""
 "You were augmented and used as part of an underground blood sport.  You "
 "survived, a lot of fresh meat didn't.  Your handlers didn't either, and now "
-"you've free once more, free and a lot hungrier than before you were "
+"you're free once more, free and a lot hungrier than before you were "
 "kidnapped."
 msgstr ""
 
@@ -1619,7 +1619,7 @@ msgstr ""
 #: ./Char_creation/c_scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
-"You were part of a an advanced infantry unit, deployed to one of several "
+"You were part of an advanced infantry unit, deployed to one of several "
 "'priority sites' as part of a last-ditch effort to get the situation under "
 "control.  Delays, casualties and having to fight your way through the chaos "
 "led to you being the only one left by the time you reached the objective, "
@@ -1630,7 +1630,7 @@ msgstr ""
 #: ./Char_creation/c_scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
-"You were part of a an advanced infantry unit, deployed to one of several "
+"You were part of an advanced infantry unit, deployed to one of several "
 "'priority sites' as part of a last-ditch effort to get the situation under "
 "control.  Delays, casualties and having to fight your way through the chaos "
 "led to you being the only one left by the time you reached the objective, "
@@ -2197,7 +2197,7 @@ msgstr ""
 msgid ""
 "This is a DNA marker identifying you as part of the Super Soldier Project.  "
 "It was used to give you clearances to biometric scanners and special weapons"
-" but now a days it seems useless."
+" but nowadays it seems useless."
 msgstr ""
 
 #: ./Mutations/c_bio_mutation.json
@@ -2365,7 +2365,7 @@ msgid ""
 "Your durability and resilience are overall far beyond normal humans, and "
 "your form is larger than a normal human.  You gain a flat +50 to all hit "
 "points, +15% carry weight, plus your maximum stamina and stamina "
-"regeneration is 30% higher than normal."
+"regeneration are 30% higher than normal."
 msgstr ""
 
 #: ./Mutations/c_bio_mutation.json
@@ -2376,7 +2376,7 @@ msgstr ""
 #: ./Mutations/c_bio_mutation.json
 msgid ""
 "Your body is much less resilient overall. Your maximum HP is 50% lower than "
-"normal, and you suffer increased phyiscal damage."
+"normal, and you suffer increased physical damage."
 msgstr ""
 
 #: ./Mutations/c_bio_mutation.json ./Surv_help/c_martialarts.json
@@ -2401,7 +2401,7 @@ msgstr ""
 msgid ""
 "You start with the Bionic Combatives style.  A modern combat style for the "
 "post-modern human.  Nicknamed \"Biojutsu\", Bionic Combatives combines "
-"integrated weaponry, armor and augments into an consolidated fighting "
+"integrated weaponry, armor and augments into a consolidated fighting "
 "discipline."
 msgstr ""
 
@@ -2514,9 +2514,9 @@ msgstr ""
 #: ./Mutations/c_bio_mutation_super_soldier.json
 msgid ""
 "Targeted mutagenic treatment has improved your muscular development.  Your "
-"maximum stamina, stamina regeneration, and maximum weight carried is 25% "
+"maximum stamina, stamina regeneration, and maximum weight carried are 25% "
 "greater, and you heal slightly faster.  In exchange, your metabolism and "
-"thirst is slightly increased, and your body runs a bit warm."
+"thirst are slightly increased, and your body runs a bit warm."
 msgstr ""
 
 #: ./Mutations/c_bio_mutation_super_soldier.json
@@ -2527,8 +2527,8 @@ msgstr ""
 #: ./Mutations/c_bio_mutation_super_soldier.json
 msgid ""
 "Targeted mutagenic treatment has improved your muscular development.  Your "
-"maximum stamina, stamina regeneration, and maximum weight carried is 50% "
-"greater, and you heal faster.  In exchange, your metabolism and thirst is "
+"maximum stamina, stamina regeneration, and maximum weight carried are 50% "
+"greater, and you heal faster.  In exchange, your metabolism and thirst are "
 "increased, and your body runs slightly hotter."
 msgstr ""
 
@@ -2540,9 +2540,9 @@ msgstr ""
 #: ./Mutations/c_bio_mutation_super_soldier.json
 msgid ""
 "Targeted mutagenic treatment has improved your muscular development.  Your "
-"maximum stamina, stamina regeneration, and maximum weight carried is "
+"maximum stamina, stamina regeneration, and maximum weight carried are "
 "doubled, and you heal much faster.  In exchange, your metabolism and thirst "
-"is further increased, and your body runs hotter."
+"are further increased, and your body runs hotter."
 msgstr ""
 
 #: ./Mutations/c_bio_mutation_super_soldier.json
@@ -5095,7 +5095,7 @@ msgstr[1] ""
 #. ~ Description for {'str': 'RFID access badge'}
 #: ./Surv_help/c_armor.json
 msgid ""
-"A round silver medallion with a RFID chip embedded in the front.  The "
+"A round silver medallion with an RFID chip embedded in the front.  The "
 "markings seem to identify the wearer as a part of the Bio-Weapon project."
 msgstr ""
 
@@ -5122,7 +5122,7 @@ msgid ""
 "An experimental cloak with a destructive interference system that will "
 "create pitch-black darkness around you when powered and worn.  Creatures "
 "that can see in the dark will still spot you, but it will fool most things."
-"  A network of miniature alphavolatics make it self-charging but only able "
+"  A network of miniature alphavoltaics make it self-charging but only able "
 "to sustain short bursts of use.  Activate to turn it on."
 msgstr ""
 
@@ -5145,7 +5145,7 @@ msgid ""
 "An experimental cloak with a destructive interference system, creating "
 "pitch-black darkness around you.  Creatures that can see in the dark will "
 "still spot you, but it will fool most things.  A network of miniature "
-"alphavolatics make it self-charging but only able to sustain short bursts of"
+"alphavoltaics make it self-charging but only able to sustain short bursts of"
 " use.  It's currently on, activate to turn it back off."
 msgstr ""
 
@@ -5496,7 +5496,7 @@ msgid ""
 "A second skin of alien sinew and steel support, covered in armor plates made"
 " of resin.  Salvaged using pre-cataclysm research into other living "
 "weaponry, it's been practically mutilated to fit a human (or mutant) wearer."
-"  Currently active, it enhances strength and dexterity, make your attacks "
+"  Currently active, it enhances strength and dexterity, makes your attacks "
 "faster, protects the wearer from toxic gas, serves as a rebreather, enhances"
 " stamina and carry capacity, and provides some protection from outside "
 "temperature.  Recharges in sunlight, being active also gradually fatigues "
@@ -5598,27 +5598,10 @@ msgid_plural "makeshift hydraulic armors"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action fireweapon_off.success_message for {'str': 'makeshift
-#. hydraulic armor'}.
+#. ~ Use action transform.msg for {'str': 'makeshift hydraulic armor'}.
 #: ./Surv_help/c_armor.json
 msgid ""
 "Your makeshift hydraulic armor roars to life, servos kicking into gear!"
-msgstr ""
-
-#. ~ Use action fireweapon_off.lacks_fuel_message for {'str': 'makeshift
-#. hydraulic armor'}.
-#. ~ Use action fireweapon_off.lacks_fuel_message for {'str': 'makeshift
-#. superalloy hydraulic armor'}.
-#: ./Surv_help/c_armor.json
-msgid "You work your armor's starter, but nothing happens."
-msgstr ""
-
-#. ~ Use action fireweapon_off.failure_message for {'str': 'makeshift
-#. hydraulic armor'}.
-#. ~ Use action fireweapon_off.failure_message for {'str': 'makeshift
-#. superalloy hydraulic armor'}.
-#: ./Surv_help/c_armor.json
-msgid "Your armor sputters but fails to start up."
 msgstr ""
 
 #. ~ Description for {'str': 'makeshift hydraulic armor'}
@@ -5632,45 +5615,21 @@ msgid ""
 "motors make things warm and make stealth harder."
 msgstr ""
 
+#. ~ TOOL_ARMOR 'c_power_armor_surv_on': revert_msg
+#: ./Surv_help/c_armor.json
+msgid "Your makeshift hydraulic armor sputters and dies!"
+msgstr ""
+
 #: ./Surv_help/c_armor.json
 msgid "makeshift hydraulic armor (on)"
 msgid_plural "makeshift hydraulic armors (on)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action fireweapon_on.noise_message for {'str': 'makeshift hydraulic
-#. armor (on)', 'str_pl': 'makeshift hydraulic armors (on)'}.
-#. ~ Use action fireweapon_on.noise_message for {'str': 'makeshift superalloy
-#. hydraulic armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors
-#. (on)'}.
-#: ./Surv_help/c_armor.json
-msgid "Your armor whirs with activity."
-msgstr ""
-
-#. ~ Use action fireweapon_on.voluntary_extinguish_message for {'str':
-#. 'makeshift hydraulic armor (on)', 'str_pl': 'makeshift hydraulic armors
-#. (on)'}.
-#. ~ Use action fireweapon_on.voluntary_extinguish_message for {'str':
-#. 'makeshift superalloy hydraulic armor (on)', 'str_pl': 'makeshift
-#. superalloy hydraulic armors (on)'}.
+#. ~ Use action transform.msg for {'str': 'makeshift hydraulic armor (on)',
+#. 'str_pl': 'makeshift hydraulic armors (on)'}.
 #: ./Surv_help/c_armor.json
 msgid "You shut the makeshift hydraulic armor off."
-msgstr ""
-
-#. ~ Use action fireweapon_on.charges_extinguish_message for {'str':
-#. 'makeshift hydraulic armor (on)', 'str_pl': 'makeshift hydraulic armors
-#. (on)'}.
-#: ./Surv_help/c_armor.json
-msgid "Your makeshift hydraulic armor sputters and dies!"
-msgstr ""
-
-#. ~ Use action fireweapon_on.water_extinguish_message for {'str': 'makeshift
-#. hydraulic armor (on)', 'str_pl': 'makeshift hydraulic armors (on)'}.
-#. ~ Use action fireweapon_on.water_extinguish_message for {'str': 'makeshift
-#. superalloy hydraulic armor (on)', 'str_pl': 'makeshift superalloy hydraulic
-#. armors (on)'}.
-#: ./Surv_help/c_armor.json
-msgid "Your armor's engine floods and cuts out!"
 msgstr ""
 
 #. ~ Description for {'str': 'makeshift hydraulic armor (on)', 'str_pl':
@@ -5691,8 +5650,8 @@ msgid_plural "makeshift superalloy hydraulic armors"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action fireweapon_off.success_message for {'str': 'makeshift
-#. superalloy hydraulic armor'}.
+#. ~ Use action transform.msg for {'str': 'makeshift superalloy hydraulic
+#. armor'}.
 #: ./Surv_help/c_armor.json
 msgid ""
 "Your makeshift superalloy hydraulic armor roars to life, servos kicking into"
@@ -5710,17 +5669,21 @@ msgid ""
 "motors make things warm and make stealth harder."
 msgstr ""
 
+#. ~ TOOL_ARMOR 'c_power_armor_surv_superalloy_on': revert_msg
+#: ./Surv_help/c_armor.json
+msgid "Your makeshift superalloy hydraulic armor sputters and dies!"
+msgstr ""
+
 #: ./Surv_help/c_armor.json
 msgid "makeshift superalloy hydraulic armor (on)"
 msgid_plural "makeshift superalloy hydraulic armors (on)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Use action fireweapon_on.charges_extinguish_message for {'str':
-#. 'makeshift superalloy hydraulic armor (on)', 'str_pl': 'makeshift
-#. superalloy hydraulic armors (on)'}.
+#. ~ Use action transform.msg for {'str': 'makeshift superalloy hydraulic
+#. armor (on)', 'str_pl': 'makeshift superalloy hydraulic armors (on)'}.
 #: ./Surv_help/c_armor.json
-msgid "Your makeshift superalloy hydraulic armor sputters and dies!"
+msgid "You shut the makeshift superalloy hydraulic armor off."
 msgstr ""
 
 #. ~ Description for {'str': 'makeshift superalloy hydraulic armor (on)',
@@ -5991,10 +5954,10 @@ msgstr[1] ""
 #. ~ Description for {'str': 'Biopattern Distortion CBM'}
 #: ./Surv_help/c_bionics.json
 msgid ""
-"A network of implant that can disguise subtle cues that give away a person's"
-" presence to wildlife.  While it doesn't seem effective against the undead, "
-"it's enough to fool most wildlife when activated, letting the user approach "
-"them without detection."
+"A network of implants that can disguise subtle cues that give away a "
+"person's presence to wildlife.  While it doesn't seem effective against the "
+"undead, it's enough to fool most wildlife when activated, letting the user "
+"approach them without detection."
 msgstr ""
 
 #: ./Surv_help/c_bionics.json
@@ -6057,6 +6020,24 @@ msgid ""
 "book on the subject would be a more efficient way to learn but if the books "
 "you have are missing specific information then this is a good substitute "
 "until you find something better."
+msgstr ""
+
+#: ./Surv_help/c_books.json
+msgid "Rebuilding Civilization: Athletics"
+msgid_plural "Rebuilding Civilization: Athletics"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'Rebuilding Civilization: Athletics'}
+#: ./Surv_help/c_books.json
+msgid ""
+"The athletics volume of the Rebuilding Civilization encyclopedia.  This book"
+" contains everything from recreational swimming to endurance running in fine"
+" detail.  This book is so technical, longwinded and dry that even bookworms "
+"and fast readers would find it hard to read.  Literally any other book on "
+"the subject would be a more efficient way to learn but if the books you have"
+" are missing specific information then this is a good substitute until you "
+"find something better."
 msgstr ""
 
 #: ./Surv_help/c_books.json
@@ -6135,7 +6116,7 @@ msgstr[1] ""
 #. ~ Description for {'str_sp': 'nano-mutagenic serum'}
 #: ./Surv_help/c_comestibles.json
 msgid ""
-"A experimental, super-concentrated cocktail of mutagen and nanomachines.  "
+"An experimental, super-concentrated cocktail of mutagen and nanomachines.  "
 "Vanishingly rare and potentially quite potent in effect.  You need a syringe"
 " to inject it… if you really want to?"
 msgstr ""
@@ -6976,8 +6957,8 @@ msgstr[1] ""
 msgid ""
 "This is a heavy duty LED solar flashlight with straps for wearing.  Using "
 "this flashlight will turn it on and provide light, assuming it is charged.  "
-"The battery is soldiered in place, and will require sunlight or a recharging"
-" station to recharge."
+"The battery is soldered in place, and will require sunlight or a recharging "
+"station to recharge."
 msgstr ""
 
 #: ./Surv_help/c_tools.json
@@ -7460,8 +7441,8 @@ msgstr[1] ""
 #. ~ Description for {'str': "Survivor's Cookbook"}
 #: ./Surv_help/c_tools.json
 msgid ""
-"A notebook filed with ideas for lots of makeshift gadgets and gizmos.  Once "
-"the ideas of mad-man with too much free time, now invaluable knowledge."
+"A notebook filled with ideas for lots of makeshift gadgets and gizmos.  Once"
+" the ideas of a mad-man with too much free time, now invaluable knowledge."
 msgstr ""
 
 #: ./Surv_help/c_tools.json
@@ -7674,9 +7655,9 @@ msgstr[1] ""
 #: ./Surv_help/c_tools.json
 msgid ""
 "A box containing many tools and a few electronic components.  It has the "
-"Omnitech logo and the name of device.  On the back there is a description "
-"saying you could use this to convert a battery powered Omnitech weapon to "
-"use UPS power, if you have the manual for it."
+"Omnitech logo and the name of the device.  On the back there is a "
+"description saying you could use this to convert a battery powered Omnitech "
+"weapon to use UPS power, if you have the manual for it."
 msgstr ""
 
 #: ./Surv_help/c_tools.json
@@ -7866,9 +7847,9 @@ msgid ""
 "A strange device made of alien flesh blended with technology.  Three thin "
 "spines of synthetic ivory surround some sort of nozzle, its contents "
 "steadily regenerating.  It can be activated to produce shards of resin, for "
-"whatever use you may have for such a thing.  Activate it will set it to "
+"whatever use you may have for such a thing.  Activating it will set it to "
 "apply resin more slowly, letting it be used for repairing salvaged mi-go "
-"biotechnlogy."
+"biotechnology."
 msgstr ""
 
 #: ./Surv_help/c_tools.json
@@ -7890,7 +7871,7 @@ msgid ""
 "A strange device made of alien flesh blended with technology.  Three thin "
 "spines of synthetic ivory surround some sort of nozzle, its contents "
 "steadily regenerating.  It's currently set to apply resin more slowly, "
-"letting it be used for repairing salvaged mi-go biotechnlogy.  Activate it "
+"letting it be used for repairing salvaged mi-go biotechnology.  Activate it "
 "to switch back to its normal mode, for creating larger shards of resin for "
 "other purposes."
 msgstr ""
@@ -9445,7 +9426,7 @@ msgid ""
 "A beast of a (mostly) homemade anti-materiel rifle built from a full auto "
 "receiver.  While still lower quality than most pre-cataclysm rifles, it's "
 "superior to many other homemade weapons.  Takes the .50 BMG cartridge via "
-"its custom-made magazine, or can accept lower-capacity Barret magazines."
+"its custom-made magazine, or can accept lower-capacity Barrett magazines."
 msgstr ""
 
 #. ~ Use action transform.menu_text for {'str': "survivor's fighting bow"}.
@@ -9770,7 +9751,7 @@ msgstr[1] ""
 
 #: ./Weapons/c_ranged.json
 msgid ""
-"A makeshift flamethrower, charged from a integral fuel tank using a hand-"
+"A makeshift flamethrower, charged from an integral fuel tank using a hand-"
 "cranked pump.  While homemade, it is higher-quality than most makeshift "
 "weapons, and can run on just about any fuel of suitable viscosity.  It uses "
 "considerably less fuel per gout of flame, at the expense of power and range."
@@ -9801,7 +9782,7 @@ msgstr[1] ""
 #: ./Weapons/c_ranged.json
 msgid ""
 "A mi-go weapon that projects pieces of hardened alien resin at high "
-"velocities, its exotic controls stripped down it fit human anatomy.  The "
+"velocities, its exotic controls stripped down to fit human anatomy.  The "
 "product of pre-cataclysm biotechnology applied to solve an outside-context "
 "problem.  Although it relies on special ammunition, it is relatively easy to"
 " mold resin or metal into compatible projectiles, and it packs a decent "
